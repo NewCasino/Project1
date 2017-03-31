@@ -1,0 +1,1 @@
+CutyCapt.exe --min-width=1024 --delay=500 --javascript=off --auto-load-images=on --plugins=off --java=off --url=http://localhost.betexpress.com:2012/Deposit/Receipt/Ukash/SNOW8QTFJR8E5TNWE-68706E128BED?_sid=3d19d5ff-b776-4f08-bb3a-b05068ddfb45 --out=G:\cms2012\ThirdParty\1.png

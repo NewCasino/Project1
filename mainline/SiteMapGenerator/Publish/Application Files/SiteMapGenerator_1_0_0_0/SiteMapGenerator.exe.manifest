@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SiteMapGenerator.exe" version="1.0.0.0" publicKeyToken="64ea35557ff611e8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SiteMapGenerator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SiteMapGenerator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SiteMapGenerator.exe" size="16384">
+      <assemblyIdentity name="SiteMapGenerator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KpNIr8eWtVaDxik75D5uA7yyO+mI2i/EgwHN3bv4Fms=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SiteMapGenerator.exe.config" size="386">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z2FFNZn6lYZalMRCdoSMrOUOy64IXk1ZD7NN8ULeKH4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN-F884LU9T6T3\Administrator" issuerKeyHash="87d883551792594d9fbeca75446c232b3f8e816c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4BG0MRNHobce5QK5YUWKFas/w2oZlg3doxuyK8QFYZw=</DigestValue></Reference></SignedInfo><SignatureValue>pq46lZFOa8wHhZZLdbSSTL0TcWi5I6ZsdykBNklQIXy1X9cKAS/9KZzMoLCsNBH5b5gLfCqwo99YB9/dyU8nzEOVA7D5bD5qjdQ3vxbYetjiMqQuZ06diyQJENUfmD3+2c/f2uzYiljXBngPintdr8IU/246pJ+ZHLqnkG1qQro=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rdMsvt6XyT6qh/Mi5/Az+0S+TAn0JneqUpc8xmutyJLlcjoz/DMUD86axbKlYYFijPhKSrXWDCm1ppWv/B1I9vh0s5E2EAc8v7mTTdcHIlduUxy7A+JK7t5tVePNxTV0iyayzyBCYGhl4z0lgw+GWaR55xhN/vouwDkd7qteis8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9c6105c42bb21ba3dd0d96196ac33fab158a4561b902e51eb7a1471331b411e0" Description="" Url=""><as:assemblyIdentity name="SiteMapGenerator.exe" version="1.0.0.0" publicKeyToken="64ea35557ff611e8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-F884LU9T6T3\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZSPWjwHtBQ8hLguDIlzCHSMyBbVuCOqvmSzJcKHtHd8=</DigestValue></Reference></SignedInfo><SignatureValue>IoxsIC7U7/jwLNVP/cxh3n8bdSb2aR59YcMAW8+PMWR578KowKV6fCTaTw6uB68DIJPFJgISUlh8sKTG8i5cS8o+iC3X6kfxbxssMjxKZCiEJBbgQcft1mTYtRikmAqmHK3FnlqCU2yoBOOTzu7JkAy9/GzFw28Gmm2nsSSxT/o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rdMsvt6XyT6qh/Mi5/Az+0S+TAn0JneqUpc8xmutyJLlcjoz/DMUD86axbKlYYFijPhKSrXWDCm1ppWv/B1I9vh0s5E2EAc8v7mTTdcHIlduUxy7A+JK7t5tVePNxTV0iyayzyBCYGhl4z0lgw+GWaR55xhN/vouwDkd7qteis8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQQy/rET1TjJ5JRofeqPII7zANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoAVwBJAE4ALQBGADgAOAA0AEwAVQA5AFQANgBUADMAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE1MDUxODA3MzIyOVoXDTE2MDUxNzEzMzIyOVowRTFDMEEGA1UEAx46AFcASQBOAC0ARgA4ADgANABMAFUAOQBUADYAVAAzAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArdMsvt6XyT6qh/Mi5/Az+0S+TAn0JneqUpc8xmutyJLlcjoz/DMUD86axbKlYYFijPhKSrXWDCm1ppWv/B1I9vh0s5E2EAc8v7mTTdcHIlduUxy7A+JK7t5tVePNxTV0iyayzyBCYGhl4z0lgw+GWaR55xhN/vouwDkd7qteis8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCK7hwZ+Z9dvXujY/qK36MK9kryDfaMvQHULSzRov7On3hhihClP2dyHYLV3UPav/FosRfnmD8Hg6KZW8tqsRtyNxZjuYDumEcuWlEBIe7JiB4KTnLPWJNTm5TfdGlyX6s+JRkP9ELvuhgr6GUln81avVyZuN+tNSmmyAHD1ulbdA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

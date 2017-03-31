@@ -1,0 +1,8 @@
+D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Debug\SiteMapGenerator.exe.config
+D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Debug\SiteMapGenerator.exe
+D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Debug\SiteMapGenerator.pdb
+D:\Projects\SiteMapGenerator\SiteMapGenerator\obj\Debug\SiteMapGenerator.exe
+D:\Projects\SiteMapGenerator\SiteMapGenerator\obj\Debug\SiteMapGenerator.pdb
+D:\Projects\SiteMapGenerator\SiteMapGenerator\obj\Debug\SiteMapGenerator.ProjectInstaller.resources
+D:\Projects\SiteMapGenerator\SiteMapGenerator\obj\Debug\SiteMapGenerator.csproj.GenerateResource.Cache
+D:\Projects\SiteMapGenerator\SiteMapGenerator\obj\Debug\SiteMapGenerator.csprojResolveAssemblyReference.cache

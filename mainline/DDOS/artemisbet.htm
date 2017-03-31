@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Maintenance</title>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js" ></script>
+<style type="text/css">
+@font-face {
+    font-family: "MyriadPro";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./font/MyriadPro-Regular.otf");
+}
+* {
+    color: #fff;
+    font-family: 'MyriadPro';
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+	text-shadow: 1px 1px 2px #000;
+}
+body {
+    background: none repeat scroll 0 0 #413f3f;
+}
+.content {
+    margin: 80px auto 0;
+    position: relative;
+    text-align: center;
+    width: 700px;
+}
+h1 {
+    font-size: 60px;
+    line-height: 80px;
+    text-shadow: 1px 3px 5px #000;
+}
+.description {
+    display: block;
+    line-height: 30px;
+    margin: 10px 0;
+    text-indent: 20px;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+	text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+<div class="content">
+<img src="./img/maintenance.png" />
+<h2 style="padding:30px 0px 20px">ARTEMISBET GÜNCELLENİYOR</h2>
+<p class="description">
+Son dönemde yaşadığımız olağanüstü teknik sorunları tamamen giderebilmek ve sizlere uzun vadede çok daha iyi hizmet verebilmek için bakım çalışması yapıyoruz. 
+ <br />
+Verdiğimiz rahatsızlıktan dolayı özür diler, öğleden sonra tekrar yayında olacağımızı belirtmek isteriz.
+<br/><br/>
+Artemisbet Ekibi.
+</div>
+</body>
+<script type="text/javascript">
+$( function(){
+	function getQueryString(name) {
+		name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+		var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+			results = regex.exec(top.location.search);
+		return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+	var email = getQueryString('supportemail');
+	$('#supportemail').text(email).attr('href', 'mailto:' + email);
+});
+</script>
+</html>

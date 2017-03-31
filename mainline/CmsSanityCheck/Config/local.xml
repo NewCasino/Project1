@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <services>
+        <service>
+            <name>CMS local</name>
+            <connectionString>Data Source=109.205.92.37,14331;Initial Catalog=cm;User ID=cmsapp;Password=abc123;Min Pool Size=1;Max Pool Size=500;</connectionString>
+            <ipAddresses>
+                <ipAddress>127.0.0.1</ipAddress>
+                <ipAddress>109.205.93.50</ipAddress>
+            </ipAddresses>
+            <testUrls>
+                <testUrl>http://{0}</testUrl>
+            </testUrls>
+        </service>
+    </services>
+</configuration>

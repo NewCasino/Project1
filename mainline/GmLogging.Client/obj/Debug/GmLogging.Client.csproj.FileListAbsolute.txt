@@ -1,0 +1,17 @@
+D:\cms2012\mainline\GmLogging.Client\bin\Debug\GmLogging.Client.dll
+D:\cms2012\mainline\GmLogging.Client\bin\Debug\GmLogging.Client.pdb
+D:\cms2012\mainline\GmLogging.Client\bin\Debug\Newtonsoft.Json.dll
+D:\cms2012\mainline\GmLogging.Client\obj\Debug\GmLogging.Client.dll
+D:\cms2012\mainline\GmLogging.Client\obj\Debug\GmLogging.Client.pdb
+C:\Cms2012\mainline\GmLogging.Client\bin\Debug\GmLogging.Client.dll
+C:\Cms2012\mainline\GmLogging.Client\bin\Debug\GmLogging.Client.pdb
+C:\Cms2012\mainline\GmLogging.Client\bin\Debug\Newtonsoft.Json.dll
+C:\Cms2012\mainline\GmLogging.Client\obj\Debug\GmLogging.Client.dll
+C:\Cms2012\mainline\GmLogging.Client\obj\Debug\GmLogging.Client.pdb
+C:\Cms2012\mainline\GmLogging.Client\obj\Debug\GmLogging.Client.csprojResolveAssemblyReference.cache
+C:\Project2\mainline\GmLogging.Client\bin\Debug\GmLogging.Client.dll
+C:\Project2\mainline\GmLogging.Client\bin\Debug\GmLogging.Client.pdb
+C:\Project2\mainline\GmLogging.Client\bin\Debug\Newtonsoft.Json.dll
+C:\Project2\mainline\GmLogging.Client\obj\Debug\GmLogging.Client.csprojResolveAssemblyReference.cache
+C:\Project2\mainline\GmLogging.Client\obj\Debug\GmLogging.Client.dll
+C:\Project2\mainline\GmLogging.Client\obj\Debug\GmLogging.Client.pdb

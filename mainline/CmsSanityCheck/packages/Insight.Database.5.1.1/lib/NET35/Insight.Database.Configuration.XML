@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Insight.Database.Configuration</name>
+    </assembly>
+    <members>
+        <member name="T:Insight.Database.ConnectionStringSettingsExtensions">
+            <summary>
+            Extension methods for ConnectionStringSettings.
+            </summary>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.Connection(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            Creates and returns a new DbConnection for the connection string.
+            </summary>
+            <param name="settings">The ConnectionStringSettings containing the connection string.</param>
+            <returns>A closed DbConnection.</returns>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.As``1(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            Creates and returns a new DbConnection for the connection string and implments the given interface.
+            </summary>
+            <typeparam name="T">The interface to implement on the connection.</typeparam>
+            <param name="settings">The ConnectionStringSettings containing the connection string.</param>
+            <returns>A closed connection.</returns>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.AsParallel``1(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            Creates and returns a new multi-threaded connection implementing the given interface.
+            The object can support making multiple calls at the same time.
+            </summary>
+            <typeparam name="T">The interface to implement on the connection.</typeparam>
+            <param name="settings">The ConnectionStringSettings containing the connection string.</param>
+            <returns>A closed connection that implements the given interface.</returns>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.Open(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            Opens and returns a database connection.
+            </summary>
+            <param name="settings">The connection string to open and return.</param>
+            <returns>The opened connection.</returns>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.OpenAsync(System.Configuration.ConnectionStringSettings,System.Nullable{Insight.Database.CancellationToken})">
+            <summary>
+            Opens and returns a database connection.
+            </summary>
+            <param name="settings">The connection string to open and return.</param>
+            <param name="cancellationToken">The cancellation token to use for the operation.</param>
+            <returns>The opened connection.</returns>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.OpenAs``1(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            Opens and returns a database connection implementing a given interface.
+            </summary>
+            <typeparam name="T">The interface to implmement.</typeparam>
+            <param name="settings">The connection string to open and return.</param>
+            <returns>The opened connection.</returns>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.OpenAsAsync``1(System.Configuration.ConnectionStringSettings,System.Nullable{Insight.Database.CancellationToken})">
+            <summary>
+            Asynchronously opens and returns a database connection implementing a given interface.
+            </summary>
+            <typeparam name="T">The interface to implmement.</typeparam>
+            <param name="settings">The connection string to open and return.</param>
+            <param name="cancellationToken">The cancellation token to use for the operation.</param>
+            <returns>The opened connection.</returns>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.OpenWithTransaction(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            Opens a database connection and begins a new transaction that is disposed when the returned object is disposed.
+            </summary>
+            <param name="settings">The settings for the connection.</param>
+            <returns>A wrapper for the database connection.</returns>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.OpenWithTransactionAsync(System.Configuration.ConnectionStringSettings,System.Nullable{Insight.Database.CancellationToken})">
+            <summary>
+            Asynchronously opens a database connection and begins a new transaction that is disposed when the returned object is disposed.
+            </summary>
+            <param name="settings">The settings for the connection.</param>
+            <param name="cancellationToken">The cancellation token to use for the operation.</param>
+            <returns>A task returning a connection when the connection has been opened.</returns>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.OpenWithTransactionAs``1(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            Opens a database connection implementing a given interface and begins a new transaction that is disposed when the returned object is disposed.
+            </summary>
+            <typeparam name="T">The interface to implement.</typeparam>
+            <param name="settings">The settings for the connection.</param>
+            <returns>A wrapper for the database connection.</returns>
+        </member>
+        <member name="M:Insight.Database.ConnectionStringSettingsExtensions.OpenWithTransactionAsAsync``1(System.Configuration.ConnectionStringSettings,System.Nullable{Insight.Database.CancellationToken})">
+            <summary>
+            Asynchronously opens a database connection implementing a given interface, and begins a new transaction that is disposed when the returned object is disposed.
+            </summary>
+            <typeparam name="T">The interface to implement.</typeparam>
+            <param name="settings">The settings for the connection.</param>
+            <param name="cancellationToken">The cancellation token to use for the operation.</param>
+            <returns>A task returning a connection when the connection has been opened.</returns>
+        </member>
+        <member name="T:Insight.Database.Reliable.ReliableConnectionExtensions">
+            <summary>
+            Extension methods for Reliable Connections.
+            </summary>
+        </member>
+        <member name="M:Insight.Database.Reliable.ReliableConnectionExtensions.ReliableConnection(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            Creates and returns a new SqlConnection.
+            </summary>
+            <param name="settings">The ConnectionStringSettings containing the connection string.</param>
+            <returns>A closed SqlConnection.</returns>
+        </member>
+        <member name="M:Insight.Database.Reliable.ReliableConnectionExtensions.ReliableOpen(System.Configuration.ConnectionStringSettings)">
+            <summary>
+            Opens and returns a database connection.
+            </summary>
+            <param name="settings">The connection string to open and return.</param>
+            <returns>The opened connection.</returns>
+        </member>
+        <member name="T:Insight.Database.SqlConnectionStringBuilderExtensions">
+            <summary>
+            Extension methods for SqlConnectionStringBuilder.
+            </summary>
+        </member>
+        <member name="M:Insight.Database.SqlConnectionStringBuilderExtensions.Connection(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Creates and returns a new SqlConnection.
+            </summary>
+            <param name="builder">The SqlConnectionStringBuilder containing the connection string.</param>
+            <returns>A closed SqlConnection.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlConnectionStringBuilderExtensions.As``1(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Creates and returns a new DbConnection for the connection string and implments the given interface.
+            </summary>
+            <typeparam name="T">The interface to implement on the connection.</typeparam>
+            <param name="builder">The SqlConnectionStringBuilder containing the connection string.</param>
+            <returns>A closed connection.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlConnectionStringBuilderExtensions.Open(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Opens and returns a database connection.
+            </summary>
+            <param name="builder">The connection string to open and return.</param>
+            <returns>The opened connection.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlConnectionStringBuilderExtensions.OpenAsync(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Opens and returns a database connection.
+            </summary>
+            <param name="builder">The connection string to open and return.</param>
+            <returns>The opened connection.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlConnectionStringBuilderExtensions.OpenAs``1(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Opens and returns a database connection implementing a given interface.
+            </summary>
+            <typeparam name="T">The interface to implmement.</typeparam>
+            <param name="builder">The connection string to open and return.</param>
+            <returns>The opened connection.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlConnectionStringBuilderExtensions.OpenAsAsync``1(System.Data.SqlClient.SqlConnectionStringBuilder,System.Nullable{Insight.Database.CancellationToken})">
+            <summary>
+            Asynchronously opens and returns a database connection implementing a given interface.
+            </summary>
+            <typeparam name="T">The interface to implmement.</typeparam>
+            <param name="builder">The connection string to open and return.</param>
+            <param name="cancellationToken">The cancellation token to use for the operation.</param>
+            <returns>The opened connection.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlConnectionStringBuilderExtensions.OpenWithTransaction(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Opens a database connection and begins a new transaction that is disposed when the returned object is disposed.
+            </summary>
+            <param name="builder">The builder for the connection.</param>
+            <returns>A wrapper for the database connection.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlConnectionStringBuilderExtensions.OpenWithTransactionAsync(System.Data.SqlClient.SqlConnectionStringBuilder,System.Nullable{Insight.Database.CancellationToken})">
+            <summary>
+            Asynchronously opens a database connection and begins a new transaction that is disposed when the returned object is disposed.
+            </summary>
+            <param name="builder">The builder for the connection.</param>
+            <param name="cancellationToken">The cancellation token to use for the operation.</param>
+            <returns>A task returning a connection when the connection has been opened.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlConnectionStringBuilderExtensions.OpenWithTransactionAs``1(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Opens a database connection implementing a given interface and begins a new transaction that is disposed when the returned object is disposed.
+            </summary>
+            <typeparam name="T">The interface to implement.</typeparam>
+            <param name="builder">The builder for the connection.</param>
+            <returns>A wrapper for the database connection.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlConnectionStringBuilderExtensions.OpenWithTransactionAsAsync``1(System.Data.SqlClient.SqlConnectionStringBuilder,System.Nullable{Insight.Database.CancellationToken})">
+            <summary>
+            Asynchronously opens a database connection implementing a given interface, and begins a new transaction that is disposed when the returned object is disposed.
+            </summary>
+            <typeparam name="T">The interface to implement.</typeparam>
+            <param name="builder">The builder for the connection.</param>
+            <param name="cancellationToken">The cancellation token to use for the operation.</param>
+            <returns>A task returning a connection when the connection has been opened.</returns>
+        </member>
+    </members>
+</doc>

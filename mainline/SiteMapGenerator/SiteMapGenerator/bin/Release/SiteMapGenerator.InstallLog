@@ -1,0 +1,99 @@
+﻿正在安装程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在安装服务 SiteMapGenerator...
+已成功安装服务 SiteMapGenerator。
+正在日志 Application 中创建 EventLog 源 SiteMapGenerator...
+正在提交程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在卸载程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在移除 EventLog 源 SiteMapGenerator。
+正在从系统中移除服务 SiteMapGenerator...
+已成功地从系统中移除服务 SiteMapGenerator。
+尝试停止服务 SiteMapGenerator。
+正在卸载程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在移除 EventLog 源 SiteMapGenerator。
+警告: 源 SiteMapGenerator 未在本地计算机上注册。
+正在从系统中移除服务 SiteMapGenerator...
+在卸载 System.ServiceProcess.ServiceInstaller 安装程序的过程中发生异常。
+System.ComponentModel.Win32Exception: 指定的服务未安装。
+在卸载的过程中发生异常。将忽略该异常并继续卸载。但是，在卸载完成之后应用程序可能未完全卸载。
+正在安装程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在安装服务 SiteMapGenerator...
+已成功安装服务 SiteMapGenerator。
+正在日志 Application 中创建 EventLog 源 SiteMapGenerator...
+正在提交程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在卸载程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在移除 EventLog 源 SiteMapGenerator。
+正在从系统中移除服务 SiteMapGenerator...
+已成功地从系统中移除服务 SiteMapGenerator。
+尝试停止服务 SiteMapGenerator。
+正在安装程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在安装服务 SiteMapGenerator...
+已成功安装服务 SiteMapGenerator。
+正在日志 Application 中创建 EventLog 源 SiteMapGenerator...
+正在提交程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在卸载程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在移除 EventLog 源 SiteMapGenerator。
+正在从系统中移除服务 SiteMapGenerator...
+已成功地从系统中移除服务 SiteMapGenerator。
+尝试停止服务 SiteMapGenerator。
+正在安装程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在安装服务 SiteMapGenerator...
+已成功安装服务 SiteMapGenerator。
+正在日志 Application 中创建 EventLog 源 SiteMapGenerator...
+正在提交程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在卸载程序集“D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe”。
+受影响的参数是:
+   logtoconsole = 
+   logfile = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.InstallLog
+   assemblypath = D:\Projects\SiteMapGenerator\SiteMapGenerator\bin\Release\SiteMapGenerator.exe
+正在移除 EventLog 源 SiteMapGenerator。
+正在从系统中移除服务 SiteMapGenerator...
+已成功地从系统中移除服务 SiteMapGenerator。
+尝试停止服务 SiteMapGenerator。

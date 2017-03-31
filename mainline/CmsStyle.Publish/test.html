@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <SCRIPT LANGUAGE="JavaScript">
+  <!--
+    $("document").ready(function(){
+    
+        $("#btn1").click(function(){
+     
+            $("[name='checkbox']").attr("checked",'true');//全选
+  
+        })
+        $("#btn2").click(function(){
+     
+            $("[name='checkbox']").removeAttr("checked");//取消全选
+  
+        })
+        $("#btn3").click(function(){
+     
+            $("[name='checkbox']:even").attr("checked",'true');//选中所有奇数
+  
+        })
+        $("#btn4").click(function(){
+     
+            $("[name='checkbox']").each(function(){
+     
+   
+                if($(this).attr("checked"))
+                {
+                    $(this).removeAttr("checked");
+    
+                }
+                else
+                {
+                    $(this).attr("checked",'true');
+    
+                }
+   
+            })
+  
+        })
+        $("#btn5").click(function(){
+            var str="";
+            $("[name='checkbox'][checked]").each(function(){
+                str+=$(this).val()+" | ";
+                //alert($(this).val());
+            })
+            alert(str);
+        })
+    })
+    //-->
+  </SCRIPT>
+  
+ 
+   <input type="button" id="btn1" value="全选">
+   <input type="button" id="btn2" value="取消全选">
+   <input type="button" id="btn3" value="选中所有奇数">
+   <input type="button" id="btn4" value="反选">
+   <input type="button" id="btn5" value="获得选中的所有值">
+
+   <br>
+   <input type="checkbox" name="checkbox" value="checkbox1" id="checkbox1">
+   checkbox1
+   <input type="checkbox" name="checkbox" value="checkbox2" id="checkbox2">
+   checkbox2
+   <input type="checkbox" name="checkbox" value="checkbox3" id="checkbox3">
+   checkbox3
+   <input type="checkbox" name="checkbox" value="checkbox4" id="checkbox4">
+   checkbox4
+   <input type="checkbox" name="checkbox" value="checkbox5" id="checkbox5">
+   checkbox5
+   <input type="checkbox" name="checkbox" value="checkbox6" id="checkbox6">
+   checkbox6   
+</body>
+</html>

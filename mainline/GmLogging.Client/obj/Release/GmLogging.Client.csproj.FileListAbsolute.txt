@@ -1,0 +1,6 @@
+D:\cms2012\mainline\GmLogging.Client\bin\Release\GmLogging.Client.dll
+D:\cms2012\mainline\GmLogging.Client\bin\Release\GmLogging.Client.pdb
+D:\cms2012\mainline\GmLogging.Client\bin\Release\Newtonsoft.Json.dll
+D:\cms2012\mainline\GmLogging.Client\obj\Release\GmLogging.Client.dll
+D:\cms2012\mainline\GmLogging.Client\obj\Release\GmLogging.Client.pdb
+D:\cms2012\mainline\GmLogging.Client\obj\Release\GmLogging.Client.csprojResolveAssemblyReference.cache

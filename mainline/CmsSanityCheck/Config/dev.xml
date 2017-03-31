@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <services>
+        <service>
+            <name>CE DEV</name>
+            <connectionString></connectionString>
+            <ipAddresses>
+                <ipAddress>10.0.11.65</ipAddress>
+                <ipAddress>109.205.93.50</ipAddress>
+            </ipAddresses>
+            <testUrls>
+                <testUrl>http://{0}/xmlfeeds/gamelist/Jetbull_COM</testUrl>
+            </testUrls>
+            <host>casino.gammatrix-dev.net</host>
+            <domainID>1</domainID>
+        </service>
+        <service>
+            <name>CMS DEV</name>
+            <connectionString>Data Source=109.205.92.135,14331;Initial Catalog=cm;User ID=cmsapp;Password=abc123;Min Pool Size=1;Max Pool Size=500;</connectionString>
+            <ipAddresses>
+                <ipAddress>10.0.11.38</ipAddress>
+                <ipAddress>109.205.93.50</ipAddress>
+            </ipAddresses>
+            <testUrls>
+                <testUrl>http://{0}</testUrl>
+                <testUrl>http://{0}/Register</testUrl>
+                <testUrl>http://{0}/Deposit</testUrl>
+            </testUrls>
+        </service>
+    </services>
+</configuration>

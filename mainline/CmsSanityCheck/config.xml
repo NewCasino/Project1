@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <services>
+        <service>
+            <name>CMS STG</name>
+            <connectionString>Data Source=109.205.92.135,14331;Initial Catalog=cm;User ID=cmsapp;Password=abc123;Min Pool Size=1;Max Pool Size=500;</connectionString>
+            <ipAddresses>
+                <ipAddress>127.0.0.1:13192</ipAddress>
+            </ipAddresses>
+            <testUrls>
+                <testUrl>http://{0}/Login</testUrl>
+                <testUrl>http://{0}/Casino</testUrl>
+                <testUrl>http://{0}/Register</testUrl>
+                <testUrl>http://{0}/Deposit</testUrl>
+            </testUrls>
+        </service>
+    </services>
+</configuration>

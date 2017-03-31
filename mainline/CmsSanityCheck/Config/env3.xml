@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <services>
+        <service>
+            <name>CE Env3</name>
+            <connectionString></connectionString>
+            <ipAddresses>
+                <ipAddress>10.0.11.59</ipAddress>
+                <ipAddress>10.0.11.60</ipAddress>
+                <ipAddress>10.0.11.61</ipAddress>
+                <ipAddress>10.0.10.225</ipAddress>
+            </ipAddresses>
+            <testUrls>
+                <testUrl>http://{0}/xmlfeeds/gamelist/Jetbull_com</testUrl>
+            </testUrls>
+            <host>casino3.gammatrix.com</host>
+            <domainID>1</domainID>
+        </service>
+        <service>
+            <name>CMS Env3</name>
+            <connectionString>Data Source=10.0.10.131; Initial Catalog=cm;Max Pool Size=500;User ID=cmapp;Password=cmapp123;Connection Timeout=0</connectionString>
+            <ipAddresses>
+                <ipAddress>10.0.11.56</ipAddress>
+                <ipAddress>10.0.11.57</ipAddress>
+                <ipAddress>10.0.11.58</ipAddress>
+                <ipAddress>10.0.10.202</ipAddress>
+            </ipAddresses>
+            <testUrls>
+                <testUrl>http://{0}</testUrl>
+                <testUrl>http://{0}/Register</testUrl>
+                <testUrl>http://{0}/Deposit</testUrl>
+            </testUrls>
+        </service>
+    </services>
+</configuration>

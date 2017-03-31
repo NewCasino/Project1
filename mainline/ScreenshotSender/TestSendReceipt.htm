@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form method="post" action="SendReceipt.ashx" target="_blank" enctype="application/x-www-form-urlencoded">
+        <input type="hidden" name="Subject" value="Deposit notification" />
+        <input type="hidden" name="Body" value="XXXX" />
+        <input type="hidden" name="Receiver" value="wj@everymatrix.com" />
+        <input type="hidden" name="Sender" value="no-reply@energycasino.com" />
+        <input type="hidden" name="ReplyTo" value="support@energycasino.com" />
+        <input type="hidden" name="Sid" value="SNOW8QTFJR8E5TNWE-68706E128BED" />
+        <input type="hidden" name="Url" value="http://demo1.gammatrix.com:2012/Deposit/Receipt/Ukash/SNOW8QTFJR8E5TNWE-68706E128BED?_sid=3d19d5ff-b776-4f08-bb3a-b05068ddfb45" />
+        <button type="button" id="btnTextByAjax">Test</button>
+    </form>
+</body>
+</html>
+<script type="text/javascript" src="http://www.norskespill.com/js/jquery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+
+        $("#btnTextByAjax").click(function () {
+            var now = new Date();
+            $.ajax({
+                type: "post",
+                url: "SendReceipt.ashx?_t=",
+                data: "data-xx$SCREENSHOT$",
+                beforeSend: function (request) {
+                    request.setRequestHeader("Subject", "Deposit notification");
+                    request.setRequestHeader("Receiver", "vcer@qq.com");
+                    request.setRequestHeader("Sender", "no-reply@energycasino.com");
+                    request.setRequestHeader("ReplyTo", "support@energycasino.com");
+                    request.setRequestHeader("Sid", now.getTime());
+                    request.setRequestHeader("Url", "https://www.norskespill.com/Deposit/Receipt/Neteller/1bf88cc643a346d3a5e437cfdcf956fe?_sid=03da5e5b-ae42-48de-a362-4551a1b53c45");
+                },
+                success: function (result) {
+                    alert(result);
+                }
+            });
+        });
+    });
+</script>

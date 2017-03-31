@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Insight.Database.Providers.Default</name>
+    </assembly>
+    <members>
+        <member name="T:Insight.Database.OdbcInsightDbProvider">
+            <summary>
+            Implements the Insight provider for Odbc connections.
+            </summary>
+        </member>
+        <member name="F:Insight.Database.OdbcInsightDbProvider._supportedTypes">
+            <summary>
+            The list of types supported by this provider.
+            </summary>
+        </member>
+        <member name="M:Insight.Database.OdbcInsightDbProvider.RegisterProvider">
+            <summary>
+            Registers this provider. This is generally not needed, unless you want to force an assembly reference to this provider.
+            </summary>
+        </member>
+        <member name="M:Insight.Database.OdbcInsightDbProvider.CreateDbConnection">
+            <summary>
+            Creates a new DbConnection supported by this provider.
+            </summary>
+            <returns>A new DbConnection.</returns>
+        </member>
+        <member name="M:Insight.Database.OdbcInsightDbProvider.DeriveParametersFromStoredProcedure(System.Data.IDbCommand)">
+            <summary>
+            Derives the parameter list from a stored procedure command.
+            </summary>
+            <param name="command">The command to derive.</param>
+        </member>
+        <member name="M:Insight.Database.OdbcInsightDbProvider.CloneParameter(System.Data.IDbCommand,System.Data.IDataParameter)">
+            <summary>
+            Clones a parameter so that it can be used with another command.
+            </summary>
+            <param name="command">The command to use.</param>
+            <param name="parameter">The parameter to clone.</param>
+            <returns>The clone.</returns>
+        </member>
+        <member name="P:Insight.Database.OdbcInsightDbProvider.SupportedTypes">
+            <summary>
+            Gets the types of objects that this provider supports.
+            Include connectionstrings, connections, commands, and readers.
+            </summary>
+        </member>
+        <member name="T:Insight.Database.OleDbInsightDbProvider">
+            <summary>
+            Implements the Insight provider for OleDb connections.
+            </summary>
+        </member>
+        <member name="F:Insight.Database.OleDbInsightDbProvider._supportedTypes">
+            <summary>
+            The list of types supported by this provider.
+            </summary>
+        </member>
+        <member name="M:Insight.Database.OleDbInsightDbProvider.RegisterProvider">
+            <summary>
+            Registers this provider. This is generally not needed, unless you want to force an assembly reference to this provider.
+            </summary>
+        </member>
+        <member name="M:Insight.Database.OleDbInsightDbProvider.CreateDbConnection">
+            <summary>
+            Creates a new DbConnection supported by this provider.
+            </summary>
+            <returns>A new DbConnection.</returns>
+        </member>
+        <member name="M:Insight.Database.OleDbInsightDbProvider.DeriveParametersFromStoredProcedure(System.Data.IDbCommand)">
+            <summary>
+            Derives the parameter list from a stored procedure command.
+            </summary>
+            <param name="command">The command to derive.</param>
+        </member>
+        <member name="M:Insight.Database.OleDbInsightDbProvider.CloneParameter(System.Data.IDbCommand,System.Data.IDataParameter)">
+            <summary>
+            Clones a parameter so that it can be used with another command.
+            </summary>
+            <param name="command">The command to use.</param>
+            <param name="parameter">The parameter to clone.</param>
+            <returns>The clone.</returns>
+        </member>
+        <member name="P:Insight.Database.OleDbInsightDbProvider.SupportedTypes">
+            <summary>
+            Gets the types of objects that this provider supports.
+            Include connectionstrings, connections, commands, and readers.
+            </summary>
+        </member>
+        <member name="T:Insight.Database.Reliable.ReliableConnectionExtensions">
+            <summary>
+            Extension methods for Reliable Connections.
+            </summary>
+        </member>
+        <member name="M:Insight.Database.Reliable.ReliableConnectionExtensions.ReliableConnection(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Creates and returns a new SqlConnection.
+            </summary>
+            <param name="builder">The SqlConnectionStringBuilder containing the connection string.</param>
+            <returns>A closed SqlConnection.</returns>
+        </member>
+        <member name="M:Insight.Database.Reliable.ReliableConnectionExtensions.ReliableOpen(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Opens and returns a database connection.
+            </summary>
+            <param name="builder">The connection string to open and return.</param>
+            <returns>The opened connection.</returns>
+        </member>
+        <member name="M:Insight.Database.Reliable.ReliableConnectionExtensions.ReliableDynamic(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Converts the connection to a connection that can be invoked dynamically to return lists of FastExpando.
+            </summary>
+            <param name="builder">The connection to use.</param>
+            <returns>A DynamicConnection using the given connection.</returns>
+        </member>
+        <member name="M:Insight.Database.Reliable.ReliableConnectionExtensions.ReliableDynamic``1(System.Data.SqlClient.SqlConnectionStringBuilder)">
+            <summary>
+            Converts the connection to a connection that can be invoked dynamically to return lists of type T.
+            </summary>
+            <param name="builder">The connection to use.</param>
+            <typeparam name="T">The type of object to return from queries.</typeparam>
+            <returns>A DynamicConnection using the given connection.</returns>
+        </member>
+        <member name="T:Insight.Database.SqlExtensions">
+            <summary>
+            Extension methods specifically for SQL Server
+            </summary>
+        </member>
+        <member name="M:Insight.Database.SqlExtensions.ExecuteXml(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Executes a FOR XML command and returns the results as a single XmlDocument.
+            </summary>
+            <param name="command">The command to execute.</param>
+            <returns>The XmlDocument.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlExtensions.QueryXml(System.Data.SqlClient.SqlConnection,System.String,System.Object,System.Data.CommandType,System.Data.CommandBehavior,System.Nullable{System.Int32},System.Data.IDbTransaction,System.Object)">
+            <summary>
+            Executes a FOR XML query and returns the result as a single XmlDocument.
+            </summary>
+            <param name="connection">The connection to execute on.</param>
+            <param name="sql">The sql to execute.</param>
+            <param name="parameters">The parameters for the query.</param>
+            <param name="commandType">The type of the command.</param>
+            <param name="commandBehavior">The behavior of the command.</param>
+            <param name="commandTimeout">An optional timeout for the command.</param>
+            <param name="transaction">An optional transaction to participate in.</param>
+            <param name="outputParameters">An optional object to send the output parameters to. This may be the same as parameters.</param>
+            <returns>An XmlDocument with the results.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlExtensions.QueryXmlSql(System.Data.SqlClient.SqlConnection,System.String,System.Object,System.Data.CommandBehavior,System.Nullable{System.Int32},System.Data.IDbTransaction,System.Object)">
+            <summary>
+            Executes a FOR XML query and returns the result as a single XmlDocument.
+            </summary>
+            <param name="connection">The connection to execute on.</param>
+            <param name="sql">The sql to execute.</param>
+            <param name="parameters">The parameters for the query.</param>
+            <param name="commandBehavior">The behavior of the command.</param>
+            <param name="commandTimeout">An optional timeout for the command.</param>
+            <param name="transaction">An optional transaction to participate in.</param>
+            <param name="outputParameters">An optional object to send the output parameters to. This may be the same as parameters.</param>
+            <returns>An XmlDocument with the results.</returns>
+        </member>
+        <member name="T:Insight.Database.SqlInsightDbProvider">
+            <summary>
+            Implements the Insight provider for Sql connections.
+            </summary>
+        </member>
+        <member name="F:Insight.Database.SqlInsightDbProvider._parameterPrefixRegex">
+            <summary>
+            The prefix used on parameter names.
+            </summary>
+        </member>
+        <member name="F:Insight.Database.SqlInsightDbProvider._tvpReaders">
+            <summary>
+            Cache for Table-Valued Parameter schemas.
+            </summary>
+        </member>
+        <member name="F:Insight.Database.SqlInsightDbProvider._supportedTypes">
+            <summary>
+            The list of types supported by this provider.
+            </summary>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.RegisterProvider">
+            <summary>
+            Registers this provider. This is generally not needed, unless you want to force an assembly reference to this provider.
+            </summary>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.GetSupportedBulkCopyOptions(System.Data.IDbConnection)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.CreateDbConnection">
+            <summary>
+            Creates a new DbConnection supported by this provider.
+            </summary>
+            <returns>A new DbConnection.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.DeriveParametersFromStoredProcedure(System.Data.IDbCommand)">
+            <summary>
+            Derives the parameter list from a stored procedure command.
+            </summary>
+            <param name="command">The command to derive.</param>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.CloneParameter(System.Data.IDbCommand,System.Data.IDataParameter)">
+            <summary>
+            Clones a parameter so that it can be used with another command.
+            </summary>
+            <param name="command">The command to use.</param>
+            <param name="parameter">The parameter to clone.</param>
+            <returns>The clone.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.FixupParameter(System.Data.IDbCommand,System.Data.IDataParameter,System.Data.DbType,System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.SetupTableValuedParameter(System.Data.IDbCommand,System.Data.IDataParameter,System.Collections.IEnumerable,System.Type)">
+            <summary>
+            Set up a table-valued parameter to a procedure.
+            </summary>
+            <param name="command">The command to operate on.</param>
+            <param name="parameter">The parameter to set up.</param>
+            <param name="list">The list of records.</param>
+            <param name="listType">The type of object in the list.</param>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.IsTableValuedParameter(System.Data.IDbCommand,System.Data.IDataParameter)">
+            <summary>
+            Determines if a parameter is a Table-valued parameter.
+            </summary>
+            <param name="command">The related command object.</param>
+            <param name="parameter">The parameter to test.</param>
+            <returns>True if the parameter is a table-valued parameter.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.GetTableSchemaSql(System.Data.IDbConnection,System.String)">
+            <summary>
+            Returns SQL that queries a table for the schema only, no rows.
+            </summary>
+            <param name="connection">The connection to use.</param>
+            <param name="tableName">The name of the table to query.</param>
+            <returns>SQL that queries a table for the schema only, no rows.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.IsXmlColumn(System.Data.DataTable,System.Int32)">
+            <summary>
+            Determines if the given column in the schema table is an XML column.
+            </summary>
+            <param name="schemaTable">The schema table to analyze.</param>
+            <param name="index">The index of the column.</param>
+            <returns>True if the column is an XML column.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.BulkCopy(System.Data.IDbConnection,System.String,System.Data.IDataReader,System.Action{Insight.Database.InsightBulkCopy},Insight.Database.InsightBulkCopyOptions,System.Data.IDbTransaction)">
+            <summary>
+            Bulk copies a set of objects to the server.
+            </summary>
+            <param name="connection">The connection to use.</param>
+            <param name="tableName">The name of the table.</param>
+            <param name="reader">The reader to read objects from.</param>
+            <param name="configure">A callback method to configure the bulk copy object.</param>
+            <param name="options">Options for initializing the bulk copy object.</param>
+            <param name="transaction">An optional transaction to participate in.</param>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.BulkCopyAsync(System.Data.IDbConnection,System.String,System.Data.IDataReader,System.Action{Insight.Database.InsightBulkCopy},Insight.Database.InsightBulkCopyOptions,System.Data.IDbTransaction,System.Threading.CancellationToken)">
+            <summary>
+            Asynchronously bulk copies a set of objects to the server.
+            </summary>
+            <param name="connection">The connection to use.</param>
+            <param name="tableName">The name of the table.</param>
+            <param name="reader">The reader to read objects from.</param>
+            <param name="configure">A callback method to configure the bulk copy object.</param>
+            <param name="options">Options for initializing the bulk copy object.</param>
+            <param name="transaction">An optional transaction to participate in.</param>
+            <param name="ct">The cancellation token that can be used to cancel the operation.</param>
+            <remarks>Number of rows copied if supported, -1 otherwise.</remarks>
+            <returns>A task representing the completion of the operation.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.IsTransientException(System.Exception)">
+            <summary>
+            Determines if a database exception is a transient exception and if the operation could be retried.
+            </summary>
+            <param name="exception">The exception to test.</param>
+            <returns>True if the exception is transient.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.AdjustSqlParameters(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Fixes various issues with deriving parameters from SQL Server.
+            </summary>
+            <remarks>
+            If the current user doesn't have execute permissions the type of a parameter,
+            DeriveParameters won't return the parameter. This is very difficult to debug,
+            so we are going to check to make sure that we got all of the parameters.
+            </remarks>
+            <param name="command">The command to analyze.</param>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.GetTableTypeSchema(System.Data.IDbCommand,System.Data.IDataParameter)">
+            <summary>
+            Gets the schema for a given user-defined table type.
+            </summary>
+            <param name="command">The command to use.</param>
+            <param name="parameter">The parameter to use.</param>
+            <returns>An open reader with the schema.</returns>
+            <remarks>The caller is responsible for closing the reader and the connection.</remarks>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.GetTableParameterTypeName(System.Data.IDataParameter,System.Type)">
+            <summary>
+            Calculates the table type name for a table parameter.
+            </summary>
+            <param name="parameter">The parameter to test.</param>
+            <param name="listType">The type of object being stored in the table.</param>
+            <returns>The name of the table parameter.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.IsSqlUserDefinedType(System.Type)">
+            <summary>
+            Determines if a type is a sql user defined type.
+            </summary>
+            <param name="type">The type to examine.</param>
+            <returns>True if it is a Sql UDT.</returns>
+        </member>
+        <member name="M:Insight.Database.SqlInsightDbProvider.PrepareBulkCopy(System.Data.IDbConnection,System.String,System.Data.IDataReader,System.Action{Insight.Database.InsightBulkCopy},Insight.Database.InsightBulkCopyOptions,System.Data.IDbTransaction)">
+            <summary>
+            Prepares the bulk copy operation.
+            </summary>
+            <param name="connection">The connection to use.</param>
+            <param name="tableName">The name of the table.</param>
+            <param name="reader">The reader to read objects from.</param>
+            <param name="configure">A callback method to configure the bulk copy object.</param>
+            <param name="options">Options for initializing the bulk copy object.</param>
+            <param name="transaction">An optional transaction to participate in.</param>
+            <returns>The configured bulk copy object.</returns>
+        </member>
+        <member name="P:Insight.Database.SqlInsightDbProvider.SupportedTypes">
+            <summary>
+            Gets the types of objects that this provider supports.
+            Include connectionstrings, connections, commands, and readers.
+            </summary>
+        </member>
+    </members>
+</doc>

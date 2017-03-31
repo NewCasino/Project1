@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70F75007-AEBB-47F8-9AD6-CA28F100509F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CmsSanityCheck</RootNamespace>
+    <AssemblyName>CmsSanityCheck</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Insight.Database">
+      <HintPath>packages\Insight.Database.Core.5.1.1\lib\NET45\Insight.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Insight.Database.Configuration">
+      <HintPath>packages\Insight.Database.5.1.1\lib\NET45\Insight.Database.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Insight.Database.Providers.Default">
+      <HintPath>packages\Insight.Database.5.1.1\lib\NET45\Insight.Database.Providers.Default.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Newtonsoft.Json.6.0.7\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Misc\ObjectHelper.cs" />
+    <Compile Include="Model\CheckItem.cs" />
+    <Compile Include="Model\CheckResult.cs" />
+    <Compile Include="Misc\EmailHelper.cs" />
+    <Compile Include="Misc\FileSystemHelper.cs" />
+    <Compile Include="Misc\XmlHelper.cs" />
+    <Compile Include="DB\Accessor\HostAccessor.cs" />
+    <Compile Include="DB\Accessor\SiteAccessor.cs" />
+    <Compile Include="DB\cmHost.cs" />
+    <Compile Include="DB\cmSite.cs" />
+    <Compile Include="DB\Tool\DbConnection.cs" />
+    <Compile Include="MainEntry.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainEntry.Designer.cs">
+      <DependentUpon>MainEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\Config.cs" />
+    <Compile Include="Misc\LoadBalanceHelper.cs" />
+    <Compile Include="Model\PageResult.cs" />
+    <Compile Include="Model\PageInfo.cs" />
+    <Compile Include="Model\SiteAndHost.cs" />
+    <Compile Include="Misc\SiteManager.cs" />
+    <Compile Include="Model\Service.cs" />
+    <Compile Include="MonitorService.cs" />
+    <Compile Include="PageChangeEmail.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerChangeEmail.cs" />
+    <Compile Include="SiteChangeEmail.cs" />
+    <Compile Include="SvcInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SvcInstaller.Designer.cs">
+      <DependentUpon>SvcInstaller.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="install.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="start.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="stop.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="uninstall.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\local.xml" />
+    <Content Include="Config\dev.xml" />
+    <Content Include="Config\env3.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\env1.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
