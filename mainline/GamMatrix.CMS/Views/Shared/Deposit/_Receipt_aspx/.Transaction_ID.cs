@@ -1,0 +1,1 @@
+﻿Transakční ID číslo

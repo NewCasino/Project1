@@ -1,0 +1,1 @@
+Zapri to pogovorno okno

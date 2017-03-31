@@ -1,0 +1,1 @@
+﻿Původní sázkový požadavek

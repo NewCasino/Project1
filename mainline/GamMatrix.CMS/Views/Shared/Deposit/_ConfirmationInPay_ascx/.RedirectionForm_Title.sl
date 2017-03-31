@@ -1,0 +1,1 @@
+Denar nakažite z uporabo {0}

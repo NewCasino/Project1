@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx"  PageTemplate="/RootMaster.master"  Title="<%$ Metadata:value(.Title)%>" %>
+
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server">
+<asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+
+<% Html.RenderPartial("/Head/Toolbar", this.ViewData.Merge(new { })); %>
+<div id="container">
+    <div id="header">
+        <div class="topbar">
+            
+            <div class="SecondaryToolbar">
+                <div class="search_box">
+                    <input id="search_game" type="text" value="<%=this.GetMetadata(".Search_Text").SafeHtmlEncode() %>" onfocus="$(this).val('')" onblur="if ($(this).val().trim()==''){$(this).val('<%=this.GetMetadata(".Search_Text").SafeHtmlEncode() %>');}" />
+                    <button id="btnSearchGame" class="ToolButton" onclick="googlesearch();"><span class="ir"></span></button>
+                </div>
+                <% Html.RenderPartial("/Head/TopLinks", this.ViewData.Merge(new { })); %>
+                <div class="wrapAccountBox" style="float:right;">
+                    <iframe id="ifmAccountBox" frameborder="0" scrolling="no" allowTransparency="true" src="/AccountWidget" style="width:100%;height:100%;background:none;">
+                    </iframe>
+                </div>
+            </div>
+            <div class="LogoLine">
+                <div class="logo"><%=this.GetMetadata(".Logo").HtmlEncodeSpecialCharactors() %></div>
+                <%=this.GetMetadata(".LiveChat")%>
+                <% Html.RenderPartial("/Head/WalletPanel", this.ViewData.Merge(new { })); %>
+                <% Html.RenderPartial("/Head/LanguageSelector", this.ViewData); %>
+            </div>
+        </div>
+       
+        <% Html.RenderPartial("/Head/TopMenu", this.ViewData.Merge(new { })); %>
+    </div>
+    <div class="content">
+        <div class="inner">
+            <asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <div id="footer">
+            <%= this.GetMetadata("/Metadata/Footer.Html").HtmlEncodeSpecialCharactors() %>
+    </div>
+    
+</div>    
+
+<script type="text/javascript">
+    function googlesearch() {
+        var wq = $("#search_game").val();
+        var domain = "<%=this.GetMetadata(".Domains") %>";
+        var link = "http://www.google.com/search?domains=" + domain + "&sitesearch="+ domain + "&q=" + wq;
+        window.open(link);
+    }
+
+    $(document).ready(function() {
+        $('html > body').addClass('MainBody');
+    });
+</script>
+</asp:Content>
+

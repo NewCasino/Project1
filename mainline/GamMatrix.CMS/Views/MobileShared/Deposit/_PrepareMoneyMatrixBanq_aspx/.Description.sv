@@ -1,0 +1,1 @@
+﻿i-BANQ är en snabb, säker och enkel betalningsmetod för dig som vill göra en insättning från bank till i-BANQ och sedan kreditera ditt konto snabbt från iBANQ-kontot oavsett var i världen du befinner dig.

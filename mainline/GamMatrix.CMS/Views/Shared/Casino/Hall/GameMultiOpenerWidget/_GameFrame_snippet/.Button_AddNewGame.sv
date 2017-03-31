@@ -1,0 +1,1 @@
+Lägg till ett nytt spel

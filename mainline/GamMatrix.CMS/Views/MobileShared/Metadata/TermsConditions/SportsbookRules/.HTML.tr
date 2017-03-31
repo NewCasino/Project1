@@ -1,0 +1,631 @@
+﻿<div id="help-area">
+
+    <h3 class="content-item" id="1">
+        <strong>Genel Kurallar</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">
+            <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>Tarafından kabul edilen tüm bahisler için aşağıdaki kurallar geçerlidir;
+        </li>
+        <li class="content-statement">
+            <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>tüm yanlış ve kasten kötü oranlarla oynanmış olan, yada oyun başladıktan sonra yapılmış olan tüm bahisleri iptal etme hakkını saklı tutar;
+        </li>
+        <li class="content-statement">
+            <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>istediği bahisi reddetme, kısıtlama yada iptal etme veya limitleme hakkını saklı tutar;
+        </li>
+        <li class="content-statement">Bahisler ancak oyun sonuçlandıktan sonra onlaylanır;</li>
+        <li class="content-statement">
+            Bir müsabakanın kazanan tarafı müsabakanın bittiği günde belirlenir;<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>bahis amaçlı protesto veya devrik kararları tanımaz. Yarışmanın başlamasından sonra askıya bir olayın sonucu ile ilgili kara o spor için belirlenen bahis kurallarına göre alıncaktır.<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>;
+        </li>
+        <li class="content-statement">Malta Loto ve Oyun Denetimi kanunlarına göre 18 yaşının altında olan hiçkimsenin bahis yatırma hakkı yoktur;</li>
+        <li class="content-statement">
+            Burada yer alan tüm kurallar, düzenlemeler <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> tarafından önceden yazılı bildirimde bulunmadan değiştirilebilir;
+        </li>
+        <li class="content-statement">
+            Bir bahise yatırılabilecek en yüksek bahis miktarı <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> tarafından belirlenir ve önceden haber verilmeksiniz değiştirilebilir.<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>aynı zamanda istediği hesaplara bahis miktarı limitlemesi getirebilir;
+        </li>
+        <li class="content-statement">
+            Eğer oyuncudun hesabına yanlışlıkla bir para aktarılırsa, oyuncu en kısa zamanda <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>i zaman kaybetmeksizin haberdar etmek zorundadır. Eksi bakiyesi olan hesaplarda,<strong>{0}</strong>tüm sonuçlanmamış olan bahisleri iptal etme hakkını saklı tutar, iptal edilen bahisler eksi bakiyeye neden olmuş veya olmamış olsa bile ;
+        </li>
+        <li class="content-statement">
+            Oyuncular tüm hesap işlemleri için sorumluluk taşımaktadırlar. Lütfen bahislerinizi onaylamadan önce doğruluğunu kontrol ediniz. Bir bahis bir kez onayladıktan sonra iptal edilemez.<strong>{0}</strong> müşteri tarafından yapılan eksik veya birden fazla yapılan bahisler için sorumluluk taşımaz ve bu bahisleri iptal etme isteği kesinlikle reddedilecektir. Oyuncular hesap geçmişlerini "Spor Bahis Hesabım" bülümünde her yaptıkları bahis sonrasında kontrol edebilirler;
+        </li>
+        <li class="content-statement">Anlaşmazlıklar söz konusu bahis karar verilme tarihinden itibaren yedi (7) gün içinde yapılmalıdır. Bu süre dışında yapılan hiçbir istek dikkate alınmayacaktır. Oyuncu kendi hesap işlemleri için sorumludur;</li>
+        <li class="content-statement">Tüm hesap bakiyeleri ve işlemleri hesap başlangıçta açıldığında seçilen para biriminde görünür;</li>
+        <li class="content-statement">Kazançlar her zaman Avrupa Oranları kullanılarak hesaplanır. Bazı oranların İngiliz tarzı kesirler içine tam bir çevirisi yoktur çünkü ornanlar İngiliz standardına dönüştürülürken, yuvarlama hataları oluşabilir unutmayınız. Burada, yakın kesirli oranlar gösterilecektir;</li>
+        <li class="content-statement">
+            <strong>{0}</strong>önceden bildirimde bulunmaksızın bir müşteri hesabını askıya alma ve onun hesabında bulunan tüm bakiyeyi iade etme hakkını saklı tutar;
+        </li>
+        <li class="content-statement">Bu kuralların ve herhangi başka bir kuralın İngilizceden tercümesinde bir çelişki olması durumunda, İngilizce dil sürümü asıl kabul edilecektir;</li>
+        <li class="content-statement">Accumulators (Parlays, Multis): Bir accumulatorde 10 sonuca kadar olan sonuçları kabul ederiz. Bazı sonuçlar, "karşılıklı bağımlı" ise örnek: Son karar oyunda ev sahibi galibiyetiyle birlikte İngiltere Premier Ligi kazanmak için Chelseaye bahis koydunuz, bu bahisler iptal olacaktır;</li>
+        <li class="content-statement">Bir sistem bahisi ile yapılan bahisler Bonus devir şartı için geçerli  olmayacaktır.</li>
+    </ol>
+    <h3 class="content-item" id="2">
+        <strong>Futbol</strong>
+    </h3>
+
+    <ol class="ord-list">
+        <li class="content-statement">Football starting dates and times displayed on our website are an indication only and are not guaranteed to be correct. If a game is postponed, all bets will have action 48 hours after kickoff. If we receive news that a postponed game has been rescheduled for some time after two days, we will immediately return all funds from pending bets;</li>
+        <li class="content-statement">If a postponed game is rescheduled for a date within the two day window and then postponed again, all bets will have action for yet another two days from the last rescheduled date. This process would continue until (a) such time when the game was scheduled for some time after four days (bets voided) or (b) would continue on as long as postponed game kept getting rescheduled within two days;</li>
+        <li class="content-statement">Unless otherwise specified, bets on the outcome of a match will be decided based on two halves of 45 minutes each and any time the referee adds to compensate for injuries and other stoppages. It does not include periods of extra time nor penalty shootouts. Occasionally, Tournaments, Friendly, or other matches may have scheduled time frames different than two 45 minute halves. If [Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;does not make special note that a match will play a time other than the standard two halves of 45 minutes each, all bets will be stand;</li>
+        <li class="content-statement">If a match is suspended before full time is reached, and not completed the same day, bets on the outcome of the match are considered void and all stakes shall be returned;</li>
+        <li class="content-statement">
+            <strong>Overs/Unders:</strong> A match must reach full time for bets on the total number of goals scored in the match to be valid.
+        </li>
+        <li class="content-statement">
+            <strong>Gol Atacak Oyuncu</strong>: No refund on non-starters. Own goals do not count.
+        </li>
+        <li class="content-statement">
+            <strong>İlk golü hangi oyuncu atar</strong>: No refund on non-starters. Own goals do not count.
+        </li>
+        <li class="content-statement">
+            <strong>Son golü hangi oyuncu atar ?</strong>: No refund on non-starters. Own goals do not count.
+        </li>
+        <li class="content-statement">
+            <strong>İlk golü atacak takım</strong>: In the event of an abandoned game bets stand on scores that have taken place already, Extra Time does not count for these markets.
+        </li>
+        <li class="content-statement">
+            <strong>İlk golün dakikası</strong>: Bets are settled on what time the goal is actually scored from official source
+        </li>
+        <li class="content-statement">
+            <strong>Son golü atacak takım</strong>: In the event of an abandoned game bets stand on scores that have taken place already, Extra Time does not count for these markets.
+        </li>
+        <li class="content-statement">
+            <strong>X Gole Kim Ulaşır?</strong>: Settled on the team who reaches the quoted number of goals first in the event of an abandonment before 90 minutes have been played then all bets will be void unless settlement is already determined.
+        </li>
+        <li class="content-statement">
+            <strong>İki Takım da Gol Atar</strong>: Based on whether both teams score a goal in the match.
+        </li>
+        <li class="content-statement">
+            <strong>Takım gol sayısı Alt/Üst</strong>: Based on total number of goals scored by a team in the match. Extra Time goals are not included.
+        </li>
+        <li class="content-statement">
+            <strong>Gol Sayısı</strong>: Bets on Number of Goals included "own goals"
+        </li>
+        <li class="content-statement">
+            <strong>Bu zaman aralığında gol olurmu?</strong>: Will be the official time of goal scored that will count. Extra Time not included
+        </li>
+        <li class="content-statement">
+            <strong>İki yarıda da gol atar</strong>: Is a Yes/No Bet if a Team/Teams will score in both halves.
+        </li>
+        <li class="content-statement">
+            <strong>Gol yemeden kazanır</strong>: Team to win the match and keep a clean sheet.
+        </li>
+        <li class="content-statement">
+            <strong>Kazanma Marjı</strong>: Settled on the result of game. The teams will be given various margins of winning and it will be the final result that counts.
+        </li>
+        <li class="content-statement">
+            <strong>İki yarıdan en az birisini kazanır</strong>: A Team needs to win minimum one of the two halves in order for this bet to winning.
+        </li>
+        <li class="content-statement">
+            <strong>Her iki yarıyıda kazanır</strong>: The team must score more goals than the opposition in both halves of the match.
+        </li>
+        <li class="content-statement">
+            <strong>Geriden gelir ve kazanır</strong>: Team must be losing at any stage during the match but subsequently go on to win the match in 90 minutes.
+        </li>
+        <li class="content-statement">
+            <strong>Toplam korner sayısı, Alt/Üst</strong>: Based on a specific line added in Over/Under for corners taken in the match. Extra Time does not count
+        </li>
+        <li class="content-statement">
+            <strong>Toplam korner sayısı</strong>: Based on the total numbers of cornerkicks taken in the match.
+        </li>
+        <li class="content-statement">
+            <strong>X Kornere İlk Kim Ulaşır?</strong>: Settled on the team who reach the quoted number of corners first, in the event of an abandonment before 90 minutes have been played then all bets will be void unless settlement is already determined.
+        </li>
+        <li class="content-statement">
+            <strong>Sıradaki Takımın Gol Atma Süresi</strong>: Settlement will be made by the time given by the official match source as the time of First/Next goal is scored.
+        </li>
+        <li class="content-statement">
+            <strong>Kart Sayısı Alt/Üst</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Takım Bahisleri Üstünde/Altında</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Half With Most Corners</strong>: Her yarının korner sayısına göre, en fazla korner kullanılan yarı
+        </li>
+        <li class="content-statement">
+            <strong>Köşe vuruşlarının Takım Sayısı</strong>: Bir takımın kullanacağı korner sayısı
+        </li>
+        <li class="content-statement">
+            <strong>Son Korner</strong>: Maçın son kornerini kullanan takım
+        </li>
+        <li class="content-statement">
+            <strong>Clean Sheet</strong>: Gol yemeyen takım kazanir
+        </li>
+        <li class="content-statement">
+            <strong>Kim Daha Çok Korner Atar?</strong>: Maçın en fazla kornerini kullanan takım
+        </li>
+        <li class="content-statement">
+            <strong>Sıradaki Korner</strong>: Siradaki korneri kullanan takim
+        </li>
+        <li class="content-statement">
+            <strong>Maç Bahsi ve Toplamlar</strong>: Combine 1x2 and over under, only both won bets will win, all others lost
+        </li>
+        <li class="content-statement">
+            <strong>Uzatmaya Gider mi?</strong>: If match goes to overtime, then won, if  not, lost
+        </li>
+        <li class="content-statement">
+            <strong>Kırmızı Kart?</strong>: Will there be red cards or not
+        </li>
+        <li class="content-statement">
+            <strong>Köşe Vuruşları Tek sayı/Çift sayı</strong>: Total corners are Odd or Even
+        </li>
+        <li class="content-statement">
+            <strong>Zaman Aralığında Takım Golü</strong>: Will be the official time of goal scored that will count. Extra Time not included
+        </li>
+        <li class="content-statement">
+            <strong>Takım Köşe Vuruşları Tek sayı/Çift sayı</strong>: Team total corners are odd or even
+        </li>
+        <li class="content-statement">
+            <strong>Takım Köşe Vuruşları Üstünde/Altında</strong>: Team total corners over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Penaltılara Gitme</strong>: Will the match go to penalty time?
+        </li>
+        <li class="content-statement">
+            <strong>Skor Yapacak Yedek Oyuncu</strong>: Will a substitute score a goal
+        </li>
+        <li class="content-statement">
+            <strong>Kart Sayısı</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Sarı Kartlar Tek sayı/Çift sayı</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Bahiste İlk Takım</strong>: Which team will get the next card, accordingly to the current card
+        </li>
+        <li class="content-statement">
+            <strong>Kendi Kalesine Atılan Gol</strong>: Will there be own goal scored?
+        </li>
+        <li class="content-statement">
+            <strong>Kazanma Şekli</strong>: How the match ends to get a winner
+        </li>
+        <li class="content-statement">
+            <strong>İlk Sarı Kartı Alacak Takım</strong>: Which team to receive the next yellow card, according to the current card
+        </li>
+        <li class="content-statement">
+            <strong>En Yüksek Yarı Skoru</strong>: Half with most goal wins
+        </li>
+    </ol>
+
+    <h3 class="content-item" id="3">
+        <strong>Tenis</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Cekilme, diskalifiye edilme ve macin herhangi bir durumdan dolayi kazananinin mac oynanmadan belirlendigi durumlarda, bu mac ile alakali bahisler o anki mac skoruna gore sonuclandirilmaz butun bahisler iptal edilir.</li>
+        <li class="content-statement">Alt ust set bahislerinde set skoru 4-4 iken iptal durumu gerceklesir ise; set tamamlanmis gibi 7.5 alt/ust bahisleri kazandi veya kaybetti olarak sonuclandirilir, ayni sete oynanmis 10.5 veya 12.5 alt/ust bahisleri iptal edilir.</li>
+        <li class="content-statement">Eger ki tenis maci cekilme, diskalife edilme durumlarindan dolayi tamamlanmaz ise tamamlanmamis butun setlere yapilan bahisler iptal edilir.</li>
+        <li class="content-statement">Eger bir tenis maci yarida kalir veya ertelenir ise bu karsilasmaya oynanan bahisler gecerliligini korur ve macin oynanmasi beklenir. Erteleme veya yarida kalma bahisin durumunu etkilemez.</li>
+        <li class="content-statement">Macin belirlenen set sayisina ulasmamasi ve macin turnuva yetkilileri tarafindan kisaltilmasi durumunda, Turnuva yetkilileri tarafindan tayin edilen kazanan oyuncuya gore bahisler sonuclandirilir.</li>
+        <li class="content-statement">Ornegin: 5 set oynanmasi gereken bir karsilasmanin, elverissiz hava kosullarindan dolayi sadece 3 setinin oynanmasi halinde, 3 setin sonucuna gore kazanan oyuncu tayin edilebilir ve bahisler buna gore sonuclandirilir.</li>
+
+        <li class="content-statement">
+            <strong>Tie Break</strong>: Maçın en fazla kornerini kullanan takım
+        </li>
+        <li class="content-statement">
+            <strong>Game Score</strong>: Exact score of the game and will the server be broken
+        </li>
+        <li class="content-statement">
+            <strong>Oyun İçinde Berabere Olur mu?</strong>: Will there be 40:40 in a game?
+        </li>
+        <li class="content-statement">
+            <strong>Games Won Over Under</strong>: Total games of a player are over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Toplam oyun sayısı</strong>: Total games of both players in a set
+        </li>
+        <li class="content-statement">
+            <strong>En Az Bir Set Kazanma</strong>: If a player wins 1 set or not when the match ends
+        </li>
+        <li class="content-statement">
+            <strong>X Oyuna ilk Kim Ulaşır?</strong>: Who will win the x game in x set
+        </li>
+        <li class="content-statement">
+            <strong>X Sayıya ilk Kim Ulaşır?</strong>: Which player will win xth point, game y, n set
+        </li>
+        <li class="content-statement">
+            <strong>Sayı Handikapı</strong>: Who will win the game with the handicap parameter in that set
+        </li>
+        <li class="content-statement">
+            <strong>Points Over Under</strong>: Total game points over under in x game, n set
+        </li>
+        <li class="content-statement">
+            <strong>Points Won Over Under</strong>: Total points by each player, in x game, n set
+        </li>
+        <li class="content-statement">
+            <strong>To hold first service game</strong>: Will the player hold the first service game in first set?
+        </li>
+        <li class="content-statement">
+            <strong>Game Of First Service Break</strong>: First service break is in which game at first set
+        </li>
+        <li class="content-statement">
+            <strong>Total Service Breaks</strong>: How many service breaks will be in 1st set
+        </li>
+        <li class="content-statement">
+            <strong>Kazanma Marjı</strong>: What is the difference of total number of games won by winner and loser
+        </li>
+        <li class="content-statement">
+            <strong>Lose 1st Set And Win The Match</strong>: Which player lost 1st set but won the match in the end
+        </li>
+    </ol>
+
+    <h3 class="content-item" id="4">
+        <strong>Amerikan Futbolu, Rugby ve AFL</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Aksiyon için minimum süre: Bahisler için kazananlar ve kaybedenler,maç en az 55 dakika oynanmış ise, maç sonucuna göre belirlenir (uzatmalar dahil olmaz üzere);</li>
+        <li class="content-statement">Eğer oyun 55 dakika sonra askıya alındı ve aynı gün içinde devam ettirilmediyse, oyun başka bir tarihte devam etmiş ve tamamlamış olsa bile, askıya alındığı zamandaki skor geçerli sayılacaktır;</li>
+        <li class="content-statement">Eğer oyun 55 dakikadan önce askıya alındı ise tüm bahisler iptal edilip bahis miktar iade edilecektir;</li>
+        <li class="content-statement">Aksi belirtilmedikçe tüm bahisler uzatma skorlarını da kapsar;</li>
+        <li class="content-statement">Oyun öncesi açıklanmadığı takdirde bahislerin geçerli olması için, tüm oyunlar önceden belirlenen tarihte ve yerde oynanmalıdır;</li>
+        <li class="content-statement">Avustralya Kuralları, Rugby Ligi, Süper Ligi ve Rugby Birliği. Bahisler maç sonucuna göre ödenir (normal süre ve ekstra sürenin mevcut olduğu zaman da);</li>
+        <li class="content-statement">
+            NFL teklifleri şu sitede bulunan bilgilerle yapılır <a href="http://www.nfl.com/">www.NFL.com</a>;
+        </li>
+        <li class="content-statement">
+            Arena Football Teklifleri şu sitede bulunan bilgilerle yapılır <a href="http://www.arenafootball.com/">www.Arenafootball.com</a>.
+        </li>
+    </ol>
+    <h3 class="content-item" id="5">
+        <strong>Buz Hokey</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Aksi belirtilmediği sürece tüm bahisler sadece normal süre için olup ekstra eklenen zaman ve penaltı atışları skora dahil değildir. Örnek: The Rangers ve Kings maçı normal sürede 3-3 berabere kalmış ve maç uzatmalara gitmiştir. The Rangers uzatmalarda kazanır. Bahisler için kabul edilen esas skor Rangers 3, Kings 3;</li>
+        <li class="content-statement">Eğer bir maçtaki skora uzatma da dahil ise bu, yapılan bahis üzerinde not olarak açıkça belirtilir. Lütfen bahisinizi ya da bahis geçmişinizdeki bahis detayına dikkatlice bakınız ;</li>
+        <li class="content-statement">Penaltı atışları uzatmanın parçası kabul edilir. Eğer penaltılara gidilirse, penaltı yarışını kazanan takıma bir ekstra gol verilir;</li>
+        <li class="content-statement">Örnek: Dynamo ve CSKA  2-2 berabere kalır ve penaltılara gidilir. Dynamo penaltı atışlarını kazanır. Bizim maç sonucu bildirimimiz "Dynamo including OT" vs. "CSKA including OT", uzatmalar da dahil skor Dynamo 3, CSKA 2;</li>
+        <li class="content-statement">Aksiyon için minimum süre: Oyunlar aksiyon için en az 55 dakika oynanmalıdır. Eğer bir oyuna 55 dakikadan önce ara verilirse maç sonucu için yapılan tüm bahisler iade edilir.</li>
+    </ol>
+    <h3 class="content-item" id="6">
+        <strong>Hentbol</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Bahisler için geçerli olan kazanan ve kaybedenler normal süre sonunda oluşan skora göre belirlenir. Extra zaman (normal zamanın uzatması) aksi belirtilmedikçe geçerli sayılmaz;</li>
+        <li class="content-statement">Eğer maç herhangi bir nedenle ertelenirse ve başlama zamanından 24 saat içinde ne zaman oyuna devam edileceği açıklanmazsa yapılan tüm bahisler iptal edilir ve miktarlar iade edilir;</li>
+        <li class="content-statement">Eğer bir maçın oynama yeri değiştirilirse, ev sahibi takımın evinde kabul edilmesi durumunda bahisler hala geçerli olacaktır. Eğer ev sahibi ve konuk takımın yerleri değiştirilirse ilk yapılan orjinal bahisler iptal edilecektir.;</li>
+        <li class="content-statement">
+            Game props: Tüm game props, aşağıdaki oyun çeşitleri de dahil olmak üzere sadece normal oyun süresi sonucuna göre kabul edilecek ve tüm uzatmalar hariç tutulacaktır:
+            <ol>
+                <li class="help-li">Game total odd/even</li>
+                <li class="help-li">Double result</li>
+            </ol>
+        </li>
+    </ol>
+    <h3 class="content-item" id="7">
+        <strong>Basketbol</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Aksiyon için Minimum Süre: NBA oyunlarında aksiyon olması için en az 43 dakika oynanması gerekir. Tüm diğer basketbol liglerinde aksi belirtilmedikçe oyunun en az 35 dakika oynaması gerekir;</li>
+        <li class="content-statement">Kazanan ve kaybedenler maçın minimum süresi oynanmışsa son skora göre(ekstra zaman da dahil) belirlenir. Eğer oyun minimum oynanma süresinden sonra askıya alındı ve aynı gün içinde devam ettirilmediyse, oyun başka bir tarihte devam etmiş ve tamamlamış olsa bile, askıya alındığı zamandaki skor geçerli sayılacaktır;</li>
+        <li class="content-statement">Eğer oyun minimum oynanma süresinden önce askıya alındı ve oyun aynı gün içinde tamamlanmadı ise tüm bahisler iptal edilip bahis miktar iade edilecektir;</li>
+        <li class="content-statement">Yapılan tüm bahislere, aksi belirtilmedikçe, uzatmalardaki skorlar da dahildir;</li>
+        <li class="content-statement">Oyun öncesi açıklanmadığı takdirde bahislerin geçerli olması için, tüm oyunlar önceden belirlenen tarihte ve yerde oynanmalıdır;</li>
+        <li class="content-statement">Bu kurallar hem Kolej Basketbolu hem de profesyonel basketbol için geçerlidir;</li>
+        <li class="content-statement">
+            NBA sonuçları bu site kullanılarak belirlenir <a href="http://www.nba.com/">NBA.com</a>;
+        </li>
+        <li class="content-statement">
+            NCAA Basketbolu sonuçları bu site kullanılarak belirlenir <a href="http://www.espn.com/">espn.com</a>.
+        </li>
+
+        <li class="content-statement">
+            <strong>Çifte Şans</strong>: Maç sonucu ne olacak bahsi, çifte şans sonucu 12, 1x, 2x
+        </li>
+        <li class="content-statement">
+            <strong>En Yüksek Skor Çeyreği</strong>: Quarter total points, highest quarter won
+        </li>
+        <li class="content-statement">
+            <strong>Uzatmaya Gider mi?</strong>: Will the match have Overtime play?
+        </li>
+        <li class="content-statement">
+            <strong>X Sayıya ilk Kim Ulaşır?</strong>: Which team will win xth point
+        </li>
+        <li class="content-statement">
+            <strong>Kazanma Marjı</strong>: The margin between two teams, how many points will a team won
+        </li>
+        <li class="content-statement">
+            <strong>Takım gol sayısı Alt/Üst</strong>: Total points of a team over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Takım Bahis Tek sayı/Çift sayı</strong>: Total points of a team are odd or even
+        </li>
+        <li class="content-statement">
+            <strong>Son golü atacak takım</strong>: Which team will get the last score based on the current scores
+        </li>
+        <li class="content-statement">
+            <strong>İlk golü atacak takım</strong>: Which team will score first
+        </li>
+        <li class="content-statement">
+            <strong>İlk Yarı / Maç Sonu</strong>: Who will win first half and the match
+        </li>
+        <li class="content-statement">
+            <strong>En Yüksek Yarı Skoru</strong>: Half with most goal wins
+        </li>
+        <li class="content-statement">
+            <strong>Which team wins jump ball</strong>: Which  team will have the first  possession/jumpball
+        </li>
+        <li class="content-statement">
+            <strong>Points Won Over Under</strong>: Total points of a player is over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Point Winner</strong>: Which player will get the xth point
+        </li>
+    </ol>
+
+    <h3 class="content-item" id="8">
+        <strong>Beyzbol</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Toplam koşu bahislerinin geçerli olması için (altı/üstü) oyun en az 9 inning devam etmelidir (8.5 eğer ev sahibi takım önde ise) . Ekstra inning oynanırken eğer oyun askıya alınırsa ya da bitirilirse, oyunun skoru son tam inning skoruna göre belirlenir. Ancak ev sahibi takım beraberliği yakalar ya da inningin son yarısında öne geçerse, oyunun skoru maçın bitiş anındaki skoru kabul edilir;</li>
+        <li class="content-statement">Bir maçın skoru, ev sahibi takım 4.5 inning sonra önde değilse, 5 innings sonunda resmi kabul edilir. Eğer oyun askıya alınırsa ya da bitirilirse, oyunun skoru son tam inning skoruna göre belirlenir. Ancak ev sahibi takım beraberliği yakalar ya da inningin son yarısında öne geçerse, oyunun skoru maçın bitiş anındaki skoru kabul edilir. Eğer ev sahibi takım beraberliğe ulaşırsa ve oyun bundan sonra askıya alınırsa tüm bahisler iade edilir;</li>
+        <li class="content-statement">
+            <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> bahis amaçlı ertelenen oyunları, protesto edilen veya devrik kararları tanımaz. Tüm beyzbol oyunları açıklandığı günde oynanmalıdır, aksi takdirde bahisler iade edilir;
+        </li>
+        <li class="content-statement">Beyzbolda yapılan Money-line bahisleri start pitcherlerin kim olduğuna bakılmaksızın kabul edilir ;</li>
+        <li class="content-statement">
+            MLB Küçükler Ligi: Takım A ve Takım B arasında aynı günde iki maç oynanırsa <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>  ve maç sayısı belirtilmeden sadece tek bir Takım A Takım Bye karşı bahisi sunmuşsa, bu bahis oynanan ilk maç için sunulmuştur . Eğer birinci maç artık başladıysa bu bahis ikinci maç için sunulmuştur;
+        </li>
+        <li class="content-statement">MLB Prop Kuralları: Herhangi bir propda aksiyon olması için, oyun 9 inning boyunca devam etmelidir (8.5 eğer ev sahibi önde ise) ;</li>
+        <li class="content-statement">
+            MLB teklifleri bu sitedeki bilgiler kullanılarak yapılacaktır <a href="http://www.mlb.com/">www.MLB.com</a>.
+        </li>
+    </ol>
+    <h3 class="content-item" id="9">
+        <strong>Voleybol</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Eğer bir maça normal süresü bitmeden ara verilir ve aynı gün içerisinde tamamlanmazsa, maç sonucuna yapılan bahisler iptal edilir ve bu bahis miktarları iade edilir;</li>
+        <li class="content-statement">Oynama yeri değişimi: Eğer bir maçın oynama yeri değiştirilirse, ev sahibi takımın evinde kabul edilmesi durumunda bahisler hala geçerli olacaktır. Eğer ev sahibi ve konuk takımın yerleri değiştirilirse ilk yapılan orjinal bahisler iptal edilecektir.</li>
+    </ol>
+    <h3 class="content-item" id="10">
+        <strong>Snooker</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Match-up bahisler maçı kazanacak oyuncuyu doğu bir şekilde seçmeye dayalıdır. Bir maçın - ilk bölümde mola ile başlaması- ancak herhangi bir sebepten dolayı bitmemesi halinde, bir sonraki rounda geçen oyuncu (ya da şampiyonanın/müsabakanın kazananı ilan edilen) kazanan kabul edilecektir. Bir müsabakanın hiç başlamamadı durumunda, tüm bahisler iade edilicektir;</li>
+        <li class="content-statement">Frame bahisi bir snooker maçının son skorunu doğu tahmin edilmesine dayalıdır. Bir maçın başlaması ve herhangi bir sepeble tamamlanmamsı durumunda ya da bir maçın hiç başlamaması durumunda tüm bahisler iade edilir</li>
+    </ol>
+    <h3 class="content-item" id="11">
+        <strong>Dövüş Sporları</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">İlk round zili çaldığı anda karşılaşma bahis için geçerli kabul edilecektir, maç her ne kadar uzun olursa olsun;</li>
+        <li class="content-statement">Teknik beraberlik bir karşılaşmanın önceden belirlenmiş olan round sayısından önce bitmesidir. Bunun sebebi genellikle bir faul olmasıdır;</li>
+        <li class="content-statement">Herhangi bir karşılaşmanın ''Maç Olmayacak'' ilan edilmesi durumunda tüm bahisler ilan edilir;</li>
+        <li class="content-statement">Eğer bir maçın bahis seçeneklerinde beraberlik opsiyonu da bulunmakta ise, maçın beraberlikle sonuçlanması durumunda kazana bahisler ödenir, diğer bahis kayıp kabul edilir. Eğer bahis sadece iki boksörü kapsıyorsa, beraberlik seçeneğinin sunulmadığı veya ayrı bir bahiste sunulması halinde ve maçın berabere sonuçlanması durumunda tüm bahisler iade edilir;</li>
+        <li class="content-statement">Boks maçlarındaki Altı/Üstü (Toplam) bahis seçeneği toplam oynanan tamamlanmış round sayısını belirtmektedir. Bir roundun yarısı, üç dakikalık bir roundun tam ortası olan bir dakika ve otuz saniye noktasıdır. Bu demektir  dokuz buçuk round; onuncu roundun bir dakika ve otuz saniyelik kısmıdır. İki dakikalık roundun tam ortası bir dakika noktasıdır. Beş dakikalık bir roundun tam ortası iki dakika ve otuz saniye noktasıdır;</li>
+        <li class="content-statement">Tüm sonuçlar ringyanı resmi sonuçlarına göre esas alınacaktır. Sonuçlar, maçın yapıldığı yerdeki resmi sonuçlar açıklanmayana kadar bahisler için geçerli değildir. Resmi ya da resmi olmayan kurumlar tarafından bir maçın doping kullanımı dava sonucu veya bir boksorün ihracı drumunlarında bu sonuçlar bahisler için geçerli olmayacaktır;</li>
+        <li class="content-statement">Aksi belirtilmediği takdirde, bahislerin geçerli olması için maçların ilan edilen tarihten 30 gün içinde oynanması gerekir.</li>
+    </ol>
+    <h3 class="content-item" id="12">
+        <strong>Bandy</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Aksi belirtilmediği halde tüm bahisler oynanan normal süre için olup uzatma süresini kapsamaz. Turnuvalarda eğer normal oynanan süreye ek olarak yeni bir bölüm oluşturulması haline, ördeğin; Uzatmada kazanan durumunda penaltı vuruşları da sonuca etki eder;</li>
+        <li class="content-statement">Oynama süresi: Eğer maçın oynanma formatı herhangi bir sebepten dolayı 2 x 45 dakikadan 3 x 30 dakikaya değiştirilirse, ilk veya ikinci yarı bahisleri dışındaki tüm bahisler geçerli sayılır;</li>
+        <li class="content-statement">Oynama yeri değişimi: Eğer bir maçın oynama yeri değiştirilirse, ev sahibi takımın evinde kabul edilmesi durumunda bahisler hala geçerli olacaktır. Eğer ev sahibi ve konuk takımın yerleri değiştirilirse ilk yapılan orjinal bahisler iptal edilecektir.</li>
+    </ol>
+    <h3 class="content-item" id="13">
+        <strong>Florbol</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Bahis amaçlı olarak kazanan ve kaybedenler bir maçın normal süresi sonundaki sonuca göre kabul edilir. Uzatma süresü veya sudden death(ani ölüm) aksi belirtilmedikçe geçersizdir;</li>
+        <li class="content-statement">Eğer bir maça normal süresü bitmeden ara verilir ve aynı gün içerisinde tamamlanmazsa, maç sonucuna yapılan bahisler iptal edilir ve bu bahis miktarları iade edilir ;</li>
+        <li class="content-statement">Eğer bir maç tarihi herhangi bir sebepten dolayı başka bir tarihe alınırsa tüm bahisler iptal edilir ve bahis miktarları iade edilir.</li>
+    </ol>
+    <h3 class="content-item" id="14">
+        <strong>Dart</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Maç bahisi:İlk bölümün başlangıcında bir oyuncunun bir dart atması şartıyla, bir sonraki rounda geçen oyuncu kazanan oyuncudur. Eğer ilk dart atılmamışsa tüm bahisler iptal edilir;</li>
+        <li class="content-statement">Set bahisleri: Maçı kazanmak için gereken tüm setlerin bitirilmiş olması gerekir. Eğer herhangi bir nedenle, tüm setler tamamlanmadan maç bir oyuncuya verilirse, tüm set bahisleri iptal edilecektir.</li>
+    </ol>
+    <h3 class="content-item" id="15">
+        <strong>Futsal</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Aksi belirtilmedikçe, yapılan tüm bahisler denetleyicinin belirttiği süreye göreye sonuçlandırılır. Bu iki periyot ve hakemin sakatlık ve durdurmalardan eklediği ek süreyi de kapsamaktadır. Penaltı atışları ve ekstra ek süreler buna dahil değildir;</li>
+        <li class="content-statement">Eğer bir maça normal süresü bitmeden ara verilir ve aynı gün içerisinde tamamlanmazsa, maç sonucuna yapılan bahisler iptal edilir ve bu bahis miktarları iade edilir;</li>
+        <li class="content-statement">Sitemizde ilan edilen Futsal başlangıç tarih ve zamanları sadece yardımcı nitelikle olup gerçekliği garanti edilmez. Bir maçın ertelenmesi durumunda, tüm bahisler 48 saate kadar geçerliliğini koruyacaktır. Ertelenmiş bir maçın iki günden sonra oynanacağı haberini alırsak tüm bahisler iptal edilir ve bahis miktarı iade edilir;</li>
+        <li class="content-statement">Yer değişimi: Eğer resmi bir yer değişmi olursa o ana kadar yapılan tüm bahisler geçersiz sayılır.</li>
+    </ol>
+    <h3 class="content-item" id="16">
+        <strong>Poker</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Maç sonucu bahislerinde, bahisin geçerli sayılması için yarışmacının oyuna başlaması gerekmektedir.</li>
+    </ol>
+    <h3 class="content-item" id="17">
+        <strong>Körling</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Aksi belirtilmedikçe, ekstra sonlar bahisler için her zaman sonuca dahil kabul edilir;</li>
+        <li class="content-statement">Bir bahisin geçerli kabul edilmesi için en az 6 sonun tamamlanması gerekir;</li>
+        <li class="content-statement">
+            Bir maçın son skoru turnuva organizatörlerinin açıkladığı skor kabul edilir.<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> her turnuvanın skorlama kurallarına ve maç sonuçlarına saygı duyar;
+        </li>
+        <li class="content-statement">Herhangi bir sebepten dolayı ertelenen ya da iptal edilen maç bahisleri (örneğin: kötüleşen buz koşulları, elektriksel arıza, ya da tarih anlaşmazlıkları) tunuva organizatörleri maçı bitmiş ilan edene kadar 'maç oynanmakta' kabul edilir.</li>
+    </ol>
+    <h3 class="content-item" id="18">
+        <strong>Masa Tenisi</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Bir maçın başlaması ancak tamamlanmaması durumunda maç sonucuna yapılan tüm bahisler iptal edilir;</li>
+        <li class="content-statement">Set bahisleri (Doğru Sonuç) bitmiş set sonundaki bahis demektir;</li>
+        <li class="content-statement">Takım maçlarında, bir maçın iki kere oynanması durumunda sadece ilk maç sonucu kabul edilir.</li>
+    </ol>
+    <h3 class="content-item" id="19">
+        <strong>At Yarışı</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="no-bullet">
+            <h4>Genel</h4>
+            <ol>
+                <li class="help-li">All bets are settled in accordance with the official result at the time of the "weigh in". Any change to a result after this point will not count;</li>
+                <li class="help-li">Walkovers and void races count as races but any horse involved will be treated as a non-runner.</li>
+            </ol>
+            <h4>Bahis Dışı ve Çekilenler</h4>
+            <ol>
+                <li class="help-li">If a horse is withdrawn before coming under starter's orders, or is officially deemed by the starter to have taken no part in the race, then all bets on that horse are void. Your stakes will be returned on the withdrawn horse.</li>
+            </ol>
+            <h4>Bahis Dışı ve Çekilenler</h4>
+            <h4>Erken gün fiyatları/Müsabaka günü fiyatları</h4>
+            <ol>
+                <li class="help-li">After the final declarations stage, Non-Runner no-bet will apply.</li>
+            </ol>
+            <h4>Double Engagements</h4>
+            <ol>
+                <li class="help-li">Where a horse is doubly engaged (named as a runner in more than one race) the bet will stand as a bet for the timed race. If the selection runs in the other race it would be treated as a non runner.</li>
+            </ol>
+            <h4>Tekrarlar</h4>
+            <ol>
+                <li class="help-li">In the event of a false start or any other incident resulting in a race being re-run, 'under starter's orders' is negated and stakes will be refunded on horses taking no part in the re-run;</li>
+            </ol>
+            <h4>Ertelemeler</h4>
+            <ol>
+                <li class="help-li">If a race is abandoned or declared void then any bets will be void. If the race is postponed to a future day and the final Declarations stand, all bets will stand;</li>
+                <li class="help-li">
+                    However, all single bets on horse racing will be made void and any selection involved in accumulative bets will be treated as a non-runner if:
+                    <ol>
+                        <li class="help-li">The race is abandoned;</li>
+                        <li class="help-li">The race is officially declared void;</li>
+                        <li class="help-li">The conditions of the race are altered after bets have been made;</li>
+                        <li class="help-li">The venue is altered;</li>
+                        <li class="help-li">The running surface is altered (e.g. from Turf to All Weather).</li>
+                    </ol>
+                </li>
+            </ol>
+            <h4></h4>
+            <h4>Ante-Post</h4>
+            <ol>
+                <li class="help-li">Ante post betting will cease at the Final Declaration stage and all bets after this will be non-runner, no bet ;</li>
+                <li class="help-li">Unless specifically stated otherwise, stakes are lost on an Ante-Post bet if a horse does not take part. </li>
+                <li class="help-li">On days when classic or other trials occur, Ante-Post betting may be suspended and new prices issued;</li>
+                <li class="help-li">Ante-Post bets on horses compulsorily withdrawn will be void and stakes returned. (Stewards are empowered to reduce the numbers in a race if, at the overnight declaration stage, too many have been left in for the safety of horses and jockeys. Jockey Club Rule 121). </li>
+                <li class="help-li">Ante-Post bets are settled at the odds and place terms applicable at the time of acceptance. Should a wrong odds or place terms be given in error we reserve the right to settle the bet at the correct odds/place terms that were available at the time the bet was struck.</li>
+            </ol>
+            <h4>Each-Way Bahisi</h4>
+            <ol>
+                <li class="help-li">All bets are settled to win unless 'Each-Way' is selected;</li>
+                <li class="help-li">An Each-Way bet is made up of two bets. It contains one bet for your horse to "Win" and a second bet for your horse to be "Placed". Each bet is placed at the stake amount you have entered, so the total cost of an each way bet will be double the amount you entered stake as you are placing two bets;</li>
+                <li class="help-li">
+                    The "Place" terms will be as advertised for the event. In general, for UK horse racing the 'Place' part of Each-Way bets will be settled using the following 'Place' terms:
+                    <ol>
+                        <li class="help-li">Less than 5 runners - the place money is invested to win;</li>
+                        <li class="help-li">Races of 5, 6 or 7 runners - one 1/4 the odds - first two places;</li>
+                        <li class="help-li">All other races of 8 or more runners 1/5 the odds - first three places</li>
+                        <li class="help-li">Handicap races with 12 - 15 runners one 1/4 the odds - first three places</li>
+                        <li class="help-li">Handicap races with 16 or more runners 1/4 the odds - first four places</li>
+                        <li class="help-li">In all races the number of runners will be the number of runners coming                        under starters orders. Bets won't be accepted where the place stake exceeds                        the win stake.</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+
+    <h3 class="content-item" id="20">
+        <strong>Köpek Yarışları</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Tüm bahisler sadece adı olan tazılara yapılabilir;</li>
+        <li class="content-statement">Ante-Post(sonrası) bahisler sadece all-in run or not, entered or not durumlarında kabul edilir;</li>
+        <li class="content-statement">Tekrar edilen yarışlarda bahisler kalır. Eğer bir yarış tekrar edilmez ve iptal edilirse tüm bahisler de iptal edilir;</li>
+        <li class="content-statement">Eğer adı olan bir tazı(yedek olmayan) seçilmiş ise ve adı olan tazının yerine yedek bir tazı yarışırsa bahis sonucu 'yarışa katılmadı' olarak sonuçlandırılacaktır;</li>
+        <li class="content-statement">Boş tuzaklar, Geçersiz yarışlar ve terk edilmiş toplantılara rağmen tüm bahisler kalır. Eğer yarışın birden fazla kazananı varsa Dead-heat kuralları geçerlidir;</li>
+        <li class="content-statement">Eğer erken fiyatlı bahisler açıklanmışsa ve yarışlar ertelenir ya da geçici olarak yapılmazsa, yarışlar tekrar yapılana ve bitirilene kadar tüm bahisler geçerlilğini korur;</li>
+        <li class="content-statement">
+            Ödemeler sadece yarışın resmi sonuçlarına göre yapılır.<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>haksız fiyat manipülasyonu olduğunu şüphe ettiği veya kanıt olduğunu düşündüğü tüm bahisleri geçersiz ilan etme hakkını saklı tutar.
+        </li>
+    </ol>
+    <h3 class="content-item" id="21">
+        <strong>Gaelic</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Maç sonu bahisleri: Hangi takımın maçı kazanacağını tahmin edin;</li>
+        <li class="content-statement">Tüm maç müsabakaları(sakatlıktan kaynaklanan uzatma da dahil olmak üzere) belirtilen zamana göre bazlıdır. Aksi belirtilmedikçe ek süreler sayılmaz;</li>
+        <li class="content-statement">Her iki takım da oynamazsa bahis iptal edilir;</li>
+        <li class="content-statement">Eğer maç sonuçlanmadan terk edilirse bahisler iptal edilir;</li>
+        <li class="content-statement">Başka bir güne ertelenen maçlar iptal edilir;</li>
+        <li class="content-statement">Yer değişikliği durumunda o ana kadar yapılan bahisler, ev sahibi takım hala ev sahibi kabul edildiği sürece, geçerliliğini korur. Eğer ev sahibi ve konuk takımın yerleri değiştirilirse ilk yapılan orjinal bahisler iptal edilecektir.;</li>
+        <li class="content-statement">Tüm bahisler resmi olan GAA (Gaelic Athletics Association) sonuçlarına göre onaylanır.</li>
+    </ol>
+    <h3 class="content-item" id="22">
+        <strong>Kış Sporları</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Maç sonu bahisleri: Hangi takımın/oyuncunun maçı kazanacağını tahmin edin. Maça katılmayan oyunculara yapılan bahisler iade edilmez;</li>
+        <li class="content-statement">Kış Olimpiyatları: Müsabaka sonuçları resmi madalya töreninde kabul edilen sonuçlardır. Sonuçlara sonradan yapılan değişikler kabul edilmez.</li>
+    </ol>
+    <h3 class="content-item" id="23">
+        <strong>Virtual Sports</strong>
+    </h3>
+    <ol class="ord-list">
+        <li>
+            <h4>Game Play Rules</h4>
+            <ol>
+                <li class="help-li">A virtual betting event takes place every 5 minutes.</li>
+                <li class="help-li">Bets on the next event are accepted until the "bets closed" message appears on the screen, after which the bet will be allocated to the successive event.</li>
+                <li class="help-li">When the event is not specified by the customer, bets are registered on the next event.</li>
+                <li class="help-li">Winnings can be collected once the result of an event is displayed on the results screen.</li>
+                <li class="help-li">The minimum stake per bet is 50c with a maximum payout for any one customer on any one day of €50,000</li>
+                <li class="help-li">A customer who places any bet on these events takes sole responsibility for his actions in placing a bet, and for checking his ticket to ensure it is correctly reflects his chosen bet, and will not 		hold the operator liable in for any loss or damage suffered. The operator will also not be liable for any system malfunction that may result in the nullification, cancellation or refund of a bet at any time.</li>
+                <li class="help-li">No horses or greyhounds are scratched from virtual races.</li>
+                <li class="help-li">There are no dead heats (position draws) in virtual races.</li>
+                <li class="help-li">If any events are cancelled for whatever reason, outstanding bets on the affected events will be paid at settled at 1:1.</li>
+                <li class="help-li">Bet types offered may be altered from time to time.</li>
+            </ol>
+            <h4>Race Event Bet Types &ndash; Single Selection</h4>
+            <ol>
+                <li class="help-li">
+                    <b>Win</b> - Select a runner to finish 1st.
+                </li>
+                <li class="help-li">
+                    <b>Place</b> - Select a runner to finish in 1st, 2nd or 3rd place in a race with 8 runners or more, and 1st, or 2nd in a 6 runner greyhound race.
+                </li>
+                <li class="help-li">
+                    <b>Each-way (“Fractional Place” bet in some fractional odds markets)</b>Select a runner to win or place. This bet consists of two bets on one selection in one event, with the first bet on the runner to 	               			win and the second bet on the runner to place. The place bet pays at a fraction of the win odds as specified on the event data.
+                </li>
+                <li class="help-li">
+                    The Each-Way bet is not offered in most countries. The game system can be configured to set the “place” odds at a fixed proportion of the win odds of the selection as follows:
+                    <ol>
+                        <li class="help-li">Greyhounds pays 1/5th of win odds.</li>
+                        <li class="help-li">Horses pays 1/5th of win odds.</li>
+                    </ol>
+                </li>
+            </ol>
+            <h4>Race Event Bet Types - Multiple Selection Combination Odds</h4>
+            <ol>
+                <li class="help-li">These bet markets carry different terms in different geographical regions. Our data service uses fixed odds (“bookie”) terminology. The system can be configured to display pari-mutuel (“tote”)              terminology on the screen systems and video renders when required. These alternative bet names are shown in parentheses below </li>
+                <li class="help-li">
+                    <b>Forecast (Exacta)</b> - Select 2 runners to finish 1st and 2nd IN ORDER specified.
+                </li>
+                <li class="help-li">
+                    <b>Combination Exacta</b> - Some bet systems offer a player the option of selecting 2 or more selections to bet that every possible combination of two of the selections may finish 1st and 2nd in               order. So for example; on 2 selections there are 2 bets (1-2, 2-1); on 3 selections there are 6 bets (1-2, 1-3, 2-1, 2-3, 3-1, 3-2); on 4 selections there are 12 bets, on 5 selections there are 20 bets and on 6               selections there are 30 bets etc. This is a bet acceptance system bet that uses the Forecast odds in the feed service. The bet acceptance system works out all combinations.
+                </li>
+                <li class="help-li">
+                    <b>Reverse Forecast (Quinella)</b> - Select 2 runners to finish 1st and 2nd in ANY ORDER.
+                </li>
+                <li class="help-li">
+                    <b>Tricast or Trifecta</b> - Select 3 runners to finish 1st, 2nd and 3rd IN ORDER specified.
+                </li>
+                <li class="help-li">
+                    <b>Combination Trifecta</b> - Some bet systems offer a player the option of selecting 3 or more selections to bet that every possible combination of three of the selections may finish 1st, 2nd and 3rd              in order in an event. So for example; on 3 selections there are 6 bets (1-2-3, 1-3-2, 2-1-3, 2-3-1, 3-1-2, 3-2-1); on 4 selections there are 24 bets; on 5 selections there are 60 bets and on 6 selections there are 120               bets. This is a bet acceptance system bet that uses the Tricast odds. The bet acceptance system works out all combinations.
+                </li>
+                <li class="help-li">
+                    <b>Reverse Tricast or Trio</b> - Select 3 runners to finish 1st, 2nd and 3rd in ANY ORDER.
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <p style="text-align: right">
+        <button type="button" onclick="window.print(); return false" class="button">
+            <span class="button_Right">
+                <span class="button_Left">
+                    <span class="button_Center">
+                        <span>Print</span>
+                    </span>
+                </span>
+            </span>
+        </button>
+    </p>
+</div>

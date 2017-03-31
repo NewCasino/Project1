@@ -1,0 +1,7 @@
+<p>$FIRSTNAME$様</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]までご登録頂き有難う御座います。 お客様のアカウントは($USERNAME$)は作成されました。ご使用頂く前にアカウントを有効にする必要があります。</p>
+<p>お客様のアカウントを有効にするには、下記のリンクをクリックして下さい。正常に動作し無い場合は、リンクをコピーして頂き、ブラウザーに直接貼り付けて下さい。</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>もし[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]にてご登録頂けていないようでありましたら、このメールを無視して頂くか、下記のEメールまでご連絡下さい。 <br /><a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]までご登録頂き有難う御座います!</p>
+<p>何卒宜しくお願い申し上げます。<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] チームより</p>

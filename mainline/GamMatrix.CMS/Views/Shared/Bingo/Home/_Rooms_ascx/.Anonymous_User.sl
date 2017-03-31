@@ -1,0 +1,1 @@
+Za igranje igre se morate prijaviti.

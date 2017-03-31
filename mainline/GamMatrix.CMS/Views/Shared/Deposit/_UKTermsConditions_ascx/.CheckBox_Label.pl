@@ -1,0 +1,1 @@
+Przeczytałem i zgadzam się z powyższym powiadomieniem.

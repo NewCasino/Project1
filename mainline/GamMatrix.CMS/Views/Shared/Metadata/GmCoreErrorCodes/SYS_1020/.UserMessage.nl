@@ -1,0 +1,1 @@
+﻿Uw betaal kaart is geblokkeerd

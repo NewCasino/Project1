@@ -1,0 +1,1 @@
+Błąd, ta gra nie jest już dostępna!

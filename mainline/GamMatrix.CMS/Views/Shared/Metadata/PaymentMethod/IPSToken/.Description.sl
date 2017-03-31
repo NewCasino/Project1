@@ -1,0 +1,1 @@
+IPS je sistem predplačniških kuponov. Je varen način takojšnjega prenosa sredstev na vaš račun in z njega.

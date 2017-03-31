@@ -1,0 +1,1 @@
+﻿Hubo un problema con su ID de cuenta, su ID Seguro o la cantidad que ha introducido.  Los campos ID de Cuenta, ID Seguro y cantidad deben contener sólo números. Por favor inténtelo de nuevo.

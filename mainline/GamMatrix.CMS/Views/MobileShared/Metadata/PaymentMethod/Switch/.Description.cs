@@ -1,0 +1,1 @@
+﻿Své prostředky můžete rychle převádět z SOLO karty na váš hráčský účet. Jednoduše vyplňte údaje o své kartě. Jakmile proběhne ověření vaší karty, vaše prostředky budou bezpečně a okamžitě převedeny na váš hráčský účet.

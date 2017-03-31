@@ -1,0 +1,1 @@
+Användarnamn är inte tillgängligt eller används redan av andra, var vänlig prova ett annat användarnamn

@@ -1,0 +1,7 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da Kayıt olduğunuz için Teşekkür ederiz, ($USERNAME$) Hesabınız açıldı ve kullanabilmeden önce Hesabınızı etkinleştirmeniz gerekiyor.</p>
+<p> Hesabınızı etkinleştirmek için, alttaki Linke tıklayınız, karşılık vermez ise, Linki Kopyalayın ve Tarayıcınızın Adres Bölümüne yapıştırınız.</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da Kayıt olmadıyseniz lütfen bu Epostayı Dikkata almayınız veya bize bildiriniz:<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Thank you for registering with [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ekibi</p>

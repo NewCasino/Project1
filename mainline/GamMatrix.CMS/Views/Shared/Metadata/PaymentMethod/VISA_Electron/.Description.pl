@@ -1,0 +1,1 @@
+Możesz szybko przelać pieniądze z karty Visa Electron na swoje konto gracza. Wystarczy podać dane swojej karty. Po zweryfikowaniu karty Electron środki zostaną bezpiecznie i szybko przesłane na Twoje konto gracza.

@@ -1,0 +1,92 @@
+﻿<# 
+    var vendors = {};
+    if( typeof(config !== 'undefined') && config.vendors )
+        vendors = config.vendors;
+
+    var game = arguments[0]; 
+    var formatStr = function(str, name){
+        return str.replace( "{0}", name).htmlEncode();
+    };
+#>
+
+<a class="Close" href="#" title="[Metadata:htmlencode(.Close_Title)]">
+<span class="CloseText">[Metadata:htmlencode(.Close)]</span>
+</a>
+<div class="PopupContent <#= game.Opened ? 'OpenedTable' : 'ClosedTable' #>" >
+    <span class="GameThumb">
+        <# if( game.I.length > 0 ) { #>
+        <img class="GT" src="<#= game.I.htmlEncode() #>" alt="<#= game.G.htmlEncode() #>" />
+        <# } #>
+
+        <span class="Hidden">[Metadata:htmlencode(.Game_Properties)]</span>
+
+        <# if(game.N == 1) { #>
+        <span class="GTnew">New</span>
+        <# } #>
+    
+    
+        <span class="GTfav <#= (game.Fav != 1) ? 'Hidden' : '' #>">[Metadata:htmlencode(.Favorite)]</span>
+
+        <# if(game.H == 1) { #>
+        <span class="GThot">Hot</span>
+        <# } #>
+    
+        <span class="GTprovider <#= game.V #>"><span class="GTicon"><#= game.V #></span></span>
+
+<span class="GTStatus">
+<span class="GTStatusIcon"></span>
+<span class="OptionSpecial"><#= game.Opened ? '[Metadata:scriptencode(.Status_Online)]' : '[Metadata:scriptencode(.Status_Offline)]' #></span>
+        </span>
+
+<# if( game.Limit != null && game.Limit != '' ) { #>
+<span class="GTLimit">
+            [Metadata:htmlencode(.Limit_Label)] <span class="OptionSpecial"><#= game.Limit.htmlEncode() #></span>
+        </span>
+<# } #>
+
+        <span class="SeatInfos <#= (game.SeatsUnlimited == 0 && game.SeatsMax <= 0) ? 'Hidden':'' #> AvSeats Seats-Color1">
+            <span class="SeatsTitle">[Metadata:htmlencode(/LiveCasino/Hall/GameNavWidgetV2/_TableListItem_snippet.SeatsTitle)]</span>
+            <span data-gameseats="<#= (game.SeatsUnlimited == 0 && game.SeatsAvailable) ? game.SeatsAvailable : 'X' #>" id="NrSeats-PopUp" class="NrSeats">
+        <# if(game.SeatsUnlimited == 0) { #>
+<# if('[Metadata:htmlencode(.Seats_ShowOnlyAvailable)]'.toLowerCase() === 'true') { #>
+<span class="SeatsAvailable"> <#=(game.SeatsMax-game.SeatsTaken) #> </span><span class="SeatsAvailableTitle">[Metadata:htmlencode(/LiveCasino/Hall/GameNavWidgetV2/_TableListItem_snippet.SeatsAvailableTitle)]</span>
+<# }else{#>
+<span class="TakenSeats"><#= game.SeatsTaken #></span><span class="SeatsPin">/</span><span class="TotalSeats"><#= game.SeatsMax #></span>
+<# } 
+}else{#>
+<span class="SeatsAvailableTitle Unlimited">[Metadata:htmlencode(/LiveCasino/Hall/GameNavWidgetV2/_TableListItem_snippet.Seats_Unlimited)]</span>
+<# }#>    
+            </span>
+        </span> 
+<# if( game.OpeningHours != null && game.OpeningHours != '' ) { #>
+<span class="GTOpeningHours">
+            [Metadata:htmlencode(.OpeningHours_Label)] <span class="OptionSpecial"><#= game.OpeningHours.htmlEncode() #></span>
+        </span>
+<# } #>
+
+    </span>
+    <h2 class="GameTitle"><#= game.G.htmlEncode() #></h2>
+    <a class="Button CTAButton PlayNowButton" href="#" data-gameid="<#= game.S #>" data-vendorid="<#= game.V #>"
+        title="<#= formatStr('[Metadata:scriptencode(.Link_PlayRealMoney_Title)]', game.G) #>" target="_blank">
+        <span class="ButtonText">[Metadata:htmlencode(.Link_PlayRealMoney)] <span class="ActionSymbol">&#9658;</span></span>
+    </a>
+
+    <ul class="GameOptions">
+<!--
+        <li class="GOItem Fav AddFav <#= (game.Fav == 1) ? 'Hidden' : '' #>">
+            <a href="#" class="GOLink" title="<#= formatStr('[Metadata:scriptencode(.Link_AddFavorite_Title)]', game.G) #>">
+                <span class="ActionIcon">&#9733;</span>[Metadata:htmlencode(.Link_AddFavorite)]
+            </a>
+        </li>
+        <li class="GOItem Fav RemoveFav <#= (game.Fav != 1) ? 'Hidden' : '' #>">
+            <a href="#" class="GOLink" title="<#= formatStr('[Metadata:scriptencode(.Link_RemoveFavorite_Title)]', game.G) #>">
+                <span class="ActionIcon">&#9733;</span>[Metadata:htmlencode(.Link_RemoveFavorite)]
+            </a>
+        </li>
+-->
+    </ul>
+
+ 
+</div>
+
+

@@ -1,0 +1,1 @@
+﻿Este comercio no soporta transacciones NETELLER (1-PAY).

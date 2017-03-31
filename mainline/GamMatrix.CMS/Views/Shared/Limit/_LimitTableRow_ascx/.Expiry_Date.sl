@@ -1,0 +1,1 @@
+﻿Datum poteka : {0}

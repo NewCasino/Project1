@@ -1,0 +1,1 @@
+﻿Transakce nemohla být provedena kvůli problémům se spojením. Pokud budou problémy přetrvávat, kontaktujte oddělení naší zákaznické podpory.

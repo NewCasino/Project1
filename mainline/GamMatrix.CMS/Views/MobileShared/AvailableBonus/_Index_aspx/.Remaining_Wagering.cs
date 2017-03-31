@@ -1,0 +1,1 @@
+﻿Zbývající sázkový požadavek

@@ -1,0 +1,1 @@
+﻿<img src="/Views/Shared/_files/CasinoEngine/all-american-thumb.jpg" /><br />

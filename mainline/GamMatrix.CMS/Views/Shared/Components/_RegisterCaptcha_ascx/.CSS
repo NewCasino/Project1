@@ -1,0 +1,7 @@
+﻿<style>
+#fldRegisterCaptcha {overflow: visible!important;}
+#fldRegisterCaptcha .inputfield_Container {margin: 10px 0;width: 10%;}
+#registerCaptcha {margin-top: 10px;}
+#imgRegisterCaptcha{width:300px;}
+#formQuickRegister #fldRegisterCaptcha {height: 155px;}
+</style>

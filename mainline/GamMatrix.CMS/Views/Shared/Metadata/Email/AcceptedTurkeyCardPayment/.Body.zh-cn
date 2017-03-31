@@ -1,0 +1,5 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>您的存款已经成功完成</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">请点击 "刷新" 按钮(不是web浏览器的刷新按钮) 刷新余额.</strong></span></p>
+<p>如果您有任何的问题，欢迎联系 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>致意,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 团队</p>

@@ -1,0 +1,8 @@
+﻿Kjære $USERNAME$ <br />
+<br />Denne e-posten er sendt for å informere deg om at din permantente periode med selvekskludering har blitt kansellert, og alle funksjonene på kontoen din er nå aktivert. <br />
+<br />
+
+Hvis du har spørsmål kan du ta kontakt med oss på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&#160;</p>
+<p>Hilsen,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte</p>

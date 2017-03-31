@@ -1,0 +1,1 @@
+﻿Betalen per tekstbericht.

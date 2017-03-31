@@ -1,0 +1,8 @@
+﻿<p>Hyvä $USERNAME$,</p>
+<br /> Kiitoksia yhteydenotostasi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Henkilökohtainen pelaamisraja on asetettu to&nbsp;$NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. <br /> <br /> Voit pienentää rajaa heti käyttämällä valikkoa Vastuullinen pelaaminen sivulla. <br /> <br /> Kuitenkin, jos haluat muuttaa rajaa, käytetään 7 päivän muutosaikaa. Tänä aikana voit vielä harkita päätöstäsi..<br /> <br /> Ota yhteyttä jos sinulla on jotain kysyttävää <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p>Ystävällisin teriveisin</p>
+
+
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu;</p>
+

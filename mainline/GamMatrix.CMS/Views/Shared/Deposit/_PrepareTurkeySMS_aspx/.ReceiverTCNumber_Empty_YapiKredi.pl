@@ -1,0 +1,1 @@
+Wpisz numer tureckiego dokument tożsamości odbiorcy.

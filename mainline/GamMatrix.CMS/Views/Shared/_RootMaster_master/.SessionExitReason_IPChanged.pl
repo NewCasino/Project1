@@ -1,0 +1,1 @@
+Zostałeś ﻿rozłączony, ponieważ Twój adres IP uległ zmianie od chwili ostatniego logowania.

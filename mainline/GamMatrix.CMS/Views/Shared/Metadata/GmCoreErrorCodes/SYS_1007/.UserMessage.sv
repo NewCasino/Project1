@@ -1,0 +1,1 @@
+﻿Duplicated vendor limit rule

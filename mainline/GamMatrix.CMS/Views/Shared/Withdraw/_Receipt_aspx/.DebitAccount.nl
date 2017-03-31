@@ -1,0 +1,1 @@
+﻿Bedrag opgenomen van {0} account.

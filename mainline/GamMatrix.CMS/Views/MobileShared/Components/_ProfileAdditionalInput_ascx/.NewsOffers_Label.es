@@ -1,0 +1,1 @@
+﻿Sí, deseo recibir noticias y ofertas por correo electrónico.

@@ -1,0 +1,15 @@
+﻿.SeatInfos {
+    background: url("//cdn.everymatrix.com/JetbullV2/casino/bg-button.png") repeat-x scroll left bottom / 100% 400% #c29723;
+    border: 1px solid #7a670b;
+    border-radius: 4px;
+    bottom: 5px;
+    box-shadow: 0 1px 1px #080808;
+    color: #fffaee;
+    display: inline-block;
+    font-weight: 700;
+    padding: 3px 5px;
+    position: absolute;
+    right: 50px;
+    text-shadow: 0 -1px 0 #2b2626; 
+    width: auto;
+}

@@ -1,0 +1,1 @@
+﻿Tento odkaz již vypršel!

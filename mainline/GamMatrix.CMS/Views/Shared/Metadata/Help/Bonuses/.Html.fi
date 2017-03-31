@@ -1,0 +1,17 @@
+﻿<ol>
+  <li><strong>Mistä löydän tietoa tarjolla olevista kampanjoista?</strong>
+    <p>Voit tarkastella kaikkia nykyiiä kampanjoita napsauttamalla [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kampanjat-välilehteämme.</p>
+  </li>
+  <li><strong>Voinko pelata kaikkia verkkopelejä kun vastaanotan bonuksen tai onko olemassa rajoituksia siitä, mitä pelejä voin pelata?</strong>
+    <p>Tarkista bonusehdot ja jos olet epävarma, ota yhteyttä  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] asiakaspalveluun.</p>
+  </li>
+  <li><strong>Miten tarkistan, että olen täyttänyt kampanjaehdot?</strong>
+    <p>Voit tarkistaa kampanjaehdot näpäyttämällä 'Oma Tili' ja vasemmalta Oma Sports-tilini ja tämän jälkeen nykyiset kampanjat.</p>
+  </li>
+  <li><strong>Mistä syystä minulta voidaan evätä osallistuminen kampanjaan?</strong>
+    <p>Osassa kampanjoista vain tietystä maasta olevat tai tiettyä maksutapaa käyttävät henkilöt ovat oikeutettuja hyödyntämään kampanjaa. Voi olla joitakin yhdistettyihin tileihin ja kampanjoiden väärinkäytöksiin  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] liittyä rajoituksia, saadaksesi neuvoa ota yhteyttä [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] asiakastukeen. <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+  </li>
+</ol>
+<p style="text-align:right">
+  <button type="button" onclick="window.print(); return false" class="button"> <span class="button_Right"> <span class="button_Left"> <span class="button_Center"> <span>Tulostus</span> </span> </span> </span> </button>
+</p>

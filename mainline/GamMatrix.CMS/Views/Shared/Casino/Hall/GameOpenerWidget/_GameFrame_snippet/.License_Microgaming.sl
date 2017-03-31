@@ -1,0 +1,1 @@
+﻿To igro Quickfire upravlja EveryMatrix NV, podjetje, ki je registrirano v {0}. Za več informacij glejte pogoje in določila.

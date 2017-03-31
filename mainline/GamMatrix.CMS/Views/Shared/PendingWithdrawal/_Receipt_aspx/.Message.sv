@@ -1,0 +1,1 @@
+﻿{0:N2} {1} har rullats tillbaka till ditt {2} konto

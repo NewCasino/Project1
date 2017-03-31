@@ -1,0 +1,1 @@
+﻿Ukázat Turkish Blackjack tabulky

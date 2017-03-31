@@ -1,0 +1,1 @@
+Nie można obecnie przetworzyć Twojej prośby o cofnięcie wypłaty.

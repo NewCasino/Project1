@@ -1,0 +1,51 @@
+﻿
+<ol>
+     <li><strong>Kullanıcı adı ve şifremi unuttum, ne yapmalıyım ?</strong>
+     <p>Genellikle şifrenin yanlış girilmesi ile paralo doğrulanamama durumu ortaya &#231;ıkar. Şifreler k&#252;&#231;&#252;k/b&#252;y&#252;k harf duyarlı olduğundan &#246;ncelikle Caps Lock tuşunun kapalı olduğundan emin olunuz.Sorun devam ederse&nbsp; &#8216;şifremi unuttum&#8217; linkine tıklayarak yeni bir şifre oluşturunuz.&nbsp;Yeni şifreniz hesabınızda yer alan e-posta hesabınıza g&#246;nderilecektir.</p>
+     </li>
+     <li><strong>Hesabımla ilgili soruları nasıl sorabilirim ?</strong>
+     <p>L&#252;tfen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] m&#252;şteri hizmetleri ile iletişime ge&#231;iniz&nbsp;<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+     </li>
+     <li><strong>Hesabımı daha fazla kullanmak istemiyorsam ne yapmalıyım ?</strong>
+     <p>Heabınızı kapatmak i&#231;in m&#252;şteri hizmetleri ile iletişime ge&#231;iniz <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+     </li>
+     <li><strong>Şifremi nasıl değiştiririm ?</strong>
+     <p>Şifrenizi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sayfasının yukarısında yer alan &#8216;şifremi unuttum&#8217; linkine tıklayarak değiştirebilirsiniz.</p>
+     </li>
+     <li><strong>Kayıtlı e-posta adresimi nasıl değiştirebilirim ?</strong>
+     <p>E-posta adresinizi kendiniz değiştiremezsiniz ancak ge&#231;erli bir sebebiniz var ise m&#252;şteri hizmetleri ile iletişime ge&#231;erek istediğiniz hesap bilgilerinizi değiştirebilirsiniz &nbsp;<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+     </li>
+     <li><strong>Hesabımın aktif olduğunu nasıl kontrol edebilirim ?</strong>
+     <p>Hesabınızın aktif ouğunu siteye giriş yaparak &#8216;hesabım&#8217; b&#246;l&#252;m&#252;nden g&#246;rebilir veya m&#252;şteri hizmetleri ile iletişime ge&#231;erek bilgi alabilirsiniz.</p>
+     </li>
+     <li><strong>Kullanıcı adımı değiştirebilir miyim ?</strong>
+     <p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] hesabınızda kullandığınız kullanıcı adını değiştiremezsiniz. Kullanıcı adı değiştirmek g&#252;venlik sorunlarına yol a&#231;abileceği ve sistem verilerine zarar vereceği i&#231;in engellenmiştir .</p>
+     </li>
+     <li><strong>Kendimi nasıl engelleyebilirim ?</strong>
+     <p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] hesabınızda kendini engelle b&#246;l&#252;m&#252;nden hesabımı blokla butonuna basarak engelleyebilirsiniz. Siteye ancak belirlediğiniz s&#252;re bittiğinde girebilirsiniz.</p>
+     </li>
+     <li><strong>Nasıl iptal edebilirim ?</strong>
+     <p>Hesabınıza kendinizi engellediğiniz s&#252;re boyunca erişemessiniz.</p>
+     </li>
+     <li>
+     <p><strong>Kendimi koruma s&#252;resi bittiğinde ne yapmalıyım ?</strong></p>
+     <p>Kendini koruma s&#252;reniz bittiğinde [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] m&#252;şteri ilişkileri ile iletişime ge&#231;erek hesabınızı a&#231;tırabilirsiniz.</p>
+     </li>
+     <li>
+     <p><strong>M&#252;şteri ilişkilerine sorduğum sorulara cevap alamıyorum ?</strong></p>
+     <p>M&#252;şteri ilişkilerine g&#246;nderilen t&#252;m mesajlara 24 saat i&#231;inde cevap verilmeye &#231;alışılmaktadır. Daha detaylı araştırma ve bilgi gerektiren durumlarda sorunuzun yapısına bağlı olarak cevap verme s&#252;resi uzayabilir. Mesajınız ulaştığında [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tarafından sorgunuzun alındığı ve &#252;zerinde &#231;alışıldığına dair bir onay mesajı alırsınız. Eğer onay maili size ulaşmadıysa &#214;nemsiz Posta klas&#246;r&#252;n&#252; kontrol ediniz. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tarafından istenmeyen postalar hi&#231;bir zaman g&#246;nderilmez ancak yine de bazı spam filtreleri tarafından maillerimiz spam olarak algılanabilir. <br />
+     </p>
+     </li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

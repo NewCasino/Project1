@@ -1,0 +1,1 @@
+Akbank är en Turkisk-baserad bank

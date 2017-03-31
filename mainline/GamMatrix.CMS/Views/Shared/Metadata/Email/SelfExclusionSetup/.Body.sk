@@ -1,0 +1,11 @@
+﻿<p>Dobrý deň $FIRSTNAME$,</p>
+<br />
+<p>Názov účtu: $USERNAME$ </p>
+<br />
+Tento e-mail potvrdzuje vami zadaný zámok na vašom účte ktorý vyprší $EXPIRY_DATETIME$. Počas tohto času sa nebudete môcť prihlásiť do vášho účtu. Budeme vás informovať e-mailom keď tento čas vyprší.
+<br />
+<br />
+Ak máte nejaké otázky neváhajte nás kontaktovať <a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>Kind Regards,</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] Zákaznícke centrum</p>

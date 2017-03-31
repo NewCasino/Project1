@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <node id="48238ECC-701D-11E1-8F5A-A9D84724019B" type="category" label="Table Games" isBranch="true">
+    <node label="Jacks or Better" type="" vendor="Microgaming" id="7822" categories="VIDEOPOKERS,MOBILEGAMES" platforms="iPad,iPhone" />
+    <node label="Aces and Eights" type="" vendor="Microgaming" id="7823" categories="VIDEOPOKERS,MOBILEGAMES" platforms="iPad,iPhone" />
+    <node label="Tomb Raider" type="" vendor="Microgaming" id="7821" categories="VIDEOSLOTS,MOBILEGAMES" platforms="iPad,iPhone" />
+    <node label="Thunderstruck" type="" vendor="Microgaming" id="7824" categories="VIDEOSLOTS,MOBILEGAMES" platforms="iPad,iPhone" />
+    <node label="European Roulette" type="" vendor="Microgaming" id="7820" categories="TABLEGAMES,MOBILEGAMES" platforms="iPad,iPhone" />
+    <node label="Mermaids Millions" type="" vendor="Microgaming" id="7826" categories="VIDEOSLOTS,MOBILEGAMES" platforms="iPad,iPhone" />
+    <node label="European Blackjack" type="" vendor="Microgaming" id="7827" categories="TABLEGAMES,MOBILEGAMES" platforms="iPad,iPhone" />
+    <node label="Joker Poker" type="" vendor="PlaynGO" id="7918" categories="VIDEOPOKERS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+  </node>
+  <node id="3B487A46-701D-11E1-96CD-8FD84724019B" type="category" label="Classic Slots" isBranch="true">
+    <node label="Cleopatra" type="" vendor="IGT" id="7780" categories="VIDEOSLOTS" platforms="iPad,iPhone,Android" />
+  </node>
+  <node id="409A2FD0-701D-11E1-B901-91D84724019B" type="category" label="Video Slots" isBranch="true">
+    <node label="Scratch Ahoy" type="" vendor="PlaynGO" id="7814" categories="OTHERGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="5x Magic" type="" vendor="PlaynGO" id="7832" categories="VIDEOSLOTS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Jolly Roger" type="" vendor="PlaynGO" id="7831" categories="VIDEOSLOTS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Fortune Teller" type="" vendor="PlaynGO" id="7841" categories="CLASSICSLOTS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Deuces Wild" type="" vendor="PlaynGO" id="7836" categories="VIDEOPOKERS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Trey Card Poker" type="" vendor="PlaynGO" id="7844" categories="TABLEGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Mini Baccarat" type="" vendor="PlaynGO" id="7838" categories="TABLEGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Triple Chance HiLo" type="" vendor="PlaynGO" id="7843" categories="OTHERGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Speed Cash" type="" vendor="PlaynGO" id="7840" categories="CLASSICSLOTS,JACKPOTGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Casino Hold’em" type="" vendor="PlaynGO" id="7842" categories="TABLEGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Irish Gold" type="" vendor="PlaynGO" id="7833" categories="VIDEOSLOTS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Wild Melon" type="" vendor="PlaynGO" id="7818" categories="CLASSICSLOTS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Jacks or Better" type="" vendor="PlaynGO" id="7829" categories="VIDEOPOKERS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Jackpot Poker" type="" vendor="PlaynGO" id="7816" categories="VIDEOPOKERS,JACKPOTGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="BlackJack" type="" vendor="PlaynGO" id="7834" categories="TABLEGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Roulette" type="" vendor="PlaynGO" id="7835" categories="TABLEGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Bell of Fortune" type="" vendor="PlaynGO" id="7839" categories="CLASSICSLOTS,JACKPOTGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Golden Goal" type="" vendor="PlaynGO" id="7805" categories="CLASSICSLOTS,JACKPOTGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Gift Shop" type="" vendor="PlaynGO" id="7799" categories="CLASSICSLOTS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Casino Stud Poker" type="" vendor="PlaynGO" id="7845" categories="TABLEGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Lucky Diamonds" type="" vendor="PlaynGO" id="7796" categories="CLASSICSLOTS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Ace of Spades" type="" vendor="PlaynGO" id="7803" categories="CLASSICSLOTS,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+    <node label="Hole-in-One" type="" vendor="PlaynGO" id="7846" categories="OTHERGAMES,MOBILEGAMES" platforms="iPad,iPhone,Android,WM7" />
+  </node>
+  <node id="45411148-701D-11E1-8368-A5D84724019B" type="category" label="Video Pokers" isBranch="true" />
+  <node id="57EEDE40-755B-11E1-A42F-5B0F4824019B" type="category" label="Lottery" isBranch="true" />
+  <node id="5D256F0A-755B-11E1-AD74-800F4824019B" type="category" label="Jackoot Games" isBranch="true" />
+</root>

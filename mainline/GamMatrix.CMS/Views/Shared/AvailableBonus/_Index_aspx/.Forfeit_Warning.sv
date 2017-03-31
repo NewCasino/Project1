@@ -1,0 +1,1 @@
+Dina vinster och bonusbelopp kommer att förverkas i enlighet med de Villkor och bestämmelser som du har accepterat. Är du säker på att du vill fortsätta?

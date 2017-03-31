@@ -1,0 +1,1 @@
+﻿Odměny za hotovost

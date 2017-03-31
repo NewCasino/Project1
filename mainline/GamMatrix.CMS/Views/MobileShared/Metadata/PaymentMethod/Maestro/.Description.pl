@@ -1,0 +1,1 @@
+﻿Szybkiej wpłaty pieniędzy na konto do gry z karty Maestro można dokonać za pośrednictwem Moneybookers. Wystarczy podać dane karty; po zweryfikowaniu karty Maestro będzie można bezpiecznie i błyskawicznie przelewać środki na konto do gry.

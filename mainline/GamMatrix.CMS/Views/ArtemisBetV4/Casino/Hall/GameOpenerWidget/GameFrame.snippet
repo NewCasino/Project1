@@ -1,0 +1,71 @@
+﻿<#
+    var game = arguments[0]; 
+    var getText = function(g) {
+        if( !g.RealMoney )
+            return '[Metadata:scriptencode(.Play_In_Fun)]';
+        return g.TCTxt;
+    };
+#>
+<div class="GameArea" id="<#= game.ElementID #>">
+
+    <h1 class="GameTitle"><#= game.Name.htmlEncode() #></h1>
+
+    <div class="ControlBar">
+        <ul class="ControllerButtons">
+            <li class="CB CBBack">
+                <a class="Button BackButton" href="javascript:void(0)">
+                    <span class="CBIcon GameBack">[Metadata:htmlencode(.Button_Back)]</span>
+                    <span class="CBText">[Metadata:htmlencode(.Button_Back)]</span>
+                </a>
+            </li>
+            <# if( !game.IsFavorite ) { #>
+                <li class="CB CBFav">
+                    <a class="Button" href="javascript:void(0)">
+                        <span class="CBIcon AddToFavIcon">[Metadata:htmlencode(.Button_AddToFav)]</span>
+                        <span class="CBText">[Metadata:htmlencode(.Button_AddToFav)]</span>
+                    </a>
+                </li>
+            <# } else { #>
+                <li class="CB CBFav CBActive">
+                    <a class="Button" href="javascript:void(0)">
+                        <span class="CBIcon AddToFavIcon">[Metadata:htmlencode(.Button_RemoveFav)]</span>
+                        <span class="CBText">[Metadata:htmlencode(.Button_RemoveFav)]</span>
+                    </a>
+                </li>
+            <# } #>
+            <# if( game.HasHelpUrl) { #>
+                <li class="CB CBInfo">
+                    <a class="Button" href="javascript:void(0)">
+                        <span class="CBIcon GameInfoIcon">[Metadata:htmlencode(.Button_GameInfo)]</span>
+                        <span class="CBText">[Metadata:htmlencode(.Button_GameInfo)]</span>
+                    </a>
+                </li>
+            <# } #>
+            <li class="CB CBQuickDeposit"></li>
+            <# if ( !game.RealMoney ) { #>
+                <li class="CB CBReal">
+                    <a class="Button RealMoneyCTA" href="<#= game.Url.htmlEncode() #>" data-gameid="<#= game.Slug #>">
+                        <span class="CBIcon RealMoneyIcon">$</span>
+                        <span class="CBText">[Metadata:htmlencode(/Casino/Hall/GameNavWidget/_GamePopup_snippet.Link_PlayRealMoney)]</span>
+                    </a>
+                </li>
+            <# } #>
+        </ul>
+    </div>
+
+    <div class="GameContainer">
+        <iframe data-width="<#= game.Width #>" data-height="<#= game.Height #>" src="<#= game.Url.htmlEncode() #>" scrolling="no" frameborder="0" class="GameLoaderIframe" allowtransparency="allowtransparency"></iframe>
+    </div>
+
+    <# if( !game.RealMoney || (game.License != null && game.License != 'none') ) { #>
+        <div class="License">
+            <p class="LicenseText License_<#= game.License #>" title="<#= getText(game).htmlEncode() #>"><#= getText(game).htmlEncode() #></p>
+            <# if ( !game.RealMoney ) { #>
+                <a class="Button LicenseCTA" href="<#= game.Url.htmlEncode() #>" data-gameid="<#= game.Slug #>">
+                    <span class="ButtonText">[Metadata:htmlencode(/Casino/Hall/GameNavWidget/_GamePopup_snippet.Link_PlayRealMoney)]</span>
+                </a>
+            <# } #>
+        </div>
+    <# } #>
+
+</div>

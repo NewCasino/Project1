@@ -1,0 +1,1 @@
+Dokonaj przelewu zgodnie z poniższymi informacjami.

@@ -1,0 +1,1 @@
+Upoštevajte, da so limiti osnovani na koledarskih tednih oziroma mesecih. Nastavljeni limit pologa bo ponastavljen na začetku vsakega novega tedna oziroma meseca. Na primer, če ste 20. avgusta limit pologa nastavili na 100 € in ste do konca meseca položili največji razpoložljivi znesek, lahko novih 100 € znova položite 1. septembra.

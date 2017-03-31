@@ -1,0 +1,1 @@
+﻿Teoretické vyplacení

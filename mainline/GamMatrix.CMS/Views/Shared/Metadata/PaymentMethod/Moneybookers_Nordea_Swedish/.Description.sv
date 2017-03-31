@@ -1,0 +1,1 @@
+﻿Nordea via Skrill är ett mycket säkert sätt att föra över pengar från ditt bankkonto online.&nbsp;Nordea medger snabba och enkla överföring utan problem.

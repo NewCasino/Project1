@@ -1,0 +1,1 @@
+Vaše zahteve za razveljavitev izplačila trenutno ni mogoče obdelati.

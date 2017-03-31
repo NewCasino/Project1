@@ -1,0 +1,1 @@
+Właściwości gry:

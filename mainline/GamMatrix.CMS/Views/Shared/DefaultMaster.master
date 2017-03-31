@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx"  PageTemplate="/RootMaster.master"  Title="<%$ Metadata:value(.Title)%>" %>
+
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server">
+
+
+<asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+
+
+<div id="container">
+    <div class="content">
+        <div class="inner">
+            <asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            <%= this.GetMetadata("/Metadata/Footer.Html").HtmlEncodeSpecialCharactors() %>
+        </div>
+    </div>
+    <div id="header">
+    </div>
+</div>    
+
+
+
+
+</asp:Content>
+

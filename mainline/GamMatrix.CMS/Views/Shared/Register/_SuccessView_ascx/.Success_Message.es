@@ -1,0 +1,1 @@
+﻿Gracias, le hemos enviado un correo electrónico de confirmación. Siga las instrucciones del correo electrónico para completar el registro.

@@ -1,0 +1,2 @@
+﻿EntroPay es una tarjeta virtual prepagada de Visa  que puede ser utilizada online, en cualquier lugar donde se acepte Visa. 
+En su  EnroPay VISA puede realizar depósitos de cualquier tarjeta de crédito, de débito o mediante transferencia bancaria.

@@ -1,0 +1,1 @@
+﻿Neplatný promo kód.

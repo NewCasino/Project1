@@ -1,0 +1,1 @@
+﻿Kasino hry - teoretické vyplacení

@@ -1,0 +1,1 @@
+Pobieranie sald nie powiodło się.

@@ -1,0 +1,1 @@
+﻿Er is een fout in uw vriends gebruikersnaam of e-mail adres.

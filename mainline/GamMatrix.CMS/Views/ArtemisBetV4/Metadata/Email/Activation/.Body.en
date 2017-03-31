@@ -1,0 +1,17 @@
+﻿<p>Dear $USERNAME$,</p>
+<p>Welcome to [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>
+<p>Your account is ready for you to play.<br />
+<br />
+For your security we would like you to verify your email. To do this simply click on the link below:<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p><br />
+If this link does not respond, copy and paste the link directly into your browser. <br />
+<br />
+If you have not registered with [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], please disregard this email or inform us at: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+Please ensure you complete the email verification within the next 7 days, otherwise it may result in your account being restricted for your protection. <br />
+<br />
+Thank you for registering and best of luck at [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>Kind Regards,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Service Team</p>

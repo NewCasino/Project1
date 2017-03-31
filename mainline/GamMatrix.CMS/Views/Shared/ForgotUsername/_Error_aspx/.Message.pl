@@ -1,0 +1,1 @@
+W chwili obecnej nie mogliśmy wysłać wiadomości e-mail. Spróbuj ponownie później.

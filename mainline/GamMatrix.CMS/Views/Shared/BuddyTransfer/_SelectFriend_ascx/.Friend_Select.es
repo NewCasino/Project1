@@ -1,0 +1,1 @@
+﻿Seleccione el amigo al que desea transferir

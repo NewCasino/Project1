@@ -1,0 +1,1 @@
+﻿El número de la tarjeta es obligatorio

@@ -1,0 +1,1 @@
+Korzystasz z przeglądarki Internet Explorer 6. Niektóre funkcje mogą nie być dostępne i zalecamy, żebyś uaktualnił swoją przeglądarkę Internet Explorer do wersji wyższej, aby zapewnić sobie lepszą obsługę.

@@ -1,0 +1,1 @@
+﻿To samo konto źródłowe i docelowe

@@ -1,0 +1,1 @@
+﻿Wysłanie wiadomości e-mail nie jest w tej chwili możliwe. Proszę spróbować ponownie później.

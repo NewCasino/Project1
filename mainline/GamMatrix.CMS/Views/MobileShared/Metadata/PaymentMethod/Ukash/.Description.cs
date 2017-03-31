@@ -1,0 +1,2 @@
+﻿Vemte své peníze. A vyměňte je za Ukash voucher a plaťte jím online. Je to velmi jednoduché a nemusíte o sobě vkládat žádné bankovní údaje.<br />
+<a href="https://direct.ukash.com/forexViewer/ExchangeRates.aspx" target="_blank">Prohlédněte si měnové kurzy pro Ukash</a>

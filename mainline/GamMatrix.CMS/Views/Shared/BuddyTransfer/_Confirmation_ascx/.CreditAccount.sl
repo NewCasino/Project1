@@ -1,0 +1,1 @@
+﻿Nakazilo na uporabniški {0} {1} račun

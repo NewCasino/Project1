@@ -1,0 +1,1 @@
+Summa kan inte vara tomt

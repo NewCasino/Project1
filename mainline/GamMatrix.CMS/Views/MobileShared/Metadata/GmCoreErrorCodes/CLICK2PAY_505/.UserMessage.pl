@@ -1,0 +1,1 @@
+﻿Odmowa anulowania — problem czasowy.

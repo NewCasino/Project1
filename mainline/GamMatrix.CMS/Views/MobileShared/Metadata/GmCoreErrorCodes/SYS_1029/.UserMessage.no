@@ -1,0 +1,1 @@
+﻿Brukeren er ikke tilordnet rollen '{0}'

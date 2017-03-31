@@ -1,0 +1,8 @@
+﻿Questa è un' e-mail automatica, per favore non rispondere. 
+<hr/>
+<p>Caro/a $FIRSTNAME$</p>
+<p>Il tuo conto è stato bloccato a causa di troppi tentativi di login falliti e verrà sbloccato automaticamente tra 15 minuti. </p>
+<p>Se hai dimenticato la password e hai bisogno di cambiarla per favore utilizza &quot;Forgot password&quot; il link al sito web.</p>
+<p>Per ulteriore assistenza contatta <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Cordialmente, <br /> [Metadata:value(/Metadata/Settings.Operator_DisplayName)] Il servizio assistenza</p>
+

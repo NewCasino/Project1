@@ -1,0 +1,13 @@
+﻿.Cat-video-slots .CatIcon { background-position : -113px -52px; }
+.Cat-jackpot-games .CatIcon{background-position : -185px -52px;}
+.Cat-scratch-cards .CatIcon { background-position : -209px -52px; }
+.Cat-video-poker .CatIcon{background-position : -233px -52px;}
+.Cat-other-games .CatIcon { background-position : -257px -52px; }
+.All .CatIcon { background-position : -17px -52px; }
+iframe.GameLoaderIframe { width:80% }
+.CasinoGameOverlay { position:fixed; left:0px; top:0px; display:block; z-index:99999; width:100%; height:100%; background-repeat:no-repeat; cursor:progress; background-position:center; background-size:100%; background-color:black; }
+.CasinoGameOverlay .Wrapper1 { float:left; position:relative; left:50%; }
+.CasinoGameOverlay .Wrapper2 { float:left; position:relative; left:-50%; }
+.CasinoGameOverlay .PopupContainer { display:inline-block; margin:10px; }
+#lhnContainerDone{ float:right; margin-top:3px;  }
+.Cat-multi-player .CatIcon {background: url("//cdn.everymatrix.com/JetbullV2/img/image003v2.png") no-repeat scroll center top transparent; background-size:100% 100%;}

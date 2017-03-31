@@ -1,0 +1,1 @@
+﻿Výběr přímo na NETE(1Pay) účet

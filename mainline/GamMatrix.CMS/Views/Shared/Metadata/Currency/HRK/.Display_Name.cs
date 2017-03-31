@@ -1,0 +1,1 @@
+﻿Chorvatská kuna

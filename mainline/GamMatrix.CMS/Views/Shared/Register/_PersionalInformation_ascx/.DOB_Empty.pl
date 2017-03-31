@@ -1,0 +1,1 @@
+Wybrano nieprawidłowe dane

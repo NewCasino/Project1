@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" PageTemplate="/DefaultMaster.master" Title="<%$ Metadata:value(.Title)%>" MetaKeywords="<%$ Metadata:value(.Keywords)%>" MetaDescription="<%$ Metadata:value(.Description)%>" %>
+
+
+<asp:content contentplaceholderid="cphHead" runat="Server">
+
+
+<asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+</asp:content>
+
+
+<asp:content contentplaceholderid="cphMain" runat="Server">
+<% Html.RenderPartial("/Casino/Hall/GameMultiOpenerWidget/Main", this.ViewData.Merge(new { })); %>
+<asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+
+<script type="text/javascript">
+    $('html').addClass('CasinoPage');
+
+    $(document).on('GAME_MULTI_POPUP_INITIALIZED', function (event, gameMOWidget) {
+        //debugger;
+        var gameBarWidgetContainerId = $('.gamebarwidget-container', gameMOWidget.Container).attr('id');
+
+        var gameBarWidgetInstance = window['gameNavBarWidget_' + gameBarWidgetContainerId.split('_')[1]];
+
+        gameBarWidgetInstance.GamesShowing = function () {
+            $('#gameBarWidgetIframe', gameMOWidget.Container).css('width', '');
+            $('.gamebarwidget-buttons-container', gameBarWidgetInstance.container).css('height', '100%');
+
+            gameBarWidgetInstance.Properties.animationValue = $('.iframe-container', gameMOWidget.Container).width();
+
+            setGamesBarCentered(gameBarWidgetInstance);
+        };
+
+        gameBarWidgetInstance.GamesShowed = function () {
+            $('#gameBarWidgetIframe', gameMOWidget.Container).attr('data-visible', 'true');
+        };
+
+        gameBarWidgetInstance.GamesHided = function () {
+            var buttonsWidth = $('.gamebarwidget-buttons-container', gameBarWidgetInstance.container).width();
+            $('.gamebarwidget-buttons-container', gameBarWidgetInstance.container).css('height', '');
+            $('#gameBarWidgetIframe', gameMOWidget.Container).width(buttonsWidth);
+
+            $('#gameBarWidgetIframe', gameMOWidget.Container).attr('data-visible', 'false');
+        };
+
+        gameBarWidgetInstance.GameLoaded = function () {
+            $('.games-holder > div', gameBarWidgetInstance.container).css('width', '');
+            $('#gameBarWidgetIframe', gameMOWidget.Container).width($('#gamesHolder', gameMOWidget.Container).css('left'));
+            $('#gameBarWidgetIframe', gameMOWidget.Container).attr('data-visible', 'false');
+            $('#gameBarWidgetIframe', gameMOWidget.Container).show();
+        };
+
+        gameMOWidget.GetAvaliableGameSize = function (iframeContainer) {
+            if (gameMOWidget.IsFullScreen == true) {
+                return { height: gameMOWidget.Container.height(), width: iframeContainer.width(), occupiedHeight: 0 };
+            }
+
+            var controlsBottomHeight = 0;// $('.ControlBar.bottom', gameMOWidget.Container).outerHeight(true);
+            var addonContainerHeight = $('.AddOnBar', gameMOWidget.Container).outerHeight(true);
+            var gamesHolderTop = $('#gamesHolder', gameMOWidget.Container).position().top;
+            var gamesHolderLeft = $('#gamesHolder', gameMOWidget.Container).position().left;
+            var controlsRightWidth = 0;
+
+            if ($('.ControlBar.right', gameMOWidget.Container).css('display') != 'none') {
+                controlsRightWidth = $('.ControlBar.right', gameMOWidget.Container).outerWidth(true);
+            }
+            
+            var occupiedHeight = gamesHolderTop + controlsBottomHeight + addonContainerHeight;
+
+            var heightExceptGame = iframeContainer.offset().top + occupiedHeight;
+            var avaliableGameHeight = gameMOWidget.Container.height() - heightExceptGame;
+
+            var paddingLeft = parseFloat($('.PopupContainer', gameMOWidget.Container).css('padding-left'));
+            paddingLeft = !isNaN(paddingLeft) ? paddingLeft : 0;
+            var paddingRight = parseFloat($('.PopupContainer', gameMOWidget.Container).css('padding-right'));
+            paddingRight = !isNaN(paddingRight) ? paddingRight : 0;
+
+            var containerWidth = iframeContainer.width() - controlsRightWidth - gamesHolderLeft -
+                paddingLeft - paddingRight;
+
+            return { height: avaliableGameHeight, width: containerWidth, occupiedHeight: occupiedHeight };
+        };
+
+        gameMOWidget.GetIframeContainerSize = function (gameWidth, gameHeight, gameBorderLeftRight, gameBorderTopBottom, occupiedHeight) {
+            var result = { width: 0, height: 0 };
+
+            var gameHeightWithBorder = gameHeight + gameBorderTopBottom;
+            var gameWidthWithBorder = gameWidth + gameBorderLeftRight;
+            var gamesHolderLeft = $('#gamesHolder', gameMOWidget.Container).position().left;
+
+            if (gameMOWidget.GameMode.Current == gameMOWidget.GameModes.Single) {
+                result.width = gameWidthWithBorder + gamesHolderLeft;
+                result.height = gameHeightWithBorder + occupiedHeight;
+
+                $('.ControlBar.bottom').width(gameWidthWithBorder);
+            } else if (gameMOWidget.GameMode.Current == gameMOWidget.GameModes.Double) {
+                result.width = 2 * gameWidthWithBorder + gamesHolderLeft;
+                result.height = gameHeightWithBorder + occupiedHeight;
+
+                $('.ControlBar.bottom').width(2 * gameWidthWithBorder);
+            } else if (gameMOWidget.GameMode.Current == gameMOWidget.GameModes.Fourth) {
+                result.width = 2 * gameWidthWithBorder + gamesHolderLeft;
+                result.height = 2 * gameHeightWithBorder + occupiedHeight;
+
+                $('.ControlBar.bottom').width(2 * gameWidthWithBorder);
+            }
+
+            var buttonsWidth = $('.gamebarwidget-buttons-container', gameBarWidgetInstance.container).width();
+            var paddingLeftRight = parseFloat($('.games-holder', gameBarWidgetInstance.container).css('padding-left')) + 
+                parseFloat($('.games-holder', gameBarWidgetInstance.container).css('padding-right'));
+            var paddingTopBottom = parseFloat($('.games-holder', gameBarWidgetInstance.container).css('padding-top')) +
+                parseFloat($('.games-holder', gameBarWidgetInstance.container).css('padding-bottom'));
+
+            $('.games-holder', gameBarWidgetInstance.container).width(Math.floor(result.width - buttonsWidth) - paddingLeftRight);
+            $('.games-holder', gameBarWidgetInstance.container).height(result.height - paddingTopBottom);
+
+            if ($('#gameBarWidgetIframe', gameMOWidget.Container).attr('data-visible') == "true") {
+                $('#gameBarWidgetIframe', gameMOWidget.Container).width(result.width);
+                gameBarWidgetInstance.container.width(result.width);
+            }
+
+            setGamesBarCentered(gameBarWidgetInstance);
+
+            return result;
+        };
+
+        gameMOWidget.ResizeGames();
+    });
+
+    function setGamesBarCentered(gameBarWidgetInstance) {
+        var containerWidth = $('.games-holder', gameBarWidgetInstance.container).width();
+        var gameThumbWidth = $($('.games-holder .gamebarwidget-game-title', gameBarWidgetInstance.container)[0]).outerWidth(true);
+
+        var gamesCountInOneLine = Math.floor(containerWidth / gameThumbWidth);
+
+        var width = gamesCountInOneLine * gameThumbWidth;
+
+        $('.games-holder .gameBarWidget-games-container', gameBarWidgetInstance.container).width(width);
+    }
+</script>
+</asp:content>
+

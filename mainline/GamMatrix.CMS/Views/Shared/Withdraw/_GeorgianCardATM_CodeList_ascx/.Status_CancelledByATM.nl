@@ -1,0 +1,1 @@
+﻿Geannuleerd door geldautomaat

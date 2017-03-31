@@ -1,0 +1,1 @@
+Ditt Secure ID måste vara minst 6 tecken

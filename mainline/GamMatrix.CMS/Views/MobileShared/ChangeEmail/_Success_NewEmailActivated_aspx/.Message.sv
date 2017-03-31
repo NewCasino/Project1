@@ -1,0 +1,1 @@
+Din nya e-mailadress har blivit bekräftad och aktiverad.

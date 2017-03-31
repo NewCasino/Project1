@@ -1,0 +1,1 @@
+﻿Apertura de registro

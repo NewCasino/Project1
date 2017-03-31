@@ -1,0 +1,1 @@
+Nie masz uprawnień do gry, uzupełnij najpierw swój profil.

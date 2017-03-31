@@ -1,0 +1,1 @@
+﻿Proszę wprowadzić numer rozliczeniowy.

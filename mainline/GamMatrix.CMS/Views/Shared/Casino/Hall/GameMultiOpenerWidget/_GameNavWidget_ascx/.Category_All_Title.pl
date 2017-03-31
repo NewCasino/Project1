@@ -1,0 +1,1 @@
+Wyświetl wszystkie dostępne gry

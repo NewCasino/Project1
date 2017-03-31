@@ -1,0 +1,15 @@
+﻿<p>Stimate $USERNAME$,<br /> <br /> Iti multumim pentru inregistrarea contului Jetbull<br /> <br /> Pentru siguranta dvs., dorim sa va reamintim sa va verificati adresa de email pentru a va asigura ca veti avea contul activ si pentru a putea continua sa va bucurati de ofertele Jetbull disponibile.<br /> <br /> Va rugam sa faceti click pe linkul de mai jos, iar daca acesta nu raspunde, incercati sa copiati si inserati linkul in browserul dvs.<br /> <br /> <a ref="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />Daca nu v-ati inregistrat un cont Jetbull, va rugam ignorati acest email sau sa ne informati la <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br /> <br /> Va rugam sa va asigurati de finalizarea verificarii imediat pentru a preveni restrictionarea contului pentru protectia dvs.
+<p><br /> Salutari,<br /> Echipa Jetbull</p>
+<script type="text/javascript">// <![CDATA[
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5470473-6']);
+  _gaq.push(['_setDomainName', 'jetbull.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// ]]></script>

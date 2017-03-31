@@ -1,0 +1,1 @@
+Politika o varovanju zasebnosti

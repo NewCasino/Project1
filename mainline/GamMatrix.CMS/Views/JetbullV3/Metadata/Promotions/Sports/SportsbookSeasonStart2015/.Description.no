@@ -1,0 +1,1 @@
+﻿Deposit now and we will add 100% of the deposited amount, up to €100 (or your account currency equivalent), to your account!

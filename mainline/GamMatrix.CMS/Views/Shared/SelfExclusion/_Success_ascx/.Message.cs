@@ -1,0 +1,2 @@
+﻿Operace byla úspěšně dokončena!
+

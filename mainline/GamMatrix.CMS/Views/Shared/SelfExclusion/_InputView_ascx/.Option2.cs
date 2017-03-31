@@ -1,0 +1,1 @@
+﻿6 měsíců pozastavení

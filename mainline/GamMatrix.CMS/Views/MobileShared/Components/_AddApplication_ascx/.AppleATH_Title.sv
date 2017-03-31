@@ -1,0 +1,1 @@
+﻿Lägg [metadata:value(/Metadata/Settings.Operator_DisplayName)]till startskärmen!

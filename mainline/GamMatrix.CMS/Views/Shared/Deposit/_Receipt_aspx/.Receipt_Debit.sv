@@ -1,0 +1,1 @@
+Belopp som debiterats från ditt {0} konto

@@ -1,0 +1,2 @@
+﻿En feil oppsto og transaksjonen ikke kunne gjennomføres
+

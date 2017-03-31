@@ -1,0 +1,1 @@
+Koda SWIFT je neveljavna; vzorčne kode SWIFT ne morete uporabiti.

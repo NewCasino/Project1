@@ -1,0 +1,1 @@
+﻿Nejlepší vítěz dne

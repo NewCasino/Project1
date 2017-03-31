@@ -1,0 +1,25 @@
+﻿<div style="height: 60px; padding-top: 30px; background-color: #000; text-align: center; min-width: 500px;" align="center"><img src="http://cdn.everymatrix.com/JetbullV2/img/logo.png" /></div>
+<div style="height: 40px; background-color: #810a0a; color: #fff; line-height: 40px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; min-width: 500px;">Thank you $FIRSTNAME$</div>
+<div style="font-family: Arial, sans-serif; width: 440px; margin: 0 auto; background-color: #ededed; color: #000; padding: 40px; margin-top: 30px; margin-bottom: 30px; line-height: 22px;"><a href="$ACTIVELINK$" style="color: #fff; display: block; background-color: #810a0a; width: 200px; margin: 0 auto; text-decoration: none; border-radius: 8px; text-align: center; height: 35px; line-height: 35px; text-shadow: 0 1px 1px #000; margin-bottom: 10px; font-size: 16px;">VERIFY ACCOUNT</a>
+<p><span style="font-size: 10.0pt; color: #000;">Thank you for registering at [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</span></p>
+<p><span style="font-size: 10.0pt; color: #000;">For security reasons the registration process requires to verify your email. Please click on the link below:&nbsp;</span></p>
+<p><a href="$ACTIVELINK$" style="color: #000;">$ACTIVELINK$</a></p>
+<p><span style="font-size: 10.0pt; color: #000;">If this link does not respond, please copy and paste the link directly into your browser.<span class="apple-converted-space">&nbsp;</span></span></p>
+<p><span class="apple-converted-space"><span style="font-size: 10.0pt; color: #000;">Please ensure you complete this email verification within the next 7 days, </span></span><span style="font-size: 10.0pt; color: #000;">otherwise it may result in your account being restricted for your protection.<span class="apple-converted-space">&nbsp;</span></span></p>
+<p><span style="font-size: 10.0pt; color: #000;">In case you have questions please use our 24/7 <span style="text-decoration: underline;"><a target="_blank" href="https://www.livehelpnow.net/lhn/lcv.aspx?d=21838&amp;ms=&amp;zzwindow=21015&amp;lhnid=19692" style="color: #000;">Live Chat</a></span> or email us at <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" style="color: #000;">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></span><span style="font-size: 10.0pt;">.</span></p>
+<p><span style="font-size: 10.0pt;">We wish you good luck and have fun!</span></p>
+<p><span style="font-size: 10.0pt;">Regards,</span></p>
+<p><span style="font-size: 10.0pt;">Jetbull Support Team</span></p>
+</div>
+<script type="text/javascript">// <![CDATA[
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5470473-6']);
+  _gaq.push(['_setDomainName', 'jetbull.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// ]]></script>

@@ -1,0 +1,1 @@
+Lokal banköverföring {0} {1}, internationall banköverföring {2} {3}

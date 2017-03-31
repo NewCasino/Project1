@@ -1,0 +1,32 @@
+﻿<ol><li><strong> 如何给我的账户充值？</strong>
+<p>点击我的账户然后存款按钮就在左下角，您可以选择您喜欢的付款方式。</p>
+</li><li><strong> 我的存款要多长时间才能被认可？</strong>
+<p>许多存款方式都是及时到账的。银行转账最多需要7天，之后就会到账您的[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]账户。</p>
+</li><li><strong> 都有什么付款方式可以使用？</strong>
+<p>请点击付款方式来查看所有的方式。</p>
+</li><li><strong> 哪种信用/借记卡你们接受？</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 接受所有的Visa和Mastercard 卡，机关Mastercard/Maestro 卡有许多限制。</p>
+</li><li><strong> 当我存款的时候会被收取手续费吗？</strong>
+<p>存款入[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]是不会被收取手续费的。</p>
+</li><li><strong> 什么是最小/最大存款上限？</strong>
+<p>最小存款是 €10 或者是等值的其他货币，最大存款是 €5000 每天或者等值的其他货币。</p>
+</li><li><strong> 我可以设置每日，每周和每月存款限额吗？</strong>
+<p>您可以设置每日，每周和每月存款限额。您可以登录‘我的账户’之后的‘合理博彩 – 存款限额‘选项进行更改。您随时可以更改。</p>
+</li><li><strong> 如何使用我的银行账户存款？</strong>
+<p>请点击‘存款’在‘我的账户’中之后选择银行转账。之后您可以按照步骤来存款。</p>
+</li><li><strong> 在网站上说明每周我的信用卡存款上限吗？</strong>
+<p>最高每日限额是 €5000. </p>
+</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

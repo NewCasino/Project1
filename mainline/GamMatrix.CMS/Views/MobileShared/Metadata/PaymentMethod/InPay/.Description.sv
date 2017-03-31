@@ -1,0 +1,1 @@
+﻿IPay Banköverföring gäller i många länder och tillåter dig sätta in pengar billigare än genom vanlig banköverföring. Oftast sker insättningar på några sekunder, men i vissa länder kan det ta upp till tre bankdagar tills du har pengar på ditt spelkonto.

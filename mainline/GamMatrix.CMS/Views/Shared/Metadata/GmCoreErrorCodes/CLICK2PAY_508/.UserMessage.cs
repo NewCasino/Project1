@@ -1,0 +1,1 @@
+﻿Výběr zamítnut. Částka překračuje povolený limit.

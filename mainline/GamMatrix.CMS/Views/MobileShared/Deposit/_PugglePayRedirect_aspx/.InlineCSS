@@ -1,0 +1,3 @@
+﻿div#pugglepay-authorize {
+    max-width: 300px;
+}

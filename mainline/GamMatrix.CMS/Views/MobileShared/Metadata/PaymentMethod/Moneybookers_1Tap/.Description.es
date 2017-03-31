@@ -1,0 +1,1 @@
+﻿Skrill es un servicio de monedero electrónico que permite a los clientes Skrill depositar, retirar y transferir fondos en líneade su cuenta Moneybookers a su cuenta de juego. Es seguro y los fondos están disponibles en su cuenta de juego al instante. Haga clic&nbsp;<a href="http://www.moneybookers.com/app/">aquí</a> para abrir una cuenta skrill ahora.

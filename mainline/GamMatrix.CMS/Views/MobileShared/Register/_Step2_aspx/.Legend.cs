@@ -1,0 +1,1 @@
+﻿Informácie o adrese

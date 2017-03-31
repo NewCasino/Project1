@@ -1,0 +1,18 @@
+﻿<p>Kjære $USERNAME$,<br />
+</p>
+<br />
+Denne e-posten er en bekreftelse på at din konto nå er satt til å selvekskluderes i sju (7) dager.
+<br />
+<br />I denne perioden er din kontoaktivitet begrenset til å: <br />
+- Logge inn<br />
+- Se transaksjonshistorikk
+
+<br />- Be om uttak<br />
+<br />Du vil ikke kunne gjøre innskudd eller spille på nettstedet. Du vil heller ikke motta nyhetsbrev eller tilbud fra oss i denne perioden. Vi vil sende deg en e-post når ekskluderingsperioden er avsluttet. <br />
+<br />
+Ta gjerne kontakt om du har spørsmål: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&#160;</p>
+<p>Hilsen,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte</p>
+
+

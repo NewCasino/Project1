@@ -1,0 +1,1 @@
+Din mobil stöds inte av vald bank, du måste uppdatera din mobil för att kunna fortsätta insättningen.

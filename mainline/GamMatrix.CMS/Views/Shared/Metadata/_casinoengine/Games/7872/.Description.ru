@@ -1,0 +1,1 @@
+﻿Fruit Bonanza is a 5-reel video slot machine that can be played on up to nine lines at five coins per line. Play Fruit Bonanza for a chance at four different jackpots!Fruit Bonanza has a jackpot symbol (the horn of plenty) as well as a scatter symbol.

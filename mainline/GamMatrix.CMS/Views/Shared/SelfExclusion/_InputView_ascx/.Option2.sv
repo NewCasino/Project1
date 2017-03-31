@@ -1,0 +1,1 @@
+En 6-månaders självuteslutningsperiod

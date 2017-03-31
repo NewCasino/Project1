@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <RouteName>f890ddde-ef6f-467f-8bfc-6acd67bc137f</RouteName>
+  <Type>Page</Type>
+  <Controller>GamMatrix.CMS.Controllers.Shared.NonSecurePageController</Controller>
+  <IsInherited>False</IsInherited>
+</root>

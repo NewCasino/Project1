@@ -1,0 +1,78 @@
+﻿<ol>
+ <li> <strong>Hvordan åpner jeg en [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] konto?</strong> 
+ <p>
+ Du kan opprette en konto [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] på én av to måter: 1)
+ <a href="/register">Klikk her</a>
+ 2) Eller du kan gå til startsiden og klikke på Registrer øverst til venstre eller på Bli med nå øverst til høyre. Uansett hvilken metode du velger, tas du videre til registreringssiden hvor du må oppgi opplysninger. Vær oppmerksom på at brukernavn og valuta ikke kan endres senere.
+ <br />
+ Du kan også oppgi en kampanjekode. Før du sender inn opplysningene dine, må du bekrefte at du er fylt 18 år og at du godkjenner vilkår og betingelser. Du kan umiddelbart logge deg på kontoen din på alle [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sider ved hjelp av brukernavn og passord.
+ </p>
+ </li>
+
+ <li> <strong>Hvorfor har jeg problemer med å opprette en konto?</strong>
+ <p>
+ Ta kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundestøtten på
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ for å få hjelp 
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvorfor må jeg opprette en konto for å kunne spille spillene deres?</strong>
+ <p>
+ Det er nødvendig å opprette en konto. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Når du oppretter konto, bekrefter du at du godtar spillereglene våre, som også inkluderer bekreftelse på at du er fylt 18 år.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvorfor må jeg oppgi personlige opplysninger? Er opplysningene mine sikre hos dere?</strong> 
+ <p>
+ Vi trenger personlige opplysninger for å kunne bekrefte identitet, alder, bosted og finansielle transaksjoner.&nbsp; [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] bruker moderne datakrypteringsteknikker for å sikre de personlige opplysningene dine.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Må jeg sette inn midler for å kunne registrere konto på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+ </strong>
+ <p>
+ Nei, du kan spille Casino- og Poker-spill uten å sette inn midler.
+ </p>
+ </li>
+
+ <li>
+ <strong>Kan jeg ha mer enn én konto?</strong>
+ <p>Nei, du kan bare ha én konto</p>
+ </li>
+
+ <li>
+ <strong>
+ Har dere en minste aldergrense for spillene deres? [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+ </strong>
+ <p>
+ Du må være fylt minst 18 år for å kunne spille på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] nettstedet.
+ </p>
+ </li>
+
+ <li>
+ <strong>Godtar dere kort fra landet mitt? </strong>
+ <p>
+ Så lenge du ikke bryter noen lover eller regler i hjemlandet ditt, godtar vi spillere fra alle land med unntak av USA, Frankrike og Tyrkia.
+ </p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

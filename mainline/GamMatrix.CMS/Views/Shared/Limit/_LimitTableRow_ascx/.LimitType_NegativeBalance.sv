@@ -1,0 +1,1 @@
+Gräns för negativt saldo

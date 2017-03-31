@@ -1,0 +1,4 @@
+﻿<p>Olá $FIRSTNAME$,</p>
+<p> O seu levantamento foi cancelado em &lsquo;$TXCOMPLETEDDATE$", os fundos foram devolvidos para a sua conta de jogo. Por favor contacte o nosso suporte se necessitar de mais assistência relativamente a esta transação.</p> ID Transação: $TXID$ Date da Transação: $TXCREATEDDATE$Montante: $TXAMOUNT$ $TXCURRENCY$.
+<p>Com os melhores cumprimentos,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] A equipa de suporte</p>
+

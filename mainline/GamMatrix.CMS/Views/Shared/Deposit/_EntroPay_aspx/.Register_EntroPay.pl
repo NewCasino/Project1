@@ -1,0 +1,1 @@
+Zarejestruj się w usłudze EntroPay

@@ -1,0 +1,1 @@
+﻿Israelský shekel

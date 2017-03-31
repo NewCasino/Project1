@@ -1,0 +1,1 @@
+Zaradi prevelikega števila napačnih poskusov prijave je vaš račun bil blokiran. Počakajte 15 minut in nato poskusite znova.

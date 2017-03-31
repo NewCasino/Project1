@@ -1,0 +1,2 @@
+﻿Minimum bodů k výměně:
+

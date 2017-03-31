@@ -1,0 +1,3 @@
+﻿Noen har logget seg inn på kontoen fra et annet sted, og du har derfor blitt frakoblet
+
+Vær oppmerksom på at hvis dette ikke var tilsiktet, kan noen ha stjålet passordet ditt, og vi foreslår at du endrer det umiddelbart.

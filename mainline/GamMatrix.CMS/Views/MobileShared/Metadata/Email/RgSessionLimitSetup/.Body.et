@@ -1,0 +1,4 @@
+﻿<p> Austatud $USERNAME$,</p>
+<br />Täname, et võtsite ühendust [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /><br />See e-kiri kinnitab, et Teie isiklik sessiooni ajalimiit ($LIMITPERIOD$ minutites) eemaldatakse  $LIMITEXPIRYDATE$. <br /><br />Lisaküsimuste korral palun võtke meiega julgesti ühendust aadressil<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><p>&nbsp;</p><p><br />Heade soovidega </p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Klienditeenindus </p>
+

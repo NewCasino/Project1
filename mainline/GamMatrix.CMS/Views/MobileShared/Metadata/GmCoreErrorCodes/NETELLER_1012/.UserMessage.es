@@ -1,0 +1,1 @@
+﻿Los últimos 4 dígitos de su número de cuenta bancaria no coinciden con el número registrado en su cuenta NETELLER. Por favor entre en su cuenta NETELLER para confirmar su número de cuenta bancaria. Si tiene alguna duda, llame al Servicio de Atención al Cliente de NETELLER.

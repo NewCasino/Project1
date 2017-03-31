@@ -1,0 +1,1 @@
+Datum zaključka mora biti za datumom začetka.

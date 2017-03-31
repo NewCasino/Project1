@@ -1,0 +1,1 @@
+﻿Musisz mieć ukończone {0} lat.

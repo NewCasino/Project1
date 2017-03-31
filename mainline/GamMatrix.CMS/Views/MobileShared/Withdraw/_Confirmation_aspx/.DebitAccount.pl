@@ -1,0 +1,1 @@
+﻿Kwota wypłaty z konta {0}.

@@ -1,0 +1,2 @@
+﻿Zobrazit všechny dostupné hry
+

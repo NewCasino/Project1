@@ -1,0 +1,1 @@
+Tygodniowy limit (co 7 dni od czasu ustawienia limitu)

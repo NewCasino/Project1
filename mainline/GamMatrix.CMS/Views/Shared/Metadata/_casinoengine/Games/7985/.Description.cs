@@ -1,0 +1,1 @@
+﻿Hra Wild Rockets nabízí 720 možností vyhrát na geometrických válcích se schématem 3 x 4 x 5 x 4 x 3. Kromě těchto inovativních prvků nabízí také symboly Wild, které mění ostatní symboly nad sebou nebo pod sebou také na symboly Wild. 

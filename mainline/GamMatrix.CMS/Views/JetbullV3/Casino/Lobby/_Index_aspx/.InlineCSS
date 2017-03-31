@@ -1,0 +1,37 @@
+﻿li[data-categoryid="43899467-01D1-FDA2-6671-04B5BE8BAAD2"] .CatIcon { background-position : -58px -252px; }
+li[data-categoryid="43899467-01D1-FDA2-6671-04B5BE8BAAD2"] .CatIcon { background-position : -58px -252px; }
+li[data-categoryid="5A0E42F6-C8BA-57FF-11E1-04B5ECA0F9F7"] .CatIcon { background-position : -58px -144px; }
+li[data-categoryid="0D8178BD-1006-A1A0-96CB-04B37427FA1F"] .CatIcon { background-position : -58px -180px; }
+li[data-categoryid="064AEBA6-5B88-CEA4-7EB9-04B41468E775"] .CatIcon { background-position : -58px -216px; }
+li[data-categoryid="5E36B599-C30C-97BF-5A05-04B4BB340E07"] .CatIcon { background-position : -58px -288px; }
+li[data-categoryid="91576D6C-653F-2988-995F-04B4E45AE9DB"] .CatIcon { background-position : -58px -324px; }
+li[data-categoryid="6F0419D3-8729-A7E7-2E8A-04B48F17DC17"] .CatIcon { background-position : -57px -360px; }
+/*
+#ddlFilterVendor option{ background-image: url("//cdn.everymatrix.com/Jetbull/casino/vendors-small.png"); background-position: 150px top;  background-repeat: no-repeat; background-size: auto auto; margin: 0.25em 0;}
+#ddlFilterVendor option[value=""]{ background-image :none; background-position: 0 0; }
+#ddlFilterVendor option[value="108"]{ background-position  :3px -72px; text-indent: 22px; }
+#ddlFilterVendor option[value="109"]{ background-position : 3px -23px; text-indent: 22px; }
+#ddlFilterVendor option[value="100"]{ background-position : 3px -47px; text-indent: 22px; }
+#ddlFilterVendor option[value="111"]{ background-position : 3px 2px; text-indent: 22px; }
+#ddlFilterVendor option[value="113"]{ background-position : 3px -93px; text-indent: 22px; }
+*/
+/*
+.CasinoLobby .SCItemId_1.SCItem .BigButton {  border: 2px solid #FFFFFF;  border-radius: 16px 16px 16px 16px;  height: 50px;  left: 56px;  line-height: 47px;  margin: 0;  padding: 0;  position: absolute;  top: 290px;  width: 500px;}
+.CasinoLobby .SCItemId_1.SCItem .SCTitle {  display: none;}
+.CasinoLobby .SCItemGameId_8152.SCItem .BigButton {  font-size: 1.7em;  left: 106px;  position: absolute;  top: 170px;  width: 150px;}
+/*
+.CasinoLobby .SCItemId_2 .SCTitle {  line-height: 1.1em;}
+.CasinoLobby .SCItemId_2.SCItem .NormalInfo {  height: 7.8em;  margin-bottom: 0;  margin-top: 0;  padding-top: 0;}
+*/
+
+.CasinoLobby .SliderContent .SCItemGameId_8161 .Button{ display:none;}
+.CasinoLobby .SliderContent .SCItemGameId_8229 .Button{ display:none;}
+.SCItemGameId_8151 .BigButton{  width: 30%;  margin: -1.9em 0.6666em 1.3333em 1.6666em;  font-size: 1.7em;}
+
+.SCItemGameId_7982 .NormalInfo{  margin: 7em 0 0;}
+.SCItemGameId_8270 .BigButton{  margin:-1.5em 0.6666em 1.3333em 1.6666em;}
+.SCItemGameId_8270 .FeaturedInfo{  margin: -1em;}
+.SCItemGameId_8270 .NormalInfo{  margin: 11em 0 0;}
+.SCItemGameId_8259 .BigButton{  margin: -1.5em 0.6666em 1.3333em 1.6666em;}
+.SCItemGameId_8259 .NormalInfo{  color:black;  text-shadow:none;}
+

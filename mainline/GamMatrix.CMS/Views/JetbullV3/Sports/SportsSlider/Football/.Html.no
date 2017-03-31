@@ -1,0 +1,3 @@
+﻿<h3>Europeisk Toppfotball</h3>
+<p>Nyt spenningen i europeisk toppfotball. Premier League? La Liga? Bundesliga? Vi dekker alle ligaene!</p>
+<a title="Bet now ►" class="button" href="/Sports/?tournamentid=209122834,209122985,209289781" target="_top"><span class="GoldButtonText">Sett et spill n&aring;<span> ►</span></span> </a>

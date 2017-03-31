@@ -1,0 +1,1 @@
+﻿Du spiller nå med ekte penger under følgende jurisdiksjon: {0}.

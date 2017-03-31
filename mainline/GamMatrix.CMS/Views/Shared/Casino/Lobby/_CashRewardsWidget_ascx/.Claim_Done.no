@@ -1,0 +1,3 @@
+﻿Poeng som er gjort krav på: {0}
+Opptjente kontanter: {1} {2}
+Gjenværende poeng: {3}

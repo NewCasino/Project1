@@ -1,0 +1,1 @@
+Aby dokonywać operacji, musisz się zalogować.

@@ -1,0 +1,12 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Bu otomatik gönderilmiş Epostası [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da yaptığınız ve OddsMatrix Ltd., [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] nin Ödeme Aracısı,  tarafından işlenilen Ödemenizin Dekontudur. Hesap Bakiyenizde OddsMatriz olarak görünücek. İşlem Detaylarınız altta göründüğü gibi.</p>
+<ul>
+<li><strong>İşlem ID</strong>:$TRANSACTION_ID$</li>
+<li><strong>Tarih Saat</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Website</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Dekont</strong>: Dekontunuzun Yazıcı Ekranı ektedir.</li>
+</ul>
+<p>Bu İşlem hakkında herhangı Sorunuz olursa lütfen Destek Ekibi ile İletişime geçiniz, <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> İşlem İd'sini aktararak.</p>
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ekibi</p>
+<p>$SCREENSHOT$</p>
+

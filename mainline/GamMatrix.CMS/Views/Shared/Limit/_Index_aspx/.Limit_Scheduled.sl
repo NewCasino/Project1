@@ -1,0 +1,1 @@
+Limit je bil spremenjen, a bo do datuma poteka še vedno v veljavi. Nove vrednosti limita:

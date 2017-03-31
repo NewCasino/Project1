@@ -1,0 +1,1 @@
+﻿Voucher nummer måste vara 16 tecken.

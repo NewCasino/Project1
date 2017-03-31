@@ -1,0 +1,1 @@
+﻿Gebruikersnaam moet tussen 4 en 20 karakters zijn

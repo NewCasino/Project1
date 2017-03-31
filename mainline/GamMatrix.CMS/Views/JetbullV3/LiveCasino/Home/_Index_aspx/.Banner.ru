@@ -1,0 +1,1 @@
+﻿<a href="/register"><img src="//cdn.everymatrix.com/JetbullV2/_files/livecasino/banner02.png" /></a>

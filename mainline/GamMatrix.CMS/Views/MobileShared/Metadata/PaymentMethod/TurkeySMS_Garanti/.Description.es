@@ -1,0 +1,1 @@
+﻿Banco Garanti Bank, establecido hace 63 años, es  el segundo banco privado más grande en Turquía con actives valuados en US$ 78 billones. Garanti continua con una cuota de Mercado creciente en todas las líneas de negocios mediante  una comprobada estrategia basada en eficiencia, rentabilidad y crecimiento sustentable que han mantenido desde su fundación.

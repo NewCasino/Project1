@@ -1,0 +1,1 @@
+﻿Cantidad a ser retirada de la cuenta {0}.

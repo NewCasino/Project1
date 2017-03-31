@@ -1,0 +1,1 @@
+Swiff ponuja preprosto, varno in zasebno plačevanje preko spleta za vse. Slogan: Swiff is my money, my way. Plačevanje preko spleta na preprost način.

@@ -1,0 +1,1 @@
+﻿La cantidad de la transacción no pudo ser abonada a la Cuenta de Valor Almacenado (SVA)

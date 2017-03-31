@@ -1,0 +1,2 @@
+﻿<p>Olet pyytänyt, että [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sähköpostiosoite vaihdetaan.</p><p> Vahvistusviesti on lähetetty uuteen osoitteeseen ($EMAIL$).</p>
+<p>Jos et ole pyytänyt sähköpostiosoitteen vaihtoa, älä huomioi tämä sähköpostia ja ilmoita tästä meille <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p><p>Ystävällisin terveisin, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu </p>

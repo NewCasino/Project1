@@ -1,0 +1,18 @@
+﻿<h1 class="PageTitle MobilePageTitle">Jetbull Mobile</h1>
+[Metadata:value(.MobilePageDownload)]
+<ul class="MobileDescription Container">
+	<li class="MobileItem" style="display:none;">
+		<h2 class="MobileSubtitle">Go mobile with Jetbull</h2>
+		<div class="MobileParagraph"><a href="http://m.jetbull.com/">m.jetbull.com</a> is not only your portal to the very best in mobile sports betting and casino gaming. You can also deposit and withdraw using a selection of our most popular payment methods, check on your active bonuses, claim your casino Cash Rewards, visit the Help section or get in touch with our 24/7 customer support team.</div>
+	</li>
+	<li class="MobileItem">
+		<h2 class="MobileSubtitle">Mobile Casino</h2>
+        <div class="MobileItem_Image"><img src="//cdn.everymatrix.com/JetbullV2/_files/mobile/mobile_card.png" alt="Mobile Casino" /></div>
+		<div class="MobileParagraph"><p style="margin-left:60px;">Our mobile casino covers a large selection of the games our players know and love from the website. And just like the website games, our mobile games spans across all the casino categories and top brands. <br /><br /><b>Touch 'n win!</b></p></div>
+	</li>
+	<li class="MobileItem">
+		<h2 class="MobileSubtitle">Mobile Sports</h2>
+        <div class="MobileItem_Image"><img src="//cdn.everymatrix.com/JetbullV2/_files/mobile/mobile_sport.png" alt="Mobile Sports" /></div>
+		<div class="MobileParagraph">Jetbull's award winning Sportsbook works just as great on your mobile device. Whether you prefer pre-match betting or Live betting, you have the exact same vast selection of markets and betting types at your fingertips, literally speaking.</div>
+	</li>
+</ul>

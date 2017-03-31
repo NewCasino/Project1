@@ -1,0 +1,20 @@
+﻿
+<p>Degerli $USERNAME$</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]'e hosgeldiniz</p>
+<p>Oyun hesabiniz acilmistir.
+<br />
+<br />
+Guvenlik nedeniyle emailinizi onaylamaniz gerekmektedir. Bunu yapmak
+icin asagidaki linke tiklayiniz.
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a><br />
+Bu link calismiyorsa linki kopyalayarak browserinize dogrudan kopyalayiniz.<br />
+</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sitesine kayit olmadiysaniz lutfen bu maili gozardi</p>
+<p>ediniz veya <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> adresinden bize ulasiniz.</p>
+<p>Lutfen 7 gun icerisinde emailinizi dogrulayiniz. Aksi taktirde
+hesabiniz kendi g&#252;venliginiz icin kisitlanabilir.</p>
+<p>Sitemize uye oldugunuz icin tesekkur eder [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ' da tum
+oyunlarda basarilar dileriz</p>
+<p>Saygilarimizla ,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Musteri Hizmet Ekibi</p>

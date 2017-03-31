@@ -1,0 +1,77 @@
+﻿<ol>
+	<li> <strong>Ako si môžem otvoriť [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] účet?</strong> 
+		<p>
+			Účet si môžete otvoriť nasledujúcimi spôsobmi: 1)
+			<a href="/register">Kliknite priamo sem.</a>
+			2) Alebo kliknite na "Registrovať" v ktorejkoľvek časti našich stránok alebo na tlačidlo "Pridať sa teraz". Oboma spôsobmi sa dostanete na registračný formulár, kde zadáte požadované údaje. Upozorňujeme, že užívateľské meno a mena účtu sa následne nedajú zmeniť.
+			<br />
+			Taktiež môžete zadať promo kód. Ešte pred potvrdením registračného formulára nezabudnite prehlásiť, že máte viac ako 18 rokov a že súhlasíte s našimi "Pravidlami a podmienkami". Na svoj účet sa môžete okamžite prihlásiť z ktorejkoľvek  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] stránky použitím svojho užívateľského mena a hesla.
+		</p>
+	</li>
+
+	<li> <strong>Prečo mám problémy s vytvorením účtu?</strong>
+		<p>
+			Pre pomoc v takomto prípade kontaktujte prosím [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu na
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Prečo si musím otvoriť účet pre hranie vašich hier?</strong>
+		<p>
+			Je to nutné z dôvodu, aby ste nám potvrdili, že budete rešpektovať naše všeobecné pravidlá a podmienky a zároveň nám potvrdili, že máte viac ako 18 rokov.
+		</p>
+	</li>
+
+	<li>
+		<strong>Prečo vyžadujete moje osobné údaje? Sú moje osobné údaje u vás v bezpečí?</strong> 
+		<p>
+			Vaše osobné údaje potrebujeme za účelom overenia vašej identity, veku, adresy ako tiež pre prípadné finančné prevody. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] využíva najpokročilejšie šifrovacie mechanizmy k zaručeniu bezpečnosti osobných údajov.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Musím vložiť pre otvorenie účtu na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+		</strong>
+		<p>
+			Nie, nie je to podmienkou. Pokiaľ máte záujem, môžete v našom kasíne hrať pre zábavu.
+		</p>
+	</li>
+
+	<li>
+		<strong>Môžem mať viac účtov?</strong>
+		<p>Nie, povolený je iba jeden účet na osobu.</p>
+	</li>
+
+	<li>
+		<strong>
+			Je požadovaný minimálny vek pre hranie [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+		</strong>
+		<p>
+			Pre hranie na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] musíte mať aspoň 18 rokov.
+		</p>
+	</li>
+
+	<li>
+		<strong>Akceptujete hráčov z mojej krajiny?</strong>
+		<p>
+			Pokiaľ dodržujete zákony svojej krajiny, akceptujeme občanov všetkých krajín s výnimkou USA, Francúzska a Turecka.
+		</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Tlačiť</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

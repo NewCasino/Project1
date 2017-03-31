@@ -1,0 +1,4 @@
+﻿<a href="/Promotions/TermsConditions/casino/casinocashrewards" title="Cash Rewards" class="LP-IM-link link3">
+<div class="caption"><span>Cash Rewards</span></div>
+</a>
+<p class="link-description">Med v&aring;rt loyalitetsprogram Cash Rewards tjener du casino-poeng hver gang du spiller p&aring; casino, live casino og casino p&aring; mobil. Poeng kan veksles inn i penger. Et klikk, n&aring;r det passer deg, og pengene krediteres umiddelbart!</p>

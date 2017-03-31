@@ -1,0 +1,1 @@
+﻿Registrirajte se na spletu za EntroPay <br />Virtual VISA card

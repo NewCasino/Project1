@@ -1,0 +1,1 @@
+﻿Venezolaanse Bolivar Fuerte

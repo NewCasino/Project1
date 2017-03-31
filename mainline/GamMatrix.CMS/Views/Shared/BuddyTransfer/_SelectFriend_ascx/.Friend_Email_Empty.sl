@@ -1,0 +1,1 @@
+Vnesite e-poštni naslov vašega prijatelja.

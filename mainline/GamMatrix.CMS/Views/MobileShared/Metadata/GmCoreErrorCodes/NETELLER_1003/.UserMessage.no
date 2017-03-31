@@ -1,0 +1,2 @@
+﻿Det oppsto en feil med din kontoID, din sikkerhetsID, eller beløpet du fylte inn. Du må fylle inn nummer i alle disse tre feltene. Vennligst prøv igjen.
+

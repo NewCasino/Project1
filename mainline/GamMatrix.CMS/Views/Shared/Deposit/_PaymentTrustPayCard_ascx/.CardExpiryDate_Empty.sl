@@ -1,0 +1,1 @@
+Izberite datum poteka veljavnosti.

@@ -1,0 +1,4 @@
+﻿<p>Hyvä $USERNAME$,</p>
+<br /> Kiitoksia yhteydenotostasi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Tämä sähköpotsti varmistaa että istuntoraja ($LIMITPERIOD$ minuuttia) poistetaan $LIMITEXPIRYDATE$. <br /> <br /> Jos sinulla on jotain kysyttävää, niin ota yhteyttä <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><p>&nbsp;</p><p><br /> Ystävällisin terveisin</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu</p>
+

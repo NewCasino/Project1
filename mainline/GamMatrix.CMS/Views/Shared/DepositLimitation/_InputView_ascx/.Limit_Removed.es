@@ -1,0 +1,1 @@
+﻿Se eliminó el límite, pero es aún válido hasta la fecha de caducidad.

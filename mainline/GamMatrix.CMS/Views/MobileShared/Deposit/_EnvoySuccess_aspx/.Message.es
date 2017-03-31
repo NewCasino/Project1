@@ -1,0 +1,1 @@
+﻿Después de haber confirmado su depósito, su cuenta será acreditada con los fondos una vez recibidos. El tiempo que puede pasar para que esto suceda puede variar de minutos a días y esto depende del método de pago que haya utilizado.

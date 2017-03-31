@@ -1,0 +1,1 @@
+Z EntroPay lahko polog opravite v trenutku.

@@ -1,0 +1,12 @@
+﻿<em>Diese E-Mail wurde vom Kunden über die Website gesendet, über das Formular auf der „Kontakt“-Seite.<br />
+Bitte antworten Sie NICHT auf diese E-Mail! Unten finden Sie die E-Mail des Kunden. </em>
+<hr/>
+<ul>
+<li><strong>E-Mail-Adresse des Kunden</strong>:$EMAIL$</li>
+<li><strong>Name des Kunden</strong>:$NAME$</li>
+<li><strong>Betreff</strong>:$SUBJECT$</li>
+<li><strong>Benutzer-ID</strong>:$USERID$</li>
+<li><strong>Benutzername</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

@@ -1,0 +1,1 @@
+Din kompis konto är inaktiverat.

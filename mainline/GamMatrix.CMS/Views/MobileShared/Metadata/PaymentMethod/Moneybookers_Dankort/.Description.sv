@@ -1,0 +1,1 @@
+Du kan snabbt överföra pengar från ditt Dankort kort via Moneybookers till ditt spelkonto. Fyll i dina kortdetaljer på Moneybookers och när ditt kreditkort har verifierats kommer din insättning, säkert och omedelbart, överföras till ditt spelkonto

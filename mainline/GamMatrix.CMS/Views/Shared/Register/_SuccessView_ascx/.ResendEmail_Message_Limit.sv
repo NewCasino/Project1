@@ -1,0 +1,1 @@
+Du har begärt {0} gånger, om du fortfarande inte får aktiveringsmeddelandet, kontakta [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)].

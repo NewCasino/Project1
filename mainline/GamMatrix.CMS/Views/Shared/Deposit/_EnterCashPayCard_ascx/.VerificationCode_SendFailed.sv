@@ -1,0 +1,1 @@
+Verifieringskod kunde inte skickas, kontrollera ditt mobilnummer eller försök igen.

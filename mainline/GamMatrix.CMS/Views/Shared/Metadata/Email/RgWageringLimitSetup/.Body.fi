@@ -1,0 +1,3 @@
+﻿<p>Hyvä $USERNAME$, <br /> <br /> Kiitoksia yhteydenotostasi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Tämä sähköposti vahvistaa henkilökohtaisen panostusrajan $LIMITAMOUNT$ $LIMITPERIOD$ poistettavan $LIMITEXPIRYDATE$. <br /><br /> Jos sinulla on jotain kysyttävää, niin ota yhteyttä <ahref="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p><p><br /> Ystävällisin terveisin</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu</p>
+

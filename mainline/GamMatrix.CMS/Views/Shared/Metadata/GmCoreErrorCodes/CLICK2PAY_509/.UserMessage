@@ -1,0 +1,1 @@
+﻿Withdrawal declined. The payment is not yet activated.

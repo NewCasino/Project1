@@ -1,0 +1,1 @@
+Pamiętaj, że limity są oparte na tygodniu lub miesiącu kalendarzowym. Ustawiony limit wpłaty zostanie zresetowany na początku każdego nowego tygodnia lub miesiąca. Np. jeśli 20 sierpnia ustawisz limit miesięczny wpłaty na poziomie  100 € i dokonasz wpłat na maksymalną kwotę  przed końcem sierpnia, od 1 września możesz ponownie wpłacić 100 €.

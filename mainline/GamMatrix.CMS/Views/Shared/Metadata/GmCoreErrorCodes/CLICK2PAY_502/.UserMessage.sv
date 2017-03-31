@@ -1,0 +1,1 @@
+﻿Adjustment declined - no reference ID

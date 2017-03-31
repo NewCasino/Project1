@@ -1,0 +1,1 @@
+Zostałeś rozłączony, ponieważ został osiągnięty limit czasu Twojej sesji.

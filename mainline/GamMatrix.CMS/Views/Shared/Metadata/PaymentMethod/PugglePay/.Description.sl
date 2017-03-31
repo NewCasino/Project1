@@ -1,0 +1,3 @@
+Plačajte v nekaj sekundah s svojim telefonom. Brez potrebe po registraciji ali aplikacijah.
+
+PugglePay je švedska storitev plačevanja z mobilnim telefonom, ki omogoča takojšnje pologe kar z vašega mobilnega telefona. Storitev je varna in preprosta, vi morate samo vnesti svojo telefonsko številko. Nato vam preko sporočila SMS pošljemo račun, ki ga lahko plačate v naslednjih 14 dneh. Polog bo na voljo takoj, provizije zanj pa ne bomo zaračunali na vaš račun za mobilni telefon.

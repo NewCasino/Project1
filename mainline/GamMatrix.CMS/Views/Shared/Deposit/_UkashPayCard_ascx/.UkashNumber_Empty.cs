@@ -1,0 +1,2 @@
+﻿Vložte Ukash číslo
+

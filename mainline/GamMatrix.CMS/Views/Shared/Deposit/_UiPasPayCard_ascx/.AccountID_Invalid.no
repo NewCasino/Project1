@@ -1,0 +1,1 @@
+Konto-ID-en må bestå av minst 7 tegn

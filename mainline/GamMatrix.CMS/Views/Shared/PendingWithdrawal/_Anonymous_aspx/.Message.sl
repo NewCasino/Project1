@@ -1,0 +1,1 @@
+Za razveljavitev izplačila se morate prijaviti.

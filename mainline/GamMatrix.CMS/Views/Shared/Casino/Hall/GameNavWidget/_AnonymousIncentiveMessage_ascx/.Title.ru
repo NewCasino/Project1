@@ -1,0 +1,1 @@
+Создание аккаунта [Metadata:value(/Metadata/Settings.Operator_DisplayName)] занимает всего лишь 30 секунд!

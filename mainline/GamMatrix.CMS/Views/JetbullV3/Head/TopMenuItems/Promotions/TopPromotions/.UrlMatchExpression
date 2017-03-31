@@ -1,0 +1,1 @@
+﻿^/Promotions/Home$|^/Promotions/Home/$|^/Promotions/Home/Index

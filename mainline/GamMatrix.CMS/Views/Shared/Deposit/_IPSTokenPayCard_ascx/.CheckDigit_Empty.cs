@@ -1,0 +1,1 @@
+﻿Prosím vložte ověřovací číslici.

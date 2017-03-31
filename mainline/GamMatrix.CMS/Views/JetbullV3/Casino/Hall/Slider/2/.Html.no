@@ -1,0 +1,3 @@
+﻿<h3><p style="font-size:30pt;line-height:25pt;">&euro;35 Hver eneste uke</p></h3>
+<p>Vi vet at mer penger betyr mer moro. Derfor kan du<br />hente en 50% bonus opp til &euro;35 hver eneste uke.</p>
+<a title="Learn more" class="button" href="/Promotions/TermsConditions/casino/casinomonthlyreload"> <span class="GoldButtonText">Les mer&nbsp;<span>►</span></span> </a>

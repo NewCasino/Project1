@@ -1,0 +1,1 @@
+Erhållna poäng: {0}Cash Earned: {1} {2}Remaining Points: {3}

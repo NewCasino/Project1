@@ -1,0 +1,3 @@
+﻿<p>Austatud $USERNAME$,</p>
+<br /> Täname, et võtsite ühendust [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /><br /> See e-kiri kinnitab, et Teie isiklik kaotustelimiit $LIMITAMOUNT$ $LIMITPERIOD$ eemaldatakse $LIMITEXPIRYDATE$. <br /><br /> Palun võtke meiega julgesti ühendust, kui Teil onlisapäringuid<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><p>&nbsp;</p><p><br />Heade soovidega</p><p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Klienditeenindus</p>
+

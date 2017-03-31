@@ -1,0 +1,14 @@
+﻿<#
+    var data = arguments[0];
+    for( opt in data) {
+		if(opt.toLowerCase()==="pagenav" ||
+		  opt.toLowerCase()==="selectedid")
+		{
+			continue;
+		}
+ #>
+
+<li class="categorys_item" data-categoryid="<#=opt #>">
+    <a href="/Casino/Hall/Index/<#=opt #>"><label><#=GameManager.GetCategoryNameById(opt) #></label></a>
+</li>
+<# } #>

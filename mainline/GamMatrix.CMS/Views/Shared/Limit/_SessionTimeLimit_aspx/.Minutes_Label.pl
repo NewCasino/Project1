@@ -1,0 +1,1 @@
+Maksymalny dopuszczalny czas sesji na żywo (minut)

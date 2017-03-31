@@ -1,0 +1,8 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Your payout for $VOUCHERAMOUNT$  has been processed. Below are information regarding your IPS Token:</p>
+<ul>
+<li><strong>IPS Token</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Checkdigit</strong>:$VOUCHEDIGITS$</li>
+</ul>
+<p>If you have any question please do not hesitate to contact <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

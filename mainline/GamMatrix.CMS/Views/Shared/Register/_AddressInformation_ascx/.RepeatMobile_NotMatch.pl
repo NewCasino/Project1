@@ -1,0 +1,1 @@
+Numer telefonu i powtórzenie nie pasują do siebie

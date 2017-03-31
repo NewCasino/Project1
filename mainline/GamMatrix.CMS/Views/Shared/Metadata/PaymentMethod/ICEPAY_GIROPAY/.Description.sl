@@ -1,0 +1,1 @@
+Giropay je storitev plačevanja preko spleta, osredotočena predvsem na nemški trg. 

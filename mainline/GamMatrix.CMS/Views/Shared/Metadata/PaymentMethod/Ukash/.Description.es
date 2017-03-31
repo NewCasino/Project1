@@ -1,0 +1,1 @@
+﻿Consiga su dinero. Cámbiela por un cupón Ukash. Utilícelo para pagar online. ¡Así de sencillo! No tiene que decirnos sus datos financieros. Ni siquiera necesita una tarjeta. Ahora puede. <br /> <a href="https://direct.ukash.com/forexViewer/ExchangeRates.aspx" target="_blank"> Ver los tipos de cambio de divisas para Ukash</a>

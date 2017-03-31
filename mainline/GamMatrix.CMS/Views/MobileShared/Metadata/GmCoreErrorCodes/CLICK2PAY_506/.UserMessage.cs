@@ -1,0 +1,1 @@
+﻿Návrat zamítnut - neplatné referenční ID.

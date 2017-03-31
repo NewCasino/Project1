@@ -1,0 +1,1 @@
+Spelinformation till {0}

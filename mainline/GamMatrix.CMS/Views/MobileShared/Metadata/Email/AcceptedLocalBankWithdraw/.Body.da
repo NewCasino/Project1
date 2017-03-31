@@ -1,0 +1,13 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Din indbetaling er blevet gennemført.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Kontroler venligst din saldo på din bankkonto.</strong>
+  </span>
+</p>
+<p>
+  Hvis du har spørgsmål så kontakt <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team
+</p>

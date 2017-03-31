@@ -1,0 +1,1 @@
+﻿Twoje konto zostało zablokowane. W celu uzyskania dalszej pomocy, prosimy o kontakt z działem obsługi klienta pod adresem service@click2pay.com.

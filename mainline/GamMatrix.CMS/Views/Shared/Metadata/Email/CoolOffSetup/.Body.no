@@ -1,0 +1,12 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<br />
+<p>Kontonavn: $USERNAME$ </p>
+<br />
+Denne e-postmeldingen bekrefter at kontoen din nå går inn i en avkjølingsperiode. Perioden utløper $EXPIRY_DATETIME$.  Du kan ikke logge deg på kontoen din i løpet av denne perioden. Vi varsler deg per e-post når avkjølingsperioden utløper.
+<br />
+<br />
+Skulle du har flere spørsmål, er det bare å ta kontakt på 
+<a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>Med vennlig hilsen,</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]  Kundestøtteteamet</p> 

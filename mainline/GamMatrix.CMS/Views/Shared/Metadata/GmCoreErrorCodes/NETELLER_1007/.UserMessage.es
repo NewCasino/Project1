@@ -1,0 +1,1 @@
+﻿El ID de Cuenta o ID Seguro que ha introducido no es válido. Por favor introduzca la información de cuenta correcta. Recuperar la información de su cuenta.

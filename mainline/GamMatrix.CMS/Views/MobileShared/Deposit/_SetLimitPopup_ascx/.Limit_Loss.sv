@@ -1,0 +1,1 @@
+﻿Sätt en förlustgräns

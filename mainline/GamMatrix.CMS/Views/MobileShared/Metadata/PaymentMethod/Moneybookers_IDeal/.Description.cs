@@ -1,0 +1,1 @@
+﻿&nbsp;iDeal přes Skrill (Moneybookers) má plnou podporu hlavních nizozemských bank.&nbsp;iDeal garantujer rychlé online platby.

@@ -1,0 +1,1 @@
+﻿Your purchase request was rejected. For further details, please contact our service center at service@click2pay.com.

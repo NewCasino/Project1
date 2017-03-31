@@ -1,0 +1,1 @@
+﻿Shekel israelí

@@ -1,0 +1,4 @@
+﻿Ditt kumulative uttak har overskredet EUR 2300, vi er pålagt ved forskrifter å verifisere kontoen din før vi kan utføre ditt uttak. Vennligst send en e-post med følgende dokumenter til <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>a) bevis på adresse, for eksempel faktura eller bankutskrift </p>
+<p>b) en kopi av nasjonal ID eller pass</p>
+<p>c) en kopi av kortet som ble brukt til å gjøre innskudd</p>

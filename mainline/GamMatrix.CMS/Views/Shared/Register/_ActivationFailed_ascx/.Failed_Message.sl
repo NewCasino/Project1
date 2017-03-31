@@ -1,0 +1,1 @@
+Na tej strani ste se najverjetneje znašli po pomoti.

@@ -1,0 +1,2 @@
+﻿Celá obrazovka
+

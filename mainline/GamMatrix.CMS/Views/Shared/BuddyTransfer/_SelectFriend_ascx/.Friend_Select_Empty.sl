@@ -1,0 +1,1 @@
+Izberite prijatelja, kateremu bo nakazilo posredovano.

@@ -1,0 +1,4 @@
+﻿<p>Hyvä $USERNAME$, <br /><br /> Kiitoksia yhteydenotostasi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /><br /> Tämä sähköposti vahvistaa panostusrajan muuttamisen $LIMITAMOUNT$ $LIMITPERIOD$  $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. Uusi raja aktivoidaan $LIMITEXPIRYDATE$. <br /><br /> Jos sinulla on jotain kysyttävää, niin ota yhteyttä  <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br /> Ystävällisin terveisin</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu</p>
+

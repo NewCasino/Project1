@@ -1,0 +1,1 @@
+﻿Zvoleno neplatné datum narození

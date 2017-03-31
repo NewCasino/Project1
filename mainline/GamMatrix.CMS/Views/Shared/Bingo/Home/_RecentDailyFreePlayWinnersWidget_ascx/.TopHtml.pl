@@ -1,0 +1,1 @@
+Najlepszy zwycięzca dnia

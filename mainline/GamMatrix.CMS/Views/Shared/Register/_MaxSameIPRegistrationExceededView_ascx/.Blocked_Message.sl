@@ -1,0 +1,1 @@
+Z naslova IP [IP] se ne morete registrirati več kot [COUNT] -krat na dan. Se opravičujemo; če imate vprašanja, se obrnite na ekipo za podporo.

@@ -1,0 +1,6 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Here are your new 10 secret keys: </p>
+<ul>
+    $BACKUPCODELIST$
+</ul>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

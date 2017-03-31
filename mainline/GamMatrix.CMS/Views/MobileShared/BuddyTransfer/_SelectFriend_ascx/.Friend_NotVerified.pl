@@ -1,0 +1,1 @@
+﻿Tożsamość Twojego znajomego nie została zweryfikowana.

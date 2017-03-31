@@ -1,0 +1,1 @@
+﻿Если Вы вдруг захотите активировать постоянное самоисключение, Вы можете это сделать, послав нам запрос на email <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>, указав причину, почему Вы хотите себя заблокировать навсегда. Блокировка произойдет сразу же. 

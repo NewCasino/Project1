@@ -1,0 +1,1 @@
+﻿Het wachtwoord moet uit minstens 7 karakters bestaan

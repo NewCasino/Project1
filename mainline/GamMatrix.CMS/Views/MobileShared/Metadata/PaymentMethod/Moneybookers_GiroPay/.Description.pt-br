@@ -1,0 +1,1 @@
+﻿GiroPay via Moneybookers is a simple, fast and secure online payment method that allow you to use the funds available in your bank account.&nbsp;

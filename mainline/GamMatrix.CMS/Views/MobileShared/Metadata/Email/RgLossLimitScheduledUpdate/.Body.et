@@ -1,0 +1,4 @@
+﻿<p>Austatud $USERNAME$, <br /><br /> Täname, et võtsite ühendust [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /><br /> See e-kiri kinnitab, et olete muutnud oma isiklikku kaotustelimiiti $LIMITAMOUNT$ $LIMITPERIOD$ uueks limiidiks: $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. Uus limit aktiveeritakse $LIMITEXPIRYDATE$. <br /><br /> Palun võtke meiega julgesti ühendust, kui Teil on lisaküsimusi<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br /> Heade soovidega</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Klienditeenindus</p>
+

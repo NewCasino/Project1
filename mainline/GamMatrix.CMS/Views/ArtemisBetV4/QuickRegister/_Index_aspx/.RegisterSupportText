@@ -1,0 +1,7 @@
+﻿If you have any trouble or questions with the Register form, please contact our helpful <a href="#" rel="external nofollow" class="livePE" title="Contact Support">Support Team by clicking here</a>!
+<script type="text/javascript">
+$(".SupportGirl, .livePE").click(function(e){
+    e.preventDefault();
+    $(".lebtn div",top.document.body).trigger("click");
+});
+</script>

@@ -1,0 +1,1 @@
+﻿Regla de límite de proveedor duplicada

@@ -1,0 +1,65 @@
+﻿<ul>
+<li>
+<strong>Personvernsbetingelser</strong>
+<p>
+Ved å bruke og/eller besøke en hvilken som helst del av [Metadata:value(/Metadata/Settings.Operator_DisplayName)] (the <b>"Nettstedet"</b>), eller gjennom åpning av en konto på Nettstedet, godtar du å være bundet av personvernsbetingelsene. Benytter du Nettstedets produkter vil du bli bedt om sanne, oppdaterte og nøyaktige personopplysninger som vi benytter til å verifisere din identitet.</p>
+
+<p>
+i) Implisert gir du tillatelse til at vi behandler dine personlige opplysninger i henhold til loven i gjeldende jurisdiksjon.</p>
+<p>
+ii) Du godtar å frivillig dele private opplysninger med Selskapet, opplysninger som Selskapet bruker til å bekrefte din identitet. Innsamlingen av de personlige opplysningene følger strenge verifiseringsprosedyrer som vi benytter for å avdekke internasjonal hvitvasking av penger og for å beskytte og sikre kundens aktiviteter. </p>
+<p>
+Selskapet er forpliktet til å beskytte og respektere ditt privatliv, konfidensialitet og sikkerhet og fullt ut etterleve krav om beskyttelse av personlige opplysninger og personvernslovgivning. </p>
+</li>
+<li>
+<strong>Innhenting av personlige opplysninger: </strong>
+<p>
+Vi innhenter slik informasjon når du registrerer deg, og benytter deg av, våre produkter, kommer med forespørsler, tilmelder deg kampanjer og andre tilbud eller kommuniserer med oss, hvilket kan være, uten å begrense seg til, undersøkelser og spørreskjema. Den innsamlede informasjonen kan inneholde både bankopplysninger, private opplysninger og andre opplysninger du gir.</p> 
+</li>
+<li>
+<strong>Hvordan behandles opplysningene?</strong>
+<p>
+Opplysningene dine behøves av en rekke grunner, blant annet for at vi skal kunne tilby deg tjenesten, for å kunne behandle dine forespørsler, for å kunne yte tilstrekkelig service, av markedsmessige grunner, for å kunne informere deg om viktige endringer på Nettstedet, for å imøtekomme krav og lovgivning i jurisdiksjoner hvor vi har lisens og for andre grunner hvor du spesifikt blir bedt om slike opplysninger. </p>
+</li>
+<li>
+<strong>Hvem har tilgang til dine personlige opplysninger? </strong>
+<p>
+Følgende kan få tilgang til dine personlige opplysninger:<br />
+a)  Interne gruppeselskaper. I slike tilfeller sørger vi for at kun autorisert personell får tilgang til opplysningene;<br />
+b)  Til tredjepartsfirma som opererer med tillatelse til å bruke våre tjenester for å kunne tilby deg en spilltjeneste;<br />
+c)  Til tredjepartsfirma som leverer tjenester til oss, tjenester som i sin tur hjelper oss med å levere vår spilltjeneste til deg. Dette kan være, uten å begrenses til, ulike betalingstjenester eller dataverifiseringsfirma;<br />
+d)  Til konsulenter, eksempelvis revisorer, som tilbyr deres tjenester til Selskapet, eller interne gruppeselskaper, og hjelper oss med å forbedre vår forretning;<br />
+e)  Til potensielle investorer eller oppkjøpere av Selskapet eller interne gruppeselskaper;<br />
+f)  Til myndigheter eller institusjoner, men kun hvis dette er påkrevd gjennom lov.<br />
+Enhver tredjepart som kommer dine personlige opplysninger i hende er kontaktmessig bundet av de samme krav til beskyttelse av personlige opplysninger og personvernslovgivning som nevnt i disse personvernsbetingelsene. </p>
+</li>
+<li>
+<strong>Sikkerhet</strong>
+<p>
+Selskapet lover å ta alle forhåndsregler og følge alle retningslinjer i forhold til å beskyttelse dine personlige opplysninger fra uautorisert adgang eller endring, avsløring eller ødeleggelse. </p>
+
+<p>
+Du kan kontakte oss på <a href="mailto:[Metadata:value(/Metadata/Settings.Email_SupportAddress)]">[Metadata:value(/Metadata/Settings.Email_SupportAddress)]</a> dersom du ønsker å motta en kopi av dine personlige opplysninger eller dersom du ønsker å endre opplysningene på noen måte</p>
+</li>
+<li>
+<strong>Diverse</strong>
+<p>
+Dine personlige opplysninger forblir i våre hender så lenge de tjener til sitt formål.</p>
+
+<p>
+Vi forbeholder oss retten til å modifisere eller endre disse personvernsbetingelsene fra tid til annen. Dersom endringer blir gjort vil vi meddele deg dette så hurtig som mulig og, i tilfeller hvor dette er nødvendig, be om din godkjennelse.</p>
+
+<p>
+Dersom du har spørsmål til personvernsbetingelsene ber vi deg vennligst kontakte oss på <a href="mailto:[Metadata:value(/Metadata/Settings.Email_SupportAddress)]">[Metadata:value(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+</li>
+</ul>
+<p style="text-align: right">
+    <button class="button button-print" onclick="window.print(); return false" type="button">
+        <span class="button_Right"><span class="button_Left"><span class="button_Center"><span>
+            Print</span> </span></span></span>
+    </button>
+</p>
+
+
+
+

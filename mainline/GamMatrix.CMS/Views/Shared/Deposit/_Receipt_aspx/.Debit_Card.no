@@ -1,0 +1,1 @@
+﻿Beløp som skal debiteres fra kortnummer.{0}

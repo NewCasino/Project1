@@ -1,0 +1,1 @@
+﻿Vi vill meddela dig att vi kommer att uppdatera våra regler och villkor från och med den 10:e augusti 2015. Vänigen besök <a href="http://www.jetbull.com/TermsConditions" target="_blank"> http://www.jetbull.com/TermsConditions</a> för att se ändringar.

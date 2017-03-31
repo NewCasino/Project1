@@ -1,0 +1,1 @@
+﻿Er was een probleem met uw Account ID, Secure ID of het bedrag dat is opgegeven. U kan alleen cijfers invullen in de Account ID, Secure ID, en bedrag velden. Probeer het opnieuw.

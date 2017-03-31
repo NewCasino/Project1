@@ -1,0 +1,1 @@
+﻿Odpowiedź musi składać się z co najmniej 2 znaków

@@ -1,0 +1,5 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>Deine Einzahlung ist fehlgeschlagen.&nbsp;</p>
+<p>Bitte überprüfe die eingegebene Informationen und versuche es später noch einmal.</p>
+<p>wenn Du irgend welche Fragen hast, dann kontaktiere bitte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Beste Grüsse,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Team</p>

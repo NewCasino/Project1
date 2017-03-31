@@ -1,0 +1,1 @@
+Dnevni limit (vsakih 24 ur od časa, ko ste nastavili svoj limit)

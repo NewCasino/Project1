@@ -1,0 +1,1 @@
+SWIFT jest nieprawidłowy, nie możesz użyć przykładowego SWIFT.

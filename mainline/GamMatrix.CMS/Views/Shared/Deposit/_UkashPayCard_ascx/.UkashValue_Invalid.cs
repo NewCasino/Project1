@@ -1,0 +1,2 @@
+﻿Neplatná Ukash hodnota
+

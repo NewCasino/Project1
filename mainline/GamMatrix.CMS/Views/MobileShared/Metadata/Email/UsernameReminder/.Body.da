@@ -1,0 +1,5 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Tak for din kontakt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], vi har modtaget din anmodning om det glemte brugernavn. </p>
+
+<p>Dit brugernavn er <strong>$USERNAME$</strong>. </p>
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

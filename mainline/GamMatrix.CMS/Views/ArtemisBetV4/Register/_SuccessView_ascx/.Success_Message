@@ -1,0 +1,9 @@
+﻿<p class="PopupThanksP">Thank you for registering!</p>
+
+<p class="PopupThanksP">You’re just moments away from getting a <strong class="QROffer" >1000TL</strong> <span class="QRType">Register Bonus</span><br /> To do that, please visit <strong>your email</strong> and click the link we sent you in the activation email. Be sure to check your spam folder too, it might’ve landed there by mistake! If you’ve not received our email or want to resend it, here’s a nice resend button:</p>
+
+<a href="#" id="btnResendEmail" class="Button Step2resendEmail">Re-send e-mail</a>
+
+<p class="PopupThanksP">If you have already activated your account by clicking the link in your email, you can:</p>
+
+<a href="/Deposit" id="btnActivateDeposit" class="Button ActivateDeposit" target="_top">Deposit now!</a>

@@ -1,0 +1,9 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Your payout for $VOUCHERAMOUNT$  has been processed. Below are information regarding your voucher:</p>
+<ul>
+<li><strong>UKash Voucher Number</strong>:$VOUCHERNUMBER$</li>
+<li><strong>UKash Voucher Amount</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>UKash Voucher Expiry Date</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>If you have any question regarding your voucher please do not hesitate to contact <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

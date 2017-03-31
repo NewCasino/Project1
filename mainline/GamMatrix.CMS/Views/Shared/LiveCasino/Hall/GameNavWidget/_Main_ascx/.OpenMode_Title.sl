@@ -1,0 +1,1 @@
+Ogled vseh načinov odpiranja

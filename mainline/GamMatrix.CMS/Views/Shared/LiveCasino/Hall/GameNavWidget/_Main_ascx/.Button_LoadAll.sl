@@ -1,0 +1,1 @@
+Prikaži vse kategorije

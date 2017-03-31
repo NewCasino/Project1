@@ -1,0 +1,1 @@
+Przelej pieniądze za pomocą {0}

@@ -1,0 +1,1 @@
+﻿Puede depositar dinero rápidamente desde su tarjeta MasterCard mediante Moneybookers en su cuenta de juego. Simplemente registre su tarjeta en la pasarela de Moneybookers, y, una vez que su tarjeta de crédito haya sido verificada, sus fondos serán transferidos, de forma segura e instantánea, a su cuenta de juegos.

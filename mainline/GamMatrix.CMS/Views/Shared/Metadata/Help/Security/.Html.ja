@@ -1,0 +1,43 @@
+<ol>
+
+    <li> <strong>御社のウェブサイトの拠点は何処ですか？</strong>
+        <p>弊社のウェブサイトはMaltaを拠点としております。</p>
+    </li>
+
+    <li> <strong>御社のウェブサイトはライセンスの承認を得ていますか？</strong>
+        <p>
+            はい、スポーツベット、カジノ、ポーカー向けの有効なEUライセンスを所持しております。        </p>
+    </li>
+
+    <li>
+        <strong>自分のクレジットカード情報はどの程度安全でしょうか？</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]は最も進んだデータ暗号化技術を用いお客様情報は[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]の一部でしかアクセスする事が出来ない事を保証致します。弊社では業界標準のSSL暗号化アルゴリズムを用いお客様の全ての情報を暗号化しております。つまり、お客様の住所、ご利用のカードなど行き来する全ての情報は銀行で使われているセキュリティーと同レベルのセキュリティーで保護されております。        </p>
+    </li>
+
+    <li>
+        <strong>自分の金融情報が安全だとする根拠は何ですか？</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]は国際的に受け入れられている業界標準のSSL暗号化アルゴリズムを用い、お客様の個人情報を暗号化しております。つまりお客様の住所、ご利用カードなどの行き来する情報は銀行で使用されているものと同じレベルのセキュリティーで保護されています。        </p>
+    </li>
+
+    <li>
+        <strong>自分のお金が安全と言える根拠は何ですか？</strong>
+        <p>
+            全てのお客様の資金は別のValletta信用銀行の口座に保持されております。これは弊社がライセンスを受けたMaltaの宝くじ、ゲーム規定に準拠するものです。顧客の資金はいつでもお客様がご利用頂けます様、完全に会社の資金から区分され安全に保持されております。
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

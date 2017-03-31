@@ -1,0 +1,1 @@
+﻿Venezuelské bolivar fuerte

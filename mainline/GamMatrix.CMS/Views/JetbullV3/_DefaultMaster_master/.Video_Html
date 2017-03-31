@@ -1,0 +1,11 @@
+﻿<div id="popup_boxes">
+    <div id="dialog" class="window">
+        <a href="javascript:void()" class="close"><img src="//cdn.everymatrix.com/JetbullV2/assets/images/btn_close.png" /></a>    
+        <video id="v_newgame" style="width:900px;" id="AliensVideo" controls loop>
+            <source src="//cdn.everymatrix.com/JetbullV2/assets/video/intro_aliens_1080.mp4.webm" type="video/webm; codecs=vp8,vorbis" />
+            <source src="//cdn.everymatrix.com/JetbullV2/assets/video/intro_aliens_1080.mp4.ogv" type="video/ogg; codecs=theora,vorbis" />
+            <source src="//cdn.everymatrix.com/JetbullV2/assets/video/intro_aliens_1080.mp4" />
+        </video>      
+    </div>
+    <div id="mask"></div>
+</div>

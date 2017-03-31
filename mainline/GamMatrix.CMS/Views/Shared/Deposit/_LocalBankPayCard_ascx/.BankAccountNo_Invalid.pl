@@ -1,0 +1,1 @@
+Nieprawidłowy numer konta bankowego

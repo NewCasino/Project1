@@ -1,0 +1,1 @@
+Z vnosom kode bonusa se strinjate z bonusom <a id="lnkBonusTermsConditions" href="#" target="_blank">Pogoji in določila</a>

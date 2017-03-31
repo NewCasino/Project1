@@ -1,0 +1,1 @@
+﻿La transacción está incompleta.

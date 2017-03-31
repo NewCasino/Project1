@@ -1,0 +1,1 @@
+﻿Nesprávné mobilní telefonní číslo.

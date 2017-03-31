@@ -1,0 +1,1 @@
+﻿Przekroczono maksymalną dozwoloną liczbę załączników ({0})

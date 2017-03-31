@@ -1,0 +1,1 @@
+﻿Změna zamítnuta - neplatné referenční ID.

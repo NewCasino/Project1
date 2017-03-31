@@ -1,0 +1,1 @@
+﻿Wallis And Futuna Islands

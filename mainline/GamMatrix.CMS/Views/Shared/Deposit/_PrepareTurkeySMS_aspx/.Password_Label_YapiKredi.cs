@@ -1,0 +1,1 @@
+﻿Chytrá SMS s heslem

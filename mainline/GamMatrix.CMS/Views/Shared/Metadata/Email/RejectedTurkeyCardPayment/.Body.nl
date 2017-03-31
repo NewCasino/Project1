@@ -1,0 +1,2 @@
+﻿<p> Dag $FIRSTNAME$, </p><p> Jouw aanbetaling is mislukt. </p><p> Controleer de informatie die jij invoert en probeer het later opnieuw. </p><p> Als jij nog vragen hebt, aarzel dan niet om contact op te nemen met <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Groten,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

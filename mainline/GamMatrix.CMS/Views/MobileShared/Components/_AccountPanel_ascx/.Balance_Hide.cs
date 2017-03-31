@@ -1,0 +1,1 @@
+﻿Skrýt zůstatky

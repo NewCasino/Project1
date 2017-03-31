@@ -1,0 +1,6 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Thank you for contacting [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], We have received your forgotten password request. Please click on the following link to reset your password.</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>This link is valid for 24 hours and can only be used once.<p>
+<p>If you do not wish to change your password, please ignore this email.<p/>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

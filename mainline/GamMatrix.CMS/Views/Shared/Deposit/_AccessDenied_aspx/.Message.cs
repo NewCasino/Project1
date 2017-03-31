@@ -1,0 +1,1 @@
+﻿Nemůžete vkládat hotovost.

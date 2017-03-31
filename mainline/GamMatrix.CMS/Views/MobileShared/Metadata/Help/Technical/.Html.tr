@@ -1,0 +1,51 @@
+﻿
+<ol>
+     <li><strong>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da oynamak i&#231;in minimum sistem gereksinimleri nelerdir?</strong>
+     <p>&nbsp;</p>
+     <ul>
+         <li>Windows - Intel Pentium işlemci (Pentium II &nbsp;veya daha y&#252;ksek &#246;nerilir) 64mb ram.</li>
+         <li>Macintosh - Power Macintosh Power PC işlemci (G3 veya daha y&#252;ksek &#246;nerilir) 64mb ram.</li>
+         <li>Apple Mac Kullanıcıları i&#231;in - apple Mac sistemlerinde mevcut Casino oyunları tam olarak desteklenmemektedir.</li>
+         <li>"FLASH" 10 veya daha yeni versiyonu</li>
+         <li>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] bir&#231;ok Windows işletim sistemiyle uyumludur (Windows 2000, XP, Vista ve 7).</li>
+         <li>Internet Explorer 7 den &#246;nceki tarayıcı versiyonları desteklenmemektedir.</li>
+     </ul>
+     <p>&nbsp;</p>
+     </li>
+     <li><strong>Bağlantım koparsa ne olur?</strong>
+     <p>T&#252;m oyun bilgileri sunucularımızda g&#252;venle saklanmaktadır. Bağlantınızın kopması durumunda tekrar siteye giriş yaparak yarım kalan herhangi bir oyun yada olayın sonucunu g&#246;rebilir ve kaldığınız yerden devam edebilirsiniz. Casino da eğer oynadığınız oyun tamamlanmamışsa tekrar giriş yaptığınızda kaldığı yerden devam etmelidir. Bu t&#252;r sorunlar devam ederse m&#252;şteri hizmetleri ile g&#246;r&#252;ş&#252;n&#252;z.</p>
+     </li>
+     <li><strong>Hangi yazılım şirketini kullanıyorsunuz?</strong>
+     <p>Spor bahisleri yazılımları EveryMatrix, Casino yazılımları Net Entertainment ve Canlı Casino yazılımları Xprogaming şirketleri tarafından sağlanmaktadır.</p>
+     </li>
+     <li><strong>Neden oyun sunucusuna bağlanamıyorum?</strong>
+     <p>İnternet bağlantınızı kontrol ediniz ve sorun devam ederse m&#252;şteri hizmetleri ile g&#246;r&#252;ş&#252;n&#252;z.</p>
+     </li>
+     <li><strong>Neden hesabıma giriş yapamıyorum?</strong>
+     <p>Kullanıcı adı ve şifre bilgilerinizi doğru girdiğinizden emin olunuz, sorun devam ederse [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] m&#252;şteri hizmetleri ile g&#246;r&#252;ş&#252;n&#252;z.</p>
+     </li>
+     <li><strong>Web sitesi &#231;ok yavaş &#231;alışıyor nasıl hızlandırabilirim?</strong>
+     <p>Bilgisayarınızda aynı anda birden &#231;ok internet tarayıcının a&#231;ık olması, m&#252;zik programları veya dosya indirme programlarının a&#231;ık olması gibi nedenlerle bilgisayarınız yada internet bağlantınız yavaşlayabilir. İnternet servis sağlayıcınızdan kaynaklanan sorunlar olabilir. İnternet bağlantınızı diğer kullanıcılarla paylaşmanızda bağlantı hızınızın d&#252;şmesine neden olur.</p>
+     </li>
+     <li><strong>Sitenin veya oyunların sesleri &#231;ıkmıyor.</strong>
+     <p>Ses kartınızın ve hoparl&#246;rlerinizin &#231;alışıyor olduğundan ve sessiz moda alınmadığından emin olunuz. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] &#8216;Ayarlar&#8217; b&#246;l&#252;m&#252;nde sesin se&#231;ili olduğundan emin olunuz. &nbsp;Sohbet sekmesinde sağ alt k&#246;şede &#8216;Ayarlar&#8217; b&#246;l&#252;m&#252;nden &#8216;hepsi&#8217;, &#8216;uyarılar&#8217; veya &#8216;sessiz&#8217; se&#231;enekleri se&#231;ilebilir.</p>
+     </li>
+     <li><strong>MAC versiyonunuz var mı?</strong>
+     <p>Ne yazık ki şimdilik MAC i&#231;in &#246;zel tasarlanmış bir versiyonumuz bulunmamaktadır. Bir&#231;ok kullanıcı PC emulator ile oyunları rahat&#231;a oynayabilmektedirler.</p>
+     </li>
+     <li><strong>Neden oyunlar &#231;ok yavaş?</strong>
+     <p>Sunucu ve bilgisayarınız arasındaki bağlantı en hızlı olacak şekilde optimize edilmiştir. İki sebepten oyun yavaş olabilir: 1. Masadaki diğer oyuncular kendi ellerinde &#231;ok fazla bekliyordur. 2. İnternet bağlantınız yavaştır.</p>
+     </li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

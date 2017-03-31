@@ -1,0 +1,1 @@
+﻿ Du kan snabbt överföra pengar från ditt kreditkort till ditt spelkonto. Ange dina kortuppgifter, såfort ditt kreditkort är verifierat, kommer dina pengar säkert och direkt överföras till ditt spelkonto. 

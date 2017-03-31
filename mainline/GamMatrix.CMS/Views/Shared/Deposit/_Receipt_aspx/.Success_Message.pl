@@ -1,0 +1,1 @@
+Pomyślnie dokonałeś dokonałeś wpłaty

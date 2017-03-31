@@ -1,0 +1,1 @@
+﻿Prosím používejte CPR účet.

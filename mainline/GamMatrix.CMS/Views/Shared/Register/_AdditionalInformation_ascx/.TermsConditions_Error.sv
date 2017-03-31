@@ -1,0 +1,1 @@
+Du måste bekräfta att du accepterar våra villkor och bestämmelser

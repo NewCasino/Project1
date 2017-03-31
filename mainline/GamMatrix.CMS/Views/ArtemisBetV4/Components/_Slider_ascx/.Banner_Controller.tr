@@ -1,0 +1,3 @@
+﻿    <a id="close-slider" href="#close-slider" data-url="close-slider" class="SliderToggle"> <span class="ButtonText SliderCloseText"> Kapat </span> <span class="SliderBtnIcon">&nbsp;</span></a>
+    <a id="show-slider" href="#show-slider" data-url="show-slider" class="SliderToggle ShowSlider hidden"> <span class="ButtonText SliderCloseText"> 
+Göster </span> <span class="SliderBtnIcon">&nbsp;</span></a>

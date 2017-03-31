@@ -1,0 +1,1 @@
+﻿La identidad de su amigo no está verificada.

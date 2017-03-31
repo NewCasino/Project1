@@ -1,0 +1,1 @@
+﻿<p class="ATHP">Trykk på <span class="ATHIcon">Legg til min side</span> ikonet nedenfor og velg "Legg til Min Side".</p>

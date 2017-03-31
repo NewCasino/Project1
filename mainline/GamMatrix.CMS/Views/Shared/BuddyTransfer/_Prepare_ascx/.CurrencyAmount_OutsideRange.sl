@@ -1,0 +1,1 @@
+Znesek presega limit.

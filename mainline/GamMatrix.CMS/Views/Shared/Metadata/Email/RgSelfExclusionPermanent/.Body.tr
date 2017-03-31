@@ -1,0 +1,7 @@
+﻿<p>Sayın $USERNAME$,<br /> </p>
+<br /> Bu Epostası Hesabınızın Öz-Dışlamaya alındığını bildirmek içindir.
+<br /><br />Artık Hesabınıza Giriş yapamayacaksınız.
+<br /><br />Lütfen herhani bir Sorunuz olursa, bizimle burdan İletişime geçmeye çekinmeyiniz :<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<br /><br />
+<p>Saygılarımızla,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri Ekibi</p>

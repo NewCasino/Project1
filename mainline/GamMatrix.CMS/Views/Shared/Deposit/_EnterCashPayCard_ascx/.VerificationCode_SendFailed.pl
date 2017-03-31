@@ -1,0 +1,1 @@
+Wysyłanie kodu weryfikacyjnego nie powiodło się. Sprawdź numer swojego telefonu lub spróbuj ponownie.

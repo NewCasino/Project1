@@ -1,0 +1,1 @@
+﻿Falló la carga de saldos.

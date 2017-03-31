@@ -1,0 +1,1 @@
+﻿Funkce stejného jména již existuje. Prosím vyberte jiné

@@ -1,0 +1,1 @@
+﻿ID účtu není platné

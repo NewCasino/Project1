@@ -1,0 +1,1 @@
+För att göra det enklare att betala för produkter och tjänster online, har det holländska banksamfundet utvecklat iDEAL-metoden för betalningar online.

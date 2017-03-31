@@ -1,0 +1,1 @@
+﻿Maximální částka (procenta)

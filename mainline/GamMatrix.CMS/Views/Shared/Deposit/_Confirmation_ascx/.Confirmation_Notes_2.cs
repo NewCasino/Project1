@@ -1,0 +1,1 @@
+﻿Vemte na vědomí, že $AMOUNT$  bude odečtena z vaší karty, vaše banka mohla převézt tuto částku do místní měny za použití jejího převodního kurzu. Částka odečtená z vaší karty $ACCOUNT$ proto nemusí být totožná s částkou na vašem vyúčtování.

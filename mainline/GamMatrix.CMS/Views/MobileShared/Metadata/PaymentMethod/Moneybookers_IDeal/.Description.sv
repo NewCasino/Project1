@@ -1,0 +1,1 @@
+iDeal via Moneybookers har lika full support för snabba överföringar som alla Dutch benker. iDeal garanterar enkla och säkra betalningsmetoder. 

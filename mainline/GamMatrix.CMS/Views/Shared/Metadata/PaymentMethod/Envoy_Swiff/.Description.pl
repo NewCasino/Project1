@@ -1,0 +1,1 @@
+﻿Swiff oferuje łatwe, bezpieczne i prywatne płatności online. Swiff - moje pieniądze, mój sposób. Prostsze płatności online.

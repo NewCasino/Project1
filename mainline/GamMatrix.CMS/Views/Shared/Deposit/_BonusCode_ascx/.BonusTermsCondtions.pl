@@ -1,0 +1,1 @@
+Wpisując kod premii, wyrażasz zgodę na <a id="lnkBonusTermsConditions" href="#" target="_blank">Warunki i postanowienia dotyczące premii</a>

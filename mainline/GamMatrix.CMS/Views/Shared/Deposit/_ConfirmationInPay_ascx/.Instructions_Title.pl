@@ -1,0 +1,1 @@
+Ręcznie zaloguj się w swoim banku internetowym i prześlij pieniądze

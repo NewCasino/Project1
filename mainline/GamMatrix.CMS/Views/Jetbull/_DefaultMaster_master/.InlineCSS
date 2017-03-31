@@ -1,0 +1,26 @@
+﻿#lhnContainerDone{ float:right; margin-top:3px;  }
+
+#message_SuspendedFunds{
+	width:250px;
+	background: url("//cdn.everymatrix.com/Generic/img/arrows-white.png") no-repeat scroll 2px 8px;
+}
+#message_SuspendedFunds .message_SuspendedFunds-wrapper
+{
+	background: url("//cdn.everymatrix.com/Generic/img/arrows-white.png") no-repeat scroll right 8px;
+}
+
+#message_SuspendedFunds .message_SuspendedFunds-content{
+	background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    padding: 10px 15px;
+	text-align: left;
+}
+
+#message_SuspendedFunds .message_SuspendedFunds-close{
+	font-style:italic;
+	text-align: right;
+}
+
+#message_SuspendedFunds #message_SuspendedFunds-close-holder{
+	cursor: pointer;
+}

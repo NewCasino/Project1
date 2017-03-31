@@ -1,0 +1,109 @@
+﻿<ol>
+
+	<li> <strong>Ako môžem vybrať z môjho účtu?</strong>
+		<p>
+			O výber môžete požiadať kedykoľvek po splnení všetkých podmienok a ak váš účet bol overený pre výbery. Môžete vyberať koľko krát chcete, ale v súlade s ochranou pred praním špinavých peňazí, nemôžeme umožniť výbery z vášho  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] účtu po dobu 24 hodín po vykonaní vkladu. Minimálna suma výberu je 10 € alebo ekvivalent v inej mene.
+		</p>
+	</li>
+
+	<li> <strong>Sú nejaké limity na výber?</strong>
+		<p>
+			Minimálna suma výberu 10 € alebo ekvivalent v inej mene. Maximálna suma výberu na deň je 5.000 € alebo ekvivalent v inej mene.
+		</p>
+	</li>
+
+	<li>
+		<strong>Môžem zrušiť požiadavku na výber?</strong>
+		<p>
+			Kontaktujte prosím [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu a pokiaľ výber nebol spracovaný, možno ho zrušiť.
+		</p>
+	</li>
+
+	<li>
+		<strong>Môžem vybrať svoje výhry na kreditnú/debetnú kartu?</strong>
+		<p>
+			Áno môžete, pokiaľ je to tá istá karta s ktorou ste uskutočnili vklad a zároveň vaša karta akceptuje spätné platby.
+		</p>
+	</li>
+
+	<li>
+		<strong>Vložil som kreditnou/debetnou kartou, môžem vybrať inou platobnou metódou?</strong> 
+		<p>
+			Áno môžete, ale budeme od vás požadovať dokumenty k novej platobnej metóde.
+		</p>
+	</li>
+
+	<li>
+		<strong>Prečo si nemôžem vybrať metódu výberu?</strong>
+		<p>
+			To je v dôsledku dodržiavania pravidiel proti praniu špinavých peňazí a taktiež pre bezpečnosť vašich aj našich finančných prevodov. Až na povolené výnimky všetky výbery sa musia realizovať rovnakou platobnou metódou použitou pri vklade. 
+		</p>
+	</li>
+
+	<li>
+		<strong>Účtujete nejaké poplatky za výber?</strong> 
+		<p>
+			Poplatky za výber sa odlišujú podľa použitej metódy výberu. Prosím kliknite na '
+			<a href="/deposit">Platobné metódy</a>
+			' a prehliadnite si informácie o poplatkoch. Upozorňujeme, že vaša banka si môže účtovať ďalšie poplatky za svoje služby.
+		</p>
+	</li>
+
+	<li>
+		<strong>Ako dlho trvá spracovanie výberov?</strong>
+		<p>
+			Dĺžka výberu sa odlišuje podľa použitej platobnej metódy. Prosím kliknite na '
+			<a href="/deposit">Platobné metódy</a>
+			' a prehliadnite si informácie o dĺžke spracovania výberu.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Prečo výber na moju kartu trvá niekoľko dní a vklad je pritom okamžitý?
+		</strong>
+		<p>
+			Vykonávame viacero kontrol pred odoslaním každého výberu, čo oneskorí výber približne o 12 hodín. Tieto kontroly sú súčasťou nášho záväzku zvyšovania bezpečnosti finančných prostriedkov našich zákazníkov. Akékoľvek iné oneskorenia sú spôsobené obmedzeniami sprostredkovateľov platobných metód.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Čo sa stane pri skončení platnosti mojej karty alebo v prípade jej zrušenia?
+		</strong>
+		<p>
+			Budete nás musieť informovať o akýchkoľvek zmenách v súvislosti s vašou kartou a  doložiť potvrdenie o exspirácii alebo dôvod zmeny karty. Každú novú kartu si musíte zaregistrovať na váš [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] účet.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Môžem požiadať o výber z môjho účtu a zaslať ho na účet niekoho iného?
+		</strong>
+		<p>
+			Nie, toto je považované za prevod tretej strane a za žiadnych okolností to nemôže byť umožnené.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Aké sú pravidlá  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] pre výbery?
+		</strong>
+		<p>
+			Váš účet musí byť aktívny a musí byť na ňom minimálna suma požadovaná pre výber. Určité obmedzenia sa môžu vzťahovať na hráčov, ktorí sa zúčastňujú promo akcií resp. hrajú s bonusovými prostriedkami.
+		</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Tlačiť</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

@@ -1,0 +1,1 @@
+Kod premii został zastosowany pomyślnie!

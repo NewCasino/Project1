@@ -1,0 +1,1 @@
+Potrdite številko mobilnega telefona

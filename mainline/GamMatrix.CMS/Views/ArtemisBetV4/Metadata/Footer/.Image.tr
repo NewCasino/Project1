@@ -1,0 +1,43 @@
+﻿<ul class="FooterLogos">
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-visa.png" width="60" height="40" alt="Bu site Visa ödemelerini destekler" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-visaelectron.png" width="60" height="40" alt="Bu site Visa Electron ödemelerini destekler" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-maestro.png" width="60" height="40" alt="Bu site Maestro ödemelerini destekler" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-mastercard.png" width="60" height="40" alt="Bu site MasterCard ödemelerini destekler" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-tlnakit.png" width="100" height="40" alt="Bu site TLNakit ödemelerini destekler" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-neteller.png" width="100" height="40" alt="Bu site Neteller ödemelerini destekler" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-ecopayz.png" width="100" height="40" alt="Bu site Ecopayz ödemelerini destekler" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-paykasa.png" width="100" height="40" alt="Bu site Paykasa ödemelerini destekler" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-paykwik.png" width="100" height="40" alt="Bu site Paykwik ödemelerini destekler" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-astropay.png" width="80" height="40" alt="Bu site AstroPayCard ödemelerini destekler" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-rng.png" width="60" height="40" alt="Bu site sertifikalı Rasgele Sayı Üreticisi vardır" />
+	</li>
+	<li class="FooterLogo">
+		<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-tst.png" width="60" height="40" alt="Bu site Teknik Sistem Test belgelendirme etti" />
+	</li>
+	<li class="FooterLogo">
+		<a class="FooterLogoLink" href="/under18" title="Yaş doğrulaması ilgili ayrıntıları okuyun">
+			<img class="FooterLogoImage" src="//cdn.everymatrix.com/ArtemisBetV4/img/footer/footer-over18.png" width="52" height="40" alt="Bu site sadece 18 yaşından büyük kişilerde izin" />
+		</a>
+	</li>
+</ul>

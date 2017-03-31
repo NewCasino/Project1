@@ -1,0 +1,1 @@
+﻿Nakazilo z vašegar {0} računa

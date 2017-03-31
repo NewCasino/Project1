@@ -1,0 +1,1 @@
+﻿Beløpet som skulle overføres fra {0} konto

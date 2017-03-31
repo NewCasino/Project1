@@ -1,0 +1,10 @@
+<p>&nbsp;</p>
+<button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>baskı</span>
+                </span>
+            </span>
+        </span>
+    </button>

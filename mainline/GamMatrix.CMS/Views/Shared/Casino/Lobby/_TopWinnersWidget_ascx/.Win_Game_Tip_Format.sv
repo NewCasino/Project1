@@ -1,0 +1,1 @@
+Vinnande spel: {0}

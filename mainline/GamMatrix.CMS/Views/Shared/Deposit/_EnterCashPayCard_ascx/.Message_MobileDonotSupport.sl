@@ -1,0 +1,1 @@
+Izbrana banka vašega mobilnega telefona ne podpira; posodobite svoj mobilni telefon, da boste lahko opravljali pologe.

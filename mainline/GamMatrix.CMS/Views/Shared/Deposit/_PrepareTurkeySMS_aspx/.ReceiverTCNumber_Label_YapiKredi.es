@@ -1,0 +1,1 @@
+﻿DNI turca del receptor

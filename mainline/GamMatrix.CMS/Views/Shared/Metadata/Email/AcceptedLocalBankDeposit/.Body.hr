@@ -1,0 +1,13 @@
+﻿<p>Pozdrav $FIRSTNAME$,</p>
+<p>Vaš polog uspješno je uplaćen.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Kliknite na tipku „Osvježi“ (NE na tipku internetskog preglednika) na vrhu stranice kako biste ponovno učitali saldo.</strong>
+  </span>
+</p>
+<p>
+  Ako imate bilo kakva pitanja ne oklijevajte kontaktirati nas. <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  S poštovanjem,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tim
+</p>

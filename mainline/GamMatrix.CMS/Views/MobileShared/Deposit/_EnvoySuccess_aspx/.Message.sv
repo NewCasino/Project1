@@ -1,0 +1,1 @@
+﻿Efter att din insättning är genomförd, så kommer ditt konto att krediteras då vi har fått pengarna. Tiden kan ta några minuter till några dagar bereonde på vilken betalningslösning du har använt.

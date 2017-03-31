@@ -1,0 +1,1 @@
+30-dnevno obdobje samoizključevanja

@@ -1,0 +1,1 @@
+﻿Weź pieniądze. Wymień je na voucher Ukash. Użyj go do płatności online. To takie proste! Nie trzeba podawać nam danych finansowych. Nie trzeba mieć nawet karty. Ukash. Teraz możesz. <br /> <a href="https://direct.ukash.com/forexViewer/ExchangeRates.aspx" target="_blank">Sprawdź kursy wymiany walut w Ukash</a>

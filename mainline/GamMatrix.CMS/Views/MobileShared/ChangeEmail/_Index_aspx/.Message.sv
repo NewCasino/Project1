@@ -1,0 +1,1 @@
+För att ändra din e-mailadress vänligen fyll i och bekräfta din nya e-mailadress nedan. Ett bekräftelse e-mail kommer att skickas till din nya e-mailadress. Du måste klicka på länken i detta e-mail för att bekräfta din nya e-mailadress. Din e-mailadress kommer inte ändras förrän du bekräftar din nya e-mailadress genom att klicka på länken i det bekräftningsmailet.

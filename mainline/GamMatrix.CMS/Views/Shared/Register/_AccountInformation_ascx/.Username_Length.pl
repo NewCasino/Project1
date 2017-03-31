@@ -1,0 +1,1 @@
+Nazwa użytkownika musi składać się z przynajmniej 4 znaków.

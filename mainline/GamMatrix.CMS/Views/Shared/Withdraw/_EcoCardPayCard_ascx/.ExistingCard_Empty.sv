@@ -1,0 +1,1 @@
+﻿Vänligen välj ett kort

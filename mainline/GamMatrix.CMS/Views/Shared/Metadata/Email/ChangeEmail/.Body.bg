@@ -1,0 +1,7 @@
+﻿Hi <p> $FIRSTNAME$, </P>
+Заявили сте <p> че вашите [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] имейл адрес за връзка да се промени </P>.
+<p> За Вашата сигурност ние трябва да потвърдите новия си имейл контакти. За да направите това, просто кликнете върху линка по-долу: </P>
+ <p> <a href="$ACTIVELINK$"> $Activelink$ </A> </P>
+<p> Ако тази връзка не реагира, да копирате и поставите в браузъра си директно. </P>
+<p> Ако не поиска да промените имейл адреса си, не обръщайте внимание на този имейл или да ни информира в <а
+С уважение <p> Kind, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Service Team </P>

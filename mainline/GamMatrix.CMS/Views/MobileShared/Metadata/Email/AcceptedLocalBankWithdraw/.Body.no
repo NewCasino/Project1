@@ -1,0 +1,13 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Ditt uttak er blitt utført.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Vennligst sjekk din banksaldo.</strong>
+  </span>
+</p>
+<p>
+  Hvis du har noen spørsmål kan du kontakte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  Med vennlig hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team
+</p>

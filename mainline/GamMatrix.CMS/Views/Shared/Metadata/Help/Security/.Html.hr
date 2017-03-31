@@ -1,0 +1,46 @@
+﻿<ol>
+
+    <li> <strong>Gdje je sjedište vaše internetske stranice?</strong>
+        <p>Sjedište naše internetske stranice je na Malti.</p>
+    </li>
+
+    <li> <strong>Je li vaša internetska stranica licencirana?</strong>
+        <p>
+            Da, posjedujemo važeću EU licencu za sportske kladionice, kasino i poker.
+        </p>
+    </li>
+
+    <li>
+        <strong>Koliko su sigurni podaci o mojoj kreditnoj kartici?/strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] koristi najsuvremenije tehnike kodiranja podataka kako bi jamčila da su vaši podaci dostupni samo odabranoj nekolicini unutar [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] obitelji. Sve vaše informacije kodiramo koristeći SSL algoritme za kodiranje koji su međunarodno prihvaćeni industrijski standardi. To znači da su sve vaše informacije koje šaljete i primate, od svoje adrese do kartice, zaštićene istom razinom sigurnosti koju bi koristila i banka.
+        </p>
+    </li>
+
+    <li>
+        <strong>Kako ću znati da su moji podaci o financijama na sigurnom?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kodira sve vaše informacije koristeći SSL algoritme za kodiranje koji su međunarodno prihvaćeni industrijski standardi. To znači da su sve vaše informacije koje šaljete i primate, od svoje adrese do kartice, zaštićene istom razinom sigurnosti koju bi koristila i banka.
+        </p>
+    </li>
+
+    <li>
+        <strong>Kako ću znati da je moj novac na sigurnom?</strong>
+        <p>
+            Sva sredstva korisnika čuvaju se na zasebnim računima korisnika u banci Bank of Vallette. To je u suglasnosti s odredbama za lutrije i kockanje Malte kojim je tvrtka i ovlaštena. Sredstva korisnika su potpuno zaštićena i odvojena od korporacijskih sredstava, a osigurana su na ovaj način kako bi sredstva korisnika bila sigurna i uvijek dostupna korisnicima.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

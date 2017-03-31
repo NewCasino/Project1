@@ -1,0 +1,1 @@
+﻿Zabavit veškeré finanční prostředky 

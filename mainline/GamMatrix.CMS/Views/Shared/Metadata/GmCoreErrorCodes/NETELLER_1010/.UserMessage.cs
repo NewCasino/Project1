@@ -1,0 +1,1 @@
+﻿Přihlašte se prosím do svého NETELLER a ověřte si číslo bankovního účtu. V případě jakýchkoli otázek volejte NETELLER zákaznickou podporu.

@@ -1,0 +1,74 @@
+﻿<ol>
+
+	<li> <strong>Hvordan kan jeg identifisere betalinger eller uttak i forbindelse med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] på kontoutskriften til kreditt-/bankkortet mitt?</strong> 
+		<p>
+			Alle innskudd eller uttak som dukker opp på kontoutskriften din vil alltid ha en beskrivelse der [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] vil være nevnt. Dette hjelper deg med å holde styr på innskuddene og uttakene dine fra siden.
+		</p>
+	</li>
+
+	<li> <strong>Kan jeg bruker mer enn én betalingsmetode?</strong>
+		<p>
+			Ja, du kan, men det kan hende vi krever dokumentasjon dersom du bytter betalingsmetode.
+		</p>
+	</li>
+
+	<li>
+		<strong>Godtar dere kort fra landet mitt?</strong>
+		<p>
+			Vi godtar kort fra alle land med unntak av USA, Tyrkia og Frankrike.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hvorfor vil ikke nettstedet deres ta kortet mitt?</strong>
+		<p>
+			Noen kredittkortselskaper har en regel som gjør at du ikke kan foreta innskudd direkte til sider som driver med gambling og spill online. Du kan kontakte institusjonen som har utstedt kortet ditt for å diskutere dette, eller prøve en av de mange e-lommebøkene til å foreta innskuddet.&nbsp; For ytterligere assistanse, vennligst kontakt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hva gjør jeg om innskuddet mitt med kort blir avslått?</strong>
+		<p>
+			Noen ganger, hvis du prøver å foreta et andre innskudd før det første innskuddet ditt har blitt klarert, kan det telle mot din 24-timers grense eller ukentlige innskuddsgrense, og derfor skape et problem. Den vanligste grunnen til dette er fordi feltene i forespørselen ikke er fylt ut riktig. Kontakt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte for å få rettet dette. Noen kredittkortselskaper har også en regel som gjør at du ikke kan foreta innskudd direkte til sider som driver med gambling og spill online. Du kan kontakte institusjonen som har utstedt kortet ditt for å diskutere dette, eller prøve en av de mange e-lommebøkene. 
+		</p>
+	</li>
+
+	<li>
+		<strong>Kan jeg bruke kortet mitt til å foreta et innskudd til kontoen til vennen min?</strong>
+		<p>
+			Du kan ikke gjøre dette, siden det anses som en tredjepartstransaksjon, noe som er forbudt under alle omstendigheter.
+		</p>
+	</li>
+
+	<li>
+		<strong>Jeg har foretatt et innskudd med feil kort &ndash; er det noe jeg kan gjøre?</strong> 
+		<p>
+			Vennligst kontakt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte på 
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Kan jeg overføre penger mellom kontoer?</strong>
+		<p>
+			Du kan ikke overføre penger mellom personlige kontoer, men du kan overføre mellom Casino, Odds og Poker på din personlige konto.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hva er IBAN?</strong>
+		<p>
+			IBAN står for International Bank Account Number. IBAN brukes for å foreta internasjonale bankoverføringer, og gjør uttak av gevinstene dine enklere.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hva er en CVC2-kode?</strong>
+		<p>
+			CVC2 er et akronym for "Card Verification Code". Denne koden kreves som et sikkerhetstiltak når du foretar internasjonale telefonkjøp og kjøp på Internett med kredittkort. Koden består av tre tall som du finner på baksiden av kredittkortet ditt.
+		</p>
+	</li>
+
+</ol>

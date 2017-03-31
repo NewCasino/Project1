@@ -1,0 +1,1 @@
+﻿Su cuenta ha sido bloqueada. Para obtener ayuda, por favor contacte con el servicio de atención al cliente en service@click2pay.com.

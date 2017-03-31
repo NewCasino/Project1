@@ -1,0 +1,1 @@
+Ko kliknete »Nadaljuj«, boste preusmerjeni na giftcardempire.com.

@@ -1,0 +1,1 @@
+Uttaget kommer processas så fort som möjligt

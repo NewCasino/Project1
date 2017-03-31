@@ -1,0 +1,1 @@
+﻿Het meegeleverde bedrag is verkeerd. Probeer het opnieuw. Als het probleem aanhoudt, neem dan contact op met de klanten service op service@click2pay.com.

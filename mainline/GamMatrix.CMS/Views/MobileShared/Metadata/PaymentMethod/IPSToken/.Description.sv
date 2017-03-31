@@ -1,0 +1,1 @@
+IPS är ett förbetalt kupongsystem. Ett säkert och snabbt sätt att föra över medel till och från ditt konto. 

@@ -1,0 +1,2 @@
+﻿PSČ nemůže být prázdné
+

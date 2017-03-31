@@ -1,0 +1,7 @@
+﻿<p>$FIRSTNAME$,</p>
+<p> Para Yatırma Talebiniz başarısız olmuştur. Lütfen Bilgilerinizi kontrol edip tekrar talep verin.</p>
+<p> Lütfen herhangi bir Problem yaşadığınız taktirde aşağıdaki Email Adresinden Müşteri Hizmetlerine başvurunuz: </p>
+<p><a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> .<br />
+  <br />
+  Saygılarımızla ,<br />
+  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]</p>

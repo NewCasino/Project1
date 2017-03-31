@@ -1,0 +1,1 @@
+Generera en kod för att kunna göra uttag från Bank of Georgias bankomat.

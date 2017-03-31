@@ -1,0 +1,1 @@
+Obegränsat antal säten

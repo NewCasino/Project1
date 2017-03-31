@@ -1,0 +1,1 @@
+Geslo ne sme biti enako vašemu uporabniškemu imenu.

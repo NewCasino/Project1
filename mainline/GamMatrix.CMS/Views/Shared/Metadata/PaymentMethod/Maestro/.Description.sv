@@ -1,0 +1,1 @@
+Med ditt Maestro-kort kan du snabbt sätta in pengar från ditt kreditkort till ditt spelkonto. Ange bara dina kortuppgifter och när ditt Maestro-kort har verifierats kommer pengarna att föras över till ditt spelkonto, säkert och omedelbart.

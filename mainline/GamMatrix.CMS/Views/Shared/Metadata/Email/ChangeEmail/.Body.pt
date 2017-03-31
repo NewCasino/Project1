@@ -1,0 +1,13 @@
+﻿<p>Olá $FIRSTNAME$,</p>
+<p>Recebemos o seu pedido para [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] alterar a sua direção de email.</p>
+<p>Para a sua segurança, necessitamos de efectuar a verificação do seu novo contacto de email. Por favor clique no seguite link para continuar:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Se o link não responder, copie e cole diretamente no seu browser.</p>
+<p>Se não solicitou a alteração da sua direção de email, por favor contecte-nos em, <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p> Com os melhores cumprimentos, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Equipa do Serviço de Apoio ao Cliente</p>
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+﻿/game/gamerules.jsp?game=allamerican50&lang=nl

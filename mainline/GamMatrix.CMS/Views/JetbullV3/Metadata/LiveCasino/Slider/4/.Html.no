@@ -1,0 +1,3 @@
+﻿<h3>Cash Rewards</h3>
+<p>Du tjener loyalitetspoeng n&aring;r du spiller i Live Casino.<br />Og poengene veksler du til ekte penger med et enkelt klikk!</p>
+<a href="/Promotions/TermsConditions/casino/casinocashrewards" class="button" title="Learn more"><span class="GoldButtonText">Les mer ►</span></a>

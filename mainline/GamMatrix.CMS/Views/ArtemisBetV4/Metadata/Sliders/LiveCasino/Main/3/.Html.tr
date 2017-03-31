@@ -1,0 +1,7 @@
+﻿<div class="CasinoSlider-Content Slide3Content ElementsAwakening">
+<h3 class="CasinoSliderTitle hidden"> Play Elements The Awakening</h3>
+<a href="/Register" class="SliderRegBtn"><span class="hidden"> Register to play</span></a>
+
+<a href="javascript:_openCasinoGame('elements');void(0);" class="CasinoSliderButton PlayNowButton" >
+<span class="ButtonText">Şimdi Oynayın</span></a>
+</div>

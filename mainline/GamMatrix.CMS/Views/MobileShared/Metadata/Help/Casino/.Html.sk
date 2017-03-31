@@ -1,0 +1,66 @@
+﻿<ol>
+    <li> <strong>Aké férové sú hry na vašej stránke?</strong>
+        <p>
+Chceme vás uistiť, že algoritmy generujúce hry na našej stránke sú úplne náhodné. Naše hry používajú Sun Microsystem's bezpečnostné funkcie pre Javu. Generátor náhodných čísel a premiešavací  mechanizmus boli vytvorené držiteľmi akademických titulov v matematike. Software ktorý používame k náhodnému rozdávaniu bol dôkladne testovaný, netrpí žiadnymi predsudkami a ani prvkami predvídateľnosti a bol schválený spoločnosťou eCOGRA.
+        </p>
+    </li>
+    <li>
+        <strong>Čo sa stane, keď bude hra prerušená v priebehu hracieho kola?</strong> 
+        <p>
+            Výsledok každého herného kola sa automaticky uchováva v systémovej databáze. Toto zabezpečuje, že výsledok poslednej hry videnej hráčom je vždy obnovený v momente, keď hra pokračuje, hneď po prerušení, či už z dôvodov výpadku internetu, severu, či problémov na strane zákazníka.
+        </p>
+    </li>
+
+    <li>
+        <strong>Koľko balíčkov kariet je vo vašom Blackjacku?</strong>
+        <p>V našom Blackjacku sa používajú 4 a 6 balíčky kariet.</p>
+    </li>
+
+    <li>
+        <strong>Kde nájdem potrebné inštrukcie k hraniu vašich hier?</strong>
+        <p>
+            Každá hra má na svojej stránke ‘Pravidlá hry‘.
+        </p>
+    </li>
+
+    <li>
+        <strong>Aké je priemerná výplatnosť na vašej stránke?</strong>
+        <p>
+            Výplatnosť sa odlišuje u každej hry v časovom období, avšak teoretická výplatnosť sa pohybuje okolo 97 %. Výplatnosť je nastavená v systéme hier a my ju nemôžeme meniť.
+        </p>
+    </li>
+
+    <li>
+        <strong>Môžem si vyskúšať hry zdarma?</strong>
+        <p>
+            Áno, hry môžete hrať zdarma pri voľbe režimu ‘Hra pre zábavu‘.
+        </p>
+    </li>
+
+    <li>
+        <strong>Môžem vziať stávky späť po umiestnení žetónov na stôl?</strong>
+        <p>
+            Predtým ako hra začne to samozrejme možné je, avšak po začiatku hry už stávky nemôžete zmeniť ani znížiť.
+        </p>
+    </li>
+
+    <li>
+        <strong>Čo sa stane keď stratím spojenie v priebehu hracieho kola?</strong>
+        <p>
+            Hra bude pokračovať od momentu v ktorom bola prerušená hneď po tom ako sa prihlásite a spustíte hru. Automaty, ktoré sa točili v priebehu prerušenia, dokončia kolo aj keď spojenie bolo prerušené.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Tlačiť</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

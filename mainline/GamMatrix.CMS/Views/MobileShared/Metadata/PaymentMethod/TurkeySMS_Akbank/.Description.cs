@@ -1,0 +1,1 @@
+﻿Akbank je turecká banka

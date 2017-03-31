@@ -1,0 +1,1 @@
+Izberite potrditveno polje!

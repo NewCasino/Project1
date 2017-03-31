@@ -1,0 +1,55 @@
+﻿<ol>
+        
+<li><strong>Aké sú minimálne a maximálne povolené stávky ?</strong>
+<p>Maximálne stávky sa líšia v závislosti na udalosti. Ak sa pokúsite podať stávku vyššiu ako maximálny limit, dostanete správu o tom, akú maximálnu sumu máte povolené staviť na tomto výbere. Minimum stávky nieje limitované.<p>
+</li>
+
+<li><strong>Aké sú jednorázové stávky a viacnásobné stávky?</strong>
+<p>Jednorázové stávky sa vzťahujú len na jeden výber; viacnásobná stávka vyžaduje viac ako jeden. Čím viac výberov medzi sebou prepojíte (napr. všetky domáce tímy v kole Premier League), tým viac môžete vyhrať, &ndash; no samozrejme je to zložitejšie!<p>
+</li>
+
+<li><strong>Koľko výberov môže viacnásobná stávka obsahovať?</strong>
+<p>Maximálny počet výberov pre viac násobnú stávku je 10.<p>
+</li>
+
+<li><strong>Ako funguje Handicap stavovanie?</strong>
+<p>Pre podrobný popis ako Handicap stavovanie funguje (1x2 s Handicap a Asian Handicap), Navštívte vysvetlivky stávkovania tu.<p>
+</li>
+
+<li><strong>Čo sa stane, keď je zápas odložený?</strong>
+<p>Skontrolujte si pravidlá pre daný šport. Niektoré športy vyžadujú aby sa zápas hral v rovnaký deň, aby stávky boli platné, stávky v iných športoch môžu zostať otvorené, až kým zápas nebude dohraný alebo úradne opustený.<p>
+</li>
+
+<li><strong>Prečo moja víťazná stávka nebola ešte zaplatená?</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] potrebuje oficiálne výsledky pred tým ako stávky môžu byť vyhodnotené. Niekedy on-line zdroje, ako sú live skóre miest môžu byť nesprávne, takže vyrovnanie sa môže odložiť, kým výsledky budú oficiálne potvrdené.<p>
+</li>
+
+<li><strong>Ja som zmenil svoj názor, môžem zrušiť svoju stávku?</strong>
+<p>Bohužial nie. Ak ste svoju stávku už podali a bola akceptovaná naším systémom, stávku nemožno zrušiť.<p>
+</li>
+
+<li><strong>Kde môžem nájsť záznam mojich stávok?</strong>
+<p>Zoznam Vaších stávok a tranzakcii môžete nájsť v sekcii "My Sportbetting Account" po prihlásení na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] stránku.<p>
+</li>
+
+<li><strong>Prečo vypočítané výhry sú odlišne na UK kurzov?</strong>
+<p>Pri výpočte výhry používame desatinné miesto (EU) kurzy nakoľko sú najpresnejšie. UK a USA kurzy sú určené len pre informačné účely , pretože niektoré kurzy nekorelujú na zlomok.<p>
+</li>
+
+<li><strong>Stávkovanie sa stáva návykové, čo mám robiť?</strong>
+<p>Stávkovanie s [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] by mala byť príjemná zábava pre každého, ale pre malú menšinu ľudí, môže sa stať návykové. ormácie o hráčskej závislosti možno nájsť v sekcii "Zodpovedné hranie".<p>
+</li>
+
+</ol>
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Tlačiť</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+

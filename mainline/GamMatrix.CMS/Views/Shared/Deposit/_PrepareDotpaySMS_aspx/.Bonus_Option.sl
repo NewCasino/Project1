@@ -1,0 +1,1 @@
+Želim prejemati vse bonuse, ki veljajo zame.

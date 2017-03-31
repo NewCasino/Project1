@@ -1,0 +1,1 @@
+Adres e-mail i powtórzenie nie pasują do siebie

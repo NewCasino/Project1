@@ -1,0 +1,1 @@
+Zapomni si za 1 teden

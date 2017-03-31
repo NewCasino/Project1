@@ -1,0 +1,12 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<p>Tämä on automaattinen kuitti talletuksestasi, jonka teit [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].  EveryMatrix Ltd toimesta [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sivustolle, näet nimen EveryMatrix tilitapahtumissasi. Siirtotietosi alla.</p>
+<ul>
+<li><strong>Siirto ID</strong>:$TRANSACTION_ID$</li>
+<li><strong>Päivä aika</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Sivusto</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Kuitti</strong>: Kopio kuitista liitteenä.</li>
+</ul>
+<p>jos sinulla on kysyttävää talletukseen liittyen, ota yhteys <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> ja anna Siirto ID numero.</p>
+<p>Terveisin,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tiimi</p>
+<p>$SCREENSHOT$</p>
+

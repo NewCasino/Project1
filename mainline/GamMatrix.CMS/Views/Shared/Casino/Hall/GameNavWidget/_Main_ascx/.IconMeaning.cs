@@ -1,0 +1,2 @@
+﻿Význam ikon:
+

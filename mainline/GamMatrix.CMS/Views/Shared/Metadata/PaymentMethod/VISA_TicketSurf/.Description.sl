@@ -1,0 +1,1 @@
+Denar lahko s svoje kreditne kartice Visa hitro položite na svoj igralni račun. Preprosto vnesite podatke o svoji kartici; ko bo vaša kreditna kartica preverjena, bodo sredstva varno in takoj nakazana na vaš igralni račun. 

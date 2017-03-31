@@ -1,0 +1,5 @@
+﻿<p>Salut $FIRSTNAME$,</p>
+<p> Mulţumim că ai contactat [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], Am primit solicitarea ta priving userul uitat.</p>
+
+<p>Userul tău este <strong>$USERNAME$</strong>. </p>
+<p>Toate cele bune,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

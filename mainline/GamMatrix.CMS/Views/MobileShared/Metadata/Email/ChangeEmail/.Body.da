@@ -1,0 +1,7 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Du har anmodet om, at din [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kontakt email adresse bliver ændret.</p>
+<p>For din sikkerhed vil vi bede dig bekræfte din nye kontakt email. For at gøre det skal du blot klikke på nedenstående link:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Hvis dette link ikke svarer, så kopier linket direkte ind i din browser.</p>
+<p>Hvis du ikke har anmodet om at ændre din email adresse, så se bort fra denne email eller kontakt os på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Venlig hilsen, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundeservice team</p>

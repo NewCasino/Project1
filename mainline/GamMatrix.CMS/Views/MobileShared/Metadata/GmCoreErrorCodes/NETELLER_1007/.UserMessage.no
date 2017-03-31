@@ -1,0 +1,1 @@
+﻿KontoID eller SikkerhetsID er ugyldig. Fyll inn sjekk korrekt kontoinformasjon.

@@ -1,0 +1,1 @@
+﻿Requisito de apuesta restante

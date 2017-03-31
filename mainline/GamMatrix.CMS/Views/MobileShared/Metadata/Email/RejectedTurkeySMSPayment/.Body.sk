@@ -1,0 +1,5 @@
+﻿<p>Dobrý deň $FIRSTNAME$,</p>
+<p>Váš vklad bol zamietnutý.&nbsp;</p>
+<p>Prosím, skontrolujte informácie, ktoré ste zadali a skúste to znova neskôr.</p>
+<p>Ak máte akúkoľvek otázku, prosím neváhajte kontaktovať <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>S pozdravom,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tím</p>

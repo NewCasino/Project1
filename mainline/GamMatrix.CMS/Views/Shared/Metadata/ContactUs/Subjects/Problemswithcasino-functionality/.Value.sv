@@ -1,0 +1,1 @@
+Problem med casinots funktioner

@@ -1,0 +1,1 @@
+﻿Aktuellt FPP: {0} poäng Min poäng krävs: {1} poäng Varje {2} poäng kommer tas ut då {3} {4}Ta ut dina pengar? 

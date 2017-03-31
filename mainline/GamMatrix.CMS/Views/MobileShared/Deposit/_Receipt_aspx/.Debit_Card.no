@@ -1,0 +1,1 @@
+﻿Debiteres fra kortnr. {0}

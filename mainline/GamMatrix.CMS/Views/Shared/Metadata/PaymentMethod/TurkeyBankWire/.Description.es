@@ -1,0 +1,1 @@
+﻿Transferencia bancaria en Turquía

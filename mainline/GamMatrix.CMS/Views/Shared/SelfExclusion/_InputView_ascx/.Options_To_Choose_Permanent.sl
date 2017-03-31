@@ -1,0 +1,1 @@
+Ponujamo vam tudi možnost, da svoj račun trajno zaprete:

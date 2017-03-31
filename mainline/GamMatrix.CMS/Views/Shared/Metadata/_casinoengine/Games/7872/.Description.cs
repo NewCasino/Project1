@@ -1,0 +1,1 @@
+﻿Fruit Bonanza je pětiválcový video automat, kde lze hrát na devíti liniích po pěti mincích. Zároveň nabízí možnost vyhrát hned 4 různé jackpoty! Fruit Bonanza obsahuje symbol jackpotu (roh hojnosti) a symbol Scatter.

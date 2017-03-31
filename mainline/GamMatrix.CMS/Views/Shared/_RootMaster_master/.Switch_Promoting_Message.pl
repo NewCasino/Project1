@@ -1,0 +1,1 @@
+Używasz urządzenia mobilnego. Czy chcesz przełączyć na wersję mobilną?

@@ -1,0 +1,1 @@
+﻿Dólar EE.UU.

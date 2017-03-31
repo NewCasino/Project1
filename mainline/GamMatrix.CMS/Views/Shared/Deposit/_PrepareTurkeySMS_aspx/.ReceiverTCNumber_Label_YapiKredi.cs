@@ -1,0 +1,1 @@
+﻿Příjemcovo turecké národní ID.

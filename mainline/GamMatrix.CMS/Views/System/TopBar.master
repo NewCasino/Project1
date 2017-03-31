@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<%@ Master Title="CMS Console" Language="C#" Inherits="CM.Web.ViewMasterPageEx" %>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="<%= Url.Content( string.Format("~/App_Themes/{0}/__import.css", this.PageTheme) ) %>" />
+    
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery-1.5.2.min.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.ui/jquery-ui-1.8.min.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.template.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.string.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.validate.min.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.metadata.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.form.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/inputfield.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/Views/System/topmenu.sitemap.js") %>"></script>   
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <asp:ContentPlaceHolder id="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+    <body>
+<div id="topbar">
+<div class="top_logo"></div>
+<ul id="topmenu"></ul>
+
+<div id="panel" align="right">
+<span id="sHelp"><a href="https://wiki.gammatrix.com:2012/" target="_blank">Help</a></span> |
+<span id="sName"><%= ProfileCommon.Current.AsCustomProfile().DisplayName.SafeHtmlEncode() %></span> |
+<span id="sDate"></span> |
+<a id="logout" href="<%= this.Url.RouteUrl("SignIn", new { @action = "Logout" }) %>">Logout</a>
+</div>
+
+</div>
+
+
+<script id="topmenu-template" type="text/html">
+<#
+    var d=arguments[0];
+    for(var i=0; i < d.length; i++)     
+    {      
+        var item = d[i]; 
+        var roleString = ',<%= ProfileCommon.Current.AsCustomProfile().RoleString.SafeJavascriptStringEncode() %>,';
+
+        if( item.roles == null || item.roles == '*' || roleString.indexOf(','+item.roles+',') >= 0 )
+        {
+#>   
+    
+    <li><a href="<#= item.url.htmlEncode() #>" style="background-image:url(<#= item.icon.htmlEncode() #>)"<#=(item.target != undefined ? " target=\"" + item.target.htmlEncode() + "\"" : "")#> ><#= item.title.htmlEncode() #></a>
+        <ul>
+            <#= $("#topmenu-template").parseTemplate(item.children) #>
+        </ul>
+    </li>
+<#      }  
+    }#>
+</script>
+
+<div id="content-wrap">
+    <asp:ContentPlaceHolder id="cphMain" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+
+
+<ui:ExternalJavascriptControl runat="server">
+<script language="javascript" type="text/javascript">
+function TopMenu(siteMap) {
+
+    this.timeout = 500;
+    this.timer = null;
+    this.item = null;
+    this.siteMap = siteMap;
+
+    $('#topmenu').html( $('#topmenu-template').parseTemplate(this.siteMap.children) );
+
+    this.open = function (el) {
+        this.closeTimer();
+        this.close();
+        this.item = el.find('ul').css('visibility', 'visible');
+    }
+
+    this.close = function () {
+        if (this.item) this.item.css('visibility', 'hidden');
+    }
+
+    this.startTimer = function () {
+        this.timer = window.setTimeout((function (o) { return function () { o.close(); }; })(this), this.timeout);
+    }
+
+    this.closeTimer = function () {
+        if (this.timer != null) {
+            window.clearTimeout(this.timer);
+            this.timer = null;
+        }
+    }
+
+    $('#topmenu > li').bind('mouseover', this, function (e) { e.data.open($(this)); });
+    $('#topmenu > li').bind('mouseout', this, function (e) { e.data.close(); });
+    $(document).bind('click', this, function (e) { e.data.close(); });
+}
+
+function MasterClock(serverTime)
+{
+    this.oPH = $('#sDate'); 
+    this.tServerTime = serverTime;
+    this.dtStart = new Date();
+    this.updateClock = function() {
+        var dtNow = new Date();
+        var tNew = Math.round((dtNow.valueOf() - this.dtStart.valueOf())/1000)*1000 + this.tServerTime;
+        
+        var dtCurrent = new Date();
+        dtCurrent.setTime(tNew);
+        
+        var strFormatted = this.padStr(dtCurrent.getUTCDate())
+                + "/"
+                + this.padStr(dtCurrent.getUTCMonth()+1) 
+                + "/"
+                + dtCurrent.getUTCFullYear() 
+                + " "
+                + this.padStr(dtCurrent.getUTCHours())
+                + ":"
+                + this.padStr(dtCurrent.getUTCMinutes())
+                + ":"
+                + this.padStr(dtCurrent.getUTCSeconds())
+                ;
+        
+        this.oPH.text(strFormatted);
+    };
+    
+    this.padStr = function(num){
+        var strRet = num.toString(10);
+        if( strRet.length < 2 )
+            strRet = "0" + strRet;
+        return strRet;
+    };
+
+    window.setInterval((function(c) { return function() { c.updateClock(); }; })(this), 1000);
+}
+</script>
+</ui:ExternalJavascriptControl>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+$(document).ready(function () { 
+    if( typeof(g_sitemap) != 'undefined' && g_sitemap !== null )
+        new TopMenu(g_sitemap); 
+    new MasterClock(<%= ((long)(DateTime.Now - new DateTime(1970, 1, 1, 0, 0, 0)).TotalMilliseconds).ToString() %>);
+});
+//]]>
+</script>
+
+
+</body>
+</html>

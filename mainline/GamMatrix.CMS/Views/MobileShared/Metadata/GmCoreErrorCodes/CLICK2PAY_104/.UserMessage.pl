@@ -1,0 +1,1 @@
+﻿Wystąpił błąd techniczny. Niepoprawna waluta. Prosimy o kontakt z działem obsługi klienta sprzedawcy.

@@ -1,0 +1,1 @@
+Telefonska številka pošiljatelja

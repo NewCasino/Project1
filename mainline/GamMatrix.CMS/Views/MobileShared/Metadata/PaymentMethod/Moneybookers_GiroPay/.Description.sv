@@ -1,0 +1,1 @@
+GiroPay via Moneybookers är en enkel, snabb och säker online betalningsmetod som tillåter dig att använda alla medel som finns på ditt bankkonto.

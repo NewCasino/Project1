@@ -1,0 +1,1 @@
+﻿La transacción ya ha sido procesada

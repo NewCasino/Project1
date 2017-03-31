@@ -1,0 +1,1 @@
+﻿La solicitud no pudo ser completada. Por favor llame al Servicio de atención al cliente de NETELLER (1-PAY) al 86-13075600300 (usuarios de teléfonos móviles nacionales), 86-108008530056 (usuarios de líneas fijas - Norte del China), 86-108001530056 (usuarios de líneas fijas - Sur de China)

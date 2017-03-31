@@ -1,0 +1,1 @@
+﻿Usted puede depositar rápidamente el dinero de su tarjeta de crédito en su cuenta de juego. Basta con introducir datos de su tarjeta, una vez que se verifica su tarjeta de crédito, el fondo será de forma segura e instantánea transferido a su cuenta de juego.

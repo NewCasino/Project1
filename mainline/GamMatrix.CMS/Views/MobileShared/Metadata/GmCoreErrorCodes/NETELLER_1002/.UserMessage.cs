@@ -1,0 +1,1 @@
+﻿Vyskytl se problém s délkou ID účtu, nebo bezpečnostního ID. ID účtzu musí mít12 číslic a vaše bezpečnostní ID musí mít 6 číslic. Zkuste prosím znova.

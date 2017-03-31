@@ -1,0 +1,1 @@
+Skrij gumb za odprtje naključne mize

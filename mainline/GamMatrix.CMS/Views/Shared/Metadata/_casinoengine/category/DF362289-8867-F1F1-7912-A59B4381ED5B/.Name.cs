@@ -1,0 +1,1 @@
+﻿Klasické sloty

@@ -1,0 +1,1 @@
+Skrij polne mize

@@ -1,0 +1,1 @@
+Neomejeno št. sedežev

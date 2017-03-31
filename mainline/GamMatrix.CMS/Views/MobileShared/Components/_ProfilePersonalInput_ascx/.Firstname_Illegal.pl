@@ -1,0 +1,1 @@
+﻿Twoje imię zawiera niedozwolone znaki

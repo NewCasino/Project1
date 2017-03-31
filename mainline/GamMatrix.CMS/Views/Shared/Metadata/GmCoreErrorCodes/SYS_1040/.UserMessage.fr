@@ -1,0 +1,1 @@
+﻿Sept jours période d'auto-exclusion n'est pas permis à plus de {0} fois

@@ -1,0 +1,1 @@
+Skrij zaprte mize

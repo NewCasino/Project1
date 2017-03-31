@@ -1,0 +1,10 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>You stated you don't have a smart phone while you were trying to activate 2-way security login at [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].</p>
+<p>Here are your 10 secret keys: </p>
+<ul>
+    $BACKUPCODELIST$
+</ul>
+<p>We will be asking for one of them each time you try to login at the site from now on. After you use a code, it is automatically expiring so you can use each code only once.</p>
+<p>Please note them down and keep them safe. Once you run out of codes, we will automatically email you 10 new ones to the same email address.</p>
+<p>It is much easier to login to [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] if you have a smartphone because you can download Google Authenticator app and generate these codes yourself. If you want to switch from manual codes to smartphone, please contact our live support and they will explain you everything.</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

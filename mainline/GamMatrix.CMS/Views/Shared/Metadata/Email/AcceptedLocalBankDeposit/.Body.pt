@@ -1,0 +1,15 @@
+﻿<p>Olá $FIRSTNAME$,</p>
+<p>O seu depósito foi concluído com sucesso.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Por favor, clique no botão "Atualizar" no topo da página para actualizar o seu saldo.</strong>
+  </span>
+</p>
+<p>
+Se tem alguma questão, por favor não hesite em contactar-nos em: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+ Com os melhores cumprimentos,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Equipa
+</p>
+
+

@@ -1,0 +1,1 @@
+Logga in manuellt på din internetbank och för över pengarna

@@ -1,0 +1,1 @@
+Twoja wypłata zostanie wysłana w euro ze względu na przepisy dotyczące gier hazardowych obowiązujących w Norwegii. Pamiętaj, że z powodu wymiany waluty środki, które otrzymasz mogą być nieco mniejsze niż kwota, której zażądałeś.

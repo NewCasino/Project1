@@ -1,0 +1,1 @@
+Przykro nam, ale w tym momencie nie masz uprawnień do wypłaty.  <a href="/ContactUs">Skontaktuj się z działem pomocy,</a> aby uzyskać dalsze informacje.

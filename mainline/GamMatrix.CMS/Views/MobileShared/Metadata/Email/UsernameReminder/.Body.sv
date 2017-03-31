@@ -1,0 +1,1 @@
+<p>Hej $FIRSTNAME$,</p><p>Tack för att du kontaktat [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], Vi har mottagit dinförfrågan om ditt bortglöma användarnamn.</p><p>Ditt användarnamn är <strong>$USERNAME$</strong>. </p><p>Hälsningar,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

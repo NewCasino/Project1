@@ -1,0 +1,6 @@
+﻿<p> Hi $FIRSTNAME$, </P>
+<p> Благодарим Ви, че се свържете с [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], Получихме забравена парола поискване. Моля, кликнете на следния линк за да промените паролата си. </P>
+<p> <a href="$RESETLINK$"> $RESETLINK$ </A> </P>
+<p> Тази връзка е валидна за 24 часа и може да се използва само веднъж. <p>
+<p> Ако не искате да променяте паролата си, моля игнорирайте това съобщение. <p/>
+<p> уважение, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] екипа </P>

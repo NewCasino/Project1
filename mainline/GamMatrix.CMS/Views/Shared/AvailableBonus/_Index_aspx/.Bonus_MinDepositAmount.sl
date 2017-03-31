@@ -1,0 +1,1 @@
+Najmanjši znesek pologa

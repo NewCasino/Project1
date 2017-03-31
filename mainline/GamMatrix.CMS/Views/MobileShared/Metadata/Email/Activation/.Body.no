@@ -1,0 +1,8 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<p>Takk for at du registrerte deg hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], din konto ($USERNAME$) har blitt opprettet. Før du kan bruke kontoen må du aktivere den.</p>
+<p>For å aktivere kontoen din, vennligst trykk på linken nedenfor. Hvis den ikke fungerer, prøv å kopiere linken og lim den inn i adressefeltet i nettleseren din.</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Hvis du ikke har registrert deg hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], vennligst ignorér denne e-posten eller informér <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Takk for at du registrerte deg hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>Med vennlig hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>
+

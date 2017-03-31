@@ -1,0 +1,1 @@
+Wyświetl Tureckie stoły

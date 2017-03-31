@@ -1,0 +1,1 @@
+Postęp warunków obrotu

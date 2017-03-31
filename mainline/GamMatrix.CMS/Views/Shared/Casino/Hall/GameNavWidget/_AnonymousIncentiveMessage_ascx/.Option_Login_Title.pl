@@ -1,0 +1,1 @@
+﻿Zaloguj się do istniejącego [Metadata:value(/Metadata/Settings.Operator_DisplayName)] konta!

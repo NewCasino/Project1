@@ -1,0 +1,1 @@
+V svoj račun se ne boste mogli prijaviti za čas trajanja obdobja, ki ste ga izbrali.

@@ -1,0 +1,1 @@
+﻿Uw aanvraag was onder $10 (USD) of is boven de handelaars transfer limiet. Neem contact op met de handelaars klanten service voor meer informatie.

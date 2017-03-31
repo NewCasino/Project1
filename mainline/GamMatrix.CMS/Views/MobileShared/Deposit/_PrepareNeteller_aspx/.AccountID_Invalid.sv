@@ -1,0 +1,1 @@
+Ditt konto ID måste vara minst 12 tecken

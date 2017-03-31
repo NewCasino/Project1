@@ -1,0 +1,17 @@
+﻿<ol>
+  <li><strong>Gdje ću pronaći promocije koje nudite?</strong>
+    <p>Možete vidjeti sve trenutačne ponude klikom na našu [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] karticu za promocije.</p>
+  </li>
+  <li><strong>Kada uzmem bonus, mogu li igrati sve igre na internetskoj stranici ili postoje neka ograničenja kojim igrama mogu pristupiti?</strong>
+    <p>Provjerite odredbe i uvjete bonusa te ako niste sigurni kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službu za korisnike.</p>
+  </li>
+  <li><strong>Kako ću provjeriti ispunjavam li uvjete za promociju?</strong>
+    <p>Možete provjeriti svoj napredak klikom na „moj račun“, a onda na lijevoj strani kliknite na „moj sportski račun“ te zatim na aktivne promocije.</p>
+  </li>
+  <li><strong>Iz kojih bi mi razloga promocija mogla biti odbijena?</strong>
+    <p>Na neke će promocije imati pravo samo osobe iz određenih zemalja te korisnici koji koriste određene metode plaćanja. Mogu postojati ograničenja za bilo kakve povezane račune i zlouporabu [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] promocija. Za sve savjete kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Službu za korisnike na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+  </li>
+</ol>
+<p style="text-align:right">
+  <button type="button" onclick="window.print(); return false" class="button"> <span class="button_Right"> <span class="button_Left"> <span class="button_Center"> <span>Ispiši</span> </span> </span> </span> </button>
+</p>

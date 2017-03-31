@@ -1,0 +1,1 @@
+Denar ste uspešno nakazali.

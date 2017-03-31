@@ -1,0 +1,2 @@
+﻿Dealerův původ
+

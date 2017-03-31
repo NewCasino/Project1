@@ -1,0 +1,1 @@
+﻿Prijavite se v svoj obstoječi [Metadata:value(/Metadata/Settings.Operator_DisplayName)] račun zdaj!

@@ -1,0 +1,1 @@
+﻿<img src="//cdn.everymatrix.com/Shared/_files/Casino/NetEnt/reelrush_thumb.jpg" />

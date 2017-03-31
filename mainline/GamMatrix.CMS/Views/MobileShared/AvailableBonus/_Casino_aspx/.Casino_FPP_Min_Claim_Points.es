@@ -1,0 +1,2 @@
+﻿Puntos mínimos para reclamar:
+

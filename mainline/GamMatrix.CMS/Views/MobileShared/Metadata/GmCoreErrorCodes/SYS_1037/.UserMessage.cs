@@ -1,0 +1,1 @@
+﻿Změny nepovoleny

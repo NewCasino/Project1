@@ -1,0 +1,1 @@
+Kwota pobrana z Twojego {0} konta

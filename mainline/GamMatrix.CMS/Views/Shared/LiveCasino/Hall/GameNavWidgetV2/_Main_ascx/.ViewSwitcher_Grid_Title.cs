@@ -1,0 +1,2 @@
+﻿Zobrazit v mřížce
+

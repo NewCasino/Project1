@@ -1,0 +1,1 @@
+Ange ett mobilnummer som innehåller mellan 7 -30 nummer

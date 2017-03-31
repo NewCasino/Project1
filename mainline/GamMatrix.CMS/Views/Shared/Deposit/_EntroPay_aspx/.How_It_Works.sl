@@ -1,0 +1,1 @@
+Kako deluje?

@@ -1,0 +1,1 @@
+Preverite svoje nakazilo

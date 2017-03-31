@@ -1,0 +1,25 @@
+﻿.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;border:none;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 7px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#333;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 7px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:transparent;}
+.tg .tg-4eph{background-color:transparent}
+body, .MainBody { background : transparent url('http://cdn.everymatrix.com/Jetbull/_files/Backgrounds/Sportsmaster.jpg') center top no-repeat !important; background-size : 100% auto; }
+.position span{margin-left:15px;}
+thead {background-color:#555;}
+.expand-user-table{display: block;
+    text-decoration: none!important;
+    margin-top: 15px;
+    color: #ccc!important;
+    padding: 10px;
+    text-align: center;
+    background: #ef0000 url(http://cdn.everymatrix.com/JetbullV2/casino/bg-button.png) left 35.3333% repeat-x;
+    border-radius: 30px;}
+.expand-user-table:hover {color:#fff!important;}
+.collapse-user-table{display: block;
+    text-decoration: none!important;
+    margin-top: 15px;
+    color: #ccc!important;
+    padding: 10px;
+    text-align: center;
+    background: #ef0000 url(http://cdn.everymatrix.com/JetbullV2/casino/bg-button.png) left 35.3333% repeat-x;
+    border-radius: 30px;}
+.collapse-user-table:hover {color:#fff!important;}

@@ -1,0 +1,1 @@
+﻿Przeczytałem/-am zasady i warunki

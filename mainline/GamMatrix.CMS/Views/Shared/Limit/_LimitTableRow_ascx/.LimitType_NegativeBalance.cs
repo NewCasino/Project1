@@ -1,0 +1,1 @@
+﻿Negativní zůstatkový limit

@@ -1,0 +1,1 @@
+﻿Trvalé pozastavení účtu

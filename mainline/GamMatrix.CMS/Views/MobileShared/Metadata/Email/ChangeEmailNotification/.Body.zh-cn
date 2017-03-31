@@ -1,0 +1,3 @@
+﻿<p>您已要求您的  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 联系邮箱作出变更。一封验证邮件已发至您的新邮箱($EMAIL$).</p>
+<p>如果您未要求改变您的邮箱，请马上联系我们 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>谨致问候, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 客服团队</p>

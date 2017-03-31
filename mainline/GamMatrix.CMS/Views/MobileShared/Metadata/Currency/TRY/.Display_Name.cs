@@ -1,0 +1,1 @@
+﻿Turecké liry

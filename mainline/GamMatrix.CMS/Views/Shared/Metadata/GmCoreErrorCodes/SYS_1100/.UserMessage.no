@@ -1,0 +1,1 @@
+﻿Casino feil {0}: det er et problem med å utføre forespurte handling, vennligst kontakt kundeservice

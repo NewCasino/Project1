@@ -1,0 +1,10 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+<p> Hai utilizzato parte del tuo voucher Ukash  e qui di seguito puoi trovare i dettagli del tuo nuovo voucher.</p>
+<ul>
+<li><strong>Numero Voucher Ukash </strong>:$VOUCHERNUMBER$</li>
+<li><strong>Importo Voucher Ukash </strong>:$VOUCHERAMOUNT$</li>
+<li><strong> Scadenza Voucher Ukash </strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>Per qualunque richiesta riguardante il tuo voucher non esitare a contattare  <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Cordialmente,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team</p>
+

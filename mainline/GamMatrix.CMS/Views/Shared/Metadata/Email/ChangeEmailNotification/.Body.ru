@@ -1,0 +1,3 @@
+﻿<p>Вы подали запрос, чтобы ваш [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] контактный адрес электронной почты изменился. Верификационное письмо было отправлено на ваш новый адрес электронной почты.($EMAIL$).</p>
+<p>Если вы не просили изменить свой адрес электронной почты, пожалуйста, срочно сообщите нам  <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>С наилучшими пожеланиями, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Команда службы поддержки</p>

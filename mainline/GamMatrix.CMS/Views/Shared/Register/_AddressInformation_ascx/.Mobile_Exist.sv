@@ -1,0 +1,1 @@
+Ditt mobilnummer har redan registrerats.

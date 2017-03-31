@@ -1,0 +1,1 @@
+﻿Prosím, zvolte telefonní předvolbu země

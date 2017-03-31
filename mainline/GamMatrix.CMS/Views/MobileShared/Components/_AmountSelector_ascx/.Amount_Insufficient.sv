@@ -1,0 +1,1 @@
+Inte tillräckligt med pengar.

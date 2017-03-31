@@ -1,0 +1,1 @@
+Minimalne punkty do odebrania:

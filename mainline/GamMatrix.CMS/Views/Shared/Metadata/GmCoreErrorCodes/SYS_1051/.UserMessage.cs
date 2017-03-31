@@ -1,0 +1,1 @@
+﻿Zdroj a místo určení jstou totožné

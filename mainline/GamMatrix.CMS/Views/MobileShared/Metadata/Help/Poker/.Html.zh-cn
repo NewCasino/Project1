@@ -1,0 +1,25 @@
+﻿<ol>
+<li><strong>我下载了软件 – 它在哪里？</strong>
+<p>当[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]扑克软件在您的电脑中安装成功后，[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]的桌面图标就会出现在您电脑的桌面上。简单地双击这个图标您就可以开始游戏了。</p>
+</li>
+
+<li><strong>我的密码不被接受？</strong>
+<p>如果您机场忘记密码并且错误输入的话，很可能会造成密码不被识别。为了安全起见，每次输入之前检查您的大小写是否锁定。如果问题持续，那么您可以选择‘忘记密码’这样您就会在您注册的邮箱中收到一个新的密码。</p>
+</li>
+
+<li><strong>我可以更换我的别名吗？</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 允许玩家在每7天之内更改自己的玩家ID （ 桌面名字 ）。请您登陆‘我的账户’了解详细情况。</p>
+</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

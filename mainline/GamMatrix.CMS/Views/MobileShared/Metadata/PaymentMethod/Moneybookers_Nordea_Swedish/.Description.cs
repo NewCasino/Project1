@@ -1,0 +1,1 @@
+﻿Nordea přes Skrill (Moneybookers) je velmi bezpečným způsobem převodu prostředků z vašeho bankovního účtu online. Nordea převody probíhají bez nejmenších problémů.

@@ -1,0 +1,1 @@
+Du kommer inte kunna logga in på ditt vadslagningskonto under en period om 30 dagar för avkylning

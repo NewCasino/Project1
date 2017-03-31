@@ -1,0 +1,1 @@
+﻿Proszę podać swoją odpowiedź na pytanie zabezpieczające

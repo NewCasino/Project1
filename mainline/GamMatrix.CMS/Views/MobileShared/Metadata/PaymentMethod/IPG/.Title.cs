@@ -1,0 +1,1 @@
+﻿Inteligentní platby

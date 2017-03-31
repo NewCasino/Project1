@@ -1,0 +1,1 @@
+Z E-pro lahko denar s svoje kreditne kartice hitro položite na svoj igralni račun. Preprosto vnesite podatke o svoji kartici; ko bo vaša kreditna kartica preverjena, bodo sredstva varno in takoj nakazana na vaš igralni račun.

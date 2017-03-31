@@ -1,0 +1,30 @@
+﻿<div style="font-family: Arial, sans-serif;">
+<p><span style="color: #222222; font-size: x-small;"><span style="font-size: 10.0pt; color: #222222;">Stimate</span> $FIRSTNAME$,</span></p>
+<p><span style="font-size: 10.0pt; color: #222222;">Va multumim pentru inregistrarea contului [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]! </span></p>
+<p><span style="font-size: 10.0pt; color: #222222;">Din motive de securitate procesul de inregistrare necesita verificarea adresei dvs. de email. Va rugam faceti click pe linkul de mai jos:<br /></span></p>
+<p><a href="$ACTIVELINK$"> $ACTIVELINK$</a></p>
+<p><span style="font-size: 10.0pt; color: #222222;"> Daca linkul nu functioneaza, va rugam sa copiati si sa inserati adresa linkului direct in browser.    <span class="apple-converted-  space">&nbsp;</span></span></p>
+<p><span class="apple-converted-space"><span style="font-size: 10.0pt; color: #222222;">Va rugam sa va asigurati ca parcurgeti aceasta verificare a emailului in urmatoarele 7 zile, </span></span><span style="font-size: 10.0pt; color: #222222;">in caz contrar aceasta poate duce la restrictionarea contului pentru protectia dumneavoastra.<span class="apple-converted-space">&nbsp;</span></span></p>
+<p><span style="font-size: 10.0pt; color: #222222;">Daca aveti intrebari, va rugam sa ne contactati pe <span style="text-decoration: underline;"><a target="_blank" href="http://www.livehelpnow.net/lhn/lcv.aspx?d=21838&amp;ms=&amp;zzwindow=25675&amp;lhnid=19692&amp;custom1=&amp;custom2=&amp;custom3">Live Chat</a></span> sau email la <a href="mailto:[Metadata:htmlencode  (/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></span><span style="font-size: 10.0pt;">.</span></p>
+<p><span style="font-size: 10.0pt;"> Va dorim mult noroc si distractie placuta!</span></p>
+<p><span style="font-size: 10.0pt;">Salutari,</span></p>
+<p><span style="font-size: 10.0pt;">Echipa Jetbull</span></p>
+</div>
+<script type="text/javascript">// <![CDATA[
+  var _gaq = 
+
+_gaq || [];
+  _gaq.push(['_setAccount', 'UA-5470473-6']);
+  _gaq.push(['_setDomainName', 'jetbull.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 
+
+'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; 
+
+s.parentNode.insertBefore(ga, s);
+  })();
+// ]]></script>

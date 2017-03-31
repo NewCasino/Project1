@@ -1,0 +1,1 @@
+Bankkontonumret används redan, välj ett annat

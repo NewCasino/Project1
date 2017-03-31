@@ -1,0 +1,26 @@
+﻿<div style="font-family:Arial, sans-serif;">
+  <p><font color="#222222"   size="2">Dear&nbsp;$FIRSTNAME$,</font></p>
+  <p><span style="font-size:10.0pt;;color:#222222">Thank you for registering at [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</span></p>
+  <p><span style="font-size:10.0pt;;color:#222222">For security reasons the registration process requires to verify your email. Please click on the link below:&nbsp;</span></p>
+  <p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+  <p><span style="font-size:10.0pt;;color:#222222">If this link does not respond, please copy and paste the link directly into your browser.<span class="apple-converted-space">&nbsp;</span></span></p>
+  <p><span class="apple-converted-space"><span style="font-size:10.0pt;;color:#222222">Please ensure you complete this email verification within the next 7 days, </span></span><span style="font-size:10.0pt;;color:#222222">otherwise it may result in your account being restricted for your protection.<span class="apple-converted-space">&nbsp;</span></span></p>
+  <p><span style="font-size:10.0pt;;color:#222222">In case you have questions please use our 24/7 <u><a target="_blank" href="http://support.everymatrix.com/visitor/index.php?/Jetbull/LiveChat/Chat/StartInline/_sessionID=/_promptType=chat/_proactive=0/_filterDepartmentID=7%2C1/_randomNumber=f7u2c474cgvoz4yw313wh5qn9o9o96ig/_fullName=/_email=/">Live Chat</a></u> or email us at <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></span><span style="font-size:10.0pt;">.</span></p>
+  <p><span style="font-size:10.0pt;">We wish you good luck and have fun!</span></p>
+  <p><span style="font-size:10.0pt;">Regards,</span></p>
+  <p><span style="font-size:10.0pt;">Jetbull Support Team</span></p>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5470473-6']);
+  _gaq.push(['_setDomainName', 'jetbull.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>

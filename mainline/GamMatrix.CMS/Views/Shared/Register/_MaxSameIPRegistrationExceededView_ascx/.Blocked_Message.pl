@@ -1,0 +1,1 @@
+Nie możesz zalogować się z tego adresu IP [IP] więcej niż [COUNT] razy dziennie. Bardzo nam przykro, w razie pytań skontaktuj się z działem pomocy.

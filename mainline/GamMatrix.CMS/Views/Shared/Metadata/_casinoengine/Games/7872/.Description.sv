@@ -1,0 +1,1 @@
+﻿Fruit Bonanza är ett 5-reel video slot maskin som kan spelas upp till nio rader på fem mynt per rad. Spela Fruit Bonanza för en chans på fyra olika jackpots!Fruit Bonanza har en jackpotsymbol (ymnighetshornet) och en scattersymbol.

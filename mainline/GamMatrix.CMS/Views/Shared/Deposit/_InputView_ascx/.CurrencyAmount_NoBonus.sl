@@ -1,0 +1,1 @@
+Znesek za izbrani bonus ni primeren

@@ -1,0 +1,1 @@
+﻿Evropská ruleta

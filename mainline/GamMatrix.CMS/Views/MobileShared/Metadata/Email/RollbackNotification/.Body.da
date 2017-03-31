@@ -1,0 +1,4 @@
+﻿<p>Hej $FIRSTNAME$,</p>
+<p>Din overførsel er blevet tilbageført til &lsquo;$TXCOMPLETEDDATE$", pengene er blevet tilbageført til din spillekonto. Kontakt venligst support, hvis du har behov for yderligere assistance i relation til denne transaktion.</p>
+Transaktions ID: $TXID$Transaktions dato: $TXCREATEDDATE$ beløb: $TXAMOUNT$ $TXCURRENCY$.
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

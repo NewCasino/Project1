@@ -1,0 +1,1 @@
+﻿U heeft ongeldige CLICK2PAY gebruikers data opgegeven. Check de data en probeer het opnieuw. Als het probleem aanhoudt, neem dan contact op met klanten service op service@click2pay.com.

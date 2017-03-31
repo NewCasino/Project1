@@ -1,0 +1,6 @@
+﻿@import url("//cdn.everymatrix.com/JetbullV2/affiliate.css");
+
+#footer{display:none;}
+.icon_number{text-shadow:none;}
+#lhnContainerDone{ float:right; margin-top:3px;  }
+.footer_lga img{display:inline;width:auto;height:45px;margin:0 5px;}

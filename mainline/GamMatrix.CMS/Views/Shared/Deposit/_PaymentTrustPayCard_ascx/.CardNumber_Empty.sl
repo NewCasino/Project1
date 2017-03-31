@@ -1,0 +1,1 @@
+Vnesti je treba številko kartice

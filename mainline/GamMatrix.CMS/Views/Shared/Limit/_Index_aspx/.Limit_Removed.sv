@@ -1,0 +1,1 @@
+Gränsen har tagits bort men den gäller fortfarande fram till utgångsdatumet.

@@ -1,0 +1,1 @@
+﻿Belopp som satts in på ditt {0} konto

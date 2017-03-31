@@ -1,0 +1,4 @@
+﻿<p>Hea $USERNAME$, <br /><br /> Täname Teid kontakteerumast  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]’ga<br /><br /> See kiri on Teile saadetud kinnitamaks, et olete muutnud oma panustamislimiidi valikust&nbsp;$LIMITAMOUNT$ $LIMITPERIOD$&nbsp;valikuks $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. <br /><br /> Palun kontakteeruge küsimuste tekkimisel meiega julgesti aadressil <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>&nbsp;</p>
+<p>Parimate soovidega</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Klienditoe meeskond</p>

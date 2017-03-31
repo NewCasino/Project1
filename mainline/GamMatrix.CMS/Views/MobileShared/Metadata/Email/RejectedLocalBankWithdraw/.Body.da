@@ -1,0 +1,4 @@
+﻿<p>Hej $FIRSTNAME$,</p>
+Din overførsel er blevet afvist, kontrol venligst dine bankinformationer og forsøg igen senere.
+<p>Hvis du har spørgsmål bedes du kontakte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

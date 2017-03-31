@@ -1,0 +1,1 @@
+﻿Poslední 4 číslice vašeho bankovního účtu se neshodují s vaším NETELLER účtem. Prosím přihlašte se do svého NETELLER účtu a ověřte si číslo bankovního konta. V případě jakýchkoli otázek volejte NETELLER zákaznickou podporu.

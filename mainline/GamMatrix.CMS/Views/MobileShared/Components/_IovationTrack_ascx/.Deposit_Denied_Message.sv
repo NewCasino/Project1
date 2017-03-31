@@ -1,0 +1,1 @@
+﻿Transaktionen ej tillåten!

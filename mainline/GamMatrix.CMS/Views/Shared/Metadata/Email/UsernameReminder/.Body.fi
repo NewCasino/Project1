@@ -1,0 +1,6 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Kiitoksia yhteydenotostasi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], Olemme vastaanottaneet unohtuneen käyttäjäimen pyynnön. </p>
+
+<p>Käyttäjänimesi on <strong>$USERNAME$</strong>. </p>
+<p>Terveisin,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>
+

@@ -1,0 +1,11 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>이 자동 이메일은 처리된 귀하의 예치금에 대한 영수증 입니다 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 지불 운영자인 EveryMatrix Ltd 에 의해서 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 웹사이트에 대해. 귀하는 귀하의 카드 혹은 은행 명세서에 EveryMatrix 가 나타나는 것을 보실 것입니다. 귀하의 거래내역은 아래와 같습니다.</p>
+<ul>
+<li><strong>거래 아이디 </strong>:$TRANSACTION_ID$</li>
+<li><strong>날짜 시간 </strong>:$TRANSACTION_TIME$</li>
+<li><strong>웹사이트 </strong>: $TRANSACTION_SITE$ </li>
+<li><strong>영수증 </strong>: 영수증 인쇄 화면이 첨부되어 있습니다.</li>
+</ul>
+<p>만약 귀하가 이 예치금과 관련하여 문의사항이 있으시면, 연락하세요. <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> 거래 아이디 번호를 인용하여.</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>
+<p>$SCREENSHOT$</p>

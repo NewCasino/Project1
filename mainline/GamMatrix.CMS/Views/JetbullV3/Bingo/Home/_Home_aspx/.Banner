@@ -1,0 +1,1 @@
+﻿<a href="/register"><img src="//cdn.everymatrix.com/Jetbull/_files/bingo/singup.jpg" /></a>

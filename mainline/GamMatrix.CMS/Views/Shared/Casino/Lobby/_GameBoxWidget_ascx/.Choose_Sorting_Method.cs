@@ -1,0 +1,1 @@
+﻿Vyber řadící metodu:

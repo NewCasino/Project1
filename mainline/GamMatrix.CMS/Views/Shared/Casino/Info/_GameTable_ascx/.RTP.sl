@@ -1,0 +1,1 @@
+Teoretično izplačilo

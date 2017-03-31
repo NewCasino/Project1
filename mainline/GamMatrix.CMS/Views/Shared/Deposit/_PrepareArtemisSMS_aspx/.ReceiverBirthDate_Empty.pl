@@ -1,0 +1,2 @@
+﻿Wprowadź datę urodzenia odbiorcy
+

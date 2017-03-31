@@ -1,0 +1,1 @@
+Če boste imeli kakršna koli vprašanja glede tega pologa, se obrnite na ekipo za podporo in navedite številko za ID transakcije.

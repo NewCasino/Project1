@@ -1,0 +1,11 @@
+﻿<p>Hei! $FIRSTNAME$,</p>
+<p>Tämä automaattinen sähköpostiviesti on kuitti talletuksestasi, jonka on käsitellyt: [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] OddsMatrix Ltd., verkkosivuston maksu-operaattori: [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] näet OddsMatrixin kortti- tai tiliotteellasi. Transaktiosi yksityiskohdat ovat alla.</p>
+<ul>
+<li><strong>Transaction ID</strong>:$TRANSACTION_ID$</li>
+<li><strong>Date time</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Verkkosivu</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Kuitti </strong>: Kuitin vastaanottamisen tulostusikkuna löytyy liitteenä.</li>
+</ul>
+<p>Jos sinulla on kysymyksiä tämän talletuksen suhteen, ole hyvä ja ota yhteyttä <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> lainaten transaktion tunnusta.</p>
+<p>Terveisin,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tiimi</p>
+<p>$SCREENSHOT$</p>

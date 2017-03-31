@@ -1,0 +1,7 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<p>Innskuddet ditt ble avvist.&nbsp;</p>
+<p>Vennligst sjekk informasjonen du oppga og prøv igjen.</p>
+<p>Hvis du har spørsmål, vennligst ta kontakt med <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] teamet</p>
+
+

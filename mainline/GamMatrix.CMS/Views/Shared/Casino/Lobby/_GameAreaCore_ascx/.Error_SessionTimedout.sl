@@ -1,0 +1,1 @@
+Vaša seja je potekla; prijavite se znova.

@@ -1,0 +1,1 @@
+﻿No puede transferirse a usted mismo.

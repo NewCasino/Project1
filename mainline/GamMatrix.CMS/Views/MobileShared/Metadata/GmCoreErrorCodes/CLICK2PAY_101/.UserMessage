@@ -1,0 +1,1 @@
+﻿The supplied CLICK2PAY user name is wrong. Please check it and try again. Should the problem persist, please contact the customer service at service@click2pay.com.

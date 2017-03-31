@@ -1,0 +1,1 @@
+﻿U zal niet in staat zijn om in te loggen op uw account voor de periode van 6 maanden zelfuitsluiting.

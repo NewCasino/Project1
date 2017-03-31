@@ -1,0 +1,1 @@
+Aby przeglądać swój profil, musisz się zalogować.

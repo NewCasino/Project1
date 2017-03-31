@@ -1,0 +1,24 @@
+﻿.SeatInfos {
+  background: url("//cdn.everymatrix.com/JetbullV2/casino/bg-button.png") repeat-x scroll left bottom #c29723;
+  background-size: 100% 400%;
+  border: 1px solid #7a670b;
+  bottom: .5em;
+  box-shadow: 0 1px 1px #080808;
+  display: inline-block;
+  font-weight: 700;
+  position: absolute;
+  right: 5em;
+  text-shadow: 0 -1px 0 #2b2626;
+  width: auto;
+  border-radius: .5em .5em .5em .5em;
+  color: #DEBE68;
+  font-size: .875rem;
+  margin: 0;
+  padding: .333em .75em; 
+  z-index: 12;
+}
+.SeatInfos .NrSeats{color:#FFFAEE;}
+.PopupContent .SeatInfos {
+  bottom: 3.6em;
+  right: 0.5em;
+}

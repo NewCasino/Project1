@@ -1,0 +1,1 @@
+<a href="/AboutUs" target="_top">Om [Metadata:value(/Metadata/Settings.Operator_DisplayName)]</a> |<a href="/ResponsibleGaming" target="_top">Ansvarsfullt spel</a> |<a href="/TermsConditions" target="_top">Villkor</a> |<a href="/ContactUs" target="_top">Kontakta oss</a> |<a href="/Affiliates/Home" target="_top">Affiliates</a>

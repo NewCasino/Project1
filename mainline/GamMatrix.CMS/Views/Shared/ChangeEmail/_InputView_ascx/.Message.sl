@@ -1,0 +1,1 @@
+Če želite spremeniti svoj e-poštni naslov, izpolnite polje spodaj. Ko bo poslano, bo na vaš novi e-poštni račun poslano potrditveno e-poštno sporočilo s povezavo, ki jo kliknete, da potrdite svoj račun.

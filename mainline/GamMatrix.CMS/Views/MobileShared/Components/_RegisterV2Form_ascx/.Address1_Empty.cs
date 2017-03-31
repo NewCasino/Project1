@@ -1,0 +1,2 @@
+﻿Adresa nemůže být prázdná
+

@@ -1,0 +1,1 @@
+W przypadku jakichkolwiek pytań dotyczących wpłaty, prosimy o kontakt z działem pomocy podając numer ID transakcji.

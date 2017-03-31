@@ -1,0 +1,1 @@
+Wypłata zostanie przetworzona najszybciej jak to możliwe.

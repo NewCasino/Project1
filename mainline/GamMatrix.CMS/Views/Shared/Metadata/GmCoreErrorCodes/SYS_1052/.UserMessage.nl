@@ -1,0 +1,1 @@
+﻿Transactie kon niet worden gestart door verbindings problemen. Neem contact op met support als het probleem zich blijft voordoen.

@@ -1,0 +1,1 @@
+Po zakończeniu płatności, zostanie ona przetworzona. Twoje konto gracza zostanie zasilone, jak tylko otrzymamy środki.

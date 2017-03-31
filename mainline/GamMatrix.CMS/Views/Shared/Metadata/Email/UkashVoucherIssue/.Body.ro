@@ -1,0 +1,9 @@
+﻿<p>Buna ziua $PRENUME$,</p>
+<p>Plata pentru $SUMAVOUCHER$  a fost procesata. Mai jos aveti date despre voucherul dumneavoastra:</p>
+<ul>
+<li><strong>NUmar Voucher UKash Voucher</strong>::$NUMARVOUCHER$</li>
+<li><strong>Suma Voucher UKash </strong>:$SUMAVOUCHER$</li>
+<li><strong>Data Expirare Voucher UKash</strong>:$DATAEXPIRAREVOUCHER$</li>
+</ul>
+<p>Daca aveti nelamuriri in privinta voucherului dumneavoastra, nu ezitati sa contactati<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Cu respect,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] echipa</p>

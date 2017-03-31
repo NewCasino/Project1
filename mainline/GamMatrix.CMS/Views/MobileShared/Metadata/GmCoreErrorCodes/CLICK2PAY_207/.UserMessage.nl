@@ -1,0 +1,1 @@
+﻿Risico afwijzing. Voor hulp kunt u contact opnemen met de klanten service op service@click2pay.com.

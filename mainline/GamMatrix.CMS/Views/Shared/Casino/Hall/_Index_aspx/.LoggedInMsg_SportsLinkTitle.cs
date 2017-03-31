@@ -1,0 +1,1 @@
+﻿Jděte do Sázkové kanceláře!

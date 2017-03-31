@@ -1,0 +1,1 @@
+Numer Twojego dokumentu tożsamości został już zarejestrowany.

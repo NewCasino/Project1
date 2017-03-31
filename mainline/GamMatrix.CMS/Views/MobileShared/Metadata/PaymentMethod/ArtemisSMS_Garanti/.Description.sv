@@ -1,0 +1,1 @@
+Bankgaranti, med en historia av 63 års etablerande är turkiet den näststörsta privatbanken som har en total tillgång på 78 miljarder US dollar*. Garantin fortsätter att öka sin marknadshandel i samtliga affärsområden genom att förlita sig på bevisade effektiva strategier som är lönsamma och ger hållbar tillväxt och har bedrivits sedan starten.

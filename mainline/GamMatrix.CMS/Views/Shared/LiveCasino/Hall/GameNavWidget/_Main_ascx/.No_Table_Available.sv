@@ -1,0 +1,1 @@
+Vi beklagar att ingen av borden i live casino är tillgängliga för dig. ({0}/{1}/{2})

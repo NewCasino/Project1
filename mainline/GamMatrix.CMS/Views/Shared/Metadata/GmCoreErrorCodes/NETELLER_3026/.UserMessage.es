@@ -1,0 +1,1 @@
+﻿Su solicitud no pudo completarse. Este comercio no acepta transferencias de fondos desde su región de residencia.

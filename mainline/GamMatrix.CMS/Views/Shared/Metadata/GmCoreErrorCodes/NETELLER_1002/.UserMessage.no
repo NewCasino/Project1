@@ -1,0 +1,1 @@
+﻿Det oppsto en feil i forbindelse med lengden på din kontoID eller din sikkerhetsID. Din kontoID må være 12 siffer og din sikkerhetsID må være 6 siffer. Vennligst prøv igjen.

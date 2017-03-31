@@ -1,0 +1,1 @@
+﻿Notera att din insättning kommer att behandlas av MoneyMatrix Ltd, betalningsoperatör av [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], du kommer att se [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]  på ditt bankutdrag.

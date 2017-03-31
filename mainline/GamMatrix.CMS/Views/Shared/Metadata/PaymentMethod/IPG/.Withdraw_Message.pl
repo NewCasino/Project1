@@ -1,0 +1,1 @@
+Wypłacaj bezpośrednio na swoje konto bankowe za pośrednictwem Intelligent Payments

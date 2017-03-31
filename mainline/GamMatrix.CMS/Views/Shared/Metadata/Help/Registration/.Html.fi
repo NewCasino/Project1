@@ -1,0 +1,78 @@
+﻿<ol>
+ <li> <strong>Miten avaan  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tilin?</strong> 
+ <p>
+ Voit luoda tilin [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] yhdellä seuraavista tavoista: 1)
+ <a href="/register">Napsauttamalla tätä.</a>
+ 2) Tai voit mennä etusivulle ja napsauttaa "Rekisteröidy"-painiketta vasemmassa yläkulmassa tai "Liity nyt"-painiketta oikealla ylhäällä. Molemmat tavat ohjaavat sinut rekisteröitymissivulle, jossa sinun täytyy lisätä tietosi. Huomaa, ettet voi muuttaa käyttäjätunnustasi tai tilisi valuuttaa myöhemmin.
+ <br />
+ Voit myös lisätä kampanjakoodin. Ennen tietojesi lähettämistä, muista ilmoittaa, että olet yli 18 ja hyväksyt 'Käyttöehtomme' Voit heti kirjautua tilillesi millä tahansa [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sivulla käyttäen käyttäjätunnusta ja salasanaasi.
+ </p>
+ </li>
+
+ <li> <strong>Miksi minulla on ongelmia tilin luomisen kanssa?</strong>
+ <p>
+ Ole hyvä ja ota yhteyttä [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] asiakaspalveluun osoitteessa 
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ opastusta varten. 
+ </p>
+ </li>
+
+ <li>
+ <strong>Miksi minun täytyy avata tili pelataaksesi pelejänne?</strong>
+ <p>
+ Sinun pitää avata tili, [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] koska silloin sitoudut noudattamaan meidän käyttöehtoja &nbsp; mm. se, että olet yli 18-vuotias.
+ </p>
+ </li>
+
+ <li>
+ <strong>Miksi minun pitää antaa henkilökohtaisia​tietoja? Pidättekö henkilökohtaisia tietojani turvassa?</strong> 
+ <p>
+ Tarvitsemme henkilötietojasi vahvistaaksemme henkilöllisyytesi, ikäsi, osoitteesi ja myös  transaktioita varten.&nbsp; [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] käyttää viimeisintä tietoturvatekniikkaa, jotta henkilötietosi ovat turvassa.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Tarvitseeko minun tehdä talletus avatakseni tilin kohteessa  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+ </strong>
+ <p>
+ Ei, voit pelata Casinoamme ja myös Pokeriamme vain huvin vuoksi, jos haluat.
+ </p>
+ </li>
+
+ <li>
+ <strong>Voiko minulla olla enemmän kuin yksi tili?</strong>
+ <p>Ei, vain yksi tili on sallittu.</p>
+ </li>
+
+ <li>
+ <strong>
+ Onko teillä alaikärajaa [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+ </strong>
+ <p>
+ Sinun täytyy olla vähintään 18-vuotias pelataksesi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sivustolla.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hyväksyttekö kotimaani pankki-/luottokortit?</strong>
+ <p>
+ Niin kauan kuin et riko maasi lakeja, me hyväksymme pelaajat kaikista maista, paitsi Yhdysvalloista, Ranskasta ja Turkista.
+ </p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

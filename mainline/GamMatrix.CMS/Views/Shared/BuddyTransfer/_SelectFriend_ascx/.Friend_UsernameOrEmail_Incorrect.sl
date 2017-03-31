@@ -1,0 +1,1 @@
+V uporabniškem imenu oziroma e-poštnem naslovu vašega prijatelja je napaka.

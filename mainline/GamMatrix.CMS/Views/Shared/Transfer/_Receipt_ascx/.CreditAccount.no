@@ -1,0 +1,1 @@
+Krediter til {0} konto.

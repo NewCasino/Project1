@@ -1,0 +1,1 @@
+﻿Wypłata jest możliwa po dokonaniu co najmniej jednej udanej wpłaty.

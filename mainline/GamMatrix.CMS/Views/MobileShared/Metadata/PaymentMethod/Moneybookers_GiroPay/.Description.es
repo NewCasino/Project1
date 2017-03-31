@@ -1,0 +1,1 @@
+﻿GiroPay vía Moneybookers es una forma de pago sencilla, rápida y segura que le permite usar los fondos disponibles en su cuenta bancaria.&nbsp;

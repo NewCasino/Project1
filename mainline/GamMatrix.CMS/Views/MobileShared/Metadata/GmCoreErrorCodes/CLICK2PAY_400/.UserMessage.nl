@@ -1,0 +1,1 @@
+﻿Het transactie bedrag kon niet gecrediteerd worden naar de Stored Value Account (SVA).

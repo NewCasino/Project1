@@ -1,0 +1,6 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile İletişime geçtiğiniz için Teşekkür ederiz, unutulmuş Parola Talebinizi aldık. Lütfen Parolanızı sıfırlamak için alttaki Linki tıklayınız. </p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p> Bu Link 24 Saat geçerlidir ve sadece Bir kere kullanılabiliyor.<p>
+<p>Parolanızı değiştirmek istemiyorsanız, lütfen bu Epostayı Dikkata almayınız.<p/>
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ekibi</p>

@@ -1,0 +1,1 @@
+﻿La contraseña debe tener al menos 7 caracteres

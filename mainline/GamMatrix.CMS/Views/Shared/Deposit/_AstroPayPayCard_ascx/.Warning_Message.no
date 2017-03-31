@@ -1,0 +1,1 @@
+Kontroller at dataene som er angitt, samsvarer med dataene for AstroPay-kortet.

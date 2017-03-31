@@ -1,0 +1,1 @@
+Det tar bara 30 sekunder att skapa ett [Metadata:value(/Metadata/Settings.Operator_DisplayName)] konto!

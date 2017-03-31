@@ -1,0 +1,9 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>귀하에 대한 지급이 $VOUCHERAMOUNT$  처리 되었습니다. 아래 내용은 귀하의 바우처에대한 정보입니다:</p>
+<ul>
+<li><strong>Ukash Voucher 번호 </strong>:$VOUCHERNUMBER$</li>
+<li><strong>Ukash Voucher 금액 </strong>:$VOUCHERAMOUNT$</li>
+<li><strong>날짜별 Ukash Voucher 사용 </strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p> 귀하의 바우처에 대해 의문사항이 있으시면, 언제든 연락 주시기 바랍니다 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

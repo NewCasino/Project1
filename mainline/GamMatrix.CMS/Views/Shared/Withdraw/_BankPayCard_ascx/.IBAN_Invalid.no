@@ -1,0 +1,1 @@
+IBAN-nummeret er ugyldig. Du kan ikke bruke eksempelnummeret.

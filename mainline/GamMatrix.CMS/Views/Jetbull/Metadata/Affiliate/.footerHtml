@@ -1,0 +1,13 @@
+﻿<table id="ctl00_ctl00_ctl00_Main_Main_ctl00_v" style="border-collapse: collapse;" border="0" cellspacing="0">
+<tbody>
+<tr>
+<td>[Metadata:value(.footerImage)]</td>
+</tr>
+<tr>
+<td>
+<div id="affiliate_copyright">[Metadata:value(.footerCopyRight)]</div>
+<div id="affiliate_description">[Metadata:value(.footerDescription)]</div>
+</td>
+</tr>
+</tbody>
+</table>

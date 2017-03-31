@@ -1,0 +1,1 @@
+﻿Kwota wpłacona na Twoje konto {0}

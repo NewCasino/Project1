@@ -1,0 +1,41 @@
+﻿html, body{background:none no-repeat 0 0 #1d1d1d;}
+
+.MobileTitle { display : block; margin : 0.5em; font-size : 3em; line-height : 1em; }
+	.MobileBigShow { display : block; width : 100%; height : 35em; background : transparent url("//cdn.everymatrix.com/JetbullV2/_files/mobile/mobile-bigshow.png") center top no-repeat;white-space : nowrap; overflow : hidden; text-indent : 100%;  }
+	.MobileDescription { display : block; }
+		.MobileItem { display : block; float : left; width : 32%;height:200px;margin-right:1%; background: url("//cdn.everymatrix.com/JetbullV2/bingo/bingo_pane.png") repeat-x scroll 0 0 #222222;border:1px solid #000;}
+			.MobileSubtitle { display : block; padding : 0 1em; font-size : 16px; line-height : 34px;text-align:left; }
+			.MobileItem_Image{text-align:center;margin:3em 0 0.75em; float:left;width:30%;height:100%;}
+			.MobileParagraph { display : block; margin : 1.5em 0 0.75em; padding : 0 1.5em;text-align:left;color:#989898; }
+                .MobileParagraph a{color:red;}
+	.MobileLink { display : block; clear : both; margin : 0 auto; }
+		.MobileBigcell { display : block; width : 100%; max-width : 600px; height : auto; margin : 1.5em auto; }
+.MobileDescription {  
+width: 55.5%; 
+}
+	@media only screen and (max-width: 1024px){
+		.MobileBigShow { background-position : left top; }
+.MobileDescription {  
+width: 55%; 
+}
+	}
+	@media only screen and (max-width: 768px){
+		.MobileBigShow { height : 22.5em; background-size : 720px 270px; box-shadow : 0 0.5em 0.5em #000 inset; border-radius : 5px; }
+		.MobileItem { float : none; width : auto; }
+ .MobileDescription {  
+width: 100%; 
+float:none;
+}
+	} 
+
+.MobileDescription { 
+float: right;
+ 
+margin-right: 0.8%;
+}
+
+#container .MobileItem {
+width: 100%; 
+min-height:12em;
+margin-bottom:15px;
+}

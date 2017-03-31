@@ -1,0 +1,1 @@
+E-poštnega sporočila trenutno ni mogoče poslati. Poskusite znova kasneje.

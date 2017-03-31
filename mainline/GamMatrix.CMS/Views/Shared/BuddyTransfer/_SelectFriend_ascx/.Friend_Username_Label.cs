@@ -1,0 +1,1 @@
+﻿Přítelovo přihlašovací jméno

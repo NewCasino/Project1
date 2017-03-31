@@ -1,0 +1,1 @@
+Polog na svoj igralni račun lahko izvedete z bančnim nakazilom, tako da na spletnem mestu GiftCardEmpire.com kupite darilni bon.

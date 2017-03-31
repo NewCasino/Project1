@@ -1,0 +1,1 @@
+﻿Neplatný bezpečnostní kód karty

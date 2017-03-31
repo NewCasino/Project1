@@ -1,0 +1,1 @@
+﻿Pełne imię i nazwisko znajomego

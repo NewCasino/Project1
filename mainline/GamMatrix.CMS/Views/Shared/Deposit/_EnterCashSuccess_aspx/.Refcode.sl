@@ -1,0 +1,1 @@
+Sporočilo prejemniku (koda sklica)

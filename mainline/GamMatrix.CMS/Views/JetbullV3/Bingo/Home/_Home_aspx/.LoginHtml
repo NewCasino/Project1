@@ -1,0 +1,7 @@
+﻿<div class="Message RegisterMessage">
+<h3 class="MessageTitle">Welcome to Bingo BETA!</h3>
+<p class="MessageText">The Bingo is still in beta. However, it is fully functional and you can play with real money. You are welcome to try it!</p>
+<ul class="MessageOptions Container">
+<li class="MessageOption MOMain"> <a class="Button MessageIncentive CTAButton" href="/customersupport" title="Get in touch with us to offer feedback!"> <span class="ButtonText">Give us feedback on Bingo BETA&nbsp;<span class="ActionSymbol">►</span></span> </a> </li>
+</ul>
+</div>

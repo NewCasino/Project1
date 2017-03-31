@@ -1,0 +1,1 @@
+﻿Klicka för detaljer

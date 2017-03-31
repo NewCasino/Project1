@@ -1,0 +1,3 @@
+﻿<p>Zahtijevali ste da vaša [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] adresa e-pošte za kontakt bude izmijenjena. E-poruka za potvrdu vam je poslana na novu adresu e-pošte($EMAIL$).</p>
+<p>Ako niste tražili promjenu vaše adrese e-pošte, obavijestite nas odmah na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Lijepi pozdrav, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Tim službe za korisnike</p>

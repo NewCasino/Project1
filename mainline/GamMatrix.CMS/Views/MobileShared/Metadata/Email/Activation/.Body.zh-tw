@@ -1,0 +1,7 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>感謝您註冊[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], 您的帳號($USERNAME$)已經成功創建，在您使用您的帳號之前您必須先激活您的帳號.</p>
+<p>請點擊下面的鏈接激活您的帳號, 如果鏈接不能點擊或點擊後無反應請復制鏈接並粘貼到您的瀏覽器地址欄.</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>如果您沒有註冊[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], 請略過該郵件或者聯系<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>感謝您註冊[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>致意,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 團隊</p>

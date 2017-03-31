@@ -1,0 +1,43 @@
+﻿<ol>
+        
+<li><strong>Hvordan setter jeg inn penger til [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Casino?</strong>
+<p>Kasinoets saldo er separat fra [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-hovedkontoen, for å gi deg en bedre oversikt. Du kan enkelt overføre midler mellom de to kontoene ved å bruke "Overføring"-funksjonen som alltid er tilgjengelig på høyde side i kasinoet når du er logget inn.</p>
+</li>
+
+
+<li><strong>Hvor rettferdige er spillene på nettstedet deres?</strong>
+<p>Vi kan betrygge deg med at algoritmen som brukes til å generere kortene på siden vår gjør dette helt tilfeldig. Spillene våre er utviklet med den samme Secure Random-funksjonen fra Sun Microssytems som brukes for Java. Den tilfeldige tallgeneratoren og stokkingen har blitt designet av en person med doktorgrad i matematikk. Programvaren vi bruker til å gjøre utdelingen tilfeldig har blitt nøye testet, og det ble ikke avdekket noen fordel for noen eller mulighet til å forutse noe, og den har blitt godkjent av eCOGRA.</p>
+</li>
+
+<li><strong>Hva skjer hvis spillingen avbrytes midt i en spillrunde?</strong>
+<p>Tilstanden til hver spillrunde lagres i systemets database. Dette sikrer at den siste tilstanden spilleren så vil fortsette når spillingen gjenopptas etter et avbrudd grunnet systemet, Internett eller serverfeil eller grunnet problemer med klienten.</p>
+</li>
+
+<li><strong>Hvor mange kortstokker er det i Blackjack-spillet?</strong>
+<p>Fire og seks kortstokker brukes i våre Blackjack-spill.</p>
+</li>
+
+<li><strong>Hvor finner jeg detaljerte instruksjoner for spillene deres?</strong>
+<p>Hvert av spillene våre har sine egne "Spillregler" på spillets spesifikke side.</p>
+</li>
+
+<li><strong>Hva er den gjennomsnittlige utbetalingen for nettstedet?</strong>
+<p>Utbetalingene varierer fra spill til spill og over tid, men den teoretiske utbetalingen ligger på rundt 97 %. Utbetalingen til spillene er hardkodet, og vi justerer ikke disse.</p>
+</li>
+
+
+<li><strong>Kan jeg prøve et spill gratis?</strong>
+<p>Ja, du kan spille alle spillene gratis hvis du velger "Spill for moro"-modus.</p>
+</li>
+
+
+<li><strong>Kan jeg fjerne en innsats etter&nbsp; at den er plassert på bordet?</strong>
+<p>Før spillet har startet er dette mulig, men etter at spillet har startet kan du ikke endre&nbsp; eller senke innsatsene dine.</p>
+</li>
+
+
+<li><strong>Hva skjer hvis jeg mister Internett-tilkoblingen min under en spillrunde?</strong>
+<p>Spillet fortsetter fra den situasjonen hvor du var når du logger deg inn og åpner spillet igjen. Autoamter hvor hjulene spant da du datt ut, vil fullføre runden selv om du tilkoblingen mistes.</p>
+</li>
+
+    </ol>

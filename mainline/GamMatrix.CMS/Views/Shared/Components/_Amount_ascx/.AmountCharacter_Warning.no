@@ -1,0 +1,1 @@
+Bare tall og punktum er tillatt. Bruk punktum som desimalskilletegn, og sett inn tall uten formatering.

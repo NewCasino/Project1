@@ -1,0 +1,1 @@
+﻿Beløpet som skulle overføres til {0}

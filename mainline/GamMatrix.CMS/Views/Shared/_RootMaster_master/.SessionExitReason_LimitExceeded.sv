@@ -1,0 +1,1 @@
+Din anslutning har kopplats från eftersom du har uppnått tidsgränsen för din session.

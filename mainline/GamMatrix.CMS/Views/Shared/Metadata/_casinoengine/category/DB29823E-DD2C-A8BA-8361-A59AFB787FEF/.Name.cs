@@ -1,0 +1,1 @@
+﻿Stírací losy

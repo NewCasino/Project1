@@ -1,0 +1,1 @@
+﻿<img title="Первый депозитный бонус" alt="Баннер первый депозитный бонус" height="68" width="332" src=" //cdn.everymatrix.com/Jetbull/_files/casino/Jetbull-First-Deposit-Bonus-.png" /><br />

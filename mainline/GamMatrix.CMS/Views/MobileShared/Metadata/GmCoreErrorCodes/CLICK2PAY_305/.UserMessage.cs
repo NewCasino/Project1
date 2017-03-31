@@ -1,0 +1,1 @@
+﻿Váš požadavek na nákup byl zamítnut. Pro podrobnosti kontaktujte service@click2pay.com.

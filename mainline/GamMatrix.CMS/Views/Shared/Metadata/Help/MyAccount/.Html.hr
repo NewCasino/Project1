@@ -1,0 +1,106 @@
+﻿<ol>
+ <li> <strong>Zaboravio sam korisničko ime i lozinku, što da radim?</strong>
+ <p>
+ Unos netočne lozinke često može dovesti do nemogućnosti potvrđivanja lozinke. Budući da su lozinke osjetljive na velika i mala slova, provjerite jeste li isključili velika slova. Ako se vaše poteškoće nastave, odaberite tipku „zaboravljena lozinka“ i bit će vam izdana nova lozinka na adresu e-pošte koju ste naveli u svom [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] računu.
+ </p>
+ </li>
+
+ <li> <strong>Koga trebam kontaktirati ako imam pitanja o svom računu?</strong>
+ <p>
+ Kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Službu za korisnike
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ </p>
+ </li>
+
+ <li>
+ <strong>Što trebam uraditi ako više ne želim koristiti svoj račun?</strong>
+ <p>
+ Za zatvaranje svog računa kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Službu za korisnike na
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ </p>
+ </li>
+
+ <li>
+ <strong>Kako ću promijeniti lozinku?</strong>
+ <p>
+ Lozinku možete promijeniti preko Zaboravljena lozinka
+ <a href="/ForgotPassword" target="_blank">link</a>
+ na vrhu stranice [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].
+ </p>
+ </li>
+
+ <li>
+ <strong>Kako ću promijeniti registriranu adresu e-pošte?</strong>
+ <p>
+ Trenutačno ne možete osobno promijeniti svoju adresu e-pošte, ali ako možete pružiti dobar razlog za promjenu adrese e-pošte, kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službu za korisnike u vezi bilo kakvih promjena podataka vašeg računa. Kontaktirajte
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ </p>
+ </li>
+
+ <li>
+ <strong>Mogu li ikako provjeriti aktivnost svog računa?</strong>
+ <p>
+ Možete provjeriti aktivnost računa kada se prijavite na račun&nbsp; biranjem opcije „Moj račun“ ili kontaktiranjem [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službe za korisnike za bilo koje informacije.
+ </p>
+ </li>
+
+ <li>
+ <strong>Je li moguće promijeniti korisničko ime?</strong>
+ <p>
+ Ne možete promijeniti ime igrača kada ga prijavite na svoj [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] račun. To je iz sigurnosnih razloga jer promjena imena igrača može poremetiti podatke sustava i izazvati sigurnosna upozorenja.
+ </p>
+ </li>
+
+ <li>
+ <strong>S kim se mogu konzultirati ako mislim da imam problem s kockanjem?</strong> 
+ <p>
+ Sudjelovanje u kockanju preko interneta je uzbudljivo, zabavno i potencijalno profitabilno za one koji se odluče igrati. Međutim, [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] je svjestan mogućnosti pretjeranog kockanja i posljedica koje ono može imati na pojedinca. Zbog toga, [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] poduzima mjere predostrožnosti kako bi se osiguralo da proizvode i usluge koriste samo oni koji na njih imaju pravo. Ni u kom slučaju nije dozvoljeno igranje za stvarni novac igračima koju su mlađi od 18 godina ili zakonske dobi punoljetnosti za sudjelovanje u kockanju preko interneta u njihovoj državi. 
+ </p>
+ </li>
+
+ <li>
+ <strong>Što se događa nakon isteka perioda samoisključenja?</strong>
+ <p>
+ Kada vremenski rok koji ste odabrali za samoisključenje istekne, na vama je da kontaktirate [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službu za korisnike kako biste otvorili račun.
+ </p>
+ </li>
+
+ <li>
+ <strong>Kako mogu izvesti samoisključenje?</strong>
+ <p>
+ Samoisključenje možete izvesti odlaskom na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] svoj račun. Ondje ćete vidjeti karticu za samoisključenje. Kada kliknete na opciju za blokiranje svog računa, bit ćete automatski odjavljeni sa [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] stranice. Ponovna će prijava samo biti moguća nakon isteka perioda vremenskog ograničenja koji ste odabrali.&nbsp; &nbsp;
+ </p>
+ </li>
+
+ <li>
+ <strong>Can I cancel it?</strong>
+ <p>
+ Ne možete pristupiti svom računu dok vremenski period koji ste izabrali za samoisključenje ne istekne.
+ </p>
+ </li>
+
+ <li>
+ <strong>Ne dobivam odgovore na pitanja kada se obratim timu za podršku korisnicima putem e-pošte.</strong> 
+ <p>
+ Cilj nam je odgovoriti na sve e-poruke korisnika u roku od 24 sata. Budući neki korisnici zahtijevaju više informacija i ispitivanje problema, vrijeme odgovora zavisi od prirode vašeg pitanja. Primit ćete e-poruku s potvrdom od [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kada primimo vaša pitanja, kako bismo vas obavijestili da radimo na pružanju odgovora. Ako ne primite e-poruku s potvrdom odmah nakon slanja vašeg pitanja, preporučujemo vam da pogledate svoju mapu bezvrijedne pošte. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] se ne bavi slanjem neželjene pošte, međutim neki rigorozni filtri e-pošte mogu greškom prepoznati našu e-poštu kao neželjenu i tako s njom i postupati.
+ </p>
+ </li>
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Ispiši</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

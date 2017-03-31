@@ -1,0 +1,1 @@
+﻿Hrát pro zábavu

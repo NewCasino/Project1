@@ -1,0 +1,3 @@
+﻿<h3>'Like' oss p&aring; Facebook!</h3>
+<p>Vi kj&oslash;rer ofte igang eksklusive kampanjer via v&aring;r Facebook-side. Ikke g&aring; glipp av moroa - ta turen innom og 'Like' Jetbull, og bli bel&oslash;nnet ved &aring; v&aelig;re en del av v&aring;r sosiale omgangskrets!</p>
+<a title="'Like' us ►" class="button" href="https://www.facebook.com/JetbullOfficial" target="_new"><span class="GoldButtonText">'Like' oss<span>►</span></span> </a>

@@ -1,0 +1,1 @@
+<p>Kjære $USERNAME$ <br />Takk for at du tok kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />Denne e-posten er en bekreftelse på at du har endret din personlige innskuddsgrense fra $LIMITAMOUNT$ $LIMITPERIOD$ til $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. Den nye innskuddsgrensen vil aktiveres  $LIMITEXPIRYDATE$. <br /><p><br />Med vennlig hilsen,</p>

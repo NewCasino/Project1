@@ -1,0 +1,6 @@
+<style type="text/css">
+.verifyPhoneBox h2{font-weight:bold;font-size:18px;}
+.verifyPhoneBox .description, .verifyPhoneBox .StepPanel .description{display:block; text-align: left;}
+.verifyPhoneBox .FormInput {display: inline-block;width: 100%;padding: 1em;background: #fff;border: 2px solid #c5cacb;color: #969696;box-sizing: border-box;}
+.verifyPhoneBox .errorMessage{color:red;}
+</style>

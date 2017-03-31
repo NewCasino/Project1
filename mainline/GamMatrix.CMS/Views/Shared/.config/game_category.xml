@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <node id="409A2FD0-701D-11E1-B901-91D84724019B" type="category" label="Video Slots" isBranch="true">
+    <node label="Extreme" type="" vendor="Sheriff" id="8350" categories="3DSLOTS" platforms="PC" />
+    <node label="Silent Run" type="" vendor="NetEnt" id="8318" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="EggOMatic™" type="" vendor="NetEnt" id="8349" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Pamplona™" type="" vendor="IGT" id="8351" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Robets" type="" vendor="Sheriff" id="8311" categories="3DSLOTS" platforms="PC" />
+    <node label="Midnight Rush" type="" vendor="Sheriff" id="8310" categories="3DSLOTS" platforms="PC" />
+    <node label="Arctic Agents " type="" vendor="Microgaming" id="8323" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Space Wars" type="" vendor="NetEnt" id="8309" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Bust The Bank " type="" vendor="Microgaming" id="8322" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Piggy Bank" type="" vendor="Sheriff" id="8282" categories="3DSLOTS" platforms="PC" />
+    <node label="Muse" type="" vendor="NetEnt" id="8277" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mystic Dreams " type="" vendor="Microgaming" id="8324" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Day of the Dead" type="" vendor="IGT" id="8312" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Wild Turkey" type="" vendor="NetEnt" id="8259" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Frog Royale" type="" vendor="Sheriff" id="8261" categories="3DSLOTS" platforms="PC" />
+    <node label="Spartania™ " type="" vendor="Sheriff" id="8255" categories="3DSLOTS" platforms="PC" />
+    <node label="Piggy Fortunes" type="" vendor="Microgaming" id="8292" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mega Fortune" type="" vendor="NetEnt" id="8270" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Journey of the Sun" type="" vendor="Microgaming" id="8297" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Beauty and the Nerd" type="" vendor="Sheriff" id="8227" categories="3DSLOTS" platforms="PC" />
+    <node label="Princess Fortune" type="" vendor="OMI" id="8288" categories="VIDEOSLOTS" platforms="PC,iPad,iPhone,Android" />
+    <node label="Disco Night Fright" type="" vendor="Microgaming" id="8296" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Wild Blood" type="" vendor="PlaynGO" id="8263" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Arabian Caravan" type="" vendor="Microgaming" id="8276" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Jungle Fruits" type="" vendor="OMI" id="8287" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC,iPad,iPhone,Android" />
+    <node label="XCalibur" type="" vendor="Microgaming" id="8275" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Legend of Olympus" type="" vendor="Microgaming" id="8294" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Royal Roller" type="" vendor="Microgaming" id="8295" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="100 Pandas" type="" vendor="IGT" id="8260" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Supernova" type="" vendor="Microgaming" id="8256" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Starlight Kiss" type="" vendor="Microgaming" id="8252" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Tres Hombres" type="" vendor="OMI" id="8286" categories="VIDEOSLOTS" platforms="PC,iPad,iPhone,Android" />
+    <node label="Jason and the Golden Fleece" type="" vendor="Microgaming" id="8253" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="BrideZilla" type="" vendor="Microgaming" id="8254" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Tiger Moon " type="" vendor="Microgaming" id="8274" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Sovereign of the Seven Seas " type="" vendor="Microgaming" id="8239" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Girls with Guns-Jungle Heat " type="" vendor="Microgaming" id="8273" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Benny the Panda" type="" vendor="OMI" id="8285" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC,iPad,iPhone,Android" />
+    <node label="One Million Ants" type="" vendor="Sheriff" id="8241" categories="3DSLOTS" platforms="PC" />
+    <node label="Thief" type="" vendor="NetEnt" id="8244" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Lucky Farmer" type="" vendor="Sheriff" id="8242" categories="3DSLOTS" platforms="PC" />
+    <node label="The Finer Reels of Life " type="" vendor="Microgaming" id="8238" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Gold" type="" vendor="Microgaming" id="8240" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Hall of Gods" type="" vendor="NetEnt" id="7227" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Safari Sam" type="" vendor="BetSoft" id="8158" categories="3DSLOTS" platforms="PC" />
+    <node label="Arabian Nights" type="" vendor="NetEnt" id="7051" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Sushi Bar" type="" vendor="BetSoft" id="8159" categories="3DSLOTS" platforms="PC" />
+    <node label="Ghostbusters™" type="" vendor="IGT" id="8157" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Abra Cadabra" type="" vendor="Sheriff" id="8226" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Elements: The Awakening" type="" vendor="NetEnt" id="8155" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Billion Dollar Movie" type="" vendor="Sheriff" id="8193" categories="3DSLOTS" platforms="PC" />
+    <node label="Thunderfist" type="" vendor="NetEnt" id="7789" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Battlestar Galactica " type="" vendor="Microgaming" id="8152" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Disco Spins" type="" vendor="NetEnt" id="8151" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Star Trek Against All Odds" type="" vendor="IGT" id="7987" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Rook's Revenge" type="" vendor="BetSoft" id="8023" categories="3DSLOTS" platforms="PC" />
+    <node label="The Amsterdam Masterplan" type="" vendor="Sheriff" id="8180" categories="3DSLOTS" platforms="PC" />
+    <node label="2 Million B.C." type="" vendor="BetSoft" id="7989" categories="3DSLOTS" platforms="PC" />
+    <node label="Zombies" type="" vendor="NetEnt" id="7914" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Fortune of the Pharaohs" type="" vendor="Sheriff" id="8170" categories="3DSLOTS" platforms="PC" />
+    <node label="Fortune Teller™" type="" vendor="NetEnt" id="7215" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Heist" type="" vendor="BetSoft" id="8001" categories="3DSLOTS" platforms="PC" />
+    <node label="Immortal Romance" type="" vendor="Microgaming" id="7088" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Beach" type="" vendor="NetEnt" id="7970" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="MONOPOLY PLUS" type="" vendor="IGT" id="7912" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Chinese New Year" type="" vendor="Sheriff" id="8178" categories="3DSLOTS" platforms="PC" />
+    <node label="Gold Diggers" type="" vendor="BetSoft" id="8000" categories="3DSLOTS" platforms="PC" />
+    <node label="Gold Raider" type="" vendor="Sheriff" id="8191" categories="3DSLOTS" platforms="PC" />
+    <node label="Diamond Queen" type="" vendor="IGT" id="7911" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Evolution" type="" vendor="NetEnt" id="7982" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Thunderstruck II" type="" vendor="Microgaming" id="7183" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Ned and his Friends" type="" vendor="BetSoft" id="8008" categories="3DSLOTS" platforms="PC" />
+    <node label="Dog Casher" type="" vendor="Sheriff" id="8167" categories="3DSLOTS" platforms="PC" />
+    <node label="Wild Rockets" type="" vendor="NetEnt" id="7985" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Treasures of Troy" type="" vendor="IGT" id="7778" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Gladiator" type="" vendor="BetSoft" id="7998" categories="3DSLOTS" platforms="PC" />
+    <node label="Funky Chicken" type="" vendor="Sheriff" id="8162" categories="3DSLOTS" platforms="PC" />
+    <node label="Aztec Idols" type="" vendor="PlaynGO" id="8132" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="ELVIS The King" type="" vendor="IGT" id="7941" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Lucky Angler" type="" vendor="NetEnt" id="8146" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Enchanted" type="" vendor="BetSoft" id="7997" categories="3DSLOTS" platforms="PC" />
+    <node label="Christmas" type="" vendor="NetEnt" id="8150" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Atlantis" type="" vendor="Sheriff" id="8187" categories="3DSLOTS" platforms="PC" />
+    <node label="Wipeout" type="" vendor="IGT" id="7589" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Magical Forest" type="" vendor="Sheriff" id="8188" categories="3DSLOTS" platforms="PC" />
+    <node label="Pearl Lagoon" type="" vendor="PlaynGO" id="7864" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Voodoo Vibes" type="" vendor="NetEnt" id="7276" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Coyote Moon" type="" vendor="IGT" id="7622" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Dragon Ship" type="" vendor="PlaynGO" id="7865" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Wild Witches" type="" vendor="NetEnt" id="7275" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Fire Opals" type="" vendor="IGT" id="7621" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Riches of RA" type="" vendor="PlaynGO" id="7866" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Black Gold" type="" vendor="BetSoft" id="7996" categories="3DSLOTS" platforms="PC" />
+    <node label="Mr Good" type="" vendor="Sheriff" id="8181" categories="3DSLOTS" platforms="PC" />
+    <node label="Siberian Storm" type="" vendor="IGT" id="7618" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Cats and Cash" type="" vendor="PlaynGO" id="7877" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Viking's Treasure" type="" vendor="NetEnt" id="7273" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The McMurphy's" type="" vendor="Sheriff" id="8163" categories="3DSLOTS" platforms="PC" />
+    <node label="Enchanted Meadow" type="" vendor="PlaynGO" id="7867" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Pixies of the Forest" type="" vendor="IGT" id="7617" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Victorious™" type="" vendor="NetEnt" id="7272" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Wolf Run" type="" vendor="IGT" id="7591" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Paco and the Popping Peppers" type="" vendor="BetSoft" id="8010" categories="3DSLOTS" platforms="PC" />
+    <node label="Galacticons" type="" vendor="Microgaming" id="8136" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Space Race" type="" vendor="PlaynGO" id="7868" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Trolls" type="" vendor="NetEnt" id="7271" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="French Cuisine" type="" vendor="Sheriff" id="8166" categories="3DSLOTS" platforms="PC" />
+    <node label="Photo Safari" type="" vendor="PlaynGO" id="7869" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Crown of Egypt" type="" vendor="IGT" id="8149" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Under the Sea" type="" vendor="BetSoft" id="8020" categories="3DSLOTS" platforms="PC" />
+    <node label="Thrill Spin" type="" vendor="NetEnt" id="7270" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Fortune Teller" type="" vendor="PlaynGO" id="7870" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Temple of Shangri-la" type="" vendor="Sheriff" id="8168" categories="3DSLOTS" platforms="PC" />
+    <node label="Wild Wolf" type="" vendor="IGT" id="7588" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Viking Age" type="" vendor="BetSoft" id="8021" categories="3DSLOTS" platforms="PC" />
+    <node label="Secret Code™" type="" vendor="NetEnt" id="7253" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Octopays" type="" vendor="Microgaming" id="8135" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Jolly Roger" type="" vendor="PlaynGO" id="7875" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Cash Hunter" type="" vendor="Sheriff" id="8175" categories="3DSLOTS" platforms="PC" />
+    <node label="100,000 Pyramid" type="" vendor="IGT" id="7432" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="It Came From Venus" type="" vendor="BetSoft" id="8003" categories="3DSLOTS" platforms="PC" />
+    <node label="Super Eighties™" type="" vendor="NetEnt" id="7268" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Cops’n’Robbers" type="" vendor="PlaynGO" id="7876" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Ed's Venture" type="" vendor="Sheriff" id="8176" categories="3DSLOTS" platforms="PC" />
+    <node label="Drone Wars" type="" vendor="Microgaming" id="8124" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Star Trek" type="" vendor="IGT" id="7562" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Groovy Sixties™" type="" vendor="NetEnt" id="7267" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Gold Trophy" type="" vendor="PlaynGO" id="7874" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="No Mercy" type="" vendor="Sheriff" id="8173" categories="3DSLOTS" platforms="PC" />
+    <node label="Funky Seventies™" type="" vendor="NetEnt" id="7265" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Fruit Bonanza" type="" vendor="PlaynGO" id="7872" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="A Night in Paris" type="" vendor="BetSoft" id="7991" categories="3DSLOTS" platforms="PC" />
+    <node label="50,000 Pyramid" type="" vendor="IGT" id="7489" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Lucky Heroes" type="" vendor="Sheriff" id="8174" categories="3DSLOTS" platforms="PC" />
+    <node label="Tales of Krakow" type="" vendor="NetEnt" id="7264" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="White Buffalo" type="" vendor="Microgaming" id="8122" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Tropical Holiday" type="" vendor="PlaynGO" id="7871" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Cars &amp; Cash" type="" vendor="Sheriff" id="8190" categories="3DSLOTS" platforms="PC" />
+    <node label="Monty's Millions" type="" vendor="IGT" id="7545" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Tiger vs Bear" type="" vendor="Microgaming" id="8121" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Arrival" type="" vendor="BetSoft" id="7992" categories="3DSLOTS" platforms="PC" />
+    <node label="Gunslinger" type="" vendor="PlaynGO" id="7937" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Blood Suckers" type="" vendor="NetEnt" id="7052" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Noah's Ark" type="" vendor="IGT" id="7550" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Dr. Magoo's Adventure" type="" vendor="Sheriff" id="8164" categories="3DSLOTS" platforms="PC" />
+    <node label="Starburst™" type="" vendor="NetEnt" id="7262" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="At the Movies" type="" vendor="BetSoft" id="7993" categories="3DSLOTS" platforms="PC" />
+    <node label="Subtopia" type="" vendor="NetEnt" id="7260" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Lost Treasures" type="" vendor="Sheriff" id="8179" categories="3DSLOTS" platforms="PC" />
+    <node label="ELVIS - A Little More Action" type="" vendor="IGT" id="7519" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Aztec Treasures" type="" vendor="BetSoft" id="7994" categories="3DSLOTS" platforms="PC" />
+    <node label="Spellcast" type="" vendor="NetEnt" id="7258" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Lost Princess Anastasia" type="" vendor="Microgaming" id="8120" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Simsalabim" type="" vendor="NetEnt" id="7256" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Jack's T-Rex" type="" vendor="Sheriff" id="8172" categories="3DSLOTS" platforms="PC" />
+    <node label="Cleopatra II" type="" vendor="IGT" id="7506" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Barbary Coast" type="" vendor="BetSoft" id="7995" categories="3DSLOTS" platforms="PC" />
+    <node label="Secrets Of Horus™" type="" vendor="NetEnt" id="7254" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Great Czar" type="" vendor="Microgaming" id="8119" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Scarface™" type="" vendor="NetEnt" id="7592" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Alien Robots" type="" vendor="NetEnt" id="7050" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Garden Party" type="" vendor="IGT" id="8148" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Beretta's vendetta" type="" vendor="Sheriff" id="8169" categories="3DSLOTS" platforms="PC" />
+    <node label="True Illusions" type="" vendor="BetSoft" id="8018" categories="3DSLOTS" platforms="PC" />
+    <node label="Robin Hood" type="" vendor="NetEnt" id="7251" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Castle Mania" type="" vendor="Sheriff" id="8171" categories="3DSLOTS" platforms="PC" />
+    <node label="Surf Safari" type="" vendor="Microgaming" id="8118" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Monopoly Here and Now" type="" vendor="IGT" id="7541" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Relic Raiders" type="" vendor="NetEnt" id="7249" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Slotfather" type="" vendor="BetSoft" id="8015" categories="3DSLOTS" platforms="PC" />
+    <node label="Reel Steel" type="" vendor="NetEnt" id="7247" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Jack Hammer 2" type="" vendor="NetEnt" id="7372" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Exterminator" type="" vendor="BetSoft" id="8014" categories="3DSLOTS" platforms="PC" />
+    <node label="Steam Punk Heroes" type="" vendor="Microgaming" id="8117" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Piggy Riches™" type="" vendor="NetEnt" id="7246" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mad Scientist" type="" vendor="BetSoft" id="8005" categories="3DSLOTS" platforms="PC" />
+    <node label="Devil's Delight™" type="" vendor="NetEnt" id="7401" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Pandora's Box™" type="" vendor="NetEnt" id="7244" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Sassy Bingo" type="" vendor="Microgaming" id="8154" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Curious Machine" type="" vendor="BetSoft" id="8013" categories="3DSLOTS" platforms="PC" />
+    <node label="Pacific Attack" type="" vendor="NetEnt" id="7242" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Demolition Squad™" type="" vendor="NetEnt" id="7402" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mythic Maiden™" type="" vendor="NetEnt" id="7241" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Once upon a Time" type="" vendor="BetSoft" id="8009" categories="3DSLOTS" platforms="PC" />
+    <node label="Mystery At The Mansion" type="" vendor="NetEnt" id="7240" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Roller Derby" type="" vendor="Microgaming" id="8116" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Cats" type="" vendor="IGT" id="7503" categories="VIDEOSLOTS" platforms="PC,iPad,iPhone,Android,WM7" />
+    <node label="Madder Scientist" type="" vendor="BetSoft" id="8006" categories="3DSLOTS" platforms="PC" />
+    <node label="Tiki Wonders" type="" vendor="NetEnt" id="7403" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Kings of Chicago™" type="" vendor="NetEnt" id="7237" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="RockStar" type="" vendor="BetSoft" id="8011" categories="3DSLOTS" platforms="PC" />
+    <node label="Kitty Glitter" type="" vendor="IGT" id="7529" categories="VIDEOSLOTS" platforms="PC,iPad,iPhone,Android,WM7" />
+    <node label="Jungle Games™" type="" vendor="NetEnt" id="7235" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Jack Hammer™" type="" vendor="NetEnt" id="7233" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mamma Mia" type="" vendor="BetSoft" id="8007" categories="3DSLOTS" platforms="PC" />
+    <node label="Mystique Grove" type="" vendor="Microgaming" id="8115" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Jack and the Beanstalk" type="" vendor="NetEnt" id="7232" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Lost" type="" vendor="BetSoft" id="8004" categories="3DSLOTS" platforms="PC" />
+    <node label="Da Vinci Diamonds" type="" vendor="IGT" id="7510" categories="VIDEOSLOTS" platforms="PC,iPad,iPhone,Android,WM7" />
+    <node label="Hot City™" type="" vendor="NetEnt" id="7229" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mr. Vegas" type="" vendor="BetSoft" id="7988" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Boom Brothers" type="" vendor="NetEnt" id="7053" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Flowers" type="" vendor="NetEnt" id="7214" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Tomb Raider 2" type="" vendor="Microgaming" id="7157" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Ghost Pirates™" type="" vendor="NetEnt" id="7221" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Frankenstein™" type="" vendor="NetEnt" id="7216" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Machu Picchu" type="" vendor="Microgaming" id="8114" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Champion Of The Track" type="" vendor="NetEnt" id="7200" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Dead or Alive™" type="" vendor="NetEnt" id="7204" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Crusade of Fortune" type="" vendor="NetEnt" id="7202" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Crime Scene" type="" vendor="NetEnt" id="7201" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Megadeth" type="" vendor="Microgaming" id="8111" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Egyptian Heroes™" type="" vendor="NetEnt" id="7210" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Dragon Island™" type="" vendor="NetEnt" id="7209" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Diamond Dogs" type="" vendor="NetEnt" id="7207" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Booty Time" type="" vendor="Microgaming" id="8112" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="House of Fun" type="" vendor="BetSoft" id="8002" categories="3DSLOTS" platforms="PC" />
+    <node label="Fruit Case™" type="" vendor="NetEnt" id="7218" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Fruit Shop™" type="" vendor="NetEnt" id="7220" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Western Frontier" type="" vendor="Microgaming" id="8137" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Gonzo's Quest™" type="" vendor="NetEnt" id="7226" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Break Away" type="" vendor="Microgaming" id="7983" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Three Wishes" type="" vendor="BetSoft" id="8016" categories="3DSLOTS" platforms="PC" />
+    <node label="Excalibur" type="" vendor="NetEnt" id="7212" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Golden Shamrock™" type="" vendor="NetEnt" id="7225" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Twisted Circus " type="" vendor="Microgaming" id="7980" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Lucky Rabbits Loot" type="" vendor="Microgaming" id="8113" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Sunshine Reef" type="" vendor="Microgaming" id="8153" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Phantom Cash " type="" vendor="Microgaming" id="7979" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Fire Hawk" type="" vendor="Microgaming" id="7928" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="House of Dragons " type="" vendor="Microgaming" id="7925" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Good To Go" type="" vendor="Microgaming" id="7136" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Great Griffin" type="" vendor="Microgaming" id="7091" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Kings of Cash" type="" vendor="Microgaming" id="7786" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Untamed Giant Panda" type="" vendor="Microgaming" id="7791" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Rhyming Reels - Old King Cole" type="" vendor="Microgaming" id="7787" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Ho Ho Ho" type="" vendor="Microgaming" id="7138" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Dark Knight" type="" vendor="Microgaming" id="7790" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Magic Charms " type="" vendor="Microgaming" id="7924" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Love Bugs" type="" vendor="Microgaming" id="7927" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Joker Jester" type="" vendor="Microgaming" id="7926" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Snake Slot" type="" vendor="Microgaming" id="7938" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Genie Wild" type="" vendor="Microgaming" id="7940" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Untamed Wolf Pack " type="" vendor="Microgaming" id="7942" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Arctic Fortune" type="" vendor="Microgaming" id="7782" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="King Arthur" type="" vendor="Microgaming" id="7783" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Karate Pig" type="" vendor="Microgaming" id="7089" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Lady in Red" type="" vendor="Microgaming" id="7090" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mega Spins Break Da Bank" type="" vendor="Microgaming" id="7092" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="HitMan" type="" vendor="Microgaming" id="7159" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Shoot!" type="" vendor="Microgaming" id="7781" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Scrooge" type="" vendor="Microgaming" id="7097" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Supe it Up" type="" vendor="Microgaming" id="7101" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Stash of the Titans" type="" vendor="Microgaming" id="7098" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Sun Quest" type="" vendor="Microgaming" id="7099" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="5 Reel Drive" type="" vendor="Microgaming" id="7100" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Osbournes" type="" vendor="Microgaming" id="7102" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Rat Pack" type="" vendor="Microgaming" id="7103" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Throne of Egypt" type="" vendor="Microgaming" id="7104" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Totem Treasure" type="" vendor="Microgaming" id="7105" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Vinyl Countdown" type="" vendor="Microgaming" id="7106" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Winning Wizards" type="" vendor="Microgaming" id="7108" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="What A Hoot" type="" vendor="Microgaming" id="7107" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Adventure Palace" type="" vendor="Microgaming" id="7131" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Spring Break" type="" vendor="Microgaming" id="7154" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Agent Jane Blonde" type="" vendor="Microgaming" id="7132" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Avalon" type="" vendor="Microgaming" id="7133" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Elementals" type="" vendor="Microgaming" id="7134" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Gold Factory" type="" vendor="Microgaming" id="7135" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Harveys" type="" vendor="Microgaming" id="7137" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Monster Mania" type="" vendor="Microgaming" id="7093" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Pure Platinum" type="" vendor="Microgaming" id="7095" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Gee Gees" type="" vendor="Microgaming" id="7255" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Retro Reels - Extreme Heat" type="" vendor="Microgaming" id="7148" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Retro Reels Diamond Glitz" type="" vendor="Microgaming" id="7149" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Rhyming Reels - Hearts &amp; Tarts" type="" vendor="Microgaming" id="7150" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Riviera Riches" type="" vendor="Microgaming" id="7151" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Tally Ho" type="" vendor="Microgaming" id="7155" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Age of Discovery" type="" vendor="Microgaming" id="7160" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Hellboy" type="" vendor="Microgaming" id="7158" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Big Break" type="" vendor="Microgaming" id="7161" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Big Kahuna" type="" vendor="Microgaming" id="7162" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Dogfather" type="" vendor="Microgaming" id="7168" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Break Da Bank Again" type="" vendor="Microgaming" id="7163" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Bush Telegraph" type="" vendor="Microgaming" id="7164" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Cashanova" type="" vendor="Microgaming" id="7165" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Cashville" type="" vendor="Microgaming" id="7166" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Dino Might" type="" vendor="Microgaming" id="7167" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Soccer Safari" type="" vendor="Microgaming" id="7181" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Eagles Wings" type="" vendor="Microgaming" id="7169" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Gift Rap" type="" vendor="Microgaming" id="7170" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Halloweenies" type="" vendor="Microgaming" id="7171" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Jewels of the Orient" type="" vendor="Microgaming" id="7172" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Loaded" type="" vendor="Microgaming" id="7173" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Money Mad Monkey" type="" vendor="Microgaming" id="7175" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Santas Wild Ride" type="" vendor="Microgaming" id="7179" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Wasabi San" type="" vendor="Microgaming" id="7184" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Wheel of Wealth" type="" vendor="Microgaming" id="7186" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Starscape" type="" vendor="Microgaming" id="7182" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="What on Earth" type="" vendor="Microgaming" id="7185" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Wheel of Wealth Special Edition" type="" vendor="Microgaming" id="7187" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Witches Wealth" type="" vendor="Microgaming" id="7188" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Track And Fieldmouse" type="" vendor="Microgaming" id="7257" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Reel Gems" type="" vendor="Microgaming" id="7145" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Reel Strike" type="" vendor="Microgaming" id="7146" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Merlin's Millions" type="" vendor="Microgaming" id="7774" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Magic Boxes" type="" vendor="Microgaming" id="7772" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Retro Reels" type="" vendor="Microgaming" id="7147" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Reel Thunder" type="" vendor="Microgaming" id="7096" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Hot Shot" type="" vendor="Microgaming" id="7087" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Genies Gems" type="" vendor="Microgaming" id="7085" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Gopher Gold" type="" vendor="Microgaming" id="7086" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mayan Princess" type="" vendor="Microgaming" id="7143" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Skull Duggery" type="" vendor="Microgaming" id="7180" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Moonshine" type="" vendor="Microgaming" id="7176" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Pollen Nation" type="" vendor="Microgaming" id="7177" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Prime Property" type="" vendor="Microgaming" id="7178" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Deck the Halls" type="" vendor="Microgaming" id="7072" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Lucky Witch" type="" vendor="Microgaming" id="7142" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Crazy Chameleons" type="" vendor="Microgaming" id="7071" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Centre Court" type="" vendor="Microgaming" id="7069" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Crazy 80's" type="" vendor="Microgaming" id="7070" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Cashapillar" type="" vendor="Microgaming" id="7068" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Carnaval" type="" vendor="Microgaming" id="7067" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Burning Desire" type="" vendor="Microgaming" id="7066" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Big Top" type="" vendor="Microgaming" id="7065" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Big Kahuna - Snakes and Ladders" type="" vendor="Microgaming" id="7064" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="300 Shields" type="" vendor="Microgaming" id="7595" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Andre the Giant" type="" vendor="Microgaming" id="7596" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Bangkok Nights" type="" vendor="Microgaming" id="7597" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Bigfoot" type="" vendor="Microgaming" id="7598" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Call of the Colosseum" type="" vendor="Microgaming" id="7599" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Cherry Blossoms" type="" vendor="Microgaming" id="7600" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Crocodopolis" type="" vendor="Microgaming" id="7601" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Dolphin Reef" type="" vendor="Microgaming" id="7602" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Doctor Love" type="" vendor="Microgaming" id="7603" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Dynasty" type="" vendor="Microgaming" id="7604" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Irish Eyes" type="" vendor="Microgaming" id="7606" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="King Tiger" type="" vendor="Microgaming" id="7607" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mad Mad Monkey" type="" vendor="Microgaming" id="7609" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="La Cucaracha" type="" vendor="Microgaming" id="7608" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Medusa" type="" vendor="Microgaming" id="7610" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Ramesses Riches" type="" vendor="Microgaming" id="7611" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Hells Grannies" type="" vendor="Microgaming" id="7721" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Shaaark SuperBet" type="" vendor="Microgaming" id="7612" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Unicorn Legend" type="" vendor="Microgaming" id="7613" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Venetian Rose" type="" vendor="Microgaming" id="7614" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Ladies Nite" type="" vendor="Microgaming" id="7141" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Jekyll and Hyde" type="" vendor="Microgaming" id="7722" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mount Olympus – Revenge of Medusa " type="" vendor="Microgaming" id="7723" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Forgotten Land of Lemuria" type="" vendor="Microgaming" id="7724" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Victorian Villain" type="" vendor="Microgaming" id="7725" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Thunderstruck" type="" vendor="Microgaming" id="7726" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mermaids Millions" type="" vendor="Microgaming" id="7729" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Tomb Raider" type="" vendor="Microgaming" id="7730" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Kathmandu" type="" vendor="Microgaming" id="7140" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Hot Ink" type="" vendor="Microgaming" id="7139" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Asian Beauty" type="" vendor="Microgaming" id="7063" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Alaskan Fishing" type="" vendor="Microgaming" id="7062" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Silver Fang" type="" vendor="Microgaming" id="7153" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Mad Hatters" type="" vendor="Microgaming" id="7174" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Hot Hot Volcano" type="" vendor="Microgaming" id="7763" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Secret Admirer" type="" vendor="Microgaming" id="7152" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Enchanted Mermaid" type="" vendor="Microgaming" id="7761" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="California Gold" type="" vendor="Microgaming" id="7760" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Gold Ahoy" type="" vendor="Microgaming" id="7762" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Snake Charmer" type="" vendor="Microgaming" id="7764" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Bobby 7s" type="" vendor="Microgaming" id="7766" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Bermuda Mysteries" type="" vendor="Microgaming" id="7767" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Hot Roller" type="" vendor="Microgaming" id="7765" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Butterflies" type="" vendor="Microgaming" id="7769" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Fat Lady Sings" type="" vendor="Microgaming" id="7770" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Untamed Bengal Tiger" type="" vendor="Microgaming" id="7771" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Around the World" type="" vendor="Microgaming" id="7773" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Munchkins" type="" vendor="Microgaming" id="7144" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="The Joy of Six " type="" vendor="Microgaming" id="7978" categories="VIDEOSLOTS" platforms="PC" />
+    <node label="Alaxe in Zombieland" type="" vendor="Microgaming" id="7957" categories="VIDEOSLOTS" platforms="PC" />
+  </node>
+  <node id="48238ECC-701D-11E1-8F5A-A9D84724019B" type="category" label="Table Games" isBranch="true">
+    <node label="Craps" type="" vendor="Sheriff" id="8283" categories="TABLEGAMES" platforms="PC" />
+    <node label="European Blackjack Redeal Gold" type="" vendor="Microgaming" id="8293" categories="TABLEGAMES" platforms="PC" />
+    <node label="Win Win Blackjack" type="" vendor="IGT" id="8249" categories="TABLEGAMES" platforms="PC" />
+    <node type="group" isBranch="true" id="012BFA15-62BE-B6F6-8933-3DF4E2E39D02" label="Blackjack Series">
+      <node label="Blackjack(Low Limit)" type="" vendor="NetEnt" id="7348" categories="TABLEGAMES" platforms="PC" />
+      <node label="Blackjack" type="" vendor="NetEnt" id="7349" categories="TABLEGAMES" platforms="PC" />
+      <node label="Blackjack(High Limit)" type="" vendor="NetEnt" id="7350" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="626CB98B-F265-5106-FF69-3DF4B915F5F9" label="Double Exposure Blackjack Series">
+      <node label="Double Exposure Blackjack(Low Limit)" type="" vendor="NetEnt" id="7352" categories="TABLEGAMES" platforms="PC" />
+      <node label="Double Exposure Blackjack" type="" vendor="NetEnt" id="7353" categories="TABLEGAMES" platforms="PC" />
+      <node label="Double Exposure Blackjack(High Limit)" type="" vendor="NetEnt" id="7354" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="2053ED4E-1458-6780-1281-3DF47DF20630" label="Single Deck Blackjack Series">
+      <node label="Single Deck Blackjack(High Limit)" type="" vendor="NetEnt" id="7357" categories="TABLEGAMES" platforms="PC" />
+      <node label="Single Deck Blackjack" type="" vendor="NetEnt" id="7356" categories="TABLEGAMES" platforms="PC" />
+      <node label="Single Deck Blackjack(Low Limit)" type="" vendor="NetEnt" id="7355" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="F2EEB806-04D3-ABAF-D176-3DF42B7DBA8D" label="Blackjack US">
+      <node label="Blackjack US" type="" vendor="Sheriff" id="8203" categories="TABLEGAMES" platforms="PC" />
+      <node label="Blackjack US High Limit" type="" vendor="Sheriff" id="8204" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="53479CA8-18F0-7B43-0A77-3DF3F9EBA934" label="Blackjack">
+      <node label="Blackjack" type="" vendor="Sheriff" id="8200" categories="TABLEGAMES" platforms="PC" />
+      <node label="Blackjack High Limit" type="" vendor="Sheriff" id="8202" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="D2306F08-814E-53B7-2C4A-3DF3DC6D7E45" label="Single Blackjack">
+      <node label="Single Blackjack" type="" vendor="Sheriff" id="8205" categories="TABLEGAMES" platforms="PC" />
+      <node label="Single Blackjack High Limit" type="" vendor="Sheriff" id="8206" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node label="Match Times Pay Double Double Bonus Poker" type="" vendor="IGT" id="8248" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Match Times Pay Double Bonus Poker" type="" vendor="IGT" id="8247" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Match Times Pay Jacks or Better" type="" vendor="IGT" id="8245" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Match Times Pay Bonus Poker" type="" vendor="IGT" id="8246" categories="VIDEOPOKERS" platforms="PC" />
+    <node type="group" isBranch="true" id="CF53AAB1-162A-8FB5-9665-3DF3AE988B2C" label="Baccarat">
+      <node label="Baccarat" type="" vendor="Sheriff" id="8213" categories="TABLEGAMES" platforms="PC" />
+      <node label="Baccarat High Limit" type="" vendor="Sheriff" id="8215" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="958A2F07-5DA8-14B9-305B-3DF386D4FBC7" label="Roulette Pro Series">
+      <node label="Roulette Pro(Low Limit)" type="" vendor="NetEnt" id="7365" categories="TABLEGAMES" platforms="PC" />
+      <node label="Roulette Pro" type="" vendor="NetEnt" id="7366" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="123B0781-C81C-7AB8-B2E8-3DF35C84EF71" label="Roulette">
+      <node label="Roulette" type="" vendor="Sheriff" id="8195" categories="TABLEGAMES" platforms="PC" />
+      <node label="Roulette High Limit" type="" vendor="Sheriff" id="8196" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="F95C596E-243A-4FED-E56B-3DF32258E4BE" label="Roulette Special">
+      <node label="Roulette Special" type="" vendor="Sheriff" id="8197" categories="TABLEGAMES" platforms="PC" />
+      <node label="Roulette Special High Limit" type="" vendor="Sheriff" id="8198" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="AF204E58-499E-98D4-E568-3DF2E2FF033B" label="Texas Hold'em">
+      <node label="Texas Hold'em" type="" vendor="Sheriff" id="8216" categories="TABLEGAMES" platforms="PC" />
+      <node label="Texas Hold'em High Limit" type="" vendor="Sheriff" id="8217" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="0B342265-FB41-0CC4-EA6F-3DF2ACC5925F" label="Pontoon Series">
+      <node label="Pontoon™(Low Limit)" type="" vendor="NetEnt" id="7358" categories="TABLEGAMES" platforms="PC" />
+      <node label="Pontoon™" type="" vendor="NetEnt" id="7359" categories="TABLEGAMES" platforms="PC" />
+      <node label="Pontoon™(High Limit)" type="" vendor="NetEnt" id="7360" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="696AB57C-D982-5D32-5A4A-3DF28805AAF0" label="Caribbean Stud Pro Series">
+      <node label="Caribbean Stud(Low Limit)" type="" vendor="NetEnt" id="7362" categories="TABLEGAMES,JACKPOTGAMES" platforms="PC" />
+      <node label="Caribbean Stud" type="" vendor="NetEnt" id="7363" categories="TABLEGAMES,JACKPOTGAMES" platforms="PC" />
+      <node label="Caribbean Stud(High Limit)" type="" vendor="NetEnt" id="7364" categories="TABLEGAMES,JACKPOTGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="7B1ACA95-3E51-ED7C-842F-3DF24C32818F" label="French Roulette Series">
+      <node label="French Roulette" type="" vendor="NetEnt" id="7370" categories="TABLEGAMES" platforms="PC" />
+      <node label="French Roulette(Low Limit)" type="" vendor="NetEnt" id="7369" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="4D10E326-4877-1B71-F951-3DF222065310" label="European Roulette">
+      <node label="European Roulette" type="" vendor="BetSoft" id="8067" categories="TABLEGAMES" platforms="PC" />
+      <node label="VIP European Roulette" type="" vendor="BetSoft" id="8070" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="6DD4CC5E-52E5-DB9A-3D33-3DF1EE9556C0" label="Trey Poker Series">
+      <node label="Trey Poker(Low Limit)" type="" vendor="NetEnt" id="7379" categories="TABLEGAMES" platforms="PC" />
+      <node label="Trey Poker" type="" vendor="NetEnt" id="7378" categories="TABLEGAMES" platforms="PC" />
+      <node label="Trey Poker(High Limit)" type="" vendor="NetEnt" id="7380" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="CE58FA51-C09E-2CBD-C0B3-3DF1BCCBA869" label="American Roulette">
+      <node label="American Roulette" type="" vendor="BetSoft" id="8068" categories="TABLEGAMES" platforms="PC" />
+      <node label="VIP American Roulette" type="" vendor="BetSoft" id="8069" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="B264917B-48BD-AD37-9467-3DF172B2FF40" label="Oasis Poker Series">
+      <node label="Oasis Poker(Low Limit)" type="" vendor="NetEnt" id="7384" categories="TABLEGAMES" platforms="PC" />
+      <node label="Oasis Poker" type="" vendor="NetEnt" id="7385" categories="TABLEGAMES" platforms="PC" />
+      <node label="Oasis Poker(High Limit)" type="" vendor="NetEnt" id="7386" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="75D52213-80AC-5698-7B3E-3DF13B3E993C" label="TXS Hold'em Series">
+      <node label="TXS Hold'em(Low Limit)" type="" vendor="NetEnt" id="7387" categories="TABLEGAMES" platforms="PC" />
+      <node label="TXS Hold'em" type="" vendor="NetEnt" id="7388" categories="TABLEGAMES" platforms="PC" />
+      <node label="TXS Hold'em(High Limit)" type="" vendor="NetEnt" id="7389" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="E8F2390F-CA73-588C-D747-3DF0F7FD0A05" label="Baccarat Series">
+      <node label="Baccarat(Low Limit)" type="" vendor="NetEnt" id="7391" categories="TABLEGAMES" platforms="PC" />
+      <node label="Baccarat" type="" vendor="NetEnt" id="7390" categories="TABLEGAMES" platforms="PC" />
+      <node label="Baccarat(High Limit)" type="" vendor="NetEnt" id="7392" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="77EF56A4-7677-A822-7501-3DF0BAE4FF2B" label="Hilo Switch Series">
+      <node label="HiLo Switch(Low Limit)" type="" vendor="NetEnt" id="7373" categories="TABLEGAMES" platforms="PC" />
+      <node label="HiLo Switch" type="" vendor="NetEnt" id="7374" categories="TABLEGAMES" platforms="PC" />
+      <node label="HiLo Switch(High Limit)" type="" vendor="NetEnt" id="7375" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="45028340-5C99-C16A-D542-3E0F003816F6" label="Punto Banco Series">
+      <node label="Punto Banco™(Low Limit)" type="" vendor="NetEnt" id="7394" categories="TABLEGAMES" platforms="PC" />
+      <node label="Punto Banco™" type="" vendor="NetEnt" id="7393" categories="TABLEGAMES" platforms="PC" />
+      <node label="Punto Banco™(High Limit)" type="" vendor="NetEnt" id="7395" categories="TABLEGAMES" platforms="PC" />
+    </node>
+    <node label="Roulette!" type="" vendor="IGT" id="7561" categories="TABLEGAMES" platforms="PC" />
+    <node label="Zoom Roulette" type="" vendor="BetSoft" id="8160" categories="TABLEGAMES" platforms="PC" />
+    <node label="Five Draw Poker" type="" vendor="BetSoft" id="8105" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Casino Hold'em" type="" vendor="NetEnt" id="7376" categories="TABLEGAMES" platforms="PC" />
+    <node label="Double Joker Poker" type="" vendor="BetSoft" id="8104" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Spanish 21 Blackjack Gold " type="" vendor="Microgaming" id="7944" categories="TABLEGAMES" platforms="PC" />
+    <node label="21 Burn Blackjack" type="" vendor="BetSoft" id="8060" categories="TABLEGAMES" platforms="PC" />
+    <node label="Pyramid Aces and Faces" type="" vendor="BetSoft" id="8110" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Classic Blackjack Gold" type="" vendor="Microgaming" id="7428" categories="TABLEGAMES" platforms="PC" />
+    <node label="American Blackjack" type="" vendor="BetSoft" id="8059" categories="TABLEGAMES" platforms="PC" />
+    <node label="Single Deck Blackjack" type="" vendor="BetSoft" id="8063" categories="TABLEGAMES" platforms="PC" />
+    <node label="Multi-Hand Perfect Pairs Blackjack Gold " type="" vendor="Microgaming" id="7930" categories="TABLEGAMES" platforms="PC" />
+    <node label="Pontoon" type="" vendor="BetSoft" id="8066" categories="TABLEGAMES" platforms="PC" />
+    <node label="European Blackjack" type="" vendor="BetSoft" id="8061" categories="TABLEGAMES" platforms="PC" />
+    <node label="Super 7 Blackjack" type="" vendor="BetSoft" id="8062" categories="TABLEGAMES" platforms="PC" />
+    <node label="Multi-Hand Premier Blackjack Gold" type="" vendor="Microgaming" id="7419" categories="TABLEGAMES" platforms="PC" />
+    <node label="Pirate 21" type="" vendor="BetSoft" id="8064" categories="TABLEGAMES" platforms="PC" />
+    <node label="Deuces And Jokers" type="" vendor="BetSoft" id="8103" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Casino Stud Poker " type="" vendor="PlaynGO" id="7801" categories="TABLEGAMES,JACKPOTGAMES" platforms="PC" />
+    <node label="Three Card Poker" type="" vendor="BetSoft" id="8082" categories="TABLEGAMES" platforms="PC" />
+    <node label="MegaJackpots Cluedo" type="" vendor="IGT" id="7537" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Craps" type="" vendor="Microgaming" id="7443" categories="TABLEGAMES" platforms="PC" />
+    <node label="Craps" type="" vendor="BetSoft" id="8072" categories="TABLEGAMES" platforms="PC" />
+    <node label="Common Draw Roulette" type="" vendor="BetSoft" id="8071" categories="TABLEGAMES" platforms="PC" />
+    <node label="Premier Roulette" type="" vendor="Microgaming" id="7423" categories="TABLEGAMES" platforms="PC" />
+    <node label="Casino War" type="" vendor="BetSoft" id="8073" categories="TABLEGAMES" platforms="PC" />
+    <node label="Draw Hi Low" type="" vendor="BetSoft" id="8076" categories="TABLEGAMES" platforms="PC" />
+    <node label="Oasis Poker" type="" vendor="BetSoft" id="8078" categories="TABLEGAMES" platforms="PC" />
+    <node label="Baccarat" type="" vendor="Microgaming" id="7442" categories="TABLEGAMES" platforms="PC" />
+    <node label="Red Dog" type="" vendor="BetSoft" id="8075" categories="TABLEGAMES" platforms="PC" />
+    <node label="Baccarat" type="" vendor="BetSoft" id="8074" categories="TABLEGAMES" platforms="PC" />
+    <node label="Poker3 Heads Up Hold'em" type="" vendor="BetSoft" id="8080" categories="TABLEGAMES" platforms="PC" />
+    <node label="Premier Blackjack Hi Lo Gold" type="" vendor="Microgaming" id="7420" categories="TABLEGAMES" platforms="PC" />
+    <node label="Caribbean Poker" type="" vendor="BetSoft" id="8077" categories="TABLEGAMES" platforms="PC" />
+    <node label="Ride'm Poker" type="" vendor="BetSoft" id="8081" categories="TABLEGAMES" platforms="PC" />
+    <node label="Single Deck BlackJack Multi Hand" type="" vendor="PlaynGO" id="7797" categories="TABLEGAMES" platforms="PC" />
+    <node label="Pai Gow" type="" vendor="BetSoft" id="8079" categories="TABLEGAMES" platforms="PC" />
+    <node label="Red Dog Progressive" type="" vendor="NetEnt" id="7377" categories="TABLEGAMES" platforms="PC" />
+    <node label="American Roulette" type="" vendor="Microgaming" id="7441" categories="TABLEGAMES" platforms="PC" />
+    <node label="French Roulette " type="" vendor="PlaynGO" id="7802" categories="TABLEGAMES" platforms="PC" />
+    <node label="MegaJackpots Monopoly Pass Go" type="" vendor="IGT" id="7538" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="European Roulette " type="" vendor="PlaynGO" id="7805" categories="TABLEGAMES" platforms="PC" />
+    <node label="Vegas Strip Blackjack Gold" type="" vendor="Microgaming" id="7440" categories="TABLEGAMES" platforms="PC" />
+    <node label="MegaJackpots Cleopatra" type="" vendor="IGT" id="7536" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Trey Card Poker" type="" vendor="PlaynGO" id="7796" categories="TABLEGAMES" platforms="PC" />
+    <node label="Blackjack" type="" vendor="IGT" id="7777" categories="TABLEGAMES" platforms="PC" />
+    <node label="Casino Hold'em" type="" vendor="PlaynGO" id="7795" categories="TABLEGAMES" platforms="PC" />
+    <node label="Atlantic City Blackjack Gold" type="" vendor="Microgaming" id="7425" categories="TABLEGAMES" platforms="PC" />
+    <node label="Triple Bonus Spin Roulette" type="" vendor="IGT" id="7577" categories="TABLEGAMES" platforms="PC" />
+    <node label="Double Exposure Blackjack Multi Hand" type="" vendor="PlaynGO" id="7798" categories="TABLEGAMES" platforms="PC" />
+    <node label="Baccarat Gold" type="" vendor="Microgaming" id="7426" categories="TABLEGAMES" platforms="PC" />
+    <node label="3 Wheel Roulette" type="" vendor="IGT" id="7776" categories="TABLEGAMES" platforms="PC" />
+    <node label="Premier Blackjack High Streak Gold" type="" vendor="Microgaming" id="7421" categories="TABLEGAMES" platforms="PC" />
+    <node label="BlackJack Multi Hand" type="" vendor="PlaynGO" id="7800" categories="TABLEGAMES" platforms="PC" />
+    <node label="Mini Baccarat " type="" vendor="PlaynGO" id="7810" categories="TABLEGAMES" platforms="PC" />
+    <node label="Premier Roulette Diamond Edition" type="" vendor="Microgaming" id="7424" categories="TABLEGAMES" platforms="PC" />
+    <node label="Single Deck Blackjack " type="" vendor="PlaynGO" id="7806" categories="TABLEGAMES" platforms="PC" />
+    <node label="Double Exposure" type="" vendor="PlaynGO" id="7807" categories="TABLEGAMES" platforms="PC" />
+    <node label="Premier Multi-Hand Euro Bonus Blackjack Gold" type="" vendor="Microgaming" id="7422" categories="TABLEGAMES" platforms="PC" />
+    <node label="English Roulette " type="" vendor="PlaynGO" id="7804" categories="TABLEGAMES" platforms="PC" />
+    <node label="Super Fun 21" type="" vendor="Microgaming" id="7451" categories="TABLEGAMES" platforms="PC" />
+    <node label="European BlackJack " type="" vendor="PlaynGO" id="7808" categories="TABLEGAMES" platforms="PC" />
+    <node label="Casino War " type="" vendor="PlaynGO" id="7809" categories="TABLEGAMES" platforms="PC" />
+    <node label="Spanish 21 Blackjack" type="" vendor="Microgaming" id="7450" categories="TABLEGAMES" platforms="PC" />
+    <node label="BlackJack " type="" vendor="PlaynGO" id="7811" categories="TABLEGAMES" platforms="PC" />
+    <node label="Poker Pursuit" type="" vendor="Microgaming" id="7449" categories="TABLEGAMES" platforms="PC" />
+    <node label="Double Bonus Spin Roulette" type="" vendor="IGT" id="7913" categories="TABLEGAMES" platforms="PC" />
+    <node label="French Roulette" type="" vendor="Microgaming" id="7445" categories="TABLEGAMES" platforms="PC" />
+    <node label="European BlackJack Multi Hands" type="" vendor="PlaynGO" id="7799" categories="TABLEGAMES" platforms="PC" />
+    <node label="Big 5 Blackjack Gold" type="" vendor="Microgaming" id="7427" categories="TABLEGAMES" platforms="PC" />
+    <node label="Vegas Single Deck Blackjack Gold" type="" vendor="Microgaming" id="7439" categories="TABLEGAMES" platforms="PC" />
+    <node label="European Blackjack Gold" type="" vendor="Microgaming" id="7430" categories="TABLEGAMES" platforms="PC" />
+    <node label="HiLo 13 European Blackjack Gold" type="" vendor="Microgaming" id="7433" categories="TABLEGAMES" platforms="PC" />
+    <node label="European Roulette Gold" type="" vendor="Microgaming" id="7431" categories="TABLEGAMES" platforms="PC" />
+    <node label="Double Exposure Blackjack Gold" type="" vendor="Microgaming" id="7429" categories="TABLEGAMES" platforms="PC" />
+    <node label="Multi-Hand Vegas Downtown Blackjack Gold" type="" vendor="Microgaming" id="7437" categories="TABLEGAMES" platforms="PC" />
+    <node label="Triple Pocket Holdem Poker" type="" vendor="Microgaming" id="7438" categories="TABLEGAMES" platforms="PC" />
+    <node label="Multi Wheel Roulette Gold" type="" vendor="Microgaming" id="7434" categories="TABLEGAMES" platforms="PC" />
+    <node label="Multi-hand European Blackjack Gold" type="" vendor="Microgaming" id="7436" categories="TABLEGAMES" platforms="PC" />
+    <node label="Cyber Stud Poker" type="" vendor="Microgaming" id="7444" categories="TABLEGAMES" platforms="PC" />
+    <node label="High Limit European Blackjack" type="" vendor="Microgaming" id="7447" categories="TABLEGAMES" platforms="PC" />
+  </node>
+  <node id="3B487A46-701D-11E1-96CD-8FD84724019B" type="category" label="Classic Slots" isBranch="true">
+    <node label="Safari Madness" type="" vendor="NetEnt" id="7594" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Royal Reels" type="" vendor="BetSoft" id="8028" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="7th Heaven" type="" vendor="BetSoft" id="7990" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Pirates Gold" type="" vendor="NetEnt" id="7404" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Out of This World" type="" vendor="BetSoft" id="8043" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Captain Cash" type="" vendor="BetSoft" id="8036" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Reel Outlaws" type="" vendor="BetSoft" id="8041" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Super Nudge 6000" type="" vendor="NetEnt" id="7788" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Mermaid's Pearl" type="" vendor="BetSoft" id="8025" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="The Bees" type="" vendor="BetSoft" id="8039" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Invaders" type="" vendor="BetSoft" id="8040" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Wild Melon" type="" vendor="PlaynGO" id="7792" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Lucky 8 Line" type="" vendor="NetEnt" id="7397" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Back in Time" type="" vendor="BetSoft" id="8030" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Irish Gold" type="" vendor="PlaynGO" id="7862" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Wizard's Castle" type="" vendor="BetSoft" id="8029" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Monkey Money" type="" vendor="BetSoft" id="8042" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Lucky Diamonds" type="" vendor="PlaynGO" id="7861" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Jackpot 6000" type="" vendor="NetEnt" id="7399" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Lucky 7" type="" vendor="BetSoft" id="8024" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="5x Magic" type="" vendor="PlaynGO" id="7856" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Hidden Loot" type="" vendor="BetSoft" id="8027" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Diamond Dreams" type="" vendor="BetSoft" id="8031" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Six Bomb" type="" vendor="Microgaming" id="7250" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Speed Cash" type="" vendor="PlaynGO" id="7859" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Beetle Frenzy" type="" vendor="NetEnt" id="7398" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Ace of Spades" type="" vendor="PlaynGO" id="7860" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Triple Crown" type="" vendor="BetSoft" id="8026" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Lucky Darts" type="" vendor="Microgaming" id="7243" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Gift Shop" type="" vendor="PlaynGO" id="7858" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Magnificent 777's" type="" vendor="Microgaming" id="7245" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Magic Love" type="" vendor="NetEnt" id="7593" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Cash 'n' Curry" type="" vendor="Microgaming" id="7222" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Bell of Fortune" type="" vendor="PlaynGO" id="7863" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Couch Potato" type="" vendor="Microgaming" id="7728" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Cash Clams" type="" vendor="Microgaming" id="7110" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Gold Coast" type="" vendor="Microgaming" id="7119" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Double Magic" type="" vendor="Microgaming" id="7113" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Fantastic 7s" type="" vendor="Microgaming" id="7115" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Fruit Smoothies" type="" vendor="Microgaming" id="7234" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Double Wammy" type="" vendor="Microgaming" id="7114" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Cash Crazy" type="" vendor="Microgaming" id="7111" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Billion Dollar Gran" type="" vendor="Microgaming" id="7217" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Bingo Bango Boom" type="" vendor="Microgaming" id="7219" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Belissimo" type="" vendor="Microgaming" id="7109" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Cops And Robbers" type="" vendor="Microgaming" id="7224" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Jackpot Express" type="" vendor="Microgaming" id="7121" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Jingle Bells" type="" vendor="Microgaming" id="7122" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Cool Buck" type="" vendor="Microgaming" id="7752" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Flying Ace" type="" vendor="Microgaming" id="7116" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Joker 8000" type="" vendor="Microgaming" id="7238" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Fortune Cookie" type="" vendor="Microgaming" id="7117" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Gold Mine" type="" vendor="Microgaming" id="7236" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Spin Magic" type="" vendor="Microgaming" id="7775" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Golden Dragon" type="" vendor="Microgaming" id="7120" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Jurassic Jackpot " type="" vendor="Microgaming" id="7123" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Doggy Reel Bingo" type="" vendor="Microgaming" id="7228" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Wheel of Plenty" type="" vendor="Microgaming" id="7259" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Triple Magic" type="" vendor="Microgaming" id="7129" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Fruit Bingo" type="" vendor="Microgaming" id="7231" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Zany Zebra" type="" vendor="Microgaming" id="7130" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Roman Riches" type="" vendor="Microgaming" id="7127" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Legacy" type="" vendor="Microgaming" id="7124" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Break Da Bank" type="" vendor="Microgaming" id="7727" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Fruit Slots" type="" vendor="Microgaming" id="7118" categories="CLASSICSLOTS" platforms="PC" />
+    <node label="Spectacular Wheel of Wealth" type="" vendor="Microgaming" id="7128" categories="CLASSICSLOTS" platforms="PC" />
+  </node>
+  <node id="45411148-701D-11E1-8368-A5D84724019B" type="category" label="Video Pokers" isBranch="true">
+    <node type="group" isBranch="true" id="81167E3E-0D29-0894-189D-3E220DA56DAA" label="Deuces Wild Video Poker Series">
+      <node label="Deuces Wild Video Poker(1 Hand)" type="" vendor="NetEnt" id="7341" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild Video Poker(10 Hand)" type="" vendor="NetEnt" id="7342" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild Video Poker(25 Hand)" type="" vendor="NetEnt" id="7343" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild Video Poker(50 Hand)" type="" vendor="NetEnt" id="7344" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="24E4AE43-22EF-2AC0-2FBB-3E21AF26C05E" label="Jacks or Better Video Poker Series">
+      <node label="Jacks or Better Video Poker(1 Hand)" type="" vendor="NetEnt" id="7335" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better Video Poker(5 Hand)" type="" vendor="NetEnt" id="7336" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better Video Poker(10 Hand)" type="" vendor="NetEnt" id="7337" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="9271E5A0-7341-83E3-B83D-3E204E85F52A" label="Jacks or Better I">
+      <node label="Jacks or Better(1 Hand)" type="" vendor="NetEnt" id="7322" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better(5 Hand)" type="" vendor="NetEnt" id="7333" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better(10 Hand)" type="" vendor="NetEnt" id="7321" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better(25 Hand)" type="" vendor="NetEnt" id="7332" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better(50 Hand)" type="" vendor="NetEnt" id="7334" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better(100 Hand)" type="" vendor="NetEnt" id="7320" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="EF432914-D53E-6092-DB61-3E20148307FA" label="Jacks or Better II">
+      <node label="1 Hand Jacks or Better" type="" vendor="BetSoft" id="8091" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Pyramid Jacks Or Better" type="" vendor="BetSoft" id="8093" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Multihand Jacks Or Better" type="" vendor="BetSoft" id="8092" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="BB5987BE-18C3-61FF-4280-3E1FDB121CEA" label="Joker Wild Series">
+      <node label="Joker Wild(1 Hand)" type="" vendor="NetEnt" id="7326" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Joker Wild(5 Hand)" type="" vendor="NetEnt" id="7329" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Joker Wild(10 Hand)" type="" vendor="NetEnt" id="7327" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Joker Wild(25 Hand)" type="" vendor="NetEnt" id="7330" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Joker Wild(50 Hand)" type="" vendor="NetEnt" id="7331" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Joker Wild(100 Hand)" type="" vendor="NetEnt" id="7328" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="3E745A8B-6704-C5D5-83D8-3E1FB506117B" label="All Americans I">
+      <node label="All American(1 Hand)" type="" vendor="NetEnt" id="7269" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="All American(5 Hand)" type="" vendor="NetEnt" id="7316" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="All American(10 Hand)" type="" vendor="NetEnt" id="7315" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="All American(25 Hand)" type="" vendor="NetEnt" id="7318" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="All American(50 Hand)" type="" vendor="NetEnt" id="7317" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="All American(100 Hand)" type="" vendor="NetEnt" id="7319" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="14AEDF47-2C0E-08D3-15D8-3E1F9149DAC8" label="All Americans II">
+      <node label="1 Hand All American" type="" vendor="BetSoft" id="8083" categories="VIDEOPOKERS,JACKPOTGAMES" platforms="PC" />
+      <node label="Multihand All American" type="" vendor="BetSoft" id="8084" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="F839CE74-5AD3-9F8B-FD24-3E1F484F82C2" label="Deuces Wild Pro Series">
+      <node label="Deuces Wild(1 Hand)" type="" vendor="NetEnt" id="7323" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild(5 Hand)" type="" vendor="NetEnt" id="7339" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild(10 Hand)" type="" vendor="NetEnt" id="7325" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild(25 Hand)" type="" vendor="NetEnt" id="7338" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild(50 Hand)" type="" vendor="NetEnt" id="7340" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild(100 Hand)" type="" vendor="NetEnt" id="7324" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="276DEE30-61B1-C484-DFD4-3E1F0AB1356C" label="Double Bonus Series">
+      <node label="Double Bonus(1 hand)" type="" vendor="PlaynGO" id="7846" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Double Bonus(4 hand)" type="" vendor="PlaynGO" id="7840" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Double Bonus(10 hand)" type="" vendor="PlaynGO" id="7833" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Double Bonus(25 hand)" type="" vendor="PlaynGO" id="7826" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Double Bonus(50 hand)" type="" vendor="PlaynGO" id="7819" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Double Bonus(100 hand)" type="" vendor="PlaynGO" id="7812" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="627FE590-7462-82F1-518A-3E1EE1FA6862" label="Tens or Better Series">
+      <node label="Tens or Better(1 hand)" type="" vendor="PlaynGO" id="7848" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Tens or Better(4 hand)" type="" vendor="PlaynGO" id="7842" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Tens or Better(10 hand)" type="" vendor="PlaynGO" id="7835" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Tens or Better(25 hand)" type="" vendor="PlaynGO" id="7828" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Tens or Better(50 hand)" type="" vendor="PlaynGO" id="7821" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Tens or Better(100 hand)" type="" vendor="PlaynGO" id="7814" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="181E8F05-BD49-3EC4-06F6-3E1EAEE1DAC8" label="Deuces &amp; Joker Wild Series">
+      <node label="Deuces &amp; Joker Wild(1 hand)" type="" vendor="PlaynGO" id="7849" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces &amp; Joker Wild(4 hand)" type="" vendor="PlaynGO" id="7844" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="3C020C74-AE95-0954-025E-3E1E61BEE5F6" label="Kings or Better Series">
+      <node label="Kings or Better(1 hand)" type="" vendor="PlaynGO" id="7850" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Kings or Better(4 hand)" type="" vendor="PlaynGO" id="7843" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Kings or Better(10 hand)" type="" vendor="PlaynGO" id="7836" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Kings or Better(25 hand)" type="" vendor="PlaynGO" id="7829" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Kings or Better(50 hand)" type="" vendor="PlaynGO" id="7822" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Kings or Better(100 hand)" type="" vendor="PlaynGO" id="7815" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="CD5C7473-6708-475E-BB1A-3E1E27C0B399" label="Deuces Wild I">
+      <node label="Deuces Wild(1 hand)" type="" vendor="PlaynGO" id="7851" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild(4 hand)" type="" vendor="PlaynGO" id="7845" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild(10 hand)" type="" vendor="PlaynGO" id="7839" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild(25 hand)" type="" vendor="PlaynGO" id="7832" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild(50 hand)" type="" vendor="PlaynGO" id="7825" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Deuces Wild(100 hand)" type="" vendor="PlaynGO" id="7818" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="F63FA238-6235-872C-04BD-3E1DFC351347" label="Deuces Wild II">
+      <node label="1 Hand Deuces Wild" type="" vendor="BetSoft" id="8088" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Multihand Deuces Wild" type="" vendor="BetSoft" id="8089" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Pyramid Deuces Wild" type="" vendor="BetSoft" id="8090" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="CD434B4B-E8D1-DC51-57CF-3E1DCC0E4EF4" label="Bonus Deluxe Poker">
+      <node label="Multihand Bonus Deluxe Poker" type="" vendor="BetSoft" id="8106" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Pyramid Bonus Deluxe Poker" type="" vendor="BetSoft" id="8107" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="311DAA37-E255-89EC-9B47-3E1D8FA5869C" label="Double Bonus Poker">
+      <node label="1 Hand Double Bonus Poker" type="" vendor="BetSoft" id="8097" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Multihand Double Bonus Poker" type="" vendor="BetSoft" id="8098" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Pyramid Double Bonus Poker" type="" vendor="BetSoft" id="8099" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="F51E6FC1-3564-D7D2-C8B3-3E1D5DB5F0F8" label="Bonus Poker">
+      <node label="1 Hand Bonus Poker" type="" vendor="BetSoft" id="8085" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Multihand Bonus Poker" type="" vendor="BetSoft" id="8086" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Pyramid Bonus Poker" type="" vendor="BetSoft" id="8087" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="452AB894-D340-4244-9F53-3E1D1EFD733A" label="Double Jackpot Poker">
+      <node label="Multihand Double Jackpot" type="" vendor="BetSoft" id="8108" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Pyramid Double Jackpot Poker" type="" vendor="BetSoft" id="8109" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="0EF90C80-A065-3BD1-9AB9-3E1CF21AADF3" label="Joker Poker I">
+      <node label="Joker Poker(1 hand)" type="" vendor="PlaynGO" id="7854" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Joker Poker(4 hand)" type="" vendor="PlaynGO" id="7841" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Joker Poker(10 hand)" type="" vendor="PlaynGO" id="7834" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Joker Poker(25 hand)" type="" vendor="PlaynGO" id="7827" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Joker Poker(50 hand)" type="" vendor="PlaynGO" id="7820" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Joker Poker(100 hand) " type="" vendor="PlaynGO" id="7813" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="77640C37-6118-4BA3-6096-3E1CB8DFA29F" label="Joker Poker II">
+      <node label="1 Hand Joker Poker" type="" vendor="BetSoft" id="8094" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Pyramid Joker Poker" type="" vendor="BetSoft" id="8096" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Multihand Joker Poker" type="" vendor="BetSoft" id="8095" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node type="group" isBranch="true" id="DFD781ED-441A-052F-9ABE-3E1BBCB443FA" label="Jacks or Better Series">
+      <node label="Jacks or Better(1 hand)" type="" vendor="PlaynGO" id="7853" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better(4 hand)" type="" vendor="PlaynGO" id="7855" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better(10 hand)" type="" vendor="PlaynGO" id="7837" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better(25 hand)" type="" vendor="PlaynGO" id="7830" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better(50 hand)" type="" vendor="PlaynGO" id="7823" categories="VIDEOPOKERS" platforms="PC" />
+      <node label="Jacks or Better(100 hand)" type="" vendor="PlaynGO" id="7816" categories="VIDEOPOKERS" platforms="PC" />
+    </node>
+    <node label="Tens or Better" type="" vendor="BetSoft" id="8101" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Bonus Deuces" type="" vendor="BetSoft" id="8102" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Split Way Royal" type="" vendor="BetSoft" id="8100" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Joker Poker" type="" vendor="Microgaming" id="7416" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Jackpot Poker" type="" vendor="PlaynGO" id="7847" categories="VIDEOPOKERS,JACKPOTGAMES" platforms="PC" />
+    <node label="Jacks or Better" type="" vendor="Microgaming" id="7415" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Pai gow Poker" type="" vendor="PlaynGO" id="7852" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="All American" type="" vendor="Microgaming" id="7406" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Bonus Poker" type="" vendor="Microgaming" id="7755" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Aces and Faces" type="" vendor="Microgaming" id="7405" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Double Bonus Poker" type="" vendor="Microgaming" id="7412" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Bonus Deuces Wild" type="" vendor="Microgaming" id="7411" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Double Double Bonus" type="" vendor="Microgaming" id="7413" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Tens or Better Power Poker" type="" vendor="Microgaming" id="7294" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Joker Power Poker" type="" vendor="Microgaming" id="7292" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Aces and Eights Video Poker" type="" vendor="Microgaming" id="7295" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Deuces Wild Power Poker" type="" vendor="Microgaming" id="7278" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Jacks or Better Power Poker" type="" vendor="Microgaming" id="7288" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Aces and Faces Power Poker" type="" vendor="Microgaming" id="7266" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Deuces and Joker Power Poker" type="" vendor="Microgaming" id="7274" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Tens or Better" type="" vendor="Microgaming" id="7418" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Double Joker Power Poker" type="" vendor="Microgaming" id="7281" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="All Aces Poker" type="" vendor="Microgaming" id="7410" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Louisiana Double" type="" vendor="Microgaming" id="7785" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Deuces Wild" type="" vendor="Microgaming" id="7758" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Deuces and Joker" type="" vendor="Microgaming" id="7757" categories="VIDEOPOKERS" platforms="PC" />
+    <node label="Double Joker" type="" vendor="Microgaming" id="7414" categories="VIDEOPOKERS" platforms="PC" />
+  </node>
+  <node type="category" isBranch="true" id="FBA7628A-C64A-B5BC-A563-29685ED129C4" label="Jackpot Games">
+    <node label="Abra Cadabra" type="" vendor="Sheriff" id="8226" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="MegaJackpots Cluedo" type="" vendor="IGT" id="7537" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Golden Derby" type="" vendor="NetEnt" id="7301" categories="JACKPOTGAMES,OTHERGAMES" platforms="PC" />
+    <node label="Bugs" type="" vendor="Sheriff" id="8189" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Fishy Fortune" type="" vendor="NetEnt" id="7213" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Zoo Zillionaire" type="" vendor="Sheriff" id="8184" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="MegaJackpots Monopoly Pass Go" type="" vendor="IGT" id="7538" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Mega Joker" type="" vendor="NetEnt" id="7239" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="MegaJackpots Cleopatra" type="" vendor="IGT" id="7536" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="The Kings Cashtle" type="" vendor="Sheriff" id="8186" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="InCash" type="" vendor="Sheriff" id="8192" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Gold Rush" type="" vendor="NetEnt" id="7396" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Fortune Farm" type="" vendor="Sheriff" id="8185" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Fruit Fiesta" type="" vendor="Microgaming" id="7075" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Pharaoh's Tomb" type="" vendor="Sheriff" id="8183" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Super Lucky Frog" type="" vendor="NetEnt" id="7263" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Slots Angels" type="" vendor="BetSoft" id="8012" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Dino's Rhino" type="" vendor="Sheriff" id="8182" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Jungle Fruits" type="" vendor="OMI" id="8287" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC,iPad,iPhone,Android" />
+    <node label="Slot of Fortune" type="" vendor="Sheriff" id="8177" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Benny the Panda" type="" vendor="OMI" id="8285" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC,iPad,iPhone,Android" />
+    <node label="Icy Wonders" type="" vendor="NetEnt" id="7230" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="The Glam Life" type="" vendor="BetSoft" id="7999" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Geisha Wonders" type="" vendor="NetEnt" id="7223" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Cash Splash" type="" vendor="Microgaming" id="7073" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="The Ghouls" type="" vendor="BetSoft" id="8037" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Cash Splash 5 Reel" type="" vendor="Microgaming" id="7074" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Treasure Room" type="" vendor="BetSoft" id="8017" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Tycoons" type="" vendor="BetSoft" id="8019" categories="JACKPOTGAMES,3DSLOTS" platforms="PC" />
+    <node label="Pharaoh King" type="" vendor="BetSoft" id="8038" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Tunzamunni" type="" vendor="Microgaming" id="7083" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Ghouls Gold" type="" vendor="BetSoft" id="8034" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Diamond Jackpot" type="" vendor="BetSoft" id="8032" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Jackpot Jamba" type="" vendor="BetSoft" id="8033" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Golden Goal" type="" vendor="PlaynGO" id="7857" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Bonus Keno" type="" vendor="NetEnt" id="7300" categories="JACKPOTGAMES,OTHERGAMES" platforms="PC" />
+    <node label="Fruit Fiesta 5 Reel" type="" vendor="Microgaming" id="7076" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Aztec Treasure 3 Reel" type="" vendor="BetSoft" id="8022" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Chase the Cheese" type="" vendor="BetSoft" id="8035" categories="CLASSICSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Mega Moolah Isis" type="" vendor="Microgaming" id="7077" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Major Millions 5 Reel" type="" vendor="Microgaming" id="7078" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Lots a Loot" type="" vendor="Microgaming" id="7080" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="King CashaLot" type="" vendor="Microgaming" id="7079" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Wow Pot" type="" vendor="Microgaming" id="7084" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Mega Moolah" type="" vendor="Microgaming" id="7615" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+    <node label="Lots a Loot 5 Reel" type="" vendor="Microgaming" id="7081" categories="VIDEOSLOTS,JACKPOTGAMES" platforms="PC" />
+  </node>
+  <node type="category" isBranch="true" id="8B0DA533-5DE7-6F84-FC24-A34916EF5E3D" label="Scratch Cards">
+    <node label="The Golden Eggs " type="" vendor="Sheriff" id="8243" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Tribble" type="" vendor="NetEnt" id="7290" categories="LOTTERY" platforms="PC" />
+    <node label="Robbers" type="" vendor="Sheriff" id="8228" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Bubbles" type="" vendor="NetEnt" id="7279" categories="LOTTERY" platforms="PC" />
+    <node label="Treasure Tomb" type="" vendor="Sheriff" id="8222" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Marbles" type="" vendor="NetEnt" id="7284" categories="LOTTERY" platforms="PC" />
+    <node label="African Hunt" type="" vendor="Sheriff" id="8221" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Triple Wins Star Ticket" type="" vendor="NetEnt" id="7297" categories="LOTTERY" platforms="PC" />
+    <node label="Bill and Ted's Bogus Journey" type="" vendor="Microgaming" id="7454" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Triple Wins" type="" vendor="NetEnt" id="7293" categories="LOTTERY" platforms="PC" />
+    <node label="Isle of Fortune" type="" vendor="Sheriff" id="8223" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Hall of Fame" type="" vendor="NetEnt" id="7282" categories="LOTTERY" platforms="PC" />
+    <node label="Beer Fest" type="" vendor="Microgaming" id="7452" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Secret Treasure" type="" vendor="Sheriff" id="8220" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Treasure Hunt" type="" vendor="NetEnt" id="7289" categories="LOTTERY" platforms="PC" />
+    <node label="Zodiac™" type="" vendor="NetEnt" id="7298" categories="LOTTERY" platforms="PC" />
+    <node label="Bunny Boiler" type="" vendor="Microgaming" id="7457" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Whack a Jackpot" type="" vendor="Microgaming" id="7483" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Wild Champions" type="" vendor="Microgaming" id="7484" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Pick 'n Switch" type="" vendor="Microgaming" id="7197" categories="OTHERGAMES" platforms="PC" />
+    <node label="Granny Prix" type="" vendor="Microgaming" id="7466" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Dawn Of The Bread" type="" vendor="Microgaming" id="7753" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Pharoah's Gems" type="" vendor="Microgaming" id="7474" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Plunder The Sea" type="" vendor="Microgaming" id="7475" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Halloweenies" type="" vendor="Microgaming" id="7754" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Offside And Seek" type="" vendor="Microgaming" id="7473" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Lucky Numbers" type="" vendor="Microgaming" id="7471" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Hand to Hand Combat" type="" vendor="Microgaming" id="7469" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Dragons Fortune" type="" vendor="Microgaming" id="7461" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Crypt Crusade" type="" vendor="Microgaming" id="7460" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Crypt Crusade Gold" type="" vendor="Microgaming" id="7784" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Super Zeroes" type="" vendor="Microgaming" id="7480" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Slam Funk" type="" vendor="Microgaming" id="7477" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Mumbai Magic" type="" vendor="Microgaming" id="7472" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Instant Win Card Selector" type="" vendor="Microgaming" id="7470" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Foamy Fortunes" type="" vendor="Microgaming" id="7462" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Freezing Fuzzballs" type="" vendor="Microgaming" id="7463" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Cashapillar Scratch Card" type="" vendor="Microgaming" id="7459" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Golden Ghouls" type="" vendor="Microgaming" id="7465" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Game Set And Scratch" type="" vendor="Microgaming" id="7464" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Bingo Bonanza" type="" vendor="Microgaming" id="7455" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Big Break" type="" vendor="Microgaming" id="7453" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Bunny Boiler Gold" type="" vendor="Microgaming" id="7458" categories="SCRATCHCARDS" platforms="PC" />
+    <node label="Bowled Over" type="" vendor="Microgaming" id="7456" categories="SCRATCHCARDS" platforms="PC" />
+  </node>
+  <node type="category" isBranch="true" id="1F968CA6-BF38-453F-D0B3-A34804101A7F" label="Other Games">
+    <node label="Max Damage and The Alien Attack " type="" vendor="Microgaming" id="7981" categories="OTHERGAMES" platforms="PC" />
+    <node label="Golden Derby" type="" vendor="NetEnt" id="7301" categories="JACKPOTGAMES,OTHERGAMES" platforms="PC" />
+    <node label="Klub Keno" type="" vendor="BetSoft" id="8045" categories="OTHERGAMES" platforms="PC" />
+    <node label="Hole in One" type="" vendor="PlaynGO" id="7878" categories="OTHERGAMES" platforms="PC" />
+    <node label="Virtual Racebook 3D" type="" vendor="BetSoft" id="8050" categories="OTHERGAMES" platforms="PC" />
+    <node label="Traditional Keno" type="" vendor="BetSoft" id="8048" categories="OTHERGAMES" platforms="PC" />
+    <node label="Spooks and Ladders" type="" vendor="Microgaming" id="7252" categories="OTHERGAMES" platforms="PC" />
+    <node label="Space Keno" type="" vendor="Sheriff" id="8219" categories="OTHERGAMES" platforms="PC" />
+    <node label="Four by Four" type="" vendor="Microgaming" id="7054" categories="OTHERGAMES" platforms="PC" />
+    <node label="Skratcherz" type="" vendor="BetSoft" id="8049" categories="OTHERGAMES" platforms="PC" />
+    <node label="Triangulation" type="" vendor="Microgaming" id="7211" categories="OTHERGAMES" platforms="PC" />
+    <node label="Samba Bingo" type="" vendor="Microgaming" id="7203" categories="OTHERGAMES" platforms="PC" />
+    <node label="Super Bonus Bingo" type="" vendor="Microgaming" id="7208" categories="OTHERGAMES" platforms="PC" />
+    <node label="TV Show Keno" type="" vendor="Sheriff" id="8218" categories="OTHERGAMES" platforms="PC" />
+    <node label="Bonus Keno" type="" vendor="NetEnt" id="7300" categories="JACKPOTGAMES,OTHERGAMES" platforms="PC" />
+    <node label="Keno" type="" vendor="Microgaming" id="7156" categories="OTHERGAMES" platforms="PC" />
+    <node label="Spingo" type="" vendor="Microgaming" id="7206" categories="OTHERGAMES" platforms="PC" />
+    <node label="Instant Keno 80 Ball" type="" vendor="BetSoft" id="8047" categories="OTHERGAMES" platforms="PC" />
+    <node label="Bubble Bonanza" type="" vendor="Microgaming" id="7189" categories="OTHERGAMES" platforms="PC" />
+    <node label="Premier Trotting" type="" vendor="Microgaming" id="7199" categories="OTHERGAMES" platforms="PC" />
+    <node label="Instant Keno 40 Ball" type="" vendor="BetSoft" id="8046" categories="OTHERGAMES" platforms="PC" />
+    <node label="Crown and Anchor" type="" vendor="Microgaming" id="7190" categories="OTHERGAMES" platforms="PC" />
+    <node label="Scratch Ahoy " type="" vendor="PlaynGO" id="7879" categories="OTHERGAMES" platforms="PC" />
+    <node label="Predictor" type="" vendor="BetSoft" id="8044" categories="OTHERGAMES" platforms="PC" />
+    <node label="Premier Racing" type="" vendor="Microgaming" id="7198" categories="OTHERGAMES" platforms="PC" />
+    <node label="Electro Bingo" type="" vendor="Microgaming" id="7191" categories="OTHERGAMES" platforms="PC" />
+    <node label="Bingo" type="" vendor="NetEnt" id="7299" categories="JACKPOTGAMES,OTHERGAMES" platforms="PC" />
+    <node label="The Lost Pyramid" type="" vendor="NetEnt" id="7287" categories="LOTTERY" platforms="PC" />
+    <node label="Pharaoh Bingo" type="" vendor="Microgaming" id="7196" categories="OTHERGAMES" platforms="PC" />
+    <node label="Mayan Bingo" type="" vendor="Microgaming" id="7195" categories="OTHERGAMES" platforms="PC" />
+    <node label="Hexaline" type="" vendor="Microgaming" id="7194" categories="OTHERGAMES" platforms="PC" />
+    <node label="Germinator" type="" vendor="Microgaming" id="7193" categories="OTHERGAMES" platforms="PC" />
+    <node label="Enchanted Woods" type="" vendor="Microgaming" id="7192" categories="OTHERGAMES" platforms="PC" />
+  </node>
+</root>

@@ -1,0 +1,1 @@
+Ditt konto kommer att stängas för alltid och kan inte öppnas igen, är du säker på att du vill fortsätta?

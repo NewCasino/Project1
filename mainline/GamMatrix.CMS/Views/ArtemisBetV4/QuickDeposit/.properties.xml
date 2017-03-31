@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <RouteName>237cfbf4-ebf0-4652-95a2-394cdcd65894</RouteName>
+  <Type>Page</Type>
+  <Controller>GamMatrix.CMS.Controllers.Shared.DepositController</Controller>
+  <IsInherited>False</IsInherited>
+</root>

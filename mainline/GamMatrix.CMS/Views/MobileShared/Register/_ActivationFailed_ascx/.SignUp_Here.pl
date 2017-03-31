@@ -1,0 +1,1 @@
+﻿Aby zapisać się i utworzyć nowe konto, proszę kliknąć ten link:

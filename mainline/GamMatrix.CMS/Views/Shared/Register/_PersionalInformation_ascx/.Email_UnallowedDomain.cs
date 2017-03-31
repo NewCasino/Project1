@@ -1,0 +1,1 @@
+﻿Doména emailu nepovolena

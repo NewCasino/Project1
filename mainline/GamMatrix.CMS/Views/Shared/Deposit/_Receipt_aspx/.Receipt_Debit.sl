@@ -1,0 +1,1 @@
+Znesek v breme vašega {0} računa

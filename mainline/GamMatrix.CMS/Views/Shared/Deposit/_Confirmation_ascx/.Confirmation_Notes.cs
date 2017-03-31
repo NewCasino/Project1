@@ -1,0 +1,1 @@
+﻿Vemte na vědomí, že váš vklad bude zpracován společností EveryMatrix Ltd, operátorem [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], na vašem vyúčtování se zobrazí společnost EveryMatrix.

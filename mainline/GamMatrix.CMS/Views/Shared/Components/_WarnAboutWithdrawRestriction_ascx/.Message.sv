@@ -1,0 +1,1 @@
+Observera att du inte kommer att kunna göra uttag från $ACCOUNT_NAME$ tills alla bonussatsningskrav har uppfyllts,

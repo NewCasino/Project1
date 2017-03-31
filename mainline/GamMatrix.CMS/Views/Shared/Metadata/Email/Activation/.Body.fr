@@ -1,0 +1,19 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+
+<p>Merci de vous inscrire avec [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], votre compte
+
+($USERNAME$) a été crée mais vous devez l´activer avant de pouvoir l´utiliser.</p>
+
+<p>Veuillez cliquer sur le lien ci-dessous pour activer votre compte. Sinon copiez le dans votre navigateur internet.</p>
+
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+
+<p>Veuillez ignorer cet email si vous ne vous êtes pas inscrits avec [Metadata:htmlencode(/Metadata/
+
+Settings.Operator_DisplayName)], ou alors informez <a href="mailto:[Metadata:htmlencode(/Metadata/
+
+Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+
+<p>Merci de vous inscrire avec [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+
+<p>Cordialement,<br /> équipe [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>

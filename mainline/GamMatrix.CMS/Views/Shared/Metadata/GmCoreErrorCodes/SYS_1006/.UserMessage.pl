@@ -1,0 +1,1 @@
+﻿Zdublowana reguła opłaty dla dostawcy

@@ -1,0 +1,1 @@
+﻿sofortbanking to łatwa w użyciu procedura bezpośredniej płatności o takich samych wysokich standardach bezpieczeństwa, co bankowość online. 

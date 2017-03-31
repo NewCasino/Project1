@@ -1,0 +1,90 @@
+﻿<ol>
+
+    <li> <strong>Koji su najniži zahtjevi sustava za igranje na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?</strong> 
+        <p>
+            <ul>
+                <li>
+                    Windows - Intel Pentium procesor (preporučuje se Pentium II ili bolji) 64 mb RAM memorije.
+                </li>
+                <li>
+                    Macintosh - Power Macintosh Power PC procesor (preporučuje se G3 ili bolji) 64 mb RAM memorije.
+                </li>
+                <li>
+                    Važna napomena za korisnike Apple Maca - Trenutačna verzija ovog kasina možda neće funkcionirati kako bi trebala kada se pokrene preko Apple Mac sustava te je trenutačno ne podržava.
+                </li>
+                <li>"FLASH" 10 ili noviji</li>
+                <li>
+                    [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] je kompatibilan s većinom Windows operativnih sustava (Windows 2000, XP, Vista i 7).
+                </li>
+                <li>Verzije Internet Explorera niže od Internet Explorer 7 nisu podržane.</li>
+            </ul>
+        </p>
+    </li>
+
+    <li> <strong>Što će se dogoditi ako izgubim vezu?</strong>
+        <p>
+            Sve igre se sigurno spremaju na naše poslužitelje i slučaju gubljenja veze jednostavno se ponovno prijavite na svoj račun kako biste vidjeli ishod bilo kojeg događaja ili igre. U vezi s kasinom, ako je igra nedovršena, trebala bi se nastaviti kada se ponovno prijavite i pristupite igri. Ako se problemi nastave „kliknite ovdje“ kako biste razgovarali s našim timom za podršku korisnicima.
+        </p>
+    </li>
+
+    <li>
+        <strong>Koje davatelje softverskih usluga koristite?</strong>
+        <p>
+            Za sportske kladionice koristimo softver Oddsmatrix, za kasino Net Entertainment i za poker Cake.
+        </p>
+    </li>
+
+    <li>
+        <strong>Zašto se ne mogu spojiti na poslužitelj za igru?</strong>
+        <p>
+            Provjerite svoju internetsku vezu, a ako i dalje imate problema s povezivanjem kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službu za korisnike..
+        </p>
+    </li>
+
+    <li>
+        <strong>Zašto se ne mogu prijaviti na svoj račun?</strong>
+        <p>
+            Provjerite jeste li unijeli ispravnu „lozinku“ i „nadimak“ za svoj račun, a ako se i dalje ne možete prijaviti kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službu za korisnike.
+        </p>
+    </li>
+
+    <li>
+        <strong>Internetska stranica mi je jako spora. Što mogu uraditi da je ubrzam?</strong> 
+        <p>
+            Ako imate problema sa sporom internetskom vezom, napominjemo sljedeće: Nekoliko otvorenih internetskih preglednika, rad glazbenih programa ili preuzimanje datoteka mogu usporiti vaše računalo i/ili vašu internetsku vezu. Vaš lokalni pružatelj internetskih usluga također može imati problema s brzinom. Dijeljenje vaše internetske veze s kućanstvom i lokalnim područjem također može usporiti vašu vezu.
+        </p>
+    </li>
+
+    <li>
+        <strong>Nemam zvuk.</strong>
+        <p>
+            Pobrinite se da posjedujete ispravnu zvučnu karticu i da vaši zvučnici nisu utišani do kraja. Provjerite jeste li odabrali zvuk preko  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kartice „Opcije“. Kartica za Chat u donjem desnom kutu zaslona stola sadrži tipku „Opcije“ kojom možete odabrati „svi“, „samo zvuci upozorenja“ ili „nečujno“.
+        </p>
+    </li>
+
+    <li>
+        <strong>Imate li MAC verziju?</strong>
+        <p>
+            Nažalost, trenutačno ne nudimo verziju softvera koja je posebno dizajnirana za MAC. Međutim, mnogi naši igrači upotrebljavaju PC emulator kako bi uživali u našim igrama. Posjetite našu stranicu za preuzimanja kako biste dobili više informacija.
+        </p>
+    </li>
+
+    <li>
+        <strong>Zašto je moja igra tako spora?</strong>
+        <p>
+            Komunikacija između vašeg stroja i naših poslužitelja je optimizirana za najbrži odgovor . Ako primijetite da se vaša igra usporila, postoje dva vjerojatna objašnjenja: 1. Igrači za stolom sporo reagiraju kada je na njih red. 2. Moguće je da nemate dobru internetsku vezu.
+        </p>
+    </li>
+
+</ol>
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

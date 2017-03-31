@@ -1,0 +1,1 @@
+Georgian Card – Ponudnik storitev za obdelavo kartic.

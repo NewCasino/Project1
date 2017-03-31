@@ -1,0 +1,16 @@
+﻿<p>亲爱的&#160; $USERNAME$,<br />
+<br />感谢您在[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]注册
+<br />
+<br />
+为了您的安全,我们想提醒您验证您的电子邮件，以确保您的账户已激活。您可以继续在[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]享受所有的服务和优惠.<br />
+<br />
+请点击下面的链接激活您的帐号, 如果链接不能点击或点击后无反应请复制链接并粘贴到您的浏览器地址栏.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+如果您没有在[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]注册, 请略过该邮件或者联系 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+请尽快完成您的邮件验证以防您的帐号被保护性限制。
+<p><br />
+谨致问候,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]客服团队<br />

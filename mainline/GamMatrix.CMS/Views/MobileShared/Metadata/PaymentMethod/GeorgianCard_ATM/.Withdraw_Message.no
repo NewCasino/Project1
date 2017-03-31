@@ -1,0 +1,1 @@
+﻿Generer en kode for å ta ut penger fra Bank of Georgia-minibank.

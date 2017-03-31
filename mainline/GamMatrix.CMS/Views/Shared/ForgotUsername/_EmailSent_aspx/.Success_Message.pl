@@ -1,0 +1,1 @@
+Otrzymasz wiadomość e-mail z zarejestrowaną nazwą użytkownika.

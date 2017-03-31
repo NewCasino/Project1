@@ -1,0 +1,1 @@
+﻿Примечание: в течение раунда вы можете обменять только <span class='messageHighlight'>{0}</span> очков за <span class='messageHighlight'>{1} {2}</span>, оставшиеся очки будут находиться на вашем балансе FPP.

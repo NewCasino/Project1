@@ -1,0 +1,1 @@
+﻿Vaše platební karta byla zablokována

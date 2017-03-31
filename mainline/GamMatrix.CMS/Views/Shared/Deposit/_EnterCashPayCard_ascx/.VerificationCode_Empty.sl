@@ -1,0 +1,1 @@
+Vnesite potrditveno kodo

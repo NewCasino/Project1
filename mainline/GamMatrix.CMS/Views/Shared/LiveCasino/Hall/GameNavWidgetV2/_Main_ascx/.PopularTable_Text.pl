@@ -1,0 +1,1 @@
+Wyświetl Popularne stoły

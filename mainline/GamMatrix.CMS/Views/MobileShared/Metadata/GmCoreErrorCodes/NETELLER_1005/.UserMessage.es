@@ -1,0 +1,1 @@
+﻿Ha solicitado una cantidad inferior a 10 $ o superior al límite de transferencia del comercio. Por favor contacte con el servicio de atención al cliente del comercio para obtener más información.

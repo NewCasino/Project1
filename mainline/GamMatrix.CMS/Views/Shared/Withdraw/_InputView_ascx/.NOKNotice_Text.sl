@@ -1,0 +1,1 @@
+vaše izplačilo bo zaradi zakonodaje glede igranja iger na srečo, ki velja na Norveškem, poslano v EUR; upoštevajte, da bo znesek, ki ga prejmete, zaradi zamenjave valute morda nekoliko manjši od zneska, ki ste ga zahtevali.

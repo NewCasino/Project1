@@ -1,0 +1,7 @@
+﻿<p>Kære $USERNAME$, <br />
+<br />Tak for din henvendelse [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+Denne email er en bekræftelse på at du har&#160;ændret din personlige indbetalingsgrænse&#160;fra $LIMITAMOUNT$ $LIMITPERIOD$ til $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. Denne nye grænse vil blive aktiveret&#160;den $LIMITEXPIRYDATE$. <br />
+<br />Kontakt os venligst, hvis du har nogle spørgsmål på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br />Venlig hilsen</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundeservice team</p>

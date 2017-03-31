@@ -1,0 +1,1 @@
+Prejeli boste e-poštno sporočilo z navodili, kako spremeniti svoje geslo.

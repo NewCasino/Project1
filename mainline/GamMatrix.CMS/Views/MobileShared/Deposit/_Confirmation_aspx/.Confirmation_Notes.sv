@@ -1,0 +1,1 @@
+Vänligen notera att din insättning kommer att genomföras genom EveryMatrix Ltd, som är betalningsoperatör av [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] websidan, du kommer se EveryMatrix på ditt kontoutdrag.

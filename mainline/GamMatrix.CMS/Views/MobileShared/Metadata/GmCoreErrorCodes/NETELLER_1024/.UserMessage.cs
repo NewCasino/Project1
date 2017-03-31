@@ -1,0 +1,1 @@
+﻿Váš požadavek nemůže být dokončen. Tento zprostředkovatel nepodporuje převody z vaší země.

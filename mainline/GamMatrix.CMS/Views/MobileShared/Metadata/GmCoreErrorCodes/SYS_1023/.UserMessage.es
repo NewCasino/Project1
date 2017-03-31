@@ -1,0 +1,1 @@
+﻿El estado de PayCard no ha cambiado

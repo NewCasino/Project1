@@ -1,0 +1,44 @@
+﻿<p>Bonjour&#160; $USERNAME$,<br />
+
+<br />
+
+Merci de vous inscrire avec [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+
+<br />
+
+<br />
+
+Pour vous sécurité nous tenons a vous rappeler que vous devez vérifier votre email afin de vous assurer que votre compte
+
+reste actif et que vous pouvez ainsi continuer a profiter de nos superbes offres disponibles a [Metadata:htmlencode(/
+
+Metadata/Settings.Operator_DisplayName)].<br />
+
+<br />
+
+Veuillez cliquer sur le lien ci-dessous pour activer votre compte. Sinon copiez le dans votre navigateur internet.<br />
+
+<br />
+
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+
+<br />
+
+Veuillez ignorer cet email si vous ne vous êtes pas inscrits avec (/Metadata/Settings.Operator_DisplayName)]
+
+, ou alors informez <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)
+
+]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+
+<br />
+
+Veuillez vous assurer de compléter la vérification de l´email immédiatement pour empêcher votre compte de rester bloque
+
+pour votre protection<p><br />
+
+Cordialement,<br />
+
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+
+Service Clientèle<br />
+

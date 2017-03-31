@@ -1,0 +1,1 @@
+Betala per telefon (Österrike)

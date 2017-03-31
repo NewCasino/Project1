@@ -1,0 +1,1 @@
+﻿Tijdslimiet per sessie instellen

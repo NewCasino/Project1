@@ -1,0 +1,1 @@
+﻿Ville / village doit avoir au moins 2 lettres

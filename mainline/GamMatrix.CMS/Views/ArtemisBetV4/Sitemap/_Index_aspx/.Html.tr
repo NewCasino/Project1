@@ -1,0 +1,59 @@
+﻿<div class="sitemap_items">
+  <div class="root_title">[Metadata:value(/Metadata/Settings.Operator_DisplayName)]</div>
+  <ul class="items">
+    <li><a href="/Home">Ana Sayfa</a></li>
+    <li><a href="/help">Yardım</a></li>
+    <li> <a href="/deposit">Ödeme Seçenekleri&nbsp;</a></li>
+    <li> <a href="/ForgotPassword">Şifremi Unuttum</a></li>
+    <li> <a href="/register">Hemen Kaydol</a></li> 
+    <li> <a href="#top">Giriş Yap</a></li>
+    <li> <a href="/Sports/">Spor</a></li>
+    <li> <a href="/Casino/Lobby">Casino</a></li>
+    <li> <a href="/Poker/">Poker</a></li>
+    <li> <a href="/Promotions/">Promosyonlar</a></li>
+    <li> <a href="/AboutUs">Hakkımızda</a></li>
+    <li> <a href="/ResponsibleGaming">Sorumlu Kumar Oynama</a></li>
+    <li> <a href="/TermsConditions">Kurallar &amp; Şartlar</a></li>
+    <li> <a href="/Sitemap">Site Haritası</a></li>
+    <li> <a href="https://v2.artemisaffiliates.com//">Bağlı Kuruluşlar</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Spor</div>
+  <ul class="items">
+    <li> <a href="/help/Sports">Spor</a></li>
+    <li> <a href="/Promotions/home/sportsbook">Promosyonlar&nbsp;</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Casino</div>
+  <ul class="items">
+    <li> <a href="/help/Casino">Casino Yardim</a></li>
+    <li> <a href="/Promotions/home/casino">Promosyonlar</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Poker</div>
+  <ul class="items">
+    <li> <a href="/help/Poker">Poker</a></li>
+    <li> <a href="/Promotions/home/Poker">Promosyonlar</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Promosyonlar</div>
+  <ul class="items">
+    <li> <a href="/Promotions/Home">Başlıca Promosyonlar</a></li>
+    <li> <a href="/Promotions/home/sportsbook">Spor</a></li>
+    <li> <a href="/Promotions/home/casino">Casino</a></li>
+    <li> <a href="/Promotions/home/Poker">Poker</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Bağlı Kuruluşlar</div>
+  <ul class="items">
+    <li> <a href="https://v2.artemisaffiliates.com/">Giriş Yap</a></li>
+    <li><a href="https://v2.artemisaffiliates.com/en/index/popup" target="_blank">Şifrenizi mi Unuttunuz?</a></li>
+    <li> <a href="https://v2.artemisaffiliates.com/en/index/popup" target="_blank">Hemen Kaydol</a></li>
+  </ul>
+</div>
+<div class="clear"></div>

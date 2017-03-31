@@ -1,0 +1,1 @@
+Vnesite telefonsko številko prejemnika.

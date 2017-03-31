@@ -1,0 +1,1 @@
+Hasło nie może być takie samo jak nazwa użytkownika.

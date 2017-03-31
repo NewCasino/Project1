@@ -1,0 +1,1 @@
+Wpłat na swoje ﻿konto gracza możesz dokonywać za pomocą przelewu bankowego poprzez kupienie kuponu prezentowego w serwisie GiftCardEmpire.com.

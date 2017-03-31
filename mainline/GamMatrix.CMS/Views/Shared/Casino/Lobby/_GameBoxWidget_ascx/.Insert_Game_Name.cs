@@ -1,0 +1,1 @@
+﻿Vlož jméno hry:

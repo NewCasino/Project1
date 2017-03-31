@@ -1,0 +1,1 @@
+﻿Monto Ukash no válido.

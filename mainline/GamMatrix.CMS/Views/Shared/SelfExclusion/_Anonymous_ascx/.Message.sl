@@ -1,0 +1,1 @@
+Če želite nastaviti samoizključevanje, se morate prijaviti.

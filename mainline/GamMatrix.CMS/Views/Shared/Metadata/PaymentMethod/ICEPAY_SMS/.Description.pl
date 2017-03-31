@@ -1,0 +1,1 @@
+Płatność za pomocą wiadomości tekstowej.

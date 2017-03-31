@@ -1,0 +1,1 @@
+Jesteś w trybie Graj dla zabawy.

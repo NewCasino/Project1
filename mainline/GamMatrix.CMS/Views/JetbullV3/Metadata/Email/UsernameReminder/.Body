@@ -1,0 +1,5 @@
+﻿<p>Dear $FIRSTNAME$,</p>
+<p>Thank you for contacting [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] about your username.</p>
+
+<p>Your username is <strong>$USERNAME$</strong>. </p>
+<p>Kind regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team</p>

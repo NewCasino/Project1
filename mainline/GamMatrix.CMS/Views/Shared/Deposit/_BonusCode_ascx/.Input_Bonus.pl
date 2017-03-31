@@ -1,0 +1,1 @@
+Posiadam kod premii

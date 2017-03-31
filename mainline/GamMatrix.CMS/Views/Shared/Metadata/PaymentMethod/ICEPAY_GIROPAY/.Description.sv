@@ -1,0 +1,1 @@
+Giropay är en betalningsmetod online som är fokuserad på den tyska marknaden. 

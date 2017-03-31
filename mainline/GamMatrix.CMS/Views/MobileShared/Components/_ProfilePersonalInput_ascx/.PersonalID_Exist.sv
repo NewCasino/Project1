@@ -1,0 +1,1 @@
+Ditt personliga ID har redan registrerats

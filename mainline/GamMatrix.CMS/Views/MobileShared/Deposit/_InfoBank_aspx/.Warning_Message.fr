@@ -1,0 +1,1 @@
+﻿Il est important que vous nous fournissez votre nom d'utilisateur <strong> {0} </ strong> lorsque vous faites un virement bancaire. Veuillez s'il vous plaît conserver tous les reçus et références comme preuves de paiement car nous pourrions vous les demander en cas de problème.

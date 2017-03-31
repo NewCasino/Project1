@@ -1,0 +1,2 @@
+﻿Wprowadź numer telefonu odbiorcy
+

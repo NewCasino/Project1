@@ -1,0 +1,42 @@
+﻿
+<ol>
+     <li><strong>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Casino hesabıma nasıl para yatırabilirim?</strong>
+     <p>Casino bakiyesi ve bahis bakiyesi kolay g&#246;r&#252;n&#252;m sağlamak i&#231;in birbirinden ayrı tutulmuştur. Hesaplarınız arası transferleri &#8216;Hesaplar arası transfer&#8217; b&#246;l&#252;m&#252;nden her zaman yapabilirsiniz.</p>
+     </li>
+     <li><strong>Sitenizdeki oyunlar ne kadar adil?</strong>
+     <p>Websitemizde t&#252;m kartların rassal olarak oluşturulduğundan emin olabilirsiniz. Oyunlarımız Java i&#231;in Sun Microsystem's Secure Random fonksiyonu kullanır. Rassal sayı &#252;rete&#231;leri ve karıştırıcılar Matematik uzmanları tarafından hazırlanmıştır. Kartların rassal dağıtılması i&#231;in kullanılan yazılım test edilmiş ve &#246;nceden tahmin edilemeyeceği ispatlanmış, eCOGRA tarafından da onaylanmıştır.</p>
+     </li>
+     <li><strong>Oyun sırasında kesinti olursa ne olur?</strong>
+     <p>Her oyunun durumu otomatik olarak sistem veritabanında saklanır. Bu internet/sunucu hataları veya sistemde oluşan bir arıza ve kullanıcı tarafında olan sorunlar nedeniyle oyuncunun son g&#246;rd&#252;ğ&#252; oyun durumunun geri y&#252;klenmesini ve oyuncunun kaldığı yerden devam etmesini sağlar.</p>
+     </li>
+     <li><strong>Blackjack oyunu i&#231;in ka&#231; deste vardır?</strong>
+     <p>Blackjack oyununda 4 ve 6 deste kullanılır.</p>
+     </li>
+     <li><strong>Oyunların detaylı talimatlarını nerde bulabilirim?</strong>
+     <p>Her oyunun kendi sayfasında &#8216;Oyun Kuralları&#8217; linkinden her oyunun kuralları mevcuttur.</p>
+     </li>
+     <li><strong>Casinonuzun ortalama geri &#246;deme oranı ne kadardır?</strong>
+     <p>Geri &#246;demeler oyunlara g&#246;re ve zamana g&#246;re değişiklik g&#246;sterir. Ortalama &#246;deme teorik olarak %97 civarındadır. Oyunların &#246;deme oranları sabit kodlanmıştır ve tarafımızdan ayarlanamaz.</p>
+     </li>
+     <li><strong>Oyunları &#252;cretsiz olarak &nbsp;deneyebilir miyim?</strong>
+     <p>Evet, oyunları &#8216;Eğlencesine Oyna&#8217; modunu se&#231;erek &#252;cretsiz sadece eğlenmek i&#231;in oynayabilirsiniz.</p>
+     </li>
+     <li><strong>Masaya koyduğum bir bahisi geri alabilir miyim?</strong>
+     <p>Oyun başlamadan &#246;nce geri alabilir yada azaltabilir veya artırabilirsiniz. Ancak oyun başladıktan sonra geri almak veya herhangi bir değişiklik yapmak m&#252;mk&#252;n değildir.</p>
+     </li>
+     <li><strong>Oyun sırasında bağlantım koparsa ne olur?</strong>
+     <p>Tekrar giriş yaptığınızda ve oyunu a&#231;tığınızda kaldığınız yerden oyun devam eder. &nbsp;D&#246;nmekte olan slotlar bağlantı kesilse dahi devam eder ve yarım kalan turunu tamamlar.</p>
+     </li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

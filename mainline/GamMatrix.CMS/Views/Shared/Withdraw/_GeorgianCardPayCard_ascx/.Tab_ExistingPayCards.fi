@@ -1,0 +1,1 @@
+﻿Georgialainen kortti

@@ -1,0 +1,1 @@
+Star(-a) sem {0} let ali več.

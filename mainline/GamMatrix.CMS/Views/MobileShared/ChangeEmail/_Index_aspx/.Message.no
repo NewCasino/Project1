@@ -1,0 +1,1 @@
+﻿For å endre din e-post må du fylle inn og bekrefte din nye e-post adresse nedenfor. En e-post med bekreftelse blir sendt til din ny e-post adresse. Du må trykke på lenken i den mottatte e-posten for å verifisere din nye e-post adresse. E-post adressen din blir ikke endret før du har trykket på denne lenken.

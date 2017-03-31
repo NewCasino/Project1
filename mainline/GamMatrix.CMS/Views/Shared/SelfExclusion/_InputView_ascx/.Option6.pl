@@ -1,0 +1,1 @@
+Stały okres samowykluczenia

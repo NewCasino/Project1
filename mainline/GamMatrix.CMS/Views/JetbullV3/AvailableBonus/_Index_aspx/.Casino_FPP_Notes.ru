@@ -1,0 +1,2 @@
+﻿Замечание: Вы можете производить обмен баллов только в раунде <span class='messageHighlight'>{0}</span> для
+<span class='messageHighlight'>{1} {2}</span>, оставшиеся баллы сохранятся на Вашем FPP балансе.

@@ -1,0 +1,1 @@
+﻿Nuestras medidas de seguridad están diseñadas para hacer sólo una cosa. Mantenerte a salvo. Junto con los más altos estándares de cifrado, permanentemente actualizamos nuestro sistema para hacer frente a las amenazas emergentes. Lo que significa que usted y su dinero están siempre protegidos.

@@ -1,0 +1,1 @@
+﻿/game/gamerules.jsp?game=luckyeightlove&lang=el

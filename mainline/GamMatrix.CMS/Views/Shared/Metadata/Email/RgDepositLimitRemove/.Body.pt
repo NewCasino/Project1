@@ -1,0 +1,8 @@
+﻿<p>Caro $USERNAME$,<br />
+</p>
+<br /> Obrigado pelo seu contacto [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br /> Este email é para confirmar o seu limite de depósito&#160; $LIMITAMOUNT$ $LIMITPERIOD$ que será terminado em $LIMITEXPIRYDATE$. <br />
+<br /> Por favor não hesite em nos contactar se tiver alguma questão em <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&#160;</p>
+<p><br /> Melhores Cumprimentos</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] A equipa de suporte</p>

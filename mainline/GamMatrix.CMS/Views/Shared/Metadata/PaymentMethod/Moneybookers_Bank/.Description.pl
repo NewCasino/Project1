@@ -1,0 +1,1 @@
+Niniejsza opcja bankowa umożliwia Ci dokonywanie natychmiastowych wpłat z każdego konta bankowego. Jest to prosta, szybka i bezpieczna metoda płatności online, która umożliwia przelew pieniędzy z konta bankowego na stronę internetową.&nbsp;&nbsp;

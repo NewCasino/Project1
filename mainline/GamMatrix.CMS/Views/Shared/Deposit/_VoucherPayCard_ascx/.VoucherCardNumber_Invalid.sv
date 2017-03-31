@@ -1,0 +1,1 @@
+Voucher-numret består av 16 siffror.

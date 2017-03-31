@@ -1,0 +1,1 @@
+Ne dovolite, da se kadar koli zopet prijavim

@@ -1,0 +1,1 @@
+﻿Klikni k zobrazení kategorií

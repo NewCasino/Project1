@@ -1,0 +1,1 @@
+E-postadressen {0} er allerede registrert på {1}, hvis du vil knytte {2} kontoen din til eksisterende {1} konto, kan du gjøre det ved å logge på her.

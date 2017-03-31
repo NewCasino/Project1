@@ -1,0 +1,1 @@
+﻿Vložené CLICK2PAY uživatelské jméno není správné. Zkontrolujte ho prosím a vložte znova. Pokud bude problém přetrvávat kontaktujte zákaznickou podporu na service@click2pay.com.

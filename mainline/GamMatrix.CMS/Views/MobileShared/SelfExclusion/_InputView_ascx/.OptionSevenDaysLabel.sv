@@ -1,0 +1,1 @@
+Tillåt inte mig att logga in under de nästkommande 7 dagarna

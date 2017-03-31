@@ -1,0 +1,2 @@
+﻿Bezpečnostní kód karty(CVC)
+

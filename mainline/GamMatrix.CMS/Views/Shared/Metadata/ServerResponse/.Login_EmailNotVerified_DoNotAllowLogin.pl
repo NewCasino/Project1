@@ -1,0 +1,1 @@
+Logowanie nie powiodło się. Nie aktywowałeś swojego konta.

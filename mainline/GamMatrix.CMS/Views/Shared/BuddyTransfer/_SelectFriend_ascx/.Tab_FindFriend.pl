@@ -1,0 +1,1 @@
+Znajdź znajomego wg nazwy użytkownika.

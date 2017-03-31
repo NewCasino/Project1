@@ -1,0 +1,1 @@
+För att göra det enklare att betala för online produkter och tjänster har det holländska banksektorn utvecklat iDEAL en online betalningstjänst.

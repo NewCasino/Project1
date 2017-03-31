@@ -1,0 +1,1 @@
+﻿Zadejte číslo Ukash

@@ -1,0 +1,12 @@
+﻿<em>Bu email üye tarafından site üzerinden Bize Ulaşın bölümündeki form üzerinden gönderildi.<br />
+Bu e-maile Cevap Ver seçeneği ile cevap yazmayınız. Üyenin e-mail bilgileri aşağıdaki gibidir. </em>
+<hr/>
+<ul>
+<li><strong>Üye Email Adresi</strong>:$EMAIL$</li>
+<li><strong>Üye Adı</strong>:$NAME$</li>
+<li><strong>Konu</strong>:$SUBJECT$</li>
+<li><strong>Üye ID No</strong>:$USERID$</li>
+<li><strong>Üye Kullanıcı Adı</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

@@ -1,0 +1,12 @@
+﻿<p>Bonjour $FIRSTNAME$,</p>
+<p>Cet&nbsp;email automatique est un reçu pour votre dépôt qui a été traité au nom de[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. EveryMatrix est un opérateur de paiement du site &nbsp;[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], vous verrez EveryMatrix figurant sur votre relevé bancaire. Les détails de votre transaction sont ci-dessous.</p>
+<ul>
+<li><strong>ID de la Transaction </strong>:$TRANSACTION_ID$</li>
+<li><strong>Heure Date </strong>:$TRANSACTION_TIME$</li>
+<li><strong>Site Web</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Reçu</strong>: document attaché.</li>
+</ul>
+<p>Veuillez contacter <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>si vous avez la moindre question à propos de ce dépôt en indiquant le numéro de référence de la transaction. </p>
+<p>Cordialement, l’équipe<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]</p>
+<p>$SCREENSHOT$</p>
+

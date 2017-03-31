@@ -1,0 +1,1 @@
+﻿Zrušení zamítnuto, následující tx problém.

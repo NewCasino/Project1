@@ -1,0 +1,5 @@
+﻿<p>Kjære $USERNAME$,</p>
+<br /> Takk for at du kontaktet [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Din personlige tidsgrense for innlogg er satt til $NEWLIMITPERIOD$ minutter. <br /> <br /> Du kan senke grensen umiddelbart &nbsp; ved å bruke den samme menyen i seksjonen for Ansvarlig spill på siden.<br /> <br /> Hvis du ønsker å øke grensen vil det ta 7 dager før den nye grensen &nbsp;er aktivert.&nbsp; Denne sjudagersperioden er satt for å gi deg tid til å tenke over om endringen er nødvendig.<br /> <br /> Du må ikke nøle med å kontakte oss hvis du har spørsmål til <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p> Med vennlig hilsen </p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundeservice &nbsp;&nbsp;&nbsp;</p>

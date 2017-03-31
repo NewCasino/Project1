@@ -1,0 +1,1 @@
+﻿Es importante que nos provea con su identidad de usuario <strong>{0}</strong>   cuando realice una transferencia bancaria, guarde todos los recibos y referencias como prueba de pago en caso de que lo necesitemos en caso de que ocurra algún problema.

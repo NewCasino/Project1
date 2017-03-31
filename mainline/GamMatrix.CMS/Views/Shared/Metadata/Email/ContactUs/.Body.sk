@@ -1,0 +1,11 @@
+﻿<em>Tento e-mail odesielajú zákazníci na stránke „Kontaktujte nás“.<br />NEODPOVEDAJTE naň priamo! Adresu zákazníka nájdete nižšie.</em>
+<hr/>
+<ul>
+<li><strong>Zákaznicka adresa</strong>:$EMAIL$</li>
+<li><strong>Meno zákazníka</strong>:$NAME$</li>
+<li><strong>Predmet</strong>:$SUBJECT$</li>
+<li><strong>Číslo (ID) užívateľa</strong>:$USERID$</li>
+<li><strong>Užívateľské meno</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

@@ -1,0 +1,1 @@
+﻿Maďarský forint

@@ -1,0 +1,1 @@
+Se alla öppningsmetoder

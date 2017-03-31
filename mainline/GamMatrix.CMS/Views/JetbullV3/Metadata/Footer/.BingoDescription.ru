@@ -1,0 +1,1 @@
+﻿Jetbull Бинго оперирует под управлением EveryMatrix, компании, инкорпорированной в холдинг EveryMatrix Ltd, зарегистрированного по адресу Level 2, Centre Point Building, Dun Karn Street, B'kara, BKR 9037, Мальта, и работающего по лицензии номер LGA/CL3/636/2010, выданной 8 апреля 2010 года Lotteries & Gaming Authority Мальты и регулируемого этой же организацией. 

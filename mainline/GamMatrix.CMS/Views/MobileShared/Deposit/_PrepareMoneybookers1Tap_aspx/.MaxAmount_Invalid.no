@@ -1,0 +1,1 @@
+﻿Maks beløp må være ett nummer

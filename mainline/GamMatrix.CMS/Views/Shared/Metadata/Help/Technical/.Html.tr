@@ -1,0 +1,87 @@
+﻿<ol>
+
+    <li> <strong> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da oynayabilmek için Asgari Sistem Gereksinimleri nedir?</strong> 
+        <p>
+            <ul>
+                <li>
+                    Windows - Intel Pentium İşlemcisi (Pentium II veya daha yüksek önerilir) 64mb ram.
+                </li>
+                <li>
+                    Macintosh - Power Macintosh Power PC İşlemcisi (G3 veya daha yüksek önerilir) 64mb ram.
+                </li>
+                <li>
+                    Apple Mac Kulanıcılar için önemli Not - Casinonun güncel Sürümü Apple Mac Sisteminde istenildiği Sekilde çalışmiyabilir ve şu an desteklenmiyor.
+                </li>
+                <li>"FLASH" 10 veya daha yüksek </li>
+                <li>
+                    [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] çoğu Windows Sürümleri ile uyumludur (Windows 2000, XP, Vista ve 7).                </li>
+                <li>Internet Explorer da 7 den düşük Sürümler desteklenmiyor.</li>
+            </ul>
+        </p>
+    </li>
+
+    <li> <strong>Bağlantım koparsa ne oluyor?</strong>
+        <p>
+            Bütün Oyun Sunucumuzda güvende kayır ediliyıor, Bağlantınız koparsa, Sisteme yeniden Giriş yapmanız yeterli herhangi Maç veya Oyun Sonuçunu görebilmeniz için. Casino ile İlgili, Oyunuz bitmemişise, Oyuna yeniden Giriş yaptığınız an devam etmelidir. Sorun yaşamaya devam ederseniz, lütfen 'buraya tıklayınız' bir Müşteri Hizmetleri Üyemiz ile Chat yapmak için.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hangi Yazılım Sağlayıcısını kullaniyorsunuz?</strong>
+        <p>
+            Spor Bahisleri için OddsMatrix, Casino için Net Entertainmetn ve Poker için Cake kullanıyoruz.
+        </p>
+    </li>
+
+    <li>
+        <strong>Neden Oyun Sunucusuna bağlanamiyorum?</strong>
+        <p>
+            İnternet Bağlantınızı kontrol ediniz, hala bağlanamiyorsaniz lütfen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müsteri Himetleriyle İletişime geçiniz.        </p>
+    </li>
+
+    <li>
+        <strong>Neden Hesabıma Giriş yapamiyorum?</strong>
+        <p>
+            Hesabınız için doğru 'Kullanıcı Adı'nı ve 'Parola'yı kullandığınıza emin olunuz, yine de Giriş yapamiyorsaniz lütfen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müsteri Himetleriyle İletişime geçiniz.
+        </p>
+    </li>
+
+    <li>
+        <strong>Site çok yavaş çalışiyor, hızlandırmak için ne yapabilirim?</strong> 
+        <p>
+            Yavaş bir İnternete Bağlantısı Sorununu yaşiyorsanız, lütfen bunları Dikkate alınız: Birden çok Tarayıcı veya Müzik Porgramları açık tutmak veya İnternetten Dosyalar indirmek, bunların hepsi İnternet Bağlantınızı veya Bilgisayarınız yavaşlatabilir. Yerel İnternet Sağlayıcınız da Gecikme yaşayabilir . İnternet Bağlantınızı Ev Halkıyla veya yerel olarak paylaşırsanız, bu da İnternet Bağlantınızı yavaşlatabilir.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hiç Ses alamiyorum.</strong>
+        <p>
+            Lütfen Çalışan bir Ses Kartınızın olduğuna ve Hoparlörlerini Sessise alınmadığından emin olunuz.  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da 'Seçenekler' Bölümünden Sesi seçtiğinizi kontrol ediniz. Masa Ekranında alt sağ Köşesindeki Chat Tabında 'Seçenekler' Düğmesi var ve orada 'Hepsı', 'sadece Bildirimler' veya 'Sessiz' seçebilirsiniz.        </p>
+    </li>
+
+    <li>
+        <strong>Mac Versiyonunuz varmı?</strong>
+        <p>
+            Maalesef, şu anda özel Mac için tasarlanmiş bir Yazılım Versiyonu sunmuyoruz. Kullanıcılarımızın bir çoğu ama başarıyla Pc Emülatör kullanarak Oyunlarımızın tadını çıkardı. Lütfen İndirme Sayfamiza bakınız tüm Detayları için.
+        </p>
+    </li>
+
+    <li>
+        <strong>Oynum neden o kadar yavaş?</strong>
+        <p>
+            Sizin Makinenizin ve bizim Sunucumuzun arasındakı İletişim en hizli yanıt için optimize edilmiştir. Oynunuzun yavaş hareket ettiğini fark ederseniz bunu iki olasılı Nedeni olabilir: 1. Masanızdakı Oyuncular Sıra onlara gelince oynamak için çok zaman harciyorlar. 2. İnternet bağlantınız iyi olmayabilir.
+        </p>
+    </li>
+
+</ol>
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

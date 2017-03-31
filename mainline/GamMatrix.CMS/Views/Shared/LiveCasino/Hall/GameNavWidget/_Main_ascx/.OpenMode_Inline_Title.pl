@@ -1,0 +1,1 @@
+Otwieraj gry na tej samej stronie

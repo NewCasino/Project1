@@ -1,0 +1,4 @@
+﻿Trekk ut hele balansen når utløpsdato nås
+
+
+

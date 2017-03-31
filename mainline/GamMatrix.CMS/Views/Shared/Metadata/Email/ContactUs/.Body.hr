@@ -1,0 +1,12 @@
+﻿<em>Ovu e-poruku poslao je korisnik sa stranice „Kontaktirajte nas“.<br />
+NE odgovarajte izravno na ovu e-poruku! Adresu e-pošte korisnika možete pronaći ispod.</em>
+<hr/>
+<ul>
+<li><strong>Adresa e-pošte korisnika</strong>:$EMAIL$</li>
+<li><strong>Ime korisnika</strong>:$NAME$</li>
+<li><strong>Predmet</strong>:$SUBJECT$</li>
+<li><strong>Identifikacijski br. korisnika</strong>:$USERID$</li>
+<li><strong>Korisničko ime</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

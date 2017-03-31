@@ -1,0 +1,1 @@
+﻿Pravidlo duplicitního vendora

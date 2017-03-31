@@ -1,0 +1,1 @@
+﻿Por favor tenga en cuenta que su depósito será procesado por EveryMatrix Ltd., el operado de pago del sitio Web [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], verá EveryMatrix en el extracto de su cuenta.

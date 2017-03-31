@@ -1,0 +1,1 @@
+﻿PayCard 3D settings were not changed

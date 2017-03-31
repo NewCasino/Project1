@@ -1,0 +1,1 @@
+﻿PayCard status is niet gewijzigd

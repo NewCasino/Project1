@@ -1,0 +1,1 @@
+Minsta poäng att göra anspråk på:

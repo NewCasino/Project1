@@ -1,0 +1,134 @@
+﻿<#
+var game = arguments[0];
+
+var helpUrlLinkClass = 'hidden';
+
+if( game.HasHelpUrl){
+    helpUrlLinkClass = '';
+}
+
+var getText = function(g) {
+    if( !g.RealMoney )
+        return '[Metadata:scriptencode(.Play_In_Fun)]';
+    return g.TCTxt;
+};
+#>
+<div class="GameArea" id="<#= game.ElementID #>" data-real="<#= game.RealMoney #>">
+    <div class="GameBody">
+        <div class="GameContainer" align="center">
+            <div class="GameTitleContainer"><h1 class="GameTitle"><#= game.Name.htmlEncode() #></h1></div>
+            <div class="iframe-container">
+                <iframe id="gameBarWidgetIframe"></iframe>
+                <div class="exit-full-screen">&times;</div>
+                <div id="gamesHolder">
+                    <div class="GameLoaderWrapper game-loaded" id="gameWrapper_1">
+                        <div class="menu-icon"></div>
+                        <div class="GameLoaderMenu index1">
+                            <div class="close">&times;</div>
+                            <ul class="game-menu">
+                                <li class='change-game CB'>
+                                    <a href="#" class="Button">
+                                        <span class="CBIcon ChangeGame"> </span>
+                                        <span class="ButtonText">Change</span>
+                                    </a>
+                                </li>
+                                <# if( !game.IsFavorite ) { #>
+                                    <li class="CB CBFav">
+                                        <a class="Button" href="javascript:void(0)" title="[Metadata:htmlencode(.Button_AddToFav)]">
+                                            <span class="CBIcon AddToFav"></span>
+                                            <span class="ButtonText">[Metadata:htmlencode(.Button_AddToFav)]</span>
+                                        </a>
+                                    </li>
+                                <# }else{ #>
+                                    <li class="CB CBFav Actived">
+                                        <a class="Button" href="javascript:void(0)" title="[Metadata:htmlencode(.Button_RemoveFav)]">
+                                            <span class="CBIcon RemovefromFav"></span>
+                                            <span class="ButtonText">[Metadata:htmlencode(.Button_RemoveFav)]</span>
+                                        </a>
+                                    </li>
+                                <# } #>
+                                <li class="CB CBInfo <#= helpUrlLinkClass #>">
+                                    <a class="Button" href="javascript:void(0)" title="[Metadata:htmlencode(.Button_GameInfo)]">
+                                        <span class="CBIcon GameInfo">[Metadata:htmlencode(.Button_GameInfo)]</span>
+                                        <span class="ButtonText">[Metadata:htmlencode(.Button_GameInfo)]</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="GameHolder">
+                            <iframe id="iframeGame_1" data-width="<#= game.Width #>" data-height="<#= game.Height #>" data-gameid="<#= game.ID #>" data-slug="<#= game.Slug #>" src="<#= game.Url.htmlEncode() #>" scrolling="no" frameborder="0" class="GameLoaderIframe" allowtransparency="allowtransparency"></iframe>
+                        </div>
+                    </div>
+                    <div class="AddOnBar">
+                        <div class="game-mode-wrapper">
+                            <a class="mode1" href="#" title="1Game"></a>
+                            <a class="mode2" href="#" title="2Games"></a>
+                            <a class="mode4" href="#" title="4Games"></a>
+                        </div>
+                        <div class="ControlBar bottom">
+                            <ul class="ControllerButtons">
+                                <li class="CB CBQuickDeposit Hidden"></li>
+                                <# if( !game.RealMoney || (game.License != null && game.License != 'none') ) { #>
+                                    <li class="License">
+                                        <span class="License_<#= game.License #>" title="<#= getText(game).htmlEncode() #>"><#= getText(game).htmlEncode() #></span>
+                                    </li>
+                                <# } #>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ControlBar right">
+                <ul class="ControllerButtons">
+                    <li class="CB CBBack">
+                        <a class="Button BackButton" href="/Casino/Hall" title="[Metadata:htmlencode(.Button_Back)]">
+                            <span class="CBIcon GameBack"></span>
+                            <span class="CBText">[Metadata:htmlencode(.Button_Back)]</span>
+                        </a>
+                    </li>
+                    <# if ( !game.RealMoney ) { #>
+                        <li class="CB CBReal">
+                            <a class="Button" href="<#= game.Url.htmlEncode() #>" target="_blank" title="[Metadata:htmlencode(/Casino/Hall/GameNavWidget/_GamePopup_snippet.Link_PlayRealMoney)]">
+                            <span class="CBIcon PlayToWin"></span>
+                            <span class="CBText">[Metadata:htmlencode(/Casino/Hall/GameNavWidget/_GamePopup_snippet.Link_PlayRealMoney)]</span>
+                            </a>
+                        </li>
+                    <# } #>
+                    <li class="CB CBFullScreen">
+                        <a class="Button" href="javascript:void(0)" title="[Metadata:htmlencode(.Button_FullScreen)]">
+                        <span class="CBIcon FullScreen"></span>
+                        <span class="CBText">[Metadata:htmlencode(.Button_FullScreen)]</span>
+                        </a>
+                    </li>
+                    <# if( !game.IsFavorite ) { #>
+                        <li class="CB CBFav ">
+                            <a class="Button" href="javascript:void(0)" title="[Metadata:htmlencode(.Button_AddToFav)]">
+                            <span class="CBIcon AddToFav"></span>
+                            <span class="CBText">[Metadata:htmlencode(.Button_AddToFav)]</span>
+                            </a>
+                        </li>
+                    <# }else{ #>
+                        <li class="CB CBFav Actived">
+                            <a class="Button" href="javascript:void(0)" title="[Metadata:htmlencode(.Button_RemoveFav)]">
+                            <span class="CBIcon AddToFav"></span>
+                            <span class="CBText">[Metadata:htmlencode(.Button_RemoveFav)]</span>
+                            </a>
+                        </li>
+                    <# } #>
+                    <li class="CB CBAddNewGame">
+                        <a class="Button" href="javascript:void(0)" title="[Metadata:htmlencode(.Button_AddNewGame)]">
+                        <span class="CBIcon AddNewGame"></span>
+                        <span class="CBText">[Metadata:htmlencode(.Button_AddNewGame)]</span>
+                        </a>
+                    </li>
+                    <li class="CB CBInfo <#= helpUrlLinkClass #>">
+                        <a class="Button" href="javascript:void(0)" title="[Metadata:htmlencode(.Button_GameInfo)]">
+                        <span class="CBIcon GameInfo"></span>
+                        <span class="CBText">[Metadata:htmlencode(.Button_GameInfo)]</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

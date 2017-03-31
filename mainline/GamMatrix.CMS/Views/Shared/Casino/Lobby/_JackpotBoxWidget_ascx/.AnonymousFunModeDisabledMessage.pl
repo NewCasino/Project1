@@ -1,0 +1,1 @@
+Ta gra nie jest dostępna dla niezarejestrowanego użytkownika - musisz się zalogować.

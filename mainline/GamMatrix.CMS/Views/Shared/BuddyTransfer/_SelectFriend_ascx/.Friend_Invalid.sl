@@ -1,0 +1,1 @@
+Sebi ne morete nakazati.

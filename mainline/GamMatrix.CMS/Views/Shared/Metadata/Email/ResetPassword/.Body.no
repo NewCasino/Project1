@@ -1,0 +1,8 @@
+﻿<p>Hei, $FIRSTNAME$</p>
+<p>Takk for at du tok kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. Vi har mottatt din forespørsel angående glemt passord. Trykk på følgende kobling for å tilbakestille passordet ditt.</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>Denne koblingen er gyldig i 24 timer og kan bare brukes én gang.<p>
+<p>Ignorer denne e-posten hvis du ikke ønsker å endre passordet ditt. <p/>
+<p>Med vennlig hilsen,<br />[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-teamet</p>
+
+

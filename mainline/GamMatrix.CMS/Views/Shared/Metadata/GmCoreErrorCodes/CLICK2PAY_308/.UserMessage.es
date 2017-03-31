@@ -1,0 +1,1 @@
+﻿Pago rechazado. Por favor active su Forma de pago por defecto e inténtelo de nuevo.

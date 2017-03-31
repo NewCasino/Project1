@@ -1,0 +1,1 @@
+﻿Withdrawal declined. The amount exceeds the permitted limit.

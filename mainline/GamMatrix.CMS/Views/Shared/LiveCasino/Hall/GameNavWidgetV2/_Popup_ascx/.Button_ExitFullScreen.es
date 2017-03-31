@@ -1,0 +1,1 @@
+﻿Salir de pantalla completa

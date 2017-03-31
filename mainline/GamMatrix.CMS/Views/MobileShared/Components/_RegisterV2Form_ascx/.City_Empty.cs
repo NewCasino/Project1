@@ -1,0 +1,1 @@
+﻿Město nemůže být prázdné

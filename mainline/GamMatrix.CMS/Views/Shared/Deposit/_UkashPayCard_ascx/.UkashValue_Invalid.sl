@@ -1,0 +1,1 @@
+Neveljavna vrednost za Ukash.

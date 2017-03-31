@@ -1,0 +1,1 @@
+﻿Telefonní číslo příjemce

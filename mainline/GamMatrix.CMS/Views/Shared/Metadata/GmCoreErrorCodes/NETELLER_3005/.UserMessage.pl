@@ -1,0 +1,1 @@
+﻿Musisz podać kwotę. Proszę spróbować ponownie.

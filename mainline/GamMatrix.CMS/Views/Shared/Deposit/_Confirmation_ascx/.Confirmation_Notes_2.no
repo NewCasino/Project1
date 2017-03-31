@@ -1,0 +1,1 @@
+﻿Vær oppmerksom på at $AMOUNT$ belastes kortkontoen. Banken din kan konvertere beløpet til lokal valuta med bankens vekslingskurs. Beløpet som krediteres $ACCOUNT$ kontoen din, er kanskje ikke det samme slik det vises på kontoutskriften.

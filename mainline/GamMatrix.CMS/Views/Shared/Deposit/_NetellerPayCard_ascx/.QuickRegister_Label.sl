@@ -1,0 +1,1 @@
+Ali še nimate računa NETELLER? Kliknite <a href="/Deposit/NetellerQuickRegister">tukaj,</a> da se registrirate zanj.

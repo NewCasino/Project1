@@ -1,0 +1,21 @@
+﻿<br /> 
+<ul class="landing_steps">
+<li class="landing_step">
+<div class="landing_step_content">
+<div class="landing_step_title">1</div>
+<div class="landing_step_info"><a href="/Register">Opprett en gratis konto</a></div>
+</div>
+</li>
+<li class="landing_step">
+<div class="landing_step_content">
+<div class="landing_step_title">2</div>
+<div class="landing_step_info"><a href="/Deposit">Gj&oslash;r et innskudd og f&aring; din bonus</a></div>
+</div>
+</li>
+<li class="landing_step">
+<div class="landing_step_content">
+<div class="landing_step_title">3</div>
+<div class="landing_step_info"><a href="/Promotions/TermsConditions/casino/welcomebonus">Spill og vinn med dine bonuspenger!</a></div>
+</div>
+</li>
+</ul>

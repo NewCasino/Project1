@@ -1,0 +1,1 @@
+Upoštevajte, da je kodo sklica mogoče uporabiti samo za en polog. Naknaden polog z isto kodo sklica ne bo knjižen na vaš račun.

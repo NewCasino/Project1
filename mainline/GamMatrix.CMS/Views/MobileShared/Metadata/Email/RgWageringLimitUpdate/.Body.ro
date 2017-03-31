@@ -1,0 +1,4 @@
+﻿<p> Dragă $USERNAME$, <br /> <br /> Mulţumim că ai contactat [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Acest e-mail este pentru a confirma că limita personală de pariere a fost schimbată de la&nbsp;$LIMITAMOUNT$ $LIMITPERIOD$&nbsp;la $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. <br /> <br /> Pentru asistenţă, nu ezita să ne contactezi la adresa de e-mail <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p> Toate cele bune, </p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] - Serviciul Clienţi &nbsp;&nbsp;&nbsp;</p>

@@ -1,0 +1,2 @@
+﻿Lokal bankoverføring {0} {1}, Internasjonal bankoverføring {2} {3}
+

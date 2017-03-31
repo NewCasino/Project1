@@ -1,0 +1,1 @@
+﻿Apagar el fondo

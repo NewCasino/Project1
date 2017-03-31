@@ -1,0 +1,1 @@
+﻿Αν θες να κάνεις μόνιμο αυτο-αποκλεισμό, επικοινώνησε με την εξυπηρέτηση πελατών στο <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> αναφέροντας την αιτία που που επιθυμείς κάτι τέτοιο, και ο λογαριασμό σου θα κλειδωθεί αμέσως.

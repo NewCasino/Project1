@@ -1,0 +1,1 @@
+﻿Váš požadavek nemůže být dokončen. Prosím kontaktujte NETELLER (1-PAY) zákaznickou podporu na 86-13075600300, nebo 86-108008530056 (severní Čína), 86-108001530056 (jižní Čína)

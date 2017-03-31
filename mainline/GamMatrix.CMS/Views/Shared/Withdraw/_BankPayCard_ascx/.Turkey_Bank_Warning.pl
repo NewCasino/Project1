@@ -1,0 +1,1 @@
+Przelewy bankowe na konta w Turcji są wykonywane wyłącznie w euro lub dolarach. Upewnij się, że Twój bank zaakceptuje przelew bankowy w euro lub dolarach.

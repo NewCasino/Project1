@@ -1,0 +1,4 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>你的提款已经在$TXCOMPLETEDDATE$被回滚,款项已退回至你的游戏账户，如果关于此次交易你需要任何进一步的帮助，请联系客服</p>
+交易号: $TXID$ 交易日期: $TXCREATEDDATE$ 金额: $TXAMOUNT$ $TXCURRENCY$.
+<p>致意,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]团队</p>

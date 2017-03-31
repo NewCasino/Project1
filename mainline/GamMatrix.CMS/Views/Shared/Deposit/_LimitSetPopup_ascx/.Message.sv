@@ -1,0 +1,1 @@
+Vi har noterat att du inte har lagt in en finansiell gräns på ditt konto och vi rekommenderar dig att lägga in en gräns genom att klicka på den här <a href="{0}">link</a>. Om du väljer att inte lägga in en gräns kan du klicka på stäng-knappen.

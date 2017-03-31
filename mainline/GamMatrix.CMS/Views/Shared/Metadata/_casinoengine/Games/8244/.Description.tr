@@ -1,0 +1,1 @@
+﻿Thief™ is a 5-reel, 25 bet line video slot featuring Expanding Wild symbols, a regular Free Spins mode and an Adrenaline Free Spins mode with an additional symbol; the Diamond symbol.

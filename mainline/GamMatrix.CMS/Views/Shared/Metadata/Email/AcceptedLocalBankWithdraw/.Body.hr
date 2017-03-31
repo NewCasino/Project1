@@ -1,0 +1,13 @@
+﻿<p>Pozdrav $FIRSTNAME$,</p>
+<p>Vaše podizanje novca uspješno je provedene.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Provjerite saldo svog računa.</strong>
+  </span>
+</p>
+<p>
+  Ako imate bilo kakva pitanja ne oklijevajte nas kontaktirati <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  S poštovanjem,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tim
+</p>

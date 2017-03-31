@@ -1,0 +1,1 @@
+Aby ustalić limit wpłaty, musisz się zalogować.

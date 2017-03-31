@@ -1,0 +1,3 @@
+﻿Otillräckligt medel
+
+

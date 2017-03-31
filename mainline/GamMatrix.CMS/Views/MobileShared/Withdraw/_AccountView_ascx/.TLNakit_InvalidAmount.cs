@@ -1,0 +1,1 @@
+﻿TLNakit nepřijímá desetinná čísla

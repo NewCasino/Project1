@@ -1,0 +1,2 @@
+﻿Přepnout zobrazení
+

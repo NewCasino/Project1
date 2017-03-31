@@ -1,0 +1,1 @@
+﻿Převod peněz přímo na váš bankovní účet

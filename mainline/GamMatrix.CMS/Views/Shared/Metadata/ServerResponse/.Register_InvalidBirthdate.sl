@@ -1,0 +1,1 @@
+Neveljaven datum rojstva.

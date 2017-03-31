@@ -1,0 +1,1 @@
+Vaša povezava je bila prekinjena, ker je bila dosežena časovna omejitev vaše seje.

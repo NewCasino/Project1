@@ -1,0 +1,56 @@
+﻿
+<ol>
+     <li><strong>Hesabımdan nasıl para &#231;ekebilirim?</strong>
+     <p>Gerekli t&#252;m koşulları sağladıktan sonra istediğiniz her zaman para &#231;ekebilirsiniz. En az para &#231;ekme miktarı kura bağlı olarak değişmektedir.</p>
+     </li>
+     <li><strong>Para &#231;ekme limiti ne kadar?</strong>
+     <p>&#199;ekebileceğiniz en az tutar&nbsp; 100 TL dir ve kura bağlı olarak değişmektedir.G&#252;nl&#252;k en fazla&nbsp; 5400 TL veya 3 para &#231;ekme işlemi talep edebilirsiniz.<br />
+     </p>
+     </li>
+     <li><strong>Para &#231;ekme talebimi iptal edebilir miyim?</strong>
+     <p>Para &#231;ekme emirlerinizi, işlem tamamlanmadığı s&#252;rece bekleyen para &#231;ekme taleplerinden geri alabilir veya m&#252;şteri hizmetleri ile irtibata ge&#231;erekte iptal edebilirsiniz.</p>
+     </li>
+     <li><strong>Kredi/debit kartıma &#246;deme alabilir miyim?</strong>
+     <p>Evet, para yatırma işlemi yaptığınız karta kartınız para yatırma işlemini kabul ediyorsa para &#231;ekebilirsiniz. &nbsp;Mastercard/Maestro kartlarında para &#231;ekme olarak bazı sınırlamalar mevcuttur.</p>
+     </li>
+     <li><strong>Kredi/debit kartımla para yatırdım başka bir y&#246;ntemle para &#231;ekebilir miyim?</strong>
+     <p>Evet, yeni y&#246;ntemle ilgili gerekli belgeleri g&#246;ndermeniz gerekebilir.</p>
+     </li>
+     <li><strong>Neden istediğim para &#231;ekme y&#246;ntemini kullanamıyorum?</strong>
+     <p>Kara para &#246;nleme ve para aklama yasaları gereği olarak, finansal işlemlerin g&#252;venliği i&#231;in ancak &#246;deme yaptığınız y&#246;ntemle para &#231;ekebilirsiniz.</p>
+     </li>
+     <li><strong>Para &#231;ekme işlemi i&#231;in kesinti yapılır mı?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+     <p>Se&#231;ilen &#246;deme y&#246;ntemine g&#246;re kesintiler farklılık g&#246;sterebilir. Canlı destek hattından kesinti bilgilerine ulaşılabilirsiniz. Bankanız tarafından kendi hizmetleri i&#231;in kesinti yapılabilir.</p>
+     </li>
+     <li><strong>Para &#231;ekme işlemi ne kadar s&#252;rer?</strong>
+     <p>T&#252;m se&#231;enekler ile para &#231;ekme işlemleriniz haftasonlarıda dahil olmak &#252;zere 6 saat i&#231;erisinde tamamlanır. İşlem s&#252;resi para &#231;ekme y&#246;ntemine bağlıdır.<br />
+     </p>
+     </li>
+     <li><strong>Kartımla hemen para yatırabildiğim halde kartıma para &#231;ekmem neden g&#252;nler s&#252;r&#252;yor?</strong>
+     <p>Para &#231;ekme talebiniz yapıldıktan sonra g&#252;venlik ama&#231;lı bir dizi kontrol işlemi yapılır ve bu kontroller para &#231;ekme talebinizi 24 saate kadar geciktirebilir. Bu kontroller m&#252;şteri hesaplarınınn g&#252;venliği i&#231;indir. Diğer t&#252;m gecikmeler &#246;deme sağlayıcılardan kaynaklanan gecikmelerdir.</p>
+     </li>
+     <li>
+     <p><strong>Para &#231;ekme işlemi yaptığım kart iptal edilirse veya son kullanma tarihi ge&#231;erse ne olur?</strong></p>
+     <p>Kart değişimi ile ilgili ge&#231;erli nedenlerinizi bildirmeli ve gerekli kanıtları sunmalısınız. Yeni tanımlanan kart [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] hesabınıza kaydedilir.</p>
+     </li>
+     <li>
+     <p><strong>Hesabımdan başka birine para g&#246;nderebilir miyim?</strong></p>
+     <p>Hayır, bu t&#252;r işlemler &#252;&#231;&#252;nc&#252; şahıs işlemleri olarak kabul edilir ve hi&#231;bir koşulda kabul edilmez.</p>
+     </li>
+     <li>
+     <p><strong>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] para &#231;ekme politikası nedir?</strong></p>
+     <p>Para &#231;ekmeniz i&#231;in hesabınız ge&#231;erli olmalı ve minimum para &#231;ekme miktarı kadar hesabınızda para olmalıdır. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] bonusları ile ilgili bazı para &#231;ekme kısıtlamaları uygulanabilir. Para &#231;ekme talimatı verdiğinizde eğer hesabınızda mevcut bir bonus var ise bonus şartlarını tamamladığınıza emin olunuz.</p>
+     </li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

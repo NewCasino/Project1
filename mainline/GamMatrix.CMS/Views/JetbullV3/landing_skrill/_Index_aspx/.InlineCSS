@@ -1,0 +1,26 @@
+﻿@font-face { font-family: 'OpenSansBold'; src: url("//cdn.everymatrix.com/JetbullV2/fonts/opensans-condbold-webfont.eot"); src: url("//cdn.everymatrix.com/JetbullV2/fonts/opensans-condbold-webfont.eot?#iefix") format("embedded-opentype"), url("//cdn.everymatrix.com/JetbullV2/fonts/opensans-condbold-webfont.woff") format("woff"), url("//cdn.everymatrix.com/JetbullV2/fonts/opensans-condbold-webfont.ttf") format("truetype"), url("//cdn.everymatrix.com/JetbullV2/fonts/opensans-condbold-webfont.svg#open_sans_condensedbold") format("svg");}	
+@font-face { font-family: 'OpenSansLight'; src: url("//cdn.everymatrix.com/JetbullV2/fonts/opensans-condlight-webfont.eot"); src: url("//cdn.everymatrix.com/JetbullV2/fonts/opensans-condlight-webfont.eot?#iefix") format("embedded-opentype"), url("//cdn.everymatrix.com/JetbullV2/fonts/opensans-condlight-webfont.woff") format("woff"), url("//cdn.everymatrix.com/JetbullV2/fonts/opensans-condlight-webfont.ttf") format("truetype"), url("//cdn.everymatrix.com/JetbullV2/fonts/opensans-condlight-webfont.svg#open_sans_condensed_lightRg") format("svg");}
+	html, body{margin:0; padding:0;background:none no-repeat 0 0 transparent;}
+		#container{background:url(//cdn.everymatrix.com/JetbullV2/_files/landing/headerbg.png) repeat-x center 0 #fffefe;}
+		.header{display:block;width:100%;height:493px;background:url(//cdn.everymatrix.com/JetbullV2/_files/landing/Skrill_landing.png) no-repeat center 0 transparent;}
+		.header, .main_content, #footer{display:block;min-width:1100px;margin:0 auto; padding:0;}
+		.header_content{display:block;max-width:1100px;margin:0 auto;padding:20px 80px 0;}
+		.headerlogo{display:block;width:100%; height:80px; margin:20px auto 30px;}
+		.skrilllogo{float:right;margin-right: 60px;}
+		.header_info{clear:both;display:block;padding-top:20px;text-align:left;}
+		.header_title{font-family:'OpenSansBold';font-size:54px;font-weight:bold;line-height:1em;color:#fefefe;width:70%;margin:20px 0;}
+		.header_text{padding-top:30px;}
+		.header_text p{font-family:'OpenSansLight';font-size:24px;font-weight: normal;line-height: 1em;color: #fefefe;float:left;width:70%;}
+		.landing_buttons{display: block;float: right; margin-right:50px;} 
+		.landing_button{display:block;text-align:center;text-decoration:none;margin:0 auto;border-radius:5px;background: #f6c40d; background: -moz-linear-gradient(top,  #f0ca1f 0%, #f6c40d 50%, #e2a400 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0ca1f), color-stop(50%,#f6c40d), color-stop(100%,#e2a400)); background: -webkit-linear-gradient(top,  #f0ca1f 0%,#f6c40d 50%,#e2a400 100%); background: -o-linear-gradient(top,  #f0ca1f 0%,#f6c40d 50%,#e2a400 100%); background: -ms-linear-gradient(top,  #f0ca1f 0%,#f6c40d 50%,#e2a400 100%); background: linear-gradient(to bottom,  #f0ca1f 0%,#f6c40d 50%,#e2a400 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0ca1f', endColorstr='#e2a400',GradientType=0 ); }
+		.landing_button span{color:#8a2067;font-family:'OpenSansBold';font-size:32px;font-weight:normal;padding:0 40px;line-height:1.5em;}
+
+		.main_description{display:block;max-width:1100px;font-family:'OpenSansBold';font-size: 18px; font-weight: normal; color:#525050;text-align: center;margin:20px auto;}
+		.landing_steps{display:block;margin:20px auto; max-width:1100px;}
+		.landing_step{ display:block; float:left; width:30%; height:180px; margin:0 1.5%; border-radius:15px; background: #f2ce1e; background: -moz-linear-gradient(top,  #f2ce1e 0%, #f5b929 50%, #fba336 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2ce1e), color-stop(50%,#f5b929), color-stop(100%,#fba336)); background: -webkit-linear-gradient(top,  #f2ce1e 0%,#f5b929 50%,#fba336 100%); background: -o-linear-gradient(top,  #f2ce1e 0%,#f5b929 50%,#fba336 100%); background: -ms-linear-gradient(top,  #f2ce1e 0%,#f5b929 50%,#fba336 100%); background: linear-gradient(to bottom,  #f2ce1e 0%,#f5b929 50%,#fba336 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2ce1e', endColorstr='#fba336',GradientType=0 ); }
+		.landing_step_title{color:#8a2067;font-family:'OpenSansBold'; font-size: 36px; font-weight: normal; line-height: 1em; height:60px; margin:0 20px;padding:20px 0;}
+		.landing_step_desc{margin:0 20px; color:#8a2067;font-family:'OpenSansBold'; font-size:14px; font-weight: normal;}
+		.main_bottom{display:block; text-align: center;}
+		.main_bottom a{color:#eea322;font-family:'OpenSansBold';font-size:14px; font-weight:normal;}
+		#footer{display:block;margin-top:20px;text-align: center;}
+		.footer_additional{padding:0 100px;}

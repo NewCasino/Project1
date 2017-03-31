@@ -1,0 +1,1 @@
+﻿Нажмите <a href="/Special/DotPaySms" target="_blank">here</a> купить монеты

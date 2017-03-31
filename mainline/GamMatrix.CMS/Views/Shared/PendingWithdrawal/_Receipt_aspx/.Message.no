@@ -1,0 +1,1 @@
+﻿{0:N2} {1} er trukket tilbake til {2} konto

@@ -1,0 +1,1 @@
+Da boste svoje prijatelje lahko povabili, da se pridružijo portalu MamaPortal, jim preko e-poštnega sporočila, neposrednega sporočila, Skypa idr. pošljite spodnjo povezavo:

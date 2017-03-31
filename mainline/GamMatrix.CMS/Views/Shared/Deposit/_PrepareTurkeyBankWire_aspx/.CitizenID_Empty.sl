@@ -1,0 +1,1 @@
+Vnesite številko osebnega dokumenta.

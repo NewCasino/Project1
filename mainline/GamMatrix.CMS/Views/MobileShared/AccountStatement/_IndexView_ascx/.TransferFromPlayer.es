@@ -1,0 +1,1 @@
+﻿Transferencia del jugador {0}

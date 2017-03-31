@@ -1,0 +1,1 @@
+﻿Max.allowed attachment size ({0} bytes) exceeded

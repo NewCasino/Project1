@@ -1,0 +1,7 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>Vielen Dank für Deine Anmeldung bei [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], Dein Konto ($BENUTZERNAME$) wurde erstellt und Du musst es noch aktivieren bevor Du es benutzen kannst.</p>
+<p>um Dein Konto zu aktivieren, bitte klicke auf den Link anbei, wenn nichts passiert, dann versuche den Link bitte in Deinen Browser zu kopieren.</p>
+<p><a href="$ACTIVELINK$">$ACTIVLINK$</a></p>
+<p>wenn Du DIch nicht angemeldet hast bei [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], dann bitte ignoriere diese Email, oder informiere <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Danke fürs Anmelden bei [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>Beste Grüsse,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

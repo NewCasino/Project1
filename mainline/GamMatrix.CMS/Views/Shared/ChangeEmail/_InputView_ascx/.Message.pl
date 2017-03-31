@@ -1,0 +1,1 @@
+Wypełnij poniższe pole, aby zmienić swój adres e-mail. Po przesłaniu, na nowy adres e-mail zostanie wysłana wiadomość weryfikacyjna. Musisz kliknąć znajdujące się w niej łącze, aby zweryfikować nowe konto.

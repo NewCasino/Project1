@@ -1,0 +1,1 @@
+﻿Částka není správná. Zkuste prosím znova. Pokud bude problém přetrvávat kontaktujte zákaznickou podporu na service@click2pay.com.

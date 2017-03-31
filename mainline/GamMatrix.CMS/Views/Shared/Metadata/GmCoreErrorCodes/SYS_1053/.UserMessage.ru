@@ -1,0 +1,3 @@
+﻿
+		Операция не может быть завершена, возможно, из-за проблемы с соединением. Нажмите <a style="font-weight: bolder; text-decoration: none;" href="javascript:self.location.reload();">here</a> для повторения попытки. <br /><br /> Если проблема не исчезнет, пожалуйста, обратитесь в службу поддержки Paysafecard <a style="font-weight: bolder; text-decoration: none;" href="http://www.paysafecard.com/uk/personal/contact-us/" target="_blank">support</a> либо перейдите по этой ссылке <a style="font-weight: bolder; text-decoration: none;" href="https://customer.cc.at.paysafecard.com/psccustomer/GetWelcomePanelServlet?language=en" target="_blank">card’s balance page</a>, чтобы узнать, когда зарезервированная сумма будет снова доступна.
+	

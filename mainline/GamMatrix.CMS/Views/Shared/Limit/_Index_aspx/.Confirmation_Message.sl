@@ -1,0 +1,1 @@
+Ali ste prepričani, da želite odstraniti limit?

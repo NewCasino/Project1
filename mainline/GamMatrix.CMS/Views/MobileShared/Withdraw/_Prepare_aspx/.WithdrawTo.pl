@@ -1,0 +1,1 @@
+﻿Wypłata do

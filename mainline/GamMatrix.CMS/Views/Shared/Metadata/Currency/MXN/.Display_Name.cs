@@ -1,0 +1,1 @@
+﻿Mexické peso

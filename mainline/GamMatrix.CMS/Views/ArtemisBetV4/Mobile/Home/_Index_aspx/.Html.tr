@@ -1,0 +1,61 @@
+﻿<div class="Breadcrumbs MobilePageBreadcrumbs hidden">
+<a href="/" class="BreadcrumbLink HomeBrLink" title="Go to Artemisbet Homepage"> 
+<span class="BreadcrumbLinkTitle">Homepage</span> </a>
+<a  class="BreadcrumbLink CurrentBrLink" title="Artemisbet Mobile Page ">
+<span class="BreadcrumbLinkTitle">Artemis Mobil  </span> </a>
+
+<a href="#" class="BreadcrumbLink BackBrLink"> 
+<span class="BreadcrumbLinkTitle"> < back </span> </a>
+</div>
+
+<div class="MobileTitle"> 
+<h1 class="MobilePageHeader"> Artemis Mobil </h1> 
+</div>
+
+
+<div class="MobilePageTitle">
+	<h1 class="MobileSubtitle">
+<span class="MobileSubtitleText"> ARTEMİSBET İLE MOBİL'E GEÇİN </span>
+<a href="http://m.artemisbet70.com/" class="Button MobileSubtitleLink">
+<span class="ButtonText"> Mobil versiyon </span>
+</a>
+
+</h1>
+		<p class="MobilePageTopParagraph"><a class="MobileParLink" href="http://m.artemisbet70.com/">m.artemisbet70.com</a> ile mobil cihazınızla spor bahislerinin ve casinonun tadını çıkarmanın yanı sıra, hesabınıza para yükleyebilir ve çekim talimatı verebilir ve bonuslarınızı kontrol edebilirsiniz.</p>
+</div>
+<div class="MobilePagesBox">
+  <div class="MobilePagesContent">
+      <ul class="MobilePagesList">
+<li class="MobilePageExample MPEx1"> <div class="MPExBox"></div> </li>
+<li class="MobilePageExample MPEx2"> <div class="MPExBox"></div> </li>
+<li class="MobilePageExample MPEx3"> <div class="MPExBox"></div> </li>
+<li class="MobilePageExample MPEx4"> <div class="MPExBox"></div> </li>
+<li class="MobilePageExample MPEx5"> <div class="MPExBox"></div> </li>
+<li class="MobilePageExample MPEx6"> <div class="MPExBox"></div> </li>
+<li class="MobilePageExample MPEx7"> <div class="MPExBox"></div> </li>
+<li class="MobilePageExample MPEx8"> <div class="MPExBox"></div> </li>
+<li class="MobilePageExample MPEx9"> <div class="MPExBox"></div> </li>
+<li class="MobilePageExample MPEx10"> <div class="MPExBox"></div> </li>
+</ul>
+  </div>
+</div>
+<div class="MobileBigShow hidden">Göster</div>
+<ul class="MobileDescription Container">
+	<li class="MobileItem">
+		<h2 class="MobileSubtitle">Mobil Casino</h2>
+		<p class="MobileItemParagraph">Aynen web sitemizde olduğu gibi, en kaliteli sanal casino oyunlarını mobil cihazınız için optimize edilmiş şekliyle oynayabilir ve hareket halindeyken de eğlencenin tadını çıkarabilirsiniz.</p>
+	</li>
+<li class="MobileItem">
+<a class="Button MobileRoundLink GotoMobileLink" href="http://m.artemisbet70.com/">
+<span class="ButtonIcon MobileRoundBTNIcon">&nbsp;</span>
+<span class="ButtonText">Go <br /> Mobil</span>
+</a>
+</li>
+	<li class="MobileItem">
+		<h2 class="MobileSubtitle">Mobil Spor Bahisleri</h2>
+		<p class="MobileItemParagraph"> Tüm marketler ve oranlar PC'nizdeki ile aynı formatta optimize edilmiş halde mobil cihanızda ve parmaklarınızın ucunda. Nerede olursanız olun, Artemisbet mobil sitesi ile spor bahisleri sadece bir dokunuş uzakta.</p>
+	</li>
+</ul>
+<a href="http://m.artemisbet70.com/" class="MobileLink PhoneBtnLink hidden" id="PhoneBtnLink">
+	<img class="MobileBigcell" src="//cdn.everymatrix.com/ArtemisBetBeta/img/mobile-bigcell.png" width="600" height="346" alt="Mobile" />
+</a>

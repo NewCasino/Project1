@@ -1,0 +1,1 @@
+﻿Schovat plné tabulky

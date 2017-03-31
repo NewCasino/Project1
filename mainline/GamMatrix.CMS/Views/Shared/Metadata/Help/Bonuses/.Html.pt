@@ -1,0 +1,18 @@
+﻿<ol>
+  <li><strong>Onde posso consultar as promoções disponíveis?</strong>
+    <p>Consulte as ofertas atuais na barra de promoções da [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].</p>
+  </li>
+  <li><strong>Posso jogar todos os jogos quando reclamar um bónus, ou existem algumas restrições?</strong>
+    <p>Por favor, consulte os termos e condições dos bónus ou em caso de dúvida, contacte o Serviço de Apoio ao Cliente da [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].</p>
+  </li>
+  <li><strong>Como posso verificar se cumpri os requisitos mínmos de aposta da promoção?</strong>
+    <p>Poderá consultar a sua progressão muito fácilmente, basta clicar em "Minha Conta", depois clicar em "Minha Conta de Desportos", situado no lado esquerdo, seguido de Promoções ativas.</p>
+  </li>
+  <li><strong>Tenho acesso a todas as promoções?</strong>
+    <p>Algumas promoções estarão disponíveis apenas para alguns paises e métodos de pagamentos específicos. Poderão também haver algumas restrições devido a contas interligadas e abuso de promoções da (/Metadata/Settings.Operator_DisplayName)]. Para mais informações,l por favor contacte o Serviço de Apoio ao Cliente da [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] em:<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+  </li>
+</ol>
+<p style="text-align:right">
+  <button type="button" onclick="window.print(); return false" class="button"> <span class="button_Right"> <span class="button_Left"> <span class="button_Center"> <span>Print</span> </span> </span> </span> </button>
+</p>
+

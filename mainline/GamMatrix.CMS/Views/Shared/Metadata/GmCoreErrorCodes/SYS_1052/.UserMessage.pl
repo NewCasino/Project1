@@ -1,0 +1,1 @@
+﻿Nie można było rozpocząć transakcji z powodu problemów z połączeniem. jeśli problem będzie się powtarzać, prosimy o kontakt z naszym działem pomocy.

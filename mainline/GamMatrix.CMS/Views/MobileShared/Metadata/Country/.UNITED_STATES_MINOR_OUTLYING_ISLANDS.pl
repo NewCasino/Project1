@@ -1,0 +1,1 @@
+﻿Stany Zjednoczone Dalekie Wyspy Mniejsze

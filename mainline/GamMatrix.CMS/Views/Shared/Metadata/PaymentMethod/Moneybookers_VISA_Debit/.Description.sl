@@ -1,0 +1,1 @@
+Denar lahko s svoje debetne kartice Visa/Visa Delta preko storitve Skrill hitro položite na svoj igralni račun. Preprosto registrirajte svojo kartico na spletnem mestu Skrill; ko bo vaša kreditna kartica preverjena, bodo sredstva varno in takoj nakazana na vaš igralni račun.

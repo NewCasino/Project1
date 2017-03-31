@@ -1,0 +1,1 @@
+Twój kraj nie jest obsługiwany, spróbuj użyć innej metody

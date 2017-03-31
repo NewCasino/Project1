@@ -1,0 +1,1 @@
+﻿Odmítnutí oddělením risku kvůli kontrole IP země. Pro další pomoc kontaktujte prosím service@click2pay.com

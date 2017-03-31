@@ -1,0 +1,1 @@
+Naslednjih 6 mesecev

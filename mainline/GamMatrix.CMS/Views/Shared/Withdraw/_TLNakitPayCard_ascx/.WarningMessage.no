@@ -1,0 +1,2 @@
+﻿Vær oppmerksom på at TLNakit bare aksepterer kredittbeløpet med null-desimaler i tyrkiske lire. Pass på at du ikke skriver et beløp med ikke-null desimaler.
+

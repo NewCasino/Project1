@@ -1,0 +1,1 @@
+Knjiženje v dobro ni uspelo

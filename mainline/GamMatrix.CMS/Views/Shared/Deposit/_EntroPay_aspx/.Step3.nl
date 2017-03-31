@@ -1,0 +1,1 @@
+﻿Voltooi uw storting op {0} < br / > direct via EntroPay

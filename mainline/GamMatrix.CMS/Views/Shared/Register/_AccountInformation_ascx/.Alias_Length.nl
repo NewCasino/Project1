@@ -1,0 +1,1 @@
+﻿Uw Bluff21 alias moet tussen 5 en 12 karakters zijn

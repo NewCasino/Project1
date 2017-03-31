@@ -1,0 +1,1 @@
+Bonusen har inte aktiverats

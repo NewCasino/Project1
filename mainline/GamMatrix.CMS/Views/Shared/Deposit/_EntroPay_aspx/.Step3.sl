@@ -1,0 +1,1 @@
+Z EntroPay lahko polog na {0} <br />opravite v trenutku

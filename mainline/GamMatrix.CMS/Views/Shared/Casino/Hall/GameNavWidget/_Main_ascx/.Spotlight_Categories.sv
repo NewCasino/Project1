@@ -1,0 +1,1 @@
+Klicka för att visa spel från olika kategorier.

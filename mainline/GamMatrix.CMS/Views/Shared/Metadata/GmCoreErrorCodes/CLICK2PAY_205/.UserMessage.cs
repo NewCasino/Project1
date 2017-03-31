@@ -1,0 +1,1 @@
+﻿Vyskytla se technická chyba. Kontaktujte zákaznickou podporu o pomoc.

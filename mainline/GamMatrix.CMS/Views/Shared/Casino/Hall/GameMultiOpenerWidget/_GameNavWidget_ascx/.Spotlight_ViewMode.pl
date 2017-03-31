@@ -1,0 +1,1 @@
+Przełączaj między miniaturami i listą.

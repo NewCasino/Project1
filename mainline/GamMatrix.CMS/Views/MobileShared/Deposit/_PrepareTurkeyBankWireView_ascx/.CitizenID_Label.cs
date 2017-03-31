@@ -1,0 +1,1 @@
+﻿Občanské číslo

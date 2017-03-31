@@ -1,0 +1,1 @@
+﻿Bezpieczny identyfikator musi zawierać co najmniej 6 znaków

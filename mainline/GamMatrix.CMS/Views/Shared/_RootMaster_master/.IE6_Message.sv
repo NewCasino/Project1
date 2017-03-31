@@ -1,0 +1,1 @@
+Du använder Internet Explorer 6, vissa funktioner kanske inte fungerar, varför vi rekommenderar att du uppgraderar till en senare version av Internet Explorer för att förbättra din upplevelse.

@@ -1,0 +1,1 @@
+Neveljavna številka kartice

@@ -1,0 +1,1 @@
+Przepraszamy, łącze straciło ważność lub jest nieprawidłowe.

@@ -1,0 +1,1 @@
+Znesek je izven veljavnega razpona.

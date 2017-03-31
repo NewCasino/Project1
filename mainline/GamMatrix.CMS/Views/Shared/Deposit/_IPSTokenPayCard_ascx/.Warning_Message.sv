@@ -1,0 +1,1 @@
+Kontrollera att valutan och beloppet ovan överensstämmer med valutan och beloppet på din IPS-voucher.

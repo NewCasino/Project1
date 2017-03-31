@@ -1,0 +1,1 @@
+Potrditi morate, da sprejemate pogoje in določila.

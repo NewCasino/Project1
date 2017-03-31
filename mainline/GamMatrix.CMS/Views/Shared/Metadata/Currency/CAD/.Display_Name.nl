@@ -1,0 +1,1 @@
+﻿Canadese dollar

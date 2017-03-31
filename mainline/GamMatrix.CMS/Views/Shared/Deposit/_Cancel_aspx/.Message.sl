@@ -1,0 +1,1 @@
+Preklicali ste transakcijo.

@@ -1,0 +1,1 @@
+﻿Pago por teléfono (Portugal)

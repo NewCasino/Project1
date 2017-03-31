@@ -1,0 +1,1 @@
+﻿Schovat zavřené tabulky

@@ -1,0 +1,54 @@
+﻿<ol>
+        
+
+</li>
+
+
+<li><strong>Hvor for er spillene på Anna Casino?</strong>
+<p>Vi vil gerne forsikre dig om, at de algoritmer vi bruger til at generere resultaterne på vores hjemmeside, er helt og aldeles tilfældige. Vores spil er udviklet af Sun Microsystem's Secure Random system. Vores random number generator og blandingen af kort er designet af en matematikprofessor. Softwaren vi bruger til at skabe tilfældige resultater er blevet grundigt testet uden at organisationerne der har foretaget disse tests, har fundet nogen forudsigelighed og resultaterne er godkendt af eCOGRA.</p>
+</li>
+
+<li><strong>Hvad sker der hvis spillet bliver afbrudt midt i en runde?</strong>
+<p>Spillets fremgang er konsistent og automatisk gemt i vores database. Denne sikrer, at punktet som spillet var nået til kan genoptages, når forbindelsen til spillet genoprettes - uanset hvordan fejlen er opstået.</p>
+</li>
+
+<li><strong>Hvor mange sæt spillekort bruges der i Blackjack spillene?</strong>
+<p>4 og 6 sæt spillekort bliver brugt i vores Blackjack spil.</p>
+</li>
+
+<li><strong>Hvor kan jeg finde detaljeret information omkring jeres spil?</strong>
+<p>Alle vores spil har en "Spilleregler" side, som kan hentes frem fra spillets egen side.</p>
+</li>
+
+<li><strong>Hvad er den gennemsnitlige tilbagebetalingsprocent til spillerne på jeres hjemmeside?</strong>
+<p>Udbetalingsprocenten varierer fra spil til spil, men den teoretiske tilbagebetaling ligger generelt helt oppe omkring 97%. Udbetalingsprocenten for alle spil er kodet ind i spillet fra spilleverandøren og vi har ikke selv mulighed for, at justere på denne.</p>
+</li>
+
+
+<li><strong>Kan jeg prøve spillene gratis?</strong>
+<p>Ja, du kan prøve alle spil gratis ved at vælge "Spil for sjov".</p>
+</li>
+
+
+<li><strong>Kan jeg fjerne en indsats efter at have placeret denne på bordet?</strong>
+<p>Før hver enkelt spil er startet, kan dette være muligt, men efter spillet er startet kan du ikke ændre indsatsniveauet.</p>
+</li>
+
+
+<li><strong>Hvad sker der hvis jeg mister forbindelse under en spillerunde?</strong>
+<p>Spillet fortsætter fra den situation som det var i, da forbindelsen blev tabt, når du åbner spillet igen. Automater der var i gang med at dreje, da forbindelsen blev tabt, vil færdiggøre spillerunden, selvom forbindelsen tabes før det fulde resultatet er set af spilleren.</p>
+</li>
+
+    </ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

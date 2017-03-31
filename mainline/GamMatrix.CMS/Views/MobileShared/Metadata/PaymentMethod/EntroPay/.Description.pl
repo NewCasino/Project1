@@ -1,0 +1,1 @@
+﻿EntroPay jest przedpłaconą wirtualną kartą VISA, z której można korzystać online wszędzie, gdzie VISA jest akceptowana. Na kartę VISA EnroPay można wpłacić pieniądze za pomocą jakiejkolwiek karty debetowej, kredytowej lub transferu bankowego. 

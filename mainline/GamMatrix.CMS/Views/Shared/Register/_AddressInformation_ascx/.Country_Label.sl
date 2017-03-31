@@ -1,0 +1,1 @@
+Država stalnega prebivališča

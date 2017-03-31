@@ -1,0 +1,1 @@
+﻿Retirada rechazada. La cantidad supera el límite permitido.

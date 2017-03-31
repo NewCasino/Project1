@@ -1,0 +1,1 @@
+Ogled mize

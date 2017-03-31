@@ -1,0 +1,1 @@
+Avsändarens TC nummer kan inte vara tomt

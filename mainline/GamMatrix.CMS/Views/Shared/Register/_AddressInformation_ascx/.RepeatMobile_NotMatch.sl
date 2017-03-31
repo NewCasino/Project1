@@ -1,0 +1,1 @@
+Številka mobilnega telefona se ne ujema

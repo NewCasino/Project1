@@ -1,0 +1,49 @@
+<div class="Slider LiveCasinoSlider" >
+    <ul data-slide="Default" class="SliderContainer LiveCasinoSliderContainer" >
+        <li id="LCSlide-Default" data-bg="" data-state="active" class="SliderItem LiveCasinoSlide LCSlide-Default Active">
+            <div class="SliderContent">
+                <h3 class="LCSlideTitle SlideTitle">
+                    <span class="hidable SlideDefaultTitle">アルテミスベット</span>
+                    <span class="CategorySlideTitle">ライブカジノ</span>
+                <span class="SlideWelcome">へようこそ</span>
+                    </h3>
+                <span class="CasinoCoin LeftCoin">&nbsp;</span>
+                <span class="CasinoCoin RightCoin">&nbsp;</span>
+            </div>
+        </li>
+        <li id="LCSlide-ROULETTE" data-bg="" data-state="hidden" class="SliderItem LiveCasinoSlide LCSlide-Roulette">
+            <div class="SliderContent">
+                <h3 class="LCSlideTitle SlideTitle">
+                    <span class="CategorySlideTitle">ルーレット</span>
+                    <span class="SlideWelcome">へようこそ</span>
+                </h3>
+            </div>
+        </li>
+        <li id="LCSlide-BLACKJACK" data-bg="" data-state="hidden" class="SliderItem LiveCasinoSlide LCSlide-Blackjack">
+            <div class="SliderContent">
+                <h3 class="LCSlideTitle SlideTitle">                    
+                    <span class="CategorySlideTitle">ブラックジャック</span>
+                    <span class="SlideWelcome">へようこそ</span>
+                </h3>
+            </div>
+        </li>
+        <li id="LCSlide-BACCARAT" data-bg="" data-state="hidden" class="SliderItem LiveCasinoSlide LCSlide-Baccarat">
+            <div class="SliderContent">
+                <h3 class="LCSlideTitle SlideTitle">                    
+                    <span class="CategorySlideTitle">バカラ</span>
+                    <span class="SlideWelcome">へようこそ</span>
+                </h3>
+            </div>
+        </li>
+        <li id="LCSlide-HOLDEM" data-bg="" data-state="hidden" class="SliderItem LiveCasinoSlide LCSlide-Holdem">
+            <div class="SliderContent">
+                <h3 class="LCSlideTitle SlideTitle">                   
+                    <span class="CategorySlideTitle">カジノ <br>ホールデム</span>
+                    <span class="SlideWelcome">へようこそ</span>
+                </h3>
+                <span class="CasinoCoin LeftCoin2">&nbsp;</span>
+                <span class="CasinoCoin RightCard">&nbsp;</span>
+            </div>
+        </li>
+    </ul>
+</div>

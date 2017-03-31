@@ -1,0 +1,2 @@
+﻿<h3>Velkommen til v&aring;re lotterier!</h3>
+<p>V&aring;re hyggelige vertinner gir deg en unik lotteri-opplevelse uansett om du foretrekker<br />5, 6 eller 7-ballsvarianten.</p>

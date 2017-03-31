@@ -1,0 +1,1 @@
+Tillåt inte mig att logga in under de nästkommande 6 månaderna

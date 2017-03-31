@@ -1,0 +1,13 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Din indbetaling er blevet gennemført.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Klik venligst på "ajourfør" knappen(IKKE web browser ajourfør knappen) på sidehovedet for at ajourføre saldoen.</strong>
+  </span>
+</p>
+<p>
+  Hvis du har spørgsmål kontakt da venligst <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team
+</p>

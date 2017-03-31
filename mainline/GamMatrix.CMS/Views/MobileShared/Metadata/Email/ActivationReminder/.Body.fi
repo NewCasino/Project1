@@ -1,0 +1,18 @@
+﻿<p>Hyvä&#160; $USERNAME$,<br />
+<br />
+Kiitos kun rekisteröidyit [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+<br />
+<br />
+Turvallisuutesi vuoksi, tahdomme muistuttaa sinua aktivoimaan shköpostiosoitteesi, jotta tilisi pysyy aktiivisena ja voit nauttia tarjouksistamme [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].<br />
+<br />
+Klikkaa linkkiä alta, jos linkki ei toimi, kopioi linkki ja liitä se selaimellesi.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+Jos et ole rekisteröitynyt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+, poista tämä viesti tai tiedota <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<p><br />
+Ystävällisin terveisin,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Asiakaspalvelutiimi<br />
+

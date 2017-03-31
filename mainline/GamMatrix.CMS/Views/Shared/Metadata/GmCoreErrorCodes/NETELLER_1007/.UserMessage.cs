@@ -1,0 +1,1 @@
+﻿ID účtu nebo bezpečnostní ID které jste vložili není platné. Prosím vložte informace o svém současném účtě.

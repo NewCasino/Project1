@@ -1,0 +1,26 @@
+﻿<ol>
+     <li><strong>Ne t&#252;r bonuslar/promosyonlar olduğunu nerden g&#246;rebilirim?</strong>
+     <p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] promosyonlar sekmesinde mevcut olan b&#252;t&#252;n bonus ve promosyonları g&#246;rebilirsiniz.</p>
+     </li>
+     <li><strong>Bonus aldığımda istediğim oyunu oynayabilir miyim, veya bir kısıtlama var mı?</strong>
+     <p>Her bonusun kendine &#246;zel kural ve şartları olabilir. L&#252;tfen bonus kural ve kullanım şartlarınız okuyunuz, anlaşılmayan durumlarda&nbsp; [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] m&#252;şteri hizmetlerine başvurunuz.</p>
+     </li>
+     <li><strong>Bonuslarla ilgili gereklilikleri sağladığımı nasıl g&#246;rebilirim?</strong>
+     <p>Hesabım b&#246;l&#252;m&#252;nde bahis hesabınızı tıklayarak aktif promosyonları g&#246;rebilirsiniz.</p>
+     </li>
+     <li><strong>Neden bazı promosyonları alamıyorum?</strong>
+     <p>Bazı promosyonlar bazı &#252;lkeler veya bazı para yatırma se&#231;enekleri i&#231;in ge&#231;erli olabilir. Promosyonların istismar edilmesi ile ilgili bazı kısıtlamalar olabilir. Bilgi i&#231;in [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] m&#252;şteri hizmetlerine <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> başvurunuz.</p>
+     </li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

@@ -1,0 +1,10 @@
+﻿<p>Dear $USERNAME$,<br /> </p>
+<br />
+이 이메일은 귀하의 계정이 이제 스스로 배제 되었음을 알려 드리고자 함 입니다.
+<br /><br />
+귀하는 이제 더 이상 귀하의 계정에 로그인 하실 수 없을 것입니다.
+<br /><br />
+의문사항이 있으시면 언제든 연락 주시기 바랍니다 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<br /><br />
+<p>Kind Regards</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team</p>

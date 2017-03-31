@@ -1,0 +1,1 @@
+Próbowałeś dokonać nieautoryzowanej operacji.

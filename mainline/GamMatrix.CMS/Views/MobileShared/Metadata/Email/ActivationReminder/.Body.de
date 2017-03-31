@@ -1,0 +1,20 @@
+﻿<p>Liebe(r)&#160; $USERNAME$,<br />
+<br />
+Danke für Dein Anmeldung bei [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+<br />
+<br />
+Für Deine einege Sicherheit wollen wir Dich daran erinnern, Deine Email zu überprüfen, damit Dein Konto aktive erhalten bleibt und Du keine unseren interessanten und attraktiven Angeboten verpassen wirst[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].<br />
+<br />
+Bitte klicke auf den Link anbei und falls er nicht reagiert, dann kopiere ihn bitte in Deinen Browser.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVLINK$</a></p>
+<br />
+Falls Du nicht angemeldet bist bei [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+, dann bitte ignoriere diese Email, oder informiere <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+Bitte vervollständige diese Email überprüfung sofort, um zu verhindern, dass Dein Konto zu Deinem eigenen Schutz blockiert wird.
+<p><br />
+Beste Grüsse,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Customer Service Team<br />
+

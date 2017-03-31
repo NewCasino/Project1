@@ -1,0 +1,13 @@
+﻿<style type="text/css">
+.CprAndIntended-Overlay{display:none; position: fixed; top: 0; left: 0; z-index: 999998; background: #000; background:  rgba(0,0,0,0.8); filter: alpha(opacity=80);}
+.CprAndIntended-Wrap{display:block; width:450px; background: #222; border:1px solid #999999; position: fixed; top: 200px; left: 0; z-index: 999999; }
+.Close{background: rgba(0, 0, 0, 0) url("/js/jquery/css/x.png") no-repeat scroll 0 0;
+    cursor: pointer; display: inline; height: 29px; position: absolute; right: -16px; top: -15px; width: 25px; z-index: 3200;}
+.CprAndIntended-Box{display: block; margin: 40px auto; width: 70%;}
+.CprAndIntended_Desc{margin-bottom:20px;color:#fff;}
+.extra-desc{margin:10px 0;color:#fff;line-height:20px;}
+#fldCPRNumber select, #fldCPRNumber input {width: 23%; }
+#fldIntendedVolume select {width:98%;}
+.CPRDOB{display:none;}
+.CprAndIntendedButton.button{margin: 20px 0;padding: 0.5em 1em;border-radius:0.25em;font-size: 1em;}
+</style>

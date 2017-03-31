@@ -1,0 +1,7 @@
+﻿Acesta este un email automat, va rugam nu raspundeti.    
+<hr />
+<p>Buna ziua $FIRSTNAME$,</p>
+<p>Contul dumneavoastra a fost blocat din cauza prea multor incercari nereusite de logare si va fi deblocat automat peste 15 minute.</p>
+<p>Daca ati uitat parola si aveti nevoie sa o schimbati, va rugam folositi "Ati uitat parola" link pentru site.</p>
+<p>Pentru informatii suplimentare contactati <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Cu respect, <br /> [Metadata:value(/Metadata/Settings.Operator_DisplayName)] Serviciul clienti</p>

@@ -1,0 +1,1 @@
+Det här spelet kan inte spelas i helskärmsläge innan du har loggat in!

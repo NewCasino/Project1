@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <RouteName>dd24e731-55b8-445a-a583-21d0ab4cc834</RouteName>
+  <Type>Page</Type>
+  <Controller>GamMatrix.CMS.Controllers.BetAdonisMobile.MobileSendEmailController</Controller>
+  <IsInherited>False</IsInherited>
+</root>

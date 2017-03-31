@@ -1,0 +1,1 @@
+Sofortbanking är ett lättanvändbart direktbetalningutförande med samma höga säkerhetsstandard som Internetbanken.

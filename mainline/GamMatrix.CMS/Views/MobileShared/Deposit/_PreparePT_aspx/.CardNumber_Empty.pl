@@ -1,0 +1,1 @@
+﻿Numer karty jest wymagany

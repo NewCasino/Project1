@@ -1,0 +1,12 @@
+﻿<em>Questa e-mail è stata inviata sul sito web alla pagina "Contattaci"dal cliente.<br />NON rispondere a questa e-mail!Puoi trovare l'e-mail del cliente qui di seguito.</em>
+<hr/>
+<ul>
+<li><strong>E-mail del cliente</strong>:$EMAIL$</li>
+<li><strong>Nome del cliente</strong>:$NAME$</li>
+<li><strong>Soggetto</strong>:$SUBJECT$</li>
+<li><strong>User ID</strong>:$USERID$</li>
+<li><strong>Username</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>
+

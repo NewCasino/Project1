@@ -1,0 +1,14 @@
+﻿<h1 class="PageTitle MobilePageTitle">Jetbull Mobile</h1>
+[Metadata:value(.MobilePageDownload)]
+<ul class="MobileDescription Container">
+	<li class="MobileItem" style="display:none;">
+		<h2 class="MobileSubtitle">Go mobile with Jetbull</h2>
+		<div class="MobileParagraph"><a href="http://m.jetbull.com/">m.jetbull.com</a> test</div>
+	</li>
+	<li class="MobileItem">
+		<h2 class="MobileSubtitle">Mobile Casino</h2>
+        <div class="MobileItem_Image"><img src="//cdn.everymatrix.com/JetbullV2/_files/mobile/mobile_card.png" alt="Mobile Casino" /></div>
+		<div class="MobileParagraph"><p style="margin-left:60px;">test <br /><br /><b>Touch 'n win!</b></p></div>
+	</li>
+TESTETSTETS
+</ul>

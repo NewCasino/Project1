@@ -1,0 +1,5 @@
+﻿<p>Tere $FIRSTNAME$,</p>
+<p>Oled soovinud, et Sinu [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kontakt-eposti aadresi muudetaks.</p><p>Turvalisuse põhjustel me tahame Sinu uut kontaktaadressi kinnitada. Palume selleks vajutada alloleval lingil: </p><p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Kui see link ei tööta, palun kopeeri see otse brauseri aadressiväljale.</p>
+<p>Kui Sa ei ole avaldanud soovi oma e-posti aadressi muuta, palume seda e-kirja ignoreerida või võtta meiega ühendust <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p><p>Parimate soovidega, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Klienditeenindus</p>
+

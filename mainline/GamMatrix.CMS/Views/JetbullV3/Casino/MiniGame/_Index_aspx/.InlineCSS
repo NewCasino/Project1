@@ -1,0 +1,16 @@
+﻿html, body{ height: auto}
+.GameArea { position: relative; }
+#GameCover { cursor:pointer; min-height:100px;}
+#GameCover img{ width:100%; height:100%;}
+
+.GameSelector{ background-color: #cccccc;}
+.SelectorLable{ float:left; width:45%; color:#000; font-size:1.25em; line-height:2em;}
+.FilterSelect{ width:55%; margin:0;}
+.Box.Minigame{ background: none repeat scroll 0 0 rgba(247, 214, 157, 0.51)}
+.Box.Minigame .GameArea{ width:99%; padding:0 1px 1px;}
+
+.GameArea .Button { display : block; padding : 0 1.5em; position : relative; text-align : left; background : #d20000 url("//cdn.everymatrix.com/Jetbull/casino/bg-button.png") left -78px repeat-x; color : #eee; border : none; border-bottom : 0.0833em solid #000; font-family : "MP", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", "Liberation Sans", FreeSans, clean, sans-serif; font-size : 1em; line-height : 3em; font-weight : normal; text-align : center; -moz-text-shadow : 0 -0.0833em 0 #000; -webkit-text-shadow : 0 -0.0833em 0 #000; -o-text-shadow : 0 -0.0833em 0 #000; -khtml-text-shadow : 0 -0.0833em 0 #000; text-shadow : 0 -0.0833em 0 #000; -moz-border-radius : 0.3333em; -webkit-border-radius : 0.3333em; -o-border-radius : 0.3333em; -khtml-border-radius : 0.3333em; border-radius : 0.3333em; }
+.GameArea .Button:hover { background : #111 url("//cdn.everymatrix.com/Jetbull/casino/bg-button.png") left -78px repeat-x; color : #fff; }
+.GameArea .Button:active { background : #171717 url("//cdn.everymatrix.com/Jetbull/casino/bg-button.png") left -156px repeat-x; color : #fff; }
+
+.GameArea .MiniGameButton{ position:absolute; width:60%; margin:auto; height:30px; bottom : 1.5em; }

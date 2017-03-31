@@ -1,0 +1,1 @@
+Koda v sporočilu SMS

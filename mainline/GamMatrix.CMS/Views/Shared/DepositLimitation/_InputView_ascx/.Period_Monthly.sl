@@ -1,0 +1,1 @@
+Mesečni limit (vsakih 30/31 dni od datuma, ko ste nastavili svoj limit)

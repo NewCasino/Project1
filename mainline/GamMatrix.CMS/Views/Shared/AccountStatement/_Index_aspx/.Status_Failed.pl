@@ -1,0 +1,1 @@
+Nie udało się

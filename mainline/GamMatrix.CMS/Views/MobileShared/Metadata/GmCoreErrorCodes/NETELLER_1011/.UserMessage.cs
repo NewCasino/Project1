@@ -1,0 +1,1 @@
+﻿Váš požadavek nemůže být dokončen. V případě jakýchkoli otázek volejte NETELLER zákaznickou podporu.

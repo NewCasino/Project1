@@ -1,0 +1,2 @@
+﻿<p>COPYRIGHTS &copy; 2015, VŠECHNY PRÁVA VYHRAZENA. [Metadata:value(/Metadata/Settings.Operator_DisplayName)]</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] a spravuje společnost EveryMatrix Ltd s registračním číslem C44411 a sídlem na adrese Level 4, Suite 10, Portomaso Business Tower, Vjal Portomaso, St. Julians, STJ 4012., STJ 1081, Malta. EveryMatrix Ltd. je licencována a regulována Úřadem pro hazardní hry republiky Malta (www.mga.org.mt) podle licence třídy 1 s číslem MGA/CL1/497/2010</p>

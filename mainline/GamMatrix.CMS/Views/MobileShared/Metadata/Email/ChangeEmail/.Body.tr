@@ -1,0 +1,7 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] e-posta adresinizin değiştirilmesi talebinde bulundunuz. </p>
+<p>Güvenlik sebebiyle yeni girmiş olduğunuz e-posta adresini doğrulamamız gerekmektedir. Bunu yapmak için, aşağıdaki bağlantıya tıklamanız yeterlidir:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Eğer bu bağlantı çalışmıyorsa, bağlantıyı kopyalarak doğrudan tarayıcınıza yapıştırın.</p>
+<p>Eğer e-posta değişikliği talebinde bulunmadıysanız, lütfen bu e-postayı görmezden gelin ya da şu adresten bizimle iletişime geçin: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Saygılarımızla, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri Takımı</p>

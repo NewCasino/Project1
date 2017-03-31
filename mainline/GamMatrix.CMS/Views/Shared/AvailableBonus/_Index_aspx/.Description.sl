@@ -1,0 +1,1 @@
+Zahteva glede prvotnega stavljenja

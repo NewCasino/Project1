@@ -1,0 +1,19 @@
+﻿<p>Merhaba&#160; $USERNAME$,<br />
+<br />
+ [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]’a üye olduğunuz için teşekkür ederiz.
+<br />
+<br />
+Üyelik işleminizi tamamlayıp bahis oynamaya başlayabilmeniz, promosyonlarımızdan faydalanabilmeniz, Teambet’in tüm özelliklerini kullanabilmeniz için e-mail adresinizi onaylamanız gerektiğini hatırlatırız. <br />
+<br />
+Hesabınızı aktive etmek için lütfen aşağıdaki aktivasyon linkine tıklayınız. Aşağıdaki linkin tıklanamaması durumunda linki kopyalayarak internet tarayıcınızın adres çubuğuna yapıştırıp linki açınız. Bu işlemi tamamladıktan sonra artık hesabınıza giriş yapabilir hemen bahis yapmaya başlayabilirsiniz.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+Eğer [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]’a kayıt olmadıysanız, lütfen bu e-maili dikkate almayınız veya  bize bildiriniz<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+Lütfen hesabınızın kısıtlı kalmaması için e-mail aktivasyon işlemini tamamladığınızdan emin olunuz.
+<p><br />
+Saygılarımızla,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Müşteri Hizmetleri<br />
+

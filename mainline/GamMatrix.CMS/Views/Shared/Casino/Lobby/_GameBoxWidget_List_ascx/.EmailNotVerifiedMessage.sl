@@ -1,0 +1,1 @@
+Če želite igrati za pravi denar, morate najprej aktivirati svoj račun!

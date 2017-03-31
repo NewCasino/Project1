@@ -1,0 +1,1 @@
+Det här spelet är endast tillgängligt i riktiga pengar-läget, du måste logga in för att spela.

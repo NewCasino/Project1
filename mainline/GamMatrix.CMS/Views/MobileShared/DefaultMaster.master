@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" PageTemplate="/RootMaster.master" Title="<%$ Metadata:value(.Title)%>" MetaKeywords="<%$ Metadata:value(.Keywords)%>" MetaDescription="<%$ Metadata:value(.Description)%>" %>
+<%@ Import Namespace="GamMatrix.CMS.Models.MobileShared.Promotions.Home" %>
+<%@ Import Namespace="GamMatrix.CMS.Models.MobileShared.Components" %>
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server">
+<asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+    <% if (Settings.MobileV2.IsV2MenuEnabled) { %>
+
+    <%: Html.Partial("/Components/MenuV2", new MenuV2ViewModel(this.Url)) %>
+
+    <% } else { %>
+        
+        <%: Html.Partial("/Components/Header", this.ViewData.Merge(new { @PageTitle = Page.Title, @IsLocalSite = true }))%>
+
+    <% } %>
+<div class="Framework" id="Framework" data-page="<%= Page.Title %>">
+         <%--<h1 class="PageTitle Page-<%= Page.Title %>" > <%= Page.Title %> </h1> --%>
+<asp:ContentPlaceHolder id="cphMain" runat="server" />
+</div>
+
+    <% if(!Settings.MobileV2.IsFooterCopyrightHidden) { %>
+    <%: Html.Partial("/Components/Footer")%>
+    <% } %>
+ <% Html.RenderPartial("/Contract/ContractPopup", this.ViewData); %>
+</asp:Content>
+
+

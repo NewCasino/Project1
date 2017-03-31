@@ -1,0 +1,1 @@
+﻿¡ver todas las alternancias!

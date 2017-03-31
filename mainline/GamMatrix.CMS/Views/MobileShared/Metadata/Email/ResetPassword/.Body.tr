@@ -1,0 +1,6 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] müşteri hizmetlerine başvurduğunuz için teşekkür ederiz. Şifrenizi unuttuğunuza dair talebinizi aldık. Lütfen şifrenizi sıfırlamak ve yeni şifre üretmek için aşağıdaki linki tıklayarak işlemleri takip ediniz. </p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>Bu link 24 saat geçerlidir ve yanlızca 1 kere kullanılabilir.<p>
+<p>Eğer şifrenizi sıfırlamak istemediyseniz lütfen bu e-maili dikkate almayınız. <p/>
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>

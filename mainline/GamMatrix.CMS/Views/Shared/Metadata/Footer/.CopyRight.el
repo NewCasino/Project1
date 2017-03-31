@@ -1,0 +1,2 @@
+﻿<p>ΠΝΕΥΜΑΤΙΚΑ ΔΙΚΑΙΩΜΑΤΑ &copy; 2015, ALL RIGHTS RESERVED. [Metadata:value(/Metadata/Settings.Operator_DisplayName)]</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] διαχειρίζεται από την EveryMatrix Ltd of Vincenti Buildings, Suite 713, 14/19 Strait Street, Valletta, εταιρεία περιορισμένης ευθύνης καταχωρημένη στην Μάλτα (Αριθμός καταχώρισης: C44411), μέλος της ΕΕ από το Μάιο του 2004, που λειτουργεί σύμφωνα με τον κανονισμό και την άδεια από την Αρχή Λαχείων και Τυχερών Παιχνιδιών της Μάλτας, Αρ. άδειας: LGA/CL2/497/2008 που εκδόθηκε στις 3 Φεβ., 2009</p>

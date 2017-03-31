@@ -1,0 +1,1 @@
+Du har blivit frånkopplad då din IP adress har ändrats sedan du senast loggade in.

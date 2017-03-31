@@ -1,0 +1,1 @@
+﻿* <em>För att få en pokerbonus måste du ladda ned poker-applikationen och välja ditt poker-namn innan du gör en insättning i poker-plånboken. </em>

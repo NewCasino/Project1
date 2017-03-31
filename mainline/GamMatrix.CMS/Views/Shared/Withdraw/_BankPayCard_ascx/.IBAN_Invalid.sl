@@ -1,0 +1,1 @@
+IBAN je neveljaven; vzorčnega zapisa za IBAN ne morete uporabiti.

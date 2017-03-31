@@ -1,0 +1,1 @@
+﻿Wild Rockets offers 720 ways to win on a geometrical reel shape where the reels are 3 x 4 x 5 x 4 x 3. In addition to these innovative features, Wild Rockets also features Wild symbols that change every symbol above or below it into additional Wilds. 

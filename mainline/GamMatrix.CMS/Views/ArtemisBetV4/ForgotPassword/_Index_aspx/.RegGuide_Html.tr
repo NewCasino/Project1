@@ -1,0 +1,13 @@
+﻿<div class="login-guide-box">
+    <div class="guide-title">Zaten hesabınız varsa...</div>
+    <div class="guide-link"><a href="#top">GİRİŞ YAPIN</a></div>
+    <div class="guide-title">Hesabınız yoksa...</div>
+    <div class="guide-button"><button type="submit" onclick="this.blur();" id="btnGoToSignUpPage" class="button">
+            <span>KAYDOLUN</span>
+</button></div>
+</div>
+<script>
+$('#btnGoToSignUpPage').click(function(e){
+    window.location.href="/register";
+});
+</script>

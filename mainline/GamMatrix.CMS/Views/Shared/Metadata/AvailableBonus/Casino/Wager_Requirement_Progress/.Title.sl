@@ -1,0 +1,1 @@
+Napredek zahtev glede stavljenja

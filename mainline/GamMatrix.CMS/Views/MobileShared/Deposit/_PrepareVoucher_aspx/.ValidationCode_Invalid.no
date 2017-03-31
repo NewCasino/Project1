@@ -1,0 +1,1 @@
+﻿Valideringskoden må være 6 tegn.

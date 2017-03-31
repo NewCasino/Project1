@@ -1,0 +1,1 @@
+﻿Neteller(Česká republika)

@@ -1,0 +1,1 @@
+Totalt antal jackpots

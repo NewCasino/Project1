@@ -1,0 +1,1 @@
+﻿Příjemcovo mobilní telefonní číslo.

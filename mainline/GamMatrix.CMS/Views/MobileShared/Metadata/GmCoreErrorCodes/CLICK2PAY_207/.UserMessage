@@ -1,0 +1,1 @@
+﻿Risk Rejection. For further assistance, please contact service@click2pay.com.

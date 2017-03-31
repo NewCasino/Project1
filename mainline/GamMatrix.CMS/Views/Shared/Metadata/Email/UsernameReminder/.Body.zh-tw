@@ -1,0 +1,5 @@
+﻿<p>你好! $FIRSTNAME$,</p>
+<p>感謝你聯繫[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], 我們以收到你忘記密碼的請求. </p>
+
+<p>你的用戶名稱是 <strong>$USERNAME$</strong>. </p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 團隊</p>

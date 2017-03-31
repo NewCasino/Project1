@@ -1,0 +1,12 @@
+﻿<div class="Slider LiveCasinoSlider LotterySlider" >
+    <ul data-slide="Default" class="SliderContainer LiveCasinoSliderContainer LotterySliderContainer" >
+        <li id="LotterySlide-Default" data-state="active" class="SliderItem LotterySlide LotterySlide-Default Active ">
+            <div class="SliderContent">
+                <h3 class="LCSlideTitle SlideTitle LotterySlideTitle">
+                    <span class="SlideWelcome">Welcome to Artemisbet</span>
+                    <span class="CategorySlideTitle">Lottery</span>
+                </h3>
+            </div>
+        </li>
+    </ul>
+</div>

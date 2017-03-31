@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <RouteName>SearchMetadata</RouteName>
+  <Type>Page</Type>
+  <Controller>GamMatrix.CMS.Controllers.System.SearchMetadataController</Controller>
+</root>

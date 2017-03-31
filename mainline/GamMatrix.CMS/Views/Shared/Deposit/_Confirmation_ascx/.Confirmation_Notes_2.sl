@@ -1,0 +1,1 @@
+﻿Upoštevajte, da bo znesek $AMOUNT$ knjižen na račun vaše kartice; vaša banka bo znesek morda pretvorila v lokalno valuto, za kar bo uporabila svoj menjalni tečaj. Znesek, ki bo knjižen na vaš račun $ACCOUNT$ , se morda ne bo ujemal z zneskom, ki bo prikazan na izpisku za vaš račun.

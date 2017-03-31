@@ -1,0 +1,1 @@
+﻿Uporabite svojo kreditno/debetno kartico, s katero boste financirali <br />svojo novo virtualno kartico VISA.

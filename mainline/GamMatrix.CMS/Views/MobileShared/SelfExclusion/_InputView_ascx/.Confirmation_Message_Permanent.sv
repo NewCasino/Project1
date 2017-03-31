@@ -1,0 +1,1 @@
+Ditt konto kommer stängas av permanent och kommer inte kunna återaktiveras igen, är du säker att du vill fortsätta?

@@ -1,0 +1,2 @@
+﻿Overfør til bruker {0} {1} konto
+

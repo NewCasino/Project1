@@ -1,0 +1,1 @@
+Daglig gräns (var 24:e timme fr.o.m. tidpunkten då gränsen sattes)

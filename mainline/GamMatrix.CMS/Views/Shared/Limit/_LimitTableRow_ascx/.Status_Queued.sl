@@ -1,0 +1,1 @@
+V čakalni vrsti

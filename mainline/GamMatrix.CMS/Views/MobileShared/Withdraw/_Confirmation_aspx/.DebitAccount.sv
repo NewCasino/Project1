@@ -1,0 +1,1 @@
+Belopp som dras från {0} konto.

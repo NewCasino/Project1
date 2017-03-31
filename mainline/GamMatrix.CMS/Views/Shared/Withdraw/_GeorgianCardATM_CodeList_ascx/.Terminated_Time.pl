@@ -1,0 +1,3 @@
+﻿Zakończone o {0}
+
+

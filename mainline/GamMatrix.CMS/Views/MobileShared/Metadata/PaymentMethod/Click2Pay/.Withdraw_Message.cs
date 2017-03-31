@@ -1,0 +1,1 @@
+﻿Výběr přímo na Click2Pay účet

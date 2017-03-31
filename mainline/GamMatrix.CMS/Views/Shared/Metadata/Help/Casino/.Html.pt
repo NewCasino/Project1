@@ -1,0 +1,75 @@
+﻿<ol>
+
+    <li> <strong>Como posso depositar dinheiro no Casino [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?</strong> 
+        <p>
+            O saldo do casino está separado da conta principal da [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] (Sportsbook) para uma consulta mais fácil. Os fundos podem ser transferidos entre as duas, utilizando a função ‘Transfer‘&nbsp; que estará disponível ao iniciar a sessão no casino.
+        </p>
+    </li>
+
+    <li> <strong>Os jogos são justos? </strong>
+        <p>
+            Podemos  assegurar que os algoritmos utilizados para gerar os resultados são totalmente aleatórios. Os nossos jogos são desenvolvidos com a utilização da função Secure Random da Sun Microsystem. O gerador aleatório de números foi concebido por profissionais independentes. O software utilizado para originar os resultados foi testado exaustivamente e não revelou qualquer tipo de defeito ou previsibilidade. O sistema aleatório de números é aprovado pela eCOGRA.
+        </p>
+    </li>
+
+    <li>
+        <strong>O que acontece qaundo um jogo é interrompido no meio de uma ronda de aposta?</strong> 
+        <p>
+            O estado de cada jogo é automaticamente armazenado na base de dados do sistema. Este processo assegura que o último movimento efectuado pelo jogador seja retomado após a interrupção do Sistema, falha da internet, falha do servidor ou por outro tipo de problema.  
+        </p>
+    </li>
+
+    <li>
+        <strong>Quantos baralhos são utilizados num jogo de Blackjack?</strong>
+        <p>São utilizados entre 4 e 6 baralhos num jogo de Blackjack.</p>
+    </li>
+
+    <li>
+        <strong>Onde posso encontrar informação detalhada acerca das regras dos jogos?</strong>
+        <p>
+            Cada um dos nossos jogos contém as ‘Regras do Jogo‘ na sua página.
+        </p>
+    </li>
+
+    <li>
+        <strong>Qual é a média de payout?</strong>
+        <p>
+            Os payout variam de jogo para jogo e com o tempo. A nossa média de payout ronda os 97 %. Os payouts dos jogos são totalmente codificados e não podem ser alterados. 
+        </p>
+    </li>
+
+    <li>
+        <strong>Posso jogar gratuitamente?</strong>
+        <p>
+            Sim, pode jogar todos os jogos gratuitamente no ‘Modo Diversão‘.
+        </p>
+    </li>
+
+    <li>
+        <strong>Posso retirar uma aposta depois de&nbsp; a colocar na mesa?</strong>
+        <p>
+           Antes de iniciar o jogo é possível, mas após o início do jogo não pode alterar&nbsp; ou retirar a aposta.
+        </p>
+    </li>
+
+    <li>
+        <strong>O que acontece se eu perder a ligação durante uma ronda do jogo?</strong>
+        <p>
+            O jogo continuará a partir do momento em que foi interrompido. As slots que estejam a girar terminarão a ronda, mesmo que a ligação seja cortada.  
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+

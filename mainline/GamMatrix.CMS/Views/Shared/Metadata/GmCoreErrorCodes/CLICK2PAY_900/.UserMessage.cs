@@ -1,0 +1,1 @@
+﻿Vyskytnul se techický problém. Kontaktujte prosím service@click2pay.com.

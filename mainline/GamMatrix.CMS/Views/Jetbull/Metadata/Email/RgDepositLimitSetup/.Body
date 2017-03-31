@@ -1,0 +1,18 @@
+﻿<p>Dear $USERNAME$, <br />
+</p>
+<br />
+Thank you for contacting [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+Your personal deposit limit is set to&nbsp;$NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. <br />
+<br />
+This deposit limit is independent from any limits set by your chosen payment service provider. <br />
+<br />
+You can reduce your deposit limit immediately&nbsp;using the same menu within the Responsible Gaming area of the site. <br />
+<br />
+However, if you wish to increase your limit, it will take&nbsp;3 days before the new limit&nbsp;is activated.&nbsp;The three day period is given so that it allows you the time reconsider the change if necessary.<br />
+<br />
+Please do not hesitate to contact us if you have any queries at <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p>Kind Regards</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team&nbsp; 
+</p> 

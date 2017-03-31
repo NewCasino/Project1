@@ -1,0 +1,1 @@
+﻿Debe tener más de {0} años de edad

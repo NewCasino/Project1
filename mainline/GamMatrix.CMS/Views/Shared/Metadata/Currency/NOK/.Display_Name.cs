@@ -1,0 +1,1 @@
+﻿Norská koruna

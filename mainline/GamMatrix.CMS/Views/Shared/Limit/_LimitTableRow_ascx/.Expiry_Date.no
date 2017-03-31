@@ -1,0 +1,1 @@
+﻿Utløpsdato : {0}

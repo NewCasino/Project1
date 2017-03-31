@@ -1,0 +1,4 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>귀하의 인출이 취소 되었습니다 &lsquo;$TXCOMPLETEDDATE$", 자금이 귀하의 게임 계정으로 되돌아 갔습니다. 이 거래에 대하여 도움이 필요하시면, 지원부서로 연락 주시기 바랍니다.</p>
+거래 아이디: $TXID$거래 날짜: $TXCREATEDDATE$ 금액: $TXAMOUNT$ $TXCURRENCY$.
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

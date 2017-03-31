@@ -1,0 +1,1 @@
+Aby zarejestrować konto, kliknij to łącze:

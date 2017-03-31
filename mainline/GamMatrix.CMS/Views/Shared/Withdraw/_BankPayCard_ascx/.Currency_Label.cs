@@ -1,0 +1,1 @@
+﻿Měna bankovního účtu

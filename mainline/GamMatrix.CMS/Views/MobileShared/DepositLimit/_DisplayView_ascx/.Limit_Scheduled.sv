@@ -1,0 +1,1 @@
+Gränserna har ändrats, men fortfarande giltig fram till slutdatumet. Nya gränserna:

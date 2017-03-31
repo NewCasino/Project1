@@ -1,0 +1,1 @@
+Proszę aktywować swoje konto

@@ -1,0 +1,1 @@
+Transakcije trenutno ni mogoče izvesti.

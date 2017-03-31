@@ -1,0 +1,1 @@
+﻿Direkt banköverföring (med GPaySafe)

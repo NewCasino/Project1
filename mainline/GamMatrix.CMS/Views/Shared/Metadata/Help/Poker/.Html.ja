@@ -1,0 +1,33 @@
+<ol>
+
+    <li> <strong>自分がダウンロードしたソフトウェアは何処にあるのですか？</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ポーカーのソフトウェアがお客様のコンピューターに正常にインストールさらた時、
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ポーカーアイコンがデスクトップに現れます。
+単にこのアイコンをダブルクリックする事でポーカーソフトウェアが起動し直ぐにゲームロビーへ移動します。        </p>
+    </li>
+
+    <li> <strong>自分のパスワードが受付られまん？</strong>
+        <p>
+            間違ったパスワードを入力すると「パスワード認証に失敗」のコードが出ます。パスワードは大文字、小文字で異なる為、「Caps Lock」がオフである事をご確認下さい。もし問題が解決されない時は、「パスワードをお忘れの場合」ボタンを選択する事で新パスワードが自分の[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]アカウントで記載されたＥメールアドレス宛に発行されます。        </p>
+    </li>
+
+    <li>
+        <strong>自分のニックネームを変更する事は可能ですか？</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ポーカーではプレーヤーが自分のプレーヤーＩＤを変更する事が可能です。(名前はポーカーテーブルに表示されます) ７日毎に可能. そうする場合は[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]ポーカーソフトウェアへログオン後に「自分のアカウントタブ」へ行きます。        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

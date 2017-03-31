@@ -1,0 +1,1 @@
+Nimate dovoljenja za polog.

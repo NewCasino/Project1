@@ -1,0 +1,5 @@
+﻿<p>Hi $FIRSTNAME$,</p>Para çekme talebiniz reddedilmiştir.
+Hesap numaralarınızı kontrol edip tekrar deneyiniz.
+<p>Herhangi bir sorunda bizlerle kontağa geçiniz. <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>
+

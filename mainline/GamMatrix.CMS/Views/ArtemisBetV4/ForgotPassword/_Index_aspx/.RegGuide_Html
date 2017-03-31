@@ -1,0 +1,13 @@
+﻿<div class="login-guide-box">
+    <div class="guide-title">Have an account?</div>
+    <div class="guide-link"><a href="#top">Sign in</a></div>
+    <div class="guide-title">Don't have an account?</div>
+    <div class="guide-button"><button type="submit" onclick="this.blur();" id="btnGoToSignUpPage" class="Button">
+            <span>Sign Up</span>
+</button></div>
+</div>
+<script>
+$('#btnGoToSignUpPage').click(function(e){
+    window.location.href="/register";
+});
+</script>

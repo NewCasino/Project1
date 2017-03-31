@@ -1,0 +1,1 @@
+Usuń {0} z Ulubionych

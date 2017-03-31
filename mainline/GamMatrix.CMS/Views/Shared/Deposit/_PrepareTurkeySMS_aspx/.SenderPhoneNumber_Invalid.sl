@@ -1,0 +1,1 @@
+Napačna telefonska številka.

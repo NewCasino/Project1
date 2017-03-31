@@ -1,0 +1,1 @@
+Wyświetl tylko Nowe stoły

@@ -1,0 +1,1 @@
+Fyll i nedanstående fält för att ändra din e-postadress. När du har skickat in ändringen kommer du att få en bekräftelse via e-post till ditt nya e-postkonto där du måste klicka på länken för att verifiera ändringen.

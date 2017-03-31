@@ -1,0 +1,5 @@
+﻿<p>Hei $FIRSTNAME$,</p><p>Talletus on suoritettu onnistuneesti.</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">Klikkaa "Päivitä" painiketta (EI nettiselaimen päivitä painiketta) sivulla päivittääksesi saldon.</strong></span></p>
+<p>Jos sinulla on jotain kysyttävää niin ota yhteyttä <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Terveisin,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu</p>
+

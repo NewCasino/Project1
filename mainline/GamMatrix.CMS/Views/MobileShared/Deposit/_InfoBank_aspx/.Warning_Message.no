@@ -1,0 +1,2 @@
+﻿Det er viktig at du inkluderer ditt bruker-ID <strong>{0}</strong> når du gjør en bankoverføring, og ta vare på kvittering og referanse, da vi kan be om dette om noe uforutsett oppstår. 
+

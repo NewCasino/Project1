@@ -1,0 +1,1 @@
+Nordea preko storitve Skrill je zelo varen način prenosa sredstev z vašega bančnega računa na spletu.&nbsp;Nordea omogoča hiter in enostaven prenos brez vsakršnih ovir.

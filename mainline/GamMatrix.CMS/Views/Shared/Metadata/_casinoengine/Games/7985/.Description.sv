@@ -1,0 +1,1 @@
+﻿Wild Rockets erbjuder 720 tillvägagångssätt att vinna på geometriska rullformen, det är 3 x 4 x 5 x 4 x 3. Utöver dessa innovativa funktioner, Wild Rockets har också Wildsymboler som ändrar varje symbol ovanför eller under den i ytterligare Wilds. 

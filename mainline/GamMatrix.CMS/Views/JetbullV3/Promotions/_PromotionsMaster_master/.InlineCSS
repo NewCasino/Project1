@@ -1,0 +1,12 @@
+﻿.promotion-item{display:block;margin-bottom:20px;}
+.promotion-item-head {background: url(//cdn.everymatrix.com/JetbullV2/img/buttons.png) repeat-x center -1270px transparent;text-align:left;height: 35px;line-height: 35px;padding-left: 20px;font-family:"M",Helvetica,Arial,"Nimbus Sans L","Liberation Sans",FreeSans,clean,sans-serif;font-size: 16px;border-radius:0.5em 0.5em 0 0;border-left:1px solid #2a2a2a;border-top:1px solid #2a2a2a;border-right:1px solid #2a2a2a;}
+.promotion-item-body{border-left:1px solid #2a2a2a;border-right:1px solid #2a2a2a;border-bottom:1px solid #2a2a2a;position:relative;height:198px;}
+.promotion-item-image img{width:100%;height:198px;}
+.promotion-item-text{position:absolute;left:5%;top:15%;width:42%;}
+.promotion-item-text .promotion-title{font-family:"M",Helvetica,Arial,"Nimbus Sans L","Liberation Sans",FreeSans,clean,sans-serif;font-size:28px;font-weight:bold;color:#fff;text-align:left;display:block;margin-bottom:10px;}
+.promotion-item-text .promotion-text{font-family:"Times New Roman";font-size:14px;color:#989898;text-align:left;display:block;}
+.promotion-item-body a.promotion-button{width:100%;height:198px;display:block;position:absolute;top:0;left:0;background-size:100% auto;}
+.promotion-item-body .promotion-item-button-wrapper a.promotion-button{width:100%;height:100%;}
+.promotions-content-buttons .promotion-button {display: inline-block;margin-right: 10px;height: 36px;background: url(//cdn.everymatrix.com/JetbullV2/_files/promotions/allbg.png) no-repeat -493px -128px;padding: 0 0 0 37px}
+.promotions-content-buttons .promotion-button_Right {display: block;height: 36px;background: url(//cdn.everymatrix.com/JetbullV2/_files/promotions/allbg.png) no-repeat right -128px;padding: 0 9px 0 0}
+.promotions-content-buttons .promotion-button_Left {display: block;height: 36px;line-height: 36px;font-size: 16px;color: #dedede;font-weight: bold;font-family: helvetica;background: url(//cdn.everymatrix.com/JetbullV2/_files/promotions/allbg.png) repeat-x -493px -200px}

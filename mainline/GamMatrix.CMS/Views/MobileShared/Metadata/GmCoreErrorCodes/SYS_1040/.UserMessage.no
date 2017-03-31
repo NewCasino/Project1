@@ -1,0 +1,1 @@
+﻿7-dagers selv-ekskludering er ikke tillat mer enn {0} ganger

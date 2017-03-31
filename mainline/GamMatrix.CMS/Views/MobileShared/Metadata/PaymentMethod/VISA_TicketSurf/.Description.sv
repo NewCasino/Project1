@@ -1,0 +1,1 @@
+Du kan snabbt överföra pengar från ditt Visa kreditkort på ditt spelkonto. Fyll i dina kortdetaljer och när kortet verifieras kommer din insättning, säkert och omedelbart, överföras till ditt spelkonto

@@ -1,0 +1,1 @@
+﻿Vyskytnul se problém s ID vašho účtu, vaším bezpečnostním ID, nebo částkou kterou jste vložili. Lze vkládat pouze čísla do ID účtu, bezpečnostního ID, nebo částky. Zkuste prosím znova.

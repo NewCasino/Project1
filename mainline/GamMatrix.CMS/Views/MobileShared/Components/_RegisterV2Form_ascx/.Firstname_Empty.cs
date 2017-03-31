@@ -1,0 +1,2 @@
+﻿Jméno nemůže být prázdné
+

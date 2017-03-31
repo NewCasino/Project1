@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx"  PageTemplate="/RootMaster.master"  Title="<%$ Metadata:value(.Title)%>" %>
+
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server">
+<asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+<!--[if LT IE 9]>
+<link href="https://cdn.everymatrix.com/JetbullV2/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.jetbull.com/" >
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+
+<% Html.RenderPartial("/Head/Toolbar", this.ViewData.Merge(new { })); %>
+<div id="container">
+    <div id="header">
+        <div class="topbar">
+            
+            <div class="SecondaryToolbar">
+                <div class="search_box">
+                    <input id="search_game" type="text" value="<%=this.GetMetadata(".Search_Text").SafeHtmlEncode() %>" onfocus="$(this).val('')" onblur="if ($(this).val().trim()==''){$(this).val('<%=this.GetMetadata(".Search_Text").SafeHtmlEncode() %>');}" />
+                    <button id="btnSearchGame" class="ToolButton" onclick="googlesearch();"><span class="ir"></span></button>
+                </div>
+                <% Html.RenderPartial("/Head/TopLinks", this.ViewData.Merge(new { })); %>
+                <div class="wrapAccountBox" style="float:right;">
+                    <iframe id="ifmAccountBox" frameborder="0" scrolling="no" allowTransparency="true" src="/<%=HttpContext.Current.GetLanguage().SafeHtmlEncode()%>/AccountWidget" style="width:100%;height:100%;background:none;">
+                    </iframe>
+                </div>
+                <!--<% Html.RenderPartial("/Head/LanguageDropDownList", this.ViewData); %>-->
+            </div>
+            <div class="LogoLine">
+                <div class="logo"><%=this.GetMetadata(".Logo").HtmlEncodeSpecialCharactors() %></div>
+                <div class="menuWrap">
+                    <% Html.RenderPartial("/Head/TopMenu", this.ViewData.Merge(new { })); %>
+                </div>
+                <%=this.GetMetadata(".LiveChat").HtmlEncodeSpecialCharactors()%>
+                <% Html.RenderPartial("/Head/WalletPanel", this.ViewData.Merge(new { })); %>
+                <% Html.RenderPartial("/Head/LanguageDropDownList", this.ViewData); %>
+            </div>
+        </div>
+       
+        
+    </div>
+    <div class="content">
+        <div class="inner">
+            <asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <div id="footer">
+        <% if (Profile.IpCountryID == 230 || Profile.UserCountryID == 230) //for UK
+        { %>
+            <%= this.GetMetadata("/Metadata/Footer.Html_UKLicense").HtmlEncodeSpecialCharactors() %>
+        <% } 
+        else
+        { %>
+            <%= this.GetMetadata("/Metadata/Footer.Html").HtmlEncodeSpecialCharactors() %>
+        <% } %>
+    </div>
+</div>
+<script type="text/javascript">
+    function googlesearch() {
+        var wq = $("#search_game").val();
+        var domain = "<%=this.GetMetadata(".Domains") %>";
+        var link = "http://www.google.com/search?domains=" + domain + "&sitesearch="+ domain + "&q=" + wq;
+        window.open(link);
+    }
+
+    $(document).ready(function() {
+        $('html > body').addClass('MainBody');
+    });
+</script>
+<%=this.GetMetadata("/Metadata/Footer.FooterScriptTrackerCode")%>
+<% Html.RenderPartial("/Components/TermsChangeNoticePopup", this.ViewData); %>
+<%=this.GetMetadata(".FooterScript").HtmlEncodeSpecialCharactors() %>
+</asp:Content>
+

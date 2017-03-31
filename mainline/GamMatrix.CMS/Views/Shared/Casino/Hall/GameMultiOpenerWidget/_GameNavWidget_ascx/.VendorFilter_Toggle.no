@@ -1,0 +1,1 @@
+﻿Slå av/på visning av spill fra {0}

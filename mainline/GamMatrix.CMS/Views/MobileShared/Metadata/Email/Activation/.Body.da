@@ -1,0 +1,7 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Tak for fordi du valgte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], din konto ($USERNAME$) er nu blevet oprettet men inden du kan indbetale penge, skal du aktiverer din konto. </p>
+<p> Klik på linket for at aktiverer kontoen, hvis kontoen ikke aktiveres venligst prøv at "copy/paste" linket i din browser og klik enter. </p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p> Hvis du ikke har lavet en konto hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], kan du ignorer denne email. <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p> Tak for din registrering - Held og Lykke! [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

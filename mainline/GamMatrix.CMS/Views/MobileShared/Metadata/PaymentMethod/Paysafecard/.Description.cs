@@ -1,0 +1,5 @@
+﻿Konečně můžte platit na internetu hotově! A co více, je to rychlé, jednoduché a bezpečné. Nepotřebujete kreditní kartu ani bankovní účet. Je jedno jestli hrajete online, nebo nakupujete - paysafe karta je nejjednodušším řešením.
+Jak to funguje:<br />
+Najděte si cestu ke svému nejbližšímu prodejci <strong>paysafe</strong>kart. Je jich více než 210 000 v celé Evropě. Klikněte zde a najděte si nejbližšího prodejce<br />
+(<a href="http://www.paysafecard.com/pos" target="_blank">http://www.paysafecard.com/pos</a>)<br />
+Každá <strong>paysafe</strong>karta má 16ti místný kód. Ten jednoduše vložte na stránku, kde chcete platit. Chcete-li platit vyšší částku, není problém zkombinovat až 10 <strong>paysafe</strong> karet; pouze vložte PIN kód. A máte zaplaceno! Navíc jste o sobě nevložili žádná osobní data.

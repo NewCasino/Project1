@@ -1,0 +1,1 @@
+E-poštni naslov {0} je že registriran na {1}, ; če želite svoj račun {2} povezati s svojim obstoječim računom {1} , lahko to storite, tako da se prijavite tukaj.

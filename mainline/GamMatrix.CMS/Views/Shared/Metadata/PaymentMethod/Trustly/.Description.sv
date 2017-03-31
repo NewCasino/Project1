@@ -1,0 +1,1 @@
+Trustly är en lösning för e-betalningar online, anpassad för mobilenheter och surfplattor.

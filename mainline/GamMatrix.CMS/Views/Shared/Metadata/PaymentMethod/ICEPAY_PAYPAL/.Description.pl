@@ -1,0 +1,1 @@
+﻿PayPal to szybszy, bezpieczniejszy sposób przesyłania pieniędzy, dokonywania płatności online i otrzymywania pieniędzy.

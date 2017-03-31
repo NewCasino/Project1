@@ -1,0 +1,1 @@
+﻿* <em>Premia za Twoją wpłatę: {0} {1:N2}</em>

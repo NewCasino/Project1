@@ -1,0 +1,1 @@
+﻿Add [metadata:value(/Metadata/Settings.Operator_DisplayName)] to your home screen!

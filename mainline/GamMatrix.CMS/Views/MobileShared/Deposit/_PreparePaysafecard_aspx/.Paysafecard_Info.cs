@@ -1,0 +1,1 @@
+﻿paysafecard je předplacená karta, která vám umožňuje bezpečné online platby. Předplacená znamená, že si kartu koupíte od jakéhokoliv z 450,000 prodejců po celém světě. Paysafecard je bezpečnější než jakákoliv jiná platební metoda, protože nemusíte zadávat žádné osobní informace vaší banky nebo kreditní karty, když platíte online.

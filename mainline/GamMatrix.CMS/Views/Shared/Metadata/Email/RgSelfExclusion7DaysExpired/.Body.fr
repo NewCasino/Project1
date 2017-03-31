@@ -1,0 +1,9 @@
+﻿<p> Bonjour $USERNAME$,<br />
+<br />
+Nous tenons à vous informer que la période d’auto exclusion de sept jours est maintenant terminée et que toutes les fonctions de votre compte sont à nouveau disponibles. <br />
+</p>
+N’hésitez pas à nous contacter si vous avez des questions à <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> <br />
+<p><br />
+Cordialement </p>
+<p> Service Clientèle [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>
+

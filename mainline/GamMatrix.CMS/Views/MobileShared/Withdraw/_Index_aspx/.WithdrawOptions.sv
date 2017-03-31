@@ -1,0 +1,1 @@
+﻿Alternativ för uttag

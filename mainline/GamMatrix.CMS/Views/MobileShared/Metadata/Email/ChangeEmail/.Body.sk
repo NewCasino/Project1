@@ -1,0 +1,7 @@
+﻿<p>Ahoj $FIRSTNAME$,</p>
+<p>požiadali ste o zmenu e-mailovej adresy [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].</p>
+<p>Z bezpečnostných dôvodov je nutné, aby ste svoju novú adresu overili. Stačí kliknúť na odkaz nižšie:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Prípadne odkaz prosím skopírujte do adresného riadku svojho prehliadača.</p>
+<p>Ak ste o zmenu e-mailu nežiadali, môžete tento e-mail ignorovať, prípadne sa obráťte na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>S pozdravom, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Oddelenie zákazníckych služieb</p>

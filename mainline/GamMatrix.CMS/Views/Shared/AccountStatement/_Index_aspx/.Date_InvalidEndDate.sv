@@ -1,0 +1,1 @@
+Slutdatum måste infalla efter startdatum.

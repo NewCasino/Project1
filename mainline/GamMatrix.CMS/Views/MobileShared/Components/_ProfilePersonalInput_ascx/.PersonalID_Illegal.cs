@@ -1,0 +1,1 @@
+﻿Pole není platné

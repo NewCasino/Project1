@@ -1,0 +1,1 @@
+Du kommer aldrig mer att kunna logga in på ditt bettingkonto

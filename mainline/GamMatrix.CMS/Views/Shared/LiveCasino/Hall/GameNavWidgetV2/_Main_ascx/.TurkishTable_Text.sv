@@ -1,0 +1,1 @@
+Visa turkiska bord

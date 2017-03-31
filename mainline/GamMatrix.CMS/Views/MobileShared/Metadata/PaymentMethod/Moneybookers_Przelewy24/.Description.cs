@@ -1,0 +1,1 @@
+﻿S touto platební metodou můžete okamžitě převádět své prostředky z bankovního účtu v Polsku.&nbsp;&nbsp; Převod je jednoduchý, rychlý a bezpečný.

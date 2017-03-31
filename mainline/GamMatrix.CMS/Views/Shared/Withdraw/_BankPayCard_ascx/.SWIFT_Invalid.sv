@@ -1,0 +1,1 @@
+Ogiltigt SWIFT, du kan inte använda vårt exempel-SWIFT.

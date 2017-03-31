@@ -1,0 +1,1 @@
+﻿Szybkiej wpłaty pieniędzy na konto do gry można dokonać z karty debetowej Visa. Wystarczy podać dane karty; po zweryfikowaniu karty debetowej będzie można bezpiecznie i błyskawicznie przelewać środki na konto do gry.

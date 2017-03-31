@@ -1,0 +1,1 @@
+﻿Zvolte prosím účet Skrill

@@ -1,0 +1,1 @@
+﻿Sätt gräns på omsättningen

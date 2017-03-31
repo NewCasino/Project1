@@ -1,0 +1,1 @@
+Odprite igre v celozaslonskem načinu

@@ -1,0 +1,1 @@
+To transakcijo dokončajte v novem odprtem oknu.

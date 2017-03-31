@@ -1,0 +1,1 @@
+﻿De validatie code moet 6 cijfers lang zijn.

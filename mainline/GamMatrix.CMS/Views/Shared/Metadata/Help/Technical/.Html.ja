@@ -1,0 +1,100 @@
+<ol>
+
+    <li> <strong>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]でプレイする際に最低限必要なシステムスペ
+ックは何ですか？</strong> 
+        <p>
+            <ul>
+                <li>
+                     Windows - Intel Pentium プロセッサー（Pentium IIか
+高クラスを推奨）64mb メモリ。
+                </li>
+                <li>
+                    Macintosh - Power Macintosh Power PC プロセッサー (G3
+か高クラスを推奨) 64mbメモリ。                </li>
+                <li>
+                    Apple Mac ユーザーの注意事項 - このカジノの現行バージョンは
+apple Macシステム上で正常に動作しないかもしれず、現在サポート対象外です。                </li>
+                <li>"FLASH" 10 かそれ以降</li>
+   
+             <li>
+                     [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]は殆どのWindowsオペレーティング
+システム(Windows 2000, XP, Vista and 7)と互換性があります。
+                </li>
+                <li>Internet Explorer7より下のバージョンはサポ
+ートされていません。</li>
+            </ul>
+        </p>
+    </li>
+
+    <li> <strong>接続が途切れた時はどうなるのですか？</strong>
+        <p>
+      
+      全てのゲームプレイは弊社のサーバーに確保されています。接続中断の場合は単にお客様のアカウントにログオンし直し勝敗、又はゲームプレイの結果を見
+る事ができます。カジノに関してもしゲームプレイが未終了の場合は次回ゲームに再ログオンした時点で再開されます。もし不具合等が起きましたら「ここをクリック」
+しカスタマーサポートチームのメンバーとチャットして下さい。        </p>
+    </li>
+
+    <li>
+        <strong>どちらのソフトウェア提供会社をお使いですか？
+</strong>
+        <p>
+            弊社のsportsbookのソフトウェアはOddsmatrix、カジノはNet Entertainment、ポーカーはCakeを使用しております
+。
+        </p>
+    </li>
+
+    <li>
+        <strong>どうしてゲームサーバーへ接続出来ないのですか？</strong>
+        <p>
+            
+インターネット接続を確認後も接続出来ない場合は [Metadata:htmlencode
+(/Metadata/Settings.Operator_DisplayName)] カスタマーサポートまでお問い合わせ下さい。
+        </p>
+    </li>
+
+    <li>
+        <strong>どうして自分のアカウントへログオン出来ないのですか？</strong>
+        <p>
+            自分のアカウントの正しいパスワード、ニックネームを使っている事を確認してもログオン出来ない場合は[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]カスタマーサポートまでご連絡下さい。        </p>
+    </li>
+
+    <li>
+        <strong>ウェブサイトが非常に遅く動作している時はどうすれば速くできますか？
+</strong> 
+        <p>
+            接続速度が遅い場合は次の事に注意して下さい：同時に幾つかのブラウザーが開いている、音楽プログラムが動いている、若しくはファイルのダウンロードでコンピューター・インターネット接続が遅くなる事があります。インターネットプロバイダーで遅れが生じる場合もあります。あと、家か地元でインターネット接続を共有している場合も接続速度は遅くなります。        </p>
+    </li>
+
+    <li>
+        <strong>音声が聞こえません。</strong>
+        <p>
+            適切な音声カードを使用してスピーカーがミュートに設定されていない事をご確認下さい。
+あと、[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]「オプション」タブで音声が選択されている事をご確認下さい。
+テーブル画面右下のチャットタブに「オプション」ボタンが含まれており「全て」、「警告のみ」、「無音」を選択する事ができます。        </p>
+    </li>
+
+    <li>
+        <strong>MACバージョンはごぜいますか？</strong>
+        <p>
+     
+       残念な事に弊社はMAC専用のソフトウェア・バージョンを現在提供しておりません。しかしながらPCエミュレーターを使い弊社のゲームを楽しむ事に成功しております。詳細は弊社のダウンロードページをご覧下さい。
+        </p>
+    </li>
+
+    <li>
+        <strong>Why is my game so slow?</strong>
+        <p>
+            お客さまのＰＣと弊社のサーバーは応答反応が速くなる用、最適化されています。もしゲームの動きが遅いと思った場合は２つの可能性があります：　1. テーブルのプレーヤーの順番が来た時の対応が遅い。　2. インターネット接続の調子が悪い。       </p>
+    </li>
+
+</ol>
+<p style="text-align:right">
+    <button 
+type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span 
+class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+   

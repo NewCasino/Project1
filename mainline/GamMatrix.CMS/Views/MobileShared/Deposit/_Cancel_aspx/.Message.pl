@@ -1,0 +1,1 @@
+﻿Anulowałeś/-aś transakcję.

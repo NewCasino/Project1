@@ -1,0 +1,6 @@
+﻿Hesabınız henüz aktif olmadığından para yatırma işlemi yapamazsınız.
+Kayıt olduğunuzda belirtmiş olduğunuz email adresinize aktivasyon emaili gönderilmişti.
+Hesabınızı aktive etmek için size gönderilmiş olan aktivasyon e-mailindeki aktivasyon linkine tıklamanız 
+gerekmektedir. Eğer aktivasyon e-maili, e-mail hesabınıza ulaşmamış ise lütfen müşteri temsilcimize 
+başvurunuz.
+<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>

@@ -1,0 +1,1 @@
+﻿velký poměr zisku bodů

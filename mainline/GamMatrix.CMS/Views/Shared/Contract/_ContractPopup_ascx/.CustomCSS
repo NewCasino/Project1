@@ -1,0 +1,7 @@
+﻿<style id="Contract_css" type="text/css">
+  .modalCloseImg{display: none !important;}
+  .ContractPopup{color:#fff;}
+  .ContractPopup input{margin:0.1em 0.5em 0 0;}
+  .inputfield{margin:0 0 0.5em;}
+  #fldContractValidity{margin:2em 0 3em;}
+</style>

@@ -1,0 +1,1 @@
+Zobacz następny jackpot

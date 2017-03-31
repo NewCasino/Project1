@@ -1,0 +1,1 @@
+﻿Krok 1. Ręcznie zaloguj się w <a style="text-decoration: underline;" href="{0}" target="_blank">swoim banku internetowym</a>

@@ -1,0 +1,1 @@
+Sierpień

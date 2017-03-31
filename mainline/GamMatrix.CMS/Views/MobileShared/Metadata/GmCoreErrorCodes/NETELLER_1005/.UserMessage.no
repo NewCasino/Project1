@@ -1,0 +1,1 @@
+﻿Du har fylt inn et beløp som er mindre enn $10 eller høyere enn merchants overføringsgrense. Vennligst kontakt merchants kundeservice for mer informasjon.

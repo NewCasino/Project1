@@ -1,0 +1,1 @@
+﻿Převod od hráče {0}

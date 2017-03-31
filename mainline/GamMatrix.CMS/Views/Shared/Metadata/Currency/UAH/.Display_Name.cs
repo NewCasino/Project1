@@ -1,0 +1,1 @@
+﻿Ukrajinská hřivna

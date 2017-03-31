@@ -1,0 +1,3 @@
+﻿<a class="button" href="/casino/">
+<span class="GoldButtonText">Alle spill<span>►</span></span>
+			</a>

@@ -1,0 +1,1 @@
+Twoje wygrane i premie zostaną skonfiskowane ﻿zgodnie z Warunkami i postanowieniami, które zaakceptowałeś. Czy na pewno chcesz kontynuować?

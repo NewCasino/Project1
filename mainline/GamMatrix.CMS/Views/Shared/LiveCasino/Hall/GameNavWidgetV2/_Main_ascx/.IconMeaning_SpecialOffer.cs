@@ -1,0 +1,1 @@
+﻿Velký poměr zisku bodů

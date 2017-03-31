@@ -1,0 +1,4 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>Deine Auszahlung wurde am &lsquo;$TXCOMPLETEDDATE$"zurückgewiesen, Gelder wurden wieder Deinem Spielerkonto gutgeschrieben. Bitte kontaktiere unseren Kundendienst wenn Du Fragen hast was diese Transaktion angeht.</p>
+Transaktion ID: $TXID$Transaktion Datum: $TXCREATEDDATE$ Amount: $TXAMOUNT$ $TXCURRENCY$.
+<p>Freundliche Grüsse,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Team</p>

@@ -1,0 +1,1 @@
+{0:N2} {1} har återställts till ditt {2} konto

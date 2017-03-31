@@ -1,0 +1,2 @@
+﻿La connexion a échoué. Votre compte utilisateur est bloqué.
+Si vous êtes un utilisateur auto exclus, vous pouvez contacter le support pour retirer de l'argent

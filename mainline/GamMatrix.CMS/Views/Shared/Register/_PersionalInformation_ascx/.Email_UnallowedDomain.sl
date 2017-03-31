@@ -1,0 +1,1 @@
+Domena e-poštnega naslova ni dovoljena

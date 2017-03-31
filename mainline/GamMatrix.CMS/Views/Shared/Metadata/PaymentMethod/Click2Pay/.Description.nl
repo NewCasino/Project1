@@ -1,0 +1,1 @@
+﻿Click2Pay is een e-wallet service waarmee Click2Pay klanten geld kunnen storten, opnemen en overmaken van hun online Click2Pay account naar hun gamingrekening. Het is veilig en geld is direct beschikbaar in uw gaming account. Klik&nbsp;<a href="http://www.click2pay.com/"> hier</a> om nu een Click2Pay account te openen.

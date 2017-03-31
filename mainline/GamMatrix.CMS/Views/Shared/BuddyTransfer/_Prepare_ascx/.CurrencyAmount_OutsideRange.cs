@@ -1,0 +1,1 @@
+﻿Částka přes limit. 

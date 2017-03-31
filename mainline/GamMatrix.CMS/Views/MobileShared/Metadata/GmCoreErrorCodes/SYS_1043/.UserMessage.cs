@@ -1,0 +1,1 @@
+﻿Skupinový status '{0}' nemůže být upraven na '{1}'

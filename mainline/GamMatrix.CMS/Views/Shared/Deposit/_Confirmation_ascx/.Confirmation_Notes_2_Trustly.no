@@ -1,0 +1,1 @@
+Vær oppmerksom på at hvis bankkontoen din er i en annen valuta enn $CURRENCY$, bankkontoen din, belastes bankkontoen din med tilsvarende beløp $AMOUNT2$ i lokal valuta med Trustlys vekslingskurs.

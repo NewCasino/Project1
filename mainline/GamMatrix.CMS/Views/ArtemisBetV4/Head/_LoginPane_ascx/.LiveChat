@@ -1,0 +1,1 @@
+﻿<a class="ga_livechat" href="javascript:void(0);" onclick="window.open($('a.LiveChatFixed', top.document.body).prop('href'), '_blank');return false;" style="text-align:center;display:block;margin-bottom:5px;"><!--<img src="//cdn.everymatrix.com//ArtemisBetV4/img/livechat.png" />-->Access Live Support</a>

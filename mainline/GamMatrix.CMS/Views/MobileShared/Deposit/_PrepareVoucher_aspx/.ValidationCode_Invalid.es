@@ -1,0 +1,1 @@
+﻿El número de validación debe tener 6 dígitos.

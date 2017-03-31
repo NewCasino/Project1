@@ -1,0 +1,1 @@
+{0} / {1} (<span class="PageItems">{2} – {3} </span> out of <span class="TotalPageNum">{4}</span> shown).

@@ -1,0 +1,1 @@
+﻿Krok 2. Przelej <span style="font-weight: bold">{0}</span> <span style="font-weight: bold">{1}</span> na następujące konto

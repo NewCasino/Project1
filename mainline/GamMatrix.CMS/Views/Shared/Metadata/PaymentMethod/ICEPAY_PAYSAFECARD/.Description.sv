@@ -1,0 +1,1 @@
+Betala online nu, utan bankkonto eller kreditkort. Med paysafecard kan du betala snabbt, enkelt och säkert online.

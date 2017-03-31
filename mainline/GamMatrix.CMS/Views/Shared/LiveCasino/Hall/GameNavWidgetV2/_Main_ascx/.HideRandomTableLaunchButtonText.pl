@@ -1,0 +1,1 @@
+Ukryj przycisk uruchomienia losowego stołu

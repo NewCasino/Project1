@@ -1,0 +1,1 @@
+Następne {0} gry

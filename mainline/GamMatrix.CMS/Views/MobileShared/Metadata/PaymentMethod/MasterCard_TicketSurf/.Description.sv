@@ -1,0 +1,1 @@
+Du kan snabbt överföra pengar från ditt Mastercard till ditt spelkonto. Fyll i dina kortdetaljer och när ditt kreditkort har verifierats kommer din insättning, säkert och omedelbart, överföras till ditt spelkonto

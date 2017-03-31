@@ -1,0 +1,1 @@
+﻿^/Promotions/Home/Casino|^/Promotions/TermsConditions/casino

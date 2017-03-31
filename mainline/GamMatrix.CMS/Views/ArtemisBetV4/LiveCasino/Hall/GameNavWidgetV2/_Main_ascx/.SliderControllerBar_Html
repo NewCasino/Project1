@@ -1,0 +1,10 @@
+﻿<div class="SliderToggleButtons">
+    <a id="close-LiveCasinoSlider" class="SliderToggle" data-url="close-LiveCasinoSlider" href="#close-LiveCasinoSlider">
+    <span class="ButtonText SliderCloseText"> Close Banner </span>
+    <span class="SliderBtnIcon"> </span>
+    </a>
+    <a id="show-LiveCasinoSlider" class="SliderToggle ShowSlider hidden" data-url="show-LiveCasinoSlider" href="#show-LiveCasinoSlider">
+    <span class="ButtonText SliderCloseText"> Show Banner </span>
+    <span class="SliderBtnIcon"> </span>
+    </a>
+</div>

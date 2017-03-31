@@ -1,0 +1,3 @@
+﻿<h3>Max Damage er tilbake!</h3>
+<p>Er du klar for mer utenomjordisk aktivitet?</p>
+<br /><a title="Play now ►" class="button" href="/Casino/Game/Info/max-damage-slot-mg"><span class="GoldButtonText">Spill n&aring;<span>►</span></span> </a>

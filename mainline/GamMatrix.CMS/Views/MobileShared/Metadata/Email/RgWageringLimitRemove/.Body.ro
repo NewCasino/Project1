@@ -1,0 +1,5 @@
+﻿<p> Dragă $USERNAME$,</p>
+<br /> Mulţumim că ai contactat [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Acest e-mail este pentru a confirma că limita personală de pariere $LIMITAMOUNT$ $LIMITPERIOD$ va fi eliminată pe $LIMITEXPIRYDATE$. <br /> <br /> Pentru asistenţă, nu ezita să ne contactezi la adresa de e-mail<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>&nbsp;</p>
+<p> Toate cele bune, </p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] - Serviciul Clienţi </p>

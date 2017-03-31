@@ -1,0 +1,1 @@
+﻿Kontoregistrering ikke tillatt for enkelt konto lenket med tilbyder

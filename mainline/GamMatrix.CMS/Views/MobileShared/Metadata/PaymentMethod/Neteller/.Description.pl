@@ -1,0 +1,1 @@
+﻿NETELLER to portfel elektroniczny umożliwiający klientom NETELLER wpłacanie, wypłacanie i przesyłanie środków z internetowego konta NETELLER na konto do gry. Jest to bezpieczna metoda, a środki są błyskawicznie dostępne na koncie do gry.Kliknij&nbsp;&nbsp;<a href="https://www.neteller.com/home/index.jsf">tutaj</a>, aby już teraz założyć konto Neteller.

@@ -1,0 +1,1 @@
+﻿Proszę podać nazwę użytkownika swojego znajomego.

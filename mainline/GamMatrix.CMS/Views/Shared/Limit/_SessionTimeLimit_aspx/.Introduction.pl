@@ -1,0 +1,3 @@
+Korzystając z poniższego menu, możesz ustawić limit czasu sesji. Jeśli przekroczysz limit czasu sesji, zostaniesz wylogowany z systemu i będziesz mógł powrócić do gry po ponownym zalogowaniu się. Po ustaleniu limitu, otrzymasz potwierdzenie pocztą elektroniczną. Limit możesz zredukować w każdej chwili przy pomocy tego menu. Jednakże w przypadku usuwania lub zwiększania limitu obowiązuje 7-dniowy okres oczekiwania. Pozwala Ci on rozważyć chęć zmiany.
+
+UWAGA: dokonana tutaj zmiana może będzie obowiązywać od kolejnego zalogowania się.

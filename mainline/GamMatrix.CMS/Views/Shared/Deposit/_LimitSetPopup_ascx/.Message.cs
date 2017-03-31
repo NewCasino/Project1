@@ -1,0 +1,1 @@
+﻿Všimli jsme si, že na svém účtu nemáte finanční limit, doporučujeme vám si nastavit limit kliknutím na toto <a href="{0}">link</a>. Můžete se rozhodnout zůstat bez limitu tím, že kliknete na tlačítko zavřít.

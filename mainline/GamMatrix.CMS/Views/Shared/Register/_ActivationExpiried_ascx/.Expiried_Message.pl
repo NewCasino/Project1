@@ -1,0 +1,1 @@
+Jeśli ﻿tak nie jest i pojawiłeś się tutaj, klikając łącze, które Ci wysłaliśmy, może ono być już nieaktualne.

@@ -1,0 +1,1 @@
+﻿Tiene que confirmar que acepta los términos y condiciones

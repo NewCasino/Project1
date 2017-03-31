@@ -1,0 +1,1 @@
+﻿Typ de tekens in de afbeelding hierboven.

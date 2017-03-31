@@ -1,0 +1,1 @@
+﻿Uživatel se stejným jménem exituje. Vyberte prosím jiné.

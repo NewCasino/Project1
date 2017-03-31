@@ -1,0 +1,1 @@
+Nie możesz dokonać wpłaty z powodu niekompletnego profilu. Zostaniesz przekierowany na stronę profilu za 5 sekund. Uzupełnij swój profil przed dokonaniem wpłaty. 

@@ -1,0 +1,1 @@
+﻿Número de tarjeta no válido

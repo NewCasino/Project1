@@ -1,0 +1,1 @@
+﻿Důvod zmrazení

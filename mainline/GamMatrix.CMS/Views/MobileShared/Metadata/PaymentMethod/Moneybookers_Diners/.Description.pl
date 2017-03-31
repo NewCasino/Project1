@@ -1,0 +1,1 @@
+﻿Szybkiej wpłaty pieniędzy na konto z karty kredytowej Diner można dokonać za pośrednictwem Moneybookers. Wystarczy zarejestrować swoją kartę w Moneybookers; po zweryfikowaniu karty kredytowej będzie można bezpiecznie i błyskawicznie przelewać środki na konto do gry.

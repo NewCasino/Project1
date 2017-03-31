@@ -1,0 +1,1 @@
+Euteller är en direkt banköverföringsmetod online för finska banker.

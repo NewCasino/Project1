@@ -1,0 +1,4 @@
+﻿Částka přesahuje denní limit
+
+
+

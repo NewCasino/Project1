@@ -1,0 +1,1 @@
+﻿This merchant does not support NETELLER(1-PAY) transactions.

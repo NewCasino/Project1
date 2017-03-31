@@ -1,0 +1,1 @@
+Plačevanje preko besedilnih sporočil.

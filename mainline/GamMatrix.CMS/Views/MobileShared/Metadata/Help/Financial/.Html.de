@@ -1,0 +1,38 @@
+﻿<ol><li><strong> Wie kann ich Ein- oder Auszahlungen auf [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] auf meinem Kontoauszug / meiner Kreditkartenabrechnung identifizieren?</strong>
+<p>Sämtliche Ein- und Auszahlungen, die auf Ihrem Kontoauszug / Ihrer Kreditkartenabrechnung erscheinen, enthalten immer eine Beschreibung, in der [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] auftaucht. Auf die Art können Sie über Ihre Ein- und Auszahlungen auf unserer Seite Buch führen.</p>
+</li><li><strong> Darf ich mehr als eine Zahlungsmethode verwenden?</strong>
+<p>Ja, dürfen Sie, aber wir brauchen unter Umständen bei einem Wechsel Ihrer Zahlungsmethode entsprechende Belege.</p>
+</li><li><strong> Akzeptieren Sie Konto-/Kreditkarten aus meinem Land?</strong>
+<p>Wir akzeptieren Karten aus allen Ländern, mit Ausnahme der Vereinigten Staaten von Amerika, der Türkei und Frankreichs.</p>
+</li><li><strong> Welche Währungen akzeptieren Sie?</strong>
+<p>Sie können Ihr Konto mit einer der folgenden Währungen einrichten: EUR, GBP, USD, PLN, CZK, DKK, SEK, NOK, Rubel und Yuán.</p>
+</li><li><strong> Warum nimmt Ihre Website meine Karte nicht an?</strong>
+<p>Einige Kreditkartenaussteller haben Vorgaben, nach denen Ihnen direkte Einzahlungen auf Online-Glücksspielseiten nicht gestattet sind. Sie sollten Ihren Kartenaussteller in dieser Angelegenheit kontaktieren, oder Sie nutzen stattdessen eine der E-Wallet-Einzahlungsmethoden. Für weitere Unterstützung wenden Sie sich bitte an den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Kundenservice.</p>
+</li><li><strong> Was mache ich, wenn meine Karteneinzahlung abgelehnt oder zurückgewiesen wird?</strong>
+<p>Wenn Sie versuchen, eine zweite Einzahlung vor Freigabe Ihrer vorherigen Einzahlung vorzunehmen, kann es gelegentlich passieren, dass diese zweite Einzahlung auf Ihr tägliches und wöchentliches Einzahlungslimit angerechnet wird und daher ein Problem verursacht. Die häufigste Ursache dafür liegt in ungenauen Informationen im Auftragsformular. Bitte wenden Sie sich an den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Kundenservice, um dieses Problem zu beheben. Zudem haben einige Kreditkartenaussteller Vorgaben, nach denen Ihnen direkte Einzahlungen auf Online-Glücksspielseiten nicht gestattet sind. Sie sollten Ihren Kartenaussteller in dieser Angelegenheit kontaktieren, oder Sie nutzen stattdessen eine der E-Wallet-Einzahlungsmethoden.</p>
+</li><li><strong> Darf ich mit meiner Karte eine Einzahlung auf das Konto eines Freundes vornehmen?</strong>
+<p>Nein, dürfen Sie nicht, da dies als eine Drittanbietertransaktion erachtet wird und keinesfalls gestattet ist.</p>
+</li><li><strong> Ich habe versehentlich mit der falschen Karte eingezahlt – kann ich etwas dagegen tun?</strong>
+<p>Bitte kontaktieren Sie den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Kundenservice unter <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+</li><li><strong> Kann ich Geld zwischen Konten verschieben?</strong>
+<p>Sie können kein Geld zwischen persönlichen Konten verschieben, aber Sie können Geld innerhalb Ihrer Casino-, Sportwetten- und Pokerkonten in Ihrem eigenen persönlichen Konto verschieben.</p>
+</li><li><strong> Was ist eine IBAN?</strong>
+
+<p>IBAN steht für Ihre internationale Bankkontonummer. IBAN wird bei internationalen, elektronischen Banküberweisungen verwendet und erleichtert das Übertragen Ihrer Gewinne.</p>
+</li><li><strong> Was ist ein CVC2-Code?</strong>
+
+<p>Der CVC2-Code ist ein Kartenprüfcode. Dieser Code ist aus Sicherheitsgründen bei internationalen Telefonkäufen oder Internetzahlungen mit Kreditkarte erforderlich. Dieser Code besteht aus drei Zahlen und befindet sich auf der Rückseite Ihrer Kreditkarte. </p>
+</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

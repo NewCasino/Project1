@@ -1,0 +1,1 @@
+Så snart den är slutförd kommer din betalning att behandlas och ditt spelkonto krediteras så snart vi har mottagit pengarna

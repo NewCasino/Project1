@@ -1,0 +1,6 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>Danke für Deine Anfrage an [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], wir haben Deine vergessenes Passwort Anfrage erhalten. Bitte klicke auf diesen Link um ein neues Passwort zu erstellen.</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>Dieser Link ist für 24h gültig und kann nur einmal benutzt werden.<p>
+<p>Falls Du Dein Passwort nicht ändern willst, dann ignoriere bitte diese Email.<p/>
+<p>Beste Grüsse,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Team</p>

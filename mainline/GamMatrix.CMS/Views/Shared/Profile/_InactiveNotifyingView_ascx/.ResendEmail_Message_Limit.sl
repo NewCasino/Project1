@@ -1,0 +1,1 @@
+﻿Zahtevo ste poslali {0} -krat; če e-poštnega sporočila za aktivacijo še vedno ne prejmete, se obrnite na [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)].

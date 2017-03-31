@@ -1,0 +1,1 @@
+﻿Opustit celou obrazovku

@@ -1,0 +1,2 @@
+﻿Numer TC nadawcy
+

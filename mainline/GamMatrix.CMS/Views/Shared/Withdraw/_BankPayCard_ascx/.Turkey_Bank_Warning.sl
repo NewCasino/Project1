@@ -1,0 +1,1 @@
+Bančno nakazilo na bančni račun v Turčiji bo izvedeno samo v EUR oziroma USD; preverite, ali vaša banka sprejema nakazila v EUR oziroma USD.

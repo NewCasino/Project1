@@ -1,0 +1,1 @@
+﻿Numer vouchera musi składać się z 16 cyfr.

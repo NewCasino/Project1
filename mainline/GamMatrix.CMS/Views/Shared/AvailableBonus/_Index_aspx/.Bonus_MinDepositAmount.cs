@@ -1,0 +1,1 @@
+﻿Minimální vklad

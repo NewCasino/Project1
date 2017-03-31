@@ -1,0 +1,1 @@
+﻿Nelze přečíst? Klikněte pro nový.

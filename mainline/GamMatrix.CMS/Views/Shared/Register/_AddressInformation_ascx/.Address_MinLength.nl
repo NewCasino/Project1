@@ -1,0 +1,1 @@
+﻿Uw adres moet minstens uit 2 karakters bestaan

@@ -1,0 +1,1 @@
+﻿Giropay to internetowa metoda płatności stosowana głównie na rynku niemieckim. 

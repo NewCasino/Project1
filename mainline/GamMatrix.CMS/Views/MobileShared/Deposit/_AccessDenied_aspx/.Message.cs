@@ -1,0 +1,1 @@
+﻿Vklad není povolen.

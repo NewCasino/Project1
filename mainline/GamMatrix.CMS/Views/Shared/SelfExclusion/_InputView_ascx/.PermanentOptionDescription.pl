@@ -1,0 +1,1 @@
+Już nigdy więcej nie będziesz mógł zalogować się do swojego konta zakładów.

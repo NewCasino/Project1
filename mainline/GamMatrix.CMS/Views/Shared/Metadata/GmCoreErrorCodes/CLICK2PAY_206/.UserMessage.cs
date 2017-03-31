@@ -1,0 +1,1 @@
+﻿Váš účet byl uzamčen. Kontaktujte prosím zákaznickou podporu na service@click2pay.com.

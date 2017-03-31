@@ -1,0 +1,1 @@
+﻿Proszę podać miejscowość

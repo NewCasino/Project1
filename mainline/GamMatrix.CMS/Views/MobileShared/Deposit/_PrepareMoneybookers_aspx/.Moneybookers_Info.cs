@@ -1,0 +1,1 @@
+﻿Naše bezpečnostní opatření jsou navrženy pouze pro jedinou věc. Abyste byli v bezpečí. Spolu s nejvyššími standarty šifrování, neustále aktualizujeme svůj systém, abychom čelili možným hrozbám, což znamená, že jste vy i vaše peníze v bezpečí.

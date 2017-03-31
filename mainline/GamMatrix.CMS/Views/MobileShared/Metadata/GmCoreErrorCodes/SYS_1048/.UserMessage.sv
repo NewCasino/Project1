@@ -1,0 +1,1 @@
+﻿Account registration not allowed for single account linked vendors

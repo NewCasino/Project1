@@ -1,0 +1,1 @@
+﻿Uttag från

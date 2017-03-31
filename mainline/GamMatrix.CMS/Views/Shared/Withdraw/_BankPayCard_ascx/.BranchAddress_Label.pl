@@ -1,0 +1,1 @@
+Oddział, w którym założono konto

@@ -1,0 +1,1 @@
+﻿Odrzucenie związane z ryzykiem w wyniku kontroli kraju IP. W celu uzyskania dalszej pomocy, prosimy o kontakt pod adresem service@click2pay.com

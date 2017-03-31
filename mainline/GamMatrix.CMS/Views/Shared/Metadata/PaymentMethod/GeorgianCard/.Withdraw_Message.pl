@@ -1,0 +1,1 @@
+Wypłać bezpośrednio na swoją kartę gruzińską.

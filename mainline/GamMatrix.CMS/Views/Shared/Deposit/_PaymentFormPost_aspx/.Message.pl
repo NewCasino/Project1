@@ -1,0 +1,1 @@
+Może to potrwać kilka minut.,<br />zachowaj cierpliwość i nie zamykaj okna.

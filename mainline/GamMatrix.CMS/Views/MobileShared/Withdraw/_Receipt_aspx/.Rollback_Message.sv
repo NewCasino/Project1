@@ -1,0 +1,1 @@
+Transaktionen har återtagits.

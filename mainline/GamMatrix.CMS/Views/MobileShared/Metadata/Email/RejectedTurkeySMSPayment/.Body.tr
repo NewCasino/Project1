@@ -1,0 +1,4 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+Para yatırma talebiniz reddedildi, lütfen banka bilgilerini kontrol ediniz ve daha sonra tekrar deneyiniz. 
+<p>Makbuzunuzla ilgili herhangi bir sorunuz olursa, lütfen çekinmeden bize şu adresten ulaşın: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Takımı</p>

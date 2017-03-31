@@ -1,0 +1,1 @@
+﻿Nazwa użytkownika musi składać się z 4-20 znaków

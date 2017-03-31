@@ -1,0 +1,11 @@
+﻿<p>Dear $FIRSTNAME$,<br /><br />
+Account username: $USERNAME$<br /><br /></p>
+<p>Our system has detected that you have registered multiple accounts on our network and that you have opted to self-exclude on another account.</p>
+<p>As per our commitment to endorse responsible gaming, it is our policy that if you have self-excluded on one account on our network, you will also be excluded on all other accounts within the same network for the same self-exclusion period. You will not be able to login to your account for the duration of the self-exclusion period chosen by yourself.</p>
+<p>Kindly contact support at <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> should you have any queries. </p>
+<br />
+
+<p>Kind Regards</p>
+<p>
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team <br />
+</p>

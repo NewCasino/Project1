@@ -1,0 +1,11 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Denne automatiske email er en kvittering for din indbetaling var gennemført på vegne af [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] af EveryMatrix Ltd, som betalingsoperatør for  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] hjemmeside, du vil se EveryMatrix fremgå af dit betalingskort eller bankudtog. Dine transaktionsdetaljer er nedenfor.</p>
+<ul>
+<li><strong>Transaktions ID</strong>:$TRANSACTION_ID$</li>
+<li><strong>Dato tid</strong>:$TRANSACTION_TIME$</li>
+<li><strong>hjemmeside</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>kvittering</strong>: skærmprint af denne kvittering er vedhæftet.</li>
+</ul>
+<p>Har du forespørgsler vedrørende indbetaling, venligst kontakt <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> oplyse transaktions ID nummer.</p>
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>
+<p>$SCREENSHOT$</p>

@@ -1,0 +1,1 @@
+﻿Twoja karta płatnicza została zablokowana

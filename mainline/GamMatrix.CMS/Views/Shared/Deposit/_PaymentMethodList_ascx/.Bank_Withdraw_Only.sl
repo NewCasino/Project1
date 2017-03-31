@@ -1,0 +1,1 @@
+(izplačilo samo z bančnim nakazilom)

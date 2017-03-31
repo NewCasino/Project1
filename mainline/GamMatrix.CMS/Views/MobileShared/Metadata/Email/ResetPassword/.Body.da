@@ -1,0 +1,6 @@
+﻿<p>Hej $FIRSTNAME$,</p>
+<p>Tak for din henvendelse [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], vi har modtaget din forespørgsmål angående glemt password. Klik venligst på det følgende link for at forny dit password.</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>Dette link er aktiv i 24 timer og kan kun benyttes en gang.<p>
+<p>Hvis du ikke ønsker at skifte password bedes du se bort fra denne email.<p/>
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

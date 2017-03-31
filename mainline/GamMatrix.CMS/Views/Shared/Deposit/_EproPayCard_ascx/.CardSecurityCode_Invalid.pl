@@ -1,0 +1,2 @@
+﻿Błędny kod zabezpieczający
+

@@ -1,0 +1,1 @@
+Igra se odpre v svojem prekrivnem oknu.

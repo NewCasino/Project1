@@ -1,0 +1,1 @@
+Upoštevajte, da morate opraviti vsaj en polog, da boste denar lahko izplačali s svojega računa.

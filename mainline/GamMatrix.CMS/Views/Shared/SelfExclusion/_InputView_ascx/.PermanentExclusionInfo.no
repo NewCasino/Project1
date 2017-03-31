@@ -1,0 +1,1 @@
+﻿Hvis du vil aktivere permanent selvbestemt utestenging, kan du gjøre dette ved å ta kontakt med kundestøtte på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> og oppgi begrunnelsene. Du blir umiddelbart blokkert for godt.

@@ -1,0 +1,1 @@
+Med det här bankalternativet kan du göra direktinsättningar från alla bankkonton. Det är ett enkelt och säkert betalningssätt online som gör det möjligt för dig att föra över pengar från ditt bankkonto till Internet.&nbsp;&nbsp;

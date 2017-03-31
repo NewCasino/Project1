@@ -1,0 +1,1 @@
+Du kanske har spelat för länge och/eller har en känsla att spela mer. För denna anledning har vi 2 alternativ att som du kan välja:

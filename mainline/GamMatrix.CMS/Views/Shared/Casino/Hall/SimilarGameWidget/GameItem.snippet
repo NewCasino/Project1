@@ -1,0 +1,15 @@
+﻿<# 
+    var games = arguments[0]; 
+    for( var i = 0; i < games.length; i++){
+        var game = games[i];
+#>
+<li class="SLItem">
+	<h3 class="SLTitle">
+		<a href="/Casino/Game/Index/<#= game.S #>" class="SLLink" title="<#= game.G.htmlEncode() #>">
+			<img class="GameIcon" src="<#= game.I #>" alt="<#= game.G.htmlEncode() #>" />
+			<strong class="SLGame"><#= game.G.htmlEncode() #></strong>
+		</a>
+	</h3>
+</li>
+
+<#  } #>

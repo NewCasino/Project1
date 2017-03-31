@@ -1,0 +1,11 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Thank you for your recent deposit. <br><br>This automated email is a receipt for your deposit which was processed on behalf of [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] by EveryMatrix Ltd, the payment operator for the [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] website, you will see EveryMatrix appearing on your card or bank statement. Your transaction details are as below.</p>
+<ul>
+<li><strong>Transaction ID</strong>:$TRANSACTION_ID$</li>
+<li><strong>Date time</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Website</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Receipt</strong>: the print screen of receipt is attached.</li>
+</ul>
+<p>Should you have any query regarding this deposit, please contact <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> quoting the transaction ID number.</p>
+<p>Kind regards,<br /> <br>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team</p>
+<p>$SCREENSHOT$</p>

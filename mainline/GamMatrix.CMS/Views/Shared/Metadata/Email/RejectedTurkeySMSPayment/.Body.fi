@@ -1,0 +1,5 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+Talletuksesi on kielletty, tarkista pankkitiedot ja kokeile myöhemmin uudestaan.
+<p>Jos sinulla on kysyttävää etusetelistä, ota yhteyttä<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Terveisin,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu </p>
+

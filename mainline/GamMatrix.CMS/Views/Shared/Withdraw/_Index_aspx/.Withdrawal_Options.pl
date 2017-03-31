@@ -1,0 +1,1 @@
+Możesz zażądać wypłaty, korzystając z jednej z poniższych, dostępnych dla Ciebie opcji.

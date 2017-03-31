@@ -1,0 +1,1 @@
+﻿Ver <span class="AlternatesNumber">{0}</span> variantes

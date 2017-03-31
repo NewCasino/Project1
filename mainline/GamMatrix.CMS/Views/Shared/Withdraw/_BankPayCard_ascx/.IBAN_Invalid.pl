@@ -1,0 +1,1 @@
+IBAN jest nieprawidłowy, nie możesz użyć przykładowego IBAN.

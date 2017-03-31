@@ -1,0 +1,1 @@
+Ime in priimek prijatelja

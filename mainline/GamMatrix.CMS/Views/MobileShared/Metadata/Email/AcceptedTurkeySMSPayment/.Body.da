@@ -1,0 +1,5 @@
+﻿<p>Hej $FIRSTNAME$,</p>
+<p>Din indbetaling er blevet gennemført.</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">Klik på knappen "Opdater", der vises ved siden af din saldo (IKKE webbrowserens opdater-knap) for at opdatere din saldo på skærmen.</strong></span></p>
+<p>Hvis du har nogle spørgsmål er du velkommen til at kontakte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Med venlig hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundesupport</p>

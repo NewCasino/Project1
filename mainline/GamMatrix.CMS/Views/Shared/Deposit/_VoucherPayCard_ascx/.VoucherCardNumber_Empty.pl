@@ -1,0 +1,1 @@
+Wymagany jest numer kuponu.

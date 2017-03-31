@@ -1,0 +1,1 @@
+Vi har gjort mindre förändringar i <a href="[Metadata:value(/Metadata/Settings.Terms_Conditions_Url)]" >Terms & Conditions</a>nyligen. Du kan läsa de nya <a href="[Metadata:value(/Metadata/Settings.Terms_Conditions_Url)]" >villkoren</a> här.

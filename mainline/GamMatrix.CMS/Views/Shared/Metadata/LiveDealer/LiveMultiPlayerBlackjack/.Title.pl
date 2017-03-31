@@ -1,0 +1,1 @@
+Blackjack na żywo dla wielu graczy

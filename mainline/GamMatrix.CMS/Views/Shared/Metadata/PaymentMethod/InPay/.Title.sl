@@ -1,0 +1,1 @@
+Bančno nakazilo

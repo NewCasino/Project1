@@ -1,0 +1,1 @@
+Vänligen se till att du noterat dina ändringar då du inte kan gå tillbaka till detta fönster. 

@@ -1,0 +1,1 @@
+﻿NETELLER je e-peněženkovou službou, která umožňuje NETELLER zákazníkům vkládat a vybírat prostředky z NETELLER účtu na jejich účet hráčský.Platební metoda je zcela bezpečná a umožňuje okamžité převedení prostředků na hráčský účet. Klikněte&nbsp;<a href="http//www.neteller.com/home/index.jsf">zde</a> a otevřete si NETELLER účet nyní.

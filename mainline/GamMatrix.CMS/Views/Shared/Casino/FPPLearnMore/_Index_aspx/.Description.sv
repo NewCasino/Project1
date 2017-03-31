@@ -1,0 +1,1 @@
+Lojalitet belönas på Guts Casino - och med belöning menar vi rena pengar! 

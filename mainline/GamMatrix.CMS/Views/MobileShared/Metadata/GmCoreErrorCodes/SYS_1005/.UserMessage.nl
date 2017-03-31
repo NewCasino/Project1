@@ -1,0 +1,1 @@
+﻿De transactie is al verwerkt

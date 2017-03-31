@@ -1,0 +1,1 @@
+Skonfiskuj wszystkie środki przy wygaśnięciu

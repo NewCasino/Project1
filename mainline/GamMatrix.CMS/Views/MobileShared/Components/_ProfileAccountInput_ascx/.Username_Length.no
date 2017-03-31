@@ -1,0 +1,1 @@
+﻿Brukernavnet må være mellom 4 og 20 tegn.

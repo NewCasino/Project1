@@ -1,0 +1,1 @@
+﻿Zobacz wczorajszych najlepszych graczy!

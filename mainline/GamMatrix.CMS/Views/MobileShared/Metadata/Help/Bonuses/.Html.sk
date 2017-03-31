@@ -1,0 +1,17 @@
+﻿<ol>
+  <li><strong>Kde zistím aké promoakcie ponúkate?</strong>
+    <p>Všetky aktuálne ponuky nájdete kliknutím na stránku  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Promoakcie.</p>
+  </li>
+  <li><strong>Môžem hrať všetky hry na stránke s aktívnym bonusom, alebo sú tam nejaké obmedzenia?</strong>
+    <p>Obmedzenia môžu nastať, skontrolujte si prosím podmienky bonusu a v prípade pochybností kontaktujte prosím [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu.</p>
+  </li>
+  <li><strong>Ako zistím, že som splnil požiadavky bonusu?</strong>
+    <p>Plnenie bonusu môžete skontrolovať v časti "Môj účet" aktívne bonusy.</p>
+  </li>
+  <li><strong>Z akého dôvodu môžem byť vylúčený z promoakcie?</strong>
+    <p>Niektoré naše promoakcie môžu byť k dispozícii iba zákazníkom z určitých krajín a iné zákazníkom využívajúcich určité platobné metódy. Môžu existovať obmedzenia pre prepojené účty (zákazníci hrajúci z jedného počítača alebo IP adresy) pre prípadné zneužitie [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] promoakcie, v prípade otázok kontaktujte prosím [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+  </li>
+</ol>
+<p style="text-align:right">
+  <button type="button" onclick="window.print(); return false" class="button"> <span class="button_Right"> <span class="button_Left"> <span class="button_Center"> <span>Tlačiť</span> </span> </span> </span> </button>
+</p>

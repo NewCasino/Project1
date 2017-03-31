@@ -1,0 +1,1 @@
+﻿Imate samo še {0} točk, kar pa ne zadostuje za najmanjšo zahtevano število ({1} točk).

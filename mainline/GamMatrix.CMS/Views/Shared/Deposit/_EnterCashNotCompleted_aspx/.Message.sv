@@ -1,0 +1,1 @@
+Klicka på Slutför häri för att uppdatera dina transaktionsuppgifter.

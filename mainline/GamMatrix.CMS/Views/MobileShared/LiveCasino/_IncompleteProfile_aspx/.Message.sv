@@ -1,0 +1,1 @@
+Du har inte befogenhet att spela detta spel innan du klickat på länken i aktiveringsmailet. 

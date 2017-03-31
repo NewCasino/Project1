@@ -1,0 +1,2 @@
+﻿Puste pole(a) : [ $FIELDS$ ]
+

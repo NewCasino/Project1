@@ -1,0 +1,1 @@
+﻿cierre detalles

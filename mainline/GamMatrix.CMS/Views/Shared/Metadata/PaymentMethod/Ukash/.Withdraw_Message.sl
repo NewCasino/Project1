@@ -1,0 +1,1 @@
+Izdajte predplačniški kupon Ukash in nakažite denar na novi kupon.

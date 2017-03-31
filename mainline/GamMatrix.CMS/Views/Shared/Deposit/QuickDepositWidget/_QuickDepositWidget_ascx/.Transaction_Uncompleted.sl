@@ -1,0 +1,1 @@
+Transakcija ni bila dokončana.

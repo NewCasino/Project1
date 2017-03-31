@@ -1,0 +1,3 @@
+﻿Limit czasu
+
+

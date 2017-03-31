@@ -1,0 +1,6 @@
+﻿<P>Hallo $FIRSTNAME$,</P>
+<P>Willkommen bei [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], wir sind uns sicher, das es dir gefallen wird Teil des Spasses zu sein! </P>
+<P>Dein Username ist $USERNAME$, bitte bewahre diesen sicher auf, sodass du jederzeit auf deinen Account zugreifen kannst.</P>
+<P>Solltest du noch kein Mitglied sein, so hast du jetzt eine gute Möglichkeit die Vorteile unserer Willkommens-Angebote zunutzen. Du findest all unsere aktuellen Angebote in der Promotions Sektion.</P>
+<P>Solltest du Probleme beim Sign-up haben oder du aber einige Fragen hast, dann warte nicht und kontaktiere uns unter <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>. Wir sind hier um dir zuhelfen und freuen uns auch über Feedback.</P>
+<P>Mit besten Grüßen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundenservice</P>

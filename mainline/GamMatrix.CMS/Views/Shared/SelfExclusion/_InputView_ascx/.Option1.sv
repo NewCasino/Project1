@@ -1,0 +1,1 @@
+En 7-dagars uppehållsperiod, som bara kan användas två (2) gånger

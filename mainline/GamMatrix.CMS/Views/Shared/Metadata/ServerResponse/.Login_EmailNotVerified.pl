@@ -1,0 +1,1 @@
+Logowanie nie powiodło się. Nie aktywowałeś swojego konta w ciągu {0} dni od rejestracji i jest ono obecnie zablokowane.

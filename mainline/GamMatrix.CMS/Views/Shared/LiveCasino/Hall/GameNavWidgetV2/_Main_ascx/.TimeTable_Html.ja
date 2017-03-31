@@ -1,0 +1,10 @@
+            <li class="GLItem BannerGLItem hidden">
+                <a href="#" class="GameThumb BannerThumb" title="BannerThumb">
+                    <span class="GameThumbContent">
+                        <span class="GameBannerTitle">トルコテーブル</span>
+                        <span class="GameBannerSubTitle">オンライン時間</span>
+                        <span class="GameBannerDays">月曜日、水曜日、金曜日</span>
+                        <span class="GameBannerHours">午前10:00 - 午後7:00</span>
+                    </span>
+                </a>
+            </li>

@@ -1,0 +1,1 @@
+Wygeneruj kod, aby wypłacić środki z bankomatu Banku Gruzji.

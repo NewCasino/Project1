@@ -1,0 +1,1 @@
+﻿A gift card is a pre-paid debit card that can be used online, at specific store or franchise. Click&nbsp;<a href="http://www.giftcardempire.com" target="_blank">here</a> to buy a gift card now.

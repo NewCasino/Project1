@@ -1,0 +1,5 @@
+<p>$USERNAME$ 様、</p>
+<br /> ご連絡ありがとうございます。 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br />このＥメールはお客様がセッション制限を$LIMITPERIOD$ 分から $NEWLIMITPERIOD$ 分へご変更された事を確認する為のものです。新制限は$LIMITEXPIRYDATE$にアクティブとなります。<br /> <br />もしご質問等ございましたら次までお気軽にお問い合わせ下さい。<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p><br />よろしくお願い致します。Regards</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] カスタマーサポートチーム一同</p>

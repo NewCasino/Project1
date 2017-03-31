@@ -1,0 +1,1 @@
+Kortets utgivningsnummer

@@ -1,0 +1,1 @@
+na voljo ni nobena banka

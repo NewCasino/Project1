@@ -1,0 +1,1 @@
+﻿Lösenordet måste innehålla minst 8 tecken

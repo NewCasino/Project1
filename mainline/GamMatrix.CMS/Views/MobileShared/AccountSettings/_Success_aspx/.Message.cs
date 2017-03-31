@@ -1,0 +1,1 @@
+﻿Vaše nastavení bylo uloženo

@@ -1,0 +1,1 @@
+Izvedite izplačilo neposredno na svoj bančni račun preko storitve Alternative Payment Exchange.

@@ -1,0 +1,1 @@
+Du har bare {0} poeng, det når ikke minstekravet ({1} poeng).

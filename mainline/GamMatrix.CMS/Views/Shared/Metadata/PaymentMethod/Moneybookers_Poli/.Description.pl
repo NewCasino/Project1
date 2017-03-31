@@ -1,0 +1,1 @@
+﻿POLi za pomocą przelewu Skrill umożliwia przelewanie środków z banku bezpośrednio na Twoje konto. Nie trzeba czekać na zaksięgowanie środków, płatność odbywa się natychmiast.&nbsp;POLi to jeden z najbardziej skutecznych sposobów płatności online w Australii.

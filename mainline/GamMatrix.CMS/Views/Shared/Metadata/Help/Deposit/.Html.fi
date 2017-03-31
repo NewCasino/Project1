@@ -1,0 +1,78 @@
+﻿<ol>
+
+ <li> <strong>Miten teen talletuksen tililleni? </strong>
+ <p>
+ Klikkaa Oma Tilini, sitten talleta rahaa-painiketta alavasemmalla olevassa sarakkeessa, josta voit valita mieleisesi maksutavan.
+ </p>
+ </li>
+
+ <li> <strong>Kauanko talletukseni hyväksyminen kestää?</strong>
+ <p>
+ Useimpien maksutapojen kohdalla talletuksesi hyväksytään välittömästi. Pankkisiirtojen kohdalla voi kestää jopa 7 päivää saada tieto pankilta, jolloin me hyvitämme summan  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tilille.
+ </p>
+ </li>
+
+ <li>
+ <strong>Mitä talletustapoja on mahdollista käyttää?</strong>
+ <p>
+ Napsauta Maksutavat ylävalikosta millä tahansa [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sivulla &nbsp, niin näet kaikki käytössäsi olevat maksutavat.
+ </p>
+ </li>
+
+ <li>
+ <strong>Mitkä luottokortit/pankkikortit hyväksytte?</strong>
+ <p>
+ [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] hyväksyy kaikki Visa ja MasterCard/maestro luotto- ja pankkikortit talletustapana, vaikkakin MasterCard/Maestro-korttien kohdalla saattaa olla nostorajoituksia.
+ </p>
+ </li>
+
+ <li>
+ <strong>Peritäänkö minulta maksuja tallettaessaani [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tililleni?</strong> 
+ <p>
+ Emme veloita mitään maksuja koskien talletuksia [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tilillesi.
+ </p>
+ </li>
+
+ <li>
+ <strong>Mikä on minimi/maksimisumma, jonka voin tallettaa kerralla?</strong> 
+ <p>
+ Minimitalletusmäärä on 10 € tai vastaava summa muuta valuuttaa ja maksimitalletussumma on 5 000 € per päivä tai vastaava summa muuta valuutassa.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Onko mahdollista säätää päivittäinen, viikoittainen ja kuukausittainen tallennusraja?
+ </strong>
+ <p>
+ Voit säätää päivittäisen, viikoittaisen tai kuukausittaisen talletusrajan. &nbsp; Nämä voidaan säätää Oma Tilin alta kohdasta 'Vastuullinen Pelaaminen-Tallennusraja'. Rajat voidaan muuttaa milloin tahansa samasta kohdasta.
+ </p>
+ </li>
+
+ <li>
+ <strong>Miten teen talletuksen pankkitililtäni?</strong>
+ <p>
+ Napsauta talletusnäppäintä kohdassa 'Oma Tili-Tallenna Rahaa' ja valitse tilisiirrot. Voit aktivoida tämän vaihtoehdon napsauttamalla 'Talletus'. Noudata näyttöön tulevia ohjeita.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Onko teillä viikoittaista rajaa sille, kuinka paljon voin tallettaa verkkotililleni käyttäen luottokorttiani? 
+ </strong>
+ <p>Päivittäinen talletuksien enimmäismäärä on € 5 000.</p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

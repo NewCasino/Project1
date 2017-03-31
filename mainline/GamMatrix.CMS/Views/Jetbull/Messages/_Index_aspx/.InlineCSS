@@ -1,0 +1,25 @@
+﻿.UserMessages_PageTitle {  display: block;  float: left;  width: 100%;}
+.UserMessages_SendNew {  padding-right: 0;  padding-top: 10px;  position: absolute;  right: 0;  top: 0;  width: 100px;}
+.UserMessages_mainPanel{ background-color: #0A0A0A;  border-bottom: 1px solid #2A2A2A;  border-left: 1px solid #2A2A2A;  border-right: 1px solid #2A2A2A;  margin-top: -5px;  padding: 10px;}
+.UserMessages_mainPanel .message {  margin: 50px auto 20px;}
+.UserMessagesList {  background: none repeat scroll 0 0 transparent;  display: block;  min-height: 80px;  padding: 0;}
+.UserMessage_SendNew_sumbit {  clear: both;  height: 50px;}
+.UserMessage_SendNew_sumbit .left{ float:left; margin:10px 20px;}
+.UserMessage_SendNew_sumbit .right{ float:left; margin:10px 0px;}
+.UserMessageDetail {  background-color: #181818;}
+.UserMessages_list_body_list .entry.Odd {  background: none repeat scroll 0 0 #222222;}
+.pagination-wrapper a.current {  background-color: #ccc !important;  color: #333;  font-weight:700;}
+.pagination-wrapper a {  background-color: #333333; }
+.UserMessage_Detail_content {
+  font-size: 12px;
+  line-height: 22px;
+  padding: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.inputfield .controls .textbox,.inputfield .controls .textarea { 
+  font-size: 12px; 
+} 
+#UserMessage_msgbox .message .message_Col_Icon {
+  width: 10%;
+}

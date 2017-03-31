@@ -1,0 +1,1 @@
+Zobacz poprzednią stronę z grami

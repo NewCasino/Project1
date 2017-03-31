@@ -1,0 +1,5 @@
+﻿<h3>
+<p style="font-size: 30pt; line-height: 25pt;">Er du en Steampunk?</p>
+</h3>
+<p>Klatre til toppen av <strong>Steam Tower</strong>, redd prinsessen, og f&aring; godt betalt!<br />Ogs&aring; tilgjengelig p&aring; mobil.</p>
+<p><a href="http://www.jetbull.com/Casino/Game/Info/steam-tower" class="button" title="Play now ►"><span class="GoldButtonText">Spill n&aring; ►</span> </a></p>

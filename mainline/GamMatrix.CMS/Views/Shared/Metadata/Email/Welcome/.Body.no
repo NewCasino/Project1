@@ -1,0 +1,6 @@
+﻿<P>Hi $FIRSTNAME$,</P>
+<P>Velkommen til [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], vi vet du kommer til å elske underholdningen hos oss!</P>
+<P>Ditt brukernavn er $USERNAME$. Ta vennligst vare på dette slik at du alltid har tilgang til kontoen din.</P>
+<P>Dersom du ikke allerede har gjort det er dette en gyllen mulighet til å ta del i våre spennende velkomsttilbud. Du finner alle våre aktuelle tilbud under Kampanjer.</P>
+<P>Dersom du støter på problemer under registreringen, eller har andre spørsmål, ber vi deg vennligst ta kontakt med oss via <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>. Vi er her for å hjelpe deg og setter pris på dine tilbakemeldinger.</P>
+<P>Med vennlig hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundeservice</P>

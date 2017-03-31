@@ -1,0 +1,1 @@
+﻿Příliš mnoho pokusů

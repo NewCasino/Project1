@@ -1,0 +1,1 @@
+﻿Nordea Solo w Finlandii

@@ -1,0 +1,1 @@
+Din begäran om tillbakarullning av uttag kan inte handläggas för närvarande.

@@ -1,0 +1,82 @@
+﻿<ol>
+
+	<li> <strong>Banka/Kredi Kartı Ekstremde [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Sitesinden yaptığım Para Yatırma/Çekme İşlemlerini nasıl tanıyabilirim? </strong> 
+		<p>
+			Banka veya Kredi Kartı Ekstrenizde görünücek tüm Para Yatırma ve Çekme İşlemlerinizin yanında [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]'nın Adı geçeceğı bir Açıklaması olur. Böylece Sitede Yaptığınız tüm Para Yatırma ve Çekme İşlemlerinizi takip edebilirsiniz. 
+		</p>
+	</li>
+
+	<li> <strong>Bir den fazla Ödeme Yöntemi kullanabilirmiyim?</strong>
+		<p>
+			Evet, ama Parasal Yöntemlerin Değişikliklerinde Belgeleme isteyebiliriz sizden.
+		</p>
+	</li>
+
+	<li>
+		<strong>Benim Ülkemden Kredi Karti kabul ediyormusunuz?</strong>
+		<p>
+			ABD, Tükiye ve Fransa Hariç her Ülkeden Kredi Kartlarını kabul ediyoruz.
+		</p>
+	</li>
+
+	<li>
+		<strong>Siteniz neden benim Kredı Kartımı kabul etmiyor?</strong>
+		<p>
+			Bazı Kredi Kartı Şirketleri doğrudan İnternet Bahis Sitelerine Ödeme yapmama Kurralarını sürdürüyorlar. Kredi Karti Şirketinizle İletişişime geçmek isteyebilirsiniz bu konuyu tartışmak için veya onun yerine e-wallet Ödeme Yöntemlerin bir Tanesini deneyebilirsiniz. Daha fazla Destek için lütfen bizimle burdan İletişime geçiniz: [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri.
+		</p>
+	</li>
+
+	<li>
+		<strong>Kredi Kartımdan yaptığım Ödeme reddedilirse veya geri çevirilirse ne yapmalıyım?</strong>
+		<p>
+			Bazen önceki Ödemeniz tamamlanmadan ikkinci bir Ödeme yapmaya çalışırsanız bu 24 Saatık  ve Haftalık Limitinize sayılabilir ve bu yüzden Ödeme Sorunu yapabilir. Bunun en yaygın Nedeni Talep Formundaki Alanların yanliş doldurulmasıdır. Lütfen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleriyle İletişime geçiniz bunu Rektifyie ettirmek için. Ayrıca bazı Kredi Kartı Şirketleri Online Bahis Sitesine doğrudan Ödeme yapmama Kurallarını sürdürüyor. Kredi Karti Şirketinizle İletişişime geçmek isteyebilirsiniz bu konuyu tartışmak için veya onun yerine e-wallet Ödeme Yöntemlerin bir Tanesini deneyebilirsiniz.		</p>
+	</li>
+
+	<li>
+		<strong>Benim Kartımı kullanarak Arkadaşın Hesabına Para yatırabilirmiyim?</strong>
+		<p>
+			Bunu yapamazsınız bunun üçüncü Şahıs Transferi olarak algılandığı için ve kesinlikle yasak olduğu için.		</p>
+	</li>
+
+	<li>
+		<strong>Yanlişlıktan yanliş Karttan Para yatırdım, yapabilecğim bir Şey varmı?</strong> 
+		<p>
+			Lütfen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Servisiyle İletişime geçiniz burdan:
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Hesaplarımın arasında Para aktarabilirmiyim? </strong>
+		<p>
+			Bireysel Hesaplar arasında Para aktaramazsınız, ama kendi Hesabınızda Casino, Sportsbook ve Poker arasında Para aktarabilirsiniz. 		</p>
+	</li>
+
+	<li>
+		<strong>IBAN nedir?</strong>
+		<p>
+			IBAN International Bank Account Number'ın kısaltmasıdır. IBAN uluslararası Banka Havalelerinde kullanılıyor ve Kazanclarınız Çekmeyi kolaylaştırır.
+		</p>
+	</li>
+
+	<li>
+		<strong>CVC2 Şifresi nedir?</strong>
+		<p>
+			CVC2 "Card Verification Code"un kısaltmasıdır. Bu Şifre Kredi Kartı ile yapilan uluslararası telefon Alişverişlerinde ve İnternet Ödemelerinde Güvenlik Tedbiri olarak gerekiyor. Bu Şifre 3 hanelidir ve Kredi Kartınızın Arka Tarafında bulunur. 	</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

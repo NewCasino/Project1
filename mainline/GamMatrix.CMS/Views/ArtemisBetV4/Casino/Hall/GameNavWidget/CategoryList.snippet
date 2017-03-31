@@ -1,0 +1,15 @@
+﻿<# var data = arguments[0]; #>
+<# for( var i = 0; i < data.length; i++) { #>
+
+<div class="CatSlider Cat-<#= data[i].ID.htmlEncode() #>">    
+    <h3 class="AdditionalTitle">
+        <a class="AdditionalLink" href="/Casino/Hall/Index/<#= data[i].ID.htmlEncode() #>" title="Display <#= data[i].Name.htmlEncode() #>" data-categoryid="<#= data[i].ID.htmlEncode() #>">
+            <span class="CatIcon">&para;</span>
+            <span class="CatText"><#= data[i].Name.htmlEncode() #></span>
+        </a>
+    </h3>
+    <div class="CatWrapper">
+        <ol class="GamesList Container" data-categoryid="<#= data[i].ID.htmlEncode() #>"></ol>
+    </div>
+</div>
+<# } #>

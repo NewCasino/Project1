@@ -1,0 +1,1 @@
+﻿You can deposit using credit card or debit debit, simply enter your card details, once your Credit Card is verified, your fund will be securely and instantly transferred into your gaming account.

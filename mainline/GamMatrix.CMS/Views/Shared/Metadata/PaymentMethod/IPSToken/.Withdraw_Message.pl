@@ -1,0 +1,1 @@
+Wyrób token IPS i przelej pieniądze na nowy kupon.

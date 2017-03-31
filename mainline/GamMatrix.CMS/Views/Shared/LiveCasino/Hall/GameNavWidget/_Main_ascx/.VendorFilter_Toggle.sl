@@ -1,0 +1,1 @@
+﻿Preklop prikazovanja iger od {0}

@@ -1,0 +1,1 @@
+﻿[Metadata:value(/Metadata/Settings.Operator_DisplayName)] - IPS токен вашего вывода средств

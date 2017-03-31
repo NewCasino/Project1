@@ -1,0 +1,1 @@
+E-poštni naslov ni na voljo ali je že v uporabi; poskusite uporabiti drug e-poštni naslov.

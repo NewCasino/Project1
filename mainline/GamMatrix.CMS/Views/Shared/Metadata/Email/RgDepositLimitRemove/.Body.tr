@@ -1,0 +1,11 @@
+﻿<p>Sayın $USERNAME$,<br />
+</p>
+<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile İletişimie geçtiğiniz için Teşekkür ederiz.<br />
+<br />Bu Eposta $LIMITEXPIRYDATE$ Tarihinde bireysel Para Yatırma Limitinizin $LIMITAMOUNT$ $LIMITPERIOD$ kalkacağını bildirmek içindir. <br />
+<br />Lütfen herhangi bir Sorunuz olduğunda bizimle İletişime geçmeye çekinmeyiniz:<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&#160;</p>
+<p><br />Saygılarımızla,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri Ekibi</p>
+
+

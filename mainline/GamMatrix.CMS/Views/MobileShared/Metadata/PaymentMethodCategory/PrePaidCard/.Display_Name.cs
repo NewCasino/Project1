@@ -1,0 +1,1 @@
+﻿Předplacené karty

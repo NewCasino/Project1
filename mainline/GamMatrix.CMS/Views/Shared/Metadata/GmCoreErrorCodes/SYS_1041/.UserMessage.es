@@ -1,0 +1,1 @@
+﻿El usuario está auto-excluido

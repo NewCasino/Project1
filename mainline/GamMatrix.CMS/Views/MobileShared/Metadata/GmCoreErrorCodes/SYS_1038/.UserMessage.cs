@@ -1,0 +1,1 @@
+﻿Současný vklad je {0}, pokud učiníte další vklad {1}, celkový vkald {2} bude vyšší než váš limit ({3} za {4})

@@ -1,0 +1,1 @@
+﻿Odesílatelovo telefonní číslo

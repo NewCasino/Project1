@@ -1,0 +1,1 @@
+Musisz potwierdzić, że zgadzasz się z Warunkami i postanowieniami.

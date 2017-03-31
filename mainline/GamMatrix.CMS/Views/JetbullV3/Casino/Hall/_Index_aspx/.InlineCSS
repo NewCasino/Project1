@@ -1,0 +1,2 @@
+﻿.Anonymous .Box.CashRewards{display:none;}
+.Message.RegisterMessage{display: inherit;}

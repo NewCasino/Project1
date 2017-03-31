@@ -1,0 +1,1 @@
+﻿El estado del dominio no ha cambiado

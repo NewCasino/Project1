@@ -1,0 +1,1 @@
+﻿Jeden rok

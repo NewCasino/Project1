@@ -1,0 +1,38 @@
+﻿<div style="font-family:Arial, sans-serif;">
+  <p><font color="#222222"   size="2">Stimate&nbsp;$FIRSTNAME
+$,</font></p>
+  <p><span style="font-size:10.0pt;;color:#222222">Va multumim pentru inregistrarea contului [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</span></p>
+  <p><span style="font-
+size:10.0pt;;color:#222222">Din motive de securitate procesul de inregistrare necesita verificarea adresei dvs. de email. Va rugam faceti click pe linkul de mai jos&nbsp;</span></p>
+  <p><a href="$ACTIVELINK$">
+$ACTIVELINK$</a></p>
+  <p><span style="font-size:10.0pt;;color:#222222">   Daca linkul nu functioneaza, va rugam sa copiati si sa inserati linkul direct in browser.    <span class="apple-converted-
+space">&nbsp;</span></span></p>
+  <p><span class="apple-converted-space"><span style="font-size:10.0pt;;color:#222222">Va rugam sa va asigurati ca parcurgeti aceasta verificare a emailului in urmatoarele 7 zile, 
+</span></span><span style="font-size:10.0pt;;color:#222222">in caz contrar aceasta poate duce la restrictionarea contului pentru protectia dumneavoastra.<span class="apple-converted-space">&nbsp;</span></span></p>
+  <p><span 
+style="font-size:10.0pt;;color:#222222">Daca aveti intrebari, va rugam sa ne contactati <u><a target="_blank" href="http://support.everymatrix.com/visitor/index.php?/Jetbull/LiveChat/Chat/StartInline/_sessionID=/_promp
+tType=chat/_proactive=0/_filterDepartmentID=7%2C1/_randomNumber=f7u2c474cgvoz4yw313wh5qn9o9o96ig/_fullName=/_email=/">pe Live Chat</a></u> sau email la <a href="mailto:[Metadata:htmlencode
+(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></span><span style="font-size:10.0pt;">.</span></p>
+  <p><span style="font-size:10.0pt;"> Va dorim mult noroc si distractie placuta!</span></p>
+  <p><span style="font-size:10.0pt;">Salutari,</span></p>
+  <p><span style="font-size:10.0pt;">Echipa Jetbull</span></p>
+</div>
+<script type="text/javascript">
+
+  var _gaq = 
+_gaq || [];
+  _gaq.push(['_setAccount', 'UA-5470473-6']);
+  _gaq.push(['_setDomainName', 'jetbull.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 
+'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; 
+s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+

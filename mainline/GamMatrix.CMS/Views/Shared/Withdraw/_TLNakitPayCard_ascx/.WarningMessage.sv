@@ -1,0 +1,1 @@
+Vänligen notera att TLNatik bara accepterar kreditsummor utan decimaler i Turkiska Lira. Vänligen försäkra dig om att du inte fyller i ett belopp med decimaler. 

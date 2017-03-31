@@ -1,0 +1,1 @@
+﻿Tuvimos recientemente cambios importantes en nuestros <a href="[Metadata:value(/Metadata/Settings.Terms_Conditions_Url)]" >Términos &amp; Condiciones</a>. Debes aceptarlos antes de proceder a jugar en el sitio. Si tienes alguna consulta, no dudes en contactar a soporte.

@@ -1,0 +1,1 @@
+﻿Blokada logowania przez następne 6 miesięcy

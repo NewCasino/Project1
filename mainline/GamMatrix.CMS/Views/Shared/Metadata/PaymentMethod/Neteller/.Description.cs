@@ -1,0 +1,1 @@
+﻿NETELLER je e-wallet servis, který umoňuje NETELLER zákazníkům vkládat, vybírat a převádět prostředky ze svého online NETELLER účtu na jejich herní účet. Je to bezpečné a prostředky jsou tak okamžitě dostupné přímo na vašem herním účtu. Klikněte&nbsp;<a href="/Deposit/NetellerQuickRegister">zde</a> a otevřete si NETELLER účet.

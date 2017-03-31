@@ -1,0 +1,1 @@
+Intelligent Payments je način povezovanja trgovcev in lokalnih kupcev v državah, kjer želijo trgovci razširiti svojo dejavnost, storitev pa jim pri tem pomaga z nižjimi stroški medbančnih provizij in obdelave.

@@ -1,0 +1,1 @@
+﻿Niepoprawny numer karty

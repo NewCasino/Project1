@@ -1,0 +1,1 @@
+﻿Registrirajte svoj novi [Metadata:value(/Metadata/Settings.Operator_DisplayName)] račun 

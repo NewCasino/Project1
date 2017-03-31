@@ -1,0 +1,1 @@
+﻿Transaktion till spelare {0}

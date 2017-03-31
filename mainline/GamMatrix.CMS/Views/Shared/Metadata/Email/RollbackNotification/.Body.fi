@@ -1,0 +1,5 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<p>Nostosi on peruutettu &lsquo;$TXCOMPLETEDDATE$", ja varat on palautettu pelitilillesi. Ole hyvä ja ota yhteys asiakaspalveluun, jos sinulla on kysmyksiä koskien siirtoasi.</p>
+SiirtoID: $TXID$Transaction Päiväys: $TXCREATEDDATE$ Summa: $TXAMOUNT$ $TXCURRENCY$.
+<p>Terveisin,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tiimi</p>
+

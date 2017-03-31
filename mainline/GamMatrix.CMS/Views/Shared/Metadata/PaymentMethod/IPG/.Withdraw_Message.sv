@@ -1,0 +1,1 @@
+﻿Uttag av pengar direkt till din bank via Intelligent Payments

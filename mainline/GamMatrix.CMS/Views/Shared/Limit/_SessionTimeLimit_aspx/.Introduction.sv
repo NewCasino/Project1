@@ -1,0 +1,3 @@
+Via menyn nedan kan du ange en tidsgräns för sessioner. Om du överskrider sessionstidsgränsen, loggas du ut från systemet och du kan därefter fortsätta spela genom att logga in igen. När en gräns har angetts, får du ett bekräftelsemeddelande via e-post. Du kan minska din gräns när som helst via den här menyn. Men, om du vill ta bort eller öka din gräns tillämpas en väntetid på 7 dagar. Väntetiden ger dig tid att tänka över din ändring.
+
+OBSERVERA! Ändringarna som du gör här börjar gälla nästa gång du loggar in.

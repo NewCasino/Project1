@@ -1,0 +1,1 @@
+Poskrbite, da se bodo vneseni podatki ujemali s podatki na vaši kartici AstroPay.

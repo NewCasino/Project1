@@ -1,0 +1,7 @@
+﻿Dette er en automatisk email, venligst ikke besvare den.  
+<hr/>
+<p>Kære $FIRSTNAME$</p>
+<p>Din konto er blevet blokeret på grund af for mange ugyldige log ind forsøg og vil automatisk åben igen efter 15 minutter.</p>
+<p>Hvis du har glemt dit password og ønsker at ændre det, kontakt os &quot;Glemt password&quot; link på websiden.</p>
+<p>For yderligere assistance kontakt <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Venlig hilsen, <br /> [Metadata:value(/Metadata/Settings.Operator_DisplayName)] kundeservice</p>

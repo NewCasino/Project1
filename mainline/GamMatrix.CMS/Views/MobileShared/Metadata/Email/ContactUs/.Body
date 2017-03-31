@@ -1,0 +1,12 @@
+﻿<em>This email is sent by customer on the web site from the "Contact Us" page.<br />
+DO NOT reply this email directly! You can find the customer email below.</em>
+<hr/>
+<ul>
+<li><strong>Customer Email</strong>:$EMAIL$</li>
+<li><strong>Customer Name</strong>:$NAME$</li>
+<li><strong>Subject</strong>:$SUBJECT$</li>
+<li><strong>User ID</strong>:$USERID$</li>
+<li><strong>Username</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

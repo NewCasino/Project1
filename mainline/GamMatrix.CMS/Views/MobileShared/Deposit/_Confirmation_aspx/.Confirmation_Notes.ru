@@ -1,0 +1,1 @@
+﻿Пожалуйста, обратите внимание, что Ваш депозит будет обработан компанией EveryMatrix Ltd, платежным оператором веб-сайта [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. В выписке из Вашего счета будет написано "EveryMatrix".

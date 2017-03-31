@@ -1,0 +1,4 @@
+﻿<h3>Sett et spill på NBA!</h3>
+<p>Hvis du liker NBA basketball, så har du kommet til rett sted.<br>Bli med oss ned på parketten og spill nå!
+</p>
+<a title="Sett et spill n&aring; ►" class="button" href="/Sports/?tournamentid=209435742" target="_top"><span class="GoldButtonText">Sett et spill n&aring;<span> ►</span></span> </a>

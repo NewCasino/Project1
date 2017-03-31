@@ -1,0 +1,1 @@
+Če želite igrati za pravi denar, se morate najprej prijaviti!

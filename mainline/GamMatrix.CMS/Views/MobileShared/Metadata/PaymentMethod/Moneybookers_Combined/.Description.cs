@@ -1,0 +1,1 @@
+﻿Skrill (Moneybookers) je e-peněženkovou službou, která umožňuje Skrill (Moneybookers) zákazníkům vkládat a vybírat prostředky z Skrill (Moneybookers) účtu na jejich účet hráčský.Platební metoda je zcela bezpečná a umožňuje okamžité převedení prostředků na hráčský účet. Klikněte&nbsp;<a href="http://www.Moneybookers.com/app/">zde</a> a otevřete si Skrill (Moneybookers) účet nyní.

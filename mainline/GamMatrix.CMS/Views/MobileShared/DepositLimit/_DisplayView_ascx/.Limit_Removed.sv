@@ -1,0 +1,1 @@
+Gränserna är borttagna, men de gäller tills slutdatumet

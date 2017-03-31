@@ -1,0 +1,1 @@
+ingen tillgänglig bank

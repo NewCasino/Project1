@@ -1,0 +1,67 @@
+﻿<div class="sitemap_items">
+  <div class="root_title">[Metadata:value(/Metadata/Settings.Operator_DisplayName)]</div>
+  <ul class="items">
+    <li><a href="/">Início</a></li>
+    <li><a href="/help">Ajuda</a></li>
+    <li> <a href="/customersupport">Apoio ao Cliente</a></li>
+    <li> <a href="/deposit">Métodos de Pagamento&nbsp;</a></li>
+    <li> <a href="/ForgotPassword">Palavra-passe</a></li>
+    <li> <a href="/register">Registo</a></li> 
+    <li> <a href="#top">Iniciar Sessão</a></li>
+    <li> <a href="/Sports/Home">Desporto</a></li>
+    <li> <a href="/Casino/Lobby">Casino</a></li>
+    <li> <a href="/Poker/">Poker</a></li>
+    <li> <a href="/Bingo/">Bingo</a></li>
+    <li> <a href="/Promotions/Home">Promoções</a></li>
+    <li> <a href="/AboutUs">Sobre nós</a></li>
+    <li> <a href="/ResponsibleGaming">Jogo Responsável</a></li>
+    <li> <a href="/TermsConditions">Termos &amp; Condiçõess</a></li>
+    <li> <a href="/Sitemap">Mapa do Website</a></li>
+    <li> <a href="/Affiliate/Home">Afiliados</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Sports</div>
+  <ul class="items">
+    <li> <a href="/help/Sports">Perguntas Frequentes</a></li>
+    <li> <a href="/Promotions/home/sportsbook">Promoções&nbsp;</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Casino</div>
+  <ul class="items">
+    <li> <a href="/help/Casino">FAQ</a></li>
+    <li> <a href="/Promotions/home/casino">Promoções</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Poker</div>
+  <ul class="items">
+    <li> <a href="#">Download</a></li>
+    <li> <a href="/Poker/Tournaments/CAKEPoker">Torneios</a></li>
+    <li> <a href="/PokerSchool">Escola de Poker</a></li>
+    <li> <a href="/help/Poker"> Perguntas Frequentes </a></li>
+    <li> <a href="/Promotions/TermsConditions/poker/LoyaltyLevels">Níveis de Lealdade</a></li>
+    <li> <a href="/Promotions/home/Poker">Promoçõess</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Promoçõess</div>
+  <ul class="items">
+    <li> <a href="/Promotions/Home">Melhores Promoções</a></li>
+    <li> <a href="/Promotions/home/sportsbook">Desporto</a></li>
+    <li> <a href="/Promotions/home/casino">Casino</a></li>
+    <li> <a href="/Promotions/home/Poker">Poker</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Afiliados</div>
+  <ul class="items">
+    <li> <a href="/Affiliate/home">Iniciar Sessão</a></li>
+    <li> <a href="#">Esqueceu-se da palavra-passe?</a></li>
+    <li> <a href="#">Registe-se Agora</a></li>
+  </ul>
+</div>
+
+
+

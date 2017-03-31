@@ -1,0 +1,1 @@
+Vnesite znake, ki jih vidite na sliki.

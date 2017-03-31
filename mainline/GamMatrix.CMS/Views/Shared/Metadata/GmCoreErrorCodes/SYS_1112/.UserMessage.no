@@ -1,0 +1,1 @@
+﻿Uttaket du er i ferd med å gjennomføre er sammen med tidligere manuelle uttak i sum større enn alle manuelle innskudd for denne brukeren ({0} + {1} > {2})

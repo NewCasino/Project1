@@ -1,0 +1,1 @@
+﻿Igrate v načinu {0}.

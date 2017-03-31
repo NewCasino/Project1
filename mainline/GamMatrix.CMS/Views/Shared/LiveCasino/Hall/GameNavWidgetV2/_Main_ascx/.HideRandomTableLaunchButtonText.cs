@@ -1,0 +1,1 @@
+﻿Schovat Nahrát nahodilou tabulku

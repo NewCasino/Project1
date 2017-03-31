@@ -1,0 +1,1 @@
+﻿A technical error occurred. Invalid currency. Please contact the merchant's customer service.

@@ -1,0 +1,1 @@
+Przejdź do zakładów sportowych teraz!

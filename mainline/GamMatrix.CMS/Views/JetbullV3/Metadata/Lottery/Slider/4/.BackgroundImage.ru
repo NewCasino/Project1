@@ -1,0 +1,1 @@
+﻿<img src="//cdn.everymatrix.com/JetbullV2/_files/Banners/LiveCasinoBG4.png" alt="Денежные награды" />

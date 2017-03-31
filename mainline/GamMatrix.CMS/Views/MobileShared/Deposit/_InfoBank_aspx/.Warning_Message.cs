@@ -1,0 +1,1 @@
+﻿Při bankovním převodu je důležité nezapomenout na uživatelské číslo (ID) <strong>{0}</strong>. Zároveň si prosím ponechte všechna potvrzení o převodu, která by mohla pomoci k vyřešení případných potíží.

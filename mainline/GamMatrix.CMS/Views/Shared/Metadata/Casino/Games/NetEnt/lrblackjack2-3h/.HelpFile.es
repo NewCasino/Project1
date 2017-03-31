@@ -1,0 +1,1 @@
+﻿/game/gamerules.jsp?game=lrblackjack2-3h&lang=es

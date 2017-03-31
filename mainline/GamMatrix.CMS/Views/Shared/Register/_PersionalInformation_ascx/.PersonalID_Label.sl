@@ -1,0 +1,1 @@
+Številka osebnega dokumenta

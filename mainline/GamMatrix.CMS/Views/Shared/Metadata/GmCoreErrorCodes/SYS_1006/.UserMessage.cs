@@ -1,0 +1,1 @@
+﻿Pravidlo poplatku za duplicitního vendora

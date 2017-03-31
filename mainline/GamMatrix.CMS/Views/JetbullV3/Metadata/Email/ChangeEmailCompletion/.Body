@@ -1,0 +1,9 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+
+<p>This is to confirm that your contact email for [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] has been changed as per your request.</p>
+<p>If you have not asked us to change your email address, please inform support immediately at 
+<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+</p>
+
+Kind Regards, 
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team

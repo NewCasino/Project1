@@ -1,0 +1,21 @@
+<!----
+HtmlSnippet is a template which allows you to populate the HTML basing on data-source, 
+
+* For globalization & localization, the text stored in Metadata is merged to the HTML by following syntax.
+[metadata:value(.XXXXXXXXX)]			-- insert without any process
+[metadata:htmlencode(.XXXXXXXXX)]		-- insert the text after html-encoding
+[metadata:scriptencode(.XXXXXXXXX)]		-- insert the text after script-encoding
+You can use the "Insert Metadata..." link above to select the metadata entry.
+
+* Javascript code between <# ... #> is intended to control the logic of rendering.
+  <#= #> is used to insert the javascript value to the HTML
+
+* HtmlSnippet is a template could run on both client side (Web Browser) and server side (Google JS V8 Engine)
+  Hence DO NOT use any javascript depending on DOM!
+
+* Besides the basic JavaScript function, there are some extension functions below can be used.
+<#= "<>?&".htmlEncode() #>			-- html-encode string
+<#= "<>?&".scriptEncode() #>			-- script-encode string
+
+* HTML comments will not be remained in the final HTML, you don't need worry about that.
+----->

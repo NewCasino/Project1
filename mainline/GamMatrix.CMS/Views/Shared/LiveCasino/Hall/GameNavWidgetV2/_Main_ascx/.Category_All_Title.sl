@@ -1,0 +1,1 @@
+Prikažite vse razpoložljive igre

@@ -1,0 +1,1 @@
+Kontrollera att den valda valutan ovan är densamma som på din BOCASH-voucher.

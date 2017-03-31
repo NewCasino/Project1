@@ -1,0 +1,1 @@
+Aktiviteten har slutförts!

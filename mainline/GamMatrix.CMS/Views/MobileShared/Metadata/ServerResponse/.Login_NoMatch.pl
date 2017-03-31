@@ -1,0 +1,1 @@
+﻿Logowanie nie powiodło się. Proszę sprawdzić poprawność nazwy użytkownika i hasła.

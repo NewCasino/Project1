@@ -1,0 +1,1 @@
+﻿Neplatný nebo neznámý uživatel

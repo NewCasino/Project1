@@ -1,0 +1,1 @@
+﻿Podaj numer telefonu komórkowego złożony z 7-30 cyfr

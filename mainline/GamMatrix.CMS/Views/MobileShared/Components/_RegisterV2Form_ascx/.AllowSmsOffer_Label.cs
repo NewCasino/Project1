@@ -1,0 +1,2 @@
+﻿Povolit SMS nabídky
+

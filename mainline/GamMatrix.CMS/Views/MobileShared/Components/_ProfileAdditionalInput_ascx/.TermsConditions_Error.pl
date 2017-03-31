@@ -1,0 +1,1 @@
+﻿Musisz potwierdzić, że akceptujesz zasady i warunki

@@ -1,0 +1,1 @@
+﻿Nordea via Moneybookers is a very secure way to transfer funds from your bank account online.&nbsp;Nordea allows quick and easy transfers without any inconvenience.

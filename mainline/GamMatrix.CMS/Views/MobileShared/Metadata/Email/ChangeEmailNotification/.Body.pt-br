@@ -1,0 +1,4 @@
+﻿<p>Você pediu que o seu [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] contato e-mail seja alterado. Um e-mail de verificação foi enviado para este novo endereço de email($EMAIL$).</p>
+<p>Caso você não tenha solicitado a alterar o seu endereço de e-mail, por favor nos informe imediatamente ao <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Atenciosamente, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Equipe de Atendimento ao Consumidor</p>
+

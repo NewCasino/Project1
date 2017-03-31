@@ -1,0 +1,6 @@
+﻿<p>Es ilegal abrir una cuenta o jugar en [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] si usted no es mayor de 18 a&#241;os. Adem&#225;s de que nosotros llevamos a cabo con regularidad controles al azar sobre la mayor&#237;a de edad de nuestros jugadores, y requerimos un documento que pruebe la mayor&#237;a de edad de los usuarios de los m&#233;todos de pago que est&#225;n disponibles tambi&#233;n para menores de edad. {0} le puede solicitar alg&#250;n documento para verificar la edad. Hasta que su edad no sea verificada, tenemos la obligaci&#243;n de suspender su cuenta.<br />
+<br />
+Si&#160; usted comparte una computadora con adolescentes y sospecha de que est&#225;n visitando sitios inapropiados para ellos, considere el uso de sistemas de filtrado de sitios web. Este software permite a los padres el control del acceso a Internet, para que sus hijos no visiten, por ejemplo, sitios web de apuestas y de juegos.&#160;&#160;<br />
+&#160;</p>
+<p>Net Nanny&#8482; www.netnanny.com </p>
+<p>CyberPatrol www.cyberpatrol.com </p>

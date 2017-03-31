@@ -1,0 +1,1 @@
+﻿Por favor tenga en cuenta que su dep&oacute;sito ser&aacute; procesado por EveryMatrix Ltd., el operado de pago del sitio Web [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], ver&aacute; EveryMatrix en el extracto de su cuenta.

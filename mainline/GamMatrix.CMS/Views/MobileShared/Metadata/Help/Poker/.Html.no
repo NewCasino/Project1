@@ -1,0 +1,31 @@
+﻿<ol>
+        
+<li><strong>Jeg har lastet ned programvaren - hvor er den?</strong>
+<p>When the [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker-programvaren har blitt installert på datamaskinen, ett [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker ikon vil dukke opp på ditt skrivebord. Bare dobbeltklikk på dette ikonet for å starte poker programvaren, og du vil umiddelbart bli tatt til vår Spill Lobby.</p>
+</li>
+
+
+<li><strong>Mitt passord blir ikke akseptert?</strong>
+<p>Dersom du taster feil passord vil dette resultere i at du mottar følgende melding: "Ute av stand til å validere passord". Merk at passordet er case sensitive, sjekk derfor at "Caps Lock" er av. Hvis utfordringene med å logge inn vedvarer, kan du velge "Glemt passord" funksjonen. Da blir et nytt passord utstedt til den e-postadressen som er registrert på din [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] konto.</p>
+</li>
+
+
+<li><strong>Kan jeg forandre mitt poker alias?</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker gir spillerne muligheten til å endre sitt poker alias (navnet som vises ved pokerbordene) hver 7. dag. For å gjøre dette, kan du gå til "Min konto" når du er logget inn på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker programvaren.</p>
+</li>
+
+	
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+

@@ -1,0 +1,17 @@
+﻿<p>Dear&#160; $USERNAME$,<br />
+<br />
+Tak for din registrering på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+<br />
+<br />
+For din sikkerhed vil vi gerne minde dig om at godkende din email for at sikre din konto forbliver aktiv og du kan fortsætte med at nyde alle de gode tilbud på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].<br />
+<br />Klik venligst på link nedenunder, hvis det ikke svarer, prøv at kopiere linket ind i din browser.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />Hvis du ikke har registreret med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+, venligst se bort fra denne e-mail eller informere <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+Sørg for at fuldføre e-mail bekræftelse med det samme for at forhindre, at din konto er begrænset til din beskyttelse.
+<p><br />
+Venlig hilsen,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Kundeservice Team<br />

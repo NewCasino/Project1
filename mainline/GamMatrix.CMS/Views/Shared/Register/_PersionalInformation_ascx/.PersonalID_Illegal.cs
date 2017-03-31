@@ -1,0 +1,1 @@
+﻿Pole je neplatné

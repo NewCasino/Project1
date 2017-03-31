@@ -1,0 +1,2 @@
+﻿Neukončené výběry
+

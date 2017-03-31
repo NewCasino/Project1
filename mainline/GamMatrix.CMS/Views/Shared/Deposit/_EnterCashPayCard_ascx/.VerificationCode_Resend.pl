@@ -1,0 +1,1 @@
+Wyślij ponownie kod weryfikacyjny

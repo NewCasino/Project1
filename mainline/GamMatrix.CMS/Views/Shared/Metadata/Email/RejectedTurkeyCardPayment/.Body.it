@@ -1,0 +1,7 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+<p>il tuo deposito è stato rifiutato.&nbsp;</p>
+<p>Per favore controlla le informazioni inserite e riprova più tardi.</p>
+<p>Per qualunque domanda non esitare a contattare <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Saluti,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team</p>
+
+

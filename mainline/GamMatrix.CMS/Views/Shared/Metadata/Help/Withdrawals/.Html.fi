@@ -1,0 +1,109 @@
+﻿<ol>
+
+ <li> <strong>Miten voin tehdä noston verkkotilini kautta?</strong>
+ <p>
+ Voit pyytää nostoa &nbsp; milloin &nbsp; tahansa, kunhan olet täyttänyt kaikki vaatimukset ja järjestelmämme on valtuuttanut nostosi. Voit myös nostaa niin monta kertaa kuin haluat, mutta noudattamiemme rahanpesu- ja petostentorjtalakien takia [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] emme voi sallia nostoja tililtäsi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]&nbsp; ennen 24 tunnin kulumista talletuksestasi. &nbsp; Miniminostosumma on 10 euroa.
+ </p>
+ </li>
+
+ <li> <strong>Onko rajaa sille, kuinka paljon voin nostaa?</strong>
+ <p>
+ Miniminostosumma on 10,00 € tai vastaava summa valuutassasi. Maksiminostosumma on 5 000 € per päivä tai vastaava summa valuutassasi.
+ </p>
+ </li>
+
+ <li>
+ <strong>Voinko peruuttaa nostopyynnön? </strong>
+ <p>
+Sinun tulee ottaa yhteyttä ontact [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Casiakaspalveluun: jos &nbsp; nostoa ei ole käsitelty, se voidaan pysäyttää.
+ </p>
+ </li>
+
+ <li>
+ <strong>Voiko voittoni maksaa luotto-/pankkikortilleni?</strong>
+ <p>
+Kyllä voi, kunhan se on sama kortti, jota käytit alkuperäiseen talletukseen ja kunhan korttille voi &nbsp; palauttaa &nbsp; talletuksen.
+ </p>
+ </li>
+
+ <li>
+ <strong>Käytin luotto / maksukorttia talletusta varten: voinko pyytää maksua muulla maksutavalla?</strong> 
+ <p>
+ Voit, mutta saatamme tarvita uutta maksutapaasi koskevia asiakirjoja ja tietoja.
+ </p>
+ </li>
+
+ <li>
+ <strong>Miksen voi valita maksutapaa, jolla minulle maksetaan?</strong>
+ <p>
+ Tämä johtuu rahanpesulaeista, joita me noudatamme, ja myös meidän että teidän rahaliikenteen turvallisuudesta; jolleivat erikseen valtuutettuja, kaikki takaisinmaksut palautuvat käyttäen samaa maksutapaa kuin talletusta tehdessä.
+ </p>
+ </li>
+
+ <li>
+ <stong>Perittekö nostoista maksuja?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> 
+ <p>
+ Nostomaksut vaihtelevat valitsemastasi nostotavasta. Ole hyvä ja napsauta '
+ <a href="/deposit">Maksutapa</a>
+ ' nähdäksesi tietoja maksuista, huomioi, että pankkisi saattaa veloittaa palveluistaan.
+ </p>
+ </li>
+
+ <li>
+ <strong>Kuinka kauan nostojen käsittely kestää?</strong>
+ <p>
+ Tämä voi vaihdella riippuen valitsemastasi nostotavasta. Ole hyvä ja napsauta '
+ <a href="/deposit">Maksutapa</a>
+ ' to see all of the withdrawal methods available to you and their processing times.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Why is it that a withdrawal to my card takes days while a deposit is immediate?
+ </strong>
+ <p>
+ Teemme useita tarkastuksia ennen nostojen lähettämistä  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ja tämä viivästyttää nostoja noin 12 tuntia. Nämä tarkastukset ovat osa jatkuvaa sitoutumista asiakkaidemme varojen turvallisuuden ylläpitämiseksi. Muut viiveet liittyvät maksupalvelujen tarjoajien rajoituksiin.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Mitä tapahtuu, jos kortti, jolle olen nostanut rahaa onkin vanhentunut tai peruutettu?
+ </strong>
+ <p>
+ Sinun tulee kertoa meille korttimuutoksista &nbsp; ja toimittaa todisteita siitä, että kortti on vanhentunut (tai muista muutoksen syistä). Kaikki uudet kortit pitää rekisteröidä meillä ja sinun [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tilillesi.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Voinko nostaa tililtäni ja siirtää summan jollekin muulle?
+ </strong>
+ <p>
+ Ei: tämä tulkitaan kolmannen osapuolen transaktioksi eikä ole missään olosuhteissa sallittua.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Mikä on yrityksen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] nostoperiaate?
+ </strong>
+ <p>
+ Tilisi on oltava aktiivinen ja sillä on oltava vähimmäismäärä rahaa voidaksesi tehdä noston. Yrityksen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kampanjoihin osallistuviin pelaajiin saattaa kohdistua joitakin rajoituksia.
+ </p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

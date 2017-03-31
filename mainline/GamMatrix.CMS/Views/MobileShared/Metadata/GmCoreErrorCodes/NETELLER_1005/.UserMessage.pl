@@ -1,0 +1,1 @@
+﻿Żądana kwota jest niższa niż $10 lub przekracza limit przelewów ustalony przez sprzedawcę. Aby uzyskać więcej informacji, skontaktuj się z działem obsługi klienta sprzedawcy.

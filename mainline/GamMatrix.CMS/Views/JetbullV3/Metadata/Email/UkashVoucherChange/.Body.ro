@@ -1,0 +1,10 @@
+﻿<p>Stimate $USERNAME$,</p>
+<p>Ati folosit o parte din valoarea voucherului Ukash, iar mai jos gasiti detaliile noului voucher Ukash.</p>
+<ul>
+     <li><strong>Numar Voucher Ukash</strong>:$VOUCHERNUMBER$ </li>
+     <li><strong>Valoare Voucher Ukash</strong>:$VOUCHERAMOUNT$ </li>
+     <li><strong>Data limita Voucher Ukash </strong>:$VOUCHEREXPIRYDATE$ </li>
+</ul>
+<p>Daca aveti intrebari in legatura cu voucherul dvs. Ukash, nu ezitati sa ne contactati la<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</p>
+<p>Salutari,</p>
+<p>Echipa [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]</p>

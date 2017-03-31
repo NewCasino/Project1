@@ -1,0 +1,1 @@
+Ogiltig affiliate-markering i din url, vänligen kontrollera. 

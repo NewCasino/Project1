@@ -1,0 +1,1 @@
+﻿Geef de karakters van het plaatje op.

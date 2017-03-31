@@ -1,0 +1,11 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>您已經使用了您的Ukash代金券部分的金額,下面是您的Ukash代金券當前詳情</p>
+<ul>
+<li><strong>UKash代金券號碼</strong>:$VOUCHERNUMBER$</li>
+<li><strong>UKash代金券金額</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>UKash代金券過期日期</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>如果您有任何問題請隨時聯繫<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> </p>
+<p> </p>
+<p>謹致問候</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]客戶支持團隊</p>

@@ -1,0 +1,1 @@
+﻿/game/gamerules.jsp?game=roulette2adv&lang=pl

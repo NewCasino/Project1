@@ -1,0 +1,1 @@
+﻿Kod potwierdzający musi składać się z 6 cyfr.

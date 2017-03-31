@@ -1,0 +1,1 @@
+PayPal je hitrejši in varnejši način pošiljanja in prejemanja denarja ter plačevanja preko spleta.

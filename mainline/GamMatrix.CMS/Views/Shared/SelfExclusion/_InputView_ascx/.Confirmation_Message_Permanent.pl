@@ -1,0 +1,1 @@
+Twoje konto zostanie zamknięte na zawsze i nie można go już otworzyć, czy na pewno chcesz kontynuować?

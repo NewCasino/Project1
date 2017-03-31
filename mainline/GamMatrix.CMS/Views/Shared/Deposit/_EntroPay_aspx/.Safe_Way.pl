@@ -1,0 +1,1 @@
+To bezpieczny, wygodny sposób wydawania pieniędzy online. 

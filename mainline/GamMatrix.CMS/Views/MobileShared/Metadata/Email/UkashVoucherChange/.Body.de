@@ -1,0 +1,9 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>Du hast Teil Deines ukash Gutscheines aufgebraucht und anbei die Details des neuen Gutscheines.</p>
+<ul>
+<li><strong>Ukash Gutschein Nummer</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Ukash Gutschein Betrag</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>Ukash Gutschein Ablaufsdatum</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>bei Fragen was diesen Gutschein angeht, kontaktiere bitte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Freundliche Grüsse,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Team</p>

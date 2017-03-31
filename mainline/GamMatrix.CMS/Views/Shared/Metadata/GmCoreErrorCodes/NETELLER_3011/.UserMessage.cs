@@ -1,0 +1,1 @@
+﻿ID účtu, které jste vložil není platné nebo váš účet nepřijímá platby.

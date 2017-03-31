@@ -1,0 +1,7 @@
+﻿<p>Salutare $FIRSTNAME$,</p>
+<p>Ati solicitat ca adresa de e-mail pentru [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sa fie schimbata.</p>
+<p>Din motive de securitate, trebuie sa va verificam noua adresa de e-mail. Pentru aceasta, faceti click pe link-ul de mai jos:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Daca acest link nu functioneaza, copiaza linkul direct in browser.</p>
+<p>Daca nu ati solicitat schimbarea adresei de e-mail, ignorati acest mesaj sau informati-ne la <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Toate cele bune, <br /> Echipa Jetbull</p>

@@ -1,0 +1,1 @@
+﻿Niepoprawny kod zabezpieczający karty

@@ -1,0 +1,1 @@
+﻿[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] - Powiadomienie o zmianie adresu e-mail

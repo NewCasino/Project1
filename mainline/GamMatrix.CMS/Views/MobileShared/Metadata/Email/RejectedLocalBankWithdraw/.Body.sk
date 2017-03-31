@@ -1,0 +1,4 @@
+﻿<p>Dobrý deň $FIRSTNAME$,</p>
+Váš výber bol zamietnutý, skontrolujte informácie o Vašom bankovom účte a skúste to znova.
+<p>Ak máte akúkoľvek otázku ohľadom Vášho poukazu, prosím, neváhajte kontaktovať <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>s pozdravom,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

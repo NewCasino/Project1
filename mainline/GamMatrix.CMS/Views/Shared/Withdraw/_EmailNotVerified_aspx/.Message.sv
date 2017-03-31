@@ -1,0 +1,1 @@
+﻿Du kan inte göra uttag för att ditt konto inte är aktiverad

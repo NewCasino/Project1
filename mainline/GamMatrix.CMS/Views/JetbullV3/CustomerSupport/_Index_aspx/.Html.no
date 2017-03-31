@@ -1,0 +1,58 @@
+﻿<div class="generalContainer">
+<div class="SupportBanner"><img src="//cdn.everymatrix.com/JetbullV2/img/customersupport.png" /></div>
+<ul class="SupportContent">
+<li>
+<p>Svar p&aring; de vanligste sp&oslash;rsm&aring;lene fra v&aring;re kunder finner du i v&aring;r&nbsp;<a href="/help" target="_blank">FAQ</a>. Dette er ofte den raskeste m&aring;ten &aring; f&aring; svar p&aring; dine sp&oslash;rsm&aring;l.</p>
+<p>V&aring;rt kyndige og hjelpsomme kundesenter st&aring;r til tjeneste n&aring;r du har sp&oslash;rsm&aring;l ang&aring;ende nettsiden, produkter, eller annet.</p>
+<p>For &aring; kunne hjelpe deg mest mulig effektivt ber vi deg ha f&oslash;lgende klart n&aring;r du tar kontakt med v&aring;r Live Chat:</p>
+<p><br /> &bull;&nbsp;&nbsp; &nbsp;Brukernavn &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br /> &bull;&nbsp;&nbsp; &nbsp;E-post addresse (den du har registrert hos oss)&nbsp;<br /> &bull;&nbsp;&nbsp; &nbsp;F&oslash;dselsdato &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br /> &bull; &nbsp; &nbsp;Fullt navn og addresse<br /> <br /></p>
+</li>
+<li>
+<div class="SupportTitle">Live Chat</div>
+<br />
+<p>Den raskeste m&aring;ten &aring; ta kontakt med kundesenteret p&aring; er &aring; chatte direkte med oss via&nbsp;<a href="http://www.livehelpnow.net/livechat.asp?c=19692&amp;zzwindow=21015&amp;d=21838&amp;custom1=&amp;custom2=&amp;custom3=" target="_blank">Live Chat</a>. M&aring;let v&aring;rt er &aring; besvare sp&oslash;rsm&aring;l og assistere deg umiddelbart. Hvis dette ikke er praktisk mulig s&aring; kan du stole p&aring; at vi sender deg et svar pr. e-post s&aring; snart vi kan.</p>
+<br />
+<div id="liveSupport">
+<div>
+<div id="proactivechatcontainer94e63bv3dr">Med Live Chat er v&aring;rt kundesenter aldri mer enn et museklikk unn&aring;, og du finner Live Chat i toppmenyen p&aring; alle Jetbull-sider. Hvis Live Chat ikke er tilgjengelig n&aring;r du trenger hjelp, s&aring; anbefaler vi v&aring;r FAQ eller &aring; sende oss en e-post.<br /><br />
+<div id="proactivechatcontainer94e63bv3dr">V&aring;r Live Chat er &aring;pen hver dag fra 09:00 til 00:00 norsk tid.<br /><br />Vi er veldig stolte over &aring; ha vunnet 'Beste Kundeservice' i LiveHelpNow Challenge f&oslash;lgende m&aring;neder:</div>
+<br />
+<div class="lhnchallenge" style="text-align: center; width: 100px;"><a target="_blank" href="http://challenge.livehelpnow.net" style="text-decoration: none;" class="badge"> 
+<table border="0">
+<tbody>
+<tr>
+<td><img src="http://challenge.livehelpnow.net/wp-content/themes/livehelpnow/images/challenge/2014/thumbs/APR_LHNAward.png" style="width: 100px;" /></td>
+<td><img src="http://challenge.livehelpnow.net/wp-content/themes/livehelpnow/images/challenge/2014/thumbs/MAY_LHNAward.png" style="width: 100px;" /></td>
+<td><img src="http://challenge.livehelpnow.net/wp-content/themes/livehelpnow/images/challenge/2014/thumbs/JUN_LHNAward.png" style="width: 100px;" /></td>
+</tr>
+<tr>
+<td><img src="http://challenge.livehelpnow.net/wp-content/themes/livehelpnow/images/challenge/2014/thumbs/JUL_LHNAward.png" style="width: 100px;" /></td>
+<td><img src="http://challenge.livehelpnow.net/wp-content/themes/livehelpnow/images/challenge/2014/thumbs/AUG_LHNAward.png" style="width: 100px;" /></td>
+<td><img src="http://challenge.livehelpnow.net/wp-content/themes/livehelpnow/images/challenge/2014/thumbs/SEP_LHNAward.png" style="width: 100px;" /></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="http://challenge.livehelpnow.net/wp-content/themes/livehelpnow/images/challenge/2014/thumbs/OCT_LHNAward.png" style="width: 100px;" /></td>
+<td><img src="http://challenge.livehelpnow.net/wp-content/themes/livehelpnow/images/challenge/2014/thumbs/NOV_LHNAward.png" style="width: 100px;" /></td>
+<td><img src="http://challenge.livehelpnow.net/wp-content/themes/livehelpnow/images/challenge/2014/thumbs/DEC_LHNAward.png" style="width: 100px;" /></td>
+</tr>
+</tbody>
+</table>
+</a><br /><br /></div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul class="SupportContent">
+<li>
+<div class="SupportTitle">E-post</div>
+<br />
+<p>Ikke n&oslash;l med &aring; sende en e-post til support@jetbull.com om du trenger hjelp eller har sp&oslash;rsm&aring;l. Du som kunde er viktig for oss! Vi pr&oslash;ver alltid &aring; besvare henvendelser s&aring; snart vi kan og vi svarer alltid innen 24 timer.</p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul class="SupportContent">
+</ul>
+</div>

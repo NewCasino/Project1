@@ -1,0 +1,2 @@
+﻿Filtruj hry od provozovatele.
+

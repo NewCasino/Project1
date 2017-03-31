@@ -1,0 +1,1 @@
+Wpisz swój adres e-mail, a otrzymasz wiadomość e-mail zawierającą Twoją nazwę użytkownika.

@@ -1,0 +1,1 @@
+Vær oppmerksom på at grenser baserer seg på en kalenderuke eller kalendermåned. Den angitte innskuddsgrensen nullstilles ved begynnelsen av hver nye uke eller måned. Eksempel: Hvis du angir en månedlig innskuddsgrense på 100 euro 20. august og setter inn maksbeløpet innen utgangen av måneden, kan du sette inn 100 euro igjen fra og med 1. september.

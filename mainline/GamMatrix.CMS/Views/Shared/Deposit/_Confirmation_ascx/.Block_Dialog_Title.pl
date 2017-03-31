@@ -1,0 +1,1 @@
+Zakończ tę transakcję w nowo otwartym oknie.

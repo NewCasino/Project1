@@ -1,0 +1,2 @@
+﻿Powód zawieszenie kona
+

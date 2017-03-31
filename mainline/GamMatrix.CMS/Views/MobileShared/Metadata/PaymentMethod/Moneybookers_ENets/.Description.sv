@@ -1,0 +1,1 @@
+eNETS vua Moneybookers tillåter dig att lätt göra omedelbara och säkra betalningar från ditt bankkonto. För kunder i Singapore.

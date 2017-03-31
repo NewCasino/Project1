@@ -1,0 +1,1 @@
+﻿Banco no aceptado

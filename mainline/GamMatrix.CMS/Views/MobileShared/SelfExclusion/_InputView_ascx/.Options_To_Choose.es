@@ -1,0 +1,1 @@
+﻿Quizá ha estado jugando durante demasiado tiempo y/o tiene necesidad de jugar más. Por esta razón le ofrecemos dos opciones para que elija:

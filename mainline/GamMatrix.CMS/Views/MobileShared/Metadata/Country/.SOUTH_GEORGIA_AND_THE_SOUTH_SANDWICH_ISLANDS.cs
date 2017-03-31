@@ -1,0 +1,1 @@
+﻿Jižní Georgie a Jižní Sandwichovy ostrovy

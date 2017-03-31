@@ -1,0 +1,1 @@
+Du kan ikke logge inn før {0}, er du sikker på at du vil fortsette?

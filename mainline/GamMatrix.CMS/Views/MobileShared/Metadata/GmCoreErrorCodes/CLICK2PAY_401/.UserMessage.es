@@ -1,0 +1,1 @@
+﻿La cantidad de la transacción supera el límite de crédito de la cuenta.

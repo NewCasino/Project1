@@ -1,0 +1,36 @@
+﻿<ol>
+
+    <li> <strong>Yazılımı indirdim ,nerede bulabilirim onu?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker Uygulaması başarılıyla Bilgisayarınıza yüklendiği zaman, Masaüsünüzde bir [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker Sembolu görünücek. Bu Sembolun üzerine çift tıklarsanız anında Oyun Lobbisine götürüleceksiniz.         </p>
+    </li>
+
+    <li> <strong>Parolam kabul edilmiyor ?</strong>
+        <p>
+            Yanlış bir Şifre girmek çoğu Zaman 'Parola onaylanamadı' Sonucuna varabilir. Parolaların büyük/küçük harflere duyarlı olduklarından 'CapsLock' kapalı olduğundan emin olunuz. Hala Sorun yaşarsaniz 'Parolamı unuttum' Dügmesine tıklayınız ve [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Hesabınızda kayıtlı olan Eposta Adresinize yeni bir Parola gönderilecek.
+	
+        </p>
+    </li>
+
+    <li>
+        <strong>Takma Adımı değiştirebilirmiyim?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker Oyuncularına her 7 günde bir Oyuncu ID'lerini (Masada görünen İsimleri) değiştirmeye hak tanıyor. Bunu yapmak için lütfen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker Uygulamasına Giriş yaptıktan 'Hesabım' Tabını ziyaret ediniz.        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+
+
+

@@ -1,0 +1,1 @@
+﻿Lägsta insättningsbelopp

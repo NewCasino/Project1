@@ -1,0 +1,1 @@
+Poskrbite, da bosta izbrana valuta zgoraj in »Vrednost za Ukash« spodaj enaka valuti in znesku na vaši kartici Ukash.

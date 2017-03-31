@@ -1,0 +1,1 @@
+Bekräfta lösenordet

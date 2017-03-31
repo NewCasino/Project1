@@ -1,0 +1,1 @@
+Następnych 6 miesięcy

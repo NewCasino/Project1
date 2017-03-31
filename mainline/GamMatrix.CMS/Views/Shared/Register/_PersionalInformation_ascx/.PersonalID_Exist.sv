@@ -1,0 +1,1 @@
+Ditt ID-nummer har redan registrerats.

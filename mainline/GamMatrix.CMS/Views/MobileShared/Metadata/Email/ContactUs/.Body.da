@@ -1,0 +1,11 @@
+﻿<em>Denne email er sendt af kunden på hjemmesiden fra "kontakt os" siden.<br />Venligst IKKE svare på denne email direkte! Du kan finde kundeservice email nedenunder.</em>
+<hr/>
+<ul>
+<li><strong>Kundeservice email</strong>:$EMAIL$</li>
+<li><strong>Kunde navn</strong>:$NAME$</li>
+<li><strong>Subject</strong>:$SUBJECT$</li>
+<li><strong>Bruger ID</strong>:$USERID$</li>
+<li><strong>Brugernavn</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

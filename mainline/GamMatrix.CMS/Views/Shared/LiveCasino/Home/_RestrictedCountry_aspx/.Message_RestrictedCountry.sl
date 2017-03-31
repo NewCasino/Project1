@@ -1,0 +1,1 @@
+Žal je bil vaš račun omejen, zato lahko izplačilo izvedete samo za obstoječa sredstva na svojem računu. Če imate kakršna koli vprašanja, se obrnite na našo ekipo za podporo.

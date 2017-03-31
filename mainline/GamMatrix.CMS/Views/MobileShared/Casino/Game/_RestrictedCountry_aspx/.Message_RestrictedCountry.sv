@@ -1,0 +1,1 @@
+På grund av spelreglemente i ditt land är uttag från ditt konto enda aktivitet du får göra.

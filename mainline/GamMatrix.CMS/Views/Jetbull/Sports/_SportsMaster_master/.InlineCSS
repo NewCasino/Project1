@@ -1,0 +1,4 @@
+﻿#jetbull-header .balance-list { padding:0px; top:33px}
+#sportsDescriptionData{display:none;}
+#gameDescroption #sportsDescriptionData{ display:block;}
+#balance-list{ color:#fff;}

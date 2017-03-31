@@ -1,0 +1,2 @@
+﻿Nechci žádný bonus
+

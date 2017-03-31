@@ -1,0 +1,9 @@
+<p>$FIRSTNAME$様、</p>
+<p>お客様はUkashバウチャーの一部を費やし、下記が新Ukashバウチャーの詳細です。</p>
+<ul>
+<li><strong>Ukash バウチャー番号</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Ukash バウチャー額</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>Ukash バウチャー使用日</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>そのバウチャーについてご質問等ありましたら<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>までご連絡下さい。</p>
+<p>敬具、<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] チーム</p>

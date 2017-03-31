@@ -1,0 +1,1 @@
+Beloppet kan inte vara tomt.

@@ -1,0 +1,1 @@
+Du måste bekräfta att du är minst {0} år

@@ -1,0 +1,1 @@
+﻿Zamítnuto oddělením risku. Kontaktujte prosím zákaznickou podporu na service@click2pay.com.

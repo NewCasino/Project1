@@ -1,0 +1,15 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Para çekiminiz başarıyla tamamlandı.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Lütfen banka hesabınızı kontrol ediniz.</strong>
+  </span>
+</p>
+<p>
+  Herhangi bir sorunda bizler ile kontağa geçiniz<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team
+</p>
+
+

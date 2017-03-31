@@ -1,0 +1,1 @@
+﻿<p class="ATHP">Tap the <span class="ATHIcon">Add to home screen</span> icon below and select "Add to Home Screen".</p>

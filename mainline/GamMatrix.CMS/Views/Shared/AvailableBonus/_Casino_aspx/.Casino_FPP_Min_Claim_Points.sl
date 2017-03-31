@@ -1,0 +1,1 @@
+Najmanjše št. točk za prevzem

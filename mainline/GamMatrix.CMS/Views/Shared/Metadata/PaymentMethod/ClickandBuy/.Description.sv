@@ -1,0 +1,1 @@
+ClickandBuy är en  e-wallet service som gör det möjligt för ClickanBuy kunder att ladda, ta ut och föra över deras medel från sitt spelkonto. Det är säkert och dina medel är tillgängliga på ditt spelkonto omedelbart.Klicka <a href="http://www.clickandbuy.com/UK/en/international.html" target="_blank">här</a>för att öppna ett ClickandBuy konto.

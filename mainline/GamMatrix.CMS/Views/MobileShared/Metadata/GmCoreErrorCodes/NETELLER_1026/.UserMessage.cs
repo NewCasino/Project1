@@ -1,0 +1,1 @@
+﻿Nemáte zaregistrován bankovní účet k svému NETELLER účtu. Je potřeba si zaregistrovat NETELLER předtím než budete moci použít instaCASH. V případě jakýchkoli otázek kontaktujte NETELLER zákaznickou podporu.

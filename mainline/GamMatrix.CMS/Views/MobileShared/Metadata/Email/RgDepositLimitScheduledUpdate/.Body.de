@@ -1,0 +1,10 @@
+﻿<p>Liebe(r) $USERNAME$, <br />
+<br />
+Danke für Deine Anfrage an  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+ Diese Email bestätigt dass Du Dein persönliches Einzahlungslimit änderst&#160;Dein Einzahlungslimit wechselt&#160;von $LIMITAMOUNT$ $LIMITPERIOD$ zu $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. Das neue Limit wird aktiviert&#160;am $LIMITEXPIRYDATE$. <br />
+<br />
+Falls Du Unklarheiten hast, kontaktiere uns bitte an <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br />
+Beste Grüsse</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team</p>

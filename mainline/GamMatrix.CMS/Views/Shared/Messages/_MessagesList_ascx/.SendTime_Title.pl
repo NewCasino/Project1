@@ -1,0 +1,1 @@
+Czas Wysłania

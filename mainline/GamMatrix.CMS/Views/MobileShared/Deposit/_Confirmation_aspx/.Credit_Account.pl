@@ -1,0 +1,1 @@
+﻿Wpłata na konto {0}

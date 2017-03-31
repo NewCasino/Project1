@@ -1,0 +1,2 @@
+﻿Celkový počet Kasino bodů: 
+

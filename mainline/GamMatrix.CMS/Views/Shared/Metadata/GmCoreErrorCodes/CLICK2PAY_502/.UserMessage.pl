@@ -1,0 +1,1 @@
+﻿Odmowa zmiany — brak identyfikatora referencyjnego.

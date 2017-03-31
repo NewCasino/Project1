@@ -1,0 +1,1 @@
+﻿Vložte vklad s EntroPay.

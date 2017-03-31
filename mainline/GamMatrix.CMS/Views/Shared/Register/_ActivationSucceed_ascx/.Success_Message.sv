@@ -1,0 +1,1 @@
+Registreringen är nu slutförd.

@@ -1,0 +1,1 @@
+﻿Platební karta nenalezena

@@ -1,0 +1,1 @@
+Vnesite kodo za spletni dostop, ki jo uporabljate tudi za prijavo na portalu Intercash.

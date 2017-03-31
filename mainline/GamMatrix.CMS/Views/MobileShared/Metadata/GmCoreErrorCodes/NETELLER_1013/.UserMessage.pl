@@ -1,0 +1,1 @@
+﻿Żądana kwota przewyższa dostępne środki. Proszę zarejestrować się na swoim koncie NETELLER, aby potwierdzić aktualnie posiadane środki. W przypadku pytań należy zadzwonić do Działu Obsługi Klienta NETELLER.

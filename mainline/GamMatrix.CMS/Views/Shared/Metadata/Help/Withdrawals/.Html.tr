@@ -1,0 +1,100 @@
+﻿<ol>
+
+	<li> <strong>Website Hesabımdan nasıl Para çekebilirim?</strong>
+		<p>
+			Bütün Gereksimlerini yerine getirdikten sonra ve Sistemimizde Para Çekme İşlemi için onaylandıktan sonra, istediğiniz An Para çekmeyi Talep edebilirsiniz. Ayrıca istediğiniz kadar Seferde Para Çekebilirsiniz, ama [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Para Aklamaya karşı ve Para Kaçirma Önleme Kanunlarına uyduğu için, Para Yatırdıktan sonrakı 24 Saat içerisinde [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Hesabınızdan Para Çekmenize İzin veremiyoruz. Asgari Para Çekme Miktarı 10 € dur. 	</p>
+	</li>
+
+	<li> <strong>Ne kadar Para Çekebildiğime herhangi Limitler varmi?</strong>
+		<p>
+			Para Çekmekte Asgari Miktar 10€ veya kullandığınız Para Birimindeki Eşdeğeri. Para Çekmedee Azami Miktar 5000 € Günde veya kendi Para Biriminizdeki Eşdeğeri.		</p>
+	</li>
+
+	<li>
+		<strong>Para Çekme Talebini İptal edebilirmiyim?</strong>
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müsteri Hizmetleriyle İletişime geçmelisiniz ve İşleminiz henüz işlenmediyse durdurulabilir. 
+		</p>
+	</li>
+
+	<li>
+		<strong>Kazanclarımı Kredi/Banka Kartıma geri ödeyetirebiliyormuyum? </strong>
+		<p>
+			Evet, Para Yatırmaya kullandığınız Kartın Aynısı ise ve Kartınız Geri Ödeme kabul ediyorsa.		</p>
+	</li>
+
+	<li>
+		<strong>Para Yatırmak için Kredi/Banka Kartımı kullandım, başka yoldan Ödeme Talep edebilirmiyim?</strong> 
+		<p>
+			Evet Talep edebilirsiniz, ama sizden tam Belgeleme ve yeni Ödeme Yönteminiz için tam Bilgi isteyebiliriz.
+		</p>
+	</li>
+
+	<li>
+		<strong>Neden Ödeme almak istediğim Yöntemi seçemiyorum?</strong>
+		<p>
+			Para Aklama Kanunlarına uyduğumuz için ve hem sizin hem bizim Finansal Transfer Güvenliğimizi korumak için, Onaylanmiş İşlemler hariç, bütün Geri Ödemeler Para Yatırmaya kullanılan Ödeme Yönteminden yapılmalı. 		</p>
+	</li>
+
+	<li>
+		<strong>Herhangi Para Çekme Ücretini Talep ediyormusunuzu?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> 
+		<p>
+			Para Çekme Üçcretleri seçtiğiniz Para Çekme Yöntemine göre değişir. Lütfen Üçret Bilgisi için buraya tıklayınız :'
+			<a href="/deposit">Ödeme Yöntemleri</a>
+			' , ve biliniz ki Bankanız da Hizmetleri için Ücretler Talep edebilir. 
+		</p>
+	</li>
+
+	<li>
+		<strong>Para Çekme Taleplerin işlenmesi ne kadar sürüyor?</strong>
+		<p>
+			Şeçtiğiniz Ödeme Yöntemine göre değişebilir bu. Lütfen Bütün sizin için Mevcut Ödeme Yöntemlerini ve Sürelerini görmek için buraya :  '
+			<a href="/deposit">Ödeme Yöntemleri</a>
+			' .		</p>
+	</li>
+
+	<li>
+		<strong>
+			Neden Kartımdan Çekilen Para anında işlenirken Kartima yapilan Ödeme Günler sürüyor?		</strong>
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] dan Para çıkmadan bir sürü Kontrol ve Denetlemelerden geçiyor ve bu Ödemeleri 12 saata yakın geciktirebiliyor. Bu Konroller Müşterimizin Paraların Güvende olması için arkasında durduğumuz Sözün bir Bölümü. Bunun dışındakı herhangi Gecikme Ödeme Sağlayıcınız tarafından kaynaklanır.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Ödeme yaptırdığım Kartın Süresi biterse veya İptal olursa ne oluyor?
+		</strong>
+		<p>
+			Bize herhangi Kart Değişikliklerinde Haber vermelisiniz ve Süresi bittiğinin Kanıtını veya Değişikliğin başka Nedenini vermelisiniz.  Herhangi yeni Kartınız bizimle ve [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Hesabınız ile kayıt edilmeli.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Benim Hesabımdan Para Çekip başkasına yollamanızı isteyebilirmiyim?		</strong>
+		<p>
+			Hayır, bu Üçüncü Şahis İşlemi olarak sayılır ve Buna hiçbir Koşulda İzin verilemez.		</p>
+	</li>
+
+	<li>
+		<strong>
+			 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Para Çekme Politikası nedir? 		</strong>
+		<p>
+			Hesabınız etkin olmalı ve Para Çekmek için Asgari Para Miktarını bulundurmalı.  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Bonuslarından herhangi birilerinden faydalanan Oyuncular için bazı Sınırlamalar olabilir. promotions.
+		</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

@@ -1,0 +1,1 @@
+﻿Transaksjonen kunne ikke fullføres. Dette kan skyldes midlertidige problemer med nettforbindelsen.

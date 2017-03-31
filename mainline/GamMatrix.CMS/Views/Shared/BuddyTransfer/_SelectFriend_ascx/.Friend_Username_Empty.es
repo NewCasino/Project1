@@ -1,0 +1,1 @@
+﻿Por favor introduzca el nombre de usuario de su amigo.

@@ -1,0 +1,12 @@
+﻿<p>Buna ziua $FIRSTNAME$,</p>
+<p>Acest email automat&nbsp; este bonul depozitului procesat din partea [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. EveryMatrix este un operator de plati al&nbsp;[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] websiteului, va aparea EveryMatrix pe extrasul dumneavoastra de cont. Detaliile tranzactiei sunt cele de mai jos.</p>
+<ul>
+<li><strong>ID Tranzactie</strong>:$TRANSACTION_ID$</li>
+<li><strong>Data ora</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Website</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Bon</strong>: \print screen-ul bonului este atasat.</li>
+</ul>
+<p>Daca aveti nelamuriri in privinta acestui depozit,va rugam contactati <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> mentionand ID-ul tranzactiei.</p>
+<p>Cu respect,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] echipa</p>
+<p>$SCREENSHOT$</p>
+

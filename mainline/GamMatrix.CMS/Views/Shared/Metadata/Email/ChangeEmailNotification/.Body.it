@@ -1,0 +1,4 @@
+﻿<p>Hai richiesto [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] di cambiare l'indirizzo e-mail. Un'e-mail di verifica è stata inviata al tuo nuovo indirizzo.($EMAIL$).</p>
+<p>Se non hai richiesto il cambio dell'indirizzo e-mail, per favore contattaci immediatamente a <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Cordiali saluti, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il servizio clienti</p>
+

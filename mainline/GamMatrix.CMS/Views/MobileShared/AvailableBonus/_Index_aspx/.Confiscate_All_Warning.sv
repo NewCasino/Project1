@@ -1,0 +1,1 @@
+Alla medel kommer att bli förverkade enligt gällande villkor som du har accepterat. Är du säker på att du vill fortsätta? 

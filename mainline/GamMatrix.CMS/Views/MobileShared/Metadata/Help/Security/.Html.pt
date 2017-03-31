@@ -1,0 +1,47 @@
+﻿<ol>
+
+    <li> <strong>Onde o seu site está baseado?</strong>
+        <p>Nosso site é baseado em Malta.</p>
+    </li>
+
+    <li> <strong>Seu site é licenciado?</strong>
+        <p>
+            Sim temos uma Licença EU válida para apostas esportivas, cassino e poker.
+        </p>
+    </li>
+
+    <li>
+        <strong>Quão seguras ficam minhas informações do cartão de crédito?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] usa as mais avançadas técnicas de criptografia de dados para garantir que a sua informação está disponível apenas para um grupo seleto dentro da família [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. Nós criptografamos todas as suas informações usando os algoritmos padrões da indústria de criptografia de SSL internacional. Isso significa que todas as suas informações, indo e voltando, desde seu endereço, até as cartas que estão sendo distribuídas, estão protegidas pela mesma quantidade de segurança que um banco usaria.
+        </p>
+    </li>
+
+    <li>
+        <strong>Como eu sei que meus dados financeiros estão seguros?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] criptografa todas as suas informações usando os algoritmos padrões da indústria de criptografia de SSL internacional. Isso significa que todas as suas informações, indo e voltando, desde seu endereço, até as cartas que estão sendo distribuídas, estão protegidas pela mesma quantidade de segurança que um banco usaria.
+        </p>
+    </li>
+
+    <li>
+        <strong>Como eu sei que meu dinheiro está seguro?</strong>
+        <p>
+            Todos os fundos dos clientes são mantidos em uma conta "trust" separada no Bank of Valletta. Isso está em conformidade com as Loterias e Regulamentações de Jogo de Malta com quem estamos licenciados. Fundos de clientes são completamente "separados" de fundos corporativos e são mantidos em segurança, desta forma, a garantir que os fundos dos clientes são mantidos em segurança e estão sempre disponíveis para os mesmos.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Imprimir</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+

@@ -1,0 +1,1 @@
+﻿Du har mindre enn {0} på "Hovedkontoen". Vennligst overfør nok penger.

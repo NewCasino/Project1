@@ -1,0 +1,1 @@
+Ja, skicka mig exklusiva erbjudanden via SMS. 

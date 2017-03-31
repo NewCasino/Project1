@@ -1,0 +1,1 @@
+Konto-ID-en må bestå av 12 tegn, eller e-postadresseformatet er feil.

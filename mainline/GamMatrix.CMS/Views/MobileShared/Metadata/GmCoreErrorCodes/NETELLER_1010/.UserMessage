@@ -1,0 +1,1 @@
+﻿Please sign in to your NETELLER account to confirm your current balance. Should you have any questions, call NETELLER Customer Service.

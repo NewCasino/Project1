@@ -1,0 +1,8 @@
+<p>$FIRSTNAME$様</p>
+<p>お客様の払い戻しの$VOUCHERAMOUNT$は処理されました。下記はお客様のIPSトークンに関しての情報となります：</p>
+<ul>
+<li><strong>IPSトークン</strong>:$VOUCHERNUMBER$</li>
+<li><strong>桁数の確認</strong>:$VOUCHEDIGITS$</li>
+</ul>
+<p>ご質問等が御座いましたらお気軽のお問合せ下さい： <br /><a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>何卒宜しくお願い致します。<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] チーム一同</p>

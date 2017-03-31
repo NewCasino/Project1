@@ -1,0 +1,1 @@
+Vnesite svoj ID računa/e-poštni naslov

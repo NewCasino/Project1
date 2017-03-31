@@ -1,0 +1,1 @@
+Aby wypłacić pieniądze, musisz się zalogować.

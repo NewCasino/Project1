@@ -1,0 +1,1 @@
+﻿Account registratie is niet toegestaan voor leveranciers die gekoppeld zijn aan één account

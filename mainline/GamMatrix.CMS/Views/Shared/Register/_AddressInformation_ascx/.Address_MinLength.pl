@@ -1,0 +1,1 @@
+Twój adres musi składać się z przynajmniej 2 znaki.

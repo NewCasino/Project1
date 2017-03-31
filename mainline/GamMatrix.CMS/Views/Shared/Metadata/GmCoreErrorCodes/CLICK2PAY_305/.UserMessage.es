@@ -1,0 +1,1 @@
+﻿Su compra fue rechazada. Para obtener más detalles, por favor contacte con service@click2pay.com.

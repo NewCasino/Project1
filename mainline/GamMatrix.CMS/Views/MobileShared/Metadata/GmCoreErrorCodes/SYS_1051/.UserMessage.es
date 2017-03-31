@@ -1,0 +1,1 @@
+﻿Las cuentas de origen y destino son iguales

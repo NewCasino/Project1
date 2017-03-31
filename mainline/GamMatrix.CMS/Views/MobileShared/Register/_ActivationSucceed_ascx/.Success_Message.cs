@@ -1,0 +1,1 @@
+﻿Registrace je nyní kompletní.

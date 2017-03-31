@@ -1,0 +1,30 @@
+﻿<div style="line-height: 24px; font-size: 14px; padding-left: 2%;">
+<h1>Rate Comisioane</h1>
+<p>Pariuri sportive, Casino si Live Casino.</p>
+<table border="0" width="80%" cellpadding="0" cellspacing="0">
+<thead> 
+<tr>
+<th style="color: #e43202; text-align: left;">Venit Net/luna</th> <th style="color: #e43202; text-align: center;">Commision</th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td align="left">&euro;0 &ndash; &euro;10 000</td>
+<td align="center">25%</td>
+</tr>
+<tr>
+<td align="left">&euro;10 001 - &euro;20 000</td>
+<td align="center">30%</td>
+</tr>
+<tr>
+<td align="left">&euro;20 001 - &euro;40 000</td>
+<td align="center">35%</td>
+</tr>
+<tr>
+<td align="left">&euro;40 001 - nelimitat<br /></td>
+<td align="center">50%</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 10px;">Procentul din Commision e intotdeauna bazat pe intreaga valoare a Venitului Net realizat.</p>
+</div>

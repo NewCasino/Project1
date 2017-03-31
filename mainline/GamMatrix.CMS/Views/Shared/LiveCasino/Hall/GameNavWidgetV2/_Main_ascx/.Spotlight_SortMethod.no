@@ -1,0 +1,1 @@
+Sorter spillene i prioritert eller alfabetisk rekkefølge.

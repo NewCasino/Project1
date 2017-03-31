@@ -1,0 +1,1 @@
+﻿Proszę podać adres e-mail znajomego.

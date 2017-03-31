@@ -1,0 +1,82 @@
+﻿<ol>
+
+ <li> <strong>Mitkä ovat sallitut minimi- ja maksimipanokset?</strong>
+ <p>
+ Maksimipanokset vaihtelevat tapahtumasta toiseen. Jos yrität lyödä vetoa yli maksimirajan, saat ilmoituksen, joka kertoo sinulle sallitun enimmäismäärän. Meillä ei ole vähimmäisrajoitusta.
+ </p>
+ </li>
+
+ <li> <strong>Mitä ovat yksinkertaiset vedot ja moniveikkaus? </strong>
+ <p>
+ Yksinkertaiset vedot liittyvät vain yhteen valintaan; moniveikkaus liittyy useampaan. Mitä enemmän valintoja linkität yhteen moniveikkaukseen (esimerkiksi kaikki kotijoukkueet Premier League-kierroksessa), sitä enemmän saatat voittaa &ndash; mutta tämä on tietenkin paljon vaikeampaa!
+ </p>
+ </li>
+
+ <li>
+ <strong>Kuinka monta valintaa moniveikkaus voi sisältää?</strong>
+ <p>
+ Sallimamme enimmäismäärä moniveikkauksen valinnoissa on 10.
+ </p>
+ </li>
+
+ <li>
+ <strong>Miten vedonlyönnissä tasoitetaan?</strong>
+ <p>
+ Tasoitusvetoja koskevaa (1x2 tasoitus ja aasialainen tasoitus) yksityiskohtaista selitystä varten, vieraile Vedonlyönti opastus-osiossa tässä:
+ </p>
+ </li>
+
+ <li>
+ <strong>Mitä tapahtuu, jos ottelu viivästyy?</strong>
+ <p>
+ Tarkista kyseisen urheilulajin säännöt. Jotkin lajit vaativat, että ottelu pelataan samana päivänä, jotta vedot pysyvät voimassa; toisissa lajeissa vedot ovat voimassa kunnes ottelu on käyty tai virallisesti hylätty.
+ </p>
+ </li>
+
+ <li>
+ <strong>Miksi voittopanostani ei ole vielä maksettu?</strong>
+ <p>
+ [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] vaativat, että viralliset tulokset ilmoitetaan ennen markkinoiden sulkemista. Joskus online-lähteissä, kuten live-piste sivustoilla, voi olla virheellistä tietoa, joten ratkaisu saattaa viivästyä kunnes tulokset voidaan vahvistaa.
+ </p>
+ </li>
+
+ <li>
+ <strong>Olen muuttanut mieltäni, voinko peruuttaa vedon?</strong>
+ <p>
+ Et. Kun olet vahvistanut vedon ja se on hyväksytty palvelimellamme, vetoja ei voi peruuttaa.
+ </p>
+ </li>
+
+ <li>
+ <strong>Mihin vetohistoriani tallennetaan?</strong>
+ <p>
+ Vedonlyönti- ja transaktiohistoriasi löytyy "Oma Sportbetting-tilini"-kohdasta sen jälkeen kun olet kirjautunut [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] verkkosivuille.
+ </p>
+ </li>
+
+ <li>
+ <strong>Miksi Iso-Britannian vetojen voitot lasketaan eri tavalla? </strong>
+ <p>
+ Käytämme (EU-) desimaalikertoimia laskettaessa kertoimia, koska ne ovat kaikkein tarkimpia. Iso-Britannian ja Yhdysvaltojen kertoimet ovat vain näyttöjämme varten, koska jotkut kertoimet eivät vastaa yksinkertaisia murto-osia.
+ </p>
+ </li>
+
+ <li>
+ <strong>Vedonlyönnistä on tulossa minulle riippuvaisuus, mitä voin tehdä?</strong>
+ <p>
+ Vedonlyönnin kumppanina  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] pitäisi olla nautittavaa ajanvietettä kaikille, mutta pienelle vähemmistölle ihmisiä se voi aiheuttaa riippuvuutta ja aiheuttaa ongelmia. Peliriippuvuuteen liittyviä tietoja löytyy Vastuullinen uhkapelaaminen -osiosta.
+ </p>
+ </li>
+
+</ol>
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

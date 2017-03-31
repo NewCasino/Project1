@@ -1,0 +1,13 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+<p>questa risposta automatica è una ricevuta del tuo deposito processato per conto di  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da EveryMatrix Ltd, l'operatore per i pagamenti di [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sito web, troverai EveryMatrix nell'estratto conto della tua banca o della tua carta. Di seguito i dettagli della transazione. </p>
+<ul>
+<li><strong>ID transazione</strong>:$TRANSACTION_ID$</li>
+<li><strong>Data</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Sito web</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Receipt</strong>:in allegato un copia della ricevuta.</li>
+</ul>
+<p>Per eventuali richieste riguardanti il deposito puoi contattare <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> citando l'ID della transazione.</p>
+<p>Saluti,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team</p>
+<p>$SCREENSHOT$</p>
+
+

@@ -1,0 +1,1 @@
+﻿Tarjeta de pago duplicada

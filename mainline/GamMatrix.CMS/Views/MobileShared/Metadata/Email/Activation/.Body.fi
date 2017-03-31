@@ -1,0 +1,8 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<p>Kiitos kun rekisteröidyit [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], tilisi ($USERNAME$) on nyt luotu ja ennen kuin voit käyttää tiliä, se tulee aktivoida..</p>
+<p>Aktivoidakse tilisi sinun tulee klitata linkkiä alta. Jos linkki ei toimi, kopioi se ja liitä selaimeesi.</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Jos et ole rekisteröitynyt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], voit poistaa tämän sähköpostin tai tiedottaa <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Kiitos kun rekisteröidyit [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>Terveisin,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tiimi</p>
+

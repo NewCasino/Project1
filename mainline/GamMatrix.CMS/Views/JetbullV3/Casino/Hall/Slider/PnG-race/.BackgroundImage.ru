@@ -1,0 +1,1 @@
+﻿<img src="//cdn.everymatrix.com/Jetbull/_files/PnG-Race/2131-jetbull-homepage-slider-russian-786x500.png" />

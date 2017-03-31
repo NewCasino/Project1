@@ -1,0 +1,1 @@
+Novo geslo mora biti drugačno od starega gesla.

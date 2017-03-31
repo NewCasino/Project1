@@ -1,0 +1,1 @@
+Det nya lösenordet får inte vara samma som något av dina tidigare lösenord.

@@ -1,0 +1,1 @@
+﻿Копирайт 2013 <a style='color: #666666;' href='https://www.jetbull.com'> Jetbull.com</a>

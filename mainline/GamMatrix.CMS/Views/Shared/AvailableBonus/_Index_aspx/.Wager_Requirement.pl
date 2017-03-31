@@ -1,0 +1,1 @@
+Początkowy warunek obrotu

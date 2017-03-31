@@ -1,0 +1,1 @@
+Do obciążenia {0}

@@ -1,0 +1,4 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p>Para Çekme İşleminiz $TXCOMPLETEDDATE$ Tarihinde geri alındı, Paranız Oyun Hezabınıza geri geldi. Lütfen bu İşlem hakkında Yardıma İhtiyac duyarsanız Destek Ekibimiz ile İletişime geçiniz </p>
+İşlem ID: $TXID$ İşlem Tarih: $TXCREATEDDATE$ Miktar: $TXAMOUNT$ $TXCURRENCY$.
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ekibi</p>

@@ -1,0 +1,75 @@
+<ol>
+
+	<li> <strong>自分のアカウントにどの様に入金すればいいのですか？</strong>
+		<p>
+			自分のアカウントをクリックし左欄の入金ボタンを押した後にお好みのお支払い方法を選択します。
+		</p>
+	</li>
+
+	<li> <strong>入金が承認されるまでどの位かかりますか？</strong>
+		<p>
+			殆どのお支払い方法でご入金は直ぐに承認されます。銀行送金の場合は受け取りに最大７日間かかり、その時点でお客様の[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]アカウントに反映されます。
+		</p>
+	</li>
+
+	<li>
+		<strong>どのご入金方法が利用可能ですか？</strong>
+		<p>
+			Please click Payment [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]ページのトップメニューのお支払い方法をクリックしご利用可能なお支払い方法を確認することが出来ます。		</p>
+	</li>
+
+	<li>
+		<strong>どのクレジット・デビットカードが利用可能ですか？</strong>
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]はご入金方法としてVisaとMastercard/maestroクレジットとデビットカードがご利用頂けます、一方Mastercard/Maestroからのお引き出しには制限があります。
+		</p>
+	</li>
+
+	<li>
+		<strong>自分の[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] アカウントへ入金する際に手数料は発生しますか？</strong> 
+		<p>
+			自分の[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]アカウントへご入金する際に手数料はかかりません。
+		</p>
+	</li>
+
+	<li>
+		<strong>一度に入金可能な最低・最高額はいくらですか？</strong> 
+		<p>
+			最低入金額は€10か現地換算額で最高入金額は一日当り€5000か現地換算額です。
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			日、週、月毎の入金制限を自分で設定する事はできますか？		</strong>
+		<p>
+			お客様側で日、週、月毎の入金制限を設定する事は可能です。&nbsp;「自分のアカウント」小区分の「責任あるゲーム-入金制限」で設定する事が出来き、この制限はいつでも変更可能です。		</p>
+	</li>
+
+	<li>
+		<strong>自分の銀行口座からどのように入金すればよいのですか？</strong>
+		<p>
+			「自分のアカウント」の「ご入金」をクリックし銀行送金を選択して下さい。「ご入金」をクリックしこのオプションを有効化する事が出来ます。その後画面の指示に従ってください。
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			クレジットカードを使いウェブサイトの自分のアカウントへ入金する際に週毎の入金制限はありますか？
+		</strong>
+		<p>一日の最高入金額は€5000です。</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

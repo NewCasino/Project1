@@ -1,0 +1,19 @@
+﻿<p>Poštovani&#160; $USERNAME$,<br />
+<br />
+Hvala na registriranju na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+<br />
+<br />
+Radi vaše sigurnosti željeli bismo vas podsjetiti da potvrdite vašu adresu e-pošte kako biste osigurali da vaš račun ostane aktivan i kako biste mogli nastavili uživati u svim sjajnim ponudama dostupnim na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].<br />
+<br />
+Kliknite na poveznicu ispod, a ako ne bude reagirala, pokušajte kopirati i zalijepiti poveznicu u vaš preglednik.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+Ako se niste registrirali putem [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+, zanemarite e-poruku ili obavijestite <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+Pobrinite se da odmah izvršite potvrdu putem e-pošte kako vaš račun ne bi bio ograničen u svrhu vaše zaštite.
+<p><br />
+Lijepi pozdrav,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Tim službe za korisnike<br />

@@ -1,0 +1,1 @@
+﻿Uw aanvraag is hoger dan uw totale beschikbare saldo. Log in uw NETELLER account om uw huidige saldo te bevestigen. Heeft u vragen, bel dan met de NETELLER Klanten Service.

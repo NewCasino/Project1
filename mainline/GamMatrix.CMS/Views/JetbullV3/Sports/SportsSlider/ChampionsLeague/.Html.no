@@ -1,0 +1,5 @@
+﻿<h3>Champions League Finale</h3>
+<p>Spill på Juventus – Barcelona nå.<br>
+Hvilket lag vil vinne den prestisjetunge Champions League?
+</p>
+<a title="Bet now ►" class="button" href="/Sports/?tournamentid=209122666" target="_top"> <span class="GoldButtonText">Sett et spill nå <span>►</span></span> </a>

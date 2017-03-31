@@ -1,0 +1,5 @@
+﻿EntroPay er et virtuelt VISA-kort som kan fylles opp og brukes online der VISA aksepteres. Kortet kan fylles opp med et VISA debit- eller kreditkort, eller ved bankoverføring.<br /><br />
+Det tar bare noen minutter og opprette og fylle på et EntroPay VISA-kort, og etter det kan du bruke ditt forhåndsbetalte EntroPay VISA-kort umiddelbart!
+
+<a href="https://secure2.entropay.com/processes/upaffiliatelanding/unprot/affiliatewelcome.do?referrerID={0}" target="_blank">Click here</a> to Open and EntroPay account.
+

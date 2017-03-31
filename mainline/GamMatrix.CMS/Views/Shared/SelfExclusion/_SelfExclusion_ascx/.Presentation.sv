@@ -1,0 +1,1 @@
+﻿Omvänt, om du känner att spelandet har blivit ett problem, har du akternativet att initiera en självuteslutning via e-mail. För hjälp relaterat till ansvarsfullt spelande, se sektionen om Ansvarsfullt Spelande. För fler detaljer om implikationer och hur självuteslutning fungerar, se våra generella villkor.

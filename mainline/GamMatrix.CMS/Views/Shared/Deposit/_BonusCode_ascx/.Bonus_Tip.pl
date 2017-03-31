@@ -1,0 +1,1 @@
+Wpłata {0} na {1} premię!

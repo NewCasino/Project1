@@ -1,0 +1,1 @@
+﻿Registrujte kreditní kartu

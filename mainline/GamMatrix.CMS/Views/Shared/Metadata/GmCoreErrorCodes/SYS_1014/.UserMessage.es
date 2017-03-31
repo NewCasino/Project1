@@ -1,0 +1,1 @@
+﻿Ya existe una regla con dicho nombre. Por favor elija otra

@@ -1,0 +1,1 @@
+﻿Otevře hru v popředí. 

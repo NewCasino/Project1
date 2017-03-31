@@ -1,0 +1,1 @@
+﻿Požadovali jste částku, která je pod USD $10 nebo je nad limitem pro převod zprostředkovatele. Prosím kontaktujte zákaznickou podporu zprostředkovatele pro více informací.

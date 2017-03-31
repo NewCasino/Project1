@@ -1,0 +1,1 @@
+Możesz szybko przelać pieniądze z karty Diner Credit na swoje konto gracza za pomocą przelewu Skrill. Wystarczy zarejestrować swoją kartę w Skrill. Po zweryfikowaniu karty kredytowej środki zostaną bezpiecznie i szybko przesłane na Twoje konto gracza.

@@ -1,0 +1,1 @@
+﻿({0} v trenutnih skupnih dobitkih)

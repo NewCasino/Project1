@@ -1,0 +1,1 @@
+﻿Nie udało się zrealizować żądania. Sprzedawca nie akceptuje przelewów środków z Twojego regionu zamieszkania.

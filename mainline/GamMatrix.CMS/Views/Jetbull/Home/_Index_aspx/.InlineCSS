@@ -1,0 +1,30 @@
+﻿.GeneralSlider .SliderContainer .SliderItem{background-position:right center;background-size:auto 100% !important;}
+.GeneralSlider .SliderContent{text-align:left;}
+
+#slider {background: none repeat scroll 0 0 transparent;border: medium none;height: 500px;overflow: hidden;width: 100%;}
+#slider .row-fluid{position:relative;width:100%;overflow: hidden;}
+.slider-containerWrapper{float:left;position:relative;height:414px;width:100%}
+.slider-container{float:left;position:relative;height:100%;width:9999em}
+.slide {background-attachment: scroll;background-clip: border-box;background-color: #000;background-image: none;background-origin: padding-box;background-position: right center;background-repeat: no-repeat;background-size: auto 100% !important;color: #FFFFFF;float: left;height: 500px; position: relative;}
+.slide img{position:absolute;top:0;left:0;z-index:1}
+.content-slide{ position:relative;z-index:2;margin : 3em 8.3333% 1em;text-align:left;}
+.content-slide h3{display:block;font-family:H,HRoman,Arial,tahoma,sans-serif;font-size:5.0em;font-weight:bold;line-height:1em;margin-bottom:.233em;position:relative;text-shadow:0 3px 3px #000}
+.content-slide p {display: block;font-family: HRoman,Arial,tahoma,sans-serif;font-size: 3em;font-weight: normal;line-height: 1.7em;margin-bottom: 1em;position: relative;text-shadow: 0 2px 2px #000000;width: 38em;}
+.content-slide a {text-align:center;border-radius: 10px 10px 10px 10px;box-shadow: 0 1px 4px #000000;color: #000000;float: left;font-family: "Myriad Pro",Arial,Helvetica,sans-serif;font-size: 1.5em;font-weight: 700;min-width: 45%;padding: 0 ;position: relative;text-decoration: none;text-shadow: 0 1px 0 #FFFFFF;text-transform: capitalize;z-index: 9;}
+.content-slide a:hover {text-shadow:none;}
+.slide.active{opacity:1;}
+.slider-numbers {color: #000000;display: block;font-size: 1em;font-weight: bold; position: absolute;top: 80%;width: auto;z-index: 10;left: 8.3333%; }
+.slider-numbers li{display:block;float:left;list-style:none inside none;margin-right:1em}
+.slider-numbers li a.badge {border-radius: 10px 10px 10px 10px;box-shadow: 0 0.25em 0.25em #000000;color: #000000;font-family: "Myriad Pro", Arial, Helvetica, sans-serif;font-size: 11px;padding: 0.333em 15px;text-decoration: none;text-shadow: 0 1px 1px #FFFFFF;background-color: #f6f6f6;}
+#slider a.badge{color: #000000;}
+#slider a.badge.activeslide{text-shadow:1px -1px 1px black;color:white;}
+.slider-numbers li a:hover{background-color:#CCC}
+.slider-numbers li a.badge.activeslide{background-position:0 125%;color:#FFF;text-shadow:0 -1px 1px #6C1919;background-color:#f13131;}
+.slider-numbers li a.badge.activeslide:hover{background-color:red}
+.lang_tr .venders .vender-item {  width: 18.42%;}
+.lang_tr .vender-item.first.sports {  width: 38.5%;}
+.carousel-nav{display: none;}
+.ie7 .slider-numbers li a.badge ,
+.ie8 .slider-numbers li a.badge {background:#ccc;}
+.ie7 .slider-numbers li a.badge.activeslide , 
+.ie8 .slider-numbers li a.badge.activeslide{background-color:#666} 

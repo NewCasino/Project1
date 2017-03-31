@@ -1,0 +1,1 @@
+﻿<p style="font-size: 16px;">Če uporabljate kartico Mastercard, ki jo je izdal <img alt="Intercash" src="/Views/Shared/_files/Icons/intercash_logo.png" align="absmiddle" /><br /> , kliknite <a href="/Deposit/Prepare/Intercash">tukaj,</a> da odprete ustrezno stran za opravljanje pologa.</p>

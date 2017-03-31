@@ -1,0 +1,13 @@
+﻿<pre>$CONTENT$</pre>
+<em>這封郵件由客戶發送，通過點擊在網站上的“聯系我們”頁面.<br />
+不要直接回復這封郵件！您可以在下面找到客戶的郵址.</em>
+<hr/>
+<ul>
+<li><strong>客戶電子郵件</strong>:$EMAIL$</li>
+<li><strong>客戶名稱</strong>:$NAME$</li>
+<li><strong>主題</strong>:$SUBJECT$</li>
+<li><strong>用戶ID</strong>:$USERID$</li>
+<li><strong>用戶名</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

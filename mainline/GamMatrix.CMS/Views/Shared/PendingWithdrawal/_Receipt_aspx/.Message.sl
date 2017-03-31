@@ -1,0 +1,1 @@
+﻿{0:N2} {1} je bilo razveljavljeno in vrnjeno na vaš {2} račun.

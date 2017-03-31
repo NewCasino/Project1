@@ -1,0 +1,1 @@
+﻿Uttak kan bare gjennomføres {0} timer etter ditt siste uttak. Ditt siste innskudd ble gjennomført for mindre enn {0} timer siden. Vennligst prøv igjen når denne perioden er slutt

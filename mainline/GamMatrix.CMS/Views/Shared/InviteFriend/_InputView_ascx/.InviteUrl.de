@@ -1,0 +1,1 @@
+﻿http://demo.com/registration?invitor=$USERNAME$

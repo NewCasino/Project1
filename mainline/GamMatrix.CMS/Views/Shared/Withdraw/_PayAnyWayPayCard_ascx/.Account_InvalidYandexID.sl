@@ -1,0 +1,1 @@
+Neveljaven račun ﻿Yandex; začeti se mora s 41001, čemur nato sledi vsaj 7 števk.

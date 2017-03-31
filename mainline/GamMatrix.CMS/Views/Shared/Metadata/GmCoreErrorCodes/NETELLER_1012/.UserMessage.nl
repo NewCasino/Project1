@@ -1,0 +1,1 @@
+﻿De laatste 4 cijfers van uw bankrekening zijn ongelijk aan het banknummer dat geregistreerd is op uw NETELLER account. Log in uw NETELLER account om uw bankrekening te bevestigen. Heeft u vragen, bel dan met de NETELLER Klanten Service.

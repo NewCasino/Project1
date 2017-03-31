@@ -1,0 +1,1 @@
+﻿Con esta opción de banca, puede realizar un depósito instantáneo desde cualquier cuenta bancaria en Polonia.&nbsp;&nbsp; Es un método de pago online sencillo, rápido y seguro que le permite transferir dinero desde su cuenta bancaria a Internet.&nbsp;&nbsp;

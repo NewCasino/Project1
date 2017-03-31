@@ -1,0 +1,1 @@
+PayPal är det snabbaste och säkraste sättet att skicka pengar, betala online och ta emot pengar.

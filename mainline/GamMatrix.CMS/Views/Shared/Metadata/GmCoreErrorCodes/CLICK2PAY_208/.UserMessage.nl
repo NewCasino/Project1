@@ -1,0 +1,1 @@
+﻿Houd er rekening mee dat betaling alleen gedaan kunnen worden nadat u terug bent gebeld door een van onze Call Center agenten. Terugbel validatie volgt doorgaans kort na registratie.

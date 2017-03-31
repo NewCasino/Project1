@@ -1,0 +1,1 @@
+﻿Zdublowana reguła limitu dla dostawcy

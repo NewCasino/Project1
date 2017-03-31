@@ -1,0 +1,1 @@
+﻿Uttak fra $ACCOUNT_NAME$ er ikke tillatt så lenge du har en aktiv bonus. For å kunne overføre eller gjøre et uttak fra din $ACCOUNT_NAME$ konto, så må gjenstående bonuskrav innfris.

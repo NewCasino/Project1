@@ -1,0 +1,11 @@
+﻿<em>Bu Eposta Müşteri tarafından 'Bize Ulaşiniz' Sayfamızdan gönderildi.<br />Bu Epostaya doğrudan Cevap VERMEYINIZ! Müşteri Epostasını altta bulabilirsiniz.</em>
+<hr/>
+<ul>
+<li><strong>Müşteri Epostası</strong>:$EMAIL$</li>
+<li><strong>Müşteri Adı</strong>:$NAME$</li>
+<li><strong>Konu</strong>:$SUBJECT$</li>
+<li><strong>Kullanıcı ID</strong>:$USERID$</li>
+<li><strong>Kullanıcı Adı</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

@@ -1,0 +1,1 @@
+﻿{0:N2} {1}a été retourné à votre {2} compte

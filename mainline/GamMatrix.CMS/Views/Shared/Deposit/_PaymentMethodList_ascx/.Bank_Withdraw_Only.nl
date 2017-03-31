@@ -1,0 +1,1 @@
+﻿(opnames alleen via bank overschrijvingen)

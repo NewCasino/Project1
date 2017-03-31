@@ -1,0 +1,1 @@
+Preusmerjeni boste na spletno mesto {0} , da dokončate polog

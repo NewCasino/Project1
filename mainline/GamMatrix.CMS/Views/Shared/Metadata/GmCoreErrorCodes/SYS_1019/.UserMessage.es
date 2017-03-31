@@ -1,0 +1,1 @@
+﻿La configuración de PayCard 3D no se ha cambiado

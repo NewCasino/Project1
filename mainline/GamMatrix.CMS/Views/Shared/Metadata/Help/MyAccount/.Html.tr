@@ -1,0 +1,97 @@
+﻿<ol>
+	<li> <strong>Kullanıcı Adımı ve Parolamı unuttum, ne yapmalıyım?</strong>
+		<p>
+			Yanlış bir Şifre girmek çoğu Zaman 'Parola onaylanamadı' Sonucuna varabilir. Parolaların büyük/küçük harflere duyarlı olduklarından 'CapsLock' kapalı olduğundan emin olunuz. Hala Sorun yaşarsaniz 'Parolamı unuttum' Dügmesine tıklayınız ve [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Hesabınızda kayıtlı olan Eposta Adresinize yeni bir Parola gönderilecek.
+		</p>
+	</li>
+
+	<li> <strong>Hesabım Hakkında herhangi bir Sorum olursa, kiminle İletişime geçmeliyim?</strong>
+		<p>
+			Lütfen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleriyle İletişime geçiniz:
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Hesabımı artık kullanmak istemiyorsam ne yapmalıyım</strong>
+		<p>
+			Hesabınızı Kapatmak için, lütfen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müsteri Hizmetlerine bu Adrese bir Eposta gönderiniz:			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Parolamı nasıl değiştirebilirim?</strong>
+		<p>
+			Parolanızı her [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Sayfasında en üstte bulunan unutulmuş Parola <a href="/ForgotPassword" target="_blank">linkini</a>
+ kullanarak değiştirebilirsiniz. 		</p>
+	</li>
+
+	<li>
+		<strong>Kayıtlı Epost Adresimi nasıl değiştirebilirim?</strong>
+		<p>
+			Şu anda kendiniz Eposta Adresinizi değiştiremiyorsunuz,ama Eposta Değişikliği için iyi bir Sebep gösterebilirseniz lütfen ile [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleriyle buradan İletişime geçiniz: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Hesap Eylemlerimi kontrol etmenin Yolu varmı?</strong>
+		<p>
+			Hesabınızdakı Eylemleri Giriş yaptıktan sonra 'Hesabım' Bölümünden kontrol edebilirsiniz veya [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müsteri Hizmetleriyle İletişime geçebilirsiniz. 		</p>
+	</li>
+
+	<li>
+		<strong>Kullanıcı Adımı değiştirmek mümkünmü?</strong>
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Hesabınıza Kullanıcı Adınızı Kayıt ettikten sonra, daha değiştiremezsiniz. Bu Güvenlik Nedenlerden öyle, çünkü Oyuncu Adını değiştirmek Sistem Bilgilerini bozabilir ve Güvenlik Alaramlarını tetikler. 		</p>
+	</li>
+
+	<li>
+		<strong>Kumarcılığım ile İlgili bir Sorunum varsa kime danışabilirim?</strong> 
+		<p>
+			Online Oyunculuğa katılmak heyecanlı, zevkli ve kârlı olabilir oynamayı Seçenler için. Ama [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Oyunculuk Suistimalı Olasılığndan ve bunun Bireylerine olabilen Tepkisinin farkında. Bu Yüzden [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] olarak bizim Ürünlerimiz ve Servislerimiz sadece bunları kullanmaya yasal Hakları Olanların tarafından kullanılabilmesi için her Tedbiri alıyoruz. Hiçbir Koşulda Asgari Yaş Gereksimi olan 18 yasindan Küçüklere veya İkamet ettikleri Ülkenin Online Oyunculuk için yasal alt Sınırın altinda kalanlara gerçek Para ile oynamaya kesinlikle İzin verilmez.		</p>
+	</li>
+
+	<li>
+		<strong>Sürem dolduktan sonra ne oluyor?</strong>
+		<p>
+			Öz-Dışlama için seçtiğiniz Süreniz dolduğu zaman [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleriyle İletişime geçip Hesabınızı açtırabiliriniz.	</p>
+	</li>
+
+	<li>
+		<strong>Kendimi nasıl Dışlayabilirim?</strong>
+		<p>
+			Kendinizi Siteden Dışlayabilmek için, [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Hesabınıza girdığınız zaman 'Öz-Dışlama' Tabımı göreceksiniz ve orada 'Hesabımı Bloke et' düğmesine bastığınız zaman otomatik olarak [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Sitesinden Çıkışınız yapalacaktır. Girişiniz ondan sonra ancak kurduğunuz Öz-Dışlama Süresi bittikten sonra mümkün olacak.&nbsp; &nbsp;
+		</p>
+	</li>
+
+	<li>
+		<strong>Onu İptal edebilirmiyim?</strong>
+		<p>
+			Hesabınızı seçtiğiniz Öz-Dışlama Süresi bitmeden açamiyacaksınız.		</p>
+	</li>
+
+	<li>
+		<strong>Müşteri Hizmetlerine Eposta göderdiğim Zaman Neden Çevap alamiyorum?</strong> 
+		<p>
+			Bütün  Müşteri Hizmetlerine gelen Epostalarına 24 Saat içerisinde çevap vermeyı hedefliyoruz. Bazılarında Konu daha çok Detay ve Araştırma gerektirdiği için, Çevaplama Süremiz gönderdiğiniz Sorunun Yapısına göre değişebilir. Çevabınız üzerinde çalıştığımızı bildirmek için [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tarafından bir Onay Epostasını alacaksınız, Sorunuzu aldığımız Zaman. Bize Sorunuzu gönderdikten sonra yakın Zamanda bizden bir Epostası alamadığınızı bulursanız, Spam Epostası Klasörünüze bakmanızı Tavsiye ederiz. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] istenmeyen Eposta Gönderme eyleminde bulunmuyor, ama bazı atılgan Eposta Filtreleri yanlışlıkla Epostalarımızı Spam olarak sınıflandırabilir ve on göre davranabilir.
+		</p>
+	</li>
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

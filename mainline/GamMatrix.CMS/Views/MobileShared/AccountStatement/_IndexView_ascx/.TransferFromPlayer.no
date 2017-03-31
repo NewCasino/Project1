@@ -1,0 +1,4 @@
+﻿Overføring fra spiller {0}
+
+
+

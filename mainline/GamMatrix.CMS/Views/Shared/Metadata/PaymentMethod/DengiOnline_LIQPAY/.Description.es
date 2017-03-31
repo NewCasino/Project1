@@ -1,0 +1,1 @@
+﻿Liqpay es una plataforma de pago universal que permite a los comerciantes a aceptar pagos de usuarios finales y naturales pagar o para hacer transferencias de dinero simplemente por número de teléfono móvil del recepiente. Para utilizar Liqpay todo lo que necesita es un teléfono móvil y una tarjeta bancaria.

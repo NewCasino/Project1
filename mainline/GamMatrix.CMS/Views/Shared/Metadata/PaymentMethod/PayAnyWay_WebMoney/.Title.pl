@@ -1,0 +1,1 @@
+﻿WebMoney (obsługiwany przez serwis Moneta)

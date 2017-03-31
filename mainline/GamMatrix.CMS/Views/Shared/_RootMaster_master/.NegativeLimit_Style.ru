@@ -1,0 +1,8 @@
+﻿<style type="text/css" rel="stylesheet">
+.NegativeLimitPanel{display:none;background:rgba(0,0,0,0.8);position:absolute;top:0;left:0;z-index:9999;}
+.NegativeLimitPopup{position:absolute;top:20%;left:40%;width:440px;height:150px;background:#fff;border-radius:8px;}
+.NegativeLimitPopup .NegativeLimit_Content{text-align:left;width:400px;height:100px;margin:0;padding: 20px;}
+.NegativeLimitPopup .NegativeLimit_Message_Text{color:#000;line-height:24px;text-align:left;}
+.NegativeLimitPopup .NegativeLimit_Message_Text a{color:#ff5900;text-decoration:none;}
+.NegativeLimitPopup a.Close{position:absolute;top:5px; right:10px;font-size:16px;z-index:9999;color:#ff5900;text-decoration:none;font-family:sans-serif;}
+</style>

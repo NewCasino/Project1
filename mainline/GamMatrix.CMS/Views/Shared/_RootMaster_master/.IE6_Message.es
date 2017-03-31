@@ -1,0 +1,1 @@
+﻿Está usando Internet Explorer 6, alguna de las funciones pueden no estar disponibles, y le recomendamos que actualice su Internet Explorer a una versión superior para una experiencia mejorada.

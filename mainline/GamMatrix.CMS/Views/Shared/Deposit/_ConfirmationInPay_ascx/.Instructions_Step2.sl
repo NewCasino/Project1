@@ -1,0 +1,1 @@
+﻿2. korak. Nakazilo <span style="font-weight: bold">{0}</span> <span style="font-weight: bold">{1}</span> na naslednji račun

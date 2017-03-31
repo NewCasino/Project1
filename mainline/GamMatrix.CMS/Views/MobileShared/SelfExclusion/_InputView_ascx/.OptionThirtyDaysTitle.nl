@@ -1,0 +1,1 @@
+﻿Een 6 maanden lange zelfuitsluiting periode.

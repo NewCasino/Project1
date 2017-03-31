@@ -1,0 +1,1 @@
+﻿Bezpośrednia wypłata na rachunek karty Maestro.

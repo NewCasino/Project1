@@ -1,0 +1,1 @@
+﻿Intelligent Payments kopplar ihop handlare med lokala köpare i länder där de vill utöka sin försäljning, vilket hjälper dem att dra nytta av lägre växlings- och handläggningskostnader.

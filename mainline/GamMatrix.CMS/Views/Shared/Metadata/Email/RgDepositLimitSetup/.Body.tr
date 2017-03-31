@@ -1,0 +1,6 @@
+﻿<p>Dear $USERNAME$,</p>
+<br />[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile İletişime geçtiğiniz için Teşekkür ederiz.<br /> <br /> Bireysel Limitiniz $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$ a kurulmuştur.<br /> <br /> Limitinizi Sorumlu Kumarcılık Sayfasındakı aynı Menüyü kullanarak anında düşürebilirsiniz.<br /> <br /> Ama Limitinizi arttırmak isterseniz, yeni Limitinizin etkinleşmesi 7 gün sürer. Bu 7 Günlük süre Değişikliği gerekirse tekrar düşünmenize izin verir.<br /> <br />Lütfen herhangi bir Sorunuz olursa, bizimle burdan İletişime geçmeye çekinmeyiniz:<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p>Saygılarımızla</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri Ekibi&nbsp;&nbsp;&nbsp;</p>
+

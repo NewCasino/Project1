@@ -1,0 +1,1 @@
+Vaše uporabniško ime mora vsebovati vsaj 4 znake

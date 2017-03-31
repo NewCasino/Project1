@@ -1,0 +1,1 @@
+﻿Zpráva byla odeslána

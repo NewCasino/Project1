@@ -1,0 +1,1 @@
+﻿Väljer du att begränsa ditt spel med en cool off period, har du följande alternativ på tidsperioder som du kommer att inaktivera ditt konto för. Vänligen notera att dessa alternativ är tidsbegränsade. Vi ber dig även att välja en av anledningarna nedan så att vi vet varför du väljer pausa ditt spel.

@@ -1,0 +1,33 @@
+﻿<p>
+Lojalitet belønnes hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Casino – og med belønning mener vi hard valuta!
+</p>
+<br />
+<strong>Tjene opp FPP-er (Frequent Player Points) i kasinoet</strong>
+<p>
+Når du spiller kasinospill hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] med ekte penger, tjener du opp kasinopoeng. Disse poengene kan konverteres til penger når du måtte ønske, så lenge du har en saldo på minst 200 poeng eller mer. 
+</p>
+<br />
+<strong>Sjekk og krev poeng</strong>
+<p>Du kan alltid følge med på hvor mange kasinopoeng du har på kasinosiden, og husk at hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] har vi fokus på rettferdig spill, så poeng du tjener opp vil aldri utløpe. For å konvertere dine kasinopoeng om til penger, klikk du på Krev-knappen under saldoen din med kasinopoeng. Hvert 100. poeng gir deg €1, og disse pengene krediteres automatisk kontoen din. Hvis du har valgt en annen valuta for kasinokontoen din, får du tilsvarende €1 per 100. poeng betalt i foretrukket valuta. 
+</p>
+<br />
+<strong>Tjene opp poeng </strong>
+<p>
+Forskjellige spill gir deg forskjellige antall kasinopoeng. Se vilkårene og betingelsene nedenfor for å finne ut hvor mange poeng du tjener opp ved å spille dine favorittspill. Hvor mange poeng du får er oppgitt i prosent, som betyr hvor mange prosent av 1 kasinopoeng du får hver gang du spiller for €1. Alle spill teller selvsagt, selv om du satser mindre enn €1. For eksempel gir vårt populære spill Gonzo's Quest deg 20 % av det fulle poenget. Det betyr at dersom du satser €10, tjener du 2 kasinopoeng. 
+</p>
+<br />
+<strong>Spesielle kampanjer</strong>
+<p>
+Se etter unike kampanjer som gir deg pengebelønninger. Noen ganger øker vi prosenten for visse spill i en periode. Sjekk ut nyhetsseksjonen på kasinosiden for å se hvilke spill som gir deg enda flere poeng. 
+</p>
+<p><center><img src="//cdn.everymatrix.com/Shared/_files/Casino/FPP/casinofpp_banner_noborder.jpg" /></center></p>
+<br />
+<strong>Vilkår og betingelser</strong>
+
+<ol class="fpp_termsconditions_list">
+<li>Alle kunder tjene opp FPP-er når de spiller kasinospill med ekte penger. </li>
+<li>Minst 200 kasinopoeng kreves for å kunne konvertere poengene til penger.. Hvert 100. kasinopoeng gir deg €1 (eller tilsvarende i annen valuta). Når du foretar konverteringen vil poeng som ikke brukes forbli på kundens poengsaldo. </li>
+<li>Et spilles rate forteller deg hvor mange prosent av 1 kasinopoeng en innsats på €1 gir deg (eller tilsvarend i annen valuta). </li>
+<li>Alle spill i kategoriene Videoautomater, Klassiske automater, Progressive automater, Skrapelodd og Andre spill gir deg 20 % av det fulle poenget, med unntak av Arabian Nights og Jackpot 6000 som gir deg 5 %, all videopoker og bordspill gir deg 5 % og rulett, Blackjack, Jacks or Better, Punto Banco, Baccarat, Casino Hold’em, Oasis Poker og TXS Hold’em gir deg 1 %. Klikk <a href="[Metadata:value(.FppRatesUrl)]">her</a> for en komplett liste med spill og deres rate.</li>
+<li>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] forbeholder seg retten til å endre eller fjerne kampanjen som gir deg pengebelønninger, etter eget forgodtbefinnende.</li>
+</ol>

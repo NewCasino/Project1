@@ -1,0 +1,1 @@
+Läs villkoren här

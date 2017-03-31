@@ -1,0 +1,1 @@
+penningbelöningar i hög takt

@@ -1,0 +1,1 @@
+﻿Alle opening methoden zien

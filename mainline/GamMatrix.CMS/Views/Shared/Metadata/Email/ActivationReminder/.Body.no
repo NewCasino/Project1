@@ -1,0 +1,19 @@
+﻿<p>Hei&#160; $USERNAME$,<br />
+<br />
+Takk for at du registrerte deg hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+<br />
+<br />
+Av sikkerhetsmessige årsaker må vi minne deg på å bekrefte e-postadressen. En bekreftelse sikrer at kontoen din forblir aktiv slik at du kan fortsette å dra nytte av alle tilbudene på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].<br />
+<br />
+Klikk på koblingen nedenfor. Hvis koblingen ikke fungerer, kan du prøve å kopiere og lime inn koblingen i nettleseren din.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+Hvis du ikke har registrert deg hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+, kan du se bort fra denne e-postmeldingen eller informere <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+Sørg for at du fullfører e-postbekreftelsen umiddelbart for å hindre at kontoen blir begrenset av sikkerhetsmessige årsaker.
+<p><br />
+Med vennlig hilsen,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Kundestøtteteamet<br />

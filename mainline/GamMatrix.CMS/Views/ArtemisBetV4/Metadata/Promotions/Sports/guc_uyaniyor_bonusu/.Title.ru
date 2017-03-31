@@ -1,0 +1,1 @@
+﻿Güç Uyanıyor Bonusuyla Türk takımları kazanamasa bile %50 para iadesi! 

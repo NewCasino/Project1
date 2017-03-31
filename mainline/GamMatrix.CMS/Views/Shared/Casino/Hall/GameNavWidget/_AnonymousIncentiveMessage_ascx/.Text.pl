@@ -1,0 +1,1 @@
+Jeśli chcesz dodawać gry do swojej listy Ulubionych, musisz mieć u nas konto. Korzyści z posiadania konta obejmują możliwość grania na prawdziwe pieniądze, zapamiętanie ustawień osobistych oraz możliwość grania we wszystkie ulubione gry na urządzeniu mobilnym, wraz z ustawieniami osobistymi.

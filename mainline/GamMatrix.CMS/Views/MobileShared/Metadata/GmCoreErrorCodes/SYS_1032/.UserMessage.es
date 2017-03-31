@@ -1,0 +1,1 @@
+﻿El estado del usuario no ha cambiado

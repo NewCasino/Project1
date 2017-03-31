@@ -1,0 +1,1 @@
+Din alias måste bestå av 5 till 12 tecken

@@ -1,0 +1,6 @@
+﻿<a href="/AboutUs" target="_top">Au Sujet de  [Metadata:value(/Metadata/Settings.Operator_DisplayName)]</a> |
+<a href="/ResponsibleGaming " target="_top">Jeu Responsable</a> |
+<a href="/TermsConditions" target="_top">Termes & Conditions Générales</a> |
+<a href="/ContactUs" target="_top"> Nous Contacter </a> |
+<a href="/Affiliate/home" target="_top">Affiliés</a> 
+

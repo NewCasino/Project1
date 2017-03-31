@@ -1,0 +1,1 @@
+﻿Bolivar Fuerte Venezolano

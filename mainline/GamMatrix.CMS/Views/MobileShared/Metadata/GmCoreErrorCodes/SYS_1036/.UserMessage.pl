@@ -1,0 +1,1 @@
+﻿Zdublowane żądanie dokonania transakcji

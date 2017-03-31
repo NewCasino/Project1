@@ -1,0 +1,1 @@
+﻿Grasz obecnie dla zabawy. <a class="Button IncentiveButton" href="#" title="Zaloguj się i otwórz konto teraz!">Graj na prawdziwe pieniądze</a> aby zyskać szansę na wygraną jackpota w tej grze: <span class="Cash">{0}</span>

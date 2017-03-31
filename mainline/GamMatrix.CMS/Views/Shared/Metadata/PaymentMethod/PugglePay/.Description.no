@@ -1,0 +1,3 @@
+Betal på et par sekunder med telefonen din. Løsningen krever ingen registrering eller apper.
+
+PugglePay er en svensk tjeneste for mobilbetaling som tilbyr øyeblikkelige innskudd via mobiltelefonen. Det er trygt og enkelt, du trenger bare å angi telefonnummeret ditt. Deretter sender vi deg en SMS-regning som du kan betale når som helst innen 14 dager. Innskuddet blir tilgjengelig umiddelbart og belastes ikke på telefonregningen din.

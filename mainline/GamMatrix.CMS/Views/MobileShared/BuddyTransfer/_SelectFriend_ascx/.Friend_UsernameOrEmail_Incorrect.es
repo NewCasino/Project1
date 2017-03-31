@@ -1,0 +1,1 @@
+﻿Existe un error en el nombre de usuario o dirección de correo electrónico de su amigo.

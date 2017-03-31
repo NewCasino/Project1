@@ -1,0 +1,1 @@
+﻿Rejestracja została zakończona.

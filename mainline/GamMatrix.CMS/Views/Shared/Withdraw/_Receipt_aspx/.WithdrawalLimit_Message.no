@@ -1,0 +1,4 @@
+Det akkumulerte uttaket overskrider EUR 2300. Vi er pålagt å bekrefte kontoen din før vi kan behandle uttaket. Send følgende dokumenter per e-post til <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>a) adressebevis, for eksempel en strømregning eller kontoutskrift </p>
+<p>b) kopi av ID-kort eller pass</p>
+<p>c) kopi av kortet du brukte for innskuddet</p>

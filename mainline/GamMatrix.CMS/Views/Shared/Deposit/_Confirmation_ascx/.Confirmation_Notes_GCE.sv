@@ -1,0 +1,1 @@
+Du dirigeras om till giftcardempire.com när du klickar på Fortsätt

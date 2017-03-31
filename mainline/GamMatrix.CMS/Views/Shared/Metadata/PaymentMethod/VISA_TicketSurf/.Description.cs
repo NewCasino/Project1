@@ -1,0 +1,1 @@
+﻿Můžete rychle vložit peníze z vaší kreditní karty Visa do svého herního účtu. Jednoduše zadejte údaje o kartě, a jakmile bude vaše kreditní karta ověřena, budou vaše peníze bezpečně a okamžitě přeneseny na váš herní účet.

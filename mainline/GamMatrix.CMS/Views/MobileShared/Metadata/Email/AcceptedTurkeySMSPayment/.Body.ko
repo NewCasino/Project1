@@ -1,0 +1,5 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>귀하의 예치가 성공적으로 완료 되었습니다.</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">잔액을 다시 로드 하기 위해 페이지 상단의 "Refresh" 버튼을 클릭하세요(웹 브라우저의 refresh 버튼이 아님).</strong></span></p>
+<p>만약 귀하가 어떠한 의문점이 있다면 언제든 연락주세요<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

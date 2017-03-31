@@ -1,0 +1,1 @@
+Znacznik partnera zostanie obcięty, ponieważ jego długość przekracza określony limit.

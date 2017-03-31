@@ -1,0 +1,1 @@
+﻿Abyste změnili svou kontaktní emailovou adresu, prosím vyplňte a potvrďte novou kontaktní emailovou adresu níže. Ověřovací mail bude odeslán na vaši novou emailovou adresu. Abyste ji ověřili, budete muset kliknou na odkaz v tomto mailu. Vaše emailová adresa nebude změněna, dokud neověříte svou novou adresu kliknutím na odkaz v ověřovacím emailu.

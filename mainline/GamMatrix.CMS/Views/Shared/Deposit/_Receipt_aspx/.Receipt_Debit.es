@@ -1,0 +1,1 @@
+﻿Cantidad retirada de su cuenta {0}

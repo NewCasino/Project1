@@ -1,0 +1,23 @@
+﻿<em>Cet email est envoyé par un client sur le site depuis la page "Nous Contacter".<br />
+
+NE PAS répondre a cet email directement! Vous pouvez trouver l´email du client ci-dessous.</em>
+
+<hr/>
+
+<ul>
+
+<li><strong>Email du Client</strong>:$EMAIL$</li>
+
+<li><strong>Nom du Client</strong>:$NAME$</li>
+
+<li><strong>Sujet</strong>:$SUBJECT$</li>
+
+<li><strong>ID Utilisateur</strong>:$USERID$</li>
+
+<li><strong>Nom d´ Utilisateur</strong>:$USERNAME$</li>
+
+</ul>
+
+<hr/>
+
+<pre>$CONTENT$</pre>

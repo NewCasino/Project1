@@ -1,0 +1,1 @@
+﻿Yandex.Money is a payment system that allows it's users to pay and to accept payments online via web-interface, smartphone and tablet applications.

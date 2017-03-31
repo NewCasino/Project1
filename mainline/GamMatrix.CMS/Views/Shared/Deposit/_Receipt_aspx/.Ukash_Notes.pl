@@ -1,0 +1,1 @@
+Zanotuj teraz zmienione dane, bo nie będziesz już mógł wrócić do tego ekranu.

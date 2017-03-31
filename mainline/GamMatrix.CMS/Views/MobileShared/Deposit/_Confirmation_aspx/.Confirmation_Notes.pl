@@ -1,0 +1,1 @@
+﻿Uwaga: wpłata zostanie przetworzona przez firmę EveryMatrix Ltd, obsługującą płatności witryny [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]; na wyciągu z konta pojawi się nazwa EveryMatrix.

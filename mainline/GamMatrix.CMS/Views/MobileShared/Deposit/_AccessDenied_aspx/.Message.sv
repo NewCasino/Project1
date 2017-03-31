@@ -1,0 +1,1 @@
+Du är inte berättigad att göra en insättning.

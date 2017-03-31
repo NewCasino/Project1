@@ -1,0 +1,2 @@
+﻿Proszę wybrać kartę
+

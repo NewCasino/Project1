@@ -1,0 +1,4 @@
+﻿Částka musí být vyplněna
+
+
+

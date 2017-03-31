@@ -1,0 +1,1 @@
+Det är viktigt att du ger oss ditt användarnamn <strong>{0}</strong> när du gör en banköverföring. Behåll alla referenser och kvitton som bevis för betalningen. 

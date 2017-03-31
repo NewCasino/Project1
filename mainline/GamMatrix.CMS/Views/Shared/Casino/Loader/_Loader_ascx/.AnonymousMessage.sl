@@ -1,0 +1,1 @@
+Igrate v načinu zabave. Če želite igrati za pravi denar, se morate najprej prijaviti.

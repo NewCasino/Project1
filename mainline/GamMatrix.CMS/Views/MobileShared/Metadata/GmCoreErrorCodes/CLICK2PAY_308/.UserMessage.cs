@@ -1,0 +1,1 @@
+﻿Platba zamítnuta.Prosím aktivujte svojí přednastavenou platební metodu a zkuste znova.

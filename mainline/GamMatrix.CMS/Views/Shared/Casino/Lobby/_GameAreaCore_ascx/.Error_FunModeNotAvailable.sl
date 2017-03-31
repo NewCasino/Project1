@@ -1,0 +1,1 @@
+Napaka; te igre ni mogoče igrati v načinu zabave!

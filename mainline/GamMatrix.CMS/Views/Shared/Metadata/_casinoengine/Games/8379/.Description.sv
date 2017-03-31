@@ -1,0 +1,1 @@
+﻿Fisticuffs™ är ett 5-reel, 10-line video slot maskiner Vinn Båda och en Boxingmaskin omspinn där Wilds kvarstår på raderna för omspinn.Det tar spelare tillbaka till boxningsringen under tidigt 1900tal när boxning var för gentlemen. Hör klockan och se ljuset slås på och slagen flyger dyker upp på raderna för att starta boxningsmaskinen.

@@ -1,0 +1,1 @@
+﻿Množství je mimo limit.

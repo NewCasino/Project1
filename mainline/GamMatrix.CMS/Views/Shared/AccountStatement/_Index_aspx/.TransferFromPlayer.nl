@@ -1,0 +1,1 @@
+﻿Overdracht van speler {0}

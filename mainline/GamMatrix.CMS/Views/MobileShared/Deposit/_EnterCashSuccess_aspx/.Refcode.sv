@@ -1,0 +1,2 @@
+﻿Meddelandenummer till mottagare(Refcode)
+

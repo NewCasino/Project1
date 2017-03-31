@@ -1,0 +1,74 @@
+﻿<ol>
+
+    <li> <strong>Wie kann ich Geld auf mein [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Casino-Konto einzahlen??</strong> 
+        <p>
+            Das Guthaben für Casinospiele ist vom Hauptkonto getrennt. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Das ermöglicht Ihnen einen einfachen Überblick. Sie können die Gelder ganz einfach zwischen den beiden Konten hin und her bewegen. Klicken Sie dazu auf die Funktion „Geld überweisen“. Diese Funktion steht Ihnen im Casino immer auf der rechten Seite zur Verfügung.
+        </p>
+    </li>
+
+    <li> <strong>Wie fair geht es beim Spielen auf Ihrer Website zu?</strong>
+        <p>
+            Wir können Ihnen versichern, dass die Algorithmen, die wir beim Verteilen der Karten auf unserer Website einsetzen, für komplett zufällige Ergebnisse sorgen. Wir setzen bei der Entwicklung unserer Spiele die sichere Zufallsfunktion von Sun Microsystems für Java ein. Der Zufallszahlengenerator und das Mischen der Karten wurden von einem Doktor der Mathematik entwickelt Die von uns zur zufälligen Kartenverteilung eingesetzte Software wurde umfassend und gründlich getestet. Dabei konnten keinerlei Einseitigkeiten oder Vorhersagbarkeiten festgestellt werden. Die Software wurde von eCOGRA genehmigt.
+        </p>
+    </li>
+
+    <li>
+        <strong>Was passiert, wenn ein Spiel mitten während einer Spielrunde unterbrochen wird?</strong> 
+        <p>
+            Der Status jedes Spiels wird automatisch in der System-Datenbank gespeichert. Dies stellt sicher, dass immer der letzte Spielstatus des Spielers wiederhergestellt wird, wenn das Spiel nach einer durch das System verursachten Unterbrechung, einem Ausfall der Internetverbindung oder des Servers oder einem Problem auf Seiten des Kunden fortgesetzt wird.
+        </p>
+    </li>
+
+    <li>
+        <strong>Wie viele Kartensätze werden beim Blackjack verwendet?</strong>
+        <p>Bei den Blackjack-Spielen setzen wir 4 und 6 Kartensätze ein.</p>
+    </li>
+
+    <li>
+        <strong>Wo finde ich detaillierte Anleitungen für Ihre Spiele?</strong>
+        <p>
+            Die „Spielregeln“ für jedes Spiel finden Sie direkt auf der entsprechenden Spielseite.
+        </p>
+    </li>
+
+    <li>
+        <strong>Wie hoch sind die durchschnittlichen Auszahlungen auf der Website?</strong>
+        <p>
+            Die Auszahlungen variieren je nach Spiel und Zeitraum. Insgesamt liegt die theoretische Auszahlungsquote im Bereich von 97 %. Die Regeln für die Auszahlung sind fest codiert. Wir passen diese nicht an.
+        </p>
+    </li>
+
+    <li>
+        <strong>Kann ich die Spiele erst einmal kostenlos testen?</strong>
+        <p>
+            Ja, Sie können alle Spiele auch kostenlos spielen. Dafür müssen Sie den Modus „Spielen aus Spaß“ auswählen.
+        </p>
+    </li>
+
+    <li>
+        <strong>Kann ich einen Einsatz nach dem Setzen wieder zurücknehmen?</strong>
+        <p>
+            Dies kann bis zum Beginn des Spiels möglich sein. Nach dem Spielbeginn können Sie Ihre Einsätze allerdings weder zurückziehen noch verändern.
+        </p>
+    </li>
+
+    <li>
+        <strong>Was passiert, wenn meine Verbindung während einer Spielrunde unterbrochen wird?</strong>
+        <p>
+            Sobald Sie sich erneut eingeloggt und das Spiel aufgerufen haben, wird es an genau der Stelle fortgesetzt, an der Sie sich zuletzt befunden haben. Spielautomaten, deren Walzen sich während der Unterbrechung gerade drehen, werden allerdings die Runde auch bei unterbrochener Verbindung fortsetzen.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

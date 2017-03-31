@@ -1,0 +1,75 @@
+﻿<#
+    var getTitle = function(g){
+        var str = '[Metadata:scriptencode(.Link_Title)]';
+        return str.replace( "{0}", g).htmlEncode();
+    };
+
+    var vendors = {};
+    if( typeof(config !== 'undefined') && config.vendors )
+        vendors = config.vendors;
+
+    var data = arguments[0];
+    for( var i = 0; i < data.length; i++) {
+ #>
+
+<li class="GLItem <#= data[i].Opened ? 'OpenedTable' : 'ClosedTable' #>" data-tableid="<#= data[i].ID #>" data-category="<#= data[i].C #>" data-vendor="<#= data[i].V #>">
+    <a href="#" class="GameThumb" title="<#= getTitle(data[i].G) #>">
+    
+        <# if( data[i].I.length > 0 ) { #>
+        <img class="GT" src="<#= data[i].I.htmlEncode() #>" alt="<#= data[i].G.htmlEncode() #>" />
+        <# } #>
+
+        <span class="Hidden">[Metadata:htmlencode(.Game_Properties)]</span>
+
+        <# if(data[i].N == 1) { #>
+        <span class="GTnew">New</span>
+        <# } #>
+
+        <span class="GTfav <#= (data[i].Fav != 1) ? 'Hidden' : '' #>">[Metadata:htmlencode(.Favorite)]</span>
+
+        <# if(data[i].H == 1) { #>
+        <span class="GThot">Hot</span>
+        <# } #>
+        <span class="SeatInfos <#= (data[i].SeatsUnlimited == 0) ? 'Hidden':'' #> AvSeats Seats-Color1">
+            <span class="SeatsTitle">[Metadata:htmlencode(.SeatsTitle)]</span>
+            <span data-gameseats="<#= (data[i].SeatsUnlimited == 0 && data[i].SeatsAvailable) ? data[i].SeatsAvailable : 'X' #>" id="NrSeats-<#= data[i].ID #>" class="NrSeats">
+            <#= (data[i].SeatsUnlimited == 0)  ?  
+             ('[Metadata:htmlencode(.Seats_ShowOnlyAvailable)]'.toLowerCase() === 'true') 
+            ?
+            '<span class="SeatsAvailable"></span><span class="SeatsAvailableTitle">[Metadata:htmlencode(.SeatsAvailableTitle)]</span>'
+            :
+            '<span class="TakenSeats">' + data[i].SeatsTaken + '</span><span class="SeatsPin">/</span><span class="TotalSeats">' + data[i].SeatsMax +'</span>'
+            :
+            '<span class="SeatsAvailableTitle Unlimited">[Metadata:htmlencode(.Seats_Unlimited)]</span>'   #>
+            </span>
+        </span>  
+
+        <span class="GTprovider <#= data[i].V #>"><span class="GTicon"><#= data[i].V #></span></span>
+
+<span class="GTStatus">
+<span class="GTStatusIcon"></span>
+<span class="OptionSpecial"></span>
+        </span>
+
+<# if( data[i].Limit != null && data[i].Limit != '' ) { #>
+<span class="GTLimit">
+            <span class="OptionSpecial"><#= data[i].Limit.htmlEncode() #></span>
+        </span>
+<# } #>
+
+<# if( data[i].OpeningHours != null && data[i].OpeningHours != '' ) { #>
+<span class="GTOpeningHours">
+            <span class="OptionSpecial"><#= data[i].OpeningHours.htmlEncode() #></span>
+        </span>
+<# } #>
+    </a>
+    <h3 class="GameTitle">
+    
+        <a href="#" class="Game" title="<#= getTitle(data[i].G) #>">
+            <#= data[i].G.htmlEncode() #>
+        </a>
+    </h3>
+</li>
+
+
+<# } #>

@@ -1,0 +1,7 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] İletişim Epostanızı değiştirmeye Talep ettiniz.</p>
+<p>Emniyetiniz için yeni Epostanızı doğrulamanız gerekiyor. Bunu yapmak için alttalkı Linke tıklayınız:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Bu LLink karşılık vermez ise, Linki Kopyalayınız ve Tarayıcınızın Adres Bölümüne yapıştırınız.</p>
+<p>Epostanızı değiştirmeyi Talep etmediyseniz lütfen bu Epostayı Dikkata almayınız veya bize bildiriniz:<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Saygılarımızla, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri Ekibi</p>

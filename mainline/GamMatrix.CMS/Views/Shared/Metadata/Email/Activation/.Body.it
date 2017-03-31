@@ -1,0 +1,12 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+<p>grazie per esserti registrato su [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], il tuo conto ($USERNAME$) è stato creato e devi attivarlo prima di poterlo utilizzare.</p>
+<p>Per attivare il tuo conto clicca sul link qui di seguito e, se non funziona, copia ed incolla il link nel browser.</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Se non ti sei registrato su [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], per favore ignora questa e-mail o informa <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Grazie per esserti registrato a[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>Saluti,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team</p>
+
+
+
+
+

@@ -1,0 +1,1 @@
+Wygrywająca gra: {0}

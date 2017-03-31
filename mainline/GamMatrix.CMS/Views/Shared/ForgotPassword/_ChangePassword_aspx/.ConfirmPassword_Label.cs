@@ -1,0 +1,1 @@
+﻿Potvďte heslo

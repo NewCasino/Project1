@@ -1,0 +1,1 @@
+﻿Dodaná CLICK2PAY uživatelská data (PAN) nejsou platná. Zkuste prosím znova. Pokud bude problém přetrvávat kontaktujte zákaznickou podporu na service@click2pay.com.

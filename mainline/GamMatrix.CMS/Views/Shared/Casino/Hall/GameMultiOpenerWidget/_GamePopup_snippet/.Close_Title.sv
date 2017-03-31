@@ -1,0 +1,1 @@
+Stäng det här popupfönstret nu!

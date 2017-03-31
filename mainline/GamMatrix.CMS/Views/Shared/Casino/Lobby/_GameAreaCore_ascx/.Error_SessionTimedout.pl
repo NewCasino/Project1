@@ -1,0 +1,1 @@
+Limit czasu sesji został przekroczony, zaloguj się ponownie.

@@ -1,0 +1,63 @@
+﻿<div class="sitemap_items">
+<div class="root_title">[Metadata:value(/Metadata/Settings.Operator_DisplayName)]</div>
+<ul class="items">
+<li><a href="/">Home</a></li>
+<li><a href="/help">Hilfe</a></li>
+<li><a href="/customersupport">Kundenbetreuung</a></li>
+<li><a href="/deposit">Zahlungsmethoden&nbsp;</a></li>
+<li><a href="/ForgotPassword">Passwort vergessen</a></li>
+<li><a href="/register">Jetzt Mitglied werden</a></li>
+<li><a href="#top">Login</a></li>
+<li><a href="/Sports/Home">Sport</a></li>
+<li><a href="/Casino/Lobby">Kasino</a></li>
+<li><a href="/Poker/">Poker</a></li>
+<li><a href="/Bingo/">Bingo</a></li>
+<li><a href="/Promotions/Home">Aktionen</a></li>
+<li><a href="/AboutUs">Über uns</a></li>
+<li><a href="/ResponsibleGaming">Verantwortungsvolles Spielen</a></li>
+<li><a href="/TermsConditions">AGB &amp; </a></li>
+<li><a href="/Sitemap">Inhaltsübersicht</a></li>
+<li><a href="/Affiliate/Home">Partner</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Sport</div>
+<ul class="items">
+<li><a href="/help/Sports">Häufig gestellte Fragen</a></li>
+<li><a href="/Promotions/home/sportsbook">Aktionen&nbsp;</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Kasino</div>
+<ul class="items">
+<li><a href="/help/Casino">Häufig gestellte Fragen</a></li>
+<li><a href="/Promotions/home/casino">Aktionen</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Poker</div>
+<ul class="items">
+<li><a href="#">Download Client</a></li>
+<li><a href="/Poker/Tournaments/CAKEPoker">Turniere</a></li>
+<li><a href="/PokerSchool">Poker Schule</a></li>
+<li><a href="/help/Poker">Häufig gestellte Fragen</a></li>
+<li><a href="/Promotions/TermsConditions/poker/LoyaltyLevels">Loyalitätslevel</a></li>
+<li><a href="/Promotions/home/Poker">Aktionen</a></li></ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Aktionen</div>
+<ul class="items">
+<li><a href="/Promotions/Home">Top Aktionen</a></li>
+<li><a href="/Promotions/home/sportsbook">Sport</a></li>
+<li><a href="/Promotions/home/casino">Kasino</a></li>
+<li><a href="/Promotions/home/Poker">Poker</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Partner</div>
+<ul class="items">
+<li><a href="/Affiliate/home">Login</a></li>
+<li><a href="#">Passwort vergessen?</a></li>
+<li><a href="#">Jetzt anmelden</a></li>
+</ul>
+</div>

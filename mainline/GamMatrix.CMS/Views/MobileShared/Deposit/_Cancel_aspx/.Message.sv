@@ -1,0 +1,1 @@
+Du har avbrytit transaktionen

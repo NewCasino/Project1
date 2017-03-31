@@ -1,0 +1,8 @@
+﻿這是一封自動郵件,請不要回复.
+<hr/>
+<p>尊敬的$FIRSTNAME$</p>
+<p>您的賬戶已被鎖定，因為太多次的無效登錄嘗試,將在15分鐘後自動解除鎖定.</p>
+<p>如是您忘記了密碼並想要修改它，請在網站上點擊&quot;Forgot password&quot;鏈接.</p>
+<p>如需要進一步的幫助請聯繫<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>. </p>
+<p>謹致問候</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]客戶支持團隊</p>

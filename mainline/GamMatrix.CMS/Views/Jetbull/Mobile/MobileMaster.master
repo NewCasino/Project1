@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" PageTemplate="/DefaultMaster.master" Title="<%$ Metadata:value(.Title)%>" MetaKeywords="<%$ Metadata:value(.Keywords)%>" MetaDescription="<%$ Metadata:value(.Description)%>" %>
+
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server"> 
+<asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+<script language="javascript" type="text/javascript">
+$( function () { 
+	$("#jetbull-header .logo img").attr("src","/Views/Jetbull/_files/head/3191_195x60.png");
+$('html').addClass('MobilePage');
+});
+</script>
+<div id="mobile_banner"><%=this.GetMetadata(".Banner")%></div>
+<asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+
+</asp:Content>
+

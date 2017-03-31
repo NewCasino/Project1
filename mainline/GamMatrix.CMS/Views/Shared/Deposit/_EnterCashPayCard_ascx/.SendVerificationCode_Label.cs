@@ -1,0 +1,1 @@
+﻿Poslat ověřovací kód 

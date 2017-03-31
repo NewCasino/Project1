@@ -1,0 +1,1 @@
+﻿Poprosiłeś już {0} razy. Jeśli wciąż nie otrzymałeś aktywacyjnej wiadomości e-mail, skontaktuj się z [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)].

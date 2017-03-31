@@ -1,0 +1,1 @@
+﻿Celkový přehled Jackpotů

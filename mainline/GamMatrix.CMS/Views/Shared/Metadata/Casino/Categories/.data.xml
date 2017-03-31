@@ -1,0 +1,4025 @@
+<?xml version="1.0"?>
+<ArrayOfGameCategory xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GameCategory>
+    <ID>7c301e72-ca5f-6ce6-7e7c-cc70ce05d5ff</ID>
+    <EnglishName>Table Games</EnglishName>
+    <GameRefs>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>casinoholdem</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Casino Hold'em</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>reddog</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Red Dog Progressive</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>cstudflash</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Caribbean Stud</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>f83bebc0-a616-8b9e-815b-aec933539270</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>blackjackflash</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrblackjackflash</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrblackjackflash</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Blackjack Classic</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>4816e5fd-6dbc-8218-f792-911a40df9cd7</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>blackjack2-3h</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrblackjack2-3h</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrblackjack2-3h</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Blackjack Professional</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>889a591c-08ff-57cd-c574-17a57d070f7b</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>blackjackonedk</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrblackjackonedk</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrblackjackonedk</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Single Deck Blackjack</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>e644f09c-d44a-2f0f-0864-18e50cbcd628</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hilo</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrhilo</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrhilo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>High Low</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>ca1b88fb-2f33-e577-2888-41f5223b4833</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>roulette2adv</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrroulette2adv</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Roulette Pro</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>7bde02ae-20e9-71a8-5148-b081ffa1bedd</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>txsholdem</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrtxsholdem</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrtxsholdem</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>TXS Hold'em</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>5a274ec1-9944-dd62-bbbb-1322b765fed3</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>puntobanco</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrpuntobanco</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrpuntobanco</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Punto Banco</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>d7bffa77-051a-65f1-b60a-e3dc69757569</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>oasispoker</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lroasispoker</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hroasispoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Oasis Poker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>238c4d3e-6e25-a591-15e6-84e4c524f191</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>blackjackpntn</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrblackjackpntn</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrblackjackpntn</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Pontoon</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>030e514f-8073-5e17-4cc9-1e8a9b696d52</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>letitride2</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrletitride2</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrletitride2</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Let It Ride</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>b19a3ccc-8e9f-f05b-eca6-20f882f77c0a</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hilo2-3c</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrhilo2-3c</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrhilo2-3c</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>HiLo Switch</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>b2c30968-4c2e-abb5-6e21-1fff09a8d8c1</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>roulette2french</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrroulette2french</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrroulette2french</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>French Roulette</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>084071cf-c9e2-c333-3420-086e0bbc21d9</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>blackjackdblex</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrblackjackdblex</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrblackjackdblex</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Double Exposure Blackjack</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>2b0db7a1-a5b4-f55b-7986-6910dcaeb5c0</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>baccarat2</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrbaccarat2</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrbaccarat2</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Baccarat Professional</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>d07ebf45-bb3c-0567-edec-373ab2ef7481</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>treypoker-1h</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrtreypoker-1h</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrtreypoker-1h</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Trey Poker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>5b08fc9b-c93f-5748-c462-2314313d710e</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>cstud2</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrcstud2</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrcstud2</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Caribbean Stud Professional</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>7bde02ae-20e9-71a8-5148-b081ffa1bedd</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>txsholdem</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrtxsholdem</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrtxsholdem</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>TXS Hold'em</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>ca1b88fb-2f33-e577-2888-41f5223b4833</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>roulette2adv</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrroulette2adv</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Roulette Pro</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>AcesfacesPwrPoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Aces and Faces</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Deuces&amp;JokerPwrPoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Deuces and Joker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>BaccaratGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Baccarat Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DeucesWildPwrPoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Deuces Wild</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DoubleJokerPwrPoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Double Joker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Jackspwrpoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Jacks or Better</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>JokerPwrPoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Joker Poker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>TensorBetterPwrPoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Tens or Better</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>AmericanRoulette</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - American Roulette</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Baccarat</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Baccarat</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Craps</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Craps</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Cyberstud</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cyberstud Poker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>FrenchRoulette</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - French Roulette</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>HighLimitBaccarat</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - High Limit Baccarat</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>HLEuropeanAdvBJ</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - High Limit European Blackjack</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>HighSpeedPoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - High Speed Poker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MHBJClassic</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Multi-Hand Classic Blackjack</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>BonusPaigowPoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Pai Gow Poker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>PokerPursuit</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Poker Pursuit</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Spanish</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Spanish 21 Blackjack</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>SuperFun21</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Super Fun 21</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>AtlanticCityBJGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Atlantic City Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBigFiveBlackjackGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Big 5 Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyClassicBlackjackGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Classic Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyDoubleExposureBlackjackGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Double Exposure Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>EuropeanBJGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - European Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>EuroRouletteGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - European Roulette Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyHiLoBlackjackGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - HiLo 13 European Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MultiWheelRouletteGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Multi Wheel Roulette Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyMultiClassicBlackjackGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Multi-hand Classic Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MHEuropeanBJGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Multi-hand European Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyMultiVegasDowntownBlackjackGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Multi-Hand Vegas Downtown Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyPBJMultiHand</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Multi-Hand Premier Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyVegasSingleDeckBlackjackGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Vegas Single Deck Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyVegasStripBlackjackGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Vegas Strip Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyPBJHiLo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Premier Blackjack Hi Lo Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyPBJHighStreak</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Premier Blackjack High Streak Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyPBJMultiHandBonus</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Premier Multi-Hand Euro Bonus Blackjack Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyPremierRoulette</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Premier Roulette</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>PremierRouletteDE</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Premier Roulette Diamond Edition</EnglishGroupName>
+      </GameRef>
+    </GameRefs>
+  </GameCategory>
+  <GameCategory>
+    <ID>ed2d8e6a-2bda-793b-17d0-948d66664426</ID>
+    <EnglishName>Video Poker</EnglishName>
+    <GameRefs>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>acesfaces</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Aces and Faces</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyAllAces</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - All Aces Poker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyAllAmerican</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - All American</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyAcesAndEights</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Aces and Eights</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBonusDeucesWild</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bonus Deuces Wild</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBonusPoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bonus Poker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DeucesandJoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Deuces and Joker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBonusPokerDeluxe</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bonus Poker Deluxe</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>LouisianaDouble</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Louisiana Double</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyDoubleBonusPoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Double Bonus Poker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DoubleDoubleBonus</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Double Double Bonus</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>deuceswi</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Deuces Wild</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>jacks</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Jacks or Better</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Jokerpok</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Joker Poker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>TensorBetter</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Tens or Better</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DoubleJoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Double Joker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>7c802c62-1a74-0f24-aa7f-8b831819af6c</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>allamerican1</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>allamerican5</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>allamerican10</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>allamerican25</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>allamerican50</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>allamerican100</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>All American</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>1ebf7de2-9714-50e3-38c7-174ec0a16d78</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>shvideopokerdw</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>tenhvideopokerdw</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>tfhvideopokerdw</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>fiftyhvideopokerdw</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Classic Deuces Wild</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>b38f5dac-61e9-7cfe-2195-ba79fe161940</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>shvideopokerjob</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>fhvideopokerjob</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>thvideopokerjob</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Classic Jacks or Better</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>ebfb5c0b-34bb-6f77-aa39-d35fd925f825</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jacksorbetter1</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jacksorbetter5</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jacksorbetter10</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jacksorbetter25</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jacksorbetter50</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jacksorbetter100</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Jacks or Better</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>083535a2-3ba4-cc83-98dc-0ad691e6d71c</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jokerwild1</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jokerwild5</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jokerwild10</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jokerwild25</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jokerwild50</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jokerwild100</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Joker Wild</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID>e3865d2c-1fe5-8b4c-b2b6-4f02bf11c59e</ID>
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>deuceswild1</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>deuceswild5</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>deuceswild10</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>deuceswild25</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>deuceswild50</ID>
+          </GameID>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>deuceswild100</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Deuces Wild</EnglishGroupName>
+      </GameRef>
+    </GameRefs>
+  </GameCategory>
+  <GameCategory>
+    <ID>89859d8b-4417-9286-0264-361ed5656c37</ID>
+    <EnglishName>Classic Slots</EnglishName>
+    <GameRefs>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>beetle</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Beetle Frenzy</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>goldrushflash</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Gold Rush</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jackpot6k</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Jackpot 6000</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>luckyeight</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Lucky 8 Line</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>luckyeightlove</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Magic Love</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>megajoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Mega Joker</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>piratesgold2</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Pirates Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>luckyeightsafari</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Safari Madness</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Belissimo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Belissimo!</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>BreakDaBank</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Break Da Bank</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>CashClams</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cash Clams</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>cashcrazy</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cash Crazy</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>CouchPotato</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Couch Potato</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DoubleWammy</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Double Wammy</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyFlyingAce</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Flying Ace</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>fan7</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Fantastic 7s</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>fruits</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Fruit Slots</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>coolbuck</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cool Buck</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>cosmicc</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cosmic Cat</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>dm</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Double Magic</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>zebra</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Zany Zebra</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>jurassicjackpot</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Jurassic Jackpot</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>jexpress</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Jackpot Express</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>gdragon</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Golden Dragon</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>FortuneCookie</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Fortune Cookie</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyGoldCoast</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Gold Coast</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyJingleBells</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Jingle Bells</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyLegacy</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Legacy</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyRapidReels</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Rapid Reels</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RockTheBoat</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Rock The Boat</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>romanriches</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Roman Riches</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Spectacular</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Spectacular Wheel of Wealth</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>TripleMagic</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Triple Magic</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RetroReelsDiamondGlitz</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Retro Reels Diamond Glitz</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>SilverFang</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Silver Fang</EnglishGroupName>
+      </GameRef>
+    </GameRefs>
+  </GameCategory>
+  <GameCategory>
+    <ID>6bbc4fa9-ce6c-aeaa-5f82-988b030b435d</ID>
+    <EnglishName>Video Slots</EnglishName>
+    <GameRefs>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>robinhood</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Robin Hood</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>alienrobots</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Alien Robots</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>arabian</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Arabian Nights</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>bloodsuckers</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Blood Suckers™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>boombrothers</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Boom Brothers™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>champion</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Champion Of The Track™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>crusaders</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Crusade of Fortune</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>deadoralive</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Dead or Alive™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>devil</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Devil's Delight™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>diamonddogs</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Diamond Dogs</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>dragonisland</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Dragon Island™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>egyptianheroes</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Egyptian Heroes™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>excalibur</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Excalibur</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>fishyfortune</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Fishy Fortune</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>flowers</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Flowers</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>fortuneteller</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Fortune Teller™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>frankenstein</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Frankenstein™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>fruits</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Fruit Case™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>retro-funky70</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Funky Seventies™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>geisha</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Geisha Wonders</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>ghostpirates</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Ghost Pirates™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>eldorado</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Gonzo's Quest™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>retro-groovy60</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Groovy Sixties™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hallofgods</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Hall of Gods</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hotcity</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Hot City™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>ice</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Icy Wonders</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>jackhammer</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Jack Hammer™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>junglegames</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Jungle Games™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>reelpoker</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Kings of Chicago™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>megajackpot</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Mega Fortune™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>mansion</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Mystery At The Mansion</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>pacific</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Pacific Attack</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>pandorasbox</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Pandora's Box™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>piggyriches</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Piggy Riches™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>reelsteal</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Reel Steel</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>relicraiders</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Relic Raiders</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>secretcode</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Secret Code™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>horus</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Secrets Of Horus™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>wizards</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Spellcast</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>retro-super80</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Super Eighties™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>frog</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Super Lucky Frog</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>krakow</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Tales of Krakow</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>thrillspin</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Thrill Spin</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>tiki</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Tiki Wonders</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>troll</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Trolls</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>victorious</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - victorious</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>viking</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Viking's Treasure</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>voodoo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Voodoo Vibes</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>wildwitches</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Wild Witches</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyAgeOfDiscovery</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Age of Discovery</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBigBreak</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Big Break</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>300Shields</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - 300 Shields</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>BigFoot</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bigfoot</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Luckywitch</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Lucky Witch</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>BangkokNights</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bangkok Nights</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Dynasty</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Dynasty</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>AndreTheGiant</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Andre the Giant</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>VenetianRose</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Venetian Rose</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>KingTiger</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - King Tiger</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DroneWars</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Drone Wars</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>GoldFactory</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Gold Factory</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>LaCucaracha</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - La Cucaracha</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>UnicornLegend</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Unicorn Legend</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyMoneyMadMonkey</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Money Mad Monkey</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RamessesRiches</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Ramesses Riches</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>ShaaarkSuperbet</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Shaaark SuperBet</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DolphinReef</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Dolphin Reef</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>IrishEyes</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Irish Eyes</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>geniesgems</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Genies Gems</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Medusa</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Medusa</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyIWCashapillar</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cashapillar</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Crocodopolis</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Crocodopolis</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>wwizards</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Winning Wizards</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MadMadMonkey</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Mad Mad Monkey</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DoctorLove</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Dr Love</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>CherryBlossoms</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cherry Blossoms</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>FairiesForest</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Fairies Forest</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>BigKahuna</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Big Kahuna</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>CallOfTheColosseum</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Call of the Colosseum</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBreakDaBankAgain</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Break Da Bank Again</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>BushTelegraph</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bush Telegraph</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Cashanova</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cashanova</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Cashville</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cashville</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DinoMight</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Dino Might</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyDogfather</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Dogfather</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>EaglesWings</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Eagles Wings</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>GiftRap</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Gift Rap</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyHalloweenies</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Halloweenies</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyHellBoy</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Hellboy</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyHitman</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - HitMan</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Loaded</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Loaded</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MadHatters</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Mad Hatters</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MermaidsMillions</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Mermaids Millions</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>SecretAdmirer</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Secret Admirer</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBillionDollarGran</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Billion Dollar Gran</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Moonshine</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Moonshine</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>BingoBangoBoom</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bingo Bango Boom!</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>CopsAndRobbers</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cops And Robbers</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>DoggyReelBingo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Doggy Reel Bingo</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>CashCurry</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cash n Curry</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>HotInk</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Hot Ink</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyScratchNSpin</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Scratch N Spin</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>TheGeeGees</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - The Gee Gees</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>TrackAndFieldMouse</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Track And Fieldmouse</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubySpooksAndLadders</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Spooks and Ladders</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>WinSpinner</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Win Spinner</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyWheelOfPlenty</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Wheel of Plenty</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubySixBomb</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Six Bomb</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyLuckyDarts</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Lucky Darts</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyMagnificentSevens</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Magnificent 777's</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyFruitBingo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Fruit Bingo</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyGoldMine</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Gold Mine</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyFruitSmoothies</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Fruit Smoothies</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyJoker8000</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Joker 8000</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>TallyHo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Tally Ho</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>SpringBreak</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Spring Break</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RRQueenOfHearts</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Rhyming Reels - Queen of Hearts</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MonteCarloRiches</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Riviera Riches</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RetroReels</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Retro Reels</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RetroReelsExtremeHeat</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Retro Reels - Extreme Heat</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>PollenNation</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Pollen Nation</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyPrimeProperty</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Prime Property</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>rubyelementals</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Elementals</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>ThunderStruck</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Thunderstruck</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>ReelStrike</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Reel Strike</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>SantasWildRide</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Santas Wild Ride</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>5ReelDrive</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - 5 Reel Drive</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>ReelGems</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Reel Gems</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>LadiesNite</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Ladies Nite</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>AsianBeauty</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Asian Beauty</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>BigTop</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Big Top</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyMunchkins</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Munchkins</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBigKahunaSnakesAndLadders</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Big Kahuna - Snakes &amp; Ladders</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>LadyInRed</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Lady in Red</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>OrientalFortune</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Oriental Fortune</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyCentreCourt</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Centre Court</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>ReelThunder</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Reel Thunder</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MonsterMania</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Monster Mania</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyHarveys</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Harveys</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>SkullDuggery</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Skull Duggery</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyHotShot</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Hot Shot</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>GopherGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Gopher Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>CrazyChameleons</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Crazy Chameleons</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyDeckTheHalls</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Deck The Halls</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Carnaval</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Carnaval</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyCrazy80s</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Crazy 80s</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBurningDesire</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Burning Desire</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>HoHoHo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Ho Ho Ho</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyGoodToGo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Good To Go</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubySoccerSafari</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Soccer Safari</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Starscape</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Starscape</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyAvalon</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Avalon</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Thunderstruck2</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Thunderstruck II</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>TombRaider</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Tomb Raider</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyTombRaiderII</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Tomb Raider 2</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyWasabiSan</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Wasabi San</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>WhatonEarth</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - What on Earth</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyWheelofWealth</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Wheel of Wealth</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyTheOsbournes</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - The Osbournes</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>WheelOfWealthSE</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Wheel of Wealth Special Edition</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyTheRatPack</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - The Rat Pack</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubySupeItUp</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Supe it Up</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyTotemTreasure</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Totem Treasure</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>VinylCountDown</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Vinyl Countdown</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>WhatAHoot</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - What A Hoot</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyWitchesWealth</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Witches Wealth</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyAdventurePalace</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Adventure Palace</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyAgentJaneBlonde</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Agent Jane Blonde</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyKathmandu</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Kathmandu</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>KingCashalot</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - King Cashalot</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>SunQuest</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - SunQuest</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>StashOfTheTitans</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Stash of the Titans</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>CashSplash</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - CashSplash 3 Reel</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyScrooge</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Scrooge</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>CashSplash5Reel</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - CashSplash 5 Reel</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MajorMillions5Reel</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Major Millions</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>FruitFiesta5Reel</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Fruit Fiesta 5 Reel</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>FruitFiesta</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Fruit Fiesta 3 Reel</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MegaMoolah</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Mega Moolah</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyMegaMoolahIsis</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Mega Moolah Isis</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>LotsALoot5Reel</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - LotsALoot</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>LotsALoot</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - LotsALoot</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>WowPot</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - WowPot</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Tunzamunni</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Tunzamunni</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>TreasureNile</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Treasure Nile</EnglishGroupName>
+      </GameRef>
+    </GameRefs>
+  </GameCategory>
+  <GameCategory>
+    <ID>98b37dc0-9714-78a9-74ea-f50c60db6c10</ID>
+    <EnglishName>Scratch Games</EnglishName>
+    <GameRefs>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>sevengoldscratch</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - 7 Gold Scratch</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>acescratch</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Ace</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>bubbles</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Bubbles</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>fortuna</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Fortuna</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>halloffame</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Hall of Fame</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>luckydouble</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Lucky Double</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>maxwin</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Max win</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>shoot4gold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Shoot 4 Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>tribble</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Tribble</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>knockout</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Tribble Knockout™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lrscratchticket</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Triple Wins</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>hrscratchticketjp</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Triple Wins Jackpot</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>scratchticket</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Triple Wins Star Ticket</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>zodiac</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Zodiac™</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBeerFest</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Beer Fest</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBowledOver</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bowled Over</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBingoBonanza</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bingo Bonanza</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBunnyBoiler</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bunny Boiler</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyBunnyBoilerGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bunny Boiler Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyCashapillar</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Cashapillar</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyCryptCrusade</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Crypt Crusade</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyIWBillAndTedsBJ</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Bill and Ted's Bogus Journey</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyIWHalloweenies</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Halloweenies</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyIWBigBreak</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Big Break</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyCryptCrusadeGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Crypt Crusade Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyOffsideAndSeek</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Offside And Seek</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyPlunderTheSea</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Plunder The Sea</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>IWCardSelector</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Instant Win Card Selector</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyTurtleyAwesome</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Turtley Awesome</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyPharaohsGems</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Pharoah's Gems</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyWildChampions</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Wild Champions</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyDawnOfTheBread</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Dawn Of The Bread</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubySpaceEvaderGold</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Space Evader Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubySlamFunk</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Slam Funk</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyDragonsFortune</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Dragons Fortune</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyWhackAJackpot</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Whack a Jackpot</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyFoamyFortunes</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Foamy Fortunes</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubySixShooterLooter</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Six Shooter Looter Gold</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubySpaceEvader</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Space Evader</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubySuperZeroes</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Super Zeroes</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyFreezingFuzzballs</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Freezing Fuzzballs</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyGameSetAndScratch</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Game Set And Scratch</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyMumbaiMagic</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Mumbai Magic</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyHairyFairies</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Hairy Fairies</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyGrannyPrix</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Granny Prix</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyGoldenGhouls</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Golden Ghouls</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyHandToHandCombat</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Hand to Hand Combat</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubyLuckyNumbers</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Lucky Numbers</EnglishGroupName>
+      </GameRef>
+    </GameRefs>
+  </GameCategory>
+  <GameCategory>
+    <ID>a20f23f0-6af9-fa7c-4088-0e46b2fa0b4a</ID>
+    <EnglishName>Other Games</EnglishName>
+    <GameRefs>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>bingo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Bingo</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>kenobnjp</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Bonus Keno</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>marbles</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Marbles</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>lostpyramid</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - The Lost Pyramid</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>horserace</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Golden Derby</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>diamondhunt</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Treasure Hunt</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>NetEnt</VendorID>
+            <ID>horserace</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>NetEnt - Golden Derby</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>PremierRacing</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Premier Racing</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Keno</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Keno</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Spingo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Spingo</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>RubySuperBonusBingo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Super Bonus Bingo</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>SambaBingo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Samba Bingo</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Triangulation</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Triangulation</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>CrownAndAnchor</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Crown and Anchor</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>PremierTrotting</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Premier Trotting</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>PharaohBingo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Pharaoh Bingo</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>PickNSwitch</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Pick 'n Switch</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Germinator</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Germinator</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>MayanBingo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Mayan Bingo</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>Hexaline</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Hexaline</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>EnchantedWoods</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Enchanted Woods</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>ElectroBingo</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Electro Bingo</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>FourByFour</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Four by Four</EnglishGroupName>
+      </GameRef>
+      <GameRef>
+        <ID />
+        <GameIDList>
+          <GameID>
+            <VendorID>Microgaming</VendorID>
+            <ID>LouisianaDouble</ID>
+          </GameID>
+        </GameIDList>
+        <EnglishGroupName>Microgaming - Louisiana Double</EnglishGroupName>
+      </GameRef>
+    </GameRefs>
+  </GameCategory>
+</ArrayOfGameCategory>

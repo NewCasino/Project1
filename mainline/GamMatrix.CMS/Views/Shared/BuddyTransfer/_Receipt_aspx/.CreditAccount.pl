@@ -1,0 +1,1 @@
+﻿Przelew na {0} {1} konta użytkownika

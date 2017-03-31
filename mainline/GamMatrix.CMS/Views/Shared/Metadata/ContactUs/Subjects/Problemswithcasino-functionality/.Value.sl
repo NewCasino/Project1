@@ -1,0 +1,1 @@
+Težave z delovanje kazina

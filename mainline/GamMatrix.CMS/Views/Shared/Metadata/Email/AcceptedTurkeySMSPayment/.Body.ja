@@ -1,0 +1,13 @@
+<p>$FIRSTNAME$様</p>
+<p>お客様のご入金は無事成功致しました。</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">ブラウザーにある更新ボタンでは無い、ページの上部にあります、「更新」ボタンをクリックしていただき、残高の更新を行って下さい。</strong>
+  </span>
+</p>
+<p>
+  もし質問等が御座いましたら、下記のメールよりお問合せ下さい。<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  何卒宜しくお願い申し上げます。<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] チームより
+</p>

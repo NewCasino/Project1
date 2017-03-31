@@ -1,0 +1,1 @@
+﻿Neprovedeno, zkontolujte vaše údaje a zadejte znovu. 

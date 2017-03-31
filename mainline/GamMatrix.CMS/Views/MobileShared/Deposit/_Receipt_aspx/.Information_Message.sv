@@ -1,0 +1,1 @@
+Om du skulle ha några frågor angående din insättning, så kontakta supporten och ange transaktion ID

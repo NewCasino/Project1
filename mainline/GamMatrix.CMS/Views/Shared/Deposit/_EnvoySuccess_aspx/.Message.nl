@@ -1,0 +1,1 @@
+﻿Als uw storting is ingediend zal uw rekening pas gecrediteerd worden nadat het bedrag is ontvangen. De tijd die hiervoor nodig is varieert van minuten tot enkele dagen en is afhankelijk van de betaalmethode die u heeft gebruikt.

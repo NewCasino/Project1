@@ -1,0 +1,1 @@
+Kwota przekracza Twój dzienny limit.

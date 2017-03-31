@@ -1,0 +1,1 @@
+﻿Vypnout pozadí

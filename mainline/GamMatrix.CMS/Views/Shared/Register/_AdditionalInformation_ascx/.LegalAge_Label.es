@@ -1,0 +1,1 @@
+﻿Tengo {0} años o más.

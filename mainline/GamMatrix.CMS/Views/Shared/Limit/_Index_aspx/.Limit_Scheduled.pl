@@ -1,0 +1,1 @@
+Limit został zmieniony, ale wciąż jest ważny do daty wygaśnięcia. Nowe wartości limitu:

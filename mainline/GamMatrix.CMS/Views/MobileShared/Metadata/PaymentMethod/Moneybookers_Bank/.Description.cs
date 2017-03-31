@@ -1,0 +1,1 @@
+﻿S touto platební metodou můžete provádět okamžité vklady z každého bankovního účtu Je to jednoduché, rychlé a bezpečné.

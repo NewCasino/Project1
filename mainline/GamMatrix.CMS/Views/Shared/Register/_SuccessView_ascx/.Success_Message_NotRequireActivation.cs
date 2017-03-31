@@ -1,0 +1,1 @@
+﻿Děkujeme, přihlášení proběhlo úspěšně! 

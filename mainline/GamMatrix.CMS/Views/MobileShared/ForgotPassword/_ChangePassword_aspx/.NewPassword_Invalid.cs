@@ -1,0 +1,1 @@
+﻿Heslo není paltné.

@@ -1,0 +1,1 @@
+﻿Vaše uživatelské jméno obsahuje neplatné znaky

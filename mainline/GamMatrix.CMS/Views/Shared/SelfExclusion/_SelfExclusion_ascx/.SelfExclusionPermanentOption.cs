@@ -1,0 +1,1 @@
+﻿Zdržet se hraní natrvalo

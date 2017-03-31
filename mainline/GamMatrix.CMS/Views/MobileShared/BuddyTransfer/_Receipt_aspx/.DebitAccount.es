@@ -1,0 +1,1 @@
+﻿Transferencia de su cuenta {0}

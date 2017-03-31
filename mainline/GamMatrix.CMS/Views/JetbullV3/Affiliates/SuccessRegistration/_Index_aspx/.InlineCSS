@@ -1,0 +1,122 @@
+﻿
+* {
+    border: medium none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+}
+body {
+    background: url("https://cdn.everymatrix.com/BetRockit/img/bg_main.png") repeat scroll left top #333333;
+    color: #EEEEEE;
+    font-family: Arial,Helvetica,"Nimbus Sans L","Liberation Sans",FreeSans,clean,sans-serif;
+    font-size: 9pt;
+    line-height: 1.5em;
+    text-align: center;
+    text-shadow: 0 0.0833em 0 #000000;
+}
+h1 {
+    display: block;
+    font-size: 4em;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0 0 0.1111em;
+}
+p {
+    display: block;
+    margin: 0.75em 0;
+}
+.Wrapper {
+    background: url("https://cdn.everymatrix.com/BetRockit/img/bg_main_mid.png") repeat-x scroll left center rgba(0, 0, 0, 0);
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.Framework {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 1.5em;
+    display: block;
+    left: 50%;
+    margin: -195px auto 1.5em -270px;
+    padding: 1.5em;
+    position: absolute;
+    top: 50%;
+    width: 38.2%;
+}
+a {
+    color: #EC8330;
+}
+.Logo {
+    background: none repeat scroll 0 0 #999;
+    border-radius: 0.75em;
+    display: block;
+    margin: 0 0 0.75em;
+    padding: 1.5em;
+}
+.LogoImage {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.Footer {
+    display: block;
+}
+@-moz-keyframes loading {
+0% {
+}
+100% {
+}
+}
+@-moz-keyframes loading {
+0% {
+    opacity: 0.5;
+}
+100% {
+    opacity: 1;
+}
+}
+.FooterImage {
+    animation: 0.5s ease-out 0s alternate none infinite loading;
+    border-radius: 1.5em;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    transform: translateZ(0px);
+}
+@media only screen and (max-width: 1024px) {
+.Framework {
+    width: 61.8%;
+}
+}
+@media only screen and (max-width: 600px) {
+.Framework {
+    margin: 1.5em;
+    width: auto;
+}
+}
+@media only screen and (max-width: 480px) {
+.Framework {
+    margin: 0.25em;
+    width: auto;
+}
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0.5em 0 0.25em;
+}
+}
+@media only screen and (max-width: 320px) {
+.Framework {
+    margin: 0.25em;
+    width: auto;
+}
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 1em 0 0.5em;
+}
+}

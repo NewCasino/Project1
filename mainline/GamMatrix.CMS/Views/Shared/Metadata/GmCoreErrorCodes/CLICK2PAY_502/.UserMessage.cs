@@ -1,0 +1,1 @@
+﻿Změna zamítnuta - žádné referenční ID.

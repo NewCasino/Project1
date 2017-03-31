@@ -1,0 +1,2 @@
+﻿Přepni mezi zobrazením
+

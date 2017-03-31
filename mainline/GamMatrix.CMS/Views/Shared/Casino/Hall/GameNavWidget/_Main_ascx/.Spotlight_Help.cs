@@ -1,0 +1,2 @@
+﻿Ukázat pokyny
+

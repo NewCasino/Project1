@@ -1,0 +1,1 @@
+﻿Již nechci připomínat 

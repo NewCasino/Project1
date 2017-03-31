@@ -1,0 +1,3 @@
+﻿<h3>Gigantisk Jackpot!</h3>
+<p>Hall of Gods jackpotten har n&aring; passert 64 millioner kroner.<br />Det er bare et sp&oslash;rsm&aring;l om tid f&oslash;r den g&aring;r.&nbsp;Blir det deg?&nbsp;</p>
+<a title="Play now ►" class="button" href="/Casino/Game/Info/hall-of-gods"><span class="GoldButtonText">Spill n&aring;<span>►</span></span> </a>

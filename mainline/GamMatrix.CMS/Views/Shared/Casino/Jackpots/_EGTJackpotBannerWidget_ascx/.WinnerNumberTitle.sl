@@ -1,0 +1,1 @@
+Število dobitnikov:

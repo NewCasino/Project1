@@ -1,0 +1,1 @@
+Du har inte rätt att logga in på grund av dåligt lösenord, vänligen kolla din e-mail inbox och följ instruktionerna för att återställa ditt lösenord.

@@ -1,0 +1,1 @@
+﻿Identyfikator zabezpieczeo/Kod weryfikacyjny

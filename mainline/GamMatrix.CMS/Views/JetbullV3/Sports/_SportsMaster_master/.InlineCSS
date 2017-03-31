@@ -1,0 +1,10 @@
+﻿/*#container{ background-color:#fff;}*/
+#container .content{ background-color:#fff;}
+#jetbull-header .balance-list { padding:0px; top:33px}
+#balance-list{ color:#000;}
+#footer{ background-color:#000; padding-top:10px;}
+#sportsDescriptionData{display:none;}
+#gameDescroption #sportsDescriptionData{ display:block;}
+/*#container{ background-color:#000;}*/
+#container .content{ background-color:#000;}
+#balance-list{ color:#fff;}

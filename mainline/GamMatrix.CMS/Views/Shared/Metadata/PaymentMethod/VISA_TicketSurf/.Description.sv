@@ -1,0 +1,1 @@
+Du kan snabbt sätta in pengar från ditt VISA kreditkort till ditt spelkonto. Ange bara dina kortuppgifter och så snart ditt kreditkort har verifierats kommer pengarna att föras över till ditt spelkonto, säkert och omedelbart. 

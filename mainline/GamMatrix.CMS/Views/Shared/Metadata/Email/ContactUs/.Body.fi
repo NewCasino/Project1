@@ -1,0 +1,12 @@
+﻿<em>Asiakas lähettää tämän sähköpostin 'Ota yhteyttä'-sivulta.<br />
+Älä vastaa tähän viestiin suoraan!  Löydät asiakkaan sähköpostin alta.</em>
+<hr/>
+<ul>
+<li><strong>Asiakkaan sähköposti</strong>:$EMAIL$</li>
+<li><strong>Asiakkaan nimi </strong>:$NAME$</li>
+<li><strong>Aihe </strong>:$SUBJECT$</li>
+<li><strong>käyttäjätunnus </strong>:$USERID$</li>
+<li><strong>Käyttäjänimi </strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

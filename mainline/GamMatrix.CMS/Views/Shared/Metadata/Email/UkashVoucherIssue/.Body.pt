@@ -1,0 +1,9 @@
+﻿<p>Olá $FIRSTNAME$,</p>
+<p>O seu pagamento de $VOUCHERAMOUNT$ foi processado. Abaixo encontrará informações relacionadas com o seu Voucher:</p>
+<ul>
+<li><strong>UKash Voucher Number</strong>:$VOUCHERNUMBER$</li>
+<li><strong>UKash Voucher Amount</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>UKash Voucher Expiry Date</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p> Se tiver alguma questão relacionada com o seu voucher não hesite em nos contactar <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Com os melhores cumprimentos,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]Equipa de suporte</p>

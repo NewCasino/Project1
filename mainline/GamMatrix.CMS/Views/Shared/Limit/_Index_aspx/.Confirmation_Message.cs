@@ -1,0 +1,1 @@
+﻿Chcete odebrat limit?

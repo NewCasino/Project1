@@ -1,0 +1,1 @@
+﻿LiqPay är en universell betalnings plattform som gör det möjligt för handlarna att ta emot betalningar från slutanvändare och fysiska personer att betala eller att göra en överföring bara genom ett mobilnummer av recepient. För att använda LiqPay är allt du behöver är en mobiltelefon ochett bankkort.

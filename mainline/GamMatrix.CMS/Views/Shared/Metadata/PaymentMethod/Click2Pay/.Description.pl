@@ -1,0 +1,1 @@
+﻿Click2Pay to portfel elektroniczny, umożliwiający klientom Click2Pay dokonywanie wpłat, wypłat i przelewów środków z internetowego konta Click2Pay na konto do gry. Jest to bezpieczna metoda, a środki są błyskawicznie dostępne na koncie do gry. Kliknij&nbsp;<a href="http://www.click2pay.com/">tutaj</a>, aby już teraz założyć konto Click2Pay.&nbsp;

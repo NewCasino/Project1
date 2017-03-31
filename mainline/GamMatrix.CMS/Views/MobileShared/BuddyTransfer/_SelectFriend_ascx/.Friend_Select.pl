@@ -1,0 +1,1 @@
+﻿Wybierz przelew do znajomego na rzecz

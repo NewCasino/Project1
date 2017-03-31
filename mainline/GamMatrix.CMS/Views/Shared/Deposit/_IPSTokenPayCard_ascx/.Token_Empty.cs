@@ -1,0 +1,1 @@
+﻿Prosíme vložte žeton.

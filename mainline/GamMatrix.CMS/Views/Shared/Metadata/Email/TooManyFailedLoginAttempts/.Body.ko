@@ -1,0 +1,7 @@
+﻿이것은 자동 이메일 입니다. 답신을 보내지 마세요.  
+<hr/>
+<p>Dear $FIRSTNAME$</p>
+<p>귀하의 계정은 너무 많은 유효하지 않은 로그인 시도로 인하여 차단 되었으며 자동으로 15분이후에 차단이 해제될 것입니다.</p>
+<p>만약 귀하가 패스워드를 잊었거나 변경할 필요가 있다면, 이용하세요. &quot;암호를 잊었습니까&quot; 웹 사이트 상의 링크.</p>
+<p>For further assistance contact <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Kind Regards, <br /> [Metadata:value(/Metadata/Settings.Operator_DisplayName)] Customer Service</p>

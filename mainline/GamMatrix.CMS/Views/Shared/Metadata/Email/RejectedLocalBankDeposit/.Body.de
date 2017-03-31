@@ -1,0 +1,3 @@
+﻿<p>Hallo $FIRSTNAME$,</p>Ihre Auszahlung wurde abgelehnt. Bitte überprüfen Sie Ihre angegebenen Bankdaten und versuchen Sie es erneut.
+<p>Bei Fragen zu Ihrer Auszahlung kontaktieren Sie bitte<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Mit freundlichen Grüßen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Team</p>

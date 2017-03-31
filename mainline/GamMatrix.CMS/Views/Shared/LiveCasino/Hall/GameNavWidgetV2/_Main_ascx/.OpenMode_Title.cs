@@ -1,0 +1,1 @@
+﻿Zobraz všechny možnosti otevření

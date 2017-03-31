@@ -1,0 +1,8 @@
+﻿<p>Sayın $USERNAME$,</p>
+<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile İletişime geçtiğiniz için Teşekkür ederiz.<br /> <br /> Bireysel Oturum Limitiniz $NEWLIMITPERIOD$ Dakikaya kurulmuştur. <br /> <br /> Oturum Limitinizi Sorumlu Kumarcılık Sayfasında aynı Menüyü kullanarak anından düşürebilirsiniz.<br /> <br /> Ama Limitiniz yükseltmek isterseniz, yeni Limitinizi etkinleşmesi 7 Gün sürer. Bu 7 Günlük Süre Değişikliği gerekirse tekrar düşünmenize izin verir.<br /> <br /> Lütfen herhani bir Sorunuz olursa, bizimle burdan İletişime geçmeye çekinmeyiniz :<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<br /><br />
+<p>Saygılarımızla,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri Ekibi</p>
+
+
+

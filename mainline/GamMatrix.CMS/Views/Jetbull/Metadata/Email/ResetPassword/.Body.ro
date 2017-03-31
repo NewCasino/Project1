@@ -1,0 +1,13 @@
+﻿<h3>Stimate &nbsp;$USERNAME$</h3>
+<p>Va multumim pentru ca ati ales Jetbull !<br />
+<br />Am primit solicitarea dvs. pentru parola uitata. Va rugam sa dati click pe linkul urmator pentru a va reseta parola:<br />
+<a href="$RESETLINK$">$RESETLINK$</a></p>
+<br />
+Acest link este valid pentru 24 de ore si poate fi folosit doar o singura data.<br />
+<br />
+Daca nu doriti sa va schimbati parola, va rugam sa ignorati acest email.<br />
+<p>Salutari,<br />
+Echipa [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+</p>
+
+

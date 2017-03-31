@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <RouteName>SearchCode</RouteName>
+  <Type>Page</Type>
+  <Controller>GamMatrix.CMS.Controllers.System.SearchCodeController</Controller>
+</root>

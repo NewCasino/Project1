@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <node id="ROULETTE" type="category" label="Roulette" isBranch="true">
+    <node label="European Roulette" type="" vendor="EvolutionGaming" id="8345076454" categories="ROULETTE" platforms="PC" />
+    <node label="French Roulette" type="" vendor="EvolutionGaming" id="8345098735" categories="ROULETTE" platforms="PC" />
+    <node label="European Roulette VIP" type="" vendor="EvolutionGaming" id="8345029137" categories="ROULETTE" platforms="PC" />
+    <node label="Auto Roulette" type="" vendor="EvolutionGaming" id="8345001034" categories="ROULETTE" platforms="PC" />
+    <node label="Live Multi-player Roulette" type="" vendor="Microgaming" id="7934" categories="ROULETTE" platforms="PC" />
+    <node label="Live Roulette" type="" vendor="Microgaming" id="7933" categories="ROULETTE" platforms="PC" />
+  </node>
+  <node id="BLACKJACK" type="category" label="Blackjack" isBranch="true">
+    <node label="Blackjack A" type="" vendor="EvolutionGaming" id="8342017133" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP A" type="" vendor="EvolutionGaming" id="8342093186" categories="BLACKJACK" platforms="PC" />
+    <node label="Live Multi-Player Blackjack" type="" vendor="Microgaming" id="7935" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack Platinum VIP" type="" vendor="EvolutionGaming" id="8342001672" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack B" type="" vendor="EvolutionGaming" id="8342065746" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP B" type="" vendor="EvolutionGaming" id="8342088051" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack C" type="" vendor="EvolutionGaming" id="8342069622" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP C" type="" vendor="EvolutionGaming" id="8342057929" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack D" type="" vendor="EvolutionGaming" id="8342038802" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP D" type="" vendor="EvolutionGaming" id="8342088111" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack E" type="" vendor="EvolutionGaming" id="8342044795" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP E" type="" vendor="EvolutionGaming" id="8342041760" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP F" type="" vendor="EvolutionGaming" id="8342012801" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack G" type="" vendor="EvolutionGaming" id="8342091596" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP G" type="" vendor="EvolutionGaming" id="8342070267" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack H" type="" vendor="EvolutionGaming" id="8342090226" categories="BLACKJACK" platforms="PC" />
+  </node>
+  <node id="BACCARAT" type="category" label="Baccarat" isBranch="true">
+    <node label="Baccarat" type="" vendor="EvolutionGaming" id="8341052060" categories="BACCARAT" platforms="PC" />
+    <node label="Live Multi-player Baccarat" type="" vendor="Microgaming" id="7932" categories="BACCARAT" platforms="PC" />
+    <node label="Live Baccarat" type="" vendor="Microgaming" id="7931" categories="BACCARAT" platforms="PC" />
+    <node label="Baccarat VIP" type="" vendor="EvolutionGaming" id="8341057476" categories="BACCARAT" platforms="PC" />
+  </node>
+  <node id="HOLDEM" type="category" label="Hold`em" isBranch="true">
+    <node label="Casino Hold'em" type="" vendor="EvolutionGaming" id="8340067024" categories="HOLDEM" platforms="PC" />
+  </node>
+  <node id="POKER" type="category" label="Poker" isBranch="true" />
+  <node id="SICBO" type="category" label="Sic Bo" isBranch="true" />
+</root>

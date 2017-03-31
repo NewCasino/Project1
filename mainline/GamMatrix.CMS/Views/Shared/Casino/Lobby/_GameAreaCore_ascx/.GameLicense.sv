@@ -1,0 +1,1 @@
+﻿Du spelar nu i {0}.

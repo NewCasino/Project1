@@ -1,0 +1,1 @@
+Prebral(-a) sem in sprejemam obvestilo, navedeno zgoraj.

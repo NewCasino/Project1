@@ -1,0 +1,13 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p> Para Yatırma İşleminiz Başarıyla tamamlandı.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;"> Lütfen Sayfanın Başındakı 'Yenile' dügmesine basınız ( Web Tarayıcınızın Yenile Düğmesine DEĞİL), Bakiyenizi yenilemek içinn.</strong>
+  </span>
+</p>
+<p>
+ Herhangı bir Sorunuz olursa, lütfen hiç çekinmeden İletişime geçiniz <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p> Saygıyla, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ekibi
+</p>
+

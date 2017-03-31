@@ -1,0 +1,1 @@
+Przepraszamy, Twoja operacja nie powiodła się. Spróbuj ponownie.

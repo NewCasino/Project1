@@ -1,0 +1,1 @@
+Plačujte preko sporočil SMS

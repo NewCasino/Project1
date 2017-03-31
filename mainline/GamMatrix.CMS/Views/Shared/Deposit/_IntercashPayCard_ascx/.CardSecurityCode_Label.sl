@@ -1,0 +1,1 @@
+Skrivna koda za dostop

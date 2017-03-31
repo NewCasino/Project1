@@ -1,0 +1,1 @@
+Transakcja zakończyła się pomyślnie.

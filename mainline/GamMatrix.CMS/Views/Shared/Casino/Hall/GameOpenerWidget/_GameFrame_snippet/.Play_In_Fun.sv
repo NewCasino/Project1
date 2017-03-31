@@ -1,0 +1,1 @@
+Du spelar i underhållningsläge.

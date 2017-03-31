@@ -1,0 +1,1 @@
+Dzienny limit

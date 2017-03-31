@@ -1,0 +1,1 @@
+﻿Georgia Południowa i Sandwich Południowy

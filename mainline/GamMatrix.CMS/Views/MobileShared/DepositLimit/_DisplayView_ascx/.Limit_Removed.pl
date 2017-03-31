@@ -1,0 +1,1 @@
+﻿Limit został usunięty, ale obowiązuje do upłynięcia terminu ważności.

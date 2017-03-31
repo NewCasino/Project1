@@ -1,0 +1,1 @@
+﻿Nie masz konta bankowego przypisanego do swojego konta NETELLER. Aby móc skorzystać z instaCASH, musisz zarejestrować konto w serwisie NETELLER. W przypadku pytań należy zadzwonić do Działu Obsługi Klienta NETELLER.

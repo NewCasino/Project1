@@ -1,0 +1,1 @@
+﻿Przekroczyłeś/-aś swój limit transakcji.

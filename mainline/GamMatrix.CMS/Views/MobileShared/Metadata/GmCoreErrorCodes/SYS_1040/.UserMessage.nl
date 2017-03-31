@@ -1,0 +1,1 @@
+﻿Zeven dagen zelf-uitsluitings periode is niet meer dan {0} keer toegestaan

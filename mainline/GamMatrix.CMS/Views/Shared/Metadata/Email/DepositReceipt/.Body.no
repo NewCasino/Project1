@@ -1,0 +1,11 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<p>Denne automatiske e-postmeldingen er en kvittering for innskuddet ditt som ble behandlet på vegne av [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] av OddsMatrix Ltd, betalingsoperatøren for [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] nettstedet. Du ser OddsMatrix på kort- eller kontoutskriften din. Du finner transaksjonsinformasjonen nedenfor.</p>
+<ul>
+<li><strong>Transaction ID</strong>:$TRANSACTION_ID$</li>
+<li><strong>Date time</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Nettsted</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Kvittering</strong>: kopien av kvitteringen er vedlagt.</li>
+</ul>
+<p>Hvis du har spørsmål om innskuddet, kan du ta kontakt med <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> og henvise til transaksjons-ID-nummeret.</p>
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] teamet</p>
+<p>$SCREENSHOT$</p>

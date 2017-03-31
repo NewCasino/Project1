@@ -1,0 +1,1 @@
+﻿Transaktion historik

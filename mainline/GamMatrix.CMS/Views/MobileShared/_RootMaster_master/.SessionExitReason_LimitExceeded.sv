@@ -1,0 +1,1 @@
+Du har blivit frånkopplad då din begränsade sittningstid har nåtts.

@@ -1,0 +1,9 @@
+﻿<div class="Main">
+    [Metadata:value(.Text)]
+</div>
+<div class="Aside">
+    [Metadata:value(.Promotions_Content_Buttons)]
+    <div class="promotions-content">
+        [Metadata:value(.TAndC_Content)]
+        <div class="w2c">
+        </div>

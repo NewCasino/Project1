@@ -1,0 +1,1 @@
+(uttag endast via banköverföring)

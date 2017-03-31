@@ -1,0 +1,1 @@
+Możesz szybko przelać pieniądze z karty Euro6000 na swoje konto gracza za pomocą przelewu Skrill. Wystarczy zarejestrować swoją kartę w bramce Skrill. Po zweryfikowaniu karty kredytowej środki zostaną bezpiecznie i szybko przesłane na Twoje konto gracza.

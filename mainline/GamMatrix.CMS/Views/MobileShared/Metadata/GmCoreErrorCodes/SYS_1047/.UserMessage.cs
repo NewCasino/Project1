@@ -1,0 +1,1 @@
+﻿ClickandBuy porušení pravidla jednoho účtu

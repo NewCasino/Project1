@@ -1,0 +1,1 @@
+Zahteva glede preostalega stavljenja

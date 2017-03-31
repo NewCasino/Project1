@@ -1,0 +1,1 @@
+Ruleta v živo za več igralcev

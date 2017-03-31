@@ -1,0 +1,7 @@
+﻿<ul class="FooterLinksList">
+        <li class="FooterLink"><a href="/hakkimizda" class="ico-about"  target="_top">About [Metadata:value(/Metadata/Settings.Operator_DisplayName)]</a></li>
+        <li class="FooterLink"><a href="/TermsConditions" class="ico-terms"  target="_top">Terms &amp; Conditions</a></li>
+        <li class="FooterLink"><a href="/sitemap" class="ico-sitemap"  target="_top">Site Map</a></li>
+        <li class="FooterLink"><a href="/ResponsibleGaming" class="ico-response"  target="_top">Responsible Gaming</a></li>
+        <li class="FooterLink"><a href="https://v2.artemisaffiliates.com/" class="ico-affilate"  target="_top" rel="external">Affiliates</a></li>
+</ul>

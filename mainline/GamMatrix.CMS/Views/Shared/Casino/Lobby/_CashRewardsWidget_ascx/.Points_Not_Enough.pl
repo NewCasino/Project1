@@ -1,0 +1,1 @@
+﻿Masz tylko {0} punktów, czyli mniej niż wymaganych ({1} punktów).

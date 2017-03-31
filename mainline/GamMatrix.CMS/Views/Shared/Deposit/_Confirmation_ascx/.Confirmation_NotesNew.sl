@@ -1,0 +1,1 @@
+Upoštevajte, da bo vaš polog obdelalo podjetje EveryMatrix Ltd, ki je upravitelj plačil za spletno mesto [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ; EveryMatrix bo izpisano {0} tudi na izpisku za vaš račun.

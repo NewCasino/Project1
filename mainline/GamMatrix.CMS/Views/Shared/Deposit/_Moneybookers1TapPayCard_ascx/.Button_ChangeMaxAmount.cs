@@ -1,0 +1,1 @@
+﻿Změňte maximální částku 

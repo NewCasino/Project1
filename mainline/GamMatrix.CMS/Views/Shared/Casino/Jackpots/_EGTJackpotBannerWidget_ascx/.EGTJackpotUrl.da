@@ -1,0 +1,1 @@
+﻿http://stats.egtmgs.com/jackpot_ExclusiveClub_EUR.json

@@ -1,0 +1,1 @@
+Kwota do pobrania z {0} konta: {1} {2}

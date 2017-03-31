@@ -1,0 +1,1 @@
+Växla mellan ikoner och lista.

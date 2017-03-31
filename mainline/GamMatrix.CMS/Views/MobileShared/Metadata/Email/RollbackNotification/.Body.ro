@@ -1,0 +1,4 @@
+﻿<p>BUna ziua $USERNAME$,</p>
+<p>Retragerea dumneavoastra a fost anulata &lsquo;$TXDATACOMPLETARII$", fondurile au fost returnate in contul dumneavoastra de joc.Va rugam contactati relatii clienti daca aveti nelamuriri in privinta acestei tranzactii.</p> ID tranzactiei: $TXID$ Data Tranzactiei: $TXDATACREARII$ Suma: $TXSUMA$ $TXMONEDADESCHIMB$.
+<p>Cu respect,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] echipa</p>
+

@@ -1,0 +1,2 @@
+﻿Možnosti výběru
+

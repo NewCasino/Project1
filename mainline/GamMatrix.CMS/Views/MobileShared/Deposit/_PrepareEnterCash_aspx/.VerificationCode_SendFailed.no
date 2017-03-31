@@ -1,0 +1,2 @@
+﻿Sending av verifikasjons koden mislyktes, kan du undersøke om ditt telefon-nummer er korrekt eller forsøke på nytt.
+

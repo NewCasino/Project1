@@ -1,0 +1,1 @@
+Transakcija ni dokončana; ko bo transakcija dokončana, osvežite to stran.

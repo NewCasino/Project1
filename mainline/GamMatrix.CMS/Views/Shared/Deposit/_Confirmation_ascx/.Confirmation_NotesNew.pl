@@ -1,0 +1,1 @@
+Prosimy pamiętać, że wpłata będzie przetwarzana przez EveryMatrix Ltd, operatora płatności [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] strony internetowej. Nazwa {0}  będzie widniała na wyciągu.

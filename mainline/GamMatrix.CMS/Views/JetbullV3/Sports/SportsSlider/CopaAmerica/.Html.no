@@ -1,0 +1,3 @@
+﻿<h3>Copa America</h3>
+<p>Ikke gå glipp av fotballfesten som inkluderer noen av de største fotballtalentene i verden!</p>
+<a title="Sett et spill nå ►" class="button" href="/Sports/?tournamentid=206584210" target="_top"> <span class="GoldButtonText">Sett et spill nå <span>►</span></span> </a>

@@ -1,0 +1,1 @@
+Du kan inte spela förrän du klickat på länken i aktiveringsmailet. 

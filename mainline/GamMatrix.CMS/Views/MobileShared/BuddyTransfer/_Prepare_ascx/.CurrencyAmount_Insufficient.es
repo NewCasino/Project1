@@ -1,0 +1,1 @@
+﻿Fondos insuficientes

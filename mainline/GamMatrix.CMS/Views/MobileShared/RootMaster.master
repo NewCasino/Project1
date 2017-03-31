@@ -1,0 +1,418 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" %>
+<%@ Import Namespace="System.IO" %>
+<%@ Import Namespace="CM.db" %>
+<%@ Import Namespace="System.Web.UI.HtmlControls" %>
+<%@ Import Namespace="System.Globalization" %>
+<%@ Import Namespace="System.Text.RegularExpressions" %>
+
+<script runat="server">
+	private string PageMarkup;
+
+    private string CombinedJsUrl
+    {
+        get 
+        {
+            string customCombiedJsPath = this.GetMetadata(".CombiedJsPath");
+            if (!string.IsNullOrWhiteSpace(customCombiedJsPath))
+            {
+                return customCombiedJsPath;
+            }
+        	string staticServer = SiteManager.Current.StaticFileServerDomainName
+			.DefaultIfNullOrWhiteSpace(ConfigurationManager.AppSettings["StaticFileServer"])
+			.DefaultIfNullOrEmpty("static.gammatrix.com");
+            if (SiteManager.Current.UseRemoteStylesheet)
+				return string.Format(CultureInfo.InvariantCulture
+					, "//{0}/_js/combined.mobile.js?d={1}"
+					, staticServer.TrimStart("//".ToCharArray())
+					, DateTime.Now.DayOfYear
+				);
+			else
+				return "/js/mobile/combined.mobile.js";
+        }
+    }
+
+    private string GetDomain()
+    {
+        string host = HttpContext.Current.Request.Url.Host;
+        if (host.EndsWith(".gammatrix-dev.net", StringComparison.InvariantCultureIgnoreCase))
+        {
+            //If the accessing domain name is under gammatrix-dev.net (i.e, www.jetbull.gammatrix-dev.net), 
+            //the domain is set to jetbull.gammatrix-dev.net
+            var fields = host.Split('.');
+            string domain = string.Empty;
+            for (var i = fields.Length - 3; i < fields.Length; i++)
+                domain += fields[i] + ".";
+            return domain.TrimStart('.').TrimEnd('.');
+        }
+        else
+        {
+            //Otherwise, the root domain name is set as the domain. 
+            //For example, www.casino.jetbull.com and www.jetbull.com and jetbull.com all get the same cookie domain jetbull.com;
+            //www.casino.jetbull.com.mx and www.jetbull.com.mx and jetbull.com.mx all get the same cookie domain jetbull.com.mx
+            //Note: the same logic will be applied to domain XXX.net, XXX.org, XXX.co and XXX.net.XX, XXX.org.XX, XXX.co.XX
+            var tlds = new[]
+            {
+                ".com",
+                ".net",
+                ".org",
+                ".co",
+            };//top-level domains
+
+            foreach (var tld in tlds)
+            {
+                if (host.IndexOf(tld + ".", StringComparison.InvariantCultureIgnoreCase) > 0)
+                {
+                    var temp = host.Substring(0, host.IndexOf(tld + ".", StringComparison.InvariantCultureIgnoreCase));
+                    if (temp.LastIndexOf(".") >= 0)
+                        temp = temp.Substring(temp.LastIndexOf(".") + 1);
+                    var domain2 = temp + host.Substring(host.IndexOf(tld + ".", StringComparison.InvariantCultureIgnoreCase));
+                    return domain2.TrimStart('.').TrimEnd('.');
+                }
+            }
+
+            var fields = host.Split('.');
+            if (fields.Length < 2)
+                return host;
+            string domain = string.Empty;
+            for (var i = fields.Length - 2; i < fields.Length; i++)
+                domain += fields[i] + ".";
+            return domain.TrimStart('.').TrimEnd('.');
+        }
+    }
+
+	private void AddExternalControls()
+	{
+		string staticServer = SiteManager.Current.StaticFileServerDomainName
+			.DefaultIfNullOrWhiteSpace(ConfigurationManager.AppSettings["StaticFileServer"])
+			.DefaultIfNullOrEmpty("static.gammatrix.com");
+		int dayOfYear = DateTime.Now.DayOfYear;
+		
+		int position = this.Page.Header.Controls.Count;
+
+		string scriptUrl;
+		if (SiteManager.Current.UseRemoteStylesheet)
+			scriptUrl = string.Format(CultureInfo.InvariantCulture
+					, "//{0}/_js/combined.mobile.js?d={1}"
+					, staticServer.TrimStart("//".ToCharArray())
+					, dayOfYear
+				);
+		else
+			scriptUrl = "/js/mobile/combined.mobile.js";
+
+		if (Settings.CombinedJsPosition == 0)
+        {
+        	HtmlGenericControl script = new HtmlGenericControl("script");
+	       // script.Attributes["type"] = "text/javascript"; //not required in HTML5
+	        script.Attributes["src"] = CombinedJsUrl;
+	        if (Settings.EnableAsyncCombinedJs)
+	        {
+	            script.Attributes["async"] = "async";
+	            script.Attributes["defer"] = "true";
+	        }
+	        this.Page.Header.Controls.AddAt(position--, script);
+        }
+        
+		string styleUrl;
+		if (SiteManager.Current.UseRemoteStylesheet)
+			styleUrl = string.Format("//{0}/{1}/_import.css?d={2}"
+					, staticServer.TrimStart("//".ToCharArray())
+					, this.PageTheme
+					, dayOfYear
+				);
+		else
+			styleUrl = string.Format("/App_Themes/{0}/_import.css", this.PageTheme);
+
+		HtmlLink style = new HtmlLink();
+		style.Attributes["rel"] = "stylesheet";
+		//style.Attributes["type"] = "text/css"; //not required in HTML5
+		style.Attributes["href"] = styleUrl;
+		this.Page.Header.Controls.AddAt(position--, style);
+
+        // <meta http-equiv="content-language" content="" /> --> w3c obsoleted; set lang on html tag instead
+        //HtmlMeta meta = new HtmlMeta();
+        //meta.Attributes["http-equiv"] = "content-language";
+        //meta.Attributes["content"] = MultilingualMgr.GetCurrentCulture();
+        //this.Page.Header.Controls.Add(meta);
+	}
+
+	protected override void OnLoad(EventArgs e)
+	{
+		// language cookie
+		string currentLanguage = HttpContext.Current.GetLanguage();
+		if (HttpContext.Current.Request.Cookies["CMS_Language"] == null ||
+			string.IsNullOrWhiteSpace(HttpContext.Current.Request.Cookies["CMS_Language"].Value) ||
+			string.Compare(HttpContext.Current.Request.Cookies["CMS_Language"].Value, currentLanguage, true) != 0)
+		{
+			HttpCookie cookie = new HttpCookie("CMS_Language", currentLanguage);
+			cookie.Secure = false;
+			cookie.HttpOnly = false;
+			cookie.Expires = DateTime.Now.AddYears(1);
+			if (!string.IsNullOrWhiteSpace(SiteManager.Current.SessionCookieDomain))
+				cookie.Domain = SiteManager.Current.SessionCookieDomain;
+			HttpContext.Current.Response.Cookies.Add(cookie);
+		}
+
+		// affiliatemarker cookie
+		string affiliateMarker = Request.QueryString["btag"];
+        if (!string.IsNullOrWhiteSpace(affiliateMarker))
+        {
+            HttpCookie cookie = new HttpCookie("btag", affiliateMarker.Trim());
+            cookie.Secure = false;
+            cookie.Expires = DateTime.Now.AddMinutes(Settings.Affiliate.Btag_CookieExpiresMinutes);
+            cookie.HttpOnly = false;
+            if (!string.IsNullOrWhiteSpace(SiteManager.Current.SessionCookieDomain))
+                cookie.Domain = SiteManager.Current.SessionCookieDomain;
+            HttpContext.Current.Response.Cookies.Add(cookie);
+        }
+		
+		try
+		{
+			AddExternalControls();
+		}
+		catch(Exception ex)
+		{
+			Logger.Exception(ex);
+		}
+
+		PageMarkup = ViewData["CurrentSectionMarkup"] as string;
+     
+        try{
+            string displayName = this.GetMetadata("/Metadata/Settings.Operator_DisplayName");
+            if (this.Page.Header.Title == null) {
+                this.Page.Header.Title = displayName;
+            }else if ( this.Page.Header.Title.IndexOf(displayName) != 0)
+            {
+                this.Page.Header.Title = displayName + " " + this.Page.Header.Title;
+            } 
+        }
+        catch (Exception ex)
+        {
+            Logger.Exception(ex);
+        }
+      
+		base.OnLoad(e);
+	}
+
+	protected override void OnPreRender(EventArgs e)
+	{
+		base.OnPreRender(e);
+
+		string inlineCSS = this.Context.GetInlineCSS();
+		if (!string.IsNullOrWhiteSpace(inlineCSS))
+		{
+			HtmlGenericControl control = new HtmlGenericControl("style");
+			//control.Attributes["type"] = "text/css"; //not required in HTML5
+			control.Attributes["media"] = "all";
+			control.InnerHtml = inlineCSS;
+			this.Page.Header.Controls.Add(control);
+		}
+	}
+
+	private string GetUAStyle()
+	{
+		return Enum.GetName(typeof(TerminalType), Request.GetTerminalType()).ToLowerInvariant();
+	}
+
+	private string GetHtmlTagAttributes()
+	{
+		StringBuilder attributes = new StringBuilder();
+		
+		attributes.AppendFormat(CultureInfo.InvariantCulture, "lang=\"{0}\" ",
+			HttpContext.Current.GetLanguage().SafeHtmlEncode());
+
+		attributes.AppendFormat(CultureInfo.InvariantCulture, "dir=\"{0}\" ",
+			(HttpContext.Current.Items["IsRightToLeft"] as bool?) == true ? "rtl" : "ltr");
+
+		return attributes.ToString();
+	}
+
+    private string GetBodyAttributes()
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.AppendFormat(CultureInfo.InvariantCulture, "dir=\"{0}\" "
+            , (HttpContext.Current.Items["IsRightToLeft"] as bool?) == true ? "rtl" : "ltr"
+            );
+
+        sb.AppendFormat(CultureInfo.InvariantCulture, "class=\"lang_{0} {1} {2} {3}\" "
+            , MultilingualMgr.GetCurrentCulture().ToLowerInvariant()
+			, PageMarkup.SafeHtmlEncode()
+            , Profile.IsAuthenticated ? "Authenticated" : "Anonymous"
+            , GetUAStyle()
+            );
+
+        string pcSiteUrl = Settings.Site_PCSiteUrl.Contains("$DOMAIN$") ? Settings.Site_PCSiteUrl.Replace("$DOMAIN$", GetDomain()) : Settings.Site_PCSiteUrl;
+
+        sb.AppendFormat(CultureInfo.InvariantCulture, "data-desktop=\"{0}\" "
+            , pcSiteUrl.SafeHtmlEncode()
+            );
+
+        sb.AppendFormat(CultureInfo.InvariantCulture, "data-cookiedomain=\"{0}\" "
+            , SiteManager.Current.SessionCookieDomain.SafeHtmlEncode()
+            );
+
+        sb.Append("data-ismobile=\"1\"");
+        return sb.ToString();
+    }
+
+    public string GetPageClasses()
+    {
+        string result = string.Empty;
+        var fullPath = string.Concat(ViewData["__current_view_path"]);
+
+        var splited = fullPath.Split('/');
+        if (splited.Length > 1)
+        {
+            result += splited[splited.Length - 2] + "-" + splited[splited.Length - 1];
+            result = result.Replace(".aspx", string.Empty);
+
+            if (splited[splited.Length - 2].ToLower() == "home"
+                && splited[splited.Length - 1].ToLower().Replace(".aspx", string.Empty) == "index" 
+                && Settings.MobileV2.IsV2HomePageEnabled)
+            {
+                //apply this css class only for home/index
+                result += " HomePageV2";
+            }
+        }
+        
+        return result;
+    }
+</script>
+
+<!DOCTYPE html>
+<html <%= GetHtmlTagAttributes() %> class="Page-<%= GetPageClasses() %>">
+	<head runat="server">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, target-densityDpi=medium-dpi, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="icon" href="/favicon-32.png" sizes="32x32" />
+		<link rel="icon" href="/favicon-48.png" sizes="48x48"/>
+        <link rel="icon" sizes="196x196" href="/apple-touch-icon-152x152.png">
+        <link rel="icon" sizes="121x121" href="/apple-touch-icon-120x120-precomposed.png">
+        <link rel="icon" sizes="75x75" href="/apple-touch-icon-76x76-precomposed.png">
+        <link type="image/png" href="/apple-touch-icon.png" rel="apple-touch-icon">
+        <link sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png" rel="apple-touch-icon-precomposed">
+        <link sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed">
+        <link sizes="76x76" href="/apple-touch-icon-76x76-precomposed.png" rel="apple-touch-icon-precomposed">
+        <link sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" rel="apple-touch-icon-precomposed">
+        <link sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" rel="apple-touch-icon-precomposed">
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/favicon-180.png" />
+        <link rel="icon" sizes="196x196" href="/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-startup-image" href="/Default.png" media="(device-width: 320px)" sizes="320x460"/>
+		<link rel="apple-touch-startup-image" href="/Default-568@2x.png" media="(device-height: 568px)">
+        <link rel="apple-touch-startup-image" href="/Default-iphone6@2x.png" media="(device-width: 375px)" />
+		<link rel="apple-touch-startup-image" href="/Default-iphone6-Landscape@2x.png" media="(device-width: 375px) and (orientation: landscape)" />
+        <link rel="apple-touch-startup-image" href="/Default-iphone6plus@2x.png" media="(device-width: 414px)" />
+		<link rel="apple-touch-startup-image" href="/Default-iphone6plus-Landscape@2x.png" media="(device-width: 414px) and (orientation: landscape)" />
+		<link rel="apple-touch-startup-image" href="/Default-Portrait.png" media="(device-width: 768px) and (orientation: portrait)" />
+		<link rel="apple-touch-startup-image" href="/Default-Landscape.png" media="(device-width: 768px) and (orientation: landscape)" />
+        <link media="(device-width: 768px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/Default-ipad@2x.png" rel="apple-touch-startup-image">
+        <link media="(device-width: 768px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/Default-ipad-Landscape@2x.png" rel="apple-touch-startup-image">
+
+		<script><%-- prevent links from opening a new browser instance in iOS standalone mode --%>
+			(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone");
+		</script>
+		<%-- 
+		<script src="/js/mobile/plugins/jquery-1.10.2.min.js"></script>
+		<script src="/js/mobile/plugins/jquery.cookie.js"></script>
+		<script src="/js/mobile/plugins/jquery.validate.min.js"></script>
+		<script src="/js/mobile/plugins/jquery.touchwipe.min.js"></script>
+		<script src="/js/mobile/plugins/detectmobilebrowser.js"></script>
+		<script src="/js/mobile/plugins/overthrow.js"></script>
+		<script src="/js/mobile/plugins/swipe.min.js"></script>
+		<script src="/js/mobile/jquery.template.js"></script>
+		<script src="/js/mobile/jquery.validation.js"></script>
+		<script src="/js/mobile/init.js"></script>
+		<script src="/js/mobile/main.js"></script>
+		<script src="/js/mobile/slider.js"></script>
+		 --%>
+		<%-- 
+		<script src="/js/mobile/combined.mobile.js"></script>
+		 --%>
+		
+		<asp:ContentPlaceHolder id="cphHead" runat="server" />
+	</head>
+	
+	<body <%= GetBodyAttributes() %> >
+	<% if (Settings.CombinedJsPosition == 1)
+	{ %>
+	    <script type="text/javascript" src="<%=CombinedJsUrl %>"<%=Settings.EnableAsyncCombinedJs ? @" async=""async"" defer=""true""" : "" %> />
+	<% } %>
+        <%if (Settings.IovationDeviceTrack_Enabled)
+        {
+            string trackScriptPath = this.GetMetadata(".Iovation_Track_Script_Url");
+            if (!string.IsNullOrEmpty(trackScriptPath))
+            {  %>
+    <script type="text/javascript" src="<%=trackScriptPath.SafeJavascriptStringEncode() %>"></script>
+    <%}
+        } %>
+		<%if (Settings.Site_IsDeviceCheckerEnabled)
+		{
+			if (Settings.Site_IsDeviceRedirectForced)
+			{%>
+		<script>
+			var url = $("body").data("desktop");
+			if (!$.browser.mobile && url) 
+				window.location = url;
+		</script>
+			<% }
+			else
+			{ %>
+		<script src="/js/devicechecker.js?_d=<%=DateTime.Now.DayOfYear %>"></script>
+		<div id="switch-promot" class="promot-box" style="display:none">
+			<span class="switch-promot-text"><%=this.GetMetadata(".Switch_Promoting_Message").HtmlEncodeSpecialCharactors()%></span>
+			<span class="switch-promot-options"><%=Html.Button(this.GetMetadata(".Switch_Promoting_Yes"), new { @id = "switch-promot-btnYes" })%><%= Html.Button(this.GetMetadata(".Switch_Promoting_DonotRemindMe"), new { @id = "switch-promot-btnDonotRemind" })%></span>
+			<a href="#" id="switch-promot-btnClose"><img src="/js/css/promoting/image/close.png" alt="Cancel" /></a>
+		</div>
+		<script>
+			$(function () { DeviceChecker.Promoting.Init(); });
+		</script>
+		<% }
+		} %>
+		<% Html.RenderPartial("/RootMasterBodyPlus", this.ViewData); %>
+		<%= this.GetFileContent("/GlobalCode.htm")%>
+		<asp:ContentPlaceHolder ID="cphMain" runat="server" />
+
+        <ui:MinifiedJavascriptControl runat="server" AppendToPageEnd="true" Enabled="true">
+        <script>
+        	(function () {
+                var k = '_ser', v = $.cookie(k), m = {
+                    reentry: '<%=this.GetMetadata(".SessionExitReason_Reentry").SafeJavascriptStringEncode() %>',
+                    expired: '<%=this.GetMetadata(".SessionExitReason_Expired").SafeJavascriptStringEncode() %>',
+                    ipchanged: '<%=this.GetMetadata(".SessionExitReason_IPChanged").SafeJavascriptStringEncode() %>',
+                    limitexceeded: '<%=this.GetMetadata(".SessionExitReason_LimitExceeded").SafeJavascriptStringEncode() %>'
+                };
+                if (v) {
+                    $.removeCookie(k, { path: '/', domain: '<%=SiteManager.Current.SessionCookieDomain%>' });
+                    var t = m[v.toLowerCase()];
+                    if (t)
+                        alert(t);
+                }
+            })(); 
+
+			cmsGA.init({
+				gid: 'UA-36030462-1',
+				cid: '<%= this.GetMetadata("Metadata/Settings.GoogleAnalytics_Account").DefaultIfNullOrWhiteSpace(string.Empty).SafeJavascriptStringEncode()%>',
+				c: '<%= SiteManager.Current.DistinctName.ToLowerInvariant().SafeJavascriptStringEncode() %>',
+				u: '<%= Profile.IsAuthenticated ? "logged" : "browsing"%>',
+				p: 'GamMatrix Mobile',
+				l: '<%= HttpContext.Current.GetLanguage().SafeJavascriptStringEncode()%>'
+			});
+        </script>
+        </ui:MinifiedJavascriptControl>
+        
+		<%= this.Context.GetScript() %>
+
+        <% if (Settings.MobileV2.IsV2MenuEnabled) { %>
+
+        <!-- this is a Menu V2 bug fix for hidden submenus (Profile,Settings,AccountPanel) on mobile devices -->
+        <div id="menuV2_fix_bug" style="position:fixed;"></div>
+
+        <% } %>
+        <% if (Settings.CombinedJsPosition == 2)
+		{ %>
+		    <script type="text/javascript" src="<%=CombinedJsUrl %>"<%=Settings.EnableAsyncCombinedJs ? @" async=""async"" defer=""true""" : "" %> />
+		<% } %>
+	</body>
+</html>

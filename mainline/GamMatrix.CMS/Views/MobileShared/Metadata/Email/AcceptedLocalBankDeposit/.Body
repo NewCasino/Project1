@@ -1,0 +1,13 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Your deposit has been successfully completed.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Please click the "Refresh" button(NOT the web browser refresh button) in the page head to reload the balance.</strong>
+  </span>
+</p>
+<p>
+  If you have any question please do not hesitate to contact <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team
+</p>

@@ -1,0 +1,38 @@
+﻿Vous êtes actuellement dans l'impossibilité de faire des dépôts car votre compte est inactif.
+Un e-mail d'activation a été envoyé à l’adresse e-mail que vous avez utilisé lors de votre
+inscription. Veuillez cliquer sur le lien dans l'e-mail d'activation pour activer
+votre compte. Veuillez nous contacter si vous ne recevez pas l'email d'activation <a
+
+ng> : OddsMatrix Ltd</li>
+		<li> <strong>Adresse du titulaire</strong> : Vincenti Buildings, Suite 713, 14/19 Strait Street, Valletta, VLT 1432, Malta</li>
+		<li> <strong>Nom de la Banque </strong> : Bank of Valletta</li>
+		<li> <strong>Adresse de la Banque </strong> : 86, South Street, Valletta VLT 1105-Malta</li>
+		<li> <strong>SWIFT</strong> : VALLMTMT</li>
+	</ul>
+</p>
+
+ 
+<p>
+Veuillez trouver ci-dessous les codes IBAN pour chaque devise
+<ul>
+<li> <strong>EUR</strong> MT25VALL22013000000040018502408</li>
+
+<li> <strong>SEK</strong> MT11VALL22013000000040018502466</li>
+
+<li> <strong>DKK</strong> MT34VALL22013000000040018502440</li>
+
+<li> <strong>USD</strong> MT04VALL22013000000040018502495</li>
+
+<li> <strong>GBP</strong> MT73VALL22013000000040018510759</li>
+
+<li> <strong>NOK</strong> MT73VALL22013000000040018502453</li>
+
+<li> <strong>PLN</strong> MT73VALL22013000000040019112062</li>
+
+<li> <strong>CZK</strong> MT13VALL22013000000040019112075</li>
+</ul>
+</p>
+
+<p>Nous tenons à vous informer que nous ne vous facturerons pas le dépôt par virement bancaire mais nous ne vous conseillons de vérifier avec votre banque pour d’éventuels frais supplémentaires.
+</p> 
+

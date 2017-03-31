@@ -1,0 +1,1 @@
+Du kan snabbt föra över pengar från ditt Visa Electron-kort till ditt spelkonto. Skriv bara in dina kortuppgifter, och när ditt Visa Electron är verifierat kommer din transaktion direkt in på ditt spelkonto. 

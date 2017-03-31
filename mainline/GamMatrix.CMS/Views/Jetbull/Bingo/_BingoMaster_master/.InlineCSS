@@ -1,0 +1,133 @@
+﻿#container .content {background-color: #000;}
+
+#bingo-wrapper {padding: 0px 8px;margin:0 auto;}
+#bingo-wrapper .mainPanel {width: 64%;float: left;}
+#bingo-wrapper .rightPanel {width: 33%;float: right;margin-left: 10px;}
+#bingo-wrapper .rightPanel img{width:100%;}
+/**********slieder items**********/
+#bingo-wrapper .imageslider-wrapper {position: relative;height: 520px;width: 100%;padding: 1px 1px 0 1px;}
+#bingo-wrapper #imageslide-holder {position: relative;height: 100%;width: 100%;float: left;}
+#bingo-wrapper #imageslide-holder div {position: absolute;top: 0;left: 0;z-index: 3;height: 100%;width: 100%;overflow: hidden;}
+#bingo-wrapper #imageslide-holder div.current {z-index: 5;}
+#bingo-wrapper #imageslide-holder div.prev {z-index: 4;}
+#bingo-wrapper #imageslide-holder div img {display: block;border: 0;width: 100%;height:100%;}
+#bingo-wrapper #imageslide-holder div span {display: none;position: absolute;bottom: 0;left: 0;height: 50px;line-height: 50px;background: #000;color: #fff;width: 100%;}
+/**********slider control**********/ 
+.GeneralSlider .SliderContainer .SliderItem{background-position:right center;background-size:auto 100% !important;}
+.GeneralSlider .SliderContent{text-align:left;}
+
+#bingo-wrapper #slidecontrols {z-index: 10;position: relative;float: right;list-style-type: none;margin: -30px 30px 0 0;*margin:-28px 30px 0 0;}
+#bingo-wrapper #slidecontrols li {float: left;margin-right: 1px;}
+#bingo-wrapper #slidecontrols a {display: block;padding: 16px 0px 0px 18px;text-align: center;color: #fff;float: left;height: 0px;line-height: 18px;text-decoration: none;background: url(//cdn.everymatrix.com/Jetbull/_files/home/jetbullslider.png) -308px -598px;width: 0px;overflow: hidden;}
+#bingo-wrapper #slidecontrols li.current a {background: url(//cdn.everymatrix.com/Jetbull/_files/home/jetbullslider.png) -308px -581px;color: #000}
+#bingo-wrapper .slideimgloading {position: absolute;top: 90px;left: 300px;}
+
+.bingo-jackpots-containner, .bingo-winners-containner{display:block;margin-top:10px;width:100%;height:210px;position:relative;border:1px solid #000;background:url(/App_Themes/JetbullRD/bingo/bingo_pane.png) repeat-x 0 0 #222222;}
+#bingo-jackpots-rotator-header, #bingo-last-winners-header{padding-left:36px;background:url(/App_Themes/JetbullRD/bingo/bingo_pane.png) no-repeat 5px -397px transparent;height:34px;line-height:34px;text-align:left;font-size:16px;font-weight:bold;color:#fff;}
+#bingo-last-winners-header{background-position:5px -347px;}
+#bingo-jackpots-rotator-entries, #bingo-last-winners-entries{background:url(/App_Themes/JetbullRD/bingo/bingo_pane.png) no-repeat right -440px transparent;height:176px;text-align:left;padding:10px;}
+#bingo-last-winners-entries{background-position:right -700px;}
+.entry{display:block;width:50%;border-bottom:1px solid #332f31;line-height:20px;height:20px;}
+.jackpots-name{color:#dcdcdc;font-size:12px;font-weight:normal;float:left;}
+.jackpots-amount{color:#fc5252;font-size:12px;font-weight:normal;float:right;}
+.bingo-rooms-containner{margin:17px 0;width:100%;height:200px;background:url(/App_Themes/JetbullRD/bingo/bingo_pane.png) repeat-x 0 0 #222222;clear:both;}
+#tabbedBingoRooms{width:100%;position:relative;margin:0;padding:0;}
+#tabbedBingoRooms .tabs{position:absolute;right:10px;top:2px;width:auto;border:1px solid #131313;}
+.tabbed_content .tabs .tab{background:url(/App_Themes/JetbullRD/bingo/bingo_pane.png) repeat-x 0 -1400px transparent;border-radius:0;margin:0;padding:0;height:28px;border-left:1px solid #555555;}
+.tabbed_content .tabs .tab.selected{background:url(/App_Themes/JetbullRD/bingo/bingo_pane.png) repeat-x 0 -1350px transparent;}
+.tabbed_content .tabbody{background-color:transparent;}
+.tabbed_content .tabbody .tabbody_Center_Middle{margin:0;padding:0;}
+
+#bingoroom-head{padding-left:36px;background:url(/App_Themes/JetbullRD/bingo/bingo_pane.png) no-repeat 5px -895px transparent;height:34px;line-height:34px;text-align:left;font-size:16px;font-weight:bold;color:#fff;}
+.bingroom-title{display:none;}
+.bingroom-title-jackpot, .bingroom-title-win, .bingroom-title-price, .bingroom-title-num, .bingroom-title-start{color:#858585;font-size:12px;font-weight:normal;line-height:24px;}
+.bingoroom-list ul{display:block;}
+.bingoroom-list ul li{float:left;width:23%;height:145px;margin:10px 1%;border:1px dashed grey;position:relative;background-color:black;}
+.bingroom-list-type{height:50%;width:100%;background-color:#222222;}
+.bingroom-list-type.bingotype1{background:url(/App_Themes/JetbullRD/bingo/bingo_pane.png) no-repeat center -1240px #222222;}
+.bingroom-list-type.bingotype2{background:url(/App_Themes/JetbullRD/bingo/bingo_pane.png) no-repeat center -1140px #222222;}
+.bingroom-list-type.bingotype5{background:url(/App_Themes/JetbullRD/bingo/bingo_pane.png) no-repeat center -990px #222222;}
+.bingroom-list-room{position:absolute;top:32%;left:0;width:100%;text-align:center;line-height:18px;height:18px;font-size:18px;color:#d988fb;}
+.bingroom-list-jackpot, .bingroom-list-win, .bingroom-list-price{width:33%;float:left;height:31.5%;color:#ffff00;font-size:12px;font-weight:bold;}
+.bingroom-list-num, .bingroom-list-start{display:none;}
+.bingroom-list-button{width:40%;height:15%;margin:0 auto;padding-top:5px;clear:both;background-color:#222222;border-left:1px dashed grey;border-top:1px dashed grey;border-right:1px dashed grey;border-radius:5px 5px 0 0;}
+.bingoroom-list .linkbutton {height: 100%;border: none;padding: 0px;margin: 0px;cursor: pointer;overflow: visible;zoom: 1;background-color: transparent;}
+.bingoroom-list ul li .linkbutton .linkbutton_Right {margin: 0px auto;padding: 0px;width: 70%;height: 21px;background-image: url("//cdn.everymatrix.com/Jetbull/_files/bingo/button.png");background-repeat: no-repeat;background-position: right -78px;display: block;}
+.bingoroom-list ul li .linkbutton .linkbutton_Left {margin: 0px 12px 0px 0px;padding: 0px;height: 21px;background-image: url("//cdn.everymatrix.com/Jetbull/_files/bingo/button.png");background-repeat: no-repeat;background-position: left 0px;display: block;}
+.bingoroom-list ul li .linkbutton .linkbutton_Center {margin: 0px 0px 0px 12px;padding: 0px;height: 21px;background-image: url("//cdn.everymatrix.com/Jetbull/_files/bingo/button.png");background-repeat: repeat-x;background-position: 0px -39px;display: block;}
+.bingoroom-list ul li .linkbutton .linkbutton_Center span {color: #FFFFFF;font-family: Tahoma;font-weight: 600;font-size: 11px;height: 21px;margin: 0px;padding: 0px;line-height: 20px;vertical-align: middle;white-space: nowrap;overflow: hidden;display: block;}
+.bingoroom-list ul li .linkbutton:hover .linkbutton_Center span {color: #000;text-shadow: 1px 1px 1px #fff;}
+
+
+/*
+.bingo-jackpots-containner {display: block;margin-top: 10px;width: 100%;height: 128px;position: relative;}
+#bingo-jackpots-rotator-header {padding-top: 40px;overflow: hidden;height: 1px;}
+#bingo-jackpots-rotator-entries {clear: both;position: absolute;top: 46px;left: -1px;width: 100%;height: 75px;overflow: hidden;}
+#bingo-jackpots-rotator-entries .entry {display: block;clear: both;background: url("//cdn.everymatrix.com/Jetbull/_files/bingo/bingobg.png") no-repeat scroll right -570px transparent;height: 27px;*height:25px;}
+#bingo-jackpots-rotator-entries .jackpots-name {padding-left: 30px;width: 170px;line-height: 25px;display: block;float: left;color: #999;font-weight: 700;}
+#bingo-jackpots-rotator-entries .jackpots-amount {display: block;float: right;line-height: 25px;padding-right: 10px;color: #FF9C00;font-weight: 700;}
+
+.bingo-winners-containner {margin-top: 17px;height: 208px;background: url("//cdn.everymatrix.com/Jetbull/_files/bingo/bingobg.png") no-repeat scroll right -100px transparent;position: relative;}
+#bingo-last-winners-header {padding-top: 40px;overflow: hidden;height: 1px;}
+#bingo-last-winners-entries {position: absolute;top: 45px;left: -1px;width: 100%;height: 162px;overflow: hidden;}
+#bingo-last-winners-entries .entry {position: relative;background: url("//cdn.everymatrix.com/Jetbull/_files/bingo/bingobg.png") no-repeat scroll right -330px transparent;height: 54px;}
+#bingo-last-winners-entries .winners-name {position: absolute;top: 5px;left: 30px;width: 140px;margin: 3px 0 0 0;color: #999;font-weight: 700;overflow: hidden;float: left;width: 220px;font-size: 12px;}
+#bingo-last-winners-entries .winners-name a {color: #999;}
+#bingo-last-winners-entries .winners-amount {position: absolute;top: 25px;left: 30px;width: 140px;height: 18px;margin-top: 3px;color: #FF9C00;font-weight: bold;overflow: hidden;float: left;clear: both;font-size: 14px;width: 220px;}
+#bingo-last-winners-entries .winners-avatar {height: 45px;float: left;margin-top: 0px;position: absolute;right: 5px;top: 4px;}
+#bingo-last-winners-entries .winners-avatar img {width: 45px;height: 45px;}
+
+.bingo-rooms-containner {width: 638px;margin: 17px 0 0 0;}
+#bingoroom-head {padding-left: 20px;background: url("//cdn.everymatrix.com/Jetbull/_files/bingo/room_header_bg.png") repeat-x scroll 0 bottom transparent;text-shadow: 2px 2px 2px #000000;height: 28px;line-height: 26px;width: 618px;color: #fff;font-size: 16px;font-weight: 700;}
+#bingoroom-body {border-bottom: 1px solid #333;border-left: 1px solid #333;border-right: 1px solid #333;position: relative;width: 599px;background-color: #1b1b1b;padding-left: 18px;padding-right: 18px;padding-bottom: 15px;}
+.bingroom-title {display: block;position: relative;height: 30px;line-height: 15px;padding-top: 15px;}
+.bingoroom-list-wrapper {clear: both;}
+.bingoroom-list {min-height: 225px;}
+.bingoroom-list ul {list-style: none;margin: 0;padding: 0;position: relative;}
+.bingoroom-list ul li {list-style: none;margin: 0;padding: 0;clear: both;display: block;clear: both;position: relative;background: url("//cdn.everymatrix.com/Jetbull/_files/bingo/bingobg.png") repeat-x scroll 0 -350px transparent;height: 46px;font-size: 12px;font-weight: 700;line-height: 45px;overflow: hidden;text-align: center;text-transform: uppercase;width: 100%;}
+.bingoroom-list .bingroom-list-field, .bingroom-title div {display: block;position: absolute;text-align: center;text-transform: uppercase;font-weight: 700;}
+.bingroom-list-type, .bingroom-title-type {left: 0px;width: 76px;}
+.bingroom-list-room, .bingroom-title-room {left: 76px;width: 100px;}
+.bingroom-list-jackpot, .bingroom-title-jackpot {left: 176px;width: 97px;}
+.bingroom-list-win, .bingroom-title-win {left: 273px;width: 80px;}
+.bingroom-list-price, .bingroom-title-price {left: 358px;width: 80px;}
+.bingroom-list-num, .bingroom-title-num {left: 433px;width: 38px;}
+.bingroom-list-start, .bingroom-title-start {left: 471px;width: 56px;}
+.bingroom-list-button, .bingroom-title-button {right: 5px;width: 65px;top: 12px;}
+.bingroom-list-type.bingotype1 {background: url("//cdn.everymatrix.com/Jetbull/_files/bingo/bingo_icon_1.png") no-repeat scroll 0 5px transparent}
+.bingroom-list-type.bingotype2 {background: url("//cdn.everymatrix.com/Jetbull/_files/bingo/bingo_icon_2.png") no-repeat scroll 0 5px transparent}
+.bingroom-list-type.bingotype5 {background: url("//cdn.everymatrix.com/Jetbull/_files/bingo/bingo_icon_5.png") no-repeat scroll 0 5px transparent}
+.bingroom-list-type {background: url("//cdn.everymatrix.com/Jetbull/_files/bingo/bingo_icon.png") no-repeat scroll 0 5px transparent}
+.bingroom-list-room {text-transform: none;}
+.bingroom-list-jackpot {color: #ff9c00}
+.bingroom-list-win {color: #ff9c00}
+.bingroom-list-price {color: #ff9c00}
+.bingroom-list-num {color: #ff9c00} 
+.bingoroom-list .linkbutton {height: 29px;border: none;padding: 0px;margin: 0px;cursor: pointer;overflow: visible;zoom: 1;background-color: transparent;}
+.bingoroom-list ul li .linkbutton .linkbutton_Right {margin: 0px;padding: 0px;width: 100%;height: 21px;background-image: url("//cdn.everymatrix.com/Jetbull/_files/bingo/button.png");background-repeat: no-repeat;background-position: right -78px;display: block;}
+.bingoroom-list ul li .linkbutton .linkbutton_Left {margin: 0px 12px 0px 0px;padding: 0px;height: 21px;background-image: url("//cdn.everymatrix.com/Jetbull/_files/bingo/button.png");background-repeat: no-repeat;background-position: left 0px;display: block;}
+.bingoroom-list ul li .linkbutton .linkbutton_Center {margin: 0px 0px 0px 12px;padding: 0px;height: 21px;background-image: url("//cdn.everymatrix.com/Jetbull/_files/bingo/button.png");background-repeat: repeat-x;background-position: 0px -39px;display: block;}
+.bingoroom-list ul li .linkbutton .linkbutton_Center span {color: #FFFFFF;font-family: Tahoma;font-weight: 600;font-size: 11px;height: 21px;margin: 0px;padding: 0px;line-height: 20px;vertical-align: middle;white-space: nowrap;overflow: hidden;display: block;}
+.bingoroom-list ul li .linkbutton:hover .linkbutton_Center span {color: #000;text-shadow: 1px 1px 1px #fff;}
+
+
+
+#tabbedBingoRooms{ max-width:100%; min-width:100%; margin:0;}
+#tabbedBingoRooms.tabbed_content .tabs .tab{ margin:0;}
+#tabbedBingoRooms.tabbed_content .tab .tab_left{ margin:0; background:none;}
+#tabbedBingoRooms.tabbed_content .tab .tab_right{ margin:0; background:none;}
+#tabbedBingoRooms.tabbed_content .tab .tab_center{ margin:0; padding:0 8px; background:url("/App_Themes/Jetbull/img/button.png") repeat-x scroll right -780px transparent !important;}
+#tabbedBingoRooms.tabbed_content .tab .tab_center span{color:#555 !important; text-shadow:-1px -1px 0 #FFFFFF}
+#tabbedBingoRooms.tabbed_content .selected .tab_left{ background:none;}
+#tabbedBingoRooms.tabbed_content .selected .tab_right{ background:none;}
+#tabbedBingoRooms.tabbed_content .selected .tab_center{ background:url("/App_Themes/Jetbull/img/button.png") repeat-x scroll right -504px transparent !important;}
+#tabbedBingoRooms.tabbed_content .selected .tab_center span{ color:#fff !important; text-shadow:-1px -1px 0 #000000}
+
+#tabbedBingoRooms.tabbed_content .tabbody .tabbody_Center_Right{ background-color:#252122;}
+#tabbedBingoRooms.tabbed_content .tabbody .tabbody_Center_Left{ background-color:#252122;}
+#tabbedBingoRooms.tabbed_content .tabbody .tabbody_Center_Middle{ padding: 5px 0; color:#fff; background-color:#252122;}
+#tabbedBingoRooms.tabbed_content .tabbody .tabbody_Bottom{ display:none;}
+#tabbedBingoRooms .bingoroom{ width:625px; margin: 8px auto 2px;}
+#tabbedBingoRooms #bingoroom-head{ width:605px; border-left:1px solid #333333; border-right:1px solid #333333; background-position:-2px bottom;}
+#tabbedBingoRooms #bingoroom-body{ width:602px; margin:0 auto; padding:0 11px 10px;}
+*/

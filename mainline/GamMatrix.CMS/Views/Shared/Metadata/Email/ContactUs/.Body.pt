@@ -1,0 +1,11 @@
+﻿<em>Este email foi enviado por um cliente através do "Contacte-nos" no website.<br />NÃO responda a este email diretamente! Pode encontrar o email do cliente abaixo.</em>
+<hr/>
+<ul>
+<li><strong>Email do cliente</strong>:$EMAIL$</li>
+<li><strong>Nome do Cliente</strong>:$NAME$</li>
+<li><strong>Assunto</strong>:$SUBJECT$</li>
+<li><strong>ID Utilizador</strong>:$USERID$</li>
+<li><strong>Nome de Utilizador</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

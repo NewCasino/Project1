@@ -1,0 +1,109 @@
+﻿<ol>
+
+ <li> <strong>Hvordan kan jeg ta ut penger fra nettstedskontoen min?</strong>
+ <p>
+ Du kan be om uttak når som helst så lenge du oppfyller alle kravene og er godkjent av systemet for uttak. Du kan også ta ut penger så mange ganger du ønsker, men i henhold til lover mot hvitvasking og svindel som [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] vi er underlagt, kan vi ikke tillate uttak fra [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]&nbsp; kontoen din før 24 timer etter et innskudd. Minstebeløpet for uttak er 10 euro.
+ </p>
+ </li>
+
+ <li> <strong>Er det grenser for hvor mye jeg kan ta ut?</strong>
+ <p>
+ Minstebeløpet for uttak er 10 euro eller tilsvarende i annen valuta. Maksbeløpet for uttak er 5000 euro eller tilsvarende i annen valuta per dag.
+ </p>
+ </li>
+
+ <li>
+ <strong>Kan jeg avbryte en uttaksforespørsel?</strong>
+ <p>
+ Du må ta kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ckundestøtten. Hvis uttaket ikke er behandlet, kan det avbrytes.
+ </p>
+ </li>
+
+ <li>
+ <strong>Kan jeg få gevinstene tilbakebetalt til kreditt-/debetkortet mitt?</strong>
+ <p>
+ Ja, så lenge det er det samme kortet som du brukte til å gjøre det opprinnelige innskuddet, og kortet kan motta et uttak.
+ </p>
+ </li>
+
+ <li>
+ <strong>Jeg brukte kreditt-/debetkortet mitt til å gjøre innskuddet, kan jeg be om utbetaling på andre måter?</strong> 
+ <p>
+ Ja, men vi trenger kanskje komplett dokumentasjon og fullstendige opplysninger om det nye alternativet.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvorfor kan jeg ikke velge hvordan jeg skal få betalt?</strong>
+ <p>
+ Dette er på grunn av lover mot hvitvasking og også av sikkerhetsmessige hensyn overfor deg og de finansielle transaksjonene dine. Med mindre det er uttrykkelig godkjent må alle tilbakebetalinger gå via samme alternativ som ble brukt for å sette inn midlene.
+ </p>
+ </li>
+
+ <li>
+ <strong>Tar dere uttaksgebyr?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> 
+ <p>
+ Uttaksgebyr varierer avhengig av hvilket alternativ du velger. Klikk på '
+ <a href="/deposit">betalingsløsninger</a>
+ for å se informasjon om gebyr. Vær oppmerksom på at banken din kan kreve egne gebyr for tjenestene.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvor lang tid tar det å behandle uttak?</strong>
+ <p>
+ Dette varierer avhengig av hvilket alternativ du velger. Klikk på '
+ <a href="/deposit">betalingsløsninger</a>
+ ' to see all of the withdrawal methods available to you and their processing times.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Why is it that a withdrawal to my card takes days while a deposit is immediate?
+ </strong>
+ <p>
+ Vi gjennomfører en rekke kontroller før uttak går ut, [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] og dette forsinker uttakene med ca. 12 timer. Disse kontrollene er del av vår pågående forpliktelse om å opprettholde sikkerheten til kundenes midler. Eventuelle andre forsinkelser skyldes begrensninger pålagt av betalingsleverandørene.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Hva skjer hvis kortet som jeg har tatt ut penger til, utløper eller sperres?
+ </strong>
+ <p>
+ Du må informere oss om eventuelle endringer, og oppgi bevis på at kortet er utdatert, du kan eventuelt oppgi en begrunnelse for endringen. Nye kort må registreres hos oss og på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kontoen din.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Kan jeg ta ut penger fra kontoen min og sende pengene til noen andre?
+ </strong>
+ <p>
+ Nei, dette anses som en tredjepartstransaksjon og er ikke tillat under noen omstendigheter.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Hva er retningslinjene for uttak for [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+ </strong>
+ <p>
+ Kontoen din må være aktivert og ha minstebeløpet som kreves for å kunne ta ut midler. Enkelte begrensninger gjelder for spillere som deltar i [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kampanjer.
+ </p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

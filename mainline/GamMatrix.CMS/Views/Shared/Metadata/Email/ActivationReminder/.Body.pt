@@ -1,0 +1,14 @@
+﻿<p>Caro&#160; $USERNAME$,<br />
+<br /> Obrigado por se registar em  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+<br />
+<br /> Para sua segurança queremos lembrá-lo para verificar o seu e-mail para se assegurar que a sua conta continua activa e que pode continuar a desfrutar as grandes ofertas disponíveis em [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].<br />
+<br /> Por favor clique no link abaixo, se este não responder, tente fazer copy paste do link para o seu browser.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />Se nãao se registou com [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+, por favor ignore este email ou informe-nos <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br /> Por favor assegure-se que completa a verificação do email imediatamente para prevenir que a sua conta seja restringida para suaa proteção.
+<p><br />
+Melhores cumprimentos,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ A equipa de apoio ao cliente<br />

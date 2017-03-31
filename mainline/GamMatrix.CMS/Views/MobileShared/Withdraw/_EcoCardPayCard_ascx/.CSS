@@ -1,0 +1,5 @@
+﻿<style type="text/css">
+input,textarea,select {-webkit-appearance: radio;}
+input:hover,input:focus,input:active,textarea:hover,textarea:focus,textarea:active,select:hover,select:focus,select:active {-webkit-appearance: radio;}
+.PayCardList li label {display: inline-block;}
+</style>

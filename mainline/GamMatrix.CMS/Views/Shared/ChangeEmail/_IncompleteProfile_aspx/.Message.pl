@@ -1,0 +1,1 @@
+Nie możesz zmienić adresu e-mail z powodu niekompletnego profilu. Zostaniesz przekierowany na stronę profilu za 5 sekund. Uzupełnij swój profil przed dokonaniem wpłaty. 

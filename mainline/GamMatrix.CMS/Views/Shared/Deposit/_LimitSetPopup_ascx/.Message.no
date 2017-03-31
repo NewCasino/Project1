@@ -1,0 +1,1 @@
+Vi registrerer at du ikke har konfigurert noen økonomisk grense på kontoen din. Vi anbefaler at du konfigurerer en grense ved å klikke på denne <a href="{0}">link</a>. Du kan velge ikke å konfigurere noen grenser ved på klikke på Lukk.

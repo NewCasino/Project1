@@ -1,0 +1,13 @@
+﻿<p>Kjære kunde,</p>
+<p></p>
+<p>
+du må godkjenne  <a href="[Metadata:value(/Metadata/Settings.Terms_Conditions_Url)]" >Vilkårene og Bestemmelsene </a> før du kan spille.
+</p>
+<p>
+ Kontakt gjerne kunderservice om du har noen spørsmål.
+ </p>
+ <p>
+ <br />
+ Hjertelig takk, <br />
+Kundeservice
+</p>

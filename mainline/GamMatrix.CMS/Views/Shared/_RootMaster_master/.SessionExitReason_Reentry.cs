@@ -1,0 +1,1 @@
+﻿Byli jste odpojeni, protože se někdo jiný přihlásil pod vaším jménem z jiného místa. Zvažte, že pokud to nebylo úmyslné, někdo vám mohl ukrást přihlašovací data. Doporučujeme vám si je proto okamžitě změnit.

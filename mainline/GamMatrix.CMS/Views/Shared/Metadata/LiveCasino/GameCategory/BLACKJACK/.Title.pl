@@ -1,0 +1,1 @@
+Zagraj w BlackJacka NA ŻYWO!

@@ -1,0 +1,5 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>您的成功已經成功完成.</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">请點擊頁面頭部的 "刷新" 按钮(不是web瀏覽器的刷新按鈕) 重新加載月餘額.</strong></span></p>
+<p>如果您有任何的問題歡迎聯繫 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>致意,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 團隊</p>

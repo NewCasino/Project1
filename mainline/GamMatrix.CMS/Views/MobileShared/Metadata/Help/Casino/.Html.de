@@ -1,0 +1,32 @@
+﻿<ol><li><strong> Wie zahle ich Geld für das [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Csino ein?</strong>
+<p>Ihr Casinoguthaben wird getrennt vom [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Hauptkonto gehalten, damit Sie sich den Überblick bewahren. Über die stets sichtbare „Geldtransfer“-Funktion auf der rechten Seite des Casinos (wenn Sie eingeloggt sind) können Sie ihr Geld zwischen den beiden Konten ganz einfach verschieben.</p>
+</li><li><strong> Sind die Spiele auf Ihrer Website fair?</strong>
+<p>Wir versichern Ihnen, dass die Algorithmen auf unserer Seite die Spielkarten völlig zufällig austeilen. Unsere Spiele wurden auf Grundlage der sogenannten „Secure Random“-Funktion für Java, also dem sicheren Zufallsprinzip, aus dem Hause Sun Microsystem entwickelt. Der Zufallszahlengenerator und der Mischvorgang wurden von einem Doktor der Mathematik entworfen. Die Software, mit der wir die Karten nach dem Zufallsprinzip verteilen, wurde ausführlich getestet und zeigt keinerlei Tendenzen oder Vorhersagbarkeit. Sie ist außerdem durch eCOGRA genehmigt.</p>
+</li><li><strong> Was passiert, wenn das Spiel mitten in einer Spielrunde unterbrochen wird?</strong>
+<p>Der Spielstand wird in jeder Spielrunde automatisch in der Systemdatenbank gespeichert. Dadurch wird sichergestellt, dass der zuletzt vom Spieler gesehene Spielstand wiederhergestellt werden kann, wenn das Spiel nach einer Systemunterbrechung, einem Internetfehler oder Serverausfall oder einem Problem seitens des Nutzers wieder aufgenommen wird.</p>
+</li><li><strong> Wie viele Kartenspiele gibt es beim Blackjack?</strong>
+<p>In unseren Blackjack-Spielen werden 4 bzw. 6 Kartenspiele verwendet.</p>
+</li><li><strong> Wo finde ich detaillierte Anleitungen zu Ihren Spiele?</strong>
+<p>Wo finde ich detaillierte Anleitungen zu Ihren Spielen?</p>
+</li><li><strong> Wie hoch sind die durchschnittlichen Auszahlungen auf der Website?</strong>
+<p>Die Auszahlungen variieren von Spiel zu Spiel und mit der Zeit, jedoch liegen die theoretischen Auszahlungen im Bereich von 97%. Die Auszahlungen für die Spiele sind fest kodiert und werden von uns nicht geändert.</p>
+</li><li><strong> Kann ich die Spiele kostenlos ausprobieren?</strong>
+<p>Ja, Sie können alle Spiele kostenlos testen, wenn Sie den „Spielgeld“-Modus wählen.</p>
+</li><li><strong> Kann ich einen Einsatz wieder entfernen, nachdem ich ihn auf dem Tisch platziert habe?</strong>
+<p>Vor Beginn des Spiels kann dies noch möglich sein, aber sobald das Spiel läuft, können Sie Ihre Einsätze nicht mehr ändern oder verringern.</p>
+</li><li><strong> Was passiert, wenn mitten in einer Spielrunde meine Verbindung getrennt wird?</strong>
+<p>Wenn Sie sich neu einloggen und das Spiel wieder öffnen, wird es ab dem Spielstand fortgesetzt, an dem Sie die Verbindung verloren haben. Spielautomaten, die noch nicht zum Stillstand gekommen sind, als das Spiel unterbrochen wurde, vollenden die Spielrunde selbst bei getrennter Verbindung. </p>
+</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

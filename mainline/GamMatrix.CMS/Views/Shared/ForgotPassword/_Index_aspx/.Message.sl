@@ -1,0 +1,1 @@
+Vnesite svoj e-poštni naslov in prejeli boste e-poštno sporočilo z navodili, kako obnoviti svoje geslo.

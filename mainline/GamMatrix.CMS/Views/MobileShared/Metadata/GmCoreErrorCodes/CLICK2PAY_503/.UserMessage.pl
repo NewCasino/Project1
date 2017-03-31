@@ -1,0 +1,1 @@
+﻿Odmowa anulowania — brak identyfikatora referencyjnego.

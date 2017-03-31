@@ -1,0 +1,10 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p><<<<<<Ditt uttak til $VOUCHERAMOUNT$  har blitt prosessert. Nedenfor finner du informasjon angående din verdikupong:</p>
+<ul>
+<li><strong>Ukash Verdikupong Nummer</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Ukash Verdikupong Beløp</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>Ukash Verdikupong Utløpsdato</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>Hvis du har spørsmål i forbindelse med din verdikupong, vennligst ta kontakt med <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] teamet</p>
+

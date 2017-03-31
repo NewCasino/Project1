@@ -1,0 +1,1 @@
+﻿Casinospel - Teoretisk vinståterbetalning

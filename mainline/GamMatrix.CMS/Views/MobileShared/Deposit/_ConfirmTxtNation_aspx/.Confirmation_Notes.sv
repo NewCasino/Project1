@@ -1,0 +1,1 @@
+﻿Vänligen notera att din betalning kommer att behandlas av EveryMatrix Ltd, betalningsoperatör av [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] webbsida. Du kommer att se EveryMatrix på ditt bankutdrag.

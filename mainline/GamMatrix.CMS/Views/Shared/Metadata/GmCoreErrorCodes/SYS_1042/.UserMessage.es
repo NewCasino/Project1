@@ -1,0 +1,1 @@
+﻿El estado del lote no ha cambiado

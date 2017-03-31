@@ -1,0 +1,4 @@
+﻿<p><span style="font-family: Arial; font-size: 10pt;">Fast Bank Transfer nabízí specializované bankovní služby ve vybraných oblastech. Servis je poskytován Envoy Services, jedním z evropských nejlepších poskytovatelů online a offline plateb. 
+ Fast Bank Transfer umožní vložit prostředky na váš účet za ižší cenu, než je bežný mezinárodní převod, často zcela zdarma a vždy bezpečně. span><br /> <br /> <span style="font-family: Arial; font-size: 10pt;">
+Převody jsou provedeny pomocí místního převodu a odečteny z vašeho herního účtu velice rychle.&nbsp;&nbsp; Vše záleží na vaší zemi a rzchlosti vyúčtování místní banky, některé platby tak mohou probíhat téměř ve skutečném čase, nicméně mohou trvat mezi 1 hodinou a 3 dny. span><br /> <br /> <span style="font-family: Arial; font-size: 10pt;"><span style="font-weight: bold;"></span></span><span style="font-family: Arial; font-size: 10pt;"><br /></span></p>¨
+

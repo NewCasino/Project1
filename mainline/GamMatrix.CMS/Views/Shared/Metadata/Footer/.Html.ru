@@ -1,0 +1,12 @@
+﻿<table cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td align="center">[Metadata:value(.Links)]</td>
+    </tr>
+ <tr>
+    <td align="center"><div class="footerIcon">[Metadata:value(.Image)]</div></td>
+    </tr>
+    
+    <tr>
+    <td align="center"><div class="copyright">[Metadata:value(.CopyRight)]</div></td>
+    </tr>
+</table>

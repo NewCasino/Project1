@@ -1,0 +1,1 @@
+﻿Váš požadavek nemůže být dokončen. Převody prostředků z vaší země nejsou k dispozici.

@@ -1,0 +1,1 @@
+﻿{0:N2} {1} została cofnięta na Twoje {2} konto.

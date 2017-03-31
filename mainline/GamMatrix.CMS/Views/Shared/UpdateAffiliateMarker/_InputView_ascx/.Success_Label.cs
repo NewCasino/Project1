@@ -1,0 +1,1 @@
+﻿AffiliateMarker ije úspěšně aktualizován!

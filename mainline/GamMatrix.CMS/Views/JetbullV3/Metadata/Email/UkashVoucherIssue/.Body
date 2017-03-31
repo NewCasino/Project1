@@ -1,0 +1,11 @@
+﻿Dear $FIRSTNAME$,<br /><br />
+Account username: $USERNAME$<br /><br />
+<p>Your payout for $VOUCHERAMOUNT$ has been processed. Below is the information regarding your voucher:</p>
+<ul>
+     <li><strong>Ukash Voucher Number</strong>:$VOUCHERNUMBER$ </li>
+     <li><strong>Ukash Voucher Amount</strong>:$VOUCHERAMOUNT$ </li>
+     <li><strong>Ukash Voucher Use by date</strong>:$VOUCHEREXPIRYDATE$ </li>
+</ul>
+<p>If you have any question regarding this withdrawal, please do not hesitate to contact customer support.</p>
+<p>Kind Regards,</p> 
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Service Team</p>

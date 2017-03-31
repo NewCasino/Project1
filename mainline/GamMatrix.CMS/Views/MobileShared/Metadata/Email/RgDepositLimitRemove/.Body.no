@@ -1,0 +1,1 @@
+<p>Kjære $USERNAME$<br /><br />Takk for at du tok kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />Denne e-posten er en bekreftelse på at din innskudds grense $LIMITAMOUNT$ $LIMITPERIOD$ vil bli fjernet $LIMITEXPIRYDATE$. <br /><p> </p><p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte</p>

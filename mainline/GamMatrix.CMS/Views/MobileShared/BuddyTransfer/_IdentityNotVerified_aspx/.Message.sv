@@ -1,0 +1,1 @@
+﻿Din identitet måste verifieras innan du kan göra en överföring.

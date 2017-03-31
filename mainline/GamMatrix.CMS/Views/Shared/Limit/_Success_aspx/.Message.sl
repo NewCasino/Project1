@@ -1,0 +1,1 @@
+Postopek je bil uspešno dokončan.

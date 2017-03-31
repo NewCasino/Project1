@@ -1,0 +1,1 @@
+Har du frågor gällande din insättning, kontakta kundtjänsten och ange transaktions-ID-numret.

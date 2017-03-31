@@ -1,0 +1,1 @@
+Številka vašega mobilnega telefona je že registrirana.

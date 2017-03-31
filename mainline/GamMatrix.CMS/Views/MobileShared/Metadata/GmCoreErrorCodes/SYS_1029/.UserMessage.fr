@@ -1,0 +1,1 @@
+﻿L'utilisateur n'est pas affecté au rôle de '{0}'

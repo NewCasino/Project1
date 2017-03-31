@@ -1,0 +1,1 @@
+﻿Il y avait un problème avec votre identifiant, votre Secure ID, ou le montant que vous avez inscrits. Vous ne devez saisir des chiffres dans l'ID du compte, Secure ID, et les champs de montant. S'il vous plaît essayez de nouveau.

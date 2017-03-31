@@ -1,0 +1,69 @@
+﻿#container .content{ background-color:#0c1622;} 
+#footer{ background-color:#000; }
+#poker-wrapper { padding:0px 0px 20px 0px;width:1000px;margin:0 auto;}
+/**********slieder items**********/
+#poker-wrapper .imageslider-wrapper{ position:relative; padding:3px 5px; height:260px;width:745px; margin-bottom:10px;}
+#poker-wrapper #imageslide-holder{ position:relative;height:260px;width:745px; float:left;}
+#poker-wrapper #imageslide-holder div{ position:absolute;top:0;left:0;z-index:3;height:260px;width:745px; overflow:hidden; }
+#poker-wrapper #imageslide-holder div.current{ z-index:5;}
+#poker-wrapper #imageslide-holder div.prev{ z-index:4;}
+#poker-wrapper #imageslide-holder div img{ display:block;border:0; width:745px;}
+#poker-wrapper #imageslide-holder div span{ display:none;position:absolute;bottom:0;left:0;height:50px;line-height:50px;background:#000;color:#fff;width:100%;}
+/**********slider control**********/
+#poker-wrapper{}
+#poker-wrapper #slidecontrols{ z-index:10; position:relative; float:right; list-style-type:none; margin:-30px 30px 0 0; *margin:-28px  30px 0 0;}
+#poker-wrapper #slidecontrols li{ float:left; margin-right:1px;}
+#poker-wrapper #slidecontrols a { display:block; padding:16px 0px 0px 18px;text-align:center;color:#fff;float:left;height:0px;line-height:18px;text-decoration:none; background:url(//cdn.everymatrix.com/Jetbull/_files/home/jetbullslider.png) -308px -598px; width:0px; overflow:hidden; }
+#poker-wrapper #slidecontrols li.current a{background:url(//cdn.everymatrix.com/Jetbull/_files/home/jetbullslider.png) -308px -581px; color:#000}
+#poker-wrapper .slideimgloading{ position:absolute; top:90px; left:300px;}
+#poker-wrapper .mainPanel{ width:745px; float:left;}
+#poker-wrapper .halfPanel{ width:50%; *width:49.5%; float:left; background:url("//cdn.everymatrix.com/Jetbull/_files/poker/poker-bg.png") no-repeat   left top transparent; height:312px; overflow:hidden; text-align:center;}
+#poker-wrapper .halfPanel.Bonus img{ margin-top:10px;}
+#poker-wrapper .halfPanel.Bonus{ *width:49.5%; *background-position:-2px 0px;}
+#poker-wrapper .halfPanel.Tournaments{ background-position:2px; *width:50%;}
+#poker-wrapper .pokertitle{ font-family:helvetica; font-size:22px; font-weight:700; color:#fff; font-style:italic; padding-left:20px; padding-top:10px; text-align:left; }
+#poker-wrapper .pokertitle span{ color:#0192CE; font-size:14px;}
+#poker-wrapper .PokerTournaments{}
+#poker-wrapper .PokerTournaments ul{ list-style:none; padding:0; margin:0;}
+#poker-wrapper .PokerTournaments ul li{ list-style:none; padding:0; margin:0; display:block; height:30px; line-height:30px; text-align:left; margin-left:20px; width:340px; padding-left:4px; position:relative; font-size:11px; *height:27px;}
+#poker-wrapper .PokerTournaments ul li .Time{ display:block; height:30px;*height:27px; overflow:hidden; width:70px; position:absolute; top:0px; left:5px;}
+#poker-wrapper .PokerTournaments ul li .Name{ display:block; height:30px;*height:27px; overflow:hidden; width:212px; position:absolute; top:0px; left:75px;}
+#poker-wrapper .PokerTournaments ul li.Even{ background-color:#002E54}
+#poker-wrapper .PokerTournaments ul li:hover{ background-color:#37608b}
+#poker-wrapper .PokerMoreTournaments{ clear:both;}
+#poker-wrapper .PokerMoreTournaments a{ display:block; background:url(//cdn.everymatrix.com/Jetbull/_files/poker/poker-bg.png) no-repeat -451px -163px; width:219px; height:21px; overflow:hidden; line-height:20px; margin:0 auto; color:#555;}
+#poker-wrapper .PokerMoreTournaments a:hover{ color:red;}
+#poker-wrapper .rightPanel{ width:236px; float:right;}
+#poker-banner1{ }
+#poker-cakePokerDownload { margin-top:10px;overflow:hidden;  text-align:right; }
+#poker-cakePokerDownload a{ display:block; padding-right:20px; height:59px; line-height:59px; background:url("//cdn.everymatrix.com/Jetbull/_files/poker/poker-bg.png") no-repeat    -437px -102px  transparent; font-size:22px; color:#fff;}
+#poker-banner2{margin-top:10px;}
+#poker-onlineNum{ margin-top:10px;height:102px;  background:url("//cdn.everymatrix.com/Jetbull/_files/poker/poker-bg.png") no-repeat  right top  transparent;}
+#poker-onlineNum .pokertitle{ text-align:left; font-size:16px; color:#0192ce; text-transform:uppercase;}
+.pokerCount{ line-height:36px; text-align:center; margin-top:10px; font-size:24px; color:#fff; font-weight:900;}
+#cake-tournament-list{}
+#pnCakePokerTournamentList{}
+#cake-poker-tournament-list{}
+#cake-poker-tournament-list{width:98%;margin:0 auto; margin-top:15px; padding-bottom:20px;}
+#cake-poker-tournament-list .tournaments { margin:0; padding:0;  border:1px solid #333; background:url("//cdn.everymatrix.com/Jetbull/_files/poker/bg-lighten-top.png") repeat-x scroll left top #DDDDDD ;}
+#cake-poker-tournament-list .tournaments .inputfield{ background-color: transparent;}
+#cake-poker-tournament-list .tournaments .tabbody_Bottom { clear:both;width:100%;height:6px;position:relative; } 
+#cake-poker-tournament-list .tournaments ul{list-style:none; padding:0; margin:0; }
+#cake-poker-tournament-list .tournaments li{ list-style:none; padding:0; margin:0; background-color:#333; height:60px; clear:both; position:relative; *margin-top:-3px;  }
+#cake-poker-tournament-list .tournaments li span{ display:block; position:absolute;}
+#cake-poker-tournament-list .tournaments li .name{ height:60px; top:20px;  left:0px; vertical-align:middle;  width:40%; line-height:20px;  text-align:center; font-size:1.3em;   font-family:  "KO","Helvetica Neue",Helvetica,Arial,"Nimbus Sans L","Liberation Sans",FreeSans,clean,sans-serif; font-weight:900; }
+#cake-poker-tournament-list .tournaments li .gametype{ left:40%; top:20px;line-height:20px;  width:8%; text-align:center; white-space:nowrap }
+#cake-poker-tournament-list .tournaments li .maxrebuy{ display:none;}
+#cake-poker-tournament-list .tournaments li .prize{ display:none;/* left:40%;  line-height:60px;  width:10%; text-align:right;*/}
+#cake-poker-tournament-list .tournaments li .buyin{ left:48%;   line-height:60px;  width:8%; text-align:right;}
+#cake-poker-tournament-list .tournaments li .entryfee{ left:56%; top:0px; line-height:60px;  width:8%; text-align:center; text-align:right;}
+#cake-poker-tournament-list .tournaments li .limittype{ left:66%;line-height:60px;  width:8%; text-align:center;}
+#cake-poker-tournament-list .tournaments li .starttime{ left:74%; top:0px; line-height:60px;  width:12%;text-align:center;}
+#cake-poker-tournament-list .tournaments li .registrationtime{ display:none;/* left:70%; top:0px;line-height:60px;  width:20%; height:30px;text-align:center;*/}
+#cake-poker-tournament-list .tournaments li .prize_pool{left:85%; top:0px; line-height:60px;  width:8%;text-align:right;}
+#cake-poker-tournament-list .tournaments li .entrants{ left:94%;   font-style:italic; font-weight:800; width:6%;line-height:60px;  height:30px; text-align:center;}
+#cake-poker-tournament-list .tournaments li.header{font-size:16px;   font-family:  "KO","Helvetica Neue",Helvetica,Arial,"Nimbus Sans L","Liberation Sans",FreeSans,clean,sans-serif; font-weight:900; color:#fff; background-color:#333; font-style:italic;}
+#cake-poker-tournament-list .tournaments li.header .entrants{ font-size:14px; }
+#cake-poker-tournament-list .tournaments li.header .name{ line-height:60px; top:0px;}
+#cake-poker-tournament-list .tournaments li.footer{ display:none;}
+#cake-poker-tournament-list .tournaments li.odd{ background : #272727;} 

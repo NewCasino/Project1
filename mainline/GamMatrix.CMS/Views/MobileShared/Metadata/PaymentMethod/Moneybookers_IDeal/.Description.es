@@ -1,0 +1,1 @@
+﻿&nbsp;iDeal by Moneybookers es compatible con los principales bancos holandeses para realizar depósitos rápidos.&nbsp;iDeal garantiza pagos online sencillos y seguros.

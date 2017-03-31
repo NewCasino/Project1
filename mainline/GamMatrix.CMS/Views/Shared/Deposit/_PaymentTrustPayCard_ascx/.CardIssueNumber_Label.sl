@@ -1,0 +1,1 @@
+Številka izdaje kartice

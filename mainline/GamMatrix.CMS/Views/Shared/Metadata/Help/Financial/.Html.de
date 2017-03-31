@@ -1,0 +1,86 @@
+﻿<ol>
+
+ <li> <strong>Wie kann ich die Einzahlungen auf und die Auszahlungen von meinem Spielerkonto  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] auf meinen Kontoauszügen und Kreditkartenabrechnungen identifizieren?</strong> 
+ <p>
+ Alle Ein- und Auszahlungen, die auf Ihren Kontoauszügen oder Kreditkartenabrechnungen aufgeführt werden, sind jeweils von einer Beschreibung begleitet, in der [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] erwähnt wird. Dies macht es Ihnen möglich, Ihre Einzahlungen auf Ihr Konto auf dieser Website und Ihre Auszahlungen von diesem Konto nachzuverfolgen. 
+ </p>
+ </li>
+
+ <li> <strong>Kann ich mehr als eine Zahlungsmethode nutzen?hod?</strong>
+ <p>
+ Ja, das steht Ihnen frei. Möglicherweise benötigen wir für neue Zahlungsmethoden jedoch bestimmte Unterlagen.thods.
+ </p>
+ </li>
+
+ <li>
+ <strong>Akzeptieren Sie Kredit-/Debitkarten aus meinem Land?</strong>
+ <p>
+ Wir akzeptieren Kredit-/Debitkarten aus allen Ländern, mit folgenden Ausnahmen: USA, Türkei, Frankreich, Großbritannien und Spanien.rance.
+ </p>
+ </li>
+
+ <li>
+ <strong>Warum akzeptiert Ihre Website meine Kredit-/Debitkarte nicht?</strong>
+ <p>
+ Manche Ausgabestellen von Kredit-/Debitkarten verbieten in ihren Richtlinien direkte Einzahlungen auf Websites mit Online-Spielen. Bitte wenden Sie sich an Ihren Kartenanbieter, um dieses Problem zu besprechen. Stattdessen können Sie auch eine der Einzahlungsmethoden mit „elektronischen Geldbörsen“ (E-Wallets) wählen. Für eine weitere Unterstützung wenden Sie sich bitte an den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundenservice.
+ </p>
+ </li>
+
+ <li>
+ <strong>Was mache ich, wenn meine Einzahlung per Kredit-/Debitkarte abgelehnt oder zurückgewiesen wird?jected?</strong>
+ <p>
+ Manchmal kann es zu Problemen führen, wenn Sie eine zweite Einzahlung vorzunehmen versuchen, noch bevor die erste Einzahlung erfolgreich abgeschlossen wurde. Dies kann daran liegen, dass diese 2. Einzahlung zur Überschreitung Ihres täglichen oder wöchentlichen Einzahlungslimits führen würde. Die häufigste Ursache dafür sind Fehler beim Ausfüllen der Formularfelder. Bitte kontaktieren Sie den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundenservice, damit das Problem behoben wird. Manche Ausgabestellen von Kredit-/Debitkarten verbieten in ihren Richtlinien auch direkte Einzahlungen auf Websites mit Online-Spielen. Bitte wenden Sie sich an Ihren Kartenanbieter, um dieses Problem zu besprechen. Stattdessen können Sie auch eine der Einzahlungsmethoden mit „elektronischen Geldbörsen“ (E-Wallets) wählen.
+ </p>
+ </li>
+
+ <li>
+ <strong>Kann ich meine Kredit-/Debitkarte nutzen, um eine Einzahlung auf das Spielerkonto eines Freundes vorzunehmen?</strong>
+ <p>
+ Nein, dies ist nicht möglich. Es wird als Drittpartei-Transaktion betrachtet und ist unter keinen Umständen erlaubt.
+ </p>
+ </li>
+
+ <li>
+ <strong>Ich habe aus Versehen eine Einzahlung von der falschen Kredit-/Debitkarte aus veranlasst. Kann ich das irgendwie wieder in Ordnung bringen? can do?</strong> 
+ <p>
+ Bitte wenden Sie sich an denntact [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundenservice untert
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ </p>
+ </li>
+
+ <li>
+ <strong>Kann ich mein Geld zwischen verschiedenen Konten überweisen? tween accounts?</strong>
+ <p>
+ Sie können kein Geld von einem persönlichen Konto auf ein anderes überweisen. Sie können jedoch innerhalb eines persönlichen Kontos Geld zwischen den Bereichen Casino, Sportwetten und Poker überweisen.
+ </p>
+ </li>
+
+ <li>
+ <strong>Was ist eine IBAN?n IBAN?</strong>
+ <p>
+ IBAN ist die Abkürzung für „International Bank Account Number“ (internationale Kontonummer). Die IBAN wird bei internationalen Banküberweisungen eingesetzt. Sie erleichtert die Auszahlung Ihrer Gewinne..
+ </p>
+ </li>
+
+ <li>
+ <strong>Was ist CVC2? code?</strong>
+ <p>
+ CVC2 ist die Abkürzung für „Card Verification Code“ (Kartenverifizierungs-Code). Dieser Code muss aus Sicherheitsgründen angegeben werden, wenn Sie telefonisch einen internationalen Kauf abschließen oder Online-Zahlungen per Kreditkarte vornehmen. Dieser Code besteht aus drei Ziffern und befindet sich auf der Rückseite Ihrer Kreditkarte.
+ </p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Drucken</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

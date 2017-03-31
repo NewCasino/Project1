@@ -1,0 +1,1 @@
+Numer tureckiego dokumentu tożsamości odbiorcy

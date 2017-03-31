@@ -1,0 +1,1 @@
+Splošna vprašanja o kazinu

@@ -1,0 +1,2 @@
+﻿Měna nemůže být prázdná
+

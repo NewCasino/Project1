@@ -1,0 +1,1 @@
+﻿Minimal poäng att hämta:

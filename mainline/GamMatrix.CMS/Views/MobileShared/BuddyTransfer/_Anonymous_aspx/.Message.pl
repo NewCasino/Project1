@@ -1,0 +1,1 @@
+﻿Aby przelać pieniądze, należy się zalogować.

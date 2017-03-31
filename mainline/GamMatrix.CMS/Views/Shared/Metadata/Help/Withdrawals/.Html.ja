@@ -1,0 +1,111 @@
+<ol>
+
+	<li> <strong>自分のウェブサイトアカウントからどのように出金すればよいのですか？</strong>
+		<p>
+			弊社のシステムで認証され必須条件さえクリアしていればいつでもお引き出し申請が可能です。また、幾度でもお引き出しは可能ですが[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]が資金洗浄や詐欺防止法に準拠する為、自分の [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]&nbsp;アカウントからご入金後２４時間はお引き出しが出来ません。&nbsp; 最低お引き出し額は１０ユーロです。
+		</p>
+	</li>
+
+	<li> <strong>お引き出し限度額はございますか？</strong>
+		<p>
+			最低お引き出し額は€10.00若しくは現地換算額。最高お引き出し額は一日€5000若しくは現地換算額です。
+		</p>
+	</li>
+
+	<li>
+		<strong>お引き出し請求をキャンセルする事は可能ですか？</strong>
+		<p>
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]カスタマーサービスへ連絡しお引き出しが処理されていなけらば取り消す事が可能です。
+		</p>
+	</li>
+
+	<li>
+		<strong>自分の勝ち金をクレジット・デビットカードへ払い戻す事は可能ですか？</strong>
+		<p>
+			ご入金の際に使用したカードと同じであれば可能であり、そのカードへご出金可能です。
+		</p>
+	</li>
+
+	<li>
+		<strong>自分のクレジット・デビットカードでご入金しましたが、その他のお支払い手段はございますか？strong> 
+		<p>
+			はい、可能ですがお客様の必要書類と支払い方法の詳細が必要です。
+		</p>
+	</li>
+
+	<li>
+		<strong>どうして自分好みのお引き出し方法を選べないのですか？</strong>
+		<p>
+			これは弊社が厳守している資金洗浄法に基づき、お客様と弊社とのお取引に対しセキュリティを設ける為で、
+承認されない限り、全ての資金はご入金方法と同じ方法で戻さなければなりません。
+		</p>
+	</li>
+
+	<li>
+		<strong>お引き出し手数料はかかりますか？&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> 
+		<p>
+			お引き出し手数料は選択されたご出金方法により異なります。ここをクリックして下さい'
+			<a href="/deposit">お支払い方法</a>
+			 手数料情報について、銀行がサービス費用を請求するかもしれない点にご注意ください。
+		</p>
+	</li>
+
+	<li>
+		<strong>お引き出し処理はどの位時間がかかりますか？</strong>
+		<p>
+			選択されたお引き出し方法により異なります。ここをクリックし「
+			<a href="/deposit">お支払い方法</a>
+			」全てのご利用可能なお引き出し方法と処理時間をご確認ください。
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			どうして入金が即座なのに対してカードへの出金は何日もかかるのですか？
+		</strong>
+		<p>
+			ご出金が[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]から出る際に弊社側で幾つかの制御と確認を行い約１２時間かかります。これらの確認はお客様の資金のセキュリティーを維持する為に弊社側で遂行しております。
+その他の遅れは決済提供者により課せられた制限によるものです。
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			出金に使っている自分のカードの有効期限が切れたりキャンセルされた場合はどうなるのですか？
+		</strong>
+		<p>
+			カードの変更について有効期限切れ、変更理由等をご連絡頂く必要があります。&nbsp; 新しいカードについては弊社とお客様の[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]アカウントに登録されなければなりません。
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			自分のアカウントから出金し他の人に送る事は可能ですか？
+		</strong>
+		<p>
+			いいえ、それは第三者のお取引とみなされる為どんな状況下でも許されません。
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] お引き出し方針とは何ですか？
+		</strong>
+		<p>
+			お客様のアカウントが有効で、お引き出しに最低限必要な金額がなければなりません。[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]プロモーションに参加しているプレーヤーに関しては幾つかの制限が適用される場合があります。
+		</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

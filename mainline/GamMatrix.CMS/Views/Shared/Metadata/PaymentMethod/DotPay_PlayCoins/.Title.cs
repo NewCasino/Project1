@@ -1,0 +1,1 @@
+﻿Herní mince (od Dotpay)

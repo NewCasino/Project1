@@ -1,0 +1,1 @@
+﻿({0} total de ganancias al momento)

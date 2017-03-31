@@ -1,0 +1,1 @@
+﻿Prosím zaškrtněte toto tlačítko

@@ -1,0 +1,1 @@
+Dostopate z mobilne naprave; ali želite preklopiti v različico za mobilne naprave?

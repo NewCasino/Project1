@@ -1,0 +1,105 @@
+﻿<ol>
+	<li> <strong>Eu esqueci meu nome de usuário e senha, o que devo fazer?</strong>
+		<p>
+			Inserção de uma senha incorreta muitas vezes pode resultar em um erro de "incapaz de validar a senha". Como as senhas são sensíveis , verifique se a tecla Caps Lock está desativada. Se os seus problemas persistirem, selecione o botão "esqueci minha senha" e uma nova senha será enviada para o endereço de e -mail, conforme listado em sua [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] conta.
+		</p>
+	</li>
+
+	<li> <strong>Quem devo contatar se tiver perguntas sobre a minha conta?</strong>
+		<p>
+			Entre em contato com [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Atendimento ao Cliente
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>O que eu faço se eu não quiser mais usar minha conta?</strong>
+		<p>
+			Para fechar a conta, por favor envie um e-mail [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Apoio ao Cliente no
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Como faço para alterar minha senha?</strong>
+		<p>
+			Você pode alterar sua senha usando o 
+			<a href="/ForgotPassword" target="_blank">link</a>
+			de senha esquecida no topo de todas as páginas [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] páginas.
+		</p>
+	</li>
+
+	<li>
+		<strong>Como posso mudar o meu endereço de e-mail cadastrado?</strong>
+		<p>
+			Neste momento, você não pode, pessoalmente, alterar o seu endereço de e-mail , mas se você pode mostrar uma boa razão para a mudança de endereço de e-mail, por favor, entre em contato com [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Suporte ao Cliente para quaisquer alterações aos detalhes da sua conta. Entre em contato com			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Existe alguma maneira eu posso verificar a minha actividade conta?</strong>
+		<p>
+			Você pode verificar sua atividade da conta, para isso, vá em "Minha Conta" depois de ter logado, ou você pode entrar em contato [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Suporte ao Cliente para qualquer informação.
+		</p>
+	</li>
+
+	<li>
+		<strong>É possível mudar o meu nome de usuário?</strong>
+		<p>
+			Você não pode mudar o seu nome de usuário depois de ter criado a sua [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Conta. Isto é para fins de segurança, já que a mudança do nome do usuário pode atrapalhar os dados do sistema e emite alertas de segurança.		</p>
+	</li>
+
+	<li>
+		<strong>Quem posso consultar se eu acho que tenho um problema de vício em jogo?</strong> 
+		<p>
+			Participar em jogos online é emocionante, divertido e potencialmente lucrativo para aqueles que jogam. No entanto, [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] está ciente da possibilidade de abuso de jogo e as repercussões que podem ter sobre um indivíduo. Devido a isso, [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] toma todas as precauções para garantir que nossos produtos e serviços são utilizados apenas por aqueles que têm o direito legal de fazê-lo. Sob nenhuma circunstância alguma os jogadores autorizados podem jogar por dinheiro real a menos que satisfaçam o requisito mínimo de idade de 18 anos ou a idade legal padrão para participar de jogos on-line no país de sua residência.
+		</p>
+	</li>
+
+	<li>
+		<strong>O que acontece após o meu período de auto-suspensão acabar?</strong>
+		<p>
+			Uma vez que o limite de tempo que você selecionou para a auto-suspensão você pode entrar em contato [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Atendimento ao Cliente para abrir sua conta.
+		</p>
+	</li>
+
+	<li>
+		<strong>Como posso me auto-suspender?</strong>
+		<p>
+			Você pode se auto-suspender entrando na sua [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] conta, lá você verá a aba de auto-suspensão, quando você clicar o botão "Bloquear minha conta", você será automaticamente deslogado do [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] site. O login só será possível após o período que você selecionou expirar.
+		</p>
+	</li>
+
+	<li>
+		<strong>Posso cancelar o mesmo?</strong>
+		<p>
+			Você não pode abrir sua conta até que o período de auto-suspensão esteja completo.
+		</p>
+	</li>
+
+	<li>
+		<strong>Eu não estou recebendo uma resposta às minhas perguntas, quando envio um e-mail para o departamento de Suporte?</strong> 
+		<p>
+			Nosso objetivo é responder a todos os e-mails do serviço ao cliente dentro de 24 horas. Como alguns exigem mais detalhes e investigação de um problema, o tempo de resposta pode variar de acordo com a natureza da sua pergunta. Você receberá uma confirmação por e-mail a partir de [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] quando nós recebemos sua pergunta, para que você saiba que estamos trabalhando em uma resposta. Se você achar que você não está recebendo a confirmação por e-mail imediatamente após a apresentação de sua pergunta, sugerimos que você dê uma olhada na sua pasta de Lixo Eletrônico. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] não se envolve no ato de envio de correio eletrônico não solicitado no entanto, alguns filtros de correio agressivos podem identificar erroneamente nossos e-mails como spam e tratá-los como tal.
+		</p>
+	</li>
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Imprimir</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>
+

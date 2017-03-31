@@ -1,0 +1,6 @@
+﻿.confirmation_table .highlighted td.name,
+.confirmation_table .highlighted td.value{background-color:yellow;}
+.confirmation_table .progress td.value{padding:0;}
+.confirmation_table .progress td.value div{background-color:green;padding: 5px 0;}
+.confirmation_table .progress td.value div.progress-text{background-color:transparent;min-width:70px;text-align:center;}
+.column_button form{ display: inline-block }

@@ -1,0 +1,5 @@
+﻿.deposit-table tbody tr td.col-2{width:41%;}
+.deposit-table thead tr th.col-3{text-align:center;width:80px;}
+.deposit-table thead tr th.col-4{text-align:center;}
+.withdraw-table tbody tr td.col-2{width:41%;}
+.withdraw-table thead tr th.col-3{text-align:center;}

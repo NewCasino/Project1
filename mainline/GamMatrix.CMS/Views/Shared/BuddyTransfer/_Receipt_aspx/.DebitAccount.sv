@@ -1,0 +1,1 @@
+﻿Överföring från dittr {0} konto

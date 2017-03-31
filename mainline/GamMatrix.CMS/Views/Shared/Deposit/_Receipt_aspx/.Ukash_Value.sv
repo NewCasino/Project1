@@ -1,0 +1,1 @@
+Kort-värde

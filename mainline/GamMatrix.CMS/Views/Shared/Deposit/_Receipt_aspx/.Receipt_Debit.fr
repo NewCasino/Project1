@@ -1,0 +1,1 @@
+﻿Montant débité de votre compte {0}

@@ -1,0 +1,1 @@
+﻿Napište znaky z obrázku.

@@ -1,0 +1,1 @@
+﻿Het Account ID dat u heeft opgegeven is ongeldig of uw account accepteerd geen betalingen.

@@ -1,0 +1,1 @@
+Ange ett telefonnummer med 7 till 30 siffror

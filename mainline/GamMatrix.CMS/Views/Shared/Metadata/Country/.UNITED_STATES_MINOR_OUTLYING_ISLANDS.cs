@@ -1,0 +1,1 @@
+﻿Spojené státy Menší odlehlé ostrovy

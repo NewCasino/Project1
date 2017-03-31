@@ -1,0 +1,1 @@
+Zauważyliśmy, że nie skonfigurowałeś limitu finansowego na swoim koncie. Zalecamy jego założenie tutaj <a href="{0}">link</a>. Jeśli nie chcesz ustalać jakichkolwiek limitów, kliknij przycisk zamknij.

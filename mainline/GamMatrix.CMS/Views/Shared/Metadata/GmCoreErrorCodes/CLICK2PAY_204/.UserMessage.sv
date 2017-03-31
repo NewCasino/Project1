@@ -1,0 +1,1 @@
+﻿There is a problem with your CLICK2PAY account. For further assistance, please contact the customer service at service@click2pay.com.

@@ -1,0 +1,1 @@
+Wpisz numer swojego konta bankowego.

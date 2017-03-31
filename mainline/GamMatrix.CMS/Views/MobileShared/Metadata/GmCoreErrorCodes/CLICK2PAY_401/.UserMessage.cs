@@ -1,0 +1,1 @@
+﻿Částka transakce je vyšší než stav účtu.

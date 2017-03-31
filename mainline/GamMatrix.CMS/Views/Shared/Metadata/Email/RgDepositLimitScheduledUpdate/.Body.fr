@@ -1,0 +1,11 @@
+﻿<p>Bonjour $USERNAME$, <br />
+<br />
+Merci d’avoir contacté [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+Cet email est pour confirmer que vous avez changé&#160; votre limite personnelle de dépôt&#160;de $LIMITAMOUNT$ $LIMITPERIOD$ à $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. La nouvelle limite sera activée &#160;le $LIMITEXPIRYDATE$. <br />
+<br />
+N’hésitez pas à nous contacter si vous avez des questions à <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br />
+Cordialement </p>
+<p> Service Clientèle [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>
+

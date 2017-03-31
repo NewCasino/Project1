@@ -1,0 +1,1 @@
+﻿Změna domény nebyla provedena

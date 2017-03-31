@@ -1,0 +1,1 @@
+Ta gra nie jest dostępna w trybie Graj dla zabawy bez logowania!

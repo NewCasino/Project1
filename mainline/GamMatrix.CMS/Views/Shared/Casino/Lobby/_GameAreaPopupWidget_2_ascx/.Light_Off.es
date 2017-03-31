@@ -1,0 +1,1 @@
+﻿Encender el fondo

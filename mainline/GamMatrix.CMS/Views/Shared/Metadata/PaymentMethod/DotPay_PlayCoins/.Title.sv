@@ -1,0 +1,1 @@
+﻿Spelpengar (av Dotpay)

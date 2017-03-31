@@ -1,0 +1,1 @@
+﻿Byla požadována částka vyšší než jsou prostředky na vašem účtě. Prosím přihlašte se do svého NETELLER účtu a ověřte si svoje prostředky. V případě jakýchkoli otázek volejte NETELLER zákaznickou podporu.

@@ -1,0 +1,9 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p>Ukash kartınızın bir kısmını sitemizde kullandınız. Para üstü olarak Ukash kartınızın kullanılmayan kısmı için oluşturulmuş yeni Ukash kart bilgileriniz aşağıdaki gibidir : </p>
+<ul>
+<li><strong>Ukash Kart Numarası</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Ukash Kart Değeri</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>Ukash Kart Geçerlilik Süresi</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p> Lütfen herhangi bir probleminizde müşteri hizmetlerimize başvurunuz. <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> .</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>

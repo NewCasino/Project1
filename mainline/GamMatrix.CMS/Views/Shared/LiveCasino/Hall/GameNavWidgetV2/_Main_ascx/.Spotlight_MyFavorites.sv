@@ -1,0 +1,1 @@
+Den här kategorin innehåller dina favoritspel.

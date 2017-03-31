@@ -1,0 +1,1 @@
+﻿Click2Pay je e-peněženkovou službou. Click2Pay umožňuje zákazníkům vložit a vybarat prostředky z&nbsp;z online Click2Pay účtu na&nbsp;jejich hráčský účet. Platební metoda je zcela bezpečná a umožňuje okamžité převedení prostředků na hráčský účet. Klikněte&nbsp;<a href="http://www.click2pay.com/">zde</a> a otevřete si Click2Pay účet nyní.&nbsp;

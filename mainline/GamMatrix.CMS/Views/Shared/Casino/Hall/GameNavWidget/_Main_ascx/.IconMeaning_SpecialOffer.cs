@@ -1,0 +1,2 @@
+﻿vysoký poměr vydělávání bodů
+

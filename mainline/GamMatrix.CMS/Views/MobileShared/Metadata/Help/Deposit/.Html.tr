@@ -1,0 +1,43 @@
+﻿
+<ol>
+     <li><strong>Hesabıma nasıl para yatırabilirimt?</strong>
+     <p>Hesabım linkine ve sonra sol men&#252;de yer alan para yatırma butonunu tıklayınız. İstediğiniz &#246;deme y&#246;ntemini se&#231;erek para yatırabilirsiniz.</p>
+     </li>
+     <li><strong>&#214;deme işlemimin onaylanması ne kadar s&#252;rer?</strong>
+     <p>Para yatırmınız hesabınıza kısa bir s&#252;re i&#231;inde aktarılır. <br />
+     </p>
+     </li>
+     <li><strong>Hangi &#246;deme y&#246;ntemlerini kullanabilirim?</strong>
+     <p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da &#252;st men&#252;de yer alan Para Yatırma butonunu tıklayarak mevcut &#246;deme y&#246;ntemlerini g&#246;rebilirsiniz. Ayrıntılı bilgi i&#231;in canlı destek hattımıza bağlanabilirsiniz.<br />
+     </p>
+     </li>
+     <li><strong>Hangi kredi/debit kartları kabul edilir?</strong>
+     <p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] para yatırma işlemlerinde t&#252;m Visa ve Mastercard/maestro kredi ve debit &nbsp;kartları kabul eder. Ancak Mastercard/Maestro ile yapılan para &#231;ekme işlemlerinde bazı kısıtlamalar mevcuttur.</p>
+     </li>
+     <li><strong>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] hesabıma para yatırırken herhangi bir &#252;cret &#246;deyecek miyim?</strong>
+     <p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] hesabınıza para yatırma işlemleri i&#231;in ek &#252;cret alınmaz.</p>
+     </li>
+     <li><strong>Bir defada en az/en fazla para yatırma miktarı nedir?</strong>
+     <p>Bir defada en az &nbsp;&#8364;10 veya&nbsp; para biriminizdeki karşılığını yatırabilirsiniz.Para yatırma &#252;st limitimiz yoktur.<br />
+     </p>
+     </li>
+     <li><strong>Kendime g&#252;nl&#252;k, haftalık ve aylık para&nbsp; yatırma limitleri koyabilir miyim?</strong>
+     <p>Kendinize g&#252;nl&#252;k, haftalık ve aylık para&nbsp; yatırma limitleri &nbsp;koyabilirsiniz. &#8216;Hesabım&#8217; sayfanızda &#8217;Hesap Kontrol&#252;-Para Yatırma Limiti&#8217; b&#246;l&#252;m&#252;nden limitleri istediğiniz zaman istediğiniz gibi ayarlayabilirsiniz.</p>
+     </li>
+     <li><strong>Banka hesabımdan nasıl para yatırabilirim?</strong>
+     <p>&#8216;Hesabım&#8217; b&#246;l&#252;m&#252;nden &#8216;Para Yatırma&#8217; butonuna tıkladıktan sonra Banka transferini se&#231;in ve ekrana gelen talimatları izleyerek işleminizi tamamlayınız.</p>
+     </li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+

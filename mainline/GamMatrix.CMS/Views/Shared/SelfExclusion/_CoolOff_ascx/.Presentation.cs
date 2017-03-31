@@ -1,0 +1,1 @@
+﻿Pokud chcete omezit své hraní a zmrazit účet, jsou vám k dispozici následující možnosti k jeho deaktivaci. Prosím vemte na vědomí, že jsou všechny tyto možnosti řechodné. Také prosím vyberte jeden z důvodů níže, abyste nám pomohli zlepšovat hratelnost a náš servis.

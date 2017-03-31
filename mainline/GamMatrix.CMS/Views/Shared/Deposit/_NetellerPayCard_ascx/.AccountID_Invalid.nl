@@ -1,0 +1,1 @@
+﻿Uw Account ID moet minstens 12 karakters lang zijn

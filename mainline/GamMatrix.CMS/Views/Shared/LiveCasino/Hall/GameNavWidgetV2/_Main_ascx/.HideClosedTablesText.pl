@@ -1,0 +1,1 @@
+Ukryj zamknięte stoły

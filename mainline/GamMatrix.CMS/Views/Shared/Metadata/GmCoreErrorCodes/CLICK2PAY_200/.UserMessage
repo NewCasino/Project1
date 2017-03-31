@@ -1,0 +1,1 @@
+﻿You have provided invalid CLICK2PAY user data. Please check and try again. If the problem persists, please contact the customer service at service@click2pay.com.

@@ -1,0 +1,1 @@
+Hasło musi posiadać litery i cyfry.

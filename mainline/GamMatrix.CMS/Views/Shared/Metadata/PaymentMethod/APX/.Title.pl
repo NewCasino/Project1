@@ -1,0 +1,1 @@
+Alternatywna wymiana płatności

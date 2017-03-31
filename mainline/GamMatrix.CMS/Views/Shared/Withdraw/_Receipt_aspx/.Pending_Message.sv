@@ -1,0 +1,1 @@
+Uttaget kommer att behandlas så snart som möjligt.

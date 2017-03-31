@@ -1,0 +1,28 @@
+﻿<# var data = arguments[0]; #>
+<# for( var i = 0; i < data.length; i++) { #>
+<div class="CatSlider Cat-<#= data[i].ID.htmlEncode() #>">
+
+    <h3 class="AdditionalTitle">
+    <span class="CatIcon">&para;</span>
+    <span class="CatText"><#= data[i].Name.htmlEncode() #></span>
+    </h3>
+    
+    <div class="Slider" data-categoryid="<#= data[i].ID.htmlEncode() #>">
+    <ul class="SliderControls">
+    <li class="SCArrows SCPrev">
+    <a class="SCLink PrevLink" href="#">
+    <span class="SIcon">&#8249;</span>
+    </a>
+    </li>
+    <li class="SCArrows SCNext">
+    <a class="SCLink NextLink" href="#">
+    <span class="SIcon">&#8250;</span>
+    </a>
+    </li>
+    </ul>
+    <ul class="SlideList Container">
+    </ul>
+    </div>
+    
+</div>
+<# } #>

@@ -1,0 +1,1 @@
+Du har utestående bonussatstningskrav för närvarande. Om du tar ut eller överför pengar från {0} kontot, kommer dina bonus eller vinster att förverkas.

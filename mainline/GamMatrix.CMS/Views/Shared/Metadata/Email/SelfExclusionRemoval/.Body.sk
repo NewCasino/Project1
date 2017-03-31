@@ -1,0 +1,11 @@
+﻿<p>Dobrý deň $FIRSTNAME$,</p>
+<br />
+<p>Názov účtu: $USERNAME$ </p>
+<br />
+Potvrdzujeme vám že zámok na vašom účte bol odstránený  a vaše konto bude aktívne  $EXPIRY_DATETIME$.
+<br />
+<br />
+Ak máte nejaké otázky neváhajte nás kontaktovať <a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>S pozdravom,</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] Zákaznícke centrum</p>

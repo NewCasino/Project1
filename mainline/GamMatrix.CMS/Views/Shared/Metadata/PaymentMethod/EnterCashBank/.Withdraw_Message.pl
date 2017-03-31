@@ -1,0 +1,1 @@
+Przelej pieniądze bezpośrednio na swoje konto bankowe

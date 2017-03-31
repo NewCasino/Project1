@@ -1,0 +1,1 @@
+Izplačilo neposredno na vašo debetno kartico VISA

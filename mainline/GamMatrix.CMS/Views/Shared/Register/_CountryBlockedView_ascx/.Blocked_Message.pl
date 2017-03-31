@@ -1,0 +1,1 @@
+Niestety logujesz się z kraju, z którego nie przyjmujemy zakładów. Nie możemy kontynuować rejestracji.

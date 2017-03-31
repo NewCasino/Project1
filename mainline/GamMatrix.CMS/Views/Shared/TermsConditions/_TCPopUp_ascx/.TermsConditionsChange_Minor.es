@@ -1,0 +1,1 @@
+﻿Tenemos cambios menores en nuestros <a href="[Metadata:value(/Metadata/Settings.Terms_Conditions_Url)]" >Términos &amp; Condiciones</a>. Puedes aquí los nuevos  <a href="[Metadata:value(/Metadata/Settings.Terms_Conditions_Url)]" >Términos &amp; Condiciones</a>.

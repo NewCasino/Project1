@@ -1,0 +1,3 @@
+﻿<h3><span style="font-size: x-large;">ЭКСКЛЮЗИВ: видеослоты Merkur уже на сайте!</span></h3>
+<p>Известные игры немецкого бренда Merkur уже на сайте<br />для игры онлайн впервые на Jetbull!<br /><br />Выберите &lsquo;Merkur&rsquo; через кнопку выбора поставщика игр<br />ниже для отображения только видеослотов от этого бренда</p>
+<p><a title="Играть ►" class="button" href="http://www.jetbull.com/Casino/Game/Info/double-triple-chance-egb"><span class="GoldButtonText">Играть в Double Triple Chance►</span></a></p>

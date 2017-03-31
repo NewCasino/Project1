@@ -1,0 +1,8 @@
+﻿<p>Hei, $FIRSTNAME$</p>
+<p>Du har bedt om at din [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] e-postadresse skal endres.</p>
+<p>Av sikkerhetshensyn må vi be deg verifisere din nye e-postadresse. Dette gjør du ved å trykke på koblingen nedenfor:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Hvis koblingen ikke fungerer, kopier den og lim den direkte inn i adressefeltet til nettleseren din.</p>
+<p>Hvis du ikke har bedt om å endre din e-postadresse kan du se bort fra denne e-posten eller kontakte oss på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Med vennlig hilsen, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte</p>
+

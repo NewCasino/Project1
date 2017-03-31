@@ -1,0 +1,1 @@
+﻿Ruský rubl

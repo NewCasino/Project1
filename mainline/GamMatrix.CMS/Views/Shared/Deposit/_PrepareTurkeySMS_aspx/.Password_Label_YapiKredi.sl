@@ -1,0 +1,1 @@
+Pametno geslo v sporočilu SMS

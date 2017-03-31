@@ -1,0 +1,1 @@
+Wszystkie szwedzkie banki

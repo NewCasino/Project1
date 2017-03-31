@@ -1,0 +1,12 @@
+﻿<p>Liebe/r $FIRSTNAME$,</p>
+<br />
+<p>Konto-Name: $USERNAME$ </p>
+<br />
+mit dieser E-Mail bestätigen wir Ihnen das Ende Ihrer Bedenkzeit. Alle Funktionen Ihres Kontos sind jetzt aktiviert. 
+<br />
+<br />
+Bei Fragen können Sie sich jederzeit an uns wenden, und zwar unter 
+<a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>Mit freundlichen Grüßen</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] Kunden-Support unter</p>

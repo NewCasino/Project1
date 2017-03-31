@@ -1,0 +1,1 @@
+﻿Dessverre kan vi ikke tillate innskudd med kort fra {0} banker. Vennligst bruk et annet kort eller en av våre andre betalingsmetoder.

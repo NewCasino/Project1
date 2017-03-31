@@ -1,0 +1,1 @@
+Nie będziesz mógł logować się do swojego konta przez wybrany czas.

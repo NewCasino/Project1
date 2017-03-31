@@ -1,0 +1,1 @@
+﻿No se pudo iniciar la transacción debido a problemas de conexión. Si el problema persiste, por favor contacte con asistencia.

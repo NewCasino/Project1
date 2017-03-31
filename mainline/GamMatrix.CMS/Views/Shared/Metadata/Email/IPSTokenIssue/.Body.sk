@@ -1,0 +1,8 @@
+﻿<p>Dobrý deň $FIRSTNAME$,</p>
+<p>Kredit vášho kupónu $VOUCHERAMOUNT$ bol spracovaný. Nižšie nájdete informácie o vašom IPS Tokene:</p>
+<ul>
+<li><strong>IPS Token</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Checkdigit</strong>:$VOUCHEDIGITS$</li>
+</ul>
+<p> Ak máte nejaké otázky neváhajte nás kontaktovať <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>S pozdravom,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tím</p>

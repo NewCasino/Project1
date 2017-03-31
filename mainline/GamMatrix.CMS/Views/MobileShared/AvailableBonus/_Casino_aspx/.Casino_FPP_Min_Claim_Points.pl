@@ -1,0 +1,1 @@
+﻿Minimalna ilość punktów do rozliczenia:

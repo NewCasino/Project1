@@ -1,0 +1,1 @@
+﻿Vyskytla se technická chyba. Neplatné ID produktu. Pokud bude problém přetrvávat kontaktujte zákaznickou podporu na service@click2pay.com.

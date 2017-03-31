@@ -1,0 +1,1 @@
+﻿Account nummer is ongeldig

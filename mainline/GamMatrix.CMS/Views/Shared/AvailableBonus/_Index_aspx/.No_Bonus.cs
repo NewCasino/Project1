@@ -1,0 +1,1 @@
+﻿nemáte žádný aktivní bonus

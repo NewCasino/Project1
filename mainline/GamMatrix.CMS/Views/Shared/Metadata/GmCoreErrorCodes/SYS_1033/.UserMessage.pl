@@ -1,0 +1,1 @@
+﻿Niepoprawny status użytkownika

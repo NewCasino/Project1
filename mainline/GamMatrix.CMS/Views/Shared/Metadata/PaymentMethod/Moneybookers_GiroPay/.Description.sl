@@ -1,0 +1,1 @@
+GiroPay preko storitve Skrill je preprost, hiter in varen način plačevanja, ki vam omogoča uporabo in prenos sredstev na vašem bančnem računu.&nbsp;

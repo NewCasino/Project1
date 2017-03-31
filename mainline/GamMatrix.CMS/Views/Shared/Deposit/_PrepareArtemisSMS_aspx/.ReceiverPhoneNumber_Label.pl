@@ -1,0 +1,2 @@
+﻿Numer telefonu odbiorcy
+

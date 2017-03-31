@@ -1,0 +1,1 @@
+Du kan inte göra en överföring till dig själv.

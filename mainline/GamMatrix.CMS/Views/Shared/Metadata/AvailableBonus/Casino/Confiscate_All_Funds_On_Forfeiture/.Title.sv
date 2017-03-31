@@ -1,0 +1,1 @@
+Konfiskera alla medel vid förverkande

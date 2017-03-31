@@ -1,0 +1,46 @@
+﻿
+<ol>
+     <li><strong>Banka veya kredi kartı ekstremde [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] para yatırma/&#231;ekme işlemlerini nasıl g&#246;rebilirim?</strong>
+     <p>T&#252;m para yatırma ve &#231;ekme işlemleri i&#231;in [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] &#246;deme operator&#252; olarak Everymatrix Ltd. kullanılmaktadır. Bu isimle yapılan işlemleri takip ederek para yatırma &#231;ekme işlemlerinizi g&#246;rebilirsiniz.</p>
+     </li>
+     <li><strong>Birden fazla &#246;deme y&#246;ntemi kullanabilir miyim?</strong>
+     <p>Evet, ancak&nbsp; bazı &#246;deme y&#246;ntemlerinde farklı belgeler istenebilir.</p>
+     </li>
+     <li><strong>T&#252;m kartlar kabul ediliyor mu?</strong>
+     <p>ABD ve T&#252;rkiye hari&#231; t&#252;m &#252;lkelerin kredi kartları kabul edilir.</p>
+     </li>
+     <li><strong>Websitesi kartımı neden kabul etmiyor?</strong>
+     <p>Bazı kredi kartları online bahis ve oyun sitelerine doğrudan para yatırma işlemine izin vermemektedir. Kart sağlayıcınız ile bu konuda iletişime ge&#231;ebilir veya bir e-c&#252;zdan &#246;deme y&#246;ntemi aracılığı ile kartınızdan para yatırmayı deneyebilirsiniz. Daha fazla bilgi i&#231;in [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] m&#252;şteri hizmetleri ile iletişime ge&#231;ebilirsiniz.</p>
+     </li>
+     <li><strong>Para yatırma işlemi iptal veya red edilirse ne yapmalıyım?</strong>
+     <p>Bazen son yaptığınız işlem tamamlanmadan yaptığınız diğer para yatırma işlemi&nbsp; 24 saatlik veya haftalık para yatırma limitlerinizi doldurabilir ve probleme neden olabilir. Bunun en b&#252;y&#252;k nedeni talep formunda doldurulan hatalı alanlardır. Bu t&#252;r sorunlarla karşılaşmanız halinde [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] m&#252;şteri hizmetlerine başvurunuz.</p>
+     </li>
+     <li><strong>Başka bir hesaba para yatırabilir miyim </strong><strong>?</strong>
+     <p>Başkasının hesabına para yatırma &#252;&#231;&#252;nc&#252; şahıs işlemi olarak kabul edilir ve hi&#231;bir koşulda kabul edilmez.</p>
+     </li>
+     <li><strong>Yanlışlıkla başka bir karttan para y&#252;kledim ne yapmalıyım?</strong>
+     <p>L&#252;tfen m&#252;şteri hizmetleri ile iletişime ge&#231;iniz&nbsp;<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+     </li>
+     <li><strong>Hesaplar arası transfer yapabilir miyim</strong><strong>?</strong>
+     <p>Kişisel hesaplar arası transfer yapılamaz ancak bahis, casino ve &nbsp;canlı casino hesapları arasında transfer yapabilirsiniz.</p>
+     </li>
+     <li><strong>IBAN nedir?</strong>
+     <p>IBAN (International Bank Account Number) uluslararası banka hesap numaranızdır ve bankalar arası işlemlerde kullanılır, para &#231;ekme işlemlerinizi kolaylaştırır.</p>
+     </li>
+     <li>
+     <p><strong>CVC2 kodu nedir?</strong></p>
+     <p>CVC2 (Card Verification Code) kredi kartı ile yapılan uluslarası telefon ve internet &#246;demeleri i&#231;in kullanılan g&#252;venlik kodudur. &#220;&#231; haneden oluşur ve kredi kartınızın arkasında imza kısmında yer alır.</p>
+     </li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

@@ -1,0 +1,1 @@
+Znesek ne more biti prazen.

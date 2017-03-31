@@ -1,0 +1,1 @@
+Neposredna bremenitev vašega bančnega računa.

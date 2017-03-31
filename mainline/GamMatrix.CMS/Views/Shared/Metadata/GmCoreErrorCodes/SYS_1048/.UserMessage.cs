@@ -1,0 +1,1 @@
+﻿Registrace účtu nepovolena pro vendory ve shodě

@@ -1,0 +1,103 @@
+﻿<# 
+    var vendors = {};
+    if( typeof(config !== 'undefined') && config.vendors )
+        vendors = config.vendors;
+
+    var game = arguments[0]; 
+    var formatStr = function(str, name){
+        return str.replace( "{0}", name).htmlEncode();
+    };
+#>
+
+<a class="Close Button ButtonClosePopup" href="#" title="[Metadata:htmlencode(.Close_Title)]">
+    <span class="CloseText">[Metadata:htmlencode(.Close)]</span>
+</a>
+
+<div class="PopupContent">
+
+    <div class="GameThumb">
+
+        <# if( game.I.length > 0 ) { #>
+        <img class="GT" src="<#= game.I.htmlEncode() #>" alt="<#= game.G.htmlEncode() #>" />
+        <# } #>
+
+        <span class="Hidden">[Metadata:htmlencode(.Game_Properties)]</span>
+
+        <# if(game.N == 1) { #>
+        <span class="GTnew">New</span>
+        <# } #>
+    
+        <# if(game.T == 1) { #>
+        <span class="GTtournament">T<span class="Hidden">ournament</span></span>
+        <# } #>
+    
+        <span class="GTfav <#= (game.Fav != 1) ? 'Hidden' : '' #>">[Metadata:htmlencode(.Favorite)]</span>
+
+        <# if(game.O == 1) { #>
+        <span class="GToffer AltButton">&euro;</span>
+        <# } #>
+
+        <# if(game.H == 1) { #>
+        <span class="GThot">Hot</span>
+        <# } #>
+    
+        <span class="GTprovider <#= vendors[game.V.toString(10)] #>"><span class="GTicon"><#= vendors[game.V.toString(10)] #></span></span>
+
+    </div>
+
+    <h2 class="GameTitle"><#= game.G.htmlEncode() #></h2>
+
+    <a class="Button CTAButton" href="/Casino/Game/Play/<#= game.S #>" data-gameid="<#= game.S #>"
+        title="<#= formatStr('[Metadata:scriptencode(.Link_PlayRealMoney_Title)]', game.G) #>" target="_blank">
+        <span class="ButtonText">[Metadata:htmlencode(.Link_PlayRealMoney)] <span class="ActionSymbol">&#9658;</span></span>
+    </a>
+
+    <ul class="GameOptions">
+
+        <# if(game.F == 1) { #>
+        <li class="GOItem Fun">
+            <a href="/Casino/Game/Info/<#= game.S #>" class="GOLink" title="<#= formatStr('[Metadata:scriptencode(.Link_PlayForFun_Title)]', game.G) #>" target="_blank">
+                <span class="ActionIcon">&#9786;</span>[Metadata:htmlencode(.Link_PlayForFun)]
+            </a>
+        </li>
+        <# } #>
+
+        <li class="GOItem Fav AddFav <#= (game.Fav == 1) ? 'Hidden' : '' #>">
+            <a href="#" class="GOLink" title="<#= formatStr('[Metadata:scriptencode(.Link_AddFavorite_Title)]', game.G) #>">
+                <span class="ActionIcon">&#9733;</span>[Metadata:htmlencode(.Link_AddFavorite)]
+            </a>
+        </li>
+
+        <li class="GOItem Fav RemoveFav <#= (game.Fav != 1) ? 'Hidden' : '' #>">
+            <a href="#" class="GOLink" title="<#= formatStr('[Metadata:scriptencode(.Link_RemoveFavorite_Title)]', game.G) #>">
+                <span class="ActionIcon">&#9733;</span>[Metadata:htmlencode(.Link_RemoveFavorite)]
+            </a>
+        </li>
+
+        <# if( game.C == null && game.D == 1) { #>
+        <li class="GOItem Info">
+            <a href="#" class="GOLink" title="<#= formatStr('[Metadata:scriptencode(.Link_GameInformation_Title)]', game.G) #>">
+                <span class="ActionIcon">i</span>[Metadata:htmlencode(.Link_GameInformation)]
+            </a>
+        </li>
+        <# } #>
+
+    </ul>
+
+</div>
+
+<# if( game.C != null && game.C.length > 0 ) { #>
+<div class="PopupAdditional">
+    <h3 class="AdditionalTitle">[Metadata:scriptencode(.Variants)]</h3>
+    <ol class="GameVariants">
+        <# for( var i = 0; i < game.C.length; i++) { #>
+        <li class="GVItem">
+            <a class="Button AltButton GVLink" href="/Casino/Game/Info/<#= game.C[i].S #>" data-gameid="<#= game.C[i].S #>"
+                title="<#= formatStr('[Metadata:scriptencode(.Link_PlayNow_Title)]', game.C[i].G) #>" data-gameid="<#= game.ID #>">
+                <span class="ButtonText"><#= game.C[i].A.htmlEncode() #><span class="ActionSymbol">&#9658;</span></span>
+            </a>
+        </li>
+        <# } #>
+    </ol>
+</div>
+<# } #>

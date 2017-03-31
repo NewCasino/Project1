@@ -1,0 +1,78 @@
+﻿<ol>
+
+ <li> <strong>Wie kann ich eine Einzahlung auf mein Konto vornehmen?</strong>
+ <p>
+Klicken Sie auf „Mein Konto“ und dann in der linken Spalte auf den Button „Geld einzahlen“. Anschließend können Sie die bevorzugte Zahlungsmethode auswählen.ethod.
+ </p>
+ </li>
+
+ <li> <strong>Wie lange dauert es, bis meine Einzahlung genehmigt wird?</strong>
+ <p>
+ Bei den meisten Zahlungsmethoden wird Ihre Einzahlung umgehend genehmigt. Bei einer Einzahlung per Banküberweisung kann es bis zu 7 Tage dauern, bis wir das Geld von Ihrer Bank erhalten haben. Sofort nach dem Erhalt schreiben wir das Geld [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Konto.
+ </p>
+ </li>
+
+ <li>
+ <strong>Welche Zahlungsmethoden akzeptieren Sie?ailable?</strong>
+ <p>
+ Bitte klicken Sie im Menü oben auf „Zahlungsmethoden“. Sie finden diesen Navigationspunkt auf jeder [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Seite. Anschließend werden Ihnen sämtliche verfügbare Zahlungsmethoden angezeigt..
+ </p>
+ </li>
+
+ <li>
+ <strong>Welche Kredit-/Debitkarten akzeptieren Sie?</strong>
+ <p>
+ [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] akzeptiert alle Visa- und MasterCard/Maestro-Karten und Debitkarten als Einzahlungsmethoden. Für MasterCard/Maestro-Karten kann es jedoch bei der Auszahlung Beschränkungen geben.
+ </p>
+ </li>
+
+ <li>
+ <strong>Fällt eine Gebühr an, wenn ich eine Einzahlung auf mein [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Konto vornehme?</strong> 
+ <p>
+ Für die Einzahlung auf Ihr [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Konto fallen keine Gebühren an.
+ </p>
+ </li>
+
+ <li>
+ <strong>Was sind die Höchst- und Mindestbeträge für Einzahlungen bei a time?</strong> 
+ <p>
+ Der Mindestbetrag für die Einzahlung beträgt 10 € (oder den entsprechenden Betrag in anderen Währungen). Der Höchstbetrag liegt bei 5.000 € (oder dem entsprechenden Betrag in anderen Währungen) pro Tag.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Kann ich tägliche, wöchentliche und monatliche Limits festlegen?
+ </strong>
+ <p>
+ Ja, Sie können tägliche, wöchentliche und monatliche Limits festlegen. Sie können die Limits im Unterabschnitt „Verantwortungsbewusstes Spielen“ -> „Einzahlungs-Limits“ (unter „Mein Konto“) festlegen. Genau dort können Sie die Limits bei Bedarf auch jederzeit ändern.
+ </p>
+ </li>
+
+ <li>
+ <strong>Wie kann ich per Überweisung eine Einzahlung von meinem Bankkonto aus vornehmen?count?</strong>
+ <p>
+ Bitte klicken Sie auf „Geld einzahlen“ (unter „Mein Konto“) und wählen Sie als Zahlungsmethode „Banküberweisung“ aus. Sie können diese Option aktivieren, indem Sie auf „Einzahlen“ klicken. Folgen Sie dann den Anweisungen auf dem Bildschirm.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Gibt es ein wöchentliches Limit dafür, wie viel ich in mein Konto auf dieser Website einzahlen kann über  credit card?
+ </strong>
+ <p>Der Höchstbetrag, den Sie pro Tag einzahlen können, liegt bei 5.000 €.</p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

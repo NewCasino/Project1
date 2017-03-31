@@ -1,0 +1,5 @@
+﻿<p>您已要求 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 聯繫郵箱將會被改變。</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>請點擊下面的鏈接激活您的帳號，如果鏈接不能點擊或點擊後無反應請複製鏈接並粘貼到您的瀏覽器地址欄.</p>
+<p>如果您没有注册[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], 請略過該郵件或者聯繫<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>謹致問候, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 客户團隊</p>

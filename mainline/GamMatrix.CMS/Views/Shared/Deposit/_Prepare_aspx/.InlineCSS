@@ -1,0 +1,4 @@
+﻿#c_c #nav li.no3 a{color:#1111;text-direction:none;font-weiight:bold;font-size:1.5em}
+#formNetellerPayCard input#identityNumber {display: block;}
+ .deposit_steps_PT_AstroPayCard #fldCardHolderName,
+.deposit_steps_AstroPayCard  #fldCardHolderName{display:none;}

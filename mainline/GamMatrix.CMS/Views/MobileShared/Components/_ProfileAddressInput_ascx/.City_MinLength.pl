@@ -1,0 +1,1 @@
+﻿Miejscowość musi składać się z co najmniej 2 liter

@@ -1,0 +1,1 @@
+﻿Garantované datum

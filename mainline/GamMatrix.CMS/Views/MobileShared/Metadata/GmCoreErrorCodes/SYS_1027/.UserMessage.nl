@@ -1,0 +1,1 @@
+﻿De gevraagde functionaliteit is niet beschikbaar of wordt niet ondersteund in de huidige configuratie.

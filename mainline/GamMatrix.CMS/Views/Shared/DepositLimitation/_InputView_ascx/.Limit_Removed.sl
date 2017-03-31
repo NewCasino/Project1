@@ -1,0 +1,1 @@
+Limit je bil odstranjen, a bo do datuma poteka še vedno v veljavi.

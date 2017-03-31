@@ -1,0 +1,3 @@
+﻿<p>You have requested that your [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] contact email address be changed. A verification email has been sent to this new email address($EMAIL$).</p>
+<p>If you have not asked to change your email address, please inform us immediately at <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Kind Regards, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Service Team</p>

@@ -1,0 +1,1 @@
+﻿Het is belangrijk dat jij jouw gebruikers-ID <strong>{0}</ strong> aan ons geeft als jij een bankoverschrijving maakt. Behoud alle ontvangsten en referentie bonnen als bewijs van betaling. Wij kunnen ze vragen als iets verkeerd gaat.

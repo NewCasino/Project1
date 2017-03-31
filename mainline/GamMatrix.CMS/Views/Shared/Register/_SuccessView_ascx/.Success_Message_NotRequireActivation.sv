@@ -1,0 +1,1 @@
+Tack, din registrering är slutförd!

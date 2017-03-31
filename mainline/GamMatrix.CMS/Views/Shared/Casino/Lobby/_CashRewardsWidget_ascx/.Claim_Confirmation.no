@@ -1,0 +1,5 @@
+﻿Gjeldende FPP: {0} poeng
+Minste poengbeløp som kreves: {1} poeng 
+Hvert {2} poeng gjøres krav på som {3} {4}
+
+Vil du gjøre krav på kontantene dine?

@@ -1,0 +1,1 @@
+Betala via SMS

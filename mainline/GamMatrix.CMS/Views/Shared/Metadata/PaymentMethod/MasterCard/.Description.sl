@@ -1,0 +1,1 @@
+Denar lahko s svoje kartice MasterCard hitro položite na svoj igralni račun. Preprosto vnesite podatke o svoji kartici MasterCard; ko bo vaša kartica preverjena, bodo sredstva varno in takoj nakazana na vaš igralni račun.

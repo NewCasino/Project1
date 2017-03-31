@@ -1,0 +1,1 @@
+﻿Dagelijkse Limiet (per dag)

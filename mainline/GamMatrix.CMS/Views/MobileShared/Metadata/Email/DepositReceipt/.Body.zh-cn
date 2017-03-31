@@ -1,0 +1,11 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>这是一封自动邮件，您的存款已经被[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]处理，这是发送给您的存款单据. EveryMatrix 是一个[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]网站的付款经销商, 您将会在您的卡或银行清单上看到OddsMatrix. 您的交易详情如下：</p>
+<ul>
+<li><strong>交易号</strong>:$TRANSACTION_ID$</li>
+<li><strong>时间</strong>:$TRANSACTION_TIME$</li>
+<li><strong>网站</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>存单</strong>: 存单的打印截图已附加在附件中.</li>
+</ul>
+<p>如果您对此次存款有任何的疑问, 请联系<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>并发送交易ID号.</p>
+<p>致意,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 团队</p>
+<p>$SCREENSHOT$</p>

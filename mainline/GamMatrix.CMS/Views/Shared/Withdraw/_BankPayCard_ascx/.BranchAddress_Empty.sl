@@ -1,0 +1,1 @@
+Vnesite izpostavo, pri kateri ste odprli račun.

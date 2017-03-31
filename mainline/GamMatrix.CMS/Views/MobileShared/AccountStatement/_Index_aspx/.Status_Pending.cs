@@ -1,0 +1,1 @@
+﻿Čeká na vyřízení

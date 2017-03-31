@@ -1,0 +1,1 @@
+﻿WebMoney (od společnosti Moneta)

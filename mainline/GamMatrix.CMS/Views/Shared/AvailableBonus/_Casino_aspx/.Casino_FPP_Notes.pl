@@ -1,0 +1,2 @@
+﻿Uwaga: Można tylko wymienić podczas rundy <span class='messageHighlight'>{0}</span> punktów na 
+<span class='messageHighlight'>{1} {2}</span>, pozostałe punkty pozostaną na Twoim saldzie punktów lojalnościowych kasyna (FPP).

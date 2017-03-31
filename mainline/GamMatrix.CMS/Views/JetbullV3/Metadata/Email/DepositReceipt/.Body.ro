@@ -1,0 +1,11 @@
+﻿<p>Buna $FIRSTNAME$,</p>
+<p>Acest e-mail automat&nbsp; este bonul depunerii procesate din partea [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. EveryMatrix este operatorul de plati al websiteului [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] si va aparea mentionat pe extrasul dumneavoastra de cont. Detaliile tranzactiei sunt cele de mai jos.</p>
+<ul>
+<li><strong>ID Tranzactie</strong>:$TRANSACTION_ID$</li>
+<li><strong>Data ora</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Website</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Bon</strong>: \print screen-ul bonului este atasat.</li>
+</ul>
+<p>Daca aveti nelamuriri in privinta acestei depuneri, va rugam contactati-ne la <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> , mentionand ID-ul tranzactiei.</p>
+<p>Cu respect,<br /> Echipa Jetbull</p>
+<p>$SCREENSHOT$</p>

@@ -1,0 +1,1 @@
+﻿Vložte pomocí Bank Wire

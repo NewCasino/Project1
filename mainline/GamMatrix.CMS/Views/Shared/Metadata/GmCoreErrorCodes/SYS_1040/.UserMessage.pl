@@ -1,0 +1,1 @@
+﻿Z siedmiodniowego okresu samowykluczenia można skorzystać maksymalnie {0} razy.

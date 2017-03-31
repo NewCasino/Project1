@@ -1,0 +1,1 @@
+Transakcija je bila uspešno izvedena.

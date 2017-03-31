@@ -1,0 +1,1 @@
+﻿Nastavit limit na sázení

@@ -1,0 +1,1 @@
+﻿(wypłata tylko za pośrednictwem przelewu bankowego)

@@ -1,0 +1,1 @@
+Geslo mora vsebovati črke in številke.

@@ -1,0 +1,1 @@
+Da, pošiljajte mi ekskluzivne ponudbe preko sporočil SMS. 

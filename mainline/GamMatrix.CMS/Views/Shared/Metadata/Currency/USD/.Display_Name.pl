@@ -1,0 +1,1 @@
+﻿Dolar amerykański

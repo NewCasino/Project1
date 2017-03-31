@@ -1,0 +1,1 @@
+Przelew do banku

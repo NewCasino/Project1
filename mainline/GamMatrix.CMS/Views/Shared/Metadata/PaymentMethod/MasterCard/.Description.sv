@@ -1,0 +1,1 @@
+Du kan snabbt sätta in pengar från ditt MasterCard till ditt spelkonto. Ange bara dina kortuppgifter och när ditt MasterCard har verifierats kommer pengarna att föras över till ditt spelkonto, säkert och omedelbart.

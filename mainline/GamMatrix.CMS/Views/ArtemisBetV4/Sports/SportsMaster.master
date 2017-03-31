@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" PageTemplate="/DefaultMaster.master" Title="<%$ Metadata:value(.Title)%>" MetaKeywords="<%$ Metadata:value(.Keywords)%>" MetaDescription="<%$ Metadata:value(.Description)%>" %>
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server">
+
+    <asp:ContentPlaceHolder id="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+
+    <asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+
+    <%-- Html.RenderPartial("/Deposit/QuickDepositWidget/QuickDepositWidget", this.ViewData.Merge(new {IsSportsPage = true })); --%>
+
+    <ui:MinifiedJavascriptControl runat="server" Enabled="true" AppendToPageEnd="true">
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("html").addClass("SportsMainHtml");
+                $("body").addClass("SportsPage");
+                setTimeout(function(){
+                    if ($('li.balance-item-Sports').length > 0) {
+                        var balance = $('li.balance-item-Sports').html();
+                        $('#ToggleWalletMenu').find('span').html(balance);
+                    }
+                },500);
+            });
+        </script>
+    </ui:MinifiedJavascriptControl>
+
+</asp:Content>
+

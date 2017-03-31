@@ -1,0 +1,1 @@
+﻿The transaction amount could not be credited to the Stored Value Account (SVA).

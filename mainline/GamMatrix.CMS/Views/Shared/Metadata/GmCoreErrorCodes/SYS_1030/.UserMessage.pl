@@ -1,0 +1,1 @@
+﻿Użytkownik o takiej nazwie już istnieje. Proszę wybrać inną

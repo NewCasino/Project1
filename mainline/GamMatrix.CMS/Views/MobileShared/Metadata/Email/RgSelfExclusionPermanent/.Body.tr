@@ -1,0 +1,9 @@
+﻿<p>Sayın $USERNAME$,<br /> </p>
+<br />Bu e-posta, hesabınızın kendi isteğinizle tamamen dondurulduğunu bildirmek amacıyla gönderilmiştir.
+<br /><br />
+Artık hesabınıza giriş yapamayacaksınız.
+<br /><br />Herhangi bir sorunuz olursa, lütfen bizimle iletişime geçmekten çekinmeyiniz: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<br /><br />
+<p>Saygılarımızla,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Destek Takımı</p>
+

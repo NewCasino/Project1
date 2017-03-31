@@ -1,0 +1,1 @@
+﻿Su solicitud no pudo completarse. Su cuenta NETELLER ha sido suspendida temporalmente. Por favor llame al Servicio de Atención al Cliente de NETELLER.

@@ -1,0 +1,1 @@
+﻿Grasz obecnie w {0}.

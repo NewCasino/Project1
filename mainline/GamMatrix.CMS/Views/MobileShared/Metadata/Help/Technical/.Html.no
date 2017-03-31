@@ -1,0 +1,37 @@
+﻿<ol>
+        
+<li><strong>Hva er minimum systemkrav for å kunne spille hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?</strong>
+<p>
+	<ul>
+		<li>Windows - Intel Pentium-prosessor (Pentium II eller høyere) 64 MB RAM.</li>
+		<li>Macintosh - Power Macintosh Power PC-prosessor (G3 eller høyere anbefalt) 64 MB RAM.</li>
+		<li>Viktig merknad til Mac-brukere - Den gjeldende versjonen av kasinoet fungerer kanskje ikke som ment på Mac-systemer, og støttes i øyeblikket ikke.</li>
+		<li>"FLASH" 10 eller nyere</li>
+		<li>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] er kompatibel med de fleste Windows-operativsystemer (Windows 2000, XP, Vista and 7).</li>
+		<li>Internet Explorer i versjon 7 eller lavere støttes ikke.</li>
+	</ul>
+</p>
+</li>
+
+<li><strong>Hva skjer hvis jeg mister tilkoblingen min?</strong>
+<p>Alle spill lagres på sikre servere, så hvis du blir frakoblet er det bare å logge seg inn igjen for å se utfallet av en begivenhet eller et spill. I relasjon til kasinoet, hvis spillet ikke ble fullført, vil det fortsette neste gang du logger deg inn på spillet. Hvis du fortsetter med å oppleve problemer, vennligst "klikk her" for  snakke med et medlem av vår kundestøtte.</p>
+</li>
+
+
+<li><strong>Hvilken programvare bruker dere?</strong>
+<p>Programvaren for oddsen er EveryMatrix, kasinoet bruker Net Entertainment og pokeren bruker Cake.</p>
+</li>
+
+
+<li><strong>Hvorfor kan jeg ikke koble til spillserveren?</strong>
+<p>Sjekk Internett-tilkoblingen din, og hvis det fortsatt ikke fungerer, vennligst kontakt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte.</p>
+</li>
+
+
+<li><strong>Hvorfor kan jeg ikke logge meg inn på kontoen min?</strong>
+<p>Sjekk at du bruker riktig "passord" og "brukernavn" for kontoen din. Hvis du fortsatt ikke får logget deg inn, vennligst kontakt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte.</p>
+</li>
+
+<li><strong>Nettstedet er veldig tregt. Hva kan jeg gjøre for å få det til å reagere raskere?</strong>
+<p>Hvis du har problemer med en treg tilkobling, vennligst merk deg følgende: Hvis du har flere nettlesere åpen, musikkprogrammer som kjører eller laster ned filer, kan det føre til at datamaskinen din og/eller Internett-tilkoblingen din blir tregere. Det kan også hende at ditt lokale Internett-leverandør opplever treghet. Hvis du deler Internett-tilkoblingen din med husstanden din eller det lokale området, kan dette også redusere hastigheten.</p>
+</li>

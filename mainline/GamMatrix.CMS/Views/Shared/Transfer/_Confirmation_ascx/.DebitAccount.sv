@@ -1,0 +1,1 @@
+﻿Debitera {0} konto

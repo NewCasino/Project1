@@ -1,0 +1,1 @@
+﻿WebMoney (через Moneta)

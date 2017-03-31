@@ -1,0 +1,1 @@
+Napačna številka mobilnega telefona.

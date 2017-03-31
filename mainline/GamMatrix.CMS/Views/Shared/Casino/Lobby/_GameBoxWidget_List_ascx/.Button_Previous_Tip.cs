@@ -1,0 +1,1 @@
+﻿Zobraz předcházející stránku

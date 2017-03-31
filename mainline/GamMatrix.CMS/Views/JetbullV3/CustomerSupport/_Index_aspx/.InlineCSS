@@ -1,0 +1,5 @@
+﻿.SupportBanner{width:30%;float:right;text-align:center;}
+.SupportBanner img{width:80%;}
+.SupportContent{width:68%;margin:20px 0 0 1%;float:left;}
+.SupportContent li{float:left;width:46%;padding-right:3%;color:#989898;}
+.SupportTitle{color:#fff;font-size:16px;}

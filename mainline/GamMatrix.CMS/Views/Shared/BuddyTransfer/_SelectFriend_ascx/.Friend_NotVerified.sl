@@ -1,0 +1,1 @@
+Identiteta vašega prijatelja ni preverjena.

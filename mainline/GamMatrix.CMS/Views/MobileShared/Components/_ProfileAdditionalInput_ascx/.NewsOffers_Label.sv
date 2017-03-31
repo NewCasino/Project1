@@ -1,0 +1,1 @@
+Ja tack, skicka mig e-mail med nyheter och erbjudanden

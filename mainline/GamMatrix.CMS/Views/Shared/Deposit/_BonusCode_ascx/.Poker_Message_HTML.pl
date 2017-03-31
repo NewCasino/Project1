@@ -1,0 +1,1 @@
+﻿* <em>Aby otrzymać premię pokera, musisz pobrać aplikację pokera i wybrać swój pseudonim, zanim będziesz mógł dokonać wpłaty do portfela pokera. </em>

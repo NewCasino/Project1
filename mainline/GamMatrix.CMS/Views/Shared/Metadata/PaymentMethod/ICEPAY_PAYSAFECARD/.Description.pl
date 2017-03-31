@@ -1,0 +1,1 @@
+Płać gotówką online, bez konta bankowego czy karty kredytowej. paysafecard umożliwia szybkie, proste i bezpieczne płatności online.

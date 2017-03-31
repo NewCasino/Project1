@@ -1,0 +1,1 @@
+﻿Formát pole je neplatný.

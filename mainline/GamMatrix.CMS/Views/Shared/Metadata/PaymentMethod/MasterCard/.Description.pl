@@ -1,0 +1,1 @@
+Możesz szybko przelać pieniądze z  karty MasterCard na swoje konto gracza. Wystarczy podać dane swojej karty. Po zweryfikowaniu karty MasterCard środki zostaną szybko i bezpiecznie przesłane na Twoje konto gracza.

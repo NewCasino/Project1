@@ -1,0 +1,1 @@
+Slutför din insättning på {0} <br />alltid använda EntroPay

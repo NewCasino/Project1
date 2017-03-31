@@ -1,0 +1,1 @@
+﻿Tenga en cuenta si su cuenta bancaria está en una moneda diferente de $MONEDA$, su cuenta bancaria será cargada con el importe equivalente a $MONTO2$ en su moneda local utilizando el tipo de cambio en Trustly.

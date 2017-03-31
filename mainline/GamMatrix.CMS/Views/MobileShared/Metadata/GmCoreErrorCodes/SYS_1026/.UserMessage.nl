@@ -1,0 +1,1 @@
+﻿Er is een fout opgetreden tijdens de verwerking van de transactie.

@@ -1,0 +1,1 @@
+﻿Litujeme, odkaz není platný.

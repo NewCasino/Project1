@@ -1,0 +1,1 @@
+Sporočilo je bilo uspešno poslano; odgovorili vam bomo, takoj ko bo to mogoče.

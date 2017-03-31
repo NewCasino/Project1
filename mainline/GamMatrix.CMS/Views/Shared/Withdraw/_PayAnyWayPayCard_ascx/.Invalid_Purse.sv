@@ -1,0 +1,1 @@
+Börsen måste börja med R / Z / E, följt av 12 siffror.

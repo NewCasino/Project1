@@ -1,0 +1,1 @@
+Vnesite varnostno kodo kartice.

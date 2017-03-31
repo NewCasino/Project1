@@ -1,0 +1,2 @@
+﻿Předvolba nemůže být prázdná
+

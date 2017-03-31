@@ -1,0 +1,1 @@
+﻿You can quickly deposit money from your Visa Electron Card into your gaming account. Simply enter your card details, once your Electron Card is verified, your fund will be securely and instantly transferred  into your gaming account.

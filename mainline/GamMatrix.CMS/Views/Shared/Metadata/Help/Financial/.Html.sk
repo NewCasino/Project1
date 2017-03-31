@@ -1,0 +1,86 @@
+﻿<ol>
+
+	<li> <strong>Ako môžem identifikovať vklady alebo výbery na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] na výpise s môjho bankového účtu / kreditnej karty?</strong> 
+		<p>
+			Všetky vklady a výbery z vášho bankového účtu či kreditnej karty budú doplnené poznámkou v ktorej bude uvedené [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. Toto vám umožní udržiavať prehľad o vašich prevodoch.
+		</p>
+	</li>
+
+	<li> <strong>Môžem využívať viac než jednu platobnú metódu?</strong>
+		<p>
+			Áno môžete, ale budeme od vás požadovať príslušné dokumenty pri zmene platobnej metódy.
+		</p>
+	</li>
+
+	<li>
+		<strong>Akceptujete platobné karty z mojej krajiny?</strong>
+		<p>
+			Akceptujeme platobné karty všetkých krajín okrem USA, Turecka a Francúzska.
+		</p>
+	</li>
+
+	<li>
+		<strong>Prečo vaša stránka neakceptuje moju kartu?</strong>
+		<p>
+			Niektorí sprostredkovatelia platobných kariet s nimi neumožňujú vykonávať priame vklady do spoločností, ktoré prevádzkujú online hazardné hry. Skúste kontaktovať sprostredkovateľa vašej platobnej karty, alebo vyskúšajte niektorú z elektronických peňaženiek. V prípade ďalších otázok kontaktujte prosím zákaznícku podporu [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].
+		</p>
+	</li>
+
+	<li>
+		<strong>Čo mám robiť ak bol vklad mojou kartou odmietnutý?</strong>
+		<p>
+			Občas sa môže stať, že ak vložíte druhý krát ešte pred tým, ako bol spracovaný váš prvý vklad, čo môže byť započítané do vášho denného alebo týždenného limitu vkladu a tak to spôsobí problém. Najčastejšou príčinou je nesprávne vyplnenie formulára na vklad. V prípade že to chcete napraviť, kontaktujte prosím [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu. Taktiež niektorí sprostredkovatelia platobných kariet s nimi neumožňujú vykonávať priame vklady do spoločností, ktoré prevádzkujú online hazardné hry. Skúste kontaktovať sprostredkovateľa vašej platobnej karty, alebo vyskúšajte niektorú z elektronických peňaženiek..
+		</p>
+	</li>
+
+	<li>
+		<strong>Môžem vložiť platobnou kartou na účet môjho známeho?</strong>
+		<p>
+			Toto nemôžete urobiť za žiadnych okolností, nakoľko sa to považuje za vklad tretej strany.
+		</p>
+	</li>
+
+	<li>
+		<strong>Vložil som omylom zo zlej platobnej karty, môžem niečo urobiť?</strong> 
+		<p>
+			Prosím kontaktujte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu na
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Môžem prevádzať peniaze medzi účtami?</strong>
+		<p>
+			Prevádzanie peňazí medzi osobnými účtami nie je možné.
+		</p>
+	</li>
+
+	<li>
+		<strong>Čo je IBAN?</strong>
+		<p>
+			IBAN je skratka pre International Bank Account Number (medzinárodné číslo bankového účtu). IBAN sa používa pri medzinárodných bankových prevodoch a uľahčuje identifikáciu vášho účtu.
+		</p>
+	</li>
+
+	<li>
+		<strong>Čo je kód CVC2?</strong>
+		<p>
+			CVC2 je skratka pre "Card Verification Code" (overovací kód karty). Tento kód je požadovaný ako bezpečnostné opatrenie pri internetových platbách platobnou kartou. Tento kód pozostáva z troch číslic a nájdete ho na zadnej strane svojej platobnej karty.
+		</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Tlačiť</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

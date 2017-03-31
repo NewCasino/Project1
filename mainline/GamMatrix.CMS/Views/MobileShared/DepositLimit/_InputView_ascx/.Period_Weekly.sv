@@ -1,0 +1,1 @@
+Veckogräns (per vecka)

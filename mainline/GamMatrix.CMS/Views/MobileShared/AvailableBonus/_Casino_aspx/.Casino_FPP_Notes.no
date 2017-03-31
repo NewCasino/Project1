@@ -1,0 +1,2 @@
+﻿Vær oppmerksom på at du bare kan veksle inn: You can only exchange in round <span class='messageHighlight'>{0}</span> poeng for  
+<span class='messageHighlight'>{1} {2}</span>, og du beholder resterende poeng i din FPP balanse.

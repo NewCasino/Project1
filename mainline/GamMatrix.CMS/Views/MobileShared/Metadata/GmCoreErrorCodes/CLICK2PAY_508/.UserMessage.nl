@@ -1,0 +1,1 @@
+﻿Opname afgewezen. Het bedrag overschreid de toegestane limiet.

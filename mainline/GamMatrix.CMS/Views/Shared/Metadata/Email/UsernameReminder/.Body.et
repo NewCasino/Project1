@@ -1,0 +1,6 @@
+﻿<p>Tere $FIRSTNAME$,</p>
+<p>Täname Teid kontakteerumast [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]’ga, meieni on jõudnud Teie soov saada oma kasutajatunnus.. </p>
+
+<p>Teie kasutajatunnus on <strong>$USERNAME$</strong>. </p>
+<p>Parimat,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>
+

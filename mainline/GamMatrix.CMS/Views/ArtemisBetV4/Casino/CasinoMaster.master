@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx"  PageTemplate="/DefaultMaster.master"  Title="<%$ Metadata:value(.Title)%>" %>
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server"> 
+<asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+
+    <asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+<ui:MinifiedJavascriptControl runat="server" Enabled="true" AppendToPageEnd="true">
+<script type="text/javascript"> 
+    $(document).ready(function(){  
+    //$("#casino-stylesheet").appendTo($("head"));
+    $("#casino-stylesheet").insertBefore($("script[src*='combined.js']"));
+
+        setTimeout(function(){
+            if ($('li.balance-item-Casino').length > 0) {
+                var balance = $('li.balance-item-Casino:first').html();
+                $('#ToggleWalletMenu').find('span').html(balance);
+            }
+        },500);
+    });    
+</script> 
+</ui:MinifiedJavascriptControl>
+</asp:Content>

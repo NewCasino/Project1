@@ -1,0 +1,1 @@
+Jag har läst och bekräftat meddelandet ovan.

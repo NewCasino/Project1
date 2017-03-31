@@ -1,0 +1,21 @@
+﻿/*html, body{background:none no-repeat 0 0 #000;}*/
+.button:first-child{margin:0;}
+.LoginDialogContainer{background:url("//cdn.everymatrix.com/JetbullV2/img/cdclogin_dlg.png") no-repeat scroll center 0 transparent;width:290px;height:100%;margin:0 auto;}
+.LoginDialog{height:100%;margin:0 auto;padding:80px 0 40px;width:260px;}
+#login-pane{float:none;width:90%;margin:0 5%;}
+.username_wrap, .password_wrap{float:none;display:block;margin:10px auto 0;}
+.username_wrap input, .password_wrap input{width:95%;}
+.login_btn{float:right;margin:10px 0 0 0;}
+
+.forgot_password{float:left;margin:-28px 10px 0 5%;padding:0;line-height:28px;vertical-align:top;}
+
+.join_now{float:none;display:block;margin:30px auto 0;height:28px;line-height:28px;width:50%;background:none no-repeat 0 0 transparent;}
+.join_now_Right{background:url(//cdn.everymatrix.com/JetbullV2/img/buttons.png) no-repeat right -660px transparent;display:block;}
+.join_now_Left{background:url(//cdn.everymatrix.com/JetbullV2/img/buttons.png) no-repeat left -600px transparent;display:block;}
+.join_now_Center{background:url(//cdn.everymatrix.com/JetbullV2/img/buttons.png) repeat-x center -630px transparent;display:block;margin:0 8px;padding:0 8px;}
+.join_now_Center span{font-size:14px;font-weight:bold;color:White;text-shadow:1px -1px 1px black;padding:0 20px 0 0;background:url(//cdn.everymatrix.com/JetbullV2/img/buttons.png) no-repeat right -1758px transparent;}
+a.join_now:hover .join_now_Center span{color:#000;text-shadow:1px -1px 1px #CCC;background-position:right -1778px;}
+
+
+.device-switcher{display:none;}
+#ifmLoginCallback{display:none;margin:0;padding:0;}

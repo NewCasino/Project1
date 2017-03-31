@@ -1,0 +1,1 @@
+Opravičujemo se, ker trenutno ni na voljo nobena kazino miza za igranje v živo. ({0}/{1}/{2})

@@ -1,0 +1,1 @@
+Na vaš novi e-poštni naslov je bilo poslano potrditveno e-poštno sporočilo; najdete ga v nabiralniku, z njim pa aktivirate svoj novi e-poštni naslov.

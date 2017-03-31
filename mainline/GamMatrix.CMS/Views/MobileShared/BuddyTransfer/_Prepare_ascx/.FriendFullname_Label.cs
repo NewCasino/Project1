@@ -1,0 +1,1 @@
+﻿Celé jméno přítele

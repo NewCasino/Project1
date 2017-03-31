@@ -1,0 +1,1 @@
+Klicka för att visa kvittot för den här transaktionen.

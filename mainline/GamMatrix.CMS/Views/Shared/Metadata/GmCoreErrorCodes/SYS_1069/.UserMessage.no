@@ -1,0 +1,1 @@
+﻿Ugyldig lengde på utstedtnummer, lengden skal være: {0}

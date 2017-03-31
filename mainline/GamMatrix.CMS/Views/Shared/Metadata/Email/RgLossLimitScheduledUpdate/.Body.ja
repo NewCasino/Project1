@@ -1,0 +1,5 @@
+<p>$USERNAME$様、</p>
+<br />  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]までご連絡頂きありがとうございます。<br /> <br />このＥメールはお客様の損失制限が$LIMITAMOUNT$ $LIMITPERIOD$から$NEWLIMITAMOUNT$ $NEWLIMITPERIOD$へ変更された事を確認する為のものです。新制限は$LIMITEXPIRYDATE$に有効になります。<br /> <br />もしご質問等ございましたら次までご連絡ください<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&#160;</p>
+<p>よろしくお願い致します。</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] カスタマーサポートチーム一同</p>

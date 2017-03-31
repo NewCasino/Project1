@@ -1,0 +1,3 @@
+Ditt konto är inaktiverat, du kan för närvarande inte göra några insättningar, uttag, överföringar, etc.
+Ett aktiveringsmeddelande har skickats till den e-postadress som du använde under registreringen. Klicka på länken i aktiveringsmeddelandet för att aktivera ditt konto. 
+Om du inte får ett aktiveringsmeddelande till din e-postadress, klicka <a href="#" id="btnResendEmail">här</a> för att skicka e-postmeddelandet igen.

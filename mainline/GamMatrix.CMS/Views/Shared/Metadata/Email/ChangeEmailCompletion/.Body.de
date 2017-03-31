@@ -1,0 +1,9 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+
+<p>wir bestätigen Ihnen, dass Ihre E-Mail-Adresse bei  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] auf Ihre Anforderung hin geändert wurde. </p>
+<p>Falls Sie keine Änderung Ihrer E-Mail-Adresse verlangt haben, informieren Sie bitte umgehend den Support unter 
+<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+</p>
+
+Mit freundlichen Grüßen, 
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kunden-Support

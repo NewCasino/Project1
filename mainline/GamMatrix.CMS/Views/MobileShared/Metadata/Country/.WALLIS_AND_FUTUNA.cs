@@ -1,0 +1,1 @@
+﻿Wallis a Futuna

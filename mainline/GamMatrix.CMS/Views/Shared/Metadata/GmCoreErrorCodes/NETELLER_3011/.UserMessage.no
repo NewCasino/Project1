@@ -1,0 +1,1 @@
+﻿Oppgitt kontoID er ikke gyldig, eller så kan ikke din konto akseptere betalinger.

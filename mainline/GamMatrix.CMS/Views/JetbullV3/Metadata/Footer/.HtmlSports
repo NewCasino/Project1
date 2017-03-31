@@ -1,0 +1,5 @@
+﻿<div id="commonLink">[Metadata:value(.Links)]</div>
+<div id="footerIcon" class="footerIcon"> [Metadata:value(.Image)]</div>
+<div id="divCopyright">[Metadata:value(.CopyRight)]</div> 
+<div id="divDescription">[Metadata:value(.Description)]</div>
+ 

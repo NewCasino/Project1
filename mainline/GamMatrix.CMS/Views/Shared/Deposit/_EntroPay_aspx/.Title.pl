@@ -1,0 +1,1 @@
+Dokonaj wpłaty za pomocą usługi EntroPay

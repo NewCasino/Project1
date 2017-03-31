@@ -1,0 +1,1 @@
+﻿Hubo un problema con la longitud de su ID de Cuenta o su ID Seguro. Su ID de Cuenta debe tener 12 dígitos y si ID Seguro debe tener 6 dígitos. Por favor inténtelo de nuevo.

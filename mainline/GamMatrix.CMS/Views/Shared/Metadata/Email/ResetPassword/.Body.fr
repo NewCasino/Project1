@@ -1,0 +1,7 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p> Merci de contacter [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], Nous avons reçu votre demande de mot de passe. Veuillez cliquer sur le lien suivant pour réinitialiser votre mot de passe.</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>Ce lien est valide 24 heures et ne peut être utilisé qu’une seule fois.<p>
+<p>Veuillez ignorer cet email si vous ne souhaitez pas changer votre mot de passe.<p/>
+<p>Cordialement, l’équipe<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>
+

@@ -1,0 +1,3 @@
+﻿<h3><p style="font-size:30pt;line-height:25pt;">The Invisible Man</p></h3>
+<p>Настоящая классика жанра теперь доступна<br /> в качестве видеослота. <br />Выиграйте до 200,000 монет и наслаждайтесь повторными вращениями, Walking Wilds, бесплатными вращениями и бонусными играми.<br /></p>
+<p><a href="http://www.jetbull.com/Casino/Game/Info/the-invisible-man-netent" class="button" title="Играть сейчас ►"><span class="GoldButtonText">Играть сейчас►</span></a></p>

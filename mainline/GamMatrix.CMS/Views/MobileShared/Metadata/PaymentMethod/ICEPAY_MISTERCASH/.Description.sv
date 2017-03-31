@@ -1,0 +1,1 @@
+Bancontact/Mister Cash är en betalningsmetod som gör det möjligt i Belgien att betala direkt online genom ett online-betalningssystem från de största Belgiska bankerna.

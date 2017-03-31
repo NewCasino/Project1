@@ -1,0 +1,1 @@
+﻿Żądanie nie mogło zostać zrealizowane. Proszę zadzwonić do Działu Obsługi Klienta NETELLER (1-PAY) pod numer 86-13075600300 (użytkownicy telefonów komórkowych z całego kraju), 86-108008530056 (użytkownicy telefonów stacjonarnych — Chiny północne), 86-108001530056 (użytkownicy telefonów stacjonarnych — Chiny południowe)

@@ -1,0 +1,1 @@
+﻿GiroPay platba přes Skrill (Moneybookers) je snadná, rychlá a bezpečná. Otevře vám cestu k využití prostředků z vašeho bankovního účtu.&nbsp;

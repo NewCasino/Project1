@@ -1,0 +1,1 @@
+﻿Moneybookers is een e-wallet service waarmee Moneybookers klanten geld kunnen storten, opnemen en overmaken van hun online Moneybookers account naar hun gamingrekening. Het is veilig en geld is direct beschikbaar in uw gaming account. Klik&nbsp;<a href="http://www.moneybookers.com/app/" target="_blank">hier</a> om nu een Moneybookers account te openen.

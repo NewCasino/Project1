@@ -1,0 +1,9 @@
+﻿<p>Hei! $FIRSTNAME$,</p>
+
+<p>Tämä on vahvistus siitä, että sähköpostiosoitteesi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] on muutettu pyynnöstäsi.</p>
+<p>Jos et ole pyytänyt vaihtaa sähköpostiosoitettasi, jätä tämä viesti huomiotta tai ilmoita meille osoitteessa 
+<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+</p>
+
+Ystävällisin terveisin , 
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu

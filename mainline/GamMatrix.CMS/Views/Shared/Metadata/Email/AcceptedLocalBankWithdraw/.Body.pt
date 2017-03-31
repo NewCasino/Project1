@@ -1,0 +1,13 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>O seu retiro de dinheiro foi concluído com sucesso.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Por favor, verifique o saldo da sua conta bacária.</strong>
+  </span>
+</p>
+<p>
+  Se tem alguma questão, por favor não hesite em contactar-nos em <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+Com os melhores cumprimentos,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Equipa</p>
+

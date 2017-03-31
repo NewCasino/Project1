@@ -1,0 +1,1 @@
+Waluta i kwota

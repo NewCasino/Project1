@@ -1,0 +1,26 @@
+﻿<ol>
+<li><strong> Wo finde ich alle laufenden Bonusangebote und Aktionen?</strong>
+<p>Sie finden alle laufenden Angebote über die [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Schaltfläche „Aktionen“.</p>
+</li>
+<li><strong> Kann ich bei Inanspruchnahme eines Bonusangebots alle Spiele auf der Website spielen oder gibt es bestimmte Einschränkungen?</strong>
+<p>Bitte lesen Sie sich die Teilnahmebedingungen für den Bonus genau durch und wenden Sie sich im Zweifel an den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Kundenservice.</p>
+</li>
+<li><strong> Wie finde ich heraus, ob ich die Anforderungen für einen Bonus erfüllt habe?</strong>
+<p>Sie können Ihren Fortschritt unter „Mein Konto“ im Abschnitt „Meine Sportwetten“ und dort unter „Aktive Bonusse“ überprüfen.</p>
+</li>
+<li><strong> Aus welchen Gründen kann mir ein Bonusangebot verweigert werden?</strong>
+<p>Einige Bonusangebote sind nur für Spieler aus bestimmten Ländern oder für Nutzer bestimmter Zahlungsmethoden gedacht. Außerdem können Doppelkonten und Missbrauch von [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Bonusangeboten zu Einschränkungen führen. Für Hilfe wenden Sie sich bitte an den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Kundenservice unter support@[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. </p>
+</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

@@ -1,0 +1,1 @@
+﻿Nemůžete převést sám sobě. 

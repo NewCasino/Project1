@@ -1,0 +1,76 @@
+﻿<ol>
+	<li> <strong>Bir [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Hesabı nasıl açabilirim?</strong> 
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile bir Hesabı alltakı yollardan birini takıp ederek açabilirsiniz: 1)
+			<a href="/register">Doğrudan buraya tıklayarak.</a>
+			2) Veya Anasayfaya gidip ister üst sol köşede 'Kayıt ol'u tıklayarak ister üst sağ köşede bulunan 'Şimdi Üye ol'a tıklayarak. Öyle ya da Böyle Bilgilerinizi Girmenizi isteyeceğimiz Kayıt Sayfamıza yönlendireleceksiniz. Lütfen Kullanıcı Adınızın ve Hesabınızın Para Birimini daha sonrad değiştiremeyeceğınizi Dikkata alınız.		<br />
+			İsterseniz bir Promosyon Sifresini de girebilirsiniz. Bilgilerinizi göndermeden lütfen 18 yaşınızdan büyük olduğunuzu ve 'Şartlar ve Koşullar'ı kabul ettiğinizi onaylayınız. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Sitesinde Kullanıcı Adınızı ve Parolanızı kullanarak anında Giriş yapabilirsiniz. 	</p>
+	</li>
+
+	<li> <strong>Hesab açarkan neden Sorun yaşıyorum?</strong>
+		<p>
+			Bu Konuda Destek almak için lütfen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleriyle burdan İletişime geçiniz: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		
+		</p>
+	</li>
+
+	<li>
+		<strong>Neden Oyunlarınızı oynayabilmak için Hesap açmam gerekiyor?</strong>
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile Hesap açmanızı istiyoruz çünkü öyle yaparak bizim Kurallara ve Düzenlemelere , bunlar 18 yaşinizdan büyük olduğunuzu içerir, uyucağınızı kabul ediyorsunuz.		</p>
+	</li>
+
+	<li>
+		<strong>Neden Kişisel Bilgilerime İhtiyacınız var? Kişisel Bilgilerim Sizinle Güvendemi?</strong> 
+		<p>
+			Kişisel Bilgilerinizi Kimliğinizi, Yaşınızı ve Adres Bilgilerinizi kontrol etmek için ve Para Transfer İşlemlerinde kullanıyoruz.&nbsp; [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] en güncel Şifreleme Tekniklerini kullanıyor, kişisel Bilgilerinizi korumak için.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da Hesap açabilmek için Para yatırmam gerekiyormu?
+		</strong>
+		<p>
+			Hayır, Casinomuzda ve Pokerimizde isterseniz bedava, sadece Eğlencesine, de oynayabilirsiniz.
+		</p>
+	</li>
+
+	<li>
+		<strong>Birden fazla Hesabım olabilirmi?</strong>
+		<p>Hayır,sadece bir Hesaba izin veriliyor.</p>
+	</li>
+
+	<li>
+		<strong>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da oynamak için herhangi Asgari yaş Sınırlaması varmı?
+		</strong>
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Sitesinde oynamak için 18 Yaşından büyük olmalısınız.
+		</p>
+	</li>
+
+	<li>
+		<strong>Benim Ülkemden Oyuncu kabul ediyormusunuz?</strong>
+		<p>
+			Ülkenizde herhangi Kanuna karşı davranmadığınız Sürece ABD, Fransa ve Türkiye harıç her Ülkeden Oyuncu kabbul ediyoruz.
+		</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>
+
+

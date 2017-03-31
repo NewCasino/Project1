@@ -1,0 +1,1 @@
+Ett konto med samma detaljer är redan registrerat.

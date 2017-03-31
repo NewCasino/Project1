@@ -1,0 +1,1 @@
+Ročno se prijavite v vašo spletno banko in nakažite denar

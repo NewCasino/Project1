@@ -1,0 +1,1 @@
+﻿Kwota transakcji przewyższa limit kredytowy konta.

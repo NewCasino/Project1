@@ -1,0 +1,1 @@
+﻿ClickandBuy is een e-wallet service waarmee ClickanBuy klanten geld kunnen storten, opnemen en overmaken van hun online ClickandBuy account naar hun gamingrekening. Het is veilig en geld is direct beschikbaar in uw gaming account. Klik&nbsp;<a href="http://www.clickandbuy.com/UK/en/international.html" target="_blank">hier</a> om nu een ClickandBuy account te openen.

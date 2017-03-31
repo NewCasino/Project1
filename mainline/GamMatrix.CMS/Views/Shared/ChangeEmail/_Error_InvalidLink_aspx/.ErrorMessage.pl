@@ -1,0 +1,1 @@
+‎Łącze jest nieprawidłowe lub wygasło.

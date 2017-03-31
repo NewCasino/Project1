@@ -1,0 +1,1 @@
+Självuteslutning

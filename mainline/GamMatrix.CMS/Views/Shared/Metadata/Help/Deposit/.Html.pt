@@ -1,0 +1,79 @@
+﻿<ol>
+
+	<li> <strong>Como posso efetuar um depósito na minha conta?</strong>
+		<p>
+			Clique em "Minha Conta" e em seguida clique em "Depositar Dinheiro", situado na esquerda. Depois deste processo, poderá escolher o seu método de depósito preferido.
+		</p>
+	</li>
+
+	<li> <strong>Quanto tempo demora até que o meu depósito seja aprovado? </strong>
+		<p>
+			O seu depósito será aprovado instantaneamente ao utilizar a maior parte dos métodos de depósito disponíveis. No caso de uma transferência bancária, poderá demorar até 7 dias para ser creditado na sua conta da [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].
+		</p>
+	</li>
+
+	<li>
+		<strong>Quais são os métodos de depósitos disponíveis? </strong>
+		<p>
+			Por favor, clique em "Métodos de Pagamento" no topo da página do website da [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]&nbsp; para ver todos os métodos de pagamento disponíveis.  
+		</p>
+	</li>
+
+	<li>
+		<strong>Quais são os cartões de crédito/débito que aceitam?</strong>
+		<p>
+			A [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] aceita todos os cartões  de débito e crédito Visa e Mastercard/maestro, entre outros cartões de depósito. Note por favor que poderão haver algumas restrições com os retiros de dinheiro em cartões Mastercard/Maestro
+		</p>
+	</li>
+
+	<li>
+		<strong>Há alguma taxa adicional quando depositar na minha conta [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?</strong> 
+		<p>
+			Não há qualquer tipo de taxa adicional para depositar na sua conta [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].
+		</p>
+	</li>
+
+	<li>
+		<strong>Qual é o mínimo/máximo que posso depositar de uma só vez?</strong> 
+		<p>
+			O depósito mínimo é de €10 ou o equivalente na sua moeda local. Por sua vez, o depósito máximo é de €5000 por dia ou o equivalente na sua moeda local.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Posso configurar limites de depósito diários, semanais ou mensais?
+		</strong>
+		<p>
+			Poderá configurar limites diários, semanais e mensais. Estes&nbsp; poderão ser configurados em ‘Minha Conta‘, na secção do Jogos Responsável – Limite de Depósito’. Os limites poderão ser alterados em qualquer momento.
+		</p>
+	</li>
+
+	<li>
+		<strong>Como posso efectuar um depósito a partir da minha conta bancária?</strong>
+		<p>
+			Por favor, clique no botão  ‘Depositar Dinheiro‘, situado em ‘Minha Conta‘ e escolha a opção ‘Transferência Bancária‘. Poderá ativar esta opção ao clicar ‘Depósito‘ e seguir as instruções no ecrã. 
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Há algum limite máximo de depósito com cartões de crédito?
+		</strong>
+		<p>O limite máximo de depósito é de €5000 por dia.</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>
+

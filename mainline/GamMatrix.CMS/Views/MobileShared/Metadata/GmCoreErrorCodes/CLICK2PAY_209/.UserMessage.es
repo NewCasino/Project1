@@ -1,0 +1,1 @@
+﻿Rechazo de riesgo debido a comprobación de IP del país. Para obtener más asistencia, por favor contacte con service@click2pay.com.

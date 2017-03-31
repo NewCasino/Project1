@@ -1,0 +1,1 @@
+﻿Prosimy pamiętać, że $AMOUNT$ zostanie doliczone do rachunku z Twojej karty. Twój bank może przeliczyć kwotę na lokalną walutę, stosując swój kurs wymiany. Kwota uznana na Twoim $ACCOUNT$ koncie może nie być taka sama, jak wskazana na wyciągu z Twojego konta.

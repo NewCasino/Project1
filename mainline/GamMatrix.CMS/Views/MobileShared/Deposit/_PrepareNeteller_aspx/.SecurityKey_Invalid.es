@@ -1,0 +1,1 @@
+﻿El ID seguro debe tener al menos 6 caracteres

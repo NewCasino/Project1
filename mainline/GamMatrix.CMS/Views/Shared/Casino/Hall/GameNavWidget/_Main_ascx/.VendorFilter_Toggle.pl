@@ -1,0 +1,1 @@
+﻿Przełączaj wyświetlane gry z {0}

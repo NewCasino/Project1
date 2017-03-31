@@ -1,0 +1,31 @@
+﻿<div style="line-height: 24px; font-size: 14px; padding-left: 2%;">
+<h1>Commission Rates</h1>
+<br />
+<p>Sports, Casino and Live Casino.</p>
+<table width="80%" cellpadding="0" cellspacing="0" border="0">
+<thead> 
+<tr>
+<th style="color: #e43202; text-align: left;">Net Revenue/month</th> <th style="color: #e43202; text-align: center;">Commission</th>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td align="left">&euro;0 &ndash; &euro;10 000</td>
+<td align="center">25%</td>
+</tr>
+<tr>
+<td align="left">&euro;10 001 - &euro;20 000</td>
+<td align="center">30%</td>
+</tr>
+<tr>
+<td align="left">&euro;20 001 - &euro;40 000</td>
+<td align="center">35%</td>
+</tr>
+<tr>
+<td align="left">&euro;40 001 - unlimited</td>
+<td align="center">50%</td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 10px;">Commission % is always based on the full amount of the Net Revenue level reached.</p>
+</div>

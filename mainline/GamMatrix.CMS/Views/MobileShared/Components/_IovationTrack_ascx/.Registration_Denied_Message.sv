@@ -1,0 +1,1 @@
+﻿Registreringen ej tillåten!

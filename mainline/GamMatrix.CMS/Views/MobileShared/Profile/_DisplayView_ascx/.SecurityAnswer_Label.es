@@ -1,0 +1,1 @@
+﻿Respuesta de seguridad

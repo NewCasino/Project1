@@ -1,0 +1,1 @@
+﻿Använd ditt kredit-/betalkort för att sätta in pengar på <br />ditt nya virtuella VISA-kort

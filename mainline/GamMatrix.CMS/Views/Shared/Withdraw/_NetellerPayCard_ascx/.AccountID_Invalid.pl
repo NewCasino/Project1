@@ -1,0 +1,1 @@
+ID Twojego konta musi zawierać 12 znaków lub format adresu e-mail jest nieprawidłowy.

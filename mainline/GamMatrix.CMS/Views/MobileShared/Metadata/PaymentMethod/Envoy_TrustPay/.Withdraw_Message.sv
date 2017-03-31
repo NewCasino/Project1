@@ -1,0 +1,1 @@
+Gör ett uttag direkt till ditt TrustPay konto

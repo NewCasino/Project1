@@ -1,0 +1,1 @@
+Numer ID transakcji (opcjonalnie)

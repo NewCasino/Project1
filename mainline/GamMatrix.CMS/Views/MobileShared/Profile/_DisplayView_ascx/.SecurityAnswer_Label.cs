@@ -1,0 +1,2 @@
+﻿Bezpěčnostní odpověď
+

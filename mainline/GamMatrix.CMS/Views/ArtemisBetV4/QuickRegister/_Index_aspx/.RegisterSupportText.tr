@@ -1,0 +1,7 @@
+﻿Eğer hesap oluştururken herhangi soru veya sorunla karsılasırsanız lütfen <a href="#" rel="external nofollow" class="livePE" title="Destek ekibimize başvurun">buraya tıklayarak canlı destek  ekibimizden yardim isteyin.</a> 
+<script type="text/javascript">
+$(".SupportGirl, .livePE").click(function(e){
+    e.preventDefault();
+    $(".lebtn div",top.document.body).trigger("click");
+});
+</script>

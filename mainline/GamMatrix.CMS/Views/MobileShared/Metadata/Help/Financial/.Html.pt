@@ -1,0 +1,86 @@
+﻿<ol>
+
+	<li> <strong>Como posso identificar quaisquer pagamentos ou saques para [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] no meu extrato do cartão de crédito/banco?</strong> 
+		<p>
+			Todos os depósitos e saques que aparecem em qualquer cartão de crédito ou extrato bancário será sempre acompanhado por uma descrição em que [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] será mencionado. Isto permitirá que você mantenha o controle de seus depósitos e as retiradas a partir do site.
+		</p>
+	</li>
+
+	<li> <strong>Posso usar mais de um método de pagamento?</strong>
+		<p>
+			Sim, você pode, mas podemos precisar de documentação para quaisquer mudanças nos métodos financeiros.
+		</p>
+	</li>
+
+	<li>
+		<strong>Você aceita cartões de meu país?</strong>
+		<p>
+			Aceitamos cartões de todos países do exceto EUA, Turquia e França.
+		</p>
+	</li>
+
+	<li>
+		<strong>Por que seu site não aceita o meu cartão</strong>
+		<p>
+			Alguns emissores de cartão de crédito mantém uma regra que não permite que você faça depósitos diretos para sites de jogos online. Você pode querer contatar seu provedor de cartão para discutir o assunto, ou tentar uma das opções de e-wallet que depositam. Para obter mais assistência, por favor entre em contato com [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] atendimento ao cliente.
+		</p>
+	</li>
+
+	<li>
+		<strong>O que eu faço se meu depósito de cartão fica diminuído ou rejeitado?</strong>
+		<p>
+			Ocasionalmente se você tentar depositar uma segunda vez antes de seu depósito mais recente passou, ele pode contar para o seu 24 horas e limite de depósito semanal e, portanto, causar um problema de depósito. A causa mais comum para que isso ocorra é devido à forma inadequada preenchendo os campos do formulário de solicitação. Entre em contato com [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] atendimento ao cliente para ter este corrigido. Também alguns emissores de cartão de crédito mantém uma regra que não permite que você faça depósitos diretos para sites de jogos online. Você pode querer contatar seu provedor de cartão para discutir o assunto, ou tentar uma das opções de e-wallet que depositam.
+		</p>
+	</li>
+
+	<li>
+		<strong>Posso usar o meu cartão para depositar em conta do meu amigo?</strong>
+		<p>
+			Você não pode fazer isso, pois isso é considerado uma operação de terceiros e sob nenhuma circunstância é permitido.		</p>
+	</li>
+
+	<li>
+		<strong>Depositei a partir do cartão errado por engano - não há nada que eu possa fazer?</strong> 
+		<p>
+			Entre em contato com [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Atendimento ao Cliente no
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Posso transferir dinheiro entre contas?</strong>
+		<p>
+			Você não pode transferir dinheiro entre contas pessoais, mas você pode transferir entre o Cassino, Sportsbook e Poker em sua conta pessoal.
+		</p>
+	</li>
+
+	<li>
+		<strong>O que é um IBAN?</strong>
+		<p>
+			IBAN significa Número Internacional de Conta Bancária. IBAN é usado em transações bancárias internacionais e faz retiradas de seus ganhos mais fácil.
+		</p>
+	</li>
+
+	<li>
+		<strong>O que é um código CVC2?</strong>
+		<p>
+			CVC2 é um acrônimo para "Código de verificação do cartão ". Este código é necessário como uma medida de segurança ao fazer compras de telefone internacionais e pagamentos na Internet com cartão de crédito . Este código é composto de três dígitos e pode ser encontrado na parte de trás do seu cartão de crédito.
+		</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Imprimir</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>
+

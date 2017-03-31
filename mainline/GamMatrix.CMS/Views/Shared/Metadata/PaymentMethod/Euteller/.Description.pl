@@ -1,0 +1,1 @@
+﻿Euteller to metoda natychmiastowych przelewów bankowych online dostępna dla fińskich banków.

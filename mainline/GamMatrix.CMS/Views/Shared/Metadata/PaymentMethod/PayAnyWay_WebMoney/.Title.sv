@@ -1,0 +1,1 @@
+﻿WebMoney (från Moneta)

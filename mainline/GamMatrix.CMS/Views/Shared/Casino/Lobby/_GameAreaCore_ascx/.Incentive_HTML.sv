@@ -1,0 +1,1 @@
+﻿Du spelar på skoj. <a class="Button IncentiveButton" href="#" title="Logga in eller öppna ett konto nu!">Spela med riktiga pengar</a> för att kunna vinna jackpotten i det här spelet: <span class="Cash">{0}</span>

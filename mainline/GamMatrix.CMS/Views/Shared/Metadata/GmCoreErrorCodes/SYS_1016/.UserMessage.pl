@@ -1,0 +1,1 @@
+﻿Identyfikator konta jest niepoprawny

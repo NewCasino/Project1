@@ -1,0 +1,46 @@
+﻿<ol>
+
+    <li> <strong>Hvor er nettstedet deres basert?</strong>
+        <p>Nettstedet er basert på Malta.</p>
+    </li>
+
+    <li> <strong>Er nettstedet lisensiert?</strong>
+        <p>
+            Ja, vi har en gyldig EU-lisens for sportsspill, casino og poker.
+        </p>
+    </li>
+
+    <li>
+        <strong>Er kredittkortopplysningene mine trygge?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] bruker svært avanserte datakrypteringsteknikker for å garantere at opplysningene dine bare er tilgjengelige for et par utvalgte innen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] familien. Vi krypterer alle opplysninger ved hjelp av SSL-krypteringsalgoritmer. Dette er en internasjonalt godkjent bransjestandard. Det betyr at alle opplysningene dine som sendes frem og tilbake, inkludert adressen din og kortene du tildeles, beskyttes på samme måte som en bank beskytter dataene sine.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hvordan vet jeg at de finansielle opplysningene mine er sikre?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Vi krypterer alle opplysninger ved hjelp av SSL-krypteringsalgoritmer. Dette er en internasjonalt godkjent bransjestandard. Det betyr at alle opplysningene dine som sendes frem og tilbake, inkludert adressen din og kortene du tildeles, beskyttes på samme måte som en bank beskytter dataene sine.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hvordan vet jeg at pengene mine er trygge?</strong>
+        <p>
+            Alle kundemidler oppbevares på en separat depositumkonto i Bank of Valletta. Dette er i samsvar med Lotteries and Gaming Regulations of Malta, som har lisensiert driften. Kundenes midler er helt avgrenset fra selskapets midler og oppbevares trygt på denne måten for å sikre at kundenes midler er trygge og alltid tilgjengelige for kundene.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

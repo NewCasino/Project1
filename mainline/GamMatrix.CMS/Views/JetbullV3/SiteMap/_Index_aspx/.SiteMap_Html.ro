@@ -1,0 +1,69 @@
+﻿<div class="sitemap_items">
+<div class="root_title">Jetbull</div>
+<ul class="items">
+<li> <a href="/">Acasa</a> </li>
+<li> <a href="http://help-ro.jetbull.com">Intrebari Frecvente</a></li>
+<li> <a href="/customersupport">Asistenta Clienti</a> </li>
+<li> <a href="/deposit">Metode Plata</a> </li>
+<li> <a href="/withdraw">Retrageri</a> </li>
+<li> <a href="/PendingWithdrawal">Retrageri in Asteptare</a> </li>
+<li> <a href="/Transfer">Transfer</a> </li>
+<li> <a href="/AccountStatement">Istoric Tranzactii</a> </li>
+<li> <a href="/Profile">Profilul Meu</a> </li>
+<li> <a href="/ChangeEmail">Schimba Email</a> </li>
+<li><a href="/ChangePwd">Schimba Parola</a> </li>
+<li> <a href="/Limit">Limite</a> </li>
+<li> <a href="/SelfExclusion">Auto-excludere</a> </li>
+<li> <a href="#" onclick="$('a.livechat').click();return false;">Chat Live</a> </li>
+<li> <a href="/ForgotPassword">Parola uitata</a> </li>
+<li> <a href="/register">Inregistrare</a> </li>
+<li> <a href="/Sports/old">Pariuri Sportive</a> </li>
+<li> <a href="/Mobile/">Mobil</a> </li>
+<li> <a href="/Casino/">Casino</a></li>
+<li><a href="https://www.jetbull.com/LiveCasino/">Live Casino</a></li>
+<li><a href="https://www.jetbull.com/LiveCasino/Lottery">Loterie</a></li>
+<li><a href="https://www.jetbull.com/Sports/Virtual">Sporturi Virtuale</a></li>
+<li> <a href="/Promotions/home">Promotii</a> </li>
+<li> <a href="/AboutUs">Despre Jetbull</a> </li>
+<li> <a href="/ResponsibleGaming">Joc Responsabil</a> </li>
+<li> <a href="/TermsConditions">Termeni &amp; Conditii</a> </li>
+<li> <a href="/under18">Sub18 Termeni</a> </li>
+<li> <a href="/sitemap">Sitemap</a> </li>
+<li> <a href="/Affiliate/home">Afiliere</a> </li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Pariuri</div>
+<ul class="items">
+<li> <a href="http://help-ro.jetbull.com/category/355-pariuri-sportive">Intrebari Frecvente</a> </li>
+<li> <a href="/Promotions/home/sports">Promotii</a> </li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Casino</div>
+<ul class="items">
+<li> <a href="http://help-ro.jetbull.com/category/357-casino">Intrebari Frecvente</a> </li>
+<li> <a href="https://www.jetbull.com/casino/restrictedcountries">Disponibilitate Jocuri</a></li>
+<li><a href="https://www.jetbull.com/Promotions/home/casino">Promotii</a></li>
+<li><a href="https://www.jetbull.com/casino/jackpots">Jackpoturi</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Promotii</div>
+<ul class="items">
+<li> <a href="/Promotions/Home">Toate Promotiile</a> </li>
+<li> <a href="/Promotions/home/sports">Pariuri</a> </li>
+<li> <a href="/Promotions/home/casino">Casino</a> </li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Afiliere</div>
+<ul class="items">
+<li> <a href="/Affiliate/home">Autentificare</a> </li>
+<li> <a href="http://affiliate.jetbull.com/user/passRecovery.do">Parola uitata?</a> </li>
+<li> <a href="/Affiliate/WhyJetbull">Aplica Acum</a></li>
+<li><a href="/Affiliate/WhyJetbull">De ce Jetbull?</a> </li>
+<li> <a href="/Affiliate/FAQ">FAQ</a> </li>
+<li> <a href="/Affiliate/TAndC">Termeni (engleza)</a> </li>
+</ul>
+</div>

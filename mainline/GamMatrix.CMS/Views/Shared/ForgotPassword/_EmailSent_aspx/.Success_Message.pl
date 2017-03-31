@@ -1,0 +1,1 @@
+Otrzymasz wiadomość e-mail z instrukcjami, jak dokonać zmiany hasła.

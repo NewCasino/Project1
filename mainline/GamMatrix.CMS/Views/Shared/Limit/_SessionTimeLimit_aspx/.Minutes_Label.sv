@@ -1,0 +1,1 @@
+Max. tillåten sessionstid (i minuter)

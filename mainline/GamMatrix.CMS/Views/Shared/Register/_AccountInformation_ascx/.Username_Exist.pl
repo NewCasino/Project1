@@ -1,0 +1,1 @@
+Nazwa użytkownika jest już zajęta, wybierz inną

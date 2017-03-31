@@ -1,0 +1,1 @@
+Vaše ime mora vsebovati vsaj 2 znaka

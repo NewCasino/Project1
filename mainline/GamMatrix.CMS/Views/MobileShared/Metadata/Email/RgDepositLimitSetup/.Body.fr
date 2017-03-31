@@ -1,0 +1,19 @@
+﻿<p>Dear $USERNAME$, <br />
+</p>
+<br />
+Merci d’avoir contacté [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+Votre limite de dépôt personnel est fixée à &#160;$NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. <br />
+<br />
+Cette limite est indépendante de toute limite fixée par le fournisseur de paiement que vous avez choisi. <br />
+<br />
+Vous pouvez réduire votre limite de dépôt immédiatement &#160; utilisant le même menu qui est dans la zone Jeu Responsable du site.<br />
+<br />
+Si vous souhaitez cependant augmenter votre limite, cela prendra &#160;3 jours avant que la nouvelle limite &#160;soit activée.&#160;La période de trois jours vous est donné afin de vous permettre le temps de reconsidérer le changement si nécessaire.<br />
+<br />
+N’hésitez pas à nous contacter si vous avez des questions à <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&#160;</p>
+<p> Cordialement </p>
+<p> Service Clientèle [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] &#160;&#160;&#160; <br />
+</p>
+

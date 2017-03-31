@@ -1,0 +1,3 @@
+﻿Din sikkerhets-ID må være minst 6 tegn
+
+

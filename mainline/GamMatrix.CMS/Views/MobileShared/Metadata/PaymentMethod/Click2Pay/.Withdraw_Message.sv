@@ -1,0 +1,1 @@
+Uttag direkt till ditt Click2Pay konto

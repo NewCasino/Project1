@@ -1,0 +1,1 @@
+﻿Poštovní směrovací číslo

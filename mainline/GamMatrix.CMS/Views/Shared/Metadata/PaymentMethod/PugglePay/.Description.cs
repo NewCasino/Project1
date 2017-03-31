@@ -1,0 +1,1 @@
+﻿Vložte peníze s PugglePay fakturou okamžitě. K vkládání potřebuje pouze unikátní SMS kód, který pošlete z vašeho telefonu. Fakturu obdržíte od PugglePay pomocí SMS nebo emailu. To znamená, že nebude účtovat peníze přímo přes vašeho telefonního operátora.  

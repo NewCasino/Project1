@@ -1,0 +1,13 @@
+﻿#registered-cards-wrapper .fieldset_Container ul {
+        clear:both;
+        display:table;
+    }
+#registered-cards-wrapper .fieldset_Container li{float:left;border:1px solid #fff;border-radius:.4em;margin-right:1%;margin-bottom:5px;width:32%}
+#registered-cards-wrapper .fieldset_Container li:hover{border-color:red}
+#registered-cards-wrapper .fieldset_Container li a{display:block;position:relative}
+.registered-card-item-icon-wrap{width:35%;height:64px;overflow:hidden;float:left;margin:2.5%;}
+    .registered-card-item-icon-wrap img {
+    width:100%;height:auto;
+    }
+.registered-card-item-content{float:left;margin:2.5%;width:57.5%;overflow:hidden; margin-left:0;}
+.registered-card-item-content li{float:none!important;border:none!important;overflow:hidden;margin:0!important;padding:0!important;width:100%!important;white-space:nowrap;text-overflow:ellipsis}

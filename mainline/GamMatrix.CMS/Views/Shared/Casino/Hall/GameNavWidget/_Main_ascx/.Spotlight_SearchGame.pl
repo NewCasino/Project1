@@ -1,0 +1,1 @@
+Wyszukaj grę według nazwy

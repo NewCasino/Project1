@@ -1,0 +1,1 @@
+﻿Spela och gå

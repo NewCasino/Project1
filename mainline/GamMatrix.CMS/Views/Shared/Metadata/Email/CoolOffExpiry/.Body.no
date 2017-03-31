@@ -1,0 +1,12 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<br />
+<p>Kontonavn: $USERNAME$ </p>
+<br />
+Denne e-postmeldingen bekrefter at avkjølingsperioden er avsluttet. Alle funksjonene på kontoen din er nå aktivert.
+<br />
+<br />
+Skulle du har flere spørsmål, er det bare å ta kontakt på 
+<a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>Med vennlig hilsen</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] Kundestøtteteamet</p>

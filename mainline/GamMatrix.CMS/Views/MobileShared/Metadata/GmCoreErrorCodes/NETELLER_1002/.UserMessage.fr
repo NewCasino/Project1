@@ -1,0 +1,1 @@
+﻿Il y avait un problème avec la longueur de votre ID de compte ou votre ID sécurisé. Votre ID de compte doit être de 12 chiffres et votre Secure ID doit être de 6 chiffres. Nous vous prions d'essayez de nouveau.

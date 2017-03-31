@@ -1,0 +1,33 @@
+﻿<ol>
+<li><strong> Wie zahle ich Geld auf mein Konto ein?</strong>
+<p>Klicken Sie auf „Mein Konto“ und dann auf den Button „Einzahlung“ in der linken Spalte. Nun können Sie Ihre gewünschte Einzahlungsmethode wählen.</p>
+</li><li><strong> Wie lange dauert es, bis meine Einzahlung genehmigt wird?</strong>
+<p>Bei den meisten Zahlungsmethoden wird Ihre Einzahlung sofort genehmigt. Im Falle einer Banküberweisung kann es jedoch bis zu 7 Tage dauern, bis wir die Zahlung von der Bank erhalten und Ihrem [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Konto gutschreiben.</p>
+</li><li><strong> Welche Einzahlungsoptionen bieten Sie an?</strong>
+<p>Bitte klicken Sie auf „Zahlungsarten“ im oberen Menü auf einer beliebigen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Seite. Sie sehen dann alle verfügbaren Zahlungsmethoden.</p>
+</li><li><strong> Welche Kredit-/Kontokarten akzeptieren Sie?</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] akzeptiert für Einzahlungen alle Visa- und Mastercard/Maestro-Kreditkarten und -Kontokarten. Für Auszahlungen bestehen jedoch bei Mastercard/Maestro gewisse Einschränkungen.</p>
+</li><li><strong> Muss ich bei Einzahlungen auf mein [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Konto irgendwelche Gebühren bezahlen?</strong>
+<p>Für Einzahlungen auf Ihr [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Konto fallen keine Gebühren kann.</p>
+</li><li><strong> Was sind die Mindest- und Höchstbeträge pro Einzahlung?</strong>
+<p>Die Mindesteinzahlung beträgt €10 (bzw. der gleichwertige Betrag in Ihrer Währung) und der Höchstbetrag beträgt €5.000 (bzw. der gleichwertige Betrag in Ihrer Währung) pro Tag.</p>
+</li><li><strong> Kann ich mir tägliche, wöchentliche und monatliche Einzahlungslimits setzen?</strong>
+<p>Ja, Sie können sich tägliche, wöchentliche oder monatliche Einzahlungslimits setzen. Diese können Sie unter „Mein Konto“ im Abschnitt „Spielsuchtverhinderung – Einzahlungslimit“ festlegen. Limits können in demselben Abschnitt auch jederzeit geändert werden.</p>
+</li><li><strong> Wie nehme ich eine Einzahlung über mein Bankkonto vor?</strong>
+<p>Bitte klicken Sie auf „Geld einzahlen“ unter „Mein Konto“ und wählen Sie „Banküberweisung“. Sie können diese Option durch einen Klick auf „Einzahlung“ aktivieren. Folgen Sie dann den Anweisungen auf dem Bildschirm.</p>
+</li><li><strong> Gibt es ein wöchentliches Limit, wie viel ich mit meiner Kreditkarte auf mein Benutzerkonto einzahlen kann?</strong>
+<p>Die Höchstsumme für Einzahlungen beträgt €5.000 pro Tag. </p>
+</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

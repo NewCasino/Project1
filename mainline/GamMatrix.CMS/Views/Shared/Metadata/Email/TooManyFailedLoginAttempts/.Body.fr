@@ -1,0 +1,12 @@
+﻿Ceci est un email automatique, veuille ne pas répondre.
+<hr/>
+Bonjour $FIRSTNAME$
+<br />
+<br />
+    Vous avez fait trop de tentatives de connexion infructueuses, votre compte a été bloqué automatiquement, veuillez contacter le service clientèle à <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<br />
+<br />
+<br />
+Cordialement,
+Service Clientèle [Metadata:value(/Metadata/Settings.Operator_DisplayName)] 
+

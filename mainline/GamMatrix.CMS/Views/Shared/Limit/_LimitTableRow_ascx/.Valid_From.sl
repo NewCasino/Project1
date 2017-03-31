@@ -1,0 +1,1 @@
+Začetek veljavnosti : {0}

@@ -1,0 +1,1 @@
+﻿Pobranie z {0} konta.

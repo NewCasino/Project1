@@ -1,0 +1,4 @@
+﻿FPP-er i øyeblikket: {0} poeng Poeng som kreves: {1} poeng 
+Alle {2} poeng vil vil kreves for {3} {4}
+
+Krev dine penger?

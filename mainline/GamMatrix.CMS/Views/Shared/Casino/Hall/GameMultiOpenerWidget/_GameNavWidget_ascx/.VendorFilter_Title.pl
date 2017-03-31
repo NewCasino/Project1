@@ -1,0 +1,1 @@
+Przełączaj widok

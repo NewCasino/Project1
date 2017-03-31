@@ -1,0 +1,1 @@
+Sofortbanking je enostavna storitev neposrednega plačevanja, ki ponuja enak standard visoke varnosti, kot ga uporabljajo storitve spletnega bančništva. 

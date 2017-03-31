@@ -1,0 +1,1 @@
+1-roczny okres samowykluczenia

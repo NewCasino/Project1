@@ -1,0 +1,1 @@
+﻿Chcę ograniczyć swoje granie

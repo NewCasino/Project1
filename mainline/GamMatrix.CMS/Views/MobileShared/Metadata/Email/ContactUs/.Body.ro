@@ -1,0 +1,12 @@
+﻿<em>Acest email este trimis de un client de pe site din pagina "Contactati-ne".<br />
+NU raspundeti la acest email in mod direct! Veti gasi mai jos emailul direct al clientului.</em>
+<hr/>
+<ul>
+<li><strong>Email client</strong>:$EMAIL$</li>
+<li><strong>Nume client</strong>:$NAME$</li>
+<li><strong>Subiect</strong>:$SUBJECT$</li>
+<li><strong>ID utilizator</strong>:$USERID$</li>
+<li><strong>Nume de utilizator</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

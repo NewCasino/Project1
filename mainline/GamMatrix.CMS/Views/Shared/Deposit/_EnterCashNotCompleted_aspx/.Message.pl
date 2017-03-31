@@ -1,0 +1,1 @@
+Kliknij przycisk Zakończ tutaj, aby odświeżyć szczegóły swojej transakcji.

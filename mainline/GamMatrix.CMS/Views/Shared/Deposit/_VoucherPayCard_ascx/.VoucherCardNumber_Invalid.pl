@@ -1,0 +1,1 @@
+Numer kuponu musi składać się z 16 cyfr.

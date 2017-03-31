@@ -1,0 +1,4 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+Ihre Einzahlung wurde abgelehnt, bitte überprüfen Sie die Bankdaten und versuchen Sie es später erneut.
+<p>Falls Sie Fragen bezüglich Ihres Gutscheins haben, kontaktieren Sie uns bitte unter <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Viele Grüße,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ihr Team</p>

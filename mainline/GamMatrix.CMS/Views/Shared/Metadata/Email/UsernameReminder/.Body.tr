@@ -1,0 +1,5 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile İletişime geçtiğiniz için Teşekkür ederiz, unutulmuş Kullanıcı Adı Talebinizi aldık. </p>
+
+<p>Kullanıcı Adınız bu <strong>$USERNAME$</strong>. </p>
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ekibi</p>

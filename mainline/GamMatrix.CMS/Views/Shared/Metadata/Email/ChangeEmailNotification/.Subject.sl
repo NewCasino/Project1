@@ -1,0 +1,1 @@
+﻿[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] - Obvestilo o spremembi e-poštnega naslova

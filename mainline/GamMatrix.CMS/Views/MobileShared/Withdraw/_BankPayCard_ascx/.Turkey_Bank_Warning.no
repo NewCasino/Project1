@@ -1,0 +1,1 @@
+﻿Bankoverføring til en bankkonto i Tyrkia vil bare foretas i EUR eller USD, så sjekk at banken din godtar bankoverføring i EUR eller USD.

@@ -1,0 +1,1 @@
+Vaša koda za Secure ID mora vsebovati vsaj 6 znakov

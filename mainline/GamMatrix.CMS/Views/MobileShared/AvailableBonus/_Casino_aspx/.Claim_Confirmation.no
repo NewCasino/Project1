@@ -1,0 +1,5 @@
+﻿Gjeldende FPP: {0} poeng
+Min poeng som kreves: {1} poeng
+Hvert {2} poeng vil bli hevdet som {3} {4}
+
+Få pengene?

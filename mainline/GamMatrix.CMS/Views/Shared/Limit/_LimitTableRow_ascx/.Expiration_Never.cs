@@ -1,0 +1,1 @@
+﻿Neomezená platnost

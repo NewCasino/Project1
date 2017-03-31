@@ -1,0 +1,11 @@
+﻿<em> Този имейл е изпратен от клиент на интернет страницата на "За контакти" страница. <br />
+Не отговаряйте директно на настоящия имейл! Можете да намерите имейл клиент по-долу. </Em>
+<hr/>
+<ul>
+<strong> <li> Customer Email </силен>: $EMAIL$ </Li>
+<strong> <li> Customer Име </силен>: $NAME$ </Li><li><strong>Subject</strong>:$SUBJECT$</li>
+<li><strong>User ID</strong>:$USERID$</li>
+<li><strong>Username</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

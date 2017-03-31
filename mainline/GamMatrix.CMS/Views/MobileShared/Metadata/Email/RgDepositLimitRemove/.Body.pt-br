@@ -1,0 +1,6 @@
+﻿<p>Caro $USERNAME$,</p>
+<br /> Obrigado por contatar [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Esta mensagem é para confirmar que o seu limite de perda pessoal $LIMITAMOUNT$ $LIMITPERIOD$ será removido em $LIMITEXPIRYDATE$. <br /> <br /> Por não hesite em nos contatar se tiver qualquer dúvida em <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p><br /> Atenciosamente</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Time de Atendimento ao Consumidor</p>
+

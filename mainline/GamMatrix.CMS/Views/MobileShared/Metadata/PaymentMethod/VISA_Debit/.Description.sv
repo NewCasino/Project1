@@ -1,0 +1,1 @@
+Du kan snabbt föra över pengar från ditt Visa uttags-kort till ditt spelkonto. Skriv bara in dina kortuppgifter, och när ditt Visa uttagskort är verifierat kommer din transaktion direkt in på ditt spelkonto. 

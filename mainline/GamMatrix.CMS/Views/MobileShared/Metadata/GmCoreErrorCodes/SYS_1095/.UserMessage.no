@@ -1,0 +1,2 @@
+﻿Casino feilmelding 201: det er ikke nok penger på konto ({0})
+

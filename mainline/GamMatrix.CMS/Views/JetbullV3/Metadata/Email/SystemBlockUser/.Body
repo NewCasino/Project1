@@ -1,0 +1,8 @@
+﻿Dear $FIRSTNAME$,<br /><br />
+Account username: $USERNAME$<br /><br />
+<p>This email is to inform you that your account has been blocked for one or some of the reasons below.</p>
+<p>It could be that you already had an account and you tried to register another account </p>
+<p>If you have misplaced your password, please use the forgotten password link on the site to retrieve your password.</p>
+<p>It could be that your activity has triggered our security system and your account has been blocked for your security.</p>
+<p>Please do not hesitate to contact <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] for further details.</a></p>
+<p>Kind regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team</p>

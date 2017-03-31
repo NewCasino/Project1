@@ -1,0 +1,1 @@
+﻿Envoy reverseringsmelding angående allerede prosessert transaksjon - må håndteres manuelt

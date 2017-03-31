@@ -1,0 +1,47 @@
+﻿<ol>
+
+    <li> <strong>Onde está sediada a vossa operação?</strong>
+        <p>A nossa base de operações é em Malta.</p>
+    </li>
+
+    <li> <strong>O vosso website é licenciado? </strong>
+        <p>
+            Sim, possuímos uma licença europeia de Apostas, Casino e Poker.  
+        </p>
+    </li>
+
+    <li>
+        <strong>A informação do meu cartão de crédito está segura?</strong>
+        <p>
+           A [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] utiliza a tecnologia mais avançada para garantir que a sua informação apenas esteja disponível para alguns departamentos da [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. Toda a informação é encriptada com os mais altos padrões da indústria de jogos online (SSL encryption algorithms).  
+        </p>
+    </li>
+
+    <li>
+        <strong>Como posso ter a certeza que a minha informação financeira está segura?</strong>
+        <p>
+         Na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] toda a informação é encriptada com os mais altos padrões da indústria de jogos online (SSL encryption algorithms).  As nossas normas de segurança são as mesmas utilizadas por instituições bancárias.
+        </p>
+    </li>
+
+    <li>
+        <strong>Como posso ter a certeza que o meu dinheiro está seguro?</strong>
+        <p>
+            Todos os fundos dos nossos clientes são mantidos numa conta separada do Banco de Valletta. Este processo bancário cumpre com as leis das Lotarias e Regulamentações de Malta. Os fundos dos clientes são completamente separados dos fundos corporativos, para segurança total em todos os momentos. 
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+

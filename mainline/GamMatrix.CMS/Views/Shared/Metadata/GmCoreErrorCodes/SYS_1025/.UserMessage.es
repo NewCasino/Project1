@@ -1,0 +1,1 @@
+﻿La cantidad no está entre los valores de límite permitidos

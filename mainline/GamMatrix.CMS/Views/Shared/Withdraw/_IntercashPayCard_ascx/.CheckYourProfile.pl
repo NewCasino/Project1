@@ -1,0 +1,1 @@
+Karta zostanie wydana na podstawie informacji podanych na Twoim profilu. Sprawdź swój profil poniżej. albo kliknij <a href="/Profile">tutaj,</a> aby zaktualizować swój profil.

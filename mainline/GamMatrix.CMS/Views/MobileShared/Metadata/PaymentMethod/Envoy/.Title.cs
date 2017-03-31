@@ -1,0 +1,1 @@
+﻿Rychlý bankovní převod

@@ -1,0 +1,12 @@
+<em>このメールは、ウェブサイトの「お問合せ」のページからお客様より送信されたものです。<br />
+直接このメールに返信しないで下さい！下記にてお客様のEメールの内容をご確認頂けます。</em>
+<hr />
+<ul>
+<li><strong>お客様のEメール</strong>:$EMAIL$</li>
+<li><strong>お客様のお名前</strong>:$NAME$</li>
+<li><strong>件名</strong>:$SUBJECT$</li>
+<li><strong>ユーザーID</strong>:$USERID$</li>
+<li><strong>ユーザー名</strong>:$USERNAME$</li>
+</ul>
+<hr />
+<pre>$CONTENT$</pre>

@@ -1,0 +1,11 @@
+﻿<div class="Message RegisterMessage">
+	<h3 class="MessageTitle">Tons of sports events going on right now!</h3>
+	<p class="MessageText">Check out the great selection of live Football, Basketball, Handball, Tennis and Ice Hockey matches our Sports section can offer you today! We also have non-live odds for most of the sports and competitions in the world.</p>
+	<ul class="MessageOptions Container">
+		<li class="MessageOption MOMain">
+			<a class="Button MessageIncentive CTAButton" href="/Sports/" title="Go to our sportsbook now!">
+				<span class="ButtonText">Start betting on Jetbull Sports <span class="ActionSymbol">&#9658;</span></span>
+			</a>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,1 @@
+﻿Garanti Bank, je s 63 lety existence, druhá největší banka na tureckém trhu. Její finanční aktiva přesahují 78 bilionů USD a je sílícím hráčem na bankovním trhu. Garanti poskytuje jistotu rozvoje, ověřených strategií a udržitelný royvoj na finančím trhu již od svého počátku. 

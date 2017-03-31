@@ -1,0 +1,1 @@
+﻿Série francouzské rulety

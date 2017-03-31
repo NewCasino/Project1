@@ -1,0 +1,1 @@
+﻿No puede retirar porque su cuenta no está activada.

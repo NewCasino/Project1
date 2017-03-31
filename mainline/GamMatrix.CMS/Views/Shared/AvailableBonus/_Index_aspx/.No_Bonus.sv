@@ -1,0 +1,1 @@
+Det finns ingen aktiv bonus just nu

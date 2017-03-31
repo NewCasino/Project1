@@ -1,0 +1,1 @@
+Limit 1 kliknięcia: maksymalna kwota, którą pozwalasz sobie wpłacić 1 kliknięciem

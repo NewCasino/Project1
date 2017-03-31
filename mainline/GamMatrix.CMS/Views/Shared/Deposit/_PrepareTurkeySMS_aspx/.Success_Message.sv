@@ -1,0 +1,1 @@
+Tack, din begäran kommer att behandlas så snart som möjligt.

@@ -1,0 +1,1 @@
+﻿W nazwie użytkownika lub adresie e-mail Twojego znajomego jest błąd.

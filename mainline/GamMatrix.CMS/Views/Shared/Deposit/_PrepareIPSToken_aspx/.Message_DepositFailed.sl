@@ -1,0 +1,1 @@
+Ni uspelo; preverite vnos in poskusite znova.

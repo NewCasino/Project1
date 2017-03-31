@@ -1,0 +1,360 @@
+﻿<ol>
+        
+<li><strong>INTRODUKSJON(UK Lisens):</strong>
+<p>
+1.1.&nbsp;&nbsp; &nbsp;Ved å benytte og/eller besøke en hvilken som helst del av nettstedet [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] &nbsp; (”Nettstedet”), eller ved å åpne en konto på Nettstedet, godtar du å være bundet av:(the "Website"); 
+<br/>
+1.1.1.&nbsp;&nbsp; &nbsp;de generelle bruksvilkårene på denne siden; 
+<br/>
+1.1.2.&nbsp;&nbsp; &nbsp;personvernsbetingelsene,
+<br/>
+1.1.3.&nbsp;&nbsp; &nbsp;alle spilleregler,
+<br/>
+1.1.4.&nbsp;&nbsp; &nbsp;alle vilkår og betingelser i forbindelse med kampanjer, bonuser og spesialtilbud som fra tid til annen finnes på Nettstedet.
+<br/>
+1.2.&nbsp;&nbsp; &nbsp;Alle vilkårene og betingelsene opplistet ovenfor skal sammen omtales som ”Vilkårene”.
+<br/>
+1.3.&nbsp;&nbsp; &nbsp;Les vennligst Vilkårene grundig før du godtar dem. Dersom du ikke godtar å være bundet av Vilkårene ber vi deg vennligst om ikke å opprette en konto eller fortsette å bruke Nettstedet. Fortsatt bruk av Nettstedet anses som en godkjennelse av Vilkårene.
+<br/>
+1.4.&nbsp;&nbsp; &nbsp;Vilkårene trer i kraft 9. juni 2010.
+</p>
+</li>
+
+<li><strong>PARTER</strong>
+<p>
+2.1.&nbsp;&nbsp; &nbsp;Sportsbook-tjenesten og innholdet på Nettstedet leveres av EveryMatrix Ltd, reg. nr. C44411, 712, 14/19 Street, Valletta, VLT 1432 Malta. EveryMatrix vedlikeholder og driver en profesjonell sportsbook i kraft av Letter of Intent Number LGA/CL2/497/2008, utstedt av Maltese Lotteries and Gaming Authority under maltesisk lov.
+<br/>
+2.2.&nbsp;&nbsp; &nbsp;Referanser i bruksvilkårene som ”oss”, ”vår”, ”vi” eller ”Selskapet” er referanser til parten du, som spesifisert ovenfor, er bundet av kontrakt med.
+</p>
+</li>
+
+
+<li><strong>ENDRINGER I BRUKSVILKÅRENE</strong>
+<p>
+3.1.&nbsp;&nbsp; &nbsp;Vi kan være nødt til å endre Vilkårene av flere grunner, inkludert kommersielle årsaker, for å imøtekomme nye lover eller reguleringer eller av hensyn til kundeservice. De oppdatere Vilkårene finner du her og datoen for når de tredde i kraft fremgår alltid.
+<br/>
+3.2.&nbsp;&nbsp; &nbsp;Hvis vi endrer Vilkårene og anser det som nødvendig å informere deg om disse endringene vil dette skje via e-post eller med informasjon på Nettstedet.
+</p>
+</li>
+
+
+<li><strong>ÅPNE KONTO</strong>
+<p>
+4.1.&nbsp;&nbsp; &nbsp;For å kunne plassere et veddemål på Nettstedet må du opprette en konto hos oss (”Din konto”).
+<br/>
+4.2.&nbsp;&nbsp; &nbsp;Av rettslige eller kommersielle årsaker tillater vi ikke personer utstasjonert eller bosatt i visse jurisdiksjoner, inkludert USA, å åpne eller benytte kontoer. Dersom du befinner deg i en slik jurisdiksjon ber vi deg om ikke å åpne en konto eller benytte Nettstedet.
+<br/>
+4.3.&nbsp;&nbsp; &nbsp;For å opprette Din konto og benytte Nettstedet kan du kontakte kundeservice eller klikke <a href="/register">her</a> og følge instruksjonene på skjermen.a
+<br/>
+4.4.&nbsp;&nbsp; &nbsp;Ved opprettelse av Din konto blir du bedt om personlige opplysninger som navn, fødselsdato og nødvendig kontaktinformasjon, inkludert adresse, telefonnummer og e-postadresse (”Dine kontaktopplysninger”). 
+<br/>
+4.5.&nbsp;&nbsp; &nbsp;Du bekrefter og godtar herved at du ved bruk av Nettstedets tjenester både kan vinne og tape penger.
+<br/>
+4.6.&nbsp;&nbsp; &nbsp;Din konto må være opprettet i eget, korrekt navn. Du kan kun åpne én konto på vår sportsbook. Andre kontoer du åpner relatert til våre tjenester og Nettstedet anses som ”Duplikatkontoer”. Enhver duplikatkonto kan stenges av oss umiddelbart, og:
+<br/>
+4.6.1.&nbsp;&nbsp; &nbsp;alle transaksjoner gjennomført fra Duplikatkontoen anses som ugyldige;
+<br/>
+4.6.2.&nbsp;&nbsp; &nbsp;alle innsatser eller innskudd med Duplikatkontoen returneres, og
+<br/>
+4.6.3.&nbsp;&nbsp; &nbsp;alle returneringer, gevinster eller bonuser opptjent og/eller brukt i perioden Duplikatkontoen var aktiv anses som tapt og kan bli krevd tilbakebetalt til oss. Du vil være pålagt, hvis bedt om, å tilbakebetale ethvert beløp du har utbetalt fra Duplikatkontoen.
+<br/>
+4.7.&nbsp;&nbsp; &nbsp;Dersom du ønsker å åpne en ny konto kan du gjøre dette ved å kontakte manageren på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>. Dersom en ny konto åpnes vil din gamle konto stenges.
+<br/>
+4.8.&nbsp;&nbsp; &nbsp;Du er pålagt å vedlikeholde kontoen din og oppdatere all nødvendig informasjon.</p>
+</li>
+
+
+<li><strong>IDENTITETSVERIFISERING; HVITVASKING</strong>
+<p>
+5.1.&nbsp;&nbsp; &nbsp;Du garanterer at:
+<br/>
+5.1.1.&nbsp;&nbsp; &nbsp;du ikke er yngre enn:
+<br/>
+5.1.1.1.&nbsp;&nbsp; &nbsp;18 (atten) år, eller
+<br/>
+5.1.1.2.&nbsp;&nbsp; &nbsp;lovlig alder for pengespillaktiviteter i gjeldende jurisdiksjon (”Lovlig alder”); og
+<br/>
+5.1.2.&nbsp;&nbsp; &nbsp; at informasjonen opplyst ved opprettelse av Din konto er korrekt, og
+<br/>
+5.1.3.&nbsp;&nbsp; &nbsp;at du er den rettmessige eier av pengene på Din konto.
+<br/>
+5.2.&nbsp;&nbsp; &nbsp;Ved å godta Vilkårene gir du oss autorisasjon til å gjennomføre verifiseringer etter eget ønske, eller pålagt av tredjepart (inkludert kontroll- og reguleringsmyndigheter), for å bekrefte din identitet og kontaktinformasjon (”Kontroller”). 
+<br/>
+5.3.&nbsp;&nbsp; &nbsp;Mens vi gjennomfører Kontrollene kan vi midlertidig stanse utbetalinger fra Din konto. 
+<br/>
+5.4.&nbsp;&nbsp; &nbsp;I visse tilfeller må vi kontakte deg for å be om ytterligere opplysninger for å kunne fullføre Kontrollene. Hvis du ikke kan eller vil gi oss nødvendig informasjon har vi rett til å suspendere Din konto inntil nødvendig informasjon er mottatt eller permanent stenge Din konto. Du er også pålagt å vedlegge identifikasjon når du gjennomfører utbetalinger pålydende to tusen tre hundre euro (EUR 2300) eller mer.
+<br/>
+5.5.&nbsp;&nbsp; &nbsp;Dersom vi ikke kan bekrefte at du er over Lovlig alder har vi tillatelse til å suspendere Din konto. Dersom det bevises at du var under tillatt aldersgrense da du plasserte et veddemål eller gjennomførte en spilltransaksjon vil:
+<br/>
+5.5.1.&nbsp;&nbsp; &nbsp;Din konto stenges;
+<br/>
+5.5.2.&nbsp;&nbsp; &nbsp;alle transaksjoner gjennomført mens du var mindreårig annulleres og innsatte beløp refunderes av deg;
+<br/>
+5.5.3.&nbsp;&nbsp; &nbsp;ethvert veddemål plassert mens du var mindreårig returneres, og
+<br/>
+5.5.4.&nbsp;&nbsp; &nbsp;alle gevinster opptjent i denne perioden anses som tapt og utbetalte gevinster fra Din konto krevd tilbakebetalt til oss.</p>
+</li>
+
+
+<li><strong>BRUKERNAVN, PASSORD OG KUNDEINFORMASJON</strong>
+<p>
+6.1.&nbsp;&nbsp; &nbsp;Etter at Din konto er opprettet må du ikke, under noen omstendigheter frivillig eller uvitende, utlevere ditt personlige brukernavn og passord. Dersom du har mistet eller glemt kontoinformasjonen din kan du gjenopprette passordet ditt ved å klikke på ”Glemt passord” under innloggingsområdet.</p>
+</li>
+
+
+<li><strong>INNSKUDD OG UTBETALINGER FRA DIN KONTO</strong>
+<p>
+7.1.&nbsp;&nbsp; &nbsp;Dersom du ønsker å plassere veddemål eller gamble på nettstedet må du først innbetale penger på Din konto. Disse pengene kan deretter brukes til veddemål eller casinospill. 
+<br/>
+7.2.&nbsp;&nbsp; &nbsp;Innskudd på og utbetalinger fra en konto kan gjennomføres via ulike betalingsmetoder som kan endres fra tid til annen. Prosedyrer, vilkår og betingelser varierer mellom ulike betalingsformidlere. Vi verken mottar eller aksepterer kontanter sendt til oss direkte. 
+<br/>
+7.3.&nbsp;&nbsp; &nbsp;Når du foretar et innskudd hos oss godtar du å ikke stanse overførselen, annullere eller på annen måte avbryte innskuddet på Din konto. Samtidig godtar du å refundere og kompensere oss for ubetalte innskudd.
+<br/>
+7.4.&nbsp;&nbsp; &nbsp;Din konto er ingen bankkonto og er derfor ikke forsikret, garantert, sponset eller på annen måte beskyttet av noe bankforsikringssystem. Av samme grunn vil det ikke påløpe renter av innestående beløp på Din konto. 
+<br/>
+7.5.&nbsp;&nbsp; &nbsp;Vi tillater oss når som helst å kunne motregne skyldige beløp fra veddemål og spill med Duplikatkonto, kampfiksing, juks, svindel, kriminell aktivitet eller feil mot eventuell positiv balanse på Din konto.
+<br/>
+7.6.&nbsp;&nbsp; &nbsp;Du er ansvarlig for selv å innberette eventuelle gevinster eller tap til lokale skattemyndigheter eller andre myndigheter.
+<br/>
+7.7.&nbsp;&nbsp; &nbsp;Du kan når som helst be om utbetalinger fra Din konto forutsatt at:
+<br/>
+7.7.1.&nbsp;&nbsp; &nbsp;alle innbetalinger på Din konto har blitt bekreftet og at ingen av disse har blitt stanset, annullert eller på annen måte avbrutt;
+<br/>
+7.7.2.&nbsp;&nbsp; &nbsp;alle Kontroller, som omtalt i paragraf 5, har blitt fullført. 
+<br/>
+7.8.&nbsp;&nbsp; &nbsp;Når vi har godtatt din utbetalingsforespørsel må du gi oss nødvendig informasjon om hvordan du ønsker beløpet overført. Vi forsøker å imøtekomme ditt ønske om utbetalingsmetode og –valuta, uten å stille noen garanti for at dette kan la seg gjennomføre. 
+<br/>
+7.9.&nbsp;&nbsp; &nbsp;Vi forbeholder oss retten til å oppkreve et gebyr tilsvarende våre kostnader (inkludert innskuddskostnader) med å utbetale beløp som ikke har blitt satt i spill.
+<br/>
+7.10.1. Registrerte spillere på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] må sette inn penger fra en konto som er registrert i deres eget navn.
+<br/>
+7.10.2. Vi aksepterer ikke innskudd fra tredjepart, eksempelvis venner, slektninger, partner eller ektefelle.
+<br/>
+7.10.3. Dersom vi under våre rutinemessige sikkerhetskontroller oppdager at dette har skjedd vil alle casinogevinster annulleres og sendt tilbake til kasinoet, mens opprinnelig innskudd tilbakebetales til den rettmessige eieren av kontoen/kredittkortet.
+<br/>
+7.10.4. Dersom det er nødvendig med bankoverføring for å tilbakebetale pengene til den rettmessige eier vil kostnadene forbundet med dette påhvile mottakeren.
+<br/>
+7.10.5. Ved innskudd med MasterCard, hvor tilbakebetalinger ikke er mulig, må korteier signere et ”kredittkortsverifiseringsskjema” og innsende nødvendige identifikasjonsdokument til oss.</p>
+</li>
+
+
+<li><strong>PLASSERING AV VEDDEMÅL ELLER SPILL</strong>
+<p>
+8.1.&nbsp;&nbsp; &nbsp;Alle transaksjoner gjennomføres i sin helhet i samme språk som transaksjonsforespørselen.
+<br/>
+8.2.&nbsp;&nbsp; &nbsp; Det er ditt eget ansvar å forsikre deg om at alle detaljer i enhver transaksjon er korrekte. 
+<br/>
+8.3.&nbsp;&nbsp; &nbsp;Du kan få tilgang til din transaksjonshistorikk på Nettstedet.
+<br/>
+8.4.&nbsp;&nbsp; &nbsp;Vi forbeholder oss retten til, på ethvert tidspunkt og ved skjønn, å avvise deler av eller hele din transaksjonsforespørsel. Ingen transaksjon er akseptert før vi har bekreftet overfor deg at det har blitt akseptert. Dersom du ikke mottar noen bekreftelse på at transaksjonen har blitt akseptert ber vi deg kontakte kundeservice.
+<br/>
+8.5.&nbsp;&nbsp; &nbsp;Når veddemålet ditt er bekreftet kan transaksjonen ikke kanselleres uten vårt skriftlige samtykke.</p>
+</li>
+
+
+<li><strong>SAMARBEID, JUKS, SVINDEL OG KRIMINELL AKTIVITET</strong>
+<p>
+9.1.&nbsp;&nbsp; &nbsp;Følgende aktiviteter er ulovlige og impliserer et vesentlig mislighold av Vilkårene:</p>
+	<ul>
+		<li>samarbeid med tredjepart; </li>
+		<li>•	bruk av en urettferdig fordel eller innflytelse (ofte omtalt som juks), inkludert utnyttelse av en brist, smutthull eller feil i vår software, bruk av automatiske spillere (noen ganger omtalt som ”boter”); eller utnyttelse av en ”feil”;</li>
+		<li>•	foreta uredelige aktiviteter til din fordel, inkludert bruk av et stjålet, kopiert eller på annen måte uautorisert kreditt- eller debetkort;</li>
+		<li>deltakelse i kriminelle aktiviteter, inkludert hvitvasking av penger og ethvert lovbrudd med kriminell ettervirkning.</li>
+	</ul>
+<p>
+9.2.&nbsp;&nbsp; &nbsp;Vi tar alle nødvendige forhåndsregler for å unngå slik aktivitet, oppdage dem og de relevante spillerne og håndtere disse spillerne på en hensiktsmessig måte. Vi står ikke ansvarlig for tap eller skade du, eller noen annen spiller, forårsaker som resultat av samarbeid, uredelighet, andre ulovlige aktiviteter eller juks. Vi forbeholder vi oss retten til, i slike tilfeller, på eget forgodtbefinnende å handle og treffe beslutninger vi vurderer som riktige.
+<br/>
+9.3.&nbsp;&nbsp; &nbsp;Dersom du mistenker at en person driver med samarbeid, juks eller andre uredelige aktiviteter må du hurtigst mulig rapportere dette til oss via e-post.
+<br/>
+9.4.&nbsp;&nbsp; &nbsp;Vi forbeholder oss retten til å informere relevante myndigheter, andre online gambling- og spillselskap, andre online tjenesteleverandører og banker, kredittkortselskap, elektroniske betalingsformidlere og andre finansielle institusjoner om din identitet og mistanke om ulovlig, uredelig eller upassende aktivitet, og du godtar å fullt ut samarbeide med oss i etterforskning av slik aktivitet.</p>
+</li>
+
+
+<li><strong>ANDRE FORBUDTE AKTIVITETER</strong>
+<p>
+10.1.&nbsp;&nbsp; &nbsp;Du må ikke benytte Nettstedet med ærekrenkende, fornærmende, obskøne, rasistiske, seksuelle, diskriminerende eller støtende hensikter. Du må ikke bruke fornærmende eller aggressivt språk eller bilder; banne, true, trakassere eller skjelle ut personer, inkludert andre brukere, personer som står bak Nettstedet eller kundeservice.
+<br/>
+10.2.&nbsp;&nbsp; &nbsp;Du må ikke underminere Nettstedet, ”spamme” Nettstedet for å forhindre funksjonaliteten eller benytte funksjoner som, på noen som helst måte, kan påvirke funksjonaliteten til Nettstedet inkludert, uten å begrenses til, planting av virus, ormer, logiske bomber eller lignende. Enhver form for mangfoldige innsendelser eller ”spam” er strengt forbudt. Du må ikke tukle med, ødelegge, fjerne eller på annen måte endre informasjon som er inkludert på Nettstedet.
+<br/>
+10.3.&nbsp;&nbsp; &nbsp;Du må kun bruke Nettstedet til personlig underholdning, og det er ulovlig å reprodusere Nettstedet, eller noen del av det, uten vårt uttrykte samtykke.
+<br/>
+10.4.&nbsp;&nbsp; &nbsp;Du må ikke forsøke å skaffe deg uautorisert adgang til Nettstedet, serverne hvor Nettstedet er lagret eller noen annen server, datamaskin eller database med koblinger til Nettstedet. Du må ikke angripe Nettstedet via et tjenestenektangrep eller tilsvarende. Vi rapporterer ethvert brudd på denne bestemmelsen til relevante myndigheter og vi vil samarbeide med disse myndighetene gjennom å avsløre identiteten din til dem. Ved brudd på disse bestemmelsene opphører din rett til bruk av Nettstedet umiddelbart.
+<br/>
+10.5.&nbsp;&nbsp; &nbsp;Vi er ikke ansvarlige for tap eller skade forårsaket av et distribuert tjenestenektangrep, virus eller annet teknologisk materiale som kan skade ditt datautstyr, dataprogram, datamaskin eller annen eiendom grunnet din bruk av Nettstedet, nedlasting av materiale fra Nettstedet eller noen hjemmeside linket til Nettstedet.
+<br/>
+10.6.&nbsp;&nbsp; &nbsp;Det er forbudt å selge eller overføre kontoer mellom spillere.</p>
+</li>
+
+
+<li><strong>KONTOSTENGING OG TERMINERING AV OSS</strong>
+<p>
+11.1.&nbsp;&nbsp; &nbsp;Det er i Selskapets politikk, av sikkerhetsmessige grunner og i henhold til maltesisk lov at dersom det ikke har blitt registrer transaksjoner på Din konto i løpet av 30 måneder (inaktiv konto) vil innestående beløp refunderes til deg. Dersom du ikke kan lokaliseres vil kontoen overdras til  Lotteries &amp; Gaming Authority of Malta. Dermed er pengene tilgjengelige for spilleren hvis denne ønsker dem utbetalt.
+<br/>
+11.2.&nbsp;&nbsp; &nbsp;En inaktiv konto vil, etter skriftlig varsling (eller forsøk på sådan) via dine kontaktopplysninger, termineres. I tilfelle terminering, og hvor denne ikke skyldes bestemmelsene i paragraf 11 (Samarbeid, juks, mistenkelig spilling, svindel og kriminell aktivitet), paragraf 20 (Brudd på bruksvilkårene) eller disse Vilkårene, vil vi refundere saldoen på Din konto. Hvis kunden ikke kan lokaliseres vil det innestående beløp tilfalle relevant spillmyndighet. </p>
+</li>
+
+
+<li><strong>ENDRINGER PÅ NETTSTEDET</strong>
+<p>
+12.1.&nbsp;&nbsp; &nbsp;Vi er i vår fulle rett til, når som helst og etter eget forgodtbefinnende, å endre eller revidere ethvert produkt tilbudt på Nettstedet for å opprettholde Nettstedet. &nbsp;</p>
+</li>
+
+
+<li><strong>IT-SVIKT</strong>
+<p>
+13.1.&nbsp;&nbsp; &nbsp;Hvis det oppstår feil eller unøyaktigheter i software eller hardware benyttet til Nettstedet vil vi umiddelbart forsøke å løse problemet. 
+<br/>
+13.2.&nbsp;&nbsp; &nbsp;Vi er ikke ansvarlig for IT-svikt som skyldes ditt utstyr eller feil som relaterer seg til din internettleverandør.</p>
+</li>
+
+<li><strong>FEIL ELLER UTELATELSER></strong>
+<p>
+14.1.&nbsp;&nbsp; &nbsp;Det kan oppstå tilfeller hvor et veddemål eller en utbetaling aksepteres av oss ved en feil. 
+<br/>
+14.2.&nbsp;&nbsp; &nbsp;[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]  forbeholder seg retten til å kansellere ethvert veddemål hvor oddsene åpenbart har vært uriktige, odds har blitt forvekslet (oddsen på de forskjellige lagene var byttet om) eller hvis en begivenhet, dersom denne ikke er tilgjengelig for live betting, allerede har startet. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] forbeholder seg retten til å avvise, begrense, kansellere eller limitere ethvert veddemål.
+<br/>
+14.3.&nbsp;&nbsp; &nbsp;Verken vi (inkludert våre ansatte og representanter) eller våre partnere og leverandører skal kunne holdes ansvarlig for tap som resultat av en hvilken som helst feil av oss eller deg. Du skal frasi deg enhver gevinst/tap forbundet med slike feil.</p>
+</li>
+
+<li><strong>ANSVARSFRASIGELSE</strong>
+<p>
+15.1.&nbsp;&nbsp; &nbsp;Du benytter Nettstedet og produktene tilbudt på Nettstedet av fri vilje og på egen risiko. 
+<br/>
+15.2.&nbsp;&nbsp; &nbsp;Vi leverer innhold til Nettstedet som beskrevet i Vilkårene. Vi stiller ingen ytterligere lovnader eller garantier for Nettstedet, eller produktene tilbudt på Nettstedet, og ekskluderes herved (i henhold til lov) fra alle underforståtte garantier i samme henseende.
+<br/>
+15.3.&nbsp;&nbsp; &nbsp;Vi er ikke kontraktmessig ansvarlig overfor skader påført deg (inkludert i uaktsomhet) eller for ethvert forretningstap inkludert, uten å begrenses til, tap av data, inntekter, omsetning, forretning, muligheter, goodwill, omdømme, driftsbrudd eller andre tap som vi for øyeblikket ikke vurderer sannsynlig sett i lys av bruksvilkårene eller din bruk av Nettstedet.</p>
+</li>
+
+
+<li><strong>BRUDD PÅ BRUKSVILKÅRENE</strong>
+<p>
+16.1.&nbsp;&nbsp; &nbsp; Du skal fullt ut kompensere oss for alle eventuelle krav, forpliktelser, kostnader, utgifter (inkludert juridiske gebyr) og alle andre anklager som kan oppstå som et resultat av dine brudd på Vilkårene.
+<br/>
+16.2.&nbsp;&nbsp; &nbsp;I tilfeller hvor du grovt misligholder Vilkårene forbeholder vi oss retten til, uten å være tvunget til, å:
+<br/>
+16.2.1.&nbsp;&nbsp; &nbsp;varsle deg (via dine kontaktopplysninger) om misligholdelsen og pålegge deg å stoppe den relevante handlingen eller mangel på sådan,
+<br/>
+16.2.2.&nbsp;&nbsp; &nbsp;suspendere Din konto slik at du ikke kan plassere veddemål eller spille på Nettstedet, 
+<br/>
+16.2.3.&nbsp;&nbsp; &nbsp; stenge kontoen din med eller uten forhåndsvarsel,
+<br/>
+16.2.4.&nbsp;&nbsp; &nbsp;fremskaffe utbetalingsbeløp, bonuser og gevinster som er berørt av misligholdelsen.
+<br/>
+16.3.&nbsp;&nbsp; &nbsp;Vi er i vår fulle rett til å deaktivere brukeridentifikasjonskoder eller passord dersom du, etter vår mening, ikke har fulgt bestemmelsene i Vilkårene.</p>
+</li>
+
+
+<li><strong>INTELLEKTUELL EIENDOMSRETT</strong>
+<p>
+17.1.&nbsp;&nbsp; &nbsp;All hjemmesidedesign, tekst, grafikk, musikk, lyd, bilder, video, valg og arrangering derav, software, underliggende koder og alt annet materiale på Nettstedet er beskyttet av opphavsrett og annen eiendomsrett som enten eies av oss eller brukes med lisens fra tredjepart. Alt materiale på Nettstedet som kan lastes ned eller utskrives er kun til én personlig datamaskin. Papirdokument skal kun utskrives til personlig og ikke-kommersiell bruk.
+<br/>
+17.2.&nbsp;&nbsp; &nbsp; Bruk av Nettstedet skal ikke, under noen omstendigheter, bevilge en bruker noen form for interesse i noen intellektuell eiendomsrett (eksempelvis opphavsrett, viten eller varemerke) eiet av oss eller annen tredjepart.
+<br/>
+17.3.&nbsp;&nbsp; &nbsp;Det bevilges ingen rettigheter til å bruke eller kopiere handelsnavn, varemerker eller logoer som opptrer på Nettstedet, foruten spesialtilfeller hvor dette godtas i henhold til bruksvilkårene.</p>
+</li>
+
+
+<li><strong>PERSONLIGE OPPLYSNINGER</strong>
+<p>
+18.1.&nbsp;&nbsp; &nbsp;Vi er pålagt gjennom lov å følge gitte krav når vi behandler dine personlige opplysninger i forbindelse med din bruk av Nettstedet. Vi tar våre forpliktelser på alvor og behandler alle personlig opplysninger i henhold til disse kravene.
+<br/>
+18.2.&nbsp;&nbsp; &nbsp;Ved overlevering av dine personlige opplysninger til oss samtykker du i at vi har rett til å benytte opplysningene som beskrevet i Vilkårene til drift av Nettstedet eller for å overholde juridiske eller regulerende krav.
+<br/>
+18.3.&nbsp;&nbsp; &nbsp;Selskapet avslører ingen personlige opplysninger til andre enn våre ansatte som behøver adgang til dine opplysninger for å kunne tilby deg tjenesten.
+<br/>
+18.4.&nbsp;&nbsp; &nbsp;Vi beholder kopier av enhver form for kommunikasjon sendt til oss (inkludert kopier av e-poster) for å opprettholde nøyaktige registreringer av informasjonen vi har mottatt av deg.</p>
+</li>
+
+
+<li><strong>BRUK AV INFORMASJONSKAPSLER</strong>
+<p>
+19.1.&nbsp;&nbsp; &nbsp;Nettstedet bruker informasjonskapsler (cookies) for forbedret funksjonalitet på Nettstedet. En informasjonskapsel er en liten tekstfil som lastes ned på datamaskinen når du besøker Nettstedet og lar oss gjenkjenne deg når du kommer tilbake til Nettstedet. Informasjon om hvordan du sletter eller kontrollerer informasjonskapsler finnes på www.aboutcookies.org. Bemerk vennligst at ved å slette eller deaktivere fremtidige informasjonskapsler risikerer du å ikke kunne besøke deler av Nettstedet eller benytte enkelte funksjoner på Nettstedet.</p>
+</li>
+
+
+<li><strong>KLAGER OG VARSLER</strong>
+<p>
+20.1.&nbsp;&nbsp; &nbsp;Dersom du ønsker å klage på Nettstedet er første steg å, så hurtig som mulig, kontakte vår kundeservice.
+<br/>
+20.2.&nbsp;&nbsp; &nbsp;I tilfelle av tvist aksepterer du at serverregistreringene fungerer som endelig myndighet i fastsettelsen av enhver uenighet.
+<br/>
+20.3.&nbsp;&nbsp; &nbsp;Du godtar at det ved en usannsynlig uoverensstemmelse mellom resultatet på din skjerm og resultatet på serveren er serverresultatet som gjelder, og du godtar og aksepterer at våre registreringer fungerer som endelig myndighet i fastsettelsen av vilkårene og omstendighetene rundt din deltakelse i den relevante online spillaktiviteten og resultatet av denne aktiviteten.
+<br/>
+20.4.&nbsp;&nbsp; &nbsp;Vi benytter kontaktopplysningene dine hvis vi ønsker å kontakte deg i forbindelse med en slik tvist.</p>
+</li>
+
+
+<li><strong>FORTOLKNING</strong>
+<p>
+21.1.&nbsp;&nbsp; &nbsp;Den originale teksten til Vilkårene er på engelsk og enhver fortolkning av disse vil baseres på den originale, engelske teksten. Dersom brukervilkårene, eller relaterte dokument, oversettes til andre språk vil den originale, engelske teksten være den gjeldende.</p>
+</li>
+
+
+<li><strong>OVERFØRING AV RETTIGHETER OG FORPLIKTELSERTRANSFER</strong>
+<p>
+22.1.&nbsp;&nbsp; &nbsp;Vi forbeholder oss retten til å overføre, tildele, viderelisensiere eller gi pant i Vilkårene, helt eller delvis, til enhver person forutsatt at dette skjer på de samme vilkår eller vilkår som ikke er mindre fordelaktige for deg. </p>
+</li>
+
+
+<li><strong>HENDELSER UTENFOR VÅR KONTROLL</strong>
+<p>
+23.1.&nbsp;&nbsp; &nbsp; Vi er ikke ansvarlig for utførelsessvikt, eller forsinket utførelse, av noen av våre forpliktelser i bruksvilkårene dersom dette skyldes hendelser utenfor vår kontroll inkludert, uten å begrenses til, naturkatastrofer, krig, sivile opprør, brudd på offentlige kommunikasjonsnettverk eller –tjenester, industrielle tvister eller tjenestenektangrep og andre IT-angrep med fiendtlig hensikt (”Force Majeure”). Vår tjenesteutføring må anses for suspendert så lenge en Force Majeure pågår og vi vil ha en forsinket tjenesteutføring i forlengelse av denne perioden. Vi vil etter beste evne forsøke å bringe en Force Majeure til ende eller finne en løsning som gjør at vi kan oppfylle våre forpliktelser til tross for en Force Majeure.</p>
+</li>
+
+
+<li><strong>ANSVARSFRASKRIVELSE</strong>
+<p>
+24.1.&nbsp;&nbsp; &nbsp;Dersom vi ikke utfører hvilken som helst av våre forpliktelser, eller dersom vi ikke benytter rettighetene eller rettsmidlene vi er berettiget til, fungerer ikke dette som en ansvarsfraskrivelse fra slike rettigheter og rettsmidler og fritar ikke deg fra å handle i samsvar med slike forpliktelser.
+<br/>
+24.2.&nbsp;&nbsp; &nbsp;En ansvarsfraskrivelse for en feil fra vår side skal ikke fungere som en ansvarsfraskrivelse for noen følgefeil. Ingen ansvarsfraskrivelse fra oss angående noen av bestemmelsene i Vilkårene skal ha effekt dersom det ikke uttrykkelig er oppgitt å være en ansvarsfraskrivelse og dette er skriftlig formidlet til deg i overensstemmelse med ovenfor.</p>
+</li>
+
+
+<li><strong>UGYLDIGHET</strong>
+<p>
+25.1.&nbsp;&nbsp; &nbsp;Dersom noen av Vilkårene viser seg å være ugyldige, ulovlige eller umulige å håndheve skal denne del av betingelsen eller bestemmelsen kuttes fra de resterende betingelsene, vilkår og bestemmelser som vil fortsette å være gyldige i henhold til lov. I slike tilfeller skal delen som anses for å være ugyldig eller umulig å håndheve endres på en slik måte, og så lite som mulig fra vår originale intensjon, at den igjen er gyldig i henhold til lov.</p>
+</li>
+
+
+<li><strong>LOV OG JURISDIKSJON</strong>
+<p>
+26.1.&nbsp;&nbsp; &nbsp;Bruksvilkårene styres og tolkes i henhold til gjeldende lovgivning i England og Wales, unntatt tvister angående den maltesiske lisensen som vil være styrt av maltesisk lov i maltesisk domstol.
+<br/>
+26.2.&nbsp;&nbsp; &nbsp;Domstolene i England og Wales har ikke-eksklusiv jurisdiksjon over tvister som oppstår rundt bruksvilkårene.</p>
+</li>
+
+
+<li><strong>ANSVARLIG SPILL OG GAMBLING</strong>
+<p>
+27.1.&nbsp;&nbsp; &nbsp;For kunder som ønsker å begrense spillingen tilbyr vi en frivillig selvekskluderingspolitikk som lar deg stenge Din Konto eller begrense muligheten for å plassere veddemål. Har du bruk for informasjon om denne muligheten ber vi deg vennligst kontakte kundeservice.
+<br/>
+27.2.&nbsp;&nbsp; &nbsp;Vi bestreber oss i å sikre oppfølging av din selvekskludering. Du godtar likevel at vi ikke på noen måte kan holdes ansvarlige dersom du velger å fortsette å spille og/eller benytte Nettstedet uten at vi klarer å registrere dette.
+<br/>
+27.3.&nbsp;&nbsp; &nbsp;Vi er forpliktet til å støtte initiativer for ansvarlig spill og oppfordrer deg til å finne informasjon om temaet på hjemmesidene til følgende organisasjoner:
+<br/>
+Gambling Therapy - www.gamblingtherapy.org
+<br/>
+Gordon House Association - 
+<a href="http://www.gordonhouse.org.uk">www.gordonhouse.org.uk</a></p>
+</li>
+
+<li><strong>LINKER</strong>
+<p>
+28.1.&nbsp;&nbsp; &nbsp;Hvor vi linker til andre hjemmesider er dette alene i informativt henseende. Du bruker disse linkene på eget ansvar og vi fraskriver oss alt ansvar for innholdet og informasjonen på disse sidene.</p>
+</li>
+    
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button button-print">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+

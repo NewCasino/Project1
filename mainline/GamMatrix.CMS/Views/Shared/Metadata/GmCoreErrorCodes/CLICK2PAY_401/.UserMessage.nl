@@ -1,0 +1,1 @@
+﻿Het transactie bedrag overschreid de credit limieten van de account.

@@ -1,0 +1,1 @@
+Upewnij się, że waluta i powyższa kwota zgadzają się z walutą i kwotą Twojego kuponu IPS.

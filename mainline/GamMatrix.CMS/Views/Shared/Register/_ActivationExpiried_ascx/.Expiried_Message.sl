@@ -1,0 +1,1 @@
+Če temu ni tako in ste tukaj pristali, ker ste kliknili povezavo, ki smo vam jo poslali mi, je povezava zdaj morda že zastarela.

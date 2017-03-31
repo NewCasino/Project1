@@ -1,0 +1,1 @@
+﻿Statut du lot '{0}' ne peut pas être mis à jour le '{1}'

@@ -1,0 +1,3 @@
+﻿Transakce byla úspěšná.
+
+

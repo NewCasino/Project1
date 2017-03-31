@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" PageTemplate="/DefaultMaster.master" Title="<%$ Metadata:value(.Title)%>" MetaKeywords="<%$ Metadata:value(.Keywords)%>" MetaDescription="<%$ Metadata:value(.Description)%>" %>
+
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server">
+
+
+<asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+<h1 class="h1"><div class="h1_Right"><div class="h1_Left"><div class="h1_Middle"><span id="GeneralPageTitle"></span></div></div></div></h1>
+<ui:Panel runat="server" ID="pnGeneralLiteral">
+    <asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+</ui:Panel>
+
+<ui:MinifiedJavascriptControl runat="server" Enabled="true" AppendToPageEnd="true">
+<script>
+$(function(){
+    $("#GeneralPageTitle").text(document.title);
+//.replace("<%=this.GetMetadata("/Metadata/Settings.Operator_DisplayName")%>","")
+});
+</script>
+</ui:MinifiedJavascriptControl>
+</asp:Content>
+

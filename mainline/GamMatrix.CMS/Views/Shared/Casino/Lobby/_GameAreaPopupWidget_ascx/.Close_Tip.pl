@@ -1,0 +1,1 @@
+Zamknij to wyskakujące okno!

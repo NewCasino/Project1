@@ -1,0 +1,1 @@
+Odprite igre na novi strani

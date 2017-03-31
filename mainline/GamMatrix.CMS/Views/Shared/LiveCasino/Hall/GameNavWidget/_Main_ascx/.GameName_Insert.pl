@@ -1,0 +1,1 @@
+Wpisz nazwę stołu:

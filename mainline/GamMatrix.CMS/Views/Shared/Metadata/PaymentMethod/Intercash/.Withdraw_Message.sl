@@ -1,0 +1,1 @@
+Nakazilo denarja neposredno na vašo kartico Intercash

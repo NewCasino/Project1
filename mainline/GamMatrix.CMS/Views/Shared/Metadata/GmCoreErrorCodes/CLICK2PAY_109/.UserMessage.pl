@@ -1,0 +1,1 @@
+﻿Wystąpił błąd techniczny. Prosimy o kontakt z działem obsługi klienta pod adresem service@click2pay.com.

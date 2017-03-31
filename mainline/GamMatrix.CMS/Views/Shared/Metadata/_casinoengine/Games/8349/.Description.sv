@@ -1,0 +1,1 @@
+﻿EggOMatic™ är ett nytt Platinum spel från Net Entertainment. Det är ett 5-reel, 20-payline video slot med galna ersättnignar, Gratis Spinns och pris ägg. Ett delande fritt ägg, Gratis Spinnande Ägg, Vinnande Myntägg och ett överraskningsägg, EggOMatic™ ger spelare en äggstraorinär upplevelse på rullarna.

@@ -1,0 +1,1 @@
+Ogiltigt kortnummer

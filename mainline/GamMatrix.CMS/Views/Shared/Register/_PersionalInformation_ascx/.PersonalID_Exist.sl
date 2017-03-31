@@ -1,0 +1,1 @@
+Vaš osebni dokument je že bil registriran.

@@ -1,0 +1,1 @@
+V svoj račun za igranje stav se več nikoli ne boste mogli prijaviti

@@ -1,0 +1,106 @@
+﻿<ol>
+ <li> <strong>Jeg har glemt brukernavn og passord, hva gjør jeg?</strong>
+ <p>
+ Hvis du angir feil passord, kan det føre til koden "kan ikke bekrefte passord". Alle passord tar hensyn til små og store bokstaver. Kontroller at Caps Lock ikke er aktivert. Hvis problemet vedvarer, kan du klikke på Glemt passord. Da får du tilsendt et nytt passord til e-postadressen som er oppført på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kontoen din.
+ </p>
+ </li>
+
+ <li> <strong>Hvem tar jeg kontakt med hvis jeg har spørsmål om kontoen min?</strong>
+ <p>
+ Ta kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundestøtte
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ </p>
+ </li>
+
+ <li>
+ <strong>Hva gjør jeg hvis jeg ikke vil bruke kontoen min lenger?</strong>
+ <p>
+ Hvis du vil avslutte kontoen din, kan du ta kontakt med  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundestøtte på
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvordan endrer jeg passordet mitt?</strong>
+ <p>
+ Du kan endre passord ved å klikke på Glemt passord
+ <a href="/ForgotPassword" target="_blank">link</a>
+ øverst på alle [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sidene.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvordan kan jeg endre e-postadressen som er registrert på kontoen min?</strong>
+ <p>
+ Du kan ikke endre e-postadressen din selv, men hvis du har en god begrunnelse for å måtte endre e-postadresse, kan du ta kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundestøtte angående endringer i kontoopplysningene dine. Ta kontakt med
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ </p>
+ </li>
+
+ <li>
+ <strong>Er det mulig for meg å kontrollere kontoaktiviteten min? </strong>
+ <p>
+ Du kan kontrollere kontoaktivitet ved å gå til Min konto når du har logget på, eller du kan ta kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundestøtte for å få mer informasjon.
+ </p>
+ </li>
+
+ <li>
+ <strong>Er det mulig å endre brukernavn?</strong>
+ <p>
+ Du kan ikke endre spillernavn etter at du har registrert [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] konto. Dette er av sikkerhetsmessige hensyn. Endring av spillernavn kan forstyrre systemdata og utløse sikkerhetsvarsler.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvem kan jeg ta kontakt med hvis jeg får problemer med spillingen min?</strong> 
+ <p>
+ Det er spennende, morsomt og potensielt lønnsomt å delta i nettbaserte pengespill. Men [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] er oppmerksomme på spillavhengighet og følgene dette kan ha. Derfor tar [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] alle forhåndsregler for å sikre at produktene og tjenestene våre brukes av personer som har lov til det. Ingen spillere har under noen omstendighet lov til å spille pengespill med ekte penger med mindre de er fylt 18 år eller eventuell annen standard myndig alder for å kunne delta i pengespill i oppholdslandet sitt.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hva skjer når perioden utløper?</strong>
+ <p>
+ Når tidsbegrensningen du har valgt for selvbestemt utestenging, har utløpt, kan du ta kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundestøtte for å åpne kontoen din.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvordan kan jeg aktivere selvbestemt utestenging?</strong>
+ <p>
+ Du kan aktivere selvbestemt utestenging ved å gå til Min [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] konto. Der ser du fanen for selvbestemt utestenging. Når du klikker på Blokker kontoen min, logges du automatisk av [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] nettstedet. Deretter kan du bare logge på etter at tilgangsbegrensningen du valgte, har utløpt.&nbsp; &nbsp;
+ </p>
+ </li>
+
+ <li>
+ <strong>Can I cancel it?</strong>
+ <p>
+ Du kan ikke åpne kontoen din før tidsperioden du valgte for selvbestemt utestenging, har utløpt
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvorfor får jeg ikke svar på spørsmål når jeg sender e-postmeldinger til kundestøtteteamet?</strong> 
+ <p>
+ Vi prøver å svare på alle kundehenvendelser innen 24 timer. Enkelte henvendelser krever flere opplysninger, og enkelte problemer må undersøkes nærmere. Svartiden avhenger dermed av henvendelsen. Du får en e-postbekreftelse fra [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] når vi har mottatt henvendelsen din, slik at du vet at vi jobber med saken. Hvis du ikke mottar e-postbekreftelse etter at du har sendt inn en henvendelse, bør du kontrollere søppelpostmappen din. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sender ikke e-postmeldinger som kan betegnes som søppelpost, men enkelte e-postfiltre kan likevel identifisere e-postmeldingene våre som søppelpost.
+ </p>
+ </li>
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Skriv ut</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

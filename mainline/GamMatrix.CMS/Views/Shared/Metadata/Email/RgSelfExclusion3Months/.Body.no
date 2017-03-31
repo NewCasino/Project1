@@ -1,0 +1,11 @@
+﻿<p>Kjære $USERNAME$,<br /> </p>
+<br />
+Denne e-posten er en bekreftelse på at din konto nå er satt til å selvekskluderes i tre (3) måneder.
+<br /><br />
+I løpet av denne perioden vil du ikke kunne logge deg inn på kontoen din. Vi varsler deg på e-post når peroden med selvekskludering er over.
+
+<br /><br />
+Hvis du har spørsmål kan du ta kontakt med oss på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<br /><br />
+<p>Hilsen,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte</p>

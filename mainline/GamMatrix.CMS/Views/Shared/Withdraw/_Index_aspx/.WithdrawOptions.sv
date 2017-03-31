@@ -1,0 +1,1 @@
+﻿Möjligheter för utbetalning

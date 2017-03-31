@@ -1,0 +1,1 @@
+﻿Le numéro de coupon doit être de 16 chiffres.

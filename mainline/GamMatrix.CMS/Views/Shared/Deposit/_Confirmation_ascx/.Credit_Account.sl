@@ -1,0 +1,1 @@
+Za polog na {0} račun

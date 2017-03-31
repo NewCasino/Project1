@@ -1,0 +1,1 @@
+﻿jetbull, bingo, room, jackpot, fullhouse, 90ball, coinbingo, 75ball 

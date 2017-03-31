@@ -1,0 +1,1 @@
+﻿Deze handelaar ondersteund geen NETELLER (1-PAY) transacties.

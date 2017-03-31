@@ -1,0 +1,1 @@
+﻿Tillåta erbjudanden via SMS

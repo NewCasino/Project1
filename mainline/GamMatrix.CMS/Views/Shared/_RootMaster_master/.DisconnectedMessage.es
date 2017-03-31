@@ -1,0 +1,1 @@
+﻿Su sesión ha sido desconectada debido a que alguien se ha connectado con su cuenta desde otro sitio. Tenga en cuenta que si esto no fue intencional, alguien pudo haber robado su contraseña y le sugerimos cambiarla inmediatamente.

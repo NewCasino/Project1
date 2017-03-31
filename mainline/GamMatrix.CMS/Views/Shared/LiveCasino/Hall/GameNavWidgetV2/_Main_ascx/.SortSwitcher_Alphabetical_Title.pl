@@ -1,0 +1,1 @@
+Wyświetlaj gry w porządku alfabetycznym

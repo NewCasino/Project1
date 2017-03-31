@@ -1,0 +1,1 @@
+Dziękujemy, wysłaliśmy Ci wiadomość e-mail z potwierdzeniem. Postępuj zgodnie z instrukcjami podanymi w wiadomości e-mail, aby aktywować swoje konto.

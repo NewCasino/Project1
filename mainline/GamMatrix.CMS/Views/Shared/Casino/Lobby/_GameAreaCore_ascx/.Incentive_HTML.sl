@@ -1,0 +1,1 @@
+﻿Igrate za zabavo. <a class="Button IncentiveButton" href="#" title="Prijavite se ali odprite svoj račun.">Igrajte za pravi denar</a> in si priigrajte možnost glavnega dobitka za to igro: <span class="Cash">{0}</span>

@@ -1,0 +1,34 @@
+﻿<ol>
+	<li> <strong>我在哪里可以找到推广活动？</strong>
+		<p>
+			您可以点击[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]页面上的推广活动栏来查看。
+		</p>
+	</li>
+	<li> <strong>我选择红利后可以玩所有的游戏吗，或者这里有任何限制吗？</strong>
+		<p>
+			请查看红利的规章制度如果您有疑问请联系[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]客服。
+		</p>
+	</li>
+	<li>
+		<strong>我如何查看我是否完成推广活动？</strong>
+		<p>您可以点击‘我的账户’来查看相关信息。</p>
+	</li>
+	<li>
+		<strong>我如果被废除活动资格是因为什么？</strong>
+		<p>
+			有些活动是专门给一些国家的玩家设定的或者一些使用特定付款方式的玩家定做的。这里有很多限制。关于详细信息请联系[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]客服  support@[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+		</p>
+	</li>
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

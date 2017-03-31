@@ -1,0 +1,1 @@
+﻿<p style="font-size: 16px;">Pokud používáte MasterCard od <img alt="Intercash" src="/Views/Shared/_files/Icons/intercash_logo.png" align="absmiddle" /><br /> klikněte zde<a href="/Deposit/Prepare/Intercash">here</a> a budete přesměrováni na vkladovou stránku.</p>

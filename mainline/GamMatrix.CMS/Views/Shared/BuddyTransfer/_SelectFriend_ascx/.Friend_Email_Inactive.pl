@@ -1,0 +1,1 @@
+Konto Twojego znajomego jest nieaktywne.

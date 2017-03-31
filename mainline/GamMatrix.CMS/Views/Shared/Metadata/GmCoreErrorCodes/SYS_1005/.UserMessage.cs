@@ -1,0 +1,1 @@
+﻿Převod byl již zpracován

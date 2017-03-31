@@ -1,0 +1,1 @@
+Konto z takimi samymi danymi jest już zarejestrowane.

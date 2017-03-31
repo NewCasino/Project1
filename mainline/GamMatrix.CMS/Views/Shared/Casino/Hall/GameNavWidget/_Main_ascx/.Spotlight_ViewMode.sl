@@ -1,0 +1,1 @@
+Preklapljajte med prikazom sličic in seznamom.

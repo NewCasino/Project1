@@ -1,0 +1,1 @@
+Omejitev časa seje

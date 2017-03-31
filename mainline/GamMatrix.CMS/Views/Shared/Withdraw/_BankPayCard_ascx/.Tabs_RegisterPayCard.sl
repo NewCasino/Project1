@@ -1,0 +1,1 @@
+Registracija novega bančnega računa

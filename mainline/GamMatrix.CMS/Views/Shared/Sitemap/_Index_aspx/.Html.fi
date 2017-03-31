@@ -1,0 +1,65 @@
+﻿<div class="sitemap_items">
+<div class="root_title">[Metadata:value(/Metadata/Settings.Operator_DisplayName)]</div>
+<ul class="items">
+<li><a href="/">Etusivu</a></li>
+<li><a href="/help">Apua</a></li>
+<li><a href="/customersupport">Asiakaspalvelu</a></li>
+<li><a href="/deposit">Maksutavat&nbsp;</a></li>
+<li><a href="/ForgotPassword">Unohtunut salasana</a></li>
+<li><a href="/register">Liity nyt</a></li>
+<li><a href="#top">Kirjaudu sisään</a></li>
+<li><a href="/Sports/Home">Pelit</a></li>
+<li><a href="/Casino/Lobby">Kasino</a></li>
+<li><a href="/Poker/">Pokeri</a></li>
+<li><a href="/Bingo/">Bingo</a></li>
+<li><a href="/Promotions/Home">Tarjoukset</a></li>
+<li><a href="/AboutUs">Tietoa meistä</a></li>
+<li><a href="/ResponsibleGaming">Vastuullista pelaamista</a></li>
+<li><a href="/TermsConditions">Ehdot</a></li>
+<li><a href="/Sitemap">Sivukartta</a></li>
+<li><a href="/Affiliate/Home">Kumppanit</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Pelit</div>
+<ul class="items">
+<li><a href="/help/Sports">FAQ</a></li>
+<li><a href="/Promotions/home/sportsbook">Tarjoukseta></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Kasino</div>
+<ul class="items">
+<li><a href="/help/Casino">FAQ</a></li>
+<li><a href="/Promotions/home/casino">Tarjoukset</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Pokeri</div>
+<ul class="items">
+<li><a href="#">Lataa asiakas</a></li>
+<li><a href="/Poker/Tournaments/CAKEPoker">Turnaukset</a></li>
+<li><a href="/PokerSchool">Pokerikoulu</a></li>
+<li><a href="/help/Poker">FAQ</a></li>
+<li><a href="/Promotions/TermsConditions/poker/LoyaltyLevels">Uskollisuustasot</a></li>
+<li><a href="/Promotions/home/Poker">Tarjoukset</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Tarjoukset</div>
+<ul class="items">
+<li><a href="/Promotions/Home">Huipputarjoukset</a></li>
+<li><a href="/Promotions/home/sportsbook">Pelit</a></li>
+<li><a href="/Promotions/home/casino">Kasino</a></li>
+<li><a href="/Promotions/home/Poker">Pokeri</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Kumppanit</div>
+<ul class="items">
+<li><a href="/Affiliate/home">Kirjaudu sisään</a></li>
+<li><a href="#">Unohtunut salasana?</a></li>
+<li><a href="#">Rekisteröidy nyt</a></li>
+</ul>
+</div>
+

@@ -1,0 +1,12 @@
+﻿<ul class="foot_links">
+  <li><a href="/AboutUs" target="_top">Om Jetbull</a></li>
+  <li>
+<a href="/ResponsibleGaming" target="_top">Ansvarlig Spill</a></li>
+  <li>
+<a href="/TermsConditions" target="_top">Regler og Betingelser</a> </li>
+  <li>
+<a href="/ContactUs" target="_top">Kontakt Oss</a> </li>
+  <li>
+<a href="/Affiliates/Home" target="_top">Partnere</a>
+</li>
+</ul>

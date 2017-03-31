@@ -1,0 +1,1 @@
+Kraj/mesto mora vsebovati vsaj 2 znaka

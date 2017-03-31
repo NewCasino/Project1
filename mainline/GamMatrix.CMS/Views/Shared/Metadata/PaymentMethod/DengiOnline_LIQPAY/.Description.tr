@@ -1,0 +1,1 @@
+﻿LiqPay is a universal payment platform that allows merchants to accept payments from end users and natural persons to pay or to make money  transfers just by mobile phone number of the recepient. To use LiqPay all you need is a mobile phone and a bank card.

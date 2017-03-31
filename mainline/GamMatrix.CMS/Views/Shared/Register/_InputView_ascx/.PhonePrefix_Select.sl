@@ -1,0 +1,1 @@
+Izberite kodo telefonskega operaterja

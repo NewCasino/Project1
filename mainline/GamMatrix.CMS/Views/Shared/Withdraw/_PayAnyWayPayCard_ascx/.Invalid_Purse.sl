@@ -1,0 +1,1 @@
+Denarnica se mora začeti z R/Z/E, ki ji sledi 12 števk.

@@ -1,0 +1,678 @@
+﻿<div id="help-area">
+    <h3 class="content-item" id="1">
+        <strong>Regras Gerais</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">
+            Todas as apostas aceitas pelo <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> estão sujeitas a estas regras;
+        </li>
+        <li class="content-statement">
+            O <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp; </strong>reserva-se o direito de cancelar apostas efectuadas com odds erróneas, odds trocadas ou qualquer aposta efectuada após o início da partida;
+        </li>
+        <li class="content-statement">
+            O <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp; </strong>reserva-se o direito de recusar, restringir, cancelar ou limitar qualquer aposta;
+        </li>
+        <li class="content-statement">Todas as apostas são avaliadas somente após o final do evento;</li>
+        <li class="content-statement">
+            O vencedor de um evento será determinado na data de finalização do respetivo evento; para efeitos de apostas, o <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> não reconhece decisões protestadas ou anuladas. O resultado de um evento suspenso após o início da competição será decidido segundo as regras de apostas especificadas para esse esporte pelo <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp; </strong>;
+        </li>
+        <li class="content-statement">Segundo as the Lottery and Gaming Authorities in Malta, é estritamente proibida a realização de apostas por menores de 18 anos;</li>
+        <li class="content-statement">
+            Todas as regras, regulamentações e compensações contidas neste documento estão sujeitas a alterações e revisões efetuadas pelo <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> sem aviso prévio por escrito;
+        </li>
+        <li class="content-statement">
+            Os montantes máximos das apostas em todos os eventos esportivos serão determinados pelo <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> e podem ser alterados sem aviso prévio por escrito.<strong> [Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp; </strong>reserva-se também o direito de ajustar limites em contas de apostas individuais;
+        </li>
+        <li class="content-statement">
+            Caso sejam creditados montantes na conta do usuário por engano, cabe ao usuário notificar o <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> do erro sem demora. Em contas com saldos negativos, o <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> reserva-se o direito de cancelar apostas pendentes, quer as mesmas tenham sido colocadas com fundos resultantes do erro ou não;
+        </li>
+        <li class="content-statement">
+            O usuário é o responsável máximo pelas transações da sua conta. Por favor, assegure-se de rever e confirmar que não há erros nas suas apostas antes de validá-las. Após a transação ser validada, não é possível alterá-la.<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> não se responsabiliza por apostas desaparecidas ou duplicadas efetuadas pelo usuário e não analisará reclamações sobre apostas desaparecidas ou duplicadas. Os usuários devem verificar suas transações em “Minha Conta de Apostas Esportivas” no site após cada sessão de forma a assegurar-se que todas as apostas realizadas foram aceitas;
+        </li>
+        <li class="content-statement">As reclamações deverão ser apresentadas até sete (7) dias após a aposta em questão ter sido decidida. Não serão aceitas reclamações após este período. O usuário é o responsável máximo pelas transações realizadas na sua conta;</li>
+        <li class="content-statement">Todo o saldo e transações da conta são disponibilizados na moeda escolhida quando a conta foi originalmente aberta;</li>
+        <li class="content-statement">Os ganhos serão calculados sempre através das odds europeias. Por favor, tenha em conta que, ao converter as odds para o padrão britânico, podem ocorrer erros de conversão, uma vez que as odds não têm um equivalente exato nas fracções das odds britânicas. Neste caso, serão apresentadas odds fraccionais aproximadas;</li>
+        <li class="content-statement">
+            <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> reserva-se o direito de suspender a conta de um usuário sem aviso prévio escrito e devolver todos os fundos à sua conta principal;
+        </li>
+        <li class="content-statement">No caso de discrepância entre a versão inglesa e a tradução para outras línguas destas regras, será considerada válida a versão inglesa;</li>
+        <li class="content-statement">Acumuladores (Parlays, Múltiplas): São aceitos até 10 resultados em um acumulador. Se alguns dos resultados forem “mutuamente dependentes”, como por exemplo, a combinação de uma aposta no Chelsea como campeão da English Premier League e uma aposta na vitória do Chelsea em casa no último jogo decisivo, estas apostas serão canceladas;</li>
+    </ol>
+    <h3 class="content-item" id="2">
+        <strong>Futebol</strong>
+    </h3>
+
+    <ol class="ord-list">
+        <li class="content-statement">Football starting dates and times displayed on our website are an indication only and are not guaranteed to be correct. If a game is postponed, all bets will have action 48 hours after kickoff. If we receive news that a postponed game has been rescheduled for some time after two days, we will immediately return all funds from pending bets;</li>
+        <li class="content-statement">If a postponed game is rescheduled for a date within the two day window and then postponed again, all bets will have action for yet another two days from the last rescheduled date. This process would continue until (a) such time when the game was scheduled for some time after four days (bets voided) or (b) would continue on as long as postponed game kept getting rescheduled within two days;</li>
+        <li class="content-statement">Unless otherwise specified, bets on the outcome of a match will be decided based on two halves of 45 minutes each and any time the referee adds to compensate for injuries and other stoppages. It does not include periods of extra time nor penalty shootouts. Occasionally, Tournaments, Friendly, or other matches may have scheduled time frames different than two 45 minute halves. If [Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;does not make special note that a match will play a time other than the standard two halves of 45 minutes each, all bets will be stand;</li>
+        <li class="content-statement">If a match is suspended before full time is reached, and not completed the same day, bets on the outcome of the match are considered void and all stakes shall be returned;</li>
+        <li class="content-statement">
+            <strong>Overs/Unders:</strong> A match must reach full time for bets on the total number of goals scored in the match to be valid.
+        </li>
+        <li class="content-statement">
+            <strong>Marcador a Qualquer Altura</strong>: No refund on non-starters. Own goals do not count.
+        </li>
+        <li class="content-statement">
+            <strong>Primeiro Marcador</strong>: No refund on non-starters. Own goals do not count.
+        </li>
+        <li class="content-statement">
+            <strong>Último Marcador</strong>: No refund on non-starters. Own goals do not count.
+        </li>
+        <li class="content-statement">
+            <strong>Primeira Equipa a Marcar</strong>: In the event of an abandoned game bets stand on scores that have taken place already, Extra Time does not count for these markets.
+        </li>
+        <li class="content-statement">
+            <strong>Tempo do Primeiro Golo</strong>: Bets are settled on what time the goal is actually scored from official source
+        </li>
+        <li class="content-statement">
+            <strong>Ultima equipa a marcar</strong>: In the event of an abandoned game bets stand on scores that have taken place already, Extra Time does not count for these markets.
+        </li>
+        <li class="content-statement">
+            <strong>1ª equipa marcar 2 golos</strong>: Settled on the team who reaches the quoted number of goals first in the event of an abandonment before 90 minutes have been played then all bets will be void unless settlement is already determined.
+        </li>
+        <li class="content-statement">
+            <strong>Ambas as equipas marcam</strong>: Based on whether both teams score a goal in the match.
+        </li>
+        <li class="content-statement">
+            <strong>Equipa Marca Mais/Menos</strong>: Based on total number of goals scored by a team in the match. Extra Time goals are not included.
+        </li>
+        <li class="content-statement">
+            <strong>Número de Golos</strong>: Bets on Number of Goals included "own goals"
+        </li>
+        <li class="content-statement">
+            <strong>Goal In Time Range</strong>: Will be the official time of goal scored that will count. Extra Time not included
+        </li>
+        <li class="content-statement">
+            <strong>Para marcar em ambas as partes</strong>: Is a Yes/No Bet if a Team/Teams will score in both halves.
+        </li>
+        <li class="content-statement">
+            <strong>Ganhar a zero</strong>: Team to win the match and keep a clean sheet.
+        </li>
+        <li class="content-statement">
+            <strong>Margem de Vitória</strong>: Settled on the result of game. The teams will be given various margins of winning and it will be the final result that counts.
+        </li>
+        <li class="content-statement">
+            <strong>Ganhar uma das partes</strong>: A Team needs to win minimum one of the two halves in order for this bet to winning.
+        </li>
+        <li class="content-statement">
+            <strong>Ganhar ambas as partes</strong>: The team must score more goals than the opposition in both halves of the match.
+        </li>
+        <li class="content-statement">
+            <strong>Vem de trás e vence</strong>: Team must be losing at any stage during the match but subsequently go on to win the match in 90 minutes.
+        </li>
+        <li class="content-statement">
+            <strong>Cantos Mais/Menos</strong>: Based on a specific line added in Over/Under for corners taken in the match. Extra Time does not count
+        </li>
+        <li class="content-statement">
+            <strong>Número de Cantos</strong>: Based on the total numbers of cornerkicks taken in the match.
+        </li>
+        <li class="content-statement">
+            <strong>Primeiro a conseguir X cantos</strong>: Settled on the team who reach the quoted number of corners first, in the event of an abandonment before 90 minutes have been played then all bets will be void unless settlement is already determined.
+        </li>
+        <li class="content-statement">
+            <strong>Tempo do próximo golo da equipe</strong>: Settlement will be made by the time given by the official match source as the time of First/Next goal is scored.
+        </li>
+        <li class="content-statement">
+            <strong>Cartões over/under</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Cartões de uma equipe over/under</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Half With Most Corners</strong>: According to the corner numbers of each half, the half with more corners won
+        </li>
+        <li class="content-statement">
+            <strong>cantos de uma equipe</strong>: Number of corners a team gets
+        </li>
+        <li class="content-statement">
+            <strong>Ultimo Canto</strong>: Which team will get the last corner kick, based on the current corner
+        </li>
+        <li class="content-statement">
+            <strong>Clean Sheet</strong>: Team who keeps a clean sheet won
+        </li>
+        <li class="content-statement">
+            <strong>Mais cantos</strong>: Team that gets more corners in a match will win
+        </li>
+        <li class="content-statement">
+            <strong>Próximo Canto</strong>: Which team will get the next corner, based on the current corner
+        </li>
+        <li class="content-statement">
+            <strong>Aposta na partida e totais</strong>: Combine 1x2 and over under, only both won bets will win, all others lost
+        </li>
+        <li class="content-statement">
+            <strong>Para ir ao prolongamento</strong>: If match goes to overtime, then won, if  not, lost
+        </li>
+        <li class="content-statement">
+            <strong>Expulsão</strong>: Will there be red cards or not
+        </li>
+        <li class="content-statement">
+            <strong>cantos par/impar</strong>: Total corners are Odd or Even
+        </li>
+        <li class="content-statement">
+            <strong>Golos da equipe num intervalo de tempo</strong>: Will be the official time of goal scored that will count. Extra Time not included
+        </li>
+        <li class="content-statement">
+            <strong>Cantos de uma equipe par/impar</strong>: Team total corners are odd or even
+        </li>
+        <li class="content-statement">
+            <strong>Cantos de uma equipe over/under</strong>: Team total corners over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Vai a penaltis</strong>: Will the match go to penalty time?
+        </li>
+        <li class="content-statement">
+            <strong>Um substituto para marcar</strong>: Will a substitute score a goal
+        </li>
+        <li class="content-statement">
+            <strong>Número de cartões</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Cartões amarelos Par/Impar</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Primeira equipe a ser mostrado um cartão</strong>: Which team will get the next card, accordingly to the current card
+        </li>
+        <li class="content-statement">
+            <strong>Auto-golo marcado</strong>: Will there be own goal scored?
+        </li>
+        <li class="content-statement">
+            <strong>Metodo de vitória</strong>: How the match ends to get a winner
+        </li>
+        <li class="content-statement">
+            <strong>Equipe a receber o primeiro cartão amarelo</strong>: Which team to receive the next yellow card, according to the current card
+        </li>
+        <li class="content-statement">
+            <strong>Parte com mais golos</strong>: Half with most goal wins
+        </li>
+    </ol>
+
+    <h3 class="content-item" id="3">
+        <strong>Tênis</strong>
+    </h3>
+    <ol class="ord-list">
+
+        <li class="content-statement">Para que as apostas sejam válidas, todos os sets deverão ser jogados por completo. Caso não sejam jogados todos os sets, houver desqualificação ou retirada de um dos jogadores, todas as apostas serão canceladas.</li>
+
+        <li class="content-statement">(1) A set is abandoned at 4-4: bets on Over/Under 7.5 games or fewer in the set are settled as winners/losers respectively; bets on ex Over/Under 10.5 games or more are void.</li>
+
+        <li class="content-statement">Sets Betting: If a tennis match is not completed because of a player retirement or disqualification, all not decided set bets will be considered void.</li>
+
+        <li class="content-statement">Delay or Suspension: If a tennis match is completed, all bets stand as written. A delay in the start of a match will not affect the standing of bets, nor will a suspension, as long as play is resumed and the match completed;</li>
+
+        <li class="content-statement">In the event a match does not go the specified number of sets, and the match is shortened by tournament officials, the leader determined to be official by tournament officials shall be the winner;</li>
+
+        <li class="content-statement">Example: A match is scheduled for 5 sets, but only 3 sets can be played because of weather. The leader at the end of 3 sets would be declared the winner of the match.</li>
+        <li class="content-statement">
+            <strong>Tie Break</strong>: If there is tie break, won, if no, lost
+        </li>
+        <li class="content-statement">
+            <strong>Resultado do Jogo</strong>: Exact score of the game and will the server be broken
+        </li>
+        <li class="content-statement">
+            <strong>Vantagens</strong>: Will there be 40:40 in a game?
+        </li>
+        <li class="content-statement">
+            <strong>Games Won Over Under</strong>: Total games of a player are over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Número de jogos</strong>: Total games of both players in a set
+        </li>
+        <li class="content-statement">
+            <strong>Para ganhar pelo menos um set</strong>: If a player wins 1 set or not when the match ends
+        </li>
+        <li class="content-statement">
+            <strong>Race To X Games</strong>: Who will win the x game in x set
+        </li>
+        <li class="content-statement">
+            <strong>Primeiro a chegar aos X pontos</strong>: Which player will win xth point, game y, n set
+        </li>
+        <li class="content-statement">
+            <strong>Pontos de Desvantagem</strong>: Who will win the game with the handicap parameter in that set
+        </li>
+        <li class="content-statement">
+            <strong>Points Over Under</strong>: Total game points over under in x game, n set
+        </li>
+        <li class="content-statement">
+            <strong>Points Won Over Under</strong>: Total points by each player, in x game, n set
+        </li>
+        <li class="content-statement">
+            <strong>To hold first service game</strong>: Will the player hold the first service game in first set?
+        </li>
+        <li class="content-statement">
+            <strong>Game Of First Service Break</strong>: First service break is in which game at first set
+        </li>
+        <li class="content-statement">
+            <strong>Total Service Breaks</strong>: How many service breaks will be in 1st set
+        </li>
+        <li class="content-statement">
+            <strong>Margem de Vitória</strong>: What is the difference of total number of games won by winner and loser
+        </li>
+        <li class="content-statement">
+            <strong>Lose 1st Set And Win The Match</strong>: Which player lost 1st set but won the match in the end
+        </li>
+    </ol>
+
+    <h3 class="content-item" id="4">
+        <strong>Futebol Americano, Rugby e AFL</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Tempo mínimo de jogo: No que se refere à avaliação de apostas, os vencedores e vencidos são determinados através do resultado final (incluindo tempo extra), desde que tenham sido jogados 55 minutos.</li>
+        <li class="content-statement">Caso uma partida seja suspensa após 55 minutos e não seja retomada no próprio dia, e mesmo que seja marcada para outro dia, o resultado no momento da suspensão da partida será o utilizado para a avaliação das apostas.</li>
+        <li class="content-statement">Caso a partida seja suspensa antes do minuto 55 e não seja retomada no próprio dia, todas as apostas são canceladas e os montantes apostados creditados nas contas dos utilizadores.</li>
+        <li class="content-statement">Todas as apostas incluem tempo extra excepto quando indicação em contrário.</li>
+        <li class="content-statement">Excepto quando anunciado com antecedência, todos os eventos deverão ter lugar à hora marcada no local designado para o efeito.</li>
+        <li class="content-statement">Australian Rules, Rugby League, Super League e Rugby Union. Todas as apostas são avaliadas segundo o resultado final da partida (tempo regulamentar ou tempo extra, quando aplicável).</li>
+        <li class="content-statement">
+            Todas as apostas em jogos NFL são avaliadas segundo os resultados constantes na página <a href="http://www.nfl.com/">www.NFL.com</a>.
+        </li>
+        <li class="content-statement">
+            Todas as apostas em jogos Arena Football são avaliadas segundo os resultados constantes na página <a href="http://www.arenafootball.com/">www.Arenafootball.com</a>.
+        </li>
+    </ol>
+    <h3 class="content-item" id="5">
+        <strong>Hóquei no gelo</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Excepto quando indicação em contrário, todas as apostas incluem apenas o tempo regulamentar e excluem tempo extra ou marcação de grandes penalidades. Por exemplo: Jogo entre Rangers e Kings, com o resultado 3-3 no final do tempo regulamentar. O jogo segue para tempo extra. Os Rangers vencem a partida. Para efeitos de apostas, o resultado final é Rangers 3, Kings 3.</li>
+        <li class="content-statement">Caso a aposta inclua tempo extra, esta informação estará expressamente indicada na oferta da aposta e no boletim de apostas. Verifique o seu boletim.</li>
+        <li class="content-statement">A marcação de grandes penalidades é expressamente considerada uma parte integrante do tempo extra. Caso a partida vá para as grandes penalidades, ao vencedor será atribuído um golo extra.</li>
+        <li class="content-statement">Por exemplo: Dínamo e CSKA estão empatados a 2-2 e vão para a marcação de grandes penalidades. Para as apostas "Dínamo incluindo TE" vs. "CSKA incluindo TE", o resultado final é Dínamo 3, CSKA 2.</li>
+        <li class="content-statement">Tempo mínimo de jogo: A partida deverá ter um tempo mínimo de jogo de 55 minutos. Caso uma partida seja suspensa antes dos 55 minutos, todas as apostas no resultado da partida serão canceladas.</li>
+    </ol>
+    <h3 class="content-item" id="6">
+        <strong>Andebol</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Para o efeito de aposta, os vencedores e vencidos são determinados pelo resultado no final do tempo regulamentar. O tempo extra (uma extensão do tempo regulamentar) não tem efeito para a avaliação de apostas, excepto quando indicação em contrário.</li>
+        <li class="content-statement">Caso o jogo seja adiado, todas as apostas são canceladas e os montantes apostados devolvidos aos utilizadores, caso a partida não tenha recomeço marcado para as 24 horas seguintes ao início do mesmo.</li>
+        <li class="content-statement">Caso o local marcado para a partida seja alterado, todas as apostas são válidas, caso a equipa da casa se mantenha como tal. Caso a partida seja jogada no campo da equipa visitante, todas as apostas colocadas na oferta original são canceladas.</li>
+        <li class="content-statement">Apostas referentes à partida: Todas as apostas referentes à partida, incluindo os seguintes mercados, são avaliadas segundo o tempo regulamentar, excluindo o tempo extra, caso o mesmo seja disputado:</li>
+        <li class="content-statement">
+            <ol>
+                <li class="help-li">Total de pontos par/ímpar</li>
+                <li class="help-li">Dupla possibilidade</li>
+            </ol>
+        </li>
+    </ol>
+    <h3 class="content-item" id="7">
+        <strong>Basquetebol</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Tempo mínimo de jogo: Os jogos da NBA devem ter a duração mínima de 43 minutos para que as apostas sejam válidas. Em todas as outras ligas de basquetebol, os jogos devem ter uma duração mínima de 35 minutos para que as apostas sejam válidas.</li>
+        <li class="content-statement">Para efeitos de apostas, os vencedores e vencidos são determinados segundo o resultado final (incluindo tempo extra) desde que seja jogado o tempo mínimo, como mencionado anteriormente. Se um jogo for suspenso após ter sido jogado o tempo mínimo necessário, e caso não seja retomado no próprio dia, mesmo que seja retomado numa data posterior, todas as apostas são avaliadas segundo o resultado aquando da suspensão do mesmo.</li>
+        <li class="content-statement">Caso uma partida seja suspensa antes do tempo mínimo de jogo e caso não seja retomada no próprio dia, todas as apostas são canceladas e o montante apostado devolvido aos utilizadores.</li>
+        <li class="content-statement">Todas as apostas decorrentes da partida incluem tempo extra, excepto quando indicação em contrário.</li>
+        <li class="content-statement">Excepto quando anunciado com antecedência, todos os eventos devem ser jogados à data e hora estipuladas para que as apostas sejam válidas.</li>
+        <li class="content-statement">Estas regras aplicam-se tanto ao basquetebol profissional como universitário.</li>
+        <li class="content-statement">
+            Todas as apostas em jogos da NBA são avaliadas segundo os resultados constantes na página <a href="http://www.nba.com/">NBA.com</a>.
+        </li>
+        <li class="content-statement">
+            Todas as apostas em jogos da NCAA são avaliadas segundo os resultados constantes na página <a href="http://www.espn.com/">espn.com</a>.
+        </li>
+        <li class="content-statement">
+            <strong>Dupla Hipótese</strong>: What will be the match result, double the result, 12, 1X, 2X
+        </li>
+        <li class="content-statement">
+            <strong>Quarto com mais pontos</strong>: Quarter total points, highest quarter won
+        </li>
+        <li class="content-statement">
+            <strong>Para ir ao prolongamento</strong>: Will the match have Overtime play?
+        </li>
+        <li class="content-statement">
+            <strong>Primeiro a chegar aos X pontos</strong>: Which team will win xth point
+        </li>
+        <li class="content-statement">
+            <strong>Margem de Vitória</strong>: The margin between two teams, how many points will a team won
+        </li>
+        <li class="content-statement">
+            <strong>Equipa Marca Mais/Menos</strong>: Total points of a team over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Equipe par ou impar</strong>: Total points of a team are odd or even
+        </li>
+        <li class="content-statement">
+            <strong>Ultima equipa a marcar</strong>: Which team will get the last score based on the current scores
+        </li>
+        <li class="content-statement">
+            <strong>Primeira Equipa a Marcar</strong>: Which team will score first
+        </li>
+        <li class="content-statement">
+            <strong>Intervalo/Final</strong>: Who will win first half and the match
+        </li>
+        <li class="content-statement">
+            <strong>Parte com mais golos</strong>: Half with most goal wins
+        </li>
+        <li class="content-statement">
+            <strong>Which team wins jump ball</strong>: Which  team will have the first  possession/jumpball
+        </li>
+        <li class="content-statement">
+            <strong>Points Won Over Under</strong>: Total points of a player is over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Vencedor do ponto</strong>: Which player will get the xth point
+        </li>
+    </ol>
+
+    <h3 class="content-item" id="8">
+        <strong>Basebol</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Nas apostas no total de runs (mais/menos) devem ser jogados no mínimo 9 innings (8.5 caso a equipe da casa se encontre em vantagem) para que as apostas sejam consideradas válidas. Se um jogo for interrompido ou suspenso nos extra innings, o resultado será determinado segundo o resultado do último inning completo jogado, a menos que a equipe da casa empate o jogo, ou passe à frente na segunda metade do inning, caso em que o resultado é determinado no momento da interrupção do jogo;</li>
+        <li class="content-statement">O resultado de um jogo é oficial após 5 innings de jogo, a menos que a equipe da casa esteja em vantagem após 4.5 innings. Se um jogo for suspenso ou interrompido, o vencedor será determinado pelo resultado após o último inning completo, a menos que a equipe da casa empate o jogo, ou passe à frente na segunda metade do inning, caso em que o vencedor será determinado pelo resultado no momento da interrupção do jogo. Todo o dinheiro será reembolsado se a equipe da casa empatar o jogo e este é logo suspenso;</li>
+        <li class="content-statement">
+            O<strong> [Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp; </strong>não reconhece jogos adiados, protestos ou decisões revertidas para efeitos de apostas. Todas as apostas de beisebol devem ser completadas na data estipulada, caso contrário, as apostas serão invalidadas e o dinheiro será reembolsado;
+        </li>
+        <li class="content-statement">As apostas Money-line no beisebol serão consideradas válidas independentemente dos pitchers titulares;</li>
+        <li class="content-statement">
+            MLB Minor Leagues: No caso de serem disputados dois jogos entre a equipe A e a equipe B e <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp; </strong>oferecer uma odd para apenas um jogo entre a equipe A e a equipe B, não indicando a que jogo se refere, esta odd será considerada como referente ao primeiro jogo. Se, de fato, o primeiro jogo já começou, presume-se que a odd diz respeito ao segundo jogo;
+        </li>
+        <li class="content-statement">Regras de apostas da MLB: Em qualquer aposta, devem ser jogados 9 innings (8.5 se a equipe da casa estiver na frente) para ser validada;</li>
+        <li class="content-statement">
+            Todas as apostas da MLB serão classificadas de acordo com os resultados listados no <a href="http://www.mlb.com/">www.MLB.com </a>.
+        </li>
+    </ol>
+    <h3 class="content-item" id="9">
+        <strong>Voleibol</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Se um jogo for suspenso antes do final do tempo regulamentar e não retomado no próprio dia, todas as apostas no resultado do jogo são canceladas e os montantes apostados creditados nas contas dos utilizadores.</li>
+        <li class="content-statement">Alteração de local: Caso haja uma alteração do local de jogo, as apostas manter-se-ão válidas, caso a equipa da casa se mantenha como tal. Caso o local do jogo seja alterado para a casa da equipa visitante, as apostas colocadas na oferta original são canceladas.</li>
+    </ol>
+    <h3 class="content-item" id="10">
+        <strong>Snooker</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Na aposta Match-up, o utilizador deve escolher o jogador que vencerá oficialmente a partida. Caso a partida se inicie &ndash; com o intervalo do primeiro frame &ndash; mas não seja retomada por qualquer razão, o jogador que segue para a ronda seguinte (ou que seja declarado vencedor do torneio ou campeonato) será declarado como vencedor. Caso um evento não recomece mesmo, todas as apostas são canceladas e os montantes apostados creditados nas contas dos utilizadores.</li>
+        <li class="content-statement">Na aposta Frame, o utilizador deve escolher o resultado final de um jogo de snooker. Caso a partida se inicie mas não seja retomada por qualquer razão, todas as apostas são canceladas e os montantes apostados creditados nas contas dos utilizadores.</li>
+    </ol>
+    <h3 class="content-item" id="11">
+        <strong>Combates</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Quando a campainha soar para o início do primeiro round, o combate será considerado oficial para fins de apostas, independentemente da duração prevista ou do título. </li>
+        <li class="content-statement">Considera-se Empate Técnico quando o combate terminar antes do número de rounds previstos. Habitualmente, isso deve-se a uma cabeçada acidental ou a uma falta. </li>
+        <li class="content-statement">Se qualquer combate for considerado "no contest", todas as apostas serão devolvidas. </li>
+        <li class="content-statement">Se a oferta de apostas para um determinado combate incluir o empate como terceira opção e esse combate terminar num empate, as apostas no empate serão pagas, sendo as apostas em ambos os jogadores consideradas perdedoras. Se a oferta de apostas incluir apenas os dois lutadores, e o empate não for oferecido ou for oferecido numa proposta separada e o combate terminar num empate, as apostas em qualquer um dos lutadores serão devolvidas. </li>
+        <li class="content-statement">O resultado (total) Acima/Abaixo listado num combate representa o número total de rounds terminados. O ponto médio de um round situa-se exactamente ao minuto e trinta segundos num round de três minutos. Logo, nove rounds e meio corresponderão ao minuto e trinta do 10.º round. O ponto médio de um round de dois minutos é na marca de um minuto. O ponto médio de um round de cinco minutos é na marca de dois minutos e trinta segundos. </li>
+        <li class="content-statement">Os resultados serão classificados com base no resultado oficial no ringue. Os resultados não são oficiais para fins de apostas até serem verificados pelo júri no local do combate. As alterações oficiais ou não oficiais no desfecho do combate baseadas em recurso, suspensão, processo judicial, resultado de teste de despiste de drogas ou qualquer outra sanção sobre os lutadores não serão reconhecidas para fins de apostas. </li>
+        <li class="content-statement">Excepto especificação em contrário, os combates devem ter lugar no prazo de trinta dias após a data marcada para as apostas serem válidas.</li>
+    </ol>
+    <h3 class="content-item" id="12">
+        <strong>Bandy</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Excepto quando indicação em contrário, todas as apostas aplicam-se ao tempo regulamentar, excluindo qualquer tempo extra. Em torneios, caso sejam oferecidos outros mercados, como "Vencedor do tempo regulamentar", as grandes penalidades estão incluídas na avaliação destas apostas.</li>
+        <li class="content-statement">Tempo de jogo: caso a estrutura do jogo seja alterada por qualquer razão de duas partes de 45 minutos para três partes de 30 minutos, todas as apostas mantém-se válidas, excepto as apostas que se referem à primeira e segunda partes.</li>
+        <li class="content-statement">Alteração de local: caso o local de jogo seja alterado, todas as apostas são válidas caso a equipa da casa se mantenha como tal. Caso o local do jogo seja alterado para a casa da equipa visitante, as apostas colocadas na oferta original são canceladas.</li>
+    </ol>
+    <h3 class="content-item" id="13">
+        <strong>Floorball</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Para efeitos de apostas, os vencedores e vencidos são determinados através do resultado no final do tempo regulamentar. O tempo extra ou morte súbita não estão incluídos na avaliação excepto quando indicação expressa.</li>
+        <li class="content-statement">Caso um jogo seja suspenso antes do final do tempo regulamentar, e não seja retomado no próprio dia, todas as apostas são canceladas e os montantes apostados creditados nas contas dos utilizadores.</li>
+        <li class="content-statement">Caso o jogo seja adiado por qualquer razão, todas as apostas são canceladas e os montantes apostados creditados nas contas dos utilizadores.</li>
+    </ol>
+    <h3 class="content-item" id="14">
+        <strong>Dardos</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Aposta no jogo: O jogador que passar à ronda seguinte é considerado vencedor desde que um dos jogadores lance o primeiro dardo na primeira mão. Caso o primeiro dardo não seja lançado, todas as apostas são canceladas.</li>
+        <li class="content-statement">Apostas em sets: O número de sets que constituem um jogo devem ser disputados. Se, por alguma razão, um dos jogadores vencer a partida sem que o número de sets que constituem um jogo sejam jogados, todas as apostas são canceladas.</li>
+    </ol>
+    <h3 class="content-item" id="15">
+        <strong>Futsal</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Excepto indicação em contrário, todas as apostas aplicam-se ao tempo regulamentar. Este inclui duas partes de jogo mais o tempo de compensação dado pelo árbitro devido a lesões e outras paragens. Não inclui o prolongamento ou marcação de grandes penalidades.</li>
+        <li class="content-statement">Caso o jogo seja suspenso antes do final do tempo regulamentar, e não seja retomado no próprio dia, todas as apostas no resultado do jogo são canceladas e os montantes apostados creditados nas contas dos utilizadores.</li>
+        <li class="content-statement">As datas e locais dos jogos de Futsal disponilbiizadas na nossa página são meramente indicativas e podem não estar correctas. Caso um jogo seja adiado, todas as apostas manter-se-ão activas durante um período de 48 horas. Caso tenhamos indicação que um jogo adiado foi marcado para uma data superior a dois dias, todas as apostas são canceladas e os montantes apostados creditados nas contas dos utilizadores.</li>
+        <li class="content-statement">Alteração de local: Caso haja uma alteração do local do jogo, todas as apostas são canceladas.</li>
+    </ol>
+    <h3 class="content-item" id="16">
+        <strong>Poker</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">O jogador que colocar a maior quantia de dinheiro irá vencer.</li>
+        <li class="content-statement">Para apostas a longo prazo, o competidor deve começar no evento para que seja considerada a ação.</li>
+    </ol>
+    <h3 class="content-item" id="17">
+        <strong>Curling</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Excepto quando indicado, para efeitos de apostas, os extra ends estão incluídos no resultado do jogo.</li>
+        <li class="“content-statement”">Para que uma aposta seja válida, devem ser jogados 6 ends.</li>
+        <li class="“content-statement”">
+            O resultado final de um jogo é o resultado indicado pelos organizadores do torneio. A <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> aceita as regras e regulamentos que regem o torneio em causa no que respeita a derrota por desqualificação.
+        </li>
+        <li class="“content-statement”">As apostas em jogos que são adiados ou suspensos por qualquer razão (tais como, mas não apenas: deterioração das condições do gelo, falha eléctrica ou problemas de agendamento) são consideradas válidas e são avaliadas assim que a organização declare o jogo como completo.</li>
+    </ol>
+    <h3 class="content-item" id="18">
+        <strong>Ténis de mesa</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Caso o jogo tenha início, mas seja interrompido por qualquer razão, todas as apostas no resultado do jogo são canceladas.</li>
+        <li class="content-statement">Aposta em sets (Resultado Exacto) refere-se ao resultado exacto de cada set.</li>
+        <li class="content-statement">Em jogos de pares, caso haja a realização de duas partidas, apenas o primeiro resultado é válido.</li>
+    </ol>
+    <h3 class="content-item" id="19">
+        <strong>Corridas de Cavalos</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="no-bullet">
+            <h4>Geral</h4>
+            <ol>
+                <li class="help-li">All bets are settled in accordance with the official result at the time of the "weigh in". Any change to a result after this point will not count;</li>
+                <li class="help-li">Walkovers and void races count as races but any horse involved will be treated as a non-runner.</li>
+            </ol>
+            <h4>Não corredores e desistências</h4>
+            <ol>
+                <li class="help-li">If a horse is withdrawn before coming under starter's orders, or is officially deemed by the starter to have taken no part in the race, then all bets on that horse are void. Your stakes will be returned on the withdrawn horse.</li>
+            </ol>
+            <h4>Não corredores e desistências</h4>
+            <h4>Preços da primeira hora da manhã/ preços do dia do evento</h4>
+            <ol>
+                <li class="help-li">After the final declarations stage, Non-Runner no-bet will apply.</li>
+            </ol>
+            <h4>Participações dupla</h4>
+            <ol>
+                <li class="help-li">Where a horse is doubly engaged (named as a runner in more than one race) the bet will stand as a bet for the timed race. If the selection runs in the other race it would be treated as a non runner.</li>
+            </ol>
+            <h4>Re-runs (repetições)</h4>
+            <ol>
+                <li class="help-li">In the event of a false start or any other incident resulting in a race being re-run, 'under starter's orders' is negated and stakes will be refunded on horses taking no part in the re-run;</li>
+            </ol>
+            <h4>Adiamentos</h4>
+            <ol>
+                <li class="help-li">If a race is abandoned or declared void then any bets will be void. If the race is postponed to a future day and the final Declarations stand, all bets will stand;</li>
+                <li class="help-li">
+                    However, all single bets on horse racing will be made void and any selection involved in accumulative bets will be treated as a non-runner if:
+                    <ol>
+                        <li class="help-li">The race is abandoned;</li>
+                        <li class="help-li">The race is officially declared void;</li>
+                        <li class="help-li">The conditions of the race are altered after bets have been made;</li>
+                        <li class="help-li">The venue is altered;</li>
+                        <li class="help-li">The running surface is altered (e.g. from Turf to All Weather).</li>
+                    </ol>
+                </li>
+            </ol>
+            <h4></h4>
+            <h4>Apostas Ante-Post</h4>
+            <ol>
+                <li class="help-li">Ante post betting will cease at the Final Declaration stage and all bets after this will be non-runner, no bet ;</li>
+                <li class="help-li">Unless specifically stated otherwise, stakes are lost on an Ante-Post bet if a horse does not take part. </li>
+                <li class="help-li">On days when classic or other trials occur, Ante-Post betting may be suspended and new prices issued;</li>
+                <li class="help-li">Ante-Post bets on horses compulsorily withdrawn will be void and stakes returned. (Stewards are empowered to reduce the numbers in a race if, at the overnight declaration stage, too many have been left in for the safety of horses and jockeys. Jockey Club Rule 121). </li>
+                <li class="help-li">Ante-Post bets are settled at the odds and place terms applicable at the time of acceptance. Should a wrong odds or place terms be given in error we reserve the right to settle the bet at the correct odds/place terms that were available at the time the bet was struck.</li>
+            </ol>
+            <h4>Apostas Each-Way</h4>
+            <ol>
+                <li class="help-li">All bets are settled to win unless 'Each-Way' is selected;</li>
+                <li class="help-li">An Each-Way bet is made up of two bets. It contains one bet for your horse to "Win" and a second bet for your horse to be "Placed". Each bet is placed at the stake amount you have entered, so the total cost of an each way bet will be double the amount you entered stake as you are placing two bets;</li>
+                <li class="help-li">
+                    The "Place" terms will be as advertised for the event. In general, for UK horse racing the 'Place' part of Each-Way bets will be settled using the following 'Place' terms:
+                    <ol>
+                        <li class="help-li">Less than 5 runners - the place money is invested to win;</li>
+                        <li class="help-li">Races of 5, 6 or 7 runners - one 1/4 the odds - first two places;</li>
+                        <li class="help-li">All other races of 8 or more runners 1/5 the odds - first three places</li>
+                        <li class="help-li">Handicap races with 12 - 15 runners one 1/4 the odds - first three places</li>
+                        <li class="help-li">Handicap races with 16 or more runners 1/4 the odds - first four places</li>
+                        <li class="help-li">
+                            In all races the number of runners will be the number of runners coming
+                            under starters orders. Bets won't be accepted where the place stake exceeds
+                            the win stake.
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+
+    <h3 class="content-item" id="20">
+        <strong>Greyhounds</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">All bets are placed on the named greyhounds;</li>
+        <li class="content-statement">Ante-Post wagers are accepted on the basis all-in run or not, entered or not;</li>
+        <li class="content-statement">Where a race is re-run all bets stand. Should a race be declared void and not re-run, all bets will be void;</li>
+        <li class="content-statement">If a named dog (No reserves) is selected and a reserve runs in place of the named dog then the bet will be settled as a non-runner;</li>
+        <li class="content-statement">All bets will stand irrespective of vacant traps, void races and abandoned meetings. Dead-heat rules apply to outright result, if multiple winners;</li>
+        <li class="content-statement">In the event of abandonment or postponement to races where early prices have been offered, all bets will stand as long as the races are rescheduled and completed;</li>
+        <li class="content-statement">
+            Payment will be made on the official result of races.<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>reserves the right to declare void any bets where it considers there to be reasonable suspicion or evidence of unfair price manipulation.
+        </li>
+    </ol>
+    <h3 class="content-item" id="21">
+        <strong>Esportes Gaélicos</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Outright/Winner betting: Predict which team will win the event;</li>
+        <li class="content-statement">All match markets are based on regulation time only (including injury time). Extra time does not count unless specified;</li>
+        <li class="content-statement">If either team does not play then bets will be void;</li>
+        <li class="content-statement">If the game is abandoned prior to completion then bets will be void;</li>
+        <li class="content-statement">Any match postponed to another day will be void;</li>
+        <li class="content-statement">If a match venue is changed, bets already placed will stand providing the home team is still designated as such. If the home and away team for a listed match are reversed, then bets placed based on the original listing will be void;</li>
+        <li class="content-statement">Bets will be settled on official GAA (Gaelic Athletics Association) result only.</li>
+    </ol>
+    <h3 class="content-item" id="22">
+        <strong>Esportes de Inverno</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Outright/Winner: Predict which team/participant will win the event. Bets on non starting participants will not be refunded;</li>
+        <li class="content-statement">Winter Olympics: Events are official after the original medal ceremony. Any subsequent changes to those results do not count.</li>
+    </ol>
+    <h3 class="content-item" id="23">
+        <strong>Virtual Sports</strong>
+    </h3>
+    <ol class="ord-list">
+        <li>
+            <h4>Game Play Rules</h4>
+            <ol>
+
+                <li class="help-li">A virtual betting event takes place every 5 minutes.</li>
+
+                <li class="help-li">Bets on the next event are accepted until the "bets closed" message appears on the screen, after which the bet will be allocated to the successive event.</li>
+
+                <li class="help-li">When the event is not specified by the customer, bets are registered on the next event.</li>
+
+                <li class="help-li">Winnings can be collected once the result of an event is displayed on the results screen.</li>
+
+                <li class="help-li">The minimum stake per bet is 50c with a maximum payout for any one customer on any one day of €50,000</li>
+
+                <li class="help-li">A customer who places any bet on these events takes sole responsibility for his actions in placing a bet, and for checking his ticket to ensure it is correctly reflects his chosen bet, and will not 		hold the operator liable in for any loss or damage suffered. The operator will also not be liable for any system malfunction that may result in the nullification, cancellation or refund of a bet at any time.</li>
+
+                <li class="help-li">No horses or greyhounds are scratched from virtual races.</li>
+
+                <li class="help-li">There are no dead heats (position draws) in virtual races.</li>
+
+                <li class="help-li">If any events are cancelled for whatever reason, outstanding bets on the affected events will be paid at settled at 1:1.</li>
+
+                <li class="help-li">Bet types offered may be altered from time to time.</li>
+
+            </ol>
+
+            <h4>Race Event Bet Types &ndash; Single Selection</h4>
+            <ol>
+
+                <li class="help-li">
+                    <b>Win</b> - Select a runner to finish 1st.
+                </li>
+
+                <li class="help-li">
+                    <b>Place</b> - Select a runner to finish in 1st, 2nd or 3rd place in a race with 8 runners or more, and 1st, or 2nd in a 6 runner greyhound race.
+                </li>
+
+                <li class="help-li">
+                    <b>Each-way (“Fractional Place” bet in some fractional odds markets)</b>Select a runner to win or place. This bet consists of two bets on one selection in one event, with the first bet on the runner to
+
+                    win and the second bet on the runner to place. The place bet pays at a fraction of the win odds as specified on the event data.
+                </li>
+                <li class="help-li">
+                    The Each-Way bet is not offered in most countries. The game system can be configured to set the “place” odds at a fixed proportion of the win odds of the selection as follows:
+                    <ol>
+
+                        <li class="help-li">Greyhounds pays 1/5th of win odds.</li>
+
+                        <li class="help-li">Horses pays 1/5th of win odds.</li>
+
+                    </ol>
+
+                </li>
+
+            </ol>
+            <h4>Race Event Bet Types - Multiple Selection Combination Odds</h4>
+            <ol>
+
+                <li class="help-li">
+                    These bet markets carry different terms in different geographical regions. Our data service uses fixed odds (“bookie”) terminology. The system can be configured to display pari-mutuel (“tote”)
+                    terminology on the screen systems and video renders when required. These alternative bet names are shown in parentheses below
+                </li>
+
+                <li class="help-li">
+                    <b>Forecast (Exacta)</b> - Select 2 runners to finish 1st and 2nd IN ORDER specified.
+                </li>
+
+                <li class="help-li">
+                    <b>Combination Exacta</b> - Some bet systems offer a player the option of selecting 2 or more selections to bet that every possible combination of two of the selections may finish 1st and 2nd in
+
+                    order. So for example; on 2 selections there are 2 bets (1-2, 2-1); on 3 selections there are 6 bets (1-2, 1-3, 2-1, 2-3, 3-1, 3-2); on 4 selections there are 12 bets, on 5 selections there are 20 bets and on 6
+
+                    selections there are 30 bets etc. This is a bet acceptance system bet that uses the Forecast odds in the feed service. The bet acceptance system works out all combinations.
+                </li>
+
+                <li class="help-li">
+                    <b>Reverse Forecast (Quinella)</b> - Select 2 runners to finish 1st and 2nd in ANY ORDER.
+                </li>
+
+                <li class="help-li">
+                    <b>Tricast or Trifecta</b> - Select 3 runners to finish 1st, 2nd and 3rd IN ORDER specified.
+                </li>
+
+                <li class="help-li">
+                    <b>Combination Trifecta</b> - Some bet systems offer a player the option of selecting 3 or more selections to bet that every possible combination of three of the selections may finish 1st, 2nd and 3rd
+                    in order in an event. So for example; on 3 selections there are 6 bets (1-2-3, 1-3-2, 2-1-3, 2-3-1, 3-1-2, 3-2-1); on 4 selections there are 24 bets; on 5 selections there are 60 bets and on 6 selections there are 120
+
+                    bets. This is a bet acceptance system bet that uses the Tricast odds. The bet acceptance system works out all combinations.
+                </li>
+
+                <li class="help-li">
+                    <b>Reverse Tricast or Trio</b> - Select 3 runners to finish 1st, 2nd and 3rd in ANY ORDER.
+                </li>
+
+            </ol>
+        </li>
+    </ol>
+    <p style="text-align: right">
+        <button type="button" onclick="window.print(); return false" class="button">
+            <span class="button_Right">
+                <span class="button_Left">
+                    <span class="button_Center">
+                        <span>Print</span>
+                    </span>
+                </span>
+            </span>
+        </button>
+    </p>
+</div>

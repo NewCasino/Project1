@@ -1,0 +1,1 @@
+﻿Nordea za pośrednictwem Moneybookers to bardzo bezpieczna metoda internetowego przelewu środków z konta bankowego.&nbsp;Nordea umożliwia szybkie i łatwe przelewy bez żadnych utrudnień.

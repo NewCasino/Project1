@@ -1,0 +1,7 @@
+﻿<%@ Control Language="C#" Inherits="CM.Web.ViewUserControlEx<dynamic>" %>
+
+<%@ Import Namespace="GamMatrix.CMS.Models.Common.Components" %>
+
+<% Html.RenderPartial(
+        "/Components/MoneyMatrix_PaymentSolutionPayCard",
+        new MoneyMatrixPaymentSolutionPrepareViewModel(TransactionType.Deposit, "GPaySafe.Cepbank")); %>

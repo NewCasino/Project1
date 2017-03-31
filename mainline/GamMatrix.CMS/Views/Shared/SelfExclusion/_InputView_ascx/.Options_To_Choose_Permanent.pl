@@ -1,0 +1,1 @@
+Masz również możliwość zamknięcia swojego konta na stałe:

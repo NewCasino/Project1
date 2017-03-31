@@ -1,0 +1,1 @@
+﻿Zobraz hry do mřížky

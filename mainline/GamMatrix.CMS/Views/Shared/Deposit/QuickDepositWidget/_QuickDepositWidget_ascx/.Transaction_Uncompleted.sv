@@ -1,0 +1,1 @@
+Transaktionen är inte slutförd.

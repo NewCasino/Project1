@@ -1,0 +1,1 @@
+﻿Maximální velikost přílohy ({0} bytes) překročena

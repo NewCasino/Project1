@@ -1,0 +1,1 @@
+﻿(zrušit pouze bankovní transfer)

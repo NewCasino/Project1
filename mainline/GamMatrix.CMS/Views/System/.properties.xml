@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <DistinctName>AdminConsole</DistinctName>
+  <DisplayName>CMS Console</DisplayName>
+  <DefaultUrl>/</DefaultUrl>
+  <DefaultHostName></DefaultHostName>
+  <DefaultCulture>en</DefaultCulture>
+  <HostNames>127.0.0.1|localhost</HostNames>
+  <TemplateDomainDistinctName></TemplateDomainDistinctName>
+</root>

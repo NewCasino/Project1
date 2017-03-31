@@ -1,0 +1,17 @@
+﻿<div class="Message RegisterMessage">
+	<h3 class="MessageTitle">O multime de evenimente sportive se desfasoara chiar acum!</h3>
+	<p 
+class="MessageText">Consultati vasta selectie de meciuri si oferta disponibila de cote live pentru fotbal, baschet, handbal, tenis si hochei pe gheata. De asemenea avem cote pre-meci pentru cele mai multe dintre sporturi si competitii din lume!</p>
+	
+<ul class="MessageOptions Container">
+		<li class="MessageOption 
+MOMain">
+			<a class="Button MessageIncentive CTAButton" 
+href="/Sports/" title="Vizitati sectiunea de Pariuri Jetbull acum!">
+			
+	<span class="ButtonText">Incepeti sa pariati cu Jetbull <span class="ActionSymbol">&#9658;</span></span>
+			</a>
+		
+</li>
+	</ul>
+</div>

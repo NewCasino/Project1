@@ -1,0 +1,1 @@
+﻿ClickandBuy je e-peněženkovou službou, která umožňuje ClickanBuy zákazníkům vkládat a vybírat prostředky z ClickandBuy účtu na jejich účet hráčský.Platební metoda je zcela bezpečná a umožňuje okamžité převedení prostředků na hráčský účet. Klikněte&nbsp;<a href="http://www.clickandbuy.com/UK/en/international.html" target="_blank">zde</a> a otevřete si ClickandBuy účet nyní

@@ -1,0 +1,1 @@
+﻿Le dépôt actuel est {0}, si on ajoute votre dernier dépôt {1}, la totalité des arrhes {2} sera plus grande que votre limitation ({3} par {4})

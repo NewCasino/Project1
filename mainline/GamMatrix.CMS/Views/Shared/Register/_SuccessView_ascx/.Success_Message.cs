@@ -1,0 +1,1 @@
+﻿Váš účet není aktivní. V současné době nemůžete vkládat, vybírat ani převádět peníze. Byl vám zaslán aktivační email, na adresu, kterou jste zadali při aktivaci. Prosíme, klikněte na odkaz v aktivačním emailu k aktivaci vašeho účtu. Pokud neobdržíte aktivační email, klikněte na <a href="#" id="btnResendEmail">here</a> a pošleme vám ještě jeden email.

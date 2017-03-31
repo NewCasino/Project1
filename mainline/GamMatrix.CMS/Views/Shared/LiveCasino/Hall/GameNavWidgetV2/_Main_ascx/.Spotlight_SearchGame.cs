@@ -1,0 +1,2 @@
+﻿Hledat podle jména hry
+

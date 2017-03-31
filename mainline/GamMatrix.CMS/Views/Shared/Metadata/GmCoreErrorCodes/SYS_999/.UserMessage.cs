@@ -1,0 +1,1 @@
+﻿Systémová chyba

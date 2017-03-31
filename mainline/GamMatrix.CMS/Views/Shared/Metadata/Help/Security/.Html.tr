@@ -1,0 +1,46 @@
+﻿<ol>
+
+    <li> <strong>Sitenizin Merkezi neresi?</strong>
+        <p>Sitemiz Maltada kurulmuş.</p>
+    </li>
+
+    <li> <strong>Siteniz Ruhsatlımı?</strong>
+        <p>
+            Evet Spor Bahisleri, Casino ve Poker için geçerli bir Avrupa Birliği Ruhsatımız var.
+        </p>
+    </li>
+
+    <li>
+        <strong>Kredi Kart Bilgilerim ne kadar Güvende?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] en ilerlemiş Şifreleme Tekniklerini kullaniyor ki Bilgileriniz sadece [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ailesinde seçilmiş çok az kişiler için Mevcut olsun. Bütün Bilgilerimizi uluslararası kabuledilmiş Standard olan SSL Şifreleme Algoritmalari kullanarak şifreliyoruz. Bu demekki bütün ileri ve geri giden Bilgileriniz, Adresinizden tutunuz, size dağıtılan Kartlarınıza kadar, bir Bankanın da kullanıçağı Güvenlik Önlemler ile korunuyor.
+        </p>
+    </li>
+
+    <li>
+        <strong>Finansal Bilgilerimin Güvende olduğunu nerden bileceğim?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] bütün Bilgilerinizi uluslararası kabuledilmiş Standard olan SSL Şifreleme Algoritmalari kullanarak şifreliyor. Bu demekki bütün ileri ve geri giden Bilgileriniz, Adresinizden tutunuz, size dağıtılan Kartlarınıza kadar, bir Bankanın da kullanıçağı Güvenlik Önlemler ile korunuyor.
+        </p>
+    </li>
+
+    <li>
+        <strong>Paramın Güvende olduğunu nereden bileceğim?</strong>
+        <p>
+            Bütün Müşteri Paraları Valletta Bankasında ayrı bir Trust Fund Hesabında tutuluyor. Bu Ruhsatlısı olduğumuz Maltanın Piyango ve Kumar Düzenlemelerine uygundur. Müşteri Paraların bütünü Şirketin Paralarından'ring-fenced' dir ve bu Şekilde Güvende tutulmaktadır ki Müşterilerin Paraları güvende ve herzaman Müşteriler için erişebilir olsunlar. 
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

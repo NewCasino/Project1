@@ -1,0 +1,172 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jetbull Casino Calendar</title>
+<style type="text/css"><!--
+ #tut-wrapper { margin : 14px; background : transparent url("http://cdn.everymatrix.com/Jetbull/_files/ChristmasCalendar/back.png") right center no-repeat; }
+h1 { font-size: 24px; font-weight: bold; margin-bottom: 28px; padding-bottom: 5px; }
+	#calendar-table { width:61.8%; float:left; }
+		.ctable-box { width:23.5%; position : relative; background:rgba(51,51,51,0.8); min-height:/*107px*/134px; margin-right:2%; margin-bottom:2%; float:left; }
+		.ctable-box.Active { background : #000 url("http://cdn.everymatrix.com/Jetbull/_files/ChristmasCalendar/present-icon.png") right bottom no-repeat; }
+		.ctable-box.Inactive div { display : none; }
+		.ctable-box.Inactive div.Inactive { display : block; }
+		.ctable-box.Current { background : rgba(233,33,33,0.25) url("http://cdn.everymatrix.com/Jetbull/_files/ChristmasCalendar/present-icon.png") right bottom no-repeat; }
+			.ctable-box .popup { display : none; cursor : default; background : rgba(158,16,16,0.75) url("http://cdn.everymatrix.com/Jetbull/_files/ChristmasCalendar/candy-icon.png") right bottom no-repeat; color : #FFF; position : absolute; top : 0; transition : background-color 0.3s ease; -moz-transition : background-color 0.3s ease; border : 1px solid #E92121; }
+			.ctable-box:hover .popup { display : block; }
+                            .ctable-box .msg { display : block; }
+		.ctable-box.First { clear : left; }
+		.ctable-box.Last { margin-right : 0; }
+                    .ctable-row {  }
+			.ctable-box div { padding : 7px; border : 1px solid #333; min-height:118px; position : relative; }
+				.ctable-box div.Active { display : none; }
+			.ctable-box div:hover { border-color : #9e1010; }
+			.ctable-box.Current div { border-color : #9e1010; }
+				.ctable-box .PromoLink { display : block; min-height : 107px; }
+				.ctable-box:hover { color : #FFF; }
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jetbull Casino Calendar</title>
+<style type="text/css"><! 
+ #tut-wrapper { margin : 14px; background : transparent url("http://cdn.everymatrix.com/Jetbull/_files/ChristmasCalendar/back.png") right center no-repeat; }
+h1 { font-size: 24px; font-weight: bold; margin-bottom: 28px; padding-bottom: 5px; }
+	#calendar-table { width:61.8%; float:left; }
+		.ctable-box { width:23.5%; position : relative; background:rgba(51,51,51,0.8); min-height:/*107px*/134px; margin-right:2%; margin-bottom:2%; float:left; }
+		.ctable-box.Active { background : #000 url("http://cdn.everymatrix.com/Jetbull/_files/ChristmasCalendar/present-icon.png") right bottom no-repeat; }
+		.ctable-box.Inactive div { display : none; }
+		.ctable-box.Inactive div.Inactive { display : block; }
+		.ctable-box.Current { background : rgba(233,33,33,0.25) url("http://cdn.everymatrix.com/Jetbull/_files/ChristmasCalendar/present-icon.png") right bottom no-repeat; }
+			.ctable-box .popup { display : none; cursor : default; background : rgba(158,16,16,0.75) url("http://cdn.everymatrix.com/Jetbull/_files/ChristmasCalendar/candy-icon.png") right bottom no-repeat; color : #FFF; position : absolute; top : 0; transition : background-color 0.3s ease; -moz-transition : background-color 0.3s ease; border : 1px solid #E92121; }
+			.ctable-box:hover .popup { display : block; }
+                            .ctable-box .msg { display : block; }
+		.ctable-box.First { clear : left; }
+		.ctable-box.Last { margin-right : 0; }
+                    .ctable-row {  }
+			.ctable-box div { padding : 7px; border : 1px solid #333; min-height:118px; position : relative; }
+				.ctable-box div.Active { display : none; }
+			.ctable-box div:hover { border-color : #9e1010; }
+			.ctable-box.Current div { border-color : #9e1010; }
+				.ctable-box .PromoLink { display : block; min-height : 107px; }
+				.ctable-box:hover { color : #FFF; }
+					.ctable-box:hover span.Winner, .ctable-box:hover .number { color :#FFF; }
+				.ctable-box number { color : #999; display:block; font-size:18px; font-weight:bold; text-shadow : 0 1px 0 #000; }
+				.ctable-box.Current h3 { color : #FFF; }
+				.ctable-box h3.h3Only { color : #FFF; display:block; font-size:27px; font-weight:bold; margin-top:54px; text-align:center; }
+				.ctable-box span.Promo { display:block; color:#E92121; font-weight:bold; padding : 7px 0; line-height : 12px; }
+				.ctable-box span.Winner { display:block; /*position : absolute; bottom : 7px;*/ color : #999; }
+				.ctable-box.Current span.Winner { color : #FFF; line-height : 15px; }
+				.ctable-box span.Winner.Pending { display : none; }
+					.ctable-box span.WinnerName { display : block; font-weight:bold; text-decoration:underline; font-size : 11px; line-height : 15px; }
+				
+	#promo-content { width : 38.2%; float:left; }
+		.promo-content { display : block; position : relative; background:rgba(23,23,23,0.8); padding:14px 0; border:1px solid #333; min-height:832px; }
+			.promo-content h3 { display:block; font-size:18px; font-weight:bold; border-bottom:1px solid #333; margin-bottom:28px; padding-bottom:5px; padding-left : 14px; }
+			.promo-content h4 { display:block; position : relative; font-weight : bold; font-size : 14px; margin-bottom:54px; padding : 14px 0 14px 14px; background : rgba(158,16,16,0.5); }
+				.promo-content .WinIcon { display : block; position : absolute; right : -15px; top : -5px; width : 33px; height : 52px; background : transparent url("http://cdn.everymatrix.com/Jetbull/_files/ChristmasCalendar/win-icon.png") right center no-repeat; }
+			.promo-content span { background : rgba(0,0,0,0.5); padding : 7px 14px; }
+			.promo-content span.HowTo { display:block; margin-bottom:14px; border-bottom : 1px solid #333; }
+			.promo-content span.Details { display:block; border-bottom : 1px solid #333; min-height : 300px; }
+				.promo-content span.Details span.details-text { display : block; font-size : 11px; margin-bottom : 0; }
+			.promo-content .PromoButton { color : #FFF !important; position : absolute; bottom : 14px; left : 20%; transition : all 0.2s ease; display:block; padding:14px;background:#960E0E url(http://cdn.everymatrix.com/Jetbull/_files/ChristmasCalendar/bg-button.png) left -234px repeat-x;color:#FFF;font-weight:bold; text-align:center; margin:0 auto; width:50%; border:1px solid #590808; text-shadow:0 1px 0 #590808; box-shadow:0 5px 10px rgba(0, 0, 0, 0.75); }
+			.promo-content .PromoButton:hover { color : #FFF !important; text-decoration : underline; border-color : #F12222; }
+			.promo-content .PromoButton:active { color : #FFF !important; box-shadow : inset 0 5px 10px rgba(0,0,0,0.75); border : 1px solid #590808; }
+--></style>
+<div id="tut-wrapper">
+<h1></h1>
+<div id="calendar-table">
+<div class="ctable-row">
+<div class="ctable-box Active First">
+<div><span class="number">1</span> <span class="Promo">3 x 100 Free Spins</span> <span class="Winner">Winners: <span class="WinnerName">Tom&aacute;&scaron; K.</span><span class="WinnerName">Coroneos C.</span><span class="WinnerName">Kupczak S.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div><span class="number">2</span> <span class="Promo">&euro;10 Bonus x 3</span> <span class="Winner">Winners: <span class="WinnerName">Rolandas S.</span><span class="WinnerName">Johan C.</span><span class="WinnerName">Tobias L.V.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div>
+<p><span class="number">3</span> <br /><span class="Promo">Rewards doubled</span></p>
+<span class="Winner">Multiple winners </span></div>
+</div>
+<div class="ctable-box Active Last">
+<div><span class="number">4</span> <span class="Promo">3 x 100 Free Spins</span> <span class="Winner">Winners: <span class="WinnerName">Philippe A.</span><span class="WinnerName">Sabrina L.</span><span class="WinnerName">Jani S.</span></span></div>
+</div>
+</div>
+<div class="ctable-row">
+<div class="ctable-box Active First">
+<div><span class="number">5</span> <span class="Promo">&euro;10 Bonus x 3</span><span class="Winner">Winners: <span class="WinnerName">Darren W.</span><span class="WinnerName">Nadja I.</span><span class="WinnerName">Marek F.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div><span class="number">6</span> <span class="Promo">500 Free Spins Tournament</span> <span class="Winner">Winners: <span class="WinnerName">Rafal M.</span><span class="WinnerName">Miroslav B.</span><span class="WinnerName">Nathalie C.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div>
+<p><span class="number">7</span> <br /><span class="Promo">Rewards doubled</span></p>
+<span class="Winner">Multiple winners </span></div>
+</div>
+<div class="ctable-box Active Last">
+<div><span class="number">8</span> <span class="Promo">3 x 100 Free Spins</span> <span class="Winner">Winners: <span class="WinnerName">Nathalie P.</span><span class="WinnerName">Jakaphong J.</span><span class="WinnerName">Piotr O.</span></span></div>
+</div>
+</div>
+<div class="ctable-row">
+<div class="ctable-box Active First">
+<div><span class="number">9</span> <span class="Promo">&euro;50 Casino Tournament</span> <span class="Winner">Winners: <span class="WinnerName">Niradar T.</span><span class="WinnerName">Gilbert B.</span><span class="WinnerName">Alduy C.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div><span class="number">10</span> <span class="Promo">Free Spins for Elements!</span> <span class="Winner">Multiple winners </span></div>
+</div>
+<div class="ctable-box Active">
+<div><span class="number">11</span> <span class="Promo">3 x 100 Free Spins</span><span class="Winner">Winners: <span class="WinnerName">Caroline D. L.</span><span class="WinnerName">Lauri L.</span><span class="WinnerName">Rune H. L.</span></span></div>
+</div>
+<div class="ctable-box Active Last">
+<div>
+<p><span class="number">12</span> <br /><span class="Promo">Rewards doubled</span></p>
+<span class="Winner">Multiple winners </span></div>
+</div>
+</div>
+<div class="ctable-row">
+<div class="ctable-box Active First">
+<div><span class="number">13</span> <span class="Promo">&euro;10 Bonus x 3</span> <span class="Winner">Winners: <span class="WinnerName">Kornel K.</span><span class="WinnerName">Edwin C.</span><span class="WinnerName">Helene M.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div><span class="number">14</span> <span class="Promo">&euro;50 Casino Tournament</span> <span class="Winner">Winners: <span class="WinnerName">Alduy C.</span><span class="WinnerName">Georgios Z.</span><span class="WinnerName">Piotr O.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div><span class="number">15</span> <span class="Promo">3 x 100 Free Spins</span><span class="Winner">Winners: <span class="WinnerName">Rudi Andre A.</span><span class="WinnerName">Stephane P.</span><span class="WinnerName">Niradar T.</span></span></div>
+</div>
+<div class="ctable-box Active Last">
+<div>
+<p><span class="number">16</span> <br /><span class="Promo">Rewards doubled</span></p>
+<span class="Winner">Multiple winners </span></div>
+</div>
+</div>
+<div class="ctable-row">
+<div class="ctable-box Active First">
+<div><span class="number">17</span> <span class="Promo">&euro;10 Bonus x 3</span> <span class="Winner">Winners: <span class="WinnerName">Christophe C.</span><span class="WinnerName">Justyna M.</span><span class="WinnerName">Martin H.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div><span class="number">18</span> <span class="Promo">€50 Casino Tournament</span> <span class="Winner">Winners: <span class="WinnerName">Elisabeth C.</span><span class="WinnerName">Nathalie C.</span><span class="WinnerName">Archie Mac I.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div><span class="number">19</span> <span class="Promo">3 x 100 Free Spins</span> <span class="Winner">Winners: <span class="WinnerName">Helene M.</span><span class="WinnerName">Christina M.</span><span class="WinnerName">Sonia O.</span></span></div>
+</div>
+<div class="ctable-box Active Last">
+<div>
+<p><span class="number">20</span> <br /><span class="Promo">Rewards doubled</span></p>
+<span class="Winner">Multiple winners </span></div>
+</div>
+</div>
+<div class="ctable-row">
+<div class="ctable-box Active First">
+<div><span class="number">21</span> <span class="Promo">&euro;10 Bonus x 3</span> <span class="Winner">Winners: <span class="WinnerName">Helene M.</span><span class="WinnerName">Ernesto O.</span><span class="WinnerName">Kim Bianca P.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div><span class="number">22</span> <span class="Promo">3 x 100 Free Spins</span><span class="Winner">Winners: <span class="WinnerName">Caroline D.</span><span class="WinnerName">Leonill Louie M.</span><span class="WinnerName">Nicholas S.</span></span></div>
+</div>
+<div class="ctable-box Active">
+<div>
+<p><span class="number">23</span> <br /><span class="Promo">Rewards doubled</span></p>
+<span class="Winner">Multiple winners </span></div>
+</div>
+<div class="ctable-box Active Last">
+<div><span class="number">24</span> <span class="Promo">€50 Casino Tournament</span> <span class="Winner">Winners: <span class="WinnerName">Jacqueline S.</span><span class="WinnerName">Gregor S.</span><span class="WinnerName">Trond E.</span></span></div>
+</div>
+</div>
+</div>
+
+<div style="clear: both;"></div>
+</div>

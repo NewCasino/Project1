@@ -1,0 +1,8 @@
+﻿Dear $CARDHOLDERNAME$,
+
+Your credit/debit card $CARDTYPE$, $CARDNO$ is about to expire in $EXPDAYS$ days, it will be removed from your account after it has expired.
+
+If you wish to add a new credit/debit card to your account, please login and go to Deposit > Credit/Debit Card > Register a Card, and follow the online instructions. 
+
+Sincerest regards,
+The $DOMAIN$ team

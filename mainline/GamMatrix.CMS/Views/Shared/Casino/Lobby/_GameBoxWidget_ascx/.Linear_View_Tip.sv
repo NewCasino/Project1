@@ -1,0 +1,1 @@
+Visa spel i en lista

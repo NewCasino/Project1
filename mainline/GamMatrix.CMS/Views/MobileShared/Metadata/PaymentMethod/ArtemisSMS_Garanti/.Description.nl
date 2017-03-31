@@ -1,0 +1,1 @@
+﻿Garanti bank, met een 63 jaar lange geschiedenis, is Turkijes tweede grootste particuliere bank met in totaal US$ 78 miljard fondsvermogen*. Garanti verhoogt zijn binnen alle divisies aanhoudend zijn marktaandeel door te vertrouwen op de bewezen strategie van doeltreffende, winstgevende en duurzame groei die vanaf het begin is nagestreefd.

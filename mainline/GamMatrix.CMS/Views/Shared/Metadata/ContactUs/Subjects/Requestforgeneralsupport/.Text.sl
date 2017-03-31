@@ -1,0 +1,1 @@
+Zahteva za splošno podporo

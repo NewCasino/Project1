@@ -1,0 +1,4 @@
+﻿<p>Hi $FIRSTNAME$,</p>Innskuddet ditt ble avvist. Vennligst sjekk bankinformasjonen og prøv igjen.
+<p>Hvis du har spørsmål i forbindelse med din verdikupong, vennligst ta kontakt med <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-teamet</p>
+

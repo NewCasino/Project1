@@ -1,0 +1,1 @@
+﻿Please note that payment can only be made after you have been called back by one of our Call Center agents. Callback validation usually follows shortly upon registration.

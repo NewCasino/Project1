@@ -1,0 +1,1 @@
+﻿Formatet i dette feltet er ugyldig ( eks. AABAFI22 eller NDEAFIHH030 ).

@@ -1,0 +1,1 @@
+﻿Voer een telefoonnummer tussen 7 en 30 cijfers in

@@ -1,0 +1,1 @@
+ELV vam omogoča hitro plačevanje s svojega bančnega računa na vaš igralni račun preko storitve Skrill. Plačevanje je izvedeno varno in takoj.

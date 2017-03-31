@@ -1,0 +1,2 @@
+﻿Merk: Du kan bare veksle i runde <span class='messageHighlight'>{0}</span> poeng for 
+<span class='messageHighlight'>{1} {2}</span>, de gjenværende poengene forblir på FPP-saldoen din.

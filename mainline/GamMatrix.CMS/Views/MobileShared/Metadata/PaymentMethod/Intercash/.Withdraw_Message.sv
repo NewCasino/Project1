@@ -1,0 +1,1 @@
+Insättning direkt till ditt Intercash kort

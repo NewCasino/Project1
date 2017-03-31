@@ -1,0 +1,1 @@
+Prijava ni uspela. Svojega računa v času {0} dni od registracije niste aktivirali, zato je zdaj blokiran.

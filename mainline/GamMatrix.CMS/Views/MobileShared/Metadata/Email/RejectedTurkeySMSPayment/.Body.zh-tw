@@ -1,0 +1,4 @@
+﻿<p>您好$FIRSTNAME$,</p>
+<p>您的存款已被拒絕，請核實銀行資料，並且稍後重試.</p>
+<p>如果您對您的憑單有任何的問題，請隨時聯繫<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress )]</a>.</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]團隊</p>

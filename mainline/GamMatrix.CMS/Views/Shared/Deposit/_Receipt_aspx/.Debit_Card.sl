@@ -1,0 +1,1 @@
+﻿V breme s kartice št..{0}

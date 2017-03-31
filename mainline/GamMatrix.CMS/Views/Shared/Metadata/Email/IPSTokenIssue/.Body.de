@@ -1,0 +1,9 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>Ihre Auszahlung in Höhe von $VOUCHERAMOUNT$  wurde veranlasst. Unten stehend finden Sie weitere Informationen zu Ihren IPS Token:</p>
+<ul>
+<li><strong>IPS Token</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Prüfziffer</strong>:$VOUCHEDIGITS$</li>
+</ul>
+<p>Bei weiteren Fragen kontaktieren Sie bitte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Mit freundlichen Grüßen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Team</p>
+

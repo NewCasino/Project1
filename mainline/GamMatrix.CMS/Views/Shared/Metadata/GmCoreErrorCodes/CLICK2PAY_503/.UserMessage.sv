@@ -1,0 +1,1 @@
+﻿Cancellation declined - no reference ID.

@@ -1,0 +1,1 @@
+﻿You can quickly deposit money from your Euro6000 Card via Moneybookers into your gaming account. Simply register your card at Moneybookers gateway, once your Credit Card is verified, your funds will be securely and instantly transferred into your gaming account.

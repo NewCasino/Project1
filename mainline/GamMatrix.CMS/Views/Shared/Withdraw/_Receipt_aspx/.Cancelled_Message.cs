@@ -1,0 +1,1 @@
+﻿Traksakce byla zrušena

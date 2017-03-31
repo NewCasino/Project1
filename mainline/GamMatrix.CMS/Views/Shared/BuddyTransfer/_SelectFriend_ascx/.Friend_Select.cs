@@ -1,0 +1,1 @@
+﻿Vyberte přítele pro převod

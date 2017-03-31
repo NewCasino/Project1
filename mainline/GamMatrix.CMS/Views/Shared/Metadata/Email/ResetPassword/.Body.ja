@@ -1,0 +1,7 @@
+<p>$FIRSTNAME$様</p>
+<p>
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]までご連絡頂き有難う御座います。パスワードをお忘れになった件に関してご連絡を受領致しました。 下記のリンクをクリックして頂きパスワードのリセットを行って下さい。</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>このリンクは24時間有効であり、1回のみご使用頂けます。<p>
+<p>もしパスワードを変更したくない場合は、このメールを無視して下さい。<p/>
+<p>何卒宜しくお願い致します。<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] チーム一同</p>

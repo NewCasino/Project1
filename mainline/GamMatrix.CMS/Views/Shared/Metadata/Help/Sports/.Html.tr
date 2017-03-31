@@ -1,0 +1,78 @@
+﻿<ol>
+
+	<li> <strong>İzin verilen Asgari ve Azami Bahis Miktarları ne kadar?</strong>
+		<p>
+			Azami Bahis Miktarları Maça göre değişir. Azami Limitten yüksek bir Bahis girerseniz, Bu Seçimde Bahis edebileceğınız Azami Miktarını gösteren bir Mesaj alacaksınız. Asgari Bahis Miktari Sınırlamamız yoktur.
+		</p>
+	</li>
+
+	<li> <strong>Tekli ve Çoklu Bahisler nedir??</strong>
+		<p>
+			Tekli Bahisler sadece bir Seçim içerir, Çoklu Bahisler birden çok Seçme gerekiyor. Ne kadar daha çok Seçme bir Çoklu Bahise birleştirirsiniz (mesela Premier League'de tüm ev sahibi Takımları) okadar daha çok kazanabilirsiniz, ama tabiki bu daha zor oluyor!
+		</p>
+	</li>
+
+	<li>
+		<strong>Bir Çoklu Bahis kaç tane Seçme içerebilir??</strong>
+		<p>
+			Bir Çoklu Bahisde Azami 10 Seçmeye İzin veriyoruz.
+		</p>
+	</li>
+
+	<li>
+		<strong>Handikap Bahisler nasıl oynaniyor?</strong>
+		<p>
+			Handikap Bahisleri (1x2 Handikaplı ve Asian Handikap) için daha detaylı Açıklamalar için lütfen Bahis Açıklamalar Bölüme bakınız.		</p>
+	</li>
+
+	<li>
+		<strong>Bir Maç ertelenirse ne oluyor?</strong>
+		<p>
+			O Sporun Kurallarına bakınız. Bazı Sporlarda Maçın aynı Günde oynanması gerekiyor Bahislerin geçerli kalması için,bazı diğer Sporlarda Bahisler Maçın oynandığı zamana kadar geçerli kaliyor veya Maç resmi olarak İptal edilene kadar.
+		</p>
+	</li>
+
+	<li>
+		<strong>Kazanan Bahisim neden henüz ödenmedi?</strong>
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] resmi Sonuçlara açiklanmasını gerekiyor, Hesaplar görülmeden. Bazen Online Kaynakları, canli Skor Siteleri gibi, hatalı olabiliyor, o yüzden bazen Sonuçların Doğrulanabilene kadar Hesplaşma gecikebilir. 		</p>
+	</li>
+
+	<li>
+		<strong>Fikrimi değiştirdim, Bahisimi İptal edebiliyormuyum?</strong>
+		<p>
+			Hayır. Siz Bahisinizi onayladıktan sonra ve Bahisiniz Sunucumuz tarafından kabul edildikten sonra, Bahisler İptal edilemiyor.
+		</p>
+	</li>
+
+	<li>
+		<strong>Bahislerimin Kayıtlarını nerede bulabilirim?</strong>
+		<p>
+			Bahis ve Aktarma İşlemlerinizi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Sitesine Giriş yaptıtkan sonra 'Spor Bahisler Hesabım' altında bulabilirsiniz. 		</p>
+	</li>
+
+	<li>
+		<strong>Kazanclar UK olasılıklarında neden farklı hesaplanıyor?</strong>
+		<p>
+			Kazancları hesaplarken, daha kesin oldukları için Ondalık Olasılıkları (Eu) kullanıyoruz. Uk ve US Olasılıklarını sadece Gösteriş için kullaniyoruz, çünkü bazı Ondalık Olasılıklar basit Kesir ile bağdaştırılmiyor.
+		</p>
+	</li>
+
+	<li>
+		<strong>Bahis etmek benim için Bağımlılık yapmaya başliyor, ne yapabilirim?</strong>
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile Bahis etmek herkes için zevkli bir Eğlence olmalı, ama İnsanların küçük bir Azınlığı için, Bağımlılık yapmaya başlayabilir ve Sorunlar çıkartabilir.  Kumar Bağımlılığı ile ilgili Bilgiyi Sorumlu Kumarcılık altında bulabilirsiniz. 		</p>
+	</li>
+
+</ol>
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

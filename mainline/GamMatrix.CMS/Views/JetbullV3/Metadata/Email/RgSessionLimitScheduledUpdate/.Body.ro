@@ -1,0 +1,3 @@
+﻿<p>Dragă $USERNAME$, <br /> <br /> Mulţumim că ati ales [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Acest e-mail este o confirmare că ati schimbat limita personală pe sesiune &nbsp;de la $LIMITPERIOD$ minute la $NEWLIMITPERIOD$ minute. Noua limită va fi activată&nbsp;pe $LIMITEXPIRYDATE$. <br /> <br /> Pentru asistenţă, nu ezita să ne contactezi la adresa de e-mail <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br /> Toate cele bune,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] - Serviciul Clienţi</p>

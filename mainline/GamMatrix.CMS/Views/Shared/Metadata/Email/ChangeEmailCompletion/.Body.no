@@ -1,0 +1,9 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+
+<p>Denne meldingen bekrefter at e-postadressen din på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] er endret i henhold til forespørselen din.</p>
+<p>Hvis du ikke har bedt om å endre e-postadressen din, ber vi om at du sier fra til kundestøtte på 
+<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+</p>
+
+Med vennlig hilsen, 
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundestøtte

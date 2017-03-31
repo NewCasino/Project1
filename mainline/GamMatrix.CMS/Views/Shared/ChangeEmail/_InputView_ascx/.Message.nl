@@ -1,0 +1,1 @@
+﻿Om je mailadres te wijzigen, vul je nieuwe mailadres in en bevestig het hieronder. Een verificatiemail zal worden gestuurd naar je nieuwe mailadres. Je moet klikken op de link in deze mail om je nieuwe mailadres te doen gelden. Je mailadres zal niet worden gewijzigd voor je het mailadres hebt geverifieerd, door te klikken op de link in de verificatiemail.

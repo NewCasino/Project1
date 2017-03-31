@@ -1,0 +1,1 @@
+Twoja nazwa użytkownika zawiera niedozwolone znaki

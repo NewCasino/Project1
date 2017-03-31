@@ -1,0 +1,18 @@
+﻿<p>尊敬的$USERNAME$, <br />
+</p>
+<br />
+感謝您聯繫[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+您的個人存款限制已設置為#160;$NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. <br />
+<br />
+該存款限制不會被您所選擇的任何支付提供商的存款限制所約束。 <br />
+<br />
+您可以在網站上點擊同一菜單立即縮小您的存款限制。 <br />
+<br />
+如果您提高您的存款限制，新的存款限制將會在3天後生效，您可以在此3天內考慮是否有必要重新修改您的存款限制。 <br />
+<br />
+如果您有任何問題請隨時聯繫<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p> </p>
+<p>謹致問候</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]客服團隊<br />
+</p>

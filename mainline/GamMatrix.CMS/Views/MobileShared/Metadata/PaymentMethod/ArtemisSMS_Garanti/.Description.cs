@@ -1,0 +1,1 @@
+﻿Garanti Bank je turecká druhá největší banka s 63 letou historií. Úplné její vlastnictví činí US$ 78 billion*. Garanti zvyšuje svůj podíl ve všech oblastech podnikání tím, že spoléhá na vyzkoušenou strategii efektivního, výnosného a udržitelného růstu, kterou vyznávala od svého založení.

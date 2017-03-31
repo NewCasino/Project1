@@ -1,0 +1,1 @@
+﻿Status partii nie został zmieniony

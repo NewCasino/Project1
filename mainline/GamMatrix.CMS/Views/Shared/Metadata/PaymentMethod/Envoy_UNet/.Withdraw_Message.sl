@@ -1,0 +1,1 @@
+Izplačilo neposredno na vaš bančni račun

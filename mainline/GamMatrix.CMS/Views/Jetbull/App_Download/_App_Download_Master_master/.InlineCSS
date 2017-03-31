@@ -1,0 +1,16 @@
+﻿.h1{text-align: center;}
+span.oder{	
+	background-color: #999999;
+    border-radius: 12px 12px 12px 12px;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+	float:left;
+	margin-right:10px;
+	}
+.app_download_content {padding:0 35px 25px;}
+.app_download_content li{ margin:15px 0; font-size:14px;}
+.app_download_content li a{ color:#ff0000 !important; }

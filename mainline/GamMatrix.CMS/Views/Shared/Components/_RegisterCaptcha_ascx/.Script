@@ -1,0 +1,9 @@
+﻿<script language="javascript" type="text/javascript">
+$(function() {
+        $("#formRegister #fldRegisterCaptcha .hide_default > div").hide();
+        var left_width = ($("#formRegister #fldRegisterCaptcha").width() - $("#formRegister #imgRegisterCaptcha").width()) / 2 -30;
+        if (left_width > 0) {
+            $("#formRegister #fldRegisterCaptcha .inputfield_Container, #fldRegisterCaptcha .inputfield_Label").css("margin-left", left_width);
+        }
+    });
+</script>

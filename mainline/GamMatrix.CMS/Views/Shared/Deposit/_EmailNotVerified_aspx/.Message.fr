@@ -1,0 +1,6 @@
+﻿Vous êtes actuellement dans l'impossibilité de faire des dépôts car votre compte est inactif.
+Un e-mail d'activation a été envoyé à l’adresse e-mail que vous avez utilisé lors de votre
+inscription. Veuillez cliquer sur le lien dans l'e-mail d'activation pour activer
+votre compte.
+Si vous ne recevez pas l'email d'activation veuillez nous contacter à<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+

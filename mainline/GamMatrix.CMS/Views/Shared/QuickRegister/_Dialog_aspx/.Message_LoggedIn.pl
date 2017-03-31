@@ -1,0 +1,1 @@
+﻿Jesteś już zalogowany [Metadata:value(/Metadata/Settings.Operator_DisplayName)].

@@ -1,0 +1,4 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Your withdrawal has been rolled back on &lsquo;$TXCOMPLETEDDATE$", funds has been returned to your gaming account. Please contact support if you require further assistance regarding this transaction.</p>
+Transaction ID: $TXID$Transaction Date: $TXCREATEDDATE$ Amount: $TXAMOUNT$ $TXCURRENCY$.
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

@@ -1,0 +1,1 @@
+﻿Niepoprawny lub nieważny token zabezpieczający

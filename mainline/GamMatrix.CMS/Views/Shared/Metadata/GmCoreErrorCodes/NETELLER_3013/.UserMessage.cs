@@ -1,0 +1,1 @@
+﻿Požadoval jste částku vyšší než {$}. Zkuste prosím znova

@@ -1,0 +1,1 @@
+Kartica bo izdana na podlagi podatkov v vašem profilu; svoj profil lahko preverite spodaj. Lahko pa tudi kliknete <a href="/Profile">tukaj,</a> da posodobite svoj profil.

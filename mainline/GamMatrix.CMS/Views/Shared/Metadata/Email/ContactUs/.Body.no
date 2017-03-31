@@ -1,0 +1,12 @@
+﻿<em>Denne e-postmeldingen er sendt av kunden på nettstedet fra Kontakt oss-siden.<br />
+IKKE svar direkte på denne e-postmeldingen. Du finner kundens e-postadresse nedenfor.</em>
+<hr/>
+<ul>
+<li><strong>Kundens e-postadresse</strong>:$EMAIL$</li>
+<li><strong>Kundens navn</strong>:$NAME$</li>
+<li><strong>Emnelinje</strong>:$SUBJECT$</li>
+<li><strong>Bruker-ID</strong>:$USERID$</li>
+<li><strong>Brukernavn</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

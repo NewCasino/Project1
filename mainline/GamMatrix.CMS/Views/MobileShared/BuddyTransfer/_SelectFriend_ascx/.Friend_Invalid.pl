@@ -1,0 +1,1 @@
+﻿Nie można przelewać środków do siebie.

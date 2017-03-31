@@ -1,0 +1,1 @@
+﻿Если вы захотите активировать постоянное самоограничение, вы сможете сделать это, обратившись в службу поддержки: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> Расскажите о причинах и вы будете незамедлительно заблокированы навсегда.

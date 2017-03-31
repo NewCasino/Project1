@@ -1,0 +1,1 @@
+Dölj knappen för öppning av slumpmässigt bord

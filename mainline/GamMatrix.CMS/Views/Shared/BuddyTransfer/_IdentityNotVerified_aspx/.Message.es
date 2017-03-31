@@ -1,0 +1,1 @@
+﻿Su identidad debe ser verificada antes de realizar la transferencia.

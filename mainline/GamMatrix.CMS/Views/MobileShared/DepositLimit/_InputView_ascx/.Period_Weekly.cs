@@ -1,0 +1,1 @@
+﻿Týdenní limit (na týden)

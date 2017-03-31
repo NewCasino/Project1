@@ -1,0 +1,1 @@
+Če želite igre dodajati na svoj seznam priljubljenih, morate pri nas najprej registrirati svoj račun. Prednosti, ki jih prinaša račun, so med drugim možnost igranja in služenja pravega denarja, sistem si bo zapomnil vaše osebne nastavitve, svoje priljubljene igre pa boste z vsemi osebnimi preferencami lahko igrali na svoji mobilni napravi.

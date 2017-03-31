@@ -1,0 +1,11 @@
+﻿Hi <p> $FIRSTNAME$, </P>
+<p> Това е автоматичен имейл разписка за депозит, който се обработва от името на [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] от EveryMatrix Ltd, плащането оператор за [Metadata: htmlencode (/Metadata/Settings.Operator_DisplayName )] уебсайт, ще видите EveryMatrix появява на вашата карта или банково извлечение. Вашите данни за транзакцията са по-долу. </P>
+<ul>
+<strong> <li> транзакция ID </силен>: $TRANSACTION_ID$ </Li>
+<strong> <li> Дата време </силен>: $TRANSACTION_ID$ </Li>
+<strong> <li> Website </силен>: $TRANSACTION_ID$ </Li>
+<strong> <li> Получаване </силен>:. за печат на екрана на получаване е приложен </Li>
+</Ul>
+<p> Ако имате въпрос относно този депозит, моля свържете се с <а цитира номер на транзакцията ID. </P>
+С уважение <p> <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] екипа </P>
+<p>$SCREENSHOT$</p>

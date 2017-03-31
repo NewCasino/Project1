@@ -1,0 +1,1 @@
+﻿Din konto-ID må være minst 12 tegn

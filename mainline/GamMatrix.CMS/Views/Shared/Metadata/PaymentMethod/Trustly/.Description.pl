@@ -1,0 +1,1 @@
+﻿Trustly to rozwiązanie dla płatności elektronicznych w bankowości internetowej, zaadaptowane na urządzenia mobilnych i tabletów.

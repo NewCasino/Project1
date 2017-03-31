@@ -1,0 +1,1 @@
+﻿Betalingen per bankoverschrijving betekent overal ter wereld gemakkelijk betalen. Naast de verschillende beschikbare creditcards zijn bankoverschrijvingen de ultieme methode om internationale betalingen te regelen.

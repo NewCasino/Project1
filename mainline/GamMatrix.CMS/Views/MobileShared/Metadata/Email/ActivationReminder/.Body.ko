@@ -1,0 +1,19 @@
+﻿<p>Dear&#160; $USERNAME$,<br />
+<br />
+등록해 주셔서 감사합니다 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+<br />
+<br />
+귀하의 보안을 위하여, 귀하의 계정 활성화를 확실히 하기 위하여, 저희는 귀하에게 귀하의 이메일을 증명할 것을 상기시켜 드리고자 합니다. 귀하는 계속해서 모든 이용 가능한 오퍼들을 즐기실 수 있습니다 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].<br />
+<br />
+아래의 링크를 클릭해 주세요. 만약 응답이 없으면, 복사하여서 귀하의 브라우저에 붙여넣기를 시도해 보세요.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+만약 귀하가 등록을 하지 않으셨다면 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+, 이 이메일을 무시하거나 알려주세요 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+귀하의 계정이 보호를 위해 제한되는 것을 막기 위하여 즉시 이메일 증명을 완료하시기 바랍니다.
+<p><br />
+Kind Regards,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Customer Service Team<br />

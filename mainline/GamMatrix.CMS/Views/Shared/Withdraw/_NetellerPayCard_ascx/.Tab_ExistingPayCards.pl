@@ -1,0 +1,1 @@
+Istniejąca karta

@@ -1,0 +1,5 @@
+﻿<style>
+#current_time {bottom: 5px;right: 10px;color:red;position:fixed;font-size: 23px;}
+#Default_Clock #current_time {position:absolute;color: #ddd;font-size: 14px;right: 0;left: 0;top: 10px;height:20px;z-index: 99999;}
+#Default_Clock {text-align: center;}
+</style>

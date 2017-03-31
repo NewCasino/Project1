@@ -1,0 +1,1 @@
+Ustvarjanje računa vam ne bo vzelo več kot 30 [Metadata:value(/Metadata/Settings.Operator_DisplayName)] sekund.

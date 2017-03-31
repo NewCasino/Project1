@@ -1,0 +1,1 @@
+Aby cofnąć wypłatę, musisz się zalogować.

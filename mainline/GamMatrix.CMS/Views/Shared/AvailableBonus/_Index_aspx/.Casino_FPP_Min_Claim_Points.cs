@@ -1,0 +1,2 @@
+﻿Minimální potřebný počet:
+

@@ -1,0 +1,1 @@
+﻿Znovu odeslat ověřovací kód

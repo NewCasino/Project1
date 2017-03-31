@@ -1,0 +1,1 @@
+﻿Datum platnosti : {0}

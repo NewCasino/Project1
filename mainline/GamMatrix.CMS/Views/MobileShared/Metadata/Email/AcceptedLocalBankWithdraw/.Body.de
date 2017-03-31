@@ -1,0 +1,14 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Ihre Auszahlung war erfolgreich.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Bitte überprüfen Sie Ihr Guthaben.</strong>
+  </span>
+</p>
+<p>
+  Bei Fragen kontaktieren Sie bitte<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  Mit freundlichen Grüßen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Team
+</p>
+

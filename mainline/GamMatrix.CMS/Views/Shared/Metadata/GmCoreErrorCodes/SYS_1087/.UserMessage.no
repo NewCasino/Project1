@@ -1,0 +1,1 @@
+﻿Det er for lite rake for å kunne kreve rakeback

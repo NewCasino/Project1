@@ -1,0 +1,1 @@
+﻿Datum narození není platné

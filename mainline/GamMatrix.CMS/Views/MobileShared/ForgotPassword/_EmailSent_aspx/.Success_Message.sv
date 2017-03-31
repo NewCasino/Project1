@@ -1,0 +1,1 @@
+Du kommer få ett mail med instruktioner om hur du byter lsöenord

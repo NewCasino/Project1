@@ -1,0 +1,1 @@
+﻿<p style="font-size: 16px;">Om du använder MasterCard utgivet av <img alt="Intercash" src="/Views/Shared/_files/Icons/intercash_logo.png" align="absmiddle" /><br /> vänligen klicka <a href="/Deposit/Prepare/Intercash">här</a> för att gå till rätt insättningssida.</p>

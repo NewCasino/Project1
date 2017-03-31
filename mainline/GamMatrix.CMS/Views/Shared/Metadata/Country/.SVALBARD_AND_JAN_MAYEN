@@ -1,0 +1,1 @@
+﻿Svalbard And Jan Mayen Islands

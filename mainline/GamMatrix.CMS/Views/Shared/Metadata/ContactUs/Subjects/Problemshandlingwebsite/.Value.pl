@@ -1,0 +1,1 @@
+Problemy z obsługą strony internetowej

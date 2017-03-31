@@ -1,0 +1,1 @@
+﻿Identyfikator konta musi zawierać co najmniej 12 znaków

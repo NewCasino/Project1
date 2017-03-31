@@ -1,0 +1,1 @@
+﻿Souhlasím se zasíláním informačních emailů a aktuálních nabídek.

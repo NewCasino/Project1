@@ -1,0 +1,1 @@
+Kreditera {0} konto.

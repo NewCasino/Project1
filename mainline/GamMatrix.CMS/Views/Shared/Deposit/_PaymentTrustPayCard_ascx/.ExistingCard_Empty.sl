@@ -1,0 +1,1 @@
+Izberite plačilno kartico.

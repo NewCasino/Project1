@@ -1,0 +1,1 @@
+Uporabniško ime je že zasedeno; izberite drugega

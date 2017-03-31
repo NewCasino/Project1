@@ -1,0 +1,1 @@
+﻿Email nemůže zůstat prázdný

@@ -1,0 +1,1 @@
+Skicka om verifieringskod ({0} sekunder)

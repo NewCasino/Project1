@@ -1,0 +1,1 @@
+﻿Výběr zamítnut. Platba není aktivovaná.

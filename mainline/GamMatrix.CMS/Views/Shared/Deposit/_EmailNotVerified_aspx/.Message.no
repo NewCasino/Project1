@@ -1,0 +1,5 @@
+Du kan ikke gjøre noen innskudd for øyeblikket. Kontoen din er inaktiv.
+Det er sendt en e-postmelding om aktivering til e-postadressen du brukte da du
+registrerte deg. Klikk på koblingen i e-postmeldingen om aktivering for å aktivere
+kontoen din. Hvis du ikke har mottatt e-postmeldingen om aktiveringen, kan du ta kontakt med
+<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.

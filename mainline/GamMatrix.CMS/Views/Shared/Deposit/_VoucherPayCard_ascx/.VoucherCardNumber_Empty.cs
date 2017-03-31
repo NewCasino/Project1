@@ -1,0 +1,1 @@
+﻿Číslo voucheru je nutné. 

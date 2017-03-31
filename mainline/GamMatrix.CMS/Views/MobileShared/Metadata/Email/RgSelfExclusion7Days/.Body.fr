@@ -1,0 +1,17 @@
+﻿<p> Bonjour $USERNAME$,<br />
+</p>
+<br />
+This email is to confirm your account is now set to self excluded for duration of 7 days.<br />
+<br />
+Cet email est pour confirmer  que votre compte est désormais soumis à une auto-exclusion pour une période de sept jours. Pendant cette période l’activité de votre compte sera limitée à :<br />
+- Connexion<br />
+- Revue des Transactions<br />
+- Demandes de Retrait<br />
+<br />
+Vous ne serez pas en mesure de d’effectuer de dépôts ou de jouer sur le site pendant cette période de sept jours d’auto-exclusion, mais vous continuerez de recevoir nos bulletins d’information et emails promotionnels. Nous vous préviendrons par email lorsque la période d’auto-exclusion se termine. <br />
+<br />
+N’hésitez pas à nous contacter si vous avez des questions à <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&#160;</p>
+<p> Cordialement </p>
+<p> Service Clientèle [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>
+

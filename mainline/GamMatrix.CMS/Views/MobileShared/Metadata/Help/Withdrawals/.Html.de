@@ -1,0 +1,38 @@
+﻿<ol><li><strong> Wie kann ich mir Geld aus meinem Benutzerkonto auszahlen lassen?</strong>
+<p>Sie können jederzeit eine Auszahlung beantragen, vorausgesetzt Sie erfüllen alle Anforderungen und wurden in unserem System für Auszahlungen freigeschalten. Sie können außerdem so viele Auszahlungen beantragen wie Sie möchten, aber aufgrund der Bestimmungen zur Verhinderung von Betrug und Geldwäsche, denen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] unterliegt, können wir Auszahlungen von Ihrem Benutzerkonto frühestens 24 Stunden nach der letzten Einzahlung bearbeiten. Der Mindestauszahlungsbetrag ist €10.</p>
+</li><li><strong> Gibt es Limits für meine gewünschten Auszahlungen?</strong>
+<p>Der Mindestauszahlungsbetrag ist €10 bzw. der gleichwertige Betrag in Ihrer Währung. Der Höchstauszahlungsbetrag ist €5.000 bzw. der gleichwertige Betrag in Ihrer Währung pro Tag.</p>
+</li><li><strong> Kann ich eine beantragte Auszahlung widerrufen?</strong>
+<p>Dazu müssen Sie den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Kundenservice kontaktieren. Wenn die Auszahlung noch nicht bearbeitet wurde, kann sie widerrufen werden.</p>
+</li><li><strong> Kann ich mir meine Gewinne zurück auf meine Kredit-/Kontokarte auszahlen lassen?</strong>
+<p>Ja, das können Sie, vorausgesetzt, dass es sich um dieselbe Karte handelt, mit der Sie auch Ihre ursprüngliche Einzahlung vorgenommen haben und dass diese Karte Auszahlungen zurück auf die Karte zulässt.</p>
+</li><li><strong> Ich habe meine Kredit-/Kontokarte bei der Einzahlung benutzt. Kann ich eine Auszahlung über eine andere Methode beantragen?</strong>
+<p>Ja, können Sie, aber wir benötigen entsprechende Nachweise und Details für Ihre gewünschte neue Zahlungsmethode.</p>
+</li><li><strong> Warum kann ich nicht selbst entscheiden, über welche Methode ich ausgezahlt werde?</strong>
+<p>Grund hierfür sind Vorgaben zur Verhinderung von Geldwäsche, denen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] unterliegen. Außerdem dient dies Ihrer und unserer Sicherheit bei allen finanziellen Transaktionen. Daher werden alle Auszahlungen – sofern nicht anderweitig autorisiert – über dieselbe Methode vorgenommen wie die Einzahlung.</p>
+</li><li><strong> Erheben Sie irgendwelche Auszahlungsgebühren?               </strong>
+<p>Die Auszahlungsgebühren hängen von Ihrer gewählten Auszahlungsmethode ab. Bitte klicken Sie auf „<a href="/deposit">Zahlungsarten</a>“, um Informationen zu den Gebühren zu erhalten. Beachten Sie, dass Ihre Bank ebenfalls Gebühren erheben kann.</p>
+</li><li><strong> Wie lange dauert die Bearbeitung von Auszahlungen?</strong>
+<p>Dies hängt von Ihrer gewählten Auszahlungsmethode ab. Bitte klicken Sie auf „<a href="/deposit">Zahlungsarten</a>“, um alle verfügbaren Auszahlungsmethoden und ihre Bearbeitungszeiten zu sehen.</p>
+</li><li><strong> Warum dauert die Auszahlung über meine Kreditkarte mehrere Tage, während die Einzahlung sofort verfügbar ist?</strong>
+<p>Wir haben verschiedene Sicherheitsmechanismen und Kontrollen, die eine Auszahlung durchlaufen muss, bevor das Geld [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] verlässt. Dadurch verzögern sich Auszahlungen um etwa 12 Stunden. Diese Kontrollen sind Teil unserer fortwährenden Bestrebungen, die Sicherheit für die Gelder unserer Kunden zu gewährleisten. Alle anderen Verzögerungen haben ihre Ursache in Einschränkungen durch die Zahlungsunternehmen.</p>
+</li><li><strong> Was passiert, wenn die Karte, über die ich eine Auszahlung vorgenommen habe, abläuft oder gekündigt wird?</strong>
+<p>Sie müssen uns über sämtliche Änderungen Ihrer Karte informieren und einen Beleg für den Ablauf der Karte oder einen Grund für die Kartenänderung erbringen. Sie müssen Ihre neue Karte bei uns registrieren und in Ihrem [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Konto eintragen.</p>
+</li><li><strong> Kann ich eine Auszahlung über mein Konto vornehmen und an eine andere Person senden lassen?</strong>
+<p>Nein, da dies als eine Drittanbietertransaktion erachtet wird und keinesfalls gestattet ist.</p>
+</li><li><strong> Welche Bestimmungen gibt es bei [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] für Auszahlungen?</strong>
+<p>Ihr Konto muss aktiviert sein und den erforderlichen Mindestbetrag für eine Auszahlung enthalten. Es kann einige Einschränkungen für Spieler geben, die an [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Bonusaktionen teilgenommen haben. </p>
+</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

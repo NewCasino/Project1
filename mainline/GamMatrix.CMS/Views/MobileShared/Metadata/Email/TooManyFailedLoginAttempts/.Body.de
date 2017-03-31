@@ -1,0 +1,7 @@
+﻿Das ist eine automatische Email, bitte nicht antworten.  
+<hr/>
+<p>Liebe(r) $FIRSTNAME$</p>
+<p>Wegen zu vielen fehlgeschlagenen Anmeldungen wurde Dein Konto jetzt blockiert. Nach 15 Minuten wird es automatisch wieder aktiviert.</p>
+<p>Wenn Du Dein Passwort vergessen hast und es ändern musst, dann bitte benutze &quot;Passwort vergessen&quot; Link auf der Webseite.</p>
+<p>Für weitere Fragen kontaktiere bitte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Beste Grüsse, <br /> [Metadata:value(/Metadata/Settings.Operator_DisplayName)] Kundendienst</p>

@@ -1,0 +1,2 @@
+﻿Pohlaví dealera:
+

@@ -1,0 +1,1 @@
+Wybierz preferowany tryb otwierania gier, w tym wbudowany / wyskakujące okienko / nowa strona i pełny ekran.

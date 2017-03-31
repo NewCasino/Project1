@@ -1,0 +1,1 @@
+Te igre ni mogoče igrati v načinu zabave, ker niste prijavljeni!

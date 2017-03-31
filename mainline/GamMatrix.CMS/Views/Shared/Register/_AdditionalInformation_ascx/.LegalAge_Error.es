@@ -1,0 +1,1 @@
+﻿Tiene que confirmar que tiene al menos {0} años

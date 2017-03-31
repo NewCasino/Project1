@@ -1,0 +1,1 @@
+﻿Denní limit (na den)

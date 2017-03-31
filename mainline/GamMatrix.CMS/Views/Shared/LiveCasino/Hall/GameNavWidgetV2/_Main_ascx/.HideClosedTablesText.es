@@ -1,0 +1,2 @@
+﻿Ocultar Mesas Cerradas
+

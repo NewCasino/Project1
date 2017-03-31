@@ -1,0 +1,1 @@
+﻿Alternativní platební výměna

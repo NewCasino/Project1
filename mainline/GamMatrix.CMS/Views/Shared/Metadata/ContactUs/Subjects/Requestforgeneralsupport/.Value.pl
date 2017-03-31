@@ -1,0 +1,1 @@
+Ogólna prośba o pomoc

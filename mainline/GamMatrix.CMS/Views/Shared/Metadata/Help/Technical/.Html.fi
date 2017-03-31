@@ -1,0 +1,90 @@
+﻿<ol>
+
+    <li> <strong>Mitkä ovat järjestelmän vähimmäisvaatimukset voidakseni pelata [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?</strong> 
+        <p>
+            <ul>
+                <li>
+                    Windows - Intel Pentium-prosessori (Pentium II tai uudempi) 64 Mt RAM.
+                </li>
+                <li>
+                    Macintosh - Power Macintosh Power PC-prosessori (G3 tai tehokkaampi) 64 Mt RAM.
+                </li>
+                <li>
+                    Apple Mac-käyttäjät Huom! - nykyinen Casino-versio ei välttämättä toimi kuten haluttu käytettäessä Apple Mac-järjestelmää, joten tätä ei tällä hetkellä tueta.
+                </li>
+                <li>"FLASH "10 tai uudempi</li>
+                <li>
+                    [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] on yhteensopiva useimpien Windows-käyttöjärjestelmien (Windows 2000, XP, Vista ja 7) kanssa.
+                </li>
+                <li>Internet Explorer -versioita alle 7 ei tueta.</li>
+            </ul>
+        </p>
+    </li>
+
+    <li> <strong>Mitä tapahtuu, jos yhteys katkeaa?</strong>
+        <p>
+            Pelitilanne tallennetaan turvallisesti palvelimillemme; yhteyden katketessa, kirjaudu yksinkertaisesti takaisin tilillesi nähdäksesi tapahtuman tai pelin lopputulos. Casinossa: jos peli jäi kesken, sen pitäisi jatkua samasta paikasta uudelleenkirjautuessa. Jos sinulla on edelleen ongelmia, napsauta 'napsauta tästä' jutellaksesi asiakaspalvelun kanssa.
+        </p>
+    </li>
+
+    <li>
+        <strong>Mitä ohjelmiston toimittajaa käytätte?</strong>
+        <p>
+            Sportsbookissa käyttämämme ohjelmistotoimittaja on OddsMatrix, Casinossa se on Net Entertainment ja Pokerissa Cake.
+        </p>
+    </li>
+
+    <li>
+        <strong>Miksi en saa yhteyttä pelipalvelimelle? </strong>
+        <p>
+            Tarkista internet-yhteytesi: jos se ei vieläkään yhdistä, ota yhteyttä [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] asiakaspalveluun.
+        </p>
+    </li>
+
+    <li>
+        <strong>Miksi en voi kirjautua tililleni? </strong>
+        <p>
+            Tarkista, että käytät oikeaa 'salasanaa' ja 'nimeä' tililläsi: jos et silti voi kirjautua, ota yhteyttä [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] asiakaspalveluun.
+        </p>
+    </li>
+
+    <li>
+        <strong>Sivusto on erittäin hidas, mitä voin tehdä sen nopeuttamiseksi?</strong> 
+        <p>
+            Jos yhteytesi on hidas, ota huomioon seuraavat seikat: Useiden selaimien, musiikkisovelluksien samanaikainen käyttäminen, ja tiedostojen lataaminen  hidastavat tietokonettasi ja/tai internet-yhteyttäsi. Paikallinen internet-palveluntarjoajasi voi myös kokea viivettä. Internetyhteytesi jakaminen omassa kotitaloudessa ja omalla alueellasi voi myös hidastaa yhteyden nopeutta.
+        </p>
+    </li>
+
+    <li>
+        <strong>En kuule ääntä.</strong>
+        <p>
+            Ole hyvä ja varmista, että sinulla on toimiva äänikortti ja kaiuttimet ei ole mykistytetyllä. Tarkista, että olet valinnut äänet [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]  'Valinnat'-välilehdestä. Chat-välilehti pöytänäytön oikeassa alakulmassa sisältää 'Valinnat'-painikkeen, mistä voit valita joko 'kaikki', 'vain ilmoitukset' tai 'hiljainen'.
+        </p>
+    </li>
+
+    <li>
+        <strong>Onko teillä Mac-versiota?</strong>
+        <p>
+            Valitettavasti emme tällä hetkellä tarjoa erityisesti MACille tarkoitettua versiota ohjelmistoistamme. Monet käyttäjät ovat kuitenkin menestyksekkäästi käyttäneet PC-emulaattoria nauttiakseen peleistämme. Ole hyvä ja vieraile Lataussivullamme lisätietoja varten.
+        </p>
+    </li>
+
+    <li>
+        <strong>Miksi peli niin hidas? </strong>
+        <p>
+            Viestintä koneesi ja palvelimiemme välillä on optimoitu nopeinta vastetta varten. Jos huomaat, että peli liikkuu hitaasti, on kaksi todennäköistä syytä: 1.  Pöydällä ympärillä istuvilla pelaajilla kestää pitkään toimia vuorollaan. 2.  Ehkä internet-yhteytesi ei ole vahva.
+        </p>
+    </li>
+
+</ol>
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

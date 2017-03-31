@@ -1,0 +1,1 @@
+Din vinst och bonus blir förverkad enligt gällande villkor som du har accepterat. Är du säker på att du vill fortsätta?

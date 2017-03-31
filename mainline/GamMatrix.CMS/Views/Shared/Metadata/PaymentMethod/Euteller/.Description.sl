@@ -1,0 +1,1 @@
+Euteller je storitev takojšnjega spletnega bančnega nakazila, namenjena finskim bankam.

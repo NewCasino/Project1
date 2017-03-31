@@ -1,0 +1,1 @@
+Pred nakazilom je treba preveriti vašo identiteto.

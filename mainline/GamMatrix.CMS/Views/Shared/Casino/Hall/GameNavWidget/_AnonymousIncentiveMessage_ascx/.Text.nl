@@ -1,0 +1,1 @@
+﻿Wil jij games aan favorieten toevoegen? Dan moet je een account aanmaken. Er zijn veel voordelen: jij kunt echt geld spelen en winnen. Jij kunt ook jouw persoonlijke instellingen opslaan en tevens jouw favoriete games spelen op je mobiel, met alle persoonlijke voorkeuren.

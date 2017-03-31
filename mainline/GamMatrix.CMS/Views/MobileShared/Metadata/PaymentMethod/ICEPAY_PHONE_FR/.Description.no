@@ -1,0 +1,1 @@
+﻿Pay by Phone er en betalingsmetode som er akkurat hva det høres ut som: betaling via telefon eller mobiltelefon. Kundene ringer et nummer og betaler per minutt eller per samtale. Metoden er meget godt egnet for såkalte "mikrobetalinger", eller som et betalingstilbud for de som ikke har et kort eller deres egen bankkonto.

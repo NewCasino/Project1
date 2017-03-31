@@ -1,0 +1,1 @@
+﻿Voer een GSM-nummer in tussen 7 en 30 cijfers

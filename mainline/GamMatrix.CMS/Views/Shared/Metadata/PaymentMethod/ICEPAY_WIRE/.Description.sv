@@ -1,0 +1,1 @@
+Betalning via banköverföring innebär enkla betalningar över hela världen. Utöver de olika kredit/bankkorten som finns tillgängliga, är banköverföringar den ultimata metoden för internationella betalningar.

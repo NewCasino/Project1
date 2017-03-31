@@ -1,0 +1,1 @@
+﻿Wystąpił problem związany z długością identyfikatora konta lub bezpiecznego identyfikatora. Identyfikator konta musi składać się z 12 cyfr, a bezpieczny identyfikator — z 6 cyfr. Proszę spróbować ponownie.

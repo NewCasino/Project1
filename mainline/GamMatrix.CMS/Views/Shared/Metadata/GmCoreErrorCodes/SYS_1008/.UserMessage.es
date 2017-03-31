@@ -1,0 +1,1 @@
+﻿La funcionalidad solicitada no está disponible o no es compatible con la configuración actual

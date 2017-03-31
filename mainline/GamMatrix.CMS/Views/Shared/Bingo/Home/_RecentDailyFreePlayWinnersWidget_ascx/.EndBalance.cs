@@ -1,0 +1,1 @@
+﻿Konečný stav

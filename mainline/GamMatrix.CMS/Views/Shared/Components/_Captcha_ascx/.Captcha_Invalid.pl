@@ -1,0 +1,1 @@
+﻿Tekst captcha jest nieprawidłowy, spróbuj ponownie

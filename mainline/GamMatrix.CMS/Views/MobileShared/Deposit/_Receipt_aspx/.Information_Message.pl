@@ -1,0 +1,1 @@
+﻿W przypadku pytań dotyczących niniejszej wpłaty, należy skontaktować się z działem pomocy i podać numer identyfikacyjny transakcji.

@@ -1,0 +1,2 @@
+﻿Número telefónico de destinatario
+

@@ -1,0 +1,1 @@
+Poskrbite, da bosta izbrana valuta zgoraj in vneseni znesek enaka valuti in znesku na vašem kuponu Ukash.

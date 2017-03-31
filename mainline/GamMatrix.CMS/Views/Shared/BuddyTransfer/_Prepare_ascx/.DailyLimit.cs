@@ -1,0 +1,1 @@
+﻿Dení limit

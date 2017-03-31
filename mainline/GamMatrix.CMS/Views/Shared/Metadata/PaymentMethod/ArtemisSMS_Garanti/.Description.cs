@@ -1,0 +1,1 @@
+﻿Garanti Bank má 63 letou historii a je tureckou druhou největší soukromou bankou s aktivy přes 78 billiónů USD. Garanti i nadále rozšiřuje své působení na nové trhy a spoléhá se na osvědčenou a efektivní strategii zisku a udržitelného růstu, kterou udržoval od svého počátku.

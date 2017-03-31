@@ -1,0 +1,1 @@
+﻿Nemůžete se zaregistrovat z této ip [IP] více než [COUNT] krát denně. Je nám líto, v případě jakýchkoli otázek kontaktujte oddělení naší zákaznické podpory.

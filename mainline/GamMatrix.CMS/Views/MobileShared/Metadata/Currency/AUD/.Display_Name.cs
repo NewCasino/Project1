@@ -1,0 +1,1 @@
+﻿Austalské dolary

@@ -1,0 +1,12 @@
+﻿<p>Hyvä $FIRSTNAME$,</p>
+<br />
+<p>Tilin nimi:  $USERNAME$ </p>
+<br />
+Tämä sähköposti vahvistaa, että tilillesi on nyt asetettu harkinta-aika, jonka voimassaolo päättyy: $EXPIRY_DATETIME$.  Tänä aikana et voi kirjautua tilillesi.  Ilmoitamme sinulle sähköpostitse, kun harkinta-aika päättyy.
+<br />
+<br />
+Jos sinulla on kysymyksiä, älä epäröi ottaa yhteyttä osoitteeseen: 
+<a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>Ystävällisin terveisin ,</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]  Asiakastuki</p> 

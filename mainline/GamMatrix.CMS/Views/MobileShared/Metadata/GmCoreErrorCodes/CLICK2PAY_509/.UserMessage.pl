@@ -1,0 +1,1 @@
+﻿Odmowa wypłaty. Płatność nie została jeszcze aktywowana.

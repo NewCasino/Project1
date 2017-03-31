@@ -1,0 +1,1 @@
+﻿Por favor tenga en cuenta que $AMOUNT$ será cargado a su cuenta, su banco puede convertir la cantidad a su moneda local usando la tasa de cambio del banco. La cantidad abonada a su cuenta $ACCOUNT$ puede no ser la misma que aparece en su estado de cuenta.

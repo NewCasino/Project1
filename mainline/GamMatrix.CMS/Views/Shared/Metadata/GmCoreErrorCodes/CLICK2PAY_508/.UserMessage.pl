@@ -1,0 +1,1 @@
+﻿Odmowa wypłaty. Kwota przewyższa dozwolony limit.

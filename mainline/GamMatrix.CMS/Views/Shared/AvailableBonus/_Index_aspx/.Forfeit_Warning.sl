@@ -1,0 +1,1 @@
+Vaši dobitki in znesek bonusa bodo v skladu s pogoji in določili, ki ste jih sprejeli, odvzeti; ali ste prepričani, da želite nadaljevati?

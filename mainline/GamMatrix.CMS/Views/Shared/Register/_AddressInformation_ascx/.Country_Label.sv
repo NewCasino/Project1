@@ -1,0 +1,1 @@
+Land där du är stadigvarande bosatt

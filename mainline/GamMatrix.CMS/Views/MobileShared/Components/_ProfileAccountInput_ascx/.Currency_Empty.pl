@@ -1,0 +1,1 @@
+﻿Proszę wybrać swoją walutę

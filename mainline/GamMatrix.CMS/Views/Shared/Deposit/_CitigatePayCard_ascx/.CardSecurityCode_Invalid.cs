@@ -1,0 +1,2 @@
+﻿Neplatný bezpečnostní kód
+

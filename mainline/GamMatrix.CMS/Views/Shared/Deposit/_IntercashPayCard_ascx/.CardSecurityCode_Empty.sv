@@ -1,0 +1,1 @@
+Ange web access-koden som du använder för att logga in på Intercash-portalen.

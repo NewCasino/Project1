@@ -1,0 +1,74 @@
+﻿<ol>
+
+    <li> <strong>Hvordan setter jeg inn penger på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Casino?</strong> 
+        <p>
+            Casino-saldoen er separat fra [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] hovedkontoen slik at det er enkelt å holde oversikt. Du kan bruke funksjonen Overfør for å overføre midler mellom de to saldoene. Funksjonen er alltid tilgjengelig til høyre i casinoet når du er logget på.
+        </p>
+    </li>
+
+    <li> <strong>Hvor rettferdige er spillene på nettstedet deres?</strong>
+        <p>
+            Vi kan forsikre deg om at algoritmene som brukes til å generere kort på nettstedet vårt, er helt tilfeldige. Spillene våre er utviklet med Sun Microsystems SecureRandom-funksjon for Java. Slumptallsgeneratoren og stokkingen er utviklet av en med doktorgrad i matematikk. Programvaren vi bruker til å randomisere utdelingene er testet nøye og viser ingen partiskhet eller forutsigbarhet. Programvaren er godkjent av eCOGRA
+        </p>
+    </li>
+
+    <li>
+        <strong>Hva skjer hvis et spill avbrytes midt i en spillrunde?</strong> 
+        <p>
+            Tilstanden til hver spillrunde lagres automatisk i systemets database. Dette sikrer at den siste spilltilstanden spilleren så, alltid gjenopprettes når spillet fortsetter etter avbrytelser som følge av feil med system, Internett-tilkobling eller server eller på grunn av problemer på klientsiden.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hvor mange kortstokker er det i Blackjack-spillet?</strong>
+        <p>Vi bruker 4 og 6 kortstokker i Blackjack-spillene våre.</p>
+    </li>
+
+    <li>
+        <strong>Hvor finner jeg detaljerte instruksjoner for spillene deres?</strong>
+        <p>
+            Alle spillene våre har tilhørende spilleregler på selve spillsiden.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hva er den gjennomsnittlige utbetalingen for nettstedet?</strong>
+        <p>
+            Utbetalingene varierer fra spill til spill og over tid. Den teoretiske utbetalingen ligger på rundt 97 %. Utbetalingen for spillene er hardkodet, vi justerer ikke disse.
+        </p>
+    </li>
+
+    <li>
+        <strong>Kan jeg prøve spillene gratis?</strong>
+        <p>
+            Ja, du kan spille alle spillene gratis hvis du velger modusen Underholdningsspill.
+        </p>
+    </li>
+
+    <li>
+        <strong>Kan jeg fjerne en innsats etter at jeg har plassert den på bordet?</strong>
+        <p>
+            Det kan være mulig før spillet har startet, men du kan ikke endre eller redusere noen innsatser når spillet først har begynt.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hva skjer hvis jeg mister Internett-tilkoblingen under en spillrunde?</strong>
+        <p>
+            Spillet fortsetter fra tilstanden du forlot det i, når du logger på og åpner spillet på nytt. Enarmede banditter som var i gang, fortsetter runden selv om tilkoblingen blir brutt.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

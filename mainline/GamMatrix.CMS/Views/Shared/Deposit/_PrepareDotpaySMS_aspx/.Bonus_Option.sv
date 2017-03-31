@@ -1,0 +1,1 @@
+Jag önskar ta emot alla tillämpliga bonusar.

@@ -1,0 +1,2 @@
+﻿Heslo nemůže být prázdné
+

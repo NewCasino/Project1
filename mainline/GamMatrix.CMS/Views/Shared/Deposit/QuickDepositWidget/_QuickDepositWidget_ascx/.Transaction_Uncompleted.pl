@@ -1,0 +1,1 @@
+Transakcja jest niekompletna.

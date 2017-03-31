@@ -1,0 +1,1 @@
+﻿Jeśli tak nie jest i trafiłeś/-aś na tę stronę, klikając na nadesłany przez nas link, być może link zdążył utracić ważność.

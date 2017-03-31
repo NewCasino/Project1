@@ -1,0 +1,42 @@
+﻿<div class="MobileBigLinks">
+	<img width="502" height="363" alt="Mobile Jetbull" src="//cdn.everymatrix.com/JetbullV2/img/bg-mobile-filler.png" class="MobileBigFiller">
+	<ul class="MobileBigLinkList">
+		<li class="MBLLItem Container MBSite">
+			<a title="Visit the Mobile Jetbull" href="https://m.jetbull.com/" id="mobile-site" class="MBLLLink Container">
+				<img width="78" height="81" alt="Mobile site" src="//cdn.everymatrix.com/JetbullV2/img/bg-mobile-site.png" class="MBLLIcon">
+				<span class="Button MBLLButton">
+					<span class="ButtonText"><span class="Hideable">Go to the </span>Mobile site ▼</span>
+				</span>
+				<span class="MBLLText">m.jetbull.com</span>
+			</a>
+			<div id="mobileqr-site" class="MobileBigQR Container">
+				<img width="200" height="200" alt="https://m.jetbull.com" src="//cdn.everymatrix.com/JetbullV2/img/qr-mobile.png" class="QR QRMobile">
+			</div>
+		</li>
+		<li class="MBLLItem Container MBiOS">
+			<a title="Download the iOS Mobile App for your iPhone and iPad" href="itms-services://?action=download-manifest&amp;;;;url=http://cdn.everymatrix.com/_download/jetbull/manifest.plist" id="mobile-ios" class="MBLLLink Container">
+				<img width="79" height="99" alt="iOS App" src="//cdn.everymatrix.com/JetbullV2/img/bg-mobile-ios.png" class="MBLLIcon">
+				<span class="Button MBLLButton">
+					<span class="ButtonText"><span class="Hideable">Download the </span>iOS App ▼</span>
+				</span>
+				<span class="MBLLText">iOS App</span>
+			</a>
+			<div id="mobileqr-ios" class="MobileBigQR Container">
+				<img width="200" height="200" alt="itms-services://?action=download-manifest&amp;;;;url=http://cdn.everymatrix.com/_download/jetbull/manifest.plist" src="//cdn.everymatrix.com/JetbullV2/img/qr-ios.png" class="QR QRiOS">
+			</div>
+		</li>
+		<li class="MBLLItem Container MBAndroid">
+			<a title="Download the Android Mobile App for your phone and tablet" href="http://cdn.everymatrix.com/_download/jetbull/jetbull.apk" id="mobile-android" class="MBLLLink Container">
+				<img width="77" height="111" alt="Android App" src="//cdn.everymatrix.com/JetbullV2/img/bg-mobile-android.png" class="MBLLIcon">
+				<span class="Button MBLLButton">
+					<span class="ButtonText"><span class="Hideable">Download the </span>Android App ▼</span>
+				</span>
+				<span class="MBLLText">Android App</span>
+			</a>
+			<div id="mobileqr-android" class="MobileBigQR Container">
+				<img width="200" height="200" alt="http://cdn.everymatrix.com/_download/jetbull/jetbull.apk" src="//cdn.everymatrix.com/JetbullV2/img/qr-android.png" class="QR QRAndroid">
+			</div>
+		</li>
+	</ul>
+	
+</div>

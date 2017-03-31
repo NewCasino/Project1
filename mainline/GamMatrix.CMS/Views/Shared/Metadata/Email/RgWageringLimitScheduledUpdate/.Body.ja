@@ -1,0 +1,4 @@
+<p>$USERNAME$ 様、</p>
+<br /> ご連絡ありがとうございます。 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br />このＥメールはお客様が賭け額制限を次の様にご変更された事を確認する為のものです。&nbsp;$LIMITAMOUNT$ $LIMITPERIOD$ から $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$へ。新制限は&nbsp;$LIMITEXPIRYDATE$にアクティブになります。<br /> <br />もしご質問等ございましたら次までお気軽にお問い合わせ下さい。<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br />よろしくお願い致します。</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] カスタマーサポートチーム一同</p>

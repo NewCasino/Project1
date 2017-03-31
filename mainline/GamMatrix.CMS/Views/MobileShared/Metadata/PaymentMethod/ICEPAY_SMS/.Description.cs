@@ -1,0 +1,1 @@
+﻿Platba textovou zprávou

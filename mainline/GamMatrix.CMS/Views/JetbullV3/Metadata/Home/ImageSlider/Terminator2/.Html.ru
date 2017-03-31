@@ -1,0 +1,3 @@
+﻿<h3>Hasta la vista, baby!</h3>
+<p>Переживите заново приключения в стиле экшн Terminator 2.<br />Завораживающая графика и энергичный саундтрек, а также <br />особенность игры T-800 vision, которая превращает каждый <br />единичный символ разброса в поощрительные бесплатные вращения.</p>
+<br /> <a title="Играть ►" class="button" href="/Casino/Game/Info/terminator-2-mg"> <span class="GoldButtonText">Играть<span>►</span></span> </a>

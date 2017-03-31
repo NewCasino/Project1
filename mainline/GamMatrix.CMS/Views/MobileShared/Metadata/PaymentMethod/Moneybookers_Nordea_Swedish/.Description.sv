@@ -1,0 +1,1 @@
+Nordea via Moneybookers är ett väldigt säkert sätt att föra över medel från din bankkonto online.Nordea tillåter snabba och enkla överföringar utan besvär. 

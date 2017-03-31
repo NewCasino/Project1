@@ -1,0 +1,2 @@
+﻿Mostrar tus juegos favoritos
+

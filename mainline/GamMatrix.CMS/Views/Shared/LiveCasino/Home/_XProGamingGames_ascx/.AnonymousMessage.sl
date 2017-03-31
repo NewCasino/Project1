@@ -1,0 +1,1 @@
+Če želite igrati, se morate najprej prijaviti.

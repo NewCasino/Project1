@@ -1,0 +1,1 @@
+﻿Periodo de enfriamiento de 7 días, que puede ser usado sólo dos (2) veces

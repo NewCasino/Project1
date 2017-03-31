@@ -1,0 +1,1 @@
+Nimate dovoljenja za igranje te igre; najprej v celoti izpolnite svoj profil.

@@ -1,0 +1,1 @@
+Aby zaprosić znajomego, musisz się zalogować.

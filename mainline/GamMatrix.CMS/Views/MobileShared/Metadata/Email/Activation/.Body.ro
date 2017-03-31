@@ -1,0 +1,7 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Multumim ca v-ati inregistrat la [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], contul dumneavoastra ($USERNAME$) a fost creat, dar inainte de a-l utiliza trebuie sa il activati.</p>
+<p>Pentru a va activa contul, va rugam apasati pe linkul de mai jos. Daca nu functioneaza, incercati ca copiati linkul in browser.</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Daca nu v-ati inregistrat la [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], va rugam sa ignorati acest email sau sa informati <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Multumim ca v-ati inregistrat la [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>Cu respect,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] echipa</p>

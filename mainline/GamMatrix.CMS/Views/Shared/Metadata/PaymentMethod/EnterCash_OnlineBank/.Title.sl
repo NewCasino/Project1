@@ -1,0 +1,1 @@
+Takojšnje bančno nakazilo

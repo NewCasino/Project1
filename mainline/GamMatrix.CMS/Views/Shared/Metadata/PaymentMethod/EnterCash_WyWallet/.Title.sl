@@ -1,0 +1,1 @@
+Plačilo preko mobilne naprave

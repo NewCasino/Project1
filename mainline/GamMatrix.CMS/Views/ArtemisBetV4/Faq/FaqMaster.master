@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" PageTemplate="/DefaultMaster.master" Title="<%$ Metadata:value(.Title)%>" MetaKeywords="<%$ Metadata:value(.Keywords)%>" MetaDescription="<%$ Metadata:value(.Description)%>" %>
+
+
+<asp:content contentplaceholderid="cphHead" runat="Server">
+
+
+<asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+</asp:content>
+
+
+<asp:content contentplaceholderid="cphMain" runat="Server">
+    <div id="faq-wrapper" class="content-wrapper">
+        <section id="contentArea">
+            <div class="contentInner">
+                <asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </section>
+<!--
+        <div id="contactModal" class="modal hidden">
+            <h2><%=this.GetMetadata(".Contact_Form_Title") %></h2>
+            <a href="#" id="closeBtn" data-dismiss="modal"><i class="icon-close">X</i></a>
+            <div class="contact-body">
+                <% Html.RenderPartial("/ContactUs/InputView", this.ViewData); %>
+            </div>
+        </div>
+-->
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            var mark;
+            var modal = $("#contactModal");
+            $("#contact > a").bind("click", function (e) {
+                mark = $('<div class="modal-backdrop"></div>');
+                mark.appendTo(document.body);
+                modal.removeClass('hidden');
+
+                return false;
+            });
+
+            $("#closeBtn").bind("click", function (e) {
+                modal.addClass("hidden");
+
+                mark.remove();
+
+                return false;
+
+            });
+
+            $(document.body).addClass("FaqPage");
+        });
+    </script>
+</asp:content>
+

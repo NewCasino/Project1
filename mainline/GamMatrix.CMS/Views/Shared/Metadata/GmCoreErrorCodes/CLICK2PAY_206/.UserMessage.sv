@@ -1,0 +1,1 @@
+﻿Your account has been locked. For further assistance, please contact the customer service at service@click2pay.com.

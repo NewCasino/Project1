@@ -1,0 +1,7 @@
+<p>$FIRSTNAME$様</p>
+<p>お客様の[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]でのご連絡先のEメールアドレスを変更されました。</p>
+<p>お客様のセキュリティーのため、新しいご連絡先のEメールを認証して下さい。これを行うには、下記のリンクをクリックして下さい：</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>このリンクが正常に動作しない場合は、直接ブラウザーにこのリンクを貼り付けて下さい。</p>
+<p>Eメールアドレスの変更を行っていないようでありましたら、このメールを無視して頂くか、下記のEメールまでご報告下さい。<br /> <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>何卒宜しくお願い致します。<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] カスタマーサービスチーム一同</p>

@@ -1,0 +1,1 @@
+Tak, chcę otrzymywać wiadomości e-mail informujące o nowościach i ofertach.

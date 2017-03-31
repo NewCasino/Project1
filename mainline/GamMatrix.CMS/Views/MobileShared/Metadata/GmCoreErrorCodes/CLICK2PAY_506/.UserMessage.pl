@@ -1,0 +1,1 @@
+﻿Odmowa zwrotu. Niepoprawny identyfikator referencyjny.

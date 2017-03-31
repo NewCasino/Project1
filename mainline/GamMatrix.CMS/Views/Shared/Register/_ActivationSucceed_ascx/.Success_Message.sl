@@ -1,0 +1,1 @@
+Registracija je zdaj dokončana

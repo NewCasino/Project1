@@ -1,0 +1,1 @@
+SecureID må bestå av minst 6 tegn

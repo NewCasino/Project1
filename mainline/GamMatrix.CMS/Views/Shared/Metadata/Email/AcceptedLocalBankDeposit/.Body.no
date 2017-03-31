@@ -1,0 +1,13 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<p>Innskuddet er fullført.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Klikk på Oppdater-knappen (knappen her på siden, IKKE knappen i nettleseren din) for å laste inn saldoen på nytt.</strong>
+  </span>
+</p>
+<p>
+  Skulle du ha flere spørsmål, er det bare å ta kontakt <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  Hilsen<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] teamet
+</p>

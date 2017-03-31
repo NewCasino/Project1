@@ -1,0 +1,1 @@
+Du kommer inte kunna logga in på ditt konto under de nästkommande 6 månaderna

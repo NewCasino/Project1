@@ -1,0 +1,1 @@
+﻿Your request could not be completed. This merchant does not accept fund transfers from your area of residence.

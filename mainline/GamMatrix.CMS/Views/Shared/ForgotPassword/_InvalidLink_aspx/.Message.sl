@@ -1,0 +1,1 @@
+Oprostite, povezava je potekla ali je neveljavna.

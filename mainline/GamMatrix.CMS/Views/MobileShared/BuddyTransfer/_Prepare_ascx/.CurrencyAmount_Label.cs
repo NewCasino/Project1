@@ -1,0 +1,1 @@
+﻿Množství k převodu.

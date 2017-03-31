@@ -1,0 +1,1 @@
+Din överföring av pengar lyckades.

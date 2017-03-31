@@ -1,0 +1,1 @@
+﻿Přesunout do pozadí

@@ -1,0 +1,1 @@
+Intelligent Payments łączy sprzedawców z lokalnymi nabywcami w krajach, w których chcą oni rozszerzyć swoją sprzedaż, pomagając im skorzystać z niższych kosztów wymiany i przetwarzania.

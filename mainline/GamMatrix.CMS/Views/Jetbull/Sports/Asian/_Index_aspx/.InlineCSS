@@ -1,0 +1,18 @@
+﻿.lang_zh-cn #container {
+  width: 100%;
+}
+.lang_zh-cn #header {
+  padding: 0;
+  width: auto;
+  margin: 0 10px;
+}
+.lang_zh-cn .SecondaryToolbar {
+  padding: 0 10px;
+}
+.lang_zh-cn #footer {
+  margin: 0 10px;
+}
+.lang_zh-cn #container  .topmenu {
+  margin: 0 ;
+  width: auto;
+}

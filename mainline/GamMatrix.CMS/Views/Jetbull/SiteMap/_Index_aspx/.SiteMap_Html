@@ -1,0 +1,164 @@
+﻿<div class="sitemap_items">
+  <div class="root_title">Jetbull</div>
+  <ul class="items">
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/help">Help</a>
+    </li>
+    <li>
+      <a href="/customersupport">Customer Support</a>
+    </li>
+    <li>
+      <a href="/deposit">Payment Methods</a>
+    </li>
+    <li>
+      <a href="/withdraw">Withdraw</a>
+    </li>
+    <li>
+      <a href="/PendingWithdrawal">Pending Withdrawals</a>
+    </li>
+    <li>
+      <a href="/Transfer">Transfer</a>
+    </li>
+    <li>
+      <a href="/BuddyTransfer">Buddy Transfer</a>
+    </li>
+    <li>
+      <a href="/AccountStatement">Transaction history</a>
+    </li>
+    <li>
+      <a href="/Profile">Profile</a>
+    </li>
+    <li>
+      <a href="/ChangeEmail">Change Email</a>
+    </li>
+    <li>
+      <a href="/ChangePwd">Change Password</a>
+    </li>
+    <li>
+      <a href="/Limit">Your Limits</a>
+    </li>
+    <li>
+      <a href="/SelfExclusion">Self exclusion</a>
+    </li>
+    <li>
+      <a href="#" onclick="$('a.livechat').click();return false;">Live Chat</a>
+    </li>
+    <li>
+      <a href="/ForgotPassword">Forgot Password</a>
+    </li>
+    <li>
+      <a href="/register">Join Now</a>
+    </li>
+    <li>
+      <a href="/Sports/old">Sports</a>
+    </li>
+    <li>
+      <a href="/Mobile/">Mobile</a>
+    </li>
+    <li>
+      <a href="/Casino/">Casino</a>
+    </li>
+    <li>
+      <a href="/Bingo/">Bingo</a>
+    </li>
+    <li>
+      <a href="/Promotions/home">Promotions</a>
+    </li>
+    <li>
+      <a href="/AboutUs">About Us</a>
+    </li>
+    <li>
+      <a href="/ResponsibleGaming">Responsible Gaming</a>
+    </li>
+    <li>
+      <a href="/TermsConditions">Terms &amp; Conditions</a>
+    </li>
+    <li>
+      <a href="/under18">Under18 Terms</a>
+    </li>
+    <li>
+      <a href="/sitemap">Sitemap</a>
+    </li>
+    <li>
+      <a href="/Affiliate/home">Affiliates</a>
+    </li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Sports</div>
+  <ul class="items">
+    <li>
+      <a href="/help/Sports">FAQ</a>
+    </li>
+    <li>
+      <a href="/Promotions/home/sports">Promotions</a>
+    </li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Mobile</div>
+  <ul class="items">
+    <li>
+      <a href="/mobile/home">Mobile description</a>
+    </li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Casino</div>
+  <ul class="items">
+    <li>
+      <a href="/help/Casino">FAQ</a>
+    </li>
+    <li>
+      <a href="/Promotions/home/casino">Promotions</a>
+    </li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Bingo</div>
+  <ul class="items">
+    <li>
+      <a href="/Bingo/home">Bingo BETA</a>
+    </li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Promotions</div>
+  <ul class="items">
+    <li>
+      <a href="/Promotions/Home">Top Promotions</a>
+    </li>
+    <li>
+      <a href="/Promotions/home/sports">Sports</a>
+    </li>
+    <li>
+      <a href="/Promotions/home/casino">Casino</a>
+    </li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Affiliates</div>
+  <ul class="items">
+    <li>
+      <a href="/Affiliate/home">Login</a>
+    </li>
+    <li>
+      <a href="http://affiliate.jetbull.com/user/passRecovery.do">Forgot password?</a>
+    </li>
+    <li>
+      <a href="http://affiliate.jetbull.com/user/register.do">Sign Up Now</a>
+    </li>
+    <li>
+      <a href="/Affiliate/WhyJetbull">Why Jetbull?</a>
+    </li>
+    <li>
+      <a href="/Affiliate/FAQ">FAQ</a>
+    </li>
+    <li>
+      <a href="/Affiliate/TAndC">Terms and Conditions</a>
+    </li>
+  </ul>
+</div>

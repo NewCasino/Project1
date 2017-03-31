@@ -1,0 +1,38 @@
+﻿<ol><li><strong> 我如何才能确认我在[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]上的银行。引用转账？</strong>
+<p>所有您的银行转账都会在[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]的账户上出现并且记录。这可以使您有机会查看您的所有银行转账。</p>
+</li><li><strong> 我可以使用多个付款方式吗？</strong>
+<p>可以但是我们需要您的身份验证来改变您的财务信息。</p>
+</li><li><strong> 你们接受我们国家的银行卡吗？</strong>
+<p>我们不接受美国，法国和土耳其的银行卡，其余都可以。</p>
+</li><li><strong> 什么货币是被接受的？</strong>
+<p>您可以使用一下货币：EUR, GBP, USD, PLN, CZK, DKK, SEK, NOK, Rubles and Yuan.</p>
+</li><li><strong> 为什么不能接受我的银行卡？</strong>
+<p>一些信用卡的规定是不可以直接使用来存款的。您可以联系您的信用卡提供者来讨论这个问题，或者尝试使用网上付款方式。如果您想了解更多的信息请联系我们的客服。</p>
+</li><li><strong> 如果我的存款被拒绝了我该怎么办？</strong>
+<p>一般来说如果您的第一次存款成功了，下一次存款会在24小时之内完成，不过如果您的上限已经完成那么您可能不能存款。一般造成这种问题的原因都是因为没有规范地填写申请表格。还有就是许多信用卡提供商不允许您在晚上博彩公司存款，您可以联系您的信用卡银行来解决此问题。</p>
+</li><li><strong> 我可以使用我的信用卡来给我朋友的账户充值吗？</strong>
+<p>不可以，您是不能够这么做的。</p>
+</li><li><strong> 我使用错误的卡存款了 – 我能做什么来补救？</strong>
+<p>请联系[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]的客服  <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+</li><li><strong> 我可以在账户之间转账吗？</strong>
+<p>您不能这么做，但是您可以在您自己的账户之间转账，比如体育彩，娱乐场和扑克。</p>
+</li><li><strong> 什么是IBAN?</strong>
+
+<p>IBAN是为国际银行账户准备的。当您进行国际转账或提款时需要用到 IBAN。</p>
+</li><li><strong> 什么是CVC2代码？</strong>
+
+<p>CVC2是"Card Verification Code"的字母缩写。在您使用国际电话转账或信用卡付款时，处于安全考虑而需要使用到的代码。此代码为3位数字，您可以在信用卡背面找到。</p>
+</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

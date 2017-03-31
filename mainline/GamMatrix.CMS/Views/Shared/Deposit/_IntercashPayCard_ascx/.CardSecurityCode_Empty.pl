@@ -1,0 +1,1 @@
+Wpisz kod dostępu internetowego, którego używasz do logowania się do portalu Intercash.

@@ -1,0 +1,2 @@
+﻿Zobraz všechny metody otevření
+

@@ -1,0 +1,1 @@
+﻿[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] - Twój adres e-mail został zmieniony.

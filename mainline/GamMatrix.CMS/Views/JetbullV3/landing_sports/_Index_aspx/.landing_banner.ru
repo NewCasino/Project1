@@ -1,0 +1,4 @@
+﻿<h3>50% спортивный приветственный бонус до  €75!*</h3>
+        <p>Новичок на Jetbull? Мы предлагаем неограниченные возможности для ставок круглосуточно на сотни видов спорта с ПК, планшетных и мобильных устройств. Вы также можете делать ставки на более чем 13,000 событий LIVE ежемесячно. Ставьте больше, выигрывайте больше с Jetbull!</p><br>
+        <div class="promotions-content-buttons"><a href="/Register" class="promotion-button button-register">Регистрация!</a></div>
+        </a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p><a href="/Promotions/TermsConditions/sports/sportsbook">*Нажмите здесь для того, чтобы ознакомиться с правилами и условиями бонуса</a></p>

@@ -1,0 +1,1 @@
+Vaš ID računa mora vsebovati vsaj 7 znakov

@@ -1,0 +1,1 @@
+Vsa sredstva bodo v skladu s pogoji in določili, ki ste jih sprejeli, odvzeta; ali ste prepričani, da želite nadaljevati?

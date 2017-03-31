@@ -1,0 +1,1 @@
+Observera att din insättning behandlas av EveryMatrix Ltd, betalningshandläggare för [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] webbsida, kommer du att se {0} visas på ditt kontoutdrag.

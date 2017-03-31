@@ -1,0 +1,9 @@
+﻿<div class="ContactBottom">
+	<ul class="Cols-2">
+		<li class="Col SocialNetwork">
+			<a  target="_blank" href="https://www.facebook.com/Artemisbey" class="SocialLink Tw">Twitter</a>
+			<a  target="_blank" href="https://twitter.com/Artemisbey" class="SocialLink Fb">Facebook</a>
+		</li>
+		
+	</ul>
+</div>

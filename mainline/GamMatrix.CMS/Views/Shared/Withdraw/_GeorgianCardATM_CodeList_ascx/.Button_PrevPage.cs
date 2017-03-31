@@ -1,0 +1,1 @@
+﻿Předchozí stránka

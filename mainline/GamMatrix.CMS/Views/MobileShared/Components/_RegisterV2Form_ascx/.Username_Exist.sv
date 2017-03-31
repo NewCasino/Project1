@@ -1,0 +1,1 @@
+﻿Användarnamnet redan upptaget

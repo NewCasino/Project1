@@ -1,0 +1,1 @@
+Sortuj gry według priorytetu lub w porządku alfabetycznym.

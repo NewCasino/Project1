@@ -1,0 +1,1 @@
+﻿Obecna wysokość wpłat wynosi {0}, po dodaniu najnowszej wpłaty {1}, łączna wysokość wpłat {2} przekroczy Twój limit ({3} na {4})

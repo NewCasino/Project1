@@ -1,0 +1,1 @@
+﻿Podany identyfikator konta nie jest poprawny lub konto nie może przyjmować płatności.

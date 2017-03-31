@@ -1,0 +1,1 @@
+﻿7 dni na ochłonięcie można wykorzystać tylko dwa (2) razy

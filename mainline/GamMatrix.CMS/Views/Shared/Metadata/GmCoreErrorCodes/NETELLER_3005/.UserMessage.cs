@@ -1,0 +1,1 @@
+﻿Je nutné vložit částku. Zkuste prosím znova.

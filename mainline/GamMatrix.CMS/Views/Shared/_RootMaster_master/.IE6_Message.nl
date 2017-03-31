@@ -1,0 +1,1 @@
+﻿U gebruikt Internet Explorer 6, sommige features zijn niet beschikbaar. We raden aan dat u Internet Explorer upgrade naar een nieuwere versie voor een betere ervaring.

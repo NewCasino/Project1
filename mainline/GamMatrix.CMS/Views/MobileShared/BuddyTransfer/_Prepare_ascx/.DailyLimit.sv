@@ -1,0 +1,1 @@
+﻿Daglig gräns

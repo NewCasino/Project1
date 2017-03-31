@@ -1,0 +1,1 @@
+﻿Požadovaná funkcionalita není k dispozici nebo podporována při současném nastavení

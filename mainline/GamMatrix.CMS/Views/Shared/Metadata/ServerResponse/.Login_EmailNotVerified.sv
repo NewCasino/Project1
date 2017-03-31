@@ -1,0 +1,1 @@
+Inloggningen misslyckades. Du har inte aktiverat ditt konto inom {0} dagar från registreringen och ditt konto blockeras nu.

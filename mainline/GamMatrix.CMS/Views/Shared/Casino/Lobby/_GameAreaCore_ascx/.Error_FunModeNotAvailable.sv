@@ -1,0 +1,1 @@
+Fel, det här spelet kan inte spelas i spela på skoj-läget!

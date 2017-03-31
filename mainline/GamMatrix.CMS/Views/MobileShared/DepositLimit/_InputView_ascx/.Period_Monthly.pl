@@ -1,0 +1,1 @@
+﻿Limit miesięczny (na miesiąc)

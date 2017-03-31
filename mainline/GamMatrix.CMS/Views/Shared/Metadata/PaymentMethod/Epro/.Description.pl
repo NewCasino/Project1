@@ -1,0 +1,1 @@
+E-pro umożliwia Ci szybkie przesyłanie pieniędzy z karty kredytowej na Twoje konto gracza. Wystarczy podać dane swojej karty. Po zweryfikowaniu karty kredytowej środki zostaną szybko i bezpiecznie przesłane na Twoje konto gracza.

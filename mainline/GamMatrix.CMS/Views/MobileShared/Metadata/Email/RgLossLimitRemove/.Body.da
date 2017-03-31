@@ -1,0 +1,5 @@
+﻿<p>Kære $USERNAME$,</p>
+<br /> Tak for din henvendelse [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Denne email er en bekræftelse af, at din personlige tabsgrænse $LIMITAMOUNT$ $LIMITPERIOD$ vil blive fjernet den $LIMITEXPIRYDATE$. <br /> <br /> Kontakt os venligst, hvis du har spørgsmål på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p><br /> Venlig hilsen</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundeservice team</p>

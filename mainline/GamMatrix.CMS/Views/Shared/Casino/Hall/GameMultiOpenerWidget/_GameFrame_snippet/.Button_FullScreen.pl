@@ -1,0 +1,1 @@
+Pełny ekran

@@ -1,0 +1,1 @@
+Vaš priimek mora vsebovati vsaj 2 znaka

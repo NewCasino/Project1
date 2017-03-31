@@ -1,0 +1,1 @@
+Vaše uporabniško ime vsebuje neveljavne znake

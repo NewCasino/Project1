@@ -1,0 +1,2 @@
+﻿Buscar juego por nombre
+

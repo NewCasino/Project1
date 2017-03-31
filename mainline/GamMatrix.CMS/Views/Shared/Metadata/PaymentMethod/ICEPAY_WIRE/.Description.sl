@@ -1,0 +1,1 @@
+Plačevanje z bančnim nakazilom pomeni enostavno plačevanje povsod po svetu. Ob različnih kreditnih karticah, ki so na voljo, bančna nakazila predstavljajo najboljši način urejanja mednarodnih plačil.

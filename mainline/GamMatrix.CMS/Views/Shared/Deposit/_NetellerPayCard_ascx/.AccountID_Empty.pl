@@ -1,0 +1,1 @@
+Wpisz ID swojego konta/swój adres e-mail

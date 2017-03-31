@@ -1,0 +1,1 @@
+﻿Violación de relación con cuenta directa de ClickandBuy

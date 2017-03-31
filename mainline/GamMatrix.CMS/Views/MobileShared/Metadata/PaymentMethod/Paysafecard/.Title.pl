@@ -1,0 +1,1 @@
+﻿Karta<b>paysafe</b>card

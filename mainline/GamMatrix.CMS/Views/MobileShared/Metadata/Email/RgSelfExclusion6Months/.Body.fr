@@ -1,0 +1,19 @@
+﻿<p>Bonjour $USERNAME$,<br />
+<br />
+Merci d’avoir contacté [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+Cet email est pour confirmer  que votre compte est désormais soumis à une auto-exclusion pour une période de six mois. Pendant cette période l’activité de votre compte sera limitée à :<br />
+<br />
+- Connexion<br />
+- Revue des Transactions<br />
+- Demandes de Retrait<br />
+<br />
+Vous ne serez pas en mesure de d’effectuer de dépôts ou de jouer sur le site. De plus pendant votre exclusion, nous ne vous enverrons pas d’informations marketing ou autres offres promotionnelles.  Nous vous préviendrons par email lorsque cette période de 6 mois se termine. <br />
+<br />
+N’hésitez pas à nous contacter si vous avez des questions à <a href="mailto:
+[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">
+[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>&#160;</p>
+<p> Cordialement </p>
+<p> Service Clientèle [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>
+

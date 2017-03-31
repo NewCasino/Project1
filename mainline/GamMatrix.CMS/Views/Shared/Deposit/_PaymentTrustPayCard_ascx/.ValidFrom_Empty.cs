@@ -1,0 +1,1 @@
+﻿Vyberte počátek doby platnosti

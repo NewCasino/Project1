@@ -1,0 +1,1 @@
+Vaše geslo mora vsebovati vsaj 8 znakov

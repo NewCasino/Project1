@@ -1,0 +1,1 @@
+Du kan inte registrera dig från det här IP-numret [IP] mer än [COUNT] gånger om dagen. Vi beklagar, kontakta kundtjänsten om du har frågor.

@@ -1,0 +1,1 @@
+Du kan snabbt göra en insättning från ditt SOLO kort till ditt spelkonto. Fyll i dina kortuppgifter och när ditt SOLO kort är verifierat kommer din transaktion föras över till ditt spelkonto på en gång. 

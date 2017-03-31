@@ -1,0 +1,1 @@
+﻿Шаг 1. Вручную зайдите в  <a style="text-decoration: underline;" href="{0}" target="_blank">систему вашего онлайн-банкинга</a>

@@ -1,0 +1,86 @@
+﻿<ol>
+
+ <li> <strong>Kako ću prepoznati uplate ili isplate na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] svom bankovnom/kreditnom izvodu?</strong> 
+ <p>
+ Sve uplate i isplate&nbsp; koje su prikazane ili na vašem izvodu kreditne kartice ili bankovnom izvodu će uvijek biti popraćene opisom u kojem će  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] biti naveden. To vam dozvoljava da pratite vaše pologe na i isplate sa stranice.
+ </p>
+ </li>
+
+ <li> <strong>Mogu li koristiti više od jedne metode plaćanja?</strong>
+ <p>
+ Da, ali može nam trebati dokumentacija za bilo kakve promjene financijskih metoda.
+ </p>
+ </li>
+
+ <li>
+ <strong>Prihvaćate li kartice iz moje zemlje?</strong>
+ <p>
+Prihvaćamo kartice iz svih zemalja osim iz SAD-a, Turske i Francuske.
+ </p>
+ </li>
+
+ <li>
+ <strong>Zašto vaša internetska stranica ne prihvaća moju karticu?</strong>
+ <p>
+Neki se izdavatelji kartica drže pravila koja vam ne dozvoljavaju izravne pologe na internetske stranice za kockanje. Možda ćete htjeti kontaktirati svog davatelja kartičnih usluga kako biste raspravili o ovoj situaciji ili, umjesto toga, probati jednu od elektronskih metoda plaćanja&nbsp;. Za daljnju pomoć kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službu za korisnike.
+ </p>
+ </li>
+
+ <li>
+ <strong>Što trebam uraditi ako ne prihvatite ili odbijete moju karticu?</strong>
+ <p>
+*Povremeno, ako pokušate uplatiti polog po drugi put prije nego je vaša posljednja uplata primljena, može se smatrati da ste premašili vaš dnevni ili tjedni limit te može doći do problema pri uplati pologa. Najčešći uzrok ove pojave je neispravno ispunjavanje polja u obrascu za zahtjev. Kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službu za korisnike kako biste to ispravili. Također, neki se izdavatelji kartica drže pravila koja vam ne dozvoljavaju izravne pologe na internetske stranice za kockanje. Možda ćete htjeti kontaktirati vašeg davatelja kartičnih usluga kako biste raspravili o ovoj situaciji ili, umjesto toga, probati jednu od elektronskih metoda plaćanja.
+ </p>
+ </li>
+
+ <li>
+ <strong>Mogu li koristiti svoju karticu za uplaćivanje pologa na račun prijatelja?</strong>
+ <p>
+ Ne možete to uraditi jer se takva transakcija smatra transakcijom treće strane te ni u kom slučaju nije dozvoljena.
+ </p>
+ </li>
+
+ <li>
+ <strong>Greškom sam uplatio polog koristeći pogrešnu karticu. Postoji li nešto što mogu uraditi? </strong> 
+ <p>
+ Kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službu za korisnike na
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ </p>
+ </li>
+
+ <li>
+ <strong>Mogu li izvršiti prijenos novca između računa?</strong>
+ <p>
+Ne možete prenijeti novac između osobnih računa, ali možete prenijeti novac između kasina, sportskih kladionica i poker igara te svog osobnog računa.
+ </p>
+ </li>
+
+ <li>
+ <strong>Što je IBAN?</strong>
+ <p>
+IBAN znači međunarodni broj bankovnog računa (International Bank Account Number). IBAN se koristi pri međunarodnim elektronskim bankovnim transferima sredstava te olakšava isplatu vaših dobitaka.
+ </p>
+ </li>
+
+ <li>
+ <strong>Što je CVC2 kod?</strong>
+ <p>
+CVC2 je akronim od „Card Verification Code“ (kod za kartičnu potvrdu). Ovaj je kod nužan kao mjera sigurnosti kada vršite međunarodnu kupnju putem telefona ili internetsko plaćanje putem kreditne kartice. Ovaj se kod sastoji iz tri znamenke i možete ga naći na poleđini vaše kreditne kartice.
+ </p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Ispiši</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

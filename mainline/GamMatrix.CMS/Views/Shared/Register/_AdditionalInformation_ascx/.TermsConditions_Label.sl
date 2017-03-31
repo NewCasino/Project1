@@ -1,0 +1,1 @@
+Potrjujem, da sem star(-a) 18 let ali več ter da sem prebral(-a) in sprejemam 

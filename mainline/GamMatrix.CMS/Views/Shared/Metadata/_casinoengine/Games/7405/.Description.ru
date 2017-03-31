@@ -1,0 +1,2 @@
+﻿This video poker is a great casino poker game:easy game play and high payout. Big earnings wait for you in Aces and Faces, because apart from stunning audiovisual effects this game offers great payouts.
+Aces and Faces has a maximum payout of 4,000 coins

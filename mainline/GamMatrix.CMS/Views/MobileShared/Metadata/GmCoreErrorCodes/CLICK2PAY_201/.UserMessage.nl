@@ -1,0 +1,1 @@
+﻿De opgegeven CLICK2PAY gebruikersnaam is ongeldig. Probeer het opnieuw. Als het probleem aanhoudt, neem dan contact op met klanten service op service@click2pay.com.

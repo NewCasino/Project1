@@ -1,0 +1,1 @@
+﻿Sedmidenní dobrovolné vyloučení není možné více než {0} krát

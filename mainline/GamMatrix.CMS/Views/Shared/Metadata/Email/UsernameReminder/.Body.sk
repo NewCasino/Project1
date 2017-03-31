@@ -1,0 +1,3 @@
+﻿<p>Ahoj $FIRSTNAME$,</p>
+<p>ďakujeme, že ste sa obrátili na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. V odpovedi na vašu požadiavku  pripájame vaše užívateľské meno: <strong>$USERNAME$</strong>. </p>
+<p>S pozdravom,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tím</p>

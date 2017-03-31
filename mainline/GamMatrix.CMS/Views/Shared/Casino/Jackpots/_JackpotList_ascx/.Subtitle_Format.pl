@@ -1,0 +1,1 @@
+﻿({0} całkowite wygrane w chwili obecnej)

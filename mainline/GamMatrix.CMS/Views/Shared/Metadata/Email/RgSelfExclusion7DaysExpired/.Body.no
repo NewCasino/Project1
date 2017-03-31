@@ -1,0 +1,8 @@
+﻿Kjære $USERNAME$ <br />
+<br />
+Denne e-posten er sendt ut for å bekrefte at dine sju (7) dager med selvekskludering er over, og at alle funksjoner på kontoen din har blit aktivert igjen. <br />
+<br />Ta gjerner kontakt med oss dersom du har spørsmål på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> <br />
+<p><br />Hilsen,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte</p>
+
+

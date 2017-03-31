@@ -1,0 +1,1 @@
+Initialt omsättningskrav

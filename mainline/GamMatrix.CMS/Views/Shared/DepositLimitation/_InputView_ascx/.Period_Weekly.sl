@@ -1,0 +1,1 @@
+Tedenski limit (vsakih 7 dni od datuma, ko ste nastavili svoj limit)

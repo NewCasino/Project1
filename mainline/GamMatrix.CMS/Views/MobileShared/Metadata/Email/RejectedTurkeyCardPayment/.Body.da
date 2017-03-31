@@ -1,0 +1,4 @@
+﻿<p>Hej $FIRSTNAME$,</p>
+Din indbetaling er blevet afvist, tjek venligst de indtastede informationer og prøv igen senere.
+<p>Hvis du har spørgsmål, kontakt os venligst på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Venlig hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundesupport</p>

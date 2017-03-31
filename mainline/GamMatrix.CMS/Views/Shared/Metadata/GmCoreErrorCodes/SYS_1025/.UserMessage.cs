@@ -1,0 +1,1 @@
+﻿Částka není v souladu s hodnotama limitu

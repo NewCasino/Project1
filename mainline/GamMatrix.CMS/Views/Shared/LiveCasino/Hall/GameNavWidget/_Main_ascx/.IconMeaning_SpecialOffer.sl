@@ -1,0 +1,1 @@
+visoka stopnja za denarne nagrade

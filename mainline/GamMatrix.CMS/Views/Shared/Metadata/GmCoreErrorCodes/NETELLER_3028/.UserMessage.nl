@@ -1,0 +1,1 @@
+﻿Uw aanvraag kan niet worden voltooid. Transacties vanaf uw verblijfsplaats naar deze handelaar zijn niet beschikbaar. Neem contact op met de handelaars klanten service voor meer informatie.

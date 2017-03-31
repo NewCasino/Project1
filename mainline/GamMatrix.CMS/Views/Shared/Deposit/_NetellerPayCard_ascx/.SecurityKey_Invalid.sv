@@ -1,0 +1,1 @@
+Ditt säkerhets-ID måste bestå av minst 6 tecken

@@ -1,0 +1,1 @@
+﻿Gwinea Równikowa

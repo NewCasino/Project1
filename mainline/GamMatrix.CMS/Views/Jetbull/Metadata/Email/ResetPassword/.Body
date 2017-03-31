@@ -1,0 +1,12 @@
+﻿<h3>Dear&nbsp;$USERNAME$</h3>
+<p>Thank you for contacting Jetbull.com<br />
+<br />
+We have received your forgotten password request. Please click on the following link to reset your password:<br />
+<a href="$RESETLINK$">$RESETLINK$</a></p>
+<br />
+This link is valid for 24 hours and can only be used once.<br />
+<br />
+If you do not wish to change your password, please ignore this email.<br />
+<p>Kind Regards,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team<br />
+</p>

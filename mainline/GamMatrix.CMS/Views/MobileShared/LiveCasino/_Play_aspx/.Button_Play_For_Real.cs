@@ -1,0 +1,1 @@
+﻿Hrajte, abyste vyhráli

@@ -1,0 +1,82 @@
+﻿<ol>
+
+ <li> <strong>Hva er minste og største tillatte innsats?</strong>
+ <p>
+ Største innsats varierer avhengig av arrangement. Hvis du prøver å legge inn et spill på mer enn maksbeløpet, får du en melding som informerer om maksbeløpet du kan legge inn for det valget. Vi har ingen begrensninger for minste innsats.
+ </p>
+ </li>
+
+ <li> <strong>Hva er enkle innsatser og flerdoblede innsatser?</strong>
+ <p>
+ Enkle innsatser innebærer ett valg. Flerdoblede innsatser krever mer enn ett valg. Jo flere valg du knytter sammen til en flerdobbelt innsats (f.eks. alle hjemmelagene i en Premier League-runde), desto mer har du muligheten til å vinne – men det er da selvfølgelig også mye vanskeligere.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvor mange valg kan en flerdoblet innsats inneholde?</strong>
+ <p>
+ Maksimalt antall valg for flerdoblet innsats er 10.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvordan fungerer innsats med handicap?</strong>
+ <p>
+ Du finner detaljerte forklaringer om innsats med handicap (1x2 med handicap og asiatiske handicap) under Innsatsbeskrivelser her.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hva skjer hvis en kamp utsettes?</strong>
+ <p>
+ Kontroller reglene for sporten det gjelder. Enkelte sporter krever at kampen spilles på samme dag for at innsatsene skal bli værende. Innsatser i andre sporter kan forbli værende til kampen fullføres eller offisielt gis opp.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvorfor er ikke gevinsten min utbetalt ennå?</strong>
+ <p>
+ [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] krever at det er annonsert offisielle resultater før markedene kan gjøres opp. Nettbaserte kilder som direktesendte poengtavler kan av og til være feil. Oppgjøret kan bli forsinket til resultatene er bekreftet.
+ </p>
+ </li>
+
+ <li>
+ <strong>Jeg har ombestemt meg. Kan jeg avbryte innsatsen min?</strong>
+ <p>
+ Nei. Når du har bekreftet innsatsen, og den er godkjent av serveren, kan du ikke avbryte innsatsen.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvor finner jeg spillhistorikk?</strong>
+ <p>
+ Du finner historikk for spill og transaksjoner under Min sportsspillkonto når du er logget på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] nettstedet.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvorfor beregnes gevinster annerledes på odds fra Storbritannia?</strong>
+ <p>
+ Vi bruker desimalodds (EU) når vi beregner gevinster, da dette er mest nøyaktig. Odds fra Storbritannia og USA er bare til referanse, da enkelte desimalodds ikke står i vekselforhold til en enkel brøk.
+ </p>
+ </li>
+
+ <li>
+ <strong>Pengespill begynner å bli vanedannende for meg. Hva kan jeg gjøre?</strong>
+ <p>
+ Det skal være [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] gøy å spille pengespill, men enkelte kan bli avhengige. Du finner informasjon om spillavhengighet under Spillevett.
+ </p>
+ </li>
+
+</ol>
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

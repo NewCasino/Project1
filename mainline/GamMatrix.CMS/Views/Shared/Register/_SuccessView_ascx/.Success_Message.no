@@ -1,0 +1,3 @@
+Kontoen din er inaktiv. Du kan ikke gjøre innskudd, uttak, overføringer osv.
+Det er sendt en e-postmelding om aktivering til e-postadressen du brukte da du registrerte deg. Klikk på koblingen i e-postmeldingen om aktivering for å aktivere kontoen din. 
+Hvis du ikke har mottatt e-postmeldingen om aktivering, kan du klikke <a href="#" id="btnResendEmail">her</a> for å sende e-postmeldingen på nytt.

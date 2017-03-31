@@ -1,0 +1,1 @@
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] -Bekräftning på ändring av e-mailadress

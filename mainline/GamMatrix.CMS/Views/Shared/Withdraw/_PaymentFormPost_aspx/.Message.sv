@@ -1,0 +1,1 @@
+Detta kan ta några minuter,<br />vänligen vänta och stäng inte det här fönstret.

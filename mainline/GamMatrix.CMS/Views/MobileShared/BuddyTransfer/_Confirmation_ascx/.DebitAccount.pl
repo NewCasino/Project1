@@ -1,0 +1,1 @@
+﻿Przelew z Twojego konta {0}

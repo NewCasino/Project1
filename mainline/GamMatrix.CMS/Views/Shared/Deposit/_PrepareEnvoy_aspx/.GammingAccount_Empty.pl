@@ -1,0 +1,1 @@
+Wybierz kwotę wpłaty.

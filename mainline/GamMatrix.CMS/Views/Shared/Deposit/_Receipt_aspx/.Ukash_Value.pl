@@ -1,0 +1,1 @@
+Wartość karty

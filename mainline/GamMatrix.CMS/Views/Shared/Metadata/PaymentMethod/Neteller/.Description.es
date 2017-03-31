@@ -1,0 +1,1 @@
+﻿NETELLER es un servicio de monedero electrónico que permite a los clientes de NETELLER depositar, retirar y transferir fondos desde su cuenta online NETELLER a su cuenta de juego. Es seguro y los fondos están disponibles en su cuenta de juego instantáneamente. Haga clic&nbsp;<a href="https://www.neteller.com/home/index.jsf">aquí</a> para abrir una cuenta Neteller.

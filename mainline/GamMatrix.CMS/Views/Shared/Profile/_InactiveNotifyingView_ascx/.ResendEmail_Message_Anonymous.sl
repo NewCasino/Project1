@@ -1,0 +1,1 @@
+Za izvajanje postopka se morate prijaviti.

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <RouteName>CasinoGameMgt</RouteName>
+  <Type>Page</Type>
+  <Controller>GamMatrix.CMS.Controllers.System.CasinoGameMgtController</Controller>
+</root>

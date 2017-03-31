@@ -1,0 +1,1 @@
+Begäran om allmän support

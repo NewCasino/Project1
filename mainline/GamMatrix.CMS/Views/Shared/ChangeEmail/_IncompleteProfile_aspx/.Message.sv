@@ -1,0 +1,1 @@
+Du kan inte ändra e-postadressen eftersom din profil är ofullständig. Du dirigeras om till profilsidan om 5 sekunder, vänligen komplettera din profil innan du gör en insättning. 

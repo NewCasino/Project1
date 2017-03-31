@@ -1,0 +1,1 @@
+﻿Observera att $AMOUNT$ kommer att läggas in på ditt kortkonto, din bank kan konvertera beloppet till din lokala valuta enligt bankens växelkurs. Beloppet som krediteras ditt $ACCOUNT$ konto kan skilja sig från beloppet på ditt kontoutdrag.

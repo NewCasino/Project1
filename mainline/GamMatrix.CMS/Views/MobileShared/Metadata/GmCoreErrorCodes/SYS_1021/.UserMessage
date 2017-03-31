@@ -1,0 +1,1 @@
+﻿Duplicated pay card

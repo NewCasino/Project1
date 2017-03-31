@@ -1,0 +1,1 @@
+﻿Necesita iniciar la sesión para retirar dinero.

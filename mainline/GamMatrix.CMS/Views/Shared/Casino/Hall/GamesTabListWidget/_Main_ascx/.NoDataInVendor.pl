@@ -1,0 +1,1 @@
+Proszę dodać gry dla bieżącego dostawcy.

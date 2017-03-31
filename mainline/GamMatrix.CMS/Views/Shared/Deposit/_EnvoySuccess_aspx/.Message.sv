@@ -1,0 +1,1 @@
+När din insättning har skickats, kommer ditt kontot att krediteras när pengarna har mottagits. Hur lång tid detta tar att slutföra varierar från minuter till flera dagar och beror på vilket betalningssätt som du har använt

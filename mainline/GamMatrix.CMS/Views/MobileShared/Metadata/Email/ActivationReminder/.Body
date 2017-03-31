@@ -1,0 +1,19 @@
+﻿<p>Dear&#160; $USERNAME$,<br />
+<br />
+Thank you for registering at [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+<br />
+<br />
+For your security we would like to remind you to verify your email in-order to ensure your account remains active and you can continue to enjoy all of the great offers available at [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].<br />
+<br />
+Please click on the link below, if it does not respond, try copy and paste the link into your browser.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+If you have not registered with [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+, please disregard this email or inform <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+Please ensure you complete the email verification immediately to prevent your account being restricted for your protection.
+<p><br />
+Kind Regards,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Customer Service Team<br />

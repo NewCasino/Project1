@@ -1,0 +1,1 @@
+Vi har även möjlighet att stänga ditt konto permanent:

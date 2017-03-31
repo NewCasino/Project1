@@ -1,0 +1,1 @@
+﻿Wordt afgeschreven van kaart Nr. {0}

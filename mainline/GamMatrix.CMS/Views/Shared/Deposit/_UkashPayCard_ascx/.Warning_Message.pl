@@ -1,0 +1,1 @@
+Upewnij się, że wybrana powyżej waluta i wartość Ukash poniżej zgadzają się z walutą i kwotą Twojej karty Ukash.

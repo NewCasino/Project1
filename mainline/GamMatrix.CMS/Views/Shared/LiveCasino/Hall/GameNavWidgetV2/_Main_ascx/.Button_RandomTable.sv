@@ -1,0 +1,1 @@
+Slumpmässigt bord

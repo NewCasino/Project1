@@ -1,0 +1,1 @@
+Pochodzenie krupiera

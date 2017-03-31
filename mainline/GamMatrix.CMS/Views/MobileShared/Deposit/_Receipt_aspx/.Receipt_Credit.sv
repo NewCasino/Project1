@@ -1,0 +1,1 @@
+Summa insatt till ditt {0} konto

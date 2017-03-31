@@ -1,0 +1,1 @@
+﻿Establecer límite de sesión

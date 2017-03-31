@@ -1,0 +1,9 @@
+﻿<p>Pozdrav $FIRSTNAME$,</p>
+
+<p>Ovime potvrđujemo da je vaša adresa e-pošte na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] promijenjena na vaš zahtjev.</p>
+<p>Ako niste tražili promjenu vaše adrese e-pošte, obavijestite službu za korisnike odmah na 
+<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+</p>
+
+Lijepi pozdrav, 
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Služba za korisnike

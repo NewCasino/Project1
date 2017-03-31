@@ -1,0 +1,3 @@
+﻿<p class="PopupThanksP">Teşekkür ederiz, başarıyla kayıt oldunuz!</p>
+
+<a href="/Deposit" id="btnActivateDeposit" class="Button ActivateDeposit" target="_top">Hemen Para Yatırın!</a>

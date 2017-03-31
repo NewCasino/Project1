@@ -1,0 +1,1 @@
+﻿Vaše křestní jméno obsahuje neplatné znaky

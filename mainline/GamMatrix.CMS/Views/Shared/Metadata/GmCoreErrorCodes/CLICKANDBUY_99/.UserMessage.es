@@ -1,0 +1,1 @@
+﻿Ha ocurrido un error durante el procesamiento de la transacción.

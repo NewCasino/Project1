@@ -1,0 +1,6 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+<p>Grazie per aver contattato [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], Abbiamo ricevuto la tua richiesta per lo username dimenticato. </p>
+
+<p>Il tuor username è <strong>$USERNAME$</strong>. </p>
+<p>Cordialmente,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team</p>
+

@@ -1,0 +1,1 @@
+﻿Uw vriends account is inactief.

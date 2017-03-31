@@ -1,0 +1,1 @@
+Ta gra jest dostępna wyłącznie w trybie Graj na prawdziwe pieniądze - musisz się zalogować.

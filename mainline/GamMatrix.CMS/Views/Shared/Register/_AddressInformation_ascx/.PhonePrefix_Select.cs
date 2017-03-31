@@ -1,0 +1,1 @@
+﻿Vyberte telefonní předvolbu

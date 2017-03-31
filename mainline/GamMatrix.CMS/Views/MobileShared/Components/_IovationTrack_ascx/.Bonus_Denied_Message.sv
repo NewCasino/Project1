@@ -1,0 +1,1 @@
+﻿Bonus ej tillåten!

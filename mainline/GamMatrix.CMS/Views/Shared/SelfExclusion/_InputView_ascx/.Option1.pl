@@ -1,0 +1,1 @@
+7-dniowy okres odpoczynku, z którego można skorzystać tylko dwa (2) razy

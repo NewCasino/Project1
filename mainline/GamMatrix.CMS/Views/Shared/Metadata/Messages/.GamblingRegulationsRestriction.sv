@@ -1,0 +1,1 @@
+Tyvärr, ditt konto har begränsats och du får endast ta ut de medel som finns på ditt konto. Har du frågor, kontakta vår kundtjänst.

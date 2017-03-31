@@ -1,0 +1,86 @@
+﻿<ol>
+
+ <li> <strong>Miten tunnistan maksut ja nostot [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] pankkitilini/luottokorttini tiliotteelta?</strong> 
+ <p>
+ Kaikkiin talletuksiin ja nostoihin &nbsp; , jotka näkyvät joko luottokortillasi tai tiliotteellasi on aina liitettävä asiaan, jossa [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] mainitaan.  Tämän avulla voit seurata omia talletuksiasi ja nostojasi sivustolta.
+ </p>
+ </li>
+
+ <li> <strong>Voinko käyttää useampaa kuin yhtä maksutapaa?hod?</strong>
+ <p>
+ Kyllä voit, mutta saatamme tarvita maksutapojen muutosta koskevia asiakirjoja.thods.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hyväksyttekö kotimaani pankki-/luottokortit?</strong>
+ <p>
+ Hyväksymme kaikkien maiden kortit pois lukien kortit Yhdysvalloista, Turkista, Ranskasta.
+ </p>
+ </li>
+
+ <li>
+ <strong>Miksei sivusto hyväksy korttiani?</strong>
+ <p>
+Joillakin luottokorttiyhtiöillä on sääntö, jonka mukaan kortilla ei saa tehdä suoria talletuksia online-peli sivustoilla.  Voit halutessasi ottaa yhteyttä kortin myöntäjään tässä asiassa tai kokeilla joitakin e-lompakkojen talletusvaihtoehdoista tämän sijaan.&nbsp; Lisäapua saadaksesi ota yhteyttä [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] asiakaspalveluun. 
+ </p>
+ </li>
+
+ <li>
+ <strong>Mitä teen, jos korttitalletusmahdollisuus evätään tai hylätään?</strong>
+ <p>
+Joskus, yrittäessäsi tehdä talletus toisen kerran ennen ensimmäisen talletuksesi hyväksymistä, saattaa tämä vaikuttaa 24 tunnin tai viikottaiseen talletusrajaasi ja täten aiheuttaa ongelman.  Yleisin syy tähän johtuu väärin täytetyistä kentistä lomakkeessa. Ota yhteyttä  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] asiakaspalveluun, jotta tämä korjattaisiin. Joillakin luottokorttiyhtiöillä on myös sääntö, jonka mukaan kortilla ei saa tehdä suoria talletuksia online-peli sivustoilla.  Voit halutessasi ottaa yhteyttä kortin myöntäjään tässä asiassa tai kokeilla joitakin e-lompakkojen talletusvaihtoehdoista tämän sijaan.
+ </p>
+ </li>
+
+ <li>
+ <strong>Voinko käyttää korttia tehdääkseni talletuksen ystäväni tilille?</strong>
+ <p>
+Et voi tehdä tätä: tämä tulkitaan kolmannen osapuolen transaktioksi eikä ole missään olosuhteissa sallittua.
+ </p>
+ </li>
+
+ <li>
+ <strong>Olen tallettanut vahingossa väärältä kortilta - onko mitään tehtävissä?</strong> 
+ <p>
+ Ole hyvä ja ota yhteyttä [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] asiakaspalveluun osoitteessa 
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ </p>
+ </li>
+
+ <li>
+ <strong>Voinko siirtää rahaa tilien välillä?</strong>
+ <p>
+Et voi siirtää rahaa henkilökohtaisten ​​tilien välillä, mutta voit siirtää rahaa Casinon, Sportsbookin ja Pokerin välillä henkilökohtaisella tililläsi.
+ </p>
+ </li>
+
+ <li>
+ <strong>Mikä on IBAN?</strong>
+ <p>
+IBAN on lyhenne sanoista International Bank Account Number.  IBAN-tilinumeroa käytetään kansainvälisissä pankkisiirroissa ja helpottaa voittojesi nostoa.
+ </p>
+ </li>
+
+ <li>
+ <strong>Mikä on CVC2?</strong>
+ <p>
+CVC2 on lyhenne sanoista "Card Verification Code". Tätä koodia tarvitaan turvatoimena tehdessä kansainvälisiä puhelinostoksia ja internet-maksuja luottokortilla. Koodi koostuu kolmesta numerosta ja löytyy luottokortin takaa.
+ </p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Tulostus</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

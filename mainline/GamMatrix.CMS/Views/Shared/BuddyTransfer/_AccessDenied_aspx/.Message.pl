@@ -1,0 +1,1 @@
+﻿Przykro nam, ale w tym momencie nie masz uprawnień do dokonywania przelewu. Prosimy <a href="/ContactUs">o kontakt z działem pomocy,</a> aby uzyskać dalsze informacje.

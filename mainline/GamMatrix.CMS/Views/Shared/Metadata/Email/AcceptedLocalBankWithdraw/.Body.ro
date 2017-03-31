@@ -1,0 +1,16 @@
+﻿<p>Buna $FIRSTNAME$,</p>
+<p>Retragerea dvs. a fost finalizata cu succes.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Va rugam sa verificati balanta contului dvs. bancar.</strong>
+  </span>
+</p>
+<p>
+  Daca aveti intrebari, nu ezitati sa ne contactati la <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode
+(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  Salutari,<br /> Echipa [Metadata:h teamtmlencode (/Metadata/Settings.Operator_DisplayName)]
+</p>
+
+

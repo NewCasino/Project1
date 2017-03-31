@@ -1,0 +1,1 @@
+﻿No se permite el registro de la cuenta para proveedores vinculados con cuentas individuales.

@@ -1,0 +1,1 @@
+﻿Paysafecard är ett förbetalt kort som tillåter dig betala säkert på nätet. Förutbetalda innebär att du köper paysafecard från någon av de 450.000 försäljningsställen över hela världen. Paysafecard är säkrare än någon annan betalningsmetod eftersom du inte behöver ange någon personlig information eller din bank eller kreditkortsuppgifter när du betalar på nätet.

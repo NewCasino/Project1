@@ -1,0 +1,1 @@
+Med ditt SOLO-kort kan du snabbt sätta in pengar från ditt kreditkort till ditt spelkonto. Ange bara dina kortuppgifter och när ditt SOLO-kort har verifierats kommer pengarna att föras över till ditt spelkonto, säkert och omedelbart.

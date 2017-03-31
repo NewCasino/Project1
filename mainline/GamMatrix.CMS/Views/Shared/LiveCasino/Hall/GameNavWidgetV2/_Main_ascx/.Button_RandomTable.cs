@@ -1,0 +1,2 @@
+﻿Náhodná tabulka
+

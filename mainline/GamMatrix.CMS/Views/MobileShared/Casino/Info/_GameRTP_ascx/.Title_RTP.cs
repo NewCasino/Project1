@@ -1,0 +1,1 @@
+﻿Teoretická návratnost

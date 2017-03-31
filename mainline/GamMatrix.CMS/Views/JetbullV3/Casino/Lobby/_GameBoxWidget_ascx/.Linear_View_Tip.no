@@ -1,0 +1,2 @@
+﻿Vis spillene i en liste
+

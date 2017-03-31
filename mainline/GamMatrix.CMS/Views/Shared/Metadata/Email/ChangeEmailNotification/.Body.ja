@@ -1,0 +1,3 @@
+<p>お客様の[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]でのご連絡先のEメールアドレスを変更を行われました。 新しいEメールアドレス($EMAIL$)に認証メールが送信されました。</p>
+<p>もしEメールアドレスの変更を行っていない場合は、即座に下記のメールにまでご連絡下さい。 <br /><a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>何卒宜しくお願い致します。 <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] カスタマーサービスチーム一同</p>

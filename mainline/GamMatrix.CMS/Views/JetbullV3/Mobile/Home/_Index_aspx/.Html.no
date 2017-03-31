@@ -1,0 +1,22 @@
+﻿<h1 class="PageTitle MobilePageTitle">Jetbull Mobil</h1>
+<div class="MobileBigLinks"><img width="502" height="363" alt="Mobile Jetbull" src="//cdn.everymatrix.com/JetbullV2/img/bg-mobile-filler.png" class="MobileBigFiller" /> 
+<ul class="MobileBigLinkList">
+<li class="MBLLItem Container MBSite"> <a title="Visit the Mobile Jetbull" href="https://m.jetbull.com/" id="mobile-site" class="MBLLLink Container"> <img width="78" height="81" alt="Mobile site" src="//cdn.everymatrix.com/JetbullV2/img/bg-mobile-site.png" class="MBLLIcon" /> <span class="Button MBLLButton"> <span class="ButtonText"><span class="Hideable">G&aring; til mobilversjonen</span>&nbsp;▼</span> </span> <span class="MBLLText">m.jetbull.com</span> </a>
+<div id="mobileqr-site" class="MobileBigQR Container"><a href="https://m.jetbull.com" target="_blank"><img src="//cdn.everymatrix.com/JetbullV2/img/qr-mobile.png" alt="https://m.jetbull.com" width="200" height="200" border="0" class="QR QRMobile" /></a></div>
+</li>
+</ul>
+<ul class="MobileDescription Container">
+<li class="MobileItem">
+<h2 class="MobileSubtitle">Casino p&aring; mobil</h2>
+<div class="MobileItem_Image"><img src="//cdn.everymatrix.com/JetbullV2/_files/mobile/mobile_card.png" alt="Mobile Casino" /></div>
+<div class="MobileParagraph">
+<p style="margin-left: 60px;">V&aring;rt casino p&aring; mobil inkluderer en mengde av de mest popul&aelig;re spillene fra nettsiden. Og akkurat som p&aring; nettsiden s&aring; finner du spill fra alle kategorier og fra alle de store casinoleverand&oslash;rene.&nbsp;<br /><br /><b>Trykk og vinn!</b></p>
+</div>
+</li>
+<li class="MobileItem">
+<h2 class="MobileSubtitle">Odds p&aring; mobil</h2>
+<div class="MobileItem_Image"><img src="//cdn.everymatrix.com/JetbullV2/_files/mobile/mobile_sport.png" alt="Mobile Sports" /></div>
+<div class="MobileParagraph">V&aring;r prisvinnende oddsside fungerer akkurat like bra p&aring; din mobiltelefon eller nettbrett. Enten du foretrekker &aring; sette noen spill f&oslash;r kampen eller under selve kampen, finner du n&oslash;yaktig det samme sportene og spilltypene p&aring; mobil som p&aring; nettsiden.<br /><br /><strong>Den beste oddsen uansett hvor du er!</strong>&nbsp;</div>
+</li>
+</ul>
+</div>

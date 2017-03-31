@@ -1,0 +1,7 @@
+﻿Eğer herhangi bir sorun veya sorularınız ile varsa Kayıt formu, lütfen senin <a href="#" class="livePE" rel="external nofollow" title="Destek ekibimize başvurun">Buraya tıklayarak faydalı Destek</a> Ekibi!
+<script type="text/javascript">
+$(".SupportGirl, .livePE").click(function(e){
+    e.preventDefault();
+    $(".lebtn div",top.document.body).trigger("click");
+});
+</script>

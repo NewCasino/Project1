@@ -1,0 +1,1 @@
+Opłata partnerska

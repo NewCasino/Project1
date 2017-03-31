@@ -1,0 +1,1 @@
+﻿Povolena jsou pouze čísla

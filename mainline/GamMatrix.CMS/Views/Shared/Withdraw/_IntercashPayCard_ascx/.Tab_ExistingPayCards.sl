@@ -1,0 +1,1 @@
+Obstoječa kartica(-e)

@@ -1,0 +1,1 @@
+Limit za ﻿1-Tap limit: največji znesek, ki si ga dovoljujete za polog, vsakič ko uporabite 1-Tap.

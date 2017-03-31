@@ -1,0 +1,1 @@
+Največji znesek deleža

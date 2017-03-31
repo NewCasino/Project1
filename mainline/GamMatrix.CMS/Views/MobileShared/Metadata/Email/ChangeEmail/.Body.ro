@@ -1,0 +1,7 @@
+﻿<p>Salut $FIRSTNAME$,</p>
+<p>Ai solicitat ca adresa de e-mail pentru [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] să fie schimbată.</p>
+<p>Din motive de securitate, trebuie să verificăm noua adresă de e-mail. Pentru aceasta, fă click pe link-ul de mai jos:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Dacă acest link nu funcţionează, copiază linkul direct in browser.</p>
+<p>Dacă nu ai solicitat schimbarea adresei de e-mail, ignoră acest mesaj sau informează-ne la <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Toate cele bune, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Serviciu Clienţi</p>

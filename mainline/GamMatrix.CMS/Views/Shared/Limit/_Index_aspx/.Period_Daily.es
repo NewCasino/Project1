@@ -1,0 +1,1 @@
+﻿Límite diario (por día)

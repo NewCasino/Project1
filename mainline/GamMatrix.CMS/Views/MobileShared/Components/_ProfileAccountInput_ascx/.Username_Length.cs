@@ -1,0 +1,1 @@
+﻿Uživatelské jméno musí být mezi 4 a 20 znaky

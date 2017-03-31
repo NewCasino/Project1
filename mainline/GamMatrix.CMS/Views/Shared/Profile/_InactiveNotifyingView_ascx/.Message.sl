@@ -1,0 +1,3 @@
+Vaš račun je neaktiven, zato pologov, izplačil, prenosov idr. trenutno ne morete opravljati.
+Na vaš e-poštni naslov, ki ste ga uporabili med registracijo, je bilo poslano e-poštno sporočilo za aktivacijo. Kliknite na povezavo v e-poštnem sporočilu za aktivacijo, da aktivirate svoj račun. 
+Če e-poštnega sporočila za aktivacijo niste prejeli, kliknite <a href="#" id="btnResendEmail">tukaj,</a> da e-poštno sporočilo pošljete znova.

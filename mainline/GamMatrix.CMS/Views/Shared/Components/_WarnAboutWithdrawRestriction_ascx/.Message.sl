@@ -1,0 +1,1 @@
+Upoštevajte, da izplačil ne bo mogoče izvesti z računa $ACCOUNT_NAME$ , dokler niso izpolnjeni vsi zahtevki glede bonus stavljenja.

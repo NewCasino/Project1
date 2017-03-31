@@ -1,0 +1,1 @@
+Zobacz wszystkich zwycięzców teraz!

@@ -1,0 +1,1 @@
+﻿Duplicitní platební karta

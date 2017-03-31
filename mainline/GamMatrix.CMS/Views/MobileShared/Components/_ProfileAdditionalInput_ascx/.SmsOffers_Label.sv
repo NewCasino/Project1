@@ -1,0 +1,1 @@
+Ja tack, skicka mig anpassade erbjudanden via sms.

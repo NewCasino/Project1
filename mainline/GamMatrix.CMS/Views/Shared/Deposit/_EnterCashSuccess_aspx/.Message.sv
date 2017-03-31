@@ -1,0 +1,1 @@
+Observera att ref-koden endast kan användas för en enda insättning. En andra överföring med samma ref-kod kommer inte att krediteras ditt konto.

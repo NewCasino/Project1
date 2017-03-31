@@ -1,0 +1,1 @@
+﻿Částka k převedení

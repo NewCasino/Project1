@@ -1,0 +1,1 @@
+﻿Usługa eNETS oferowana przez Moneybookers umożliwia łatwe dokonywanie błyskawicznych i bezpiecznych płatności z konta bankowego. eNETS zapewnia szybką, bezpieczną i niezawodną obsługę płatności internetowych dla klientów z Singapuru.

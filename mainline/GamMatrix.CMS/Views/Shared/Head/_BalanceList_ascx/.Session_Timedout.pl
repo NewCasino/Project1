@@ -1,0 +1,1 @@
+Upłynął czas Twojej sesji, zaloguj się ponownie.

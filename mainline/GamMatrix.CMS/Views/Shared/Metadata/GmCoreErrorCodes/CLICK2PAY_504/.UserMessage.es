@@ -1,0 +1,1 @@
+﻿Cancelación rechazada, problema de impuestos posterior.

@@ -1,0 +1,4 @@
+﻿                <input name="good" value="http://affiliates.jetbull.com/" type="hidden">
+                <input name="bad" value="http://affiliates.jetbull.com/user/login.do" type="hidden">
+                          <input id="txtUsername" type="hidden" value="" />
+                          <input id="txtPassword" type="hidden" value=""  />

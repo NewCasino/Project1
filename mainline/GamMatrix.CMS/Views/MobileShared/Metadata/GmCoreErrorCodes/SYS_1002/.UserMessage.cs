@@ -1,0 +1,1 @@
+﻿Toto číslo účtu je neplatné

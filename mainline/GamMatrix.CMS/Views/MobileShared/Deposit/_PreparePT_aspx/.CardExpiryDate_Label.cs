@@ -1,0 +1,1 @@
+﻿Datum ukončení platnosti

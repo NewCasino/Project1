@@ -1,0 +1,12 @@
+﻿<p>Buna ziua $USERNAME$, <br />
+<br />
+Multumim ca ati contactat [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+Acest email confirma schimbarea limitei de depozitare din&nbsp;$SUMALIMITA$ $PERIOADALIMITA$&nbsp;in $NOUASUMALIMITA$ $NOUAPERIOADALIMITA$. <br />
+<br />Nu ezitati sa ne contactati daca aveti nelamuriri  <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>&nbsp;</p>
+<p>Cu respect,</p>
+<p>
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Echipa Relatii Clienti <br />
+</p>
+

@@ -1,0 +1,1 @@
+Jag är {0} år eller äldre.

@@ -1,0 +1,1 @@
+﻿Du har forespurt {0} ganger. Hvis du fortsatt ikke mottar e-postmeldingen om aktivering, kan du ta kontakt med [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)].

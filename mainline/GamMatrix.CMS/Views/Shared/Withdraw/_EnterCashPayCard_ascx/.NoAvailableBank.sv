@@ -1,0 +1,1 @@
+﻿Otillgänglig bank

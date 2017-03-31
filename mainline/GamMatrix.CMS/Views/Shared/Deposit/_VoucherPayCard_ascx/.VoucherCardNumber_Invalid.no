@@ -1,0 +1,1 @@
+Kupongnummer må bestå av 16 sifre.

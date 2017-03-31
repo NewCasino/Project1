@@ -1,0 +1,1 @@
+Wpisz numer telefonu komórkowego odbiorcy.

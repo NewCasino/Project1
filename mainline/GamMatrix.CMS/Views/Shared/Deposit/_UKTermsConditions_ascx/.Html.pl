@@ -1,0 +1,3 @@
+﻿<p class="content"> Zgodnie z naszymi obowiązkami wynikającymi z licencji przyznanej przez Komisję Hazardową Wielkiej Brytanii (UKGC), [metadata:value(/Metadata/Settings.Operator_DisplayName)] wymagane jest poinformowanie użytkownika, że jego środki przechowywane są na specjalnie wyznaczonych kontach, oddzielnych od kont biznesowych firmy.
+W przypadku upadłości środki gracza będą stanowiły część aktywów firmy. Spełnia to wymagania UKGC odnośnie do segregacji środków gracza na podstawowym poziomie. Dodatkowe informacje można znaleźć tutaj:</p>
+     <a href="http://www.gamblingcommission.gov.uk/consumers/protection_of_customer_funds.aspx">www.gamblingcommission.gov.uk</a>

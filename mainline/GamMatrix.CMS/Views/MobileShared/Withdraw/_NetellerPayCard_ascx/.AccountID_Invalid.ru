@@ -1,0 +1,1 @@
+﻿Неправильный Neteller Account ID.

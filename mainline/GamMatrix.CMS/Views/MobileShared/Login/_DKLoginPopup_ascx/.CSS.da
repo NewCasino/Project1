@@ -1,0 +1,7 @@
+﻿<style id="DK_css" type="text/css">
+p.dk_popup_para {font-size: 14px;line-height: 20px;padding: 5px 0;}
+.DKPopupPage td.message_Col_Icon {width: 25%!important;}
+
+.popup_DK_Content{display: block;left: 5%;position: fixed;top: 100px;z-index:999999;width: 90%;background-color: black;border: 1px white solid;padding:5px;border-radius:2%;}
+a.CloseDKPopup {background: url("http://jetbull.com/js/jquery/css/x.png") no-repeat scroll transparent;display: block;height: 25px;position: fixed;width: 25px;z-index: 9999;right: 2%;top: 90px;}
+</style>

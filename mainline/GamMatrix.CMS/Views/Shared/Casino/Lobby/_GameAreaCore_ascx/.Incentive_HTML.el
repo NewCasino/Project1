@@ -1,0 +1,1 @@
+﻿Παίζετε για διασκέδαση. <a class="Button IncentiveButton" href="#" title="Log in or open an account now!">Παίξτε με πραγματικά χρήματα</a> για να κερδίσετε το τζάκποτ σε αυτό το παιχνίδι: <span class="Cash">{0}</span>

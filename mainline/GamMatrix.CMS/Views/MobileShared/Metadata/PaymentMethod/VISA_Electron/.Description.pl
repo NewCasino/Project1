@@ -1,0 +1,1 @@
+﻿Szybkiej wpłaty pieniędzy na konto do gry można dokonać z karty Visa Electron. Wystarczy podać dane karty; po zweryfikowaniu karty Electron będzie można bezpiecznie i błyskawicznie przelewać środki na konto do gry.

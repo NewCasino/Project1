@@ -1,0 +1,1 @@
+﻿De transactie kan niet worden uitgevoerd op het moment.

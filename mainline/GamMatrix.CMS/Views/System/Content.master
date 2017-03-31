@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" %>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="<%= Url.Content( string.Format("~/App_Themes/{0}/__import.css", this.PageTheme) ) %>" />
+    <link rel="stylesheet" type="text/css" href="<%= Url.Content("~/js/jquery/jquery.ui/redmond/jquery-ui-1.8.custom.css") %>" />
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery-1.5.2.min.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.ui/jquery-ui-1.8.min.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.template.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.string.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.form.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.validate.min.js") %>"></script>
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/jquery/jquery.metadata.js") %>"></script>    
+    <script language="javascript" type="text/javascript" src="<%= Url.Content("~/js/inputfield.js") %>"></script>
+     <link rel="stylesheet" type="text/css" href="<%= Url.Content( string.Format("~/App_Themes/{0}/content.master.css", this.PageTheme) ) %>" />
+    <asp:ContentPlaceHolder id="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="self.stopLoad()"><%= this.GetMetadata(".Title") %>
+    <div id="loading-wrapper">
+        <div class="bg">
+            <img src="/images/transparent.gif" />
+        </div>
+    </div>
+<ui:ExternalJavascriptControl runat="server" AutoDisableInPostbackRequest="true">
+<script language="javascript" type="text/javascript">
+    self.startLoad = function () {
+        $('#loading-wrapper').show();
+    };
+    self.stopLoad = function () {
+        $('#loading-wrapper').hide();
+    }; 
+</script>
+</ui:ExternalJavascriptControl>
+    <asp:ContentPlaceHolder id="cphMain" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

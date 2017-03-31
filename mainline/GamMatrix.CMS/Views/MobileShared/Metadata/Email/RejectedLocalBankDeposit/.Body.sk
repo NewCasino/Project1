@@ -1,0 +1,4 @@
+﻿<p>Ahoj $FIRSTNAME$,</p>
+váš vklad nebol prijatý, skontrolujte prosím bankové údaje a skúste to znovu.
+<p>Ak máte ohľadom poukážky nejaké otázky, obráťte sa prosím na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>S pozdravom,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tím</p>

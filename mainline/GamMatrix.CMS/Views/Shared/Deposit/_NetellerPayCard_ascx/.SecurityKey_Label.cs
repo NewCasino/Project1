@@ -1,0 +1,1 @@
+﻿Bezpečnostní ID

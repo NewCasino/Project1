@@ -1,0 +1,9 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p>$VOUCHERAMOUNT$ lik Ödeme yapildi. Altta Fişinizin Bilgileri verilmiştir:</p>
+<ul>
+<li><strong>Ukash Fiş Numarası</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Ukash Fiş Miktarı</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>Ukash Fişi son Kullanma Tarih</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>Fişini hakkında herhangi Sorunuz olursa, lütfen bizimle burdan İletişime geçmeye çekinmeyiniz: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ekibi</p>

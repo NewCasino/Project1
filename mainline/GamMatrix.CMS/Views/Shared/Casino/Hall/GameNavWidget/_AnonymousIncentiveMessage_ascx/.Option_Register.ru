@@ -1,0 +1,1 @@
+﻿Зарегистрировать новый  [Metadata:value(/Metadata/Settings.Operator_DisplayName)] на счет 

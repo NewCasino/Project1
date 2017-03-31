@@ -1,0 +1,1 @@
+Vær oppmerksom på at referansekoden bare kan brukes for ett innskudd. Flere innskudd med samme referansekode krediteres ikke kontoen din.

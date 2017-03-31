@@ -1,0 +1,1 @@
+du måste logga in först, innan du kan spela med riktiga pengar!

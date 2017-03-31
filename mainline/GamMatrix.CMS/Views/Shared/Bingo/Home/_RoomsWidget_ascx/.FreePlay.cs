@@ -1,0 +1,1 @@
+﻿Volná hra

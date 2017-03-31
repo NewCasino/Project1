@@ -1,0 +1,1 @@
+Typ av gräns

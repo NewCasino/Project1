@@ -1,0 +1,1 @@
+﻿Usted no puede utilizar instaCASH. Por favor no introduzca la información de su cuenta bancaria.

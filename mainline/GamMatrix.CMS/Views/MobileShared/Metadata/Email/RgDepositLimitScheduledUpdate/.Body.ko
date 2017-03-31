@@ -1,0 +1,10 @@
+﻿<p>Dear $USERNAME$, <br />
+<br />
+연락 주셔서 감사합니다 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+이 이메일은 확인하기 위함 입니다. 귀하는 &#160;개인 예치 한도를 변경 하셨습니다 &#160;from $LIMITAMOUNT$ $LIMITPERIOD$ to $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. 새로운 한도가 활성화 될 것입니다 &#160;on $LIMITEXPIRYDATE$. <br />
+<br />
+의문사항이 있으면 언제든 연락 주시기 바랍니다 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br />
+Kind Regards</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team</p>

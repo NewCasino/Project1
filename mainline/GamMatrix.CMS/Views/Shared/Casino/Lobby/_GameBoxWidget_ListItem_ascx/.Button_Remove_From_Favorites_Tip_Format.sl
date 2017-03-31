@@ -1,0 +1,1 @@
+Odstrani {0} iz priljubljenih

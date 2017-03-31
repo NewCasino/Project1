@@ -1,0 +1,1 @@
+﻿Houd er rekening mee dat uw storting zal worden verwerkt door EveryMatrix Ltd, de exploitant van de betaling van [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] website, u zal {0} op uw rekening afschrift zien.

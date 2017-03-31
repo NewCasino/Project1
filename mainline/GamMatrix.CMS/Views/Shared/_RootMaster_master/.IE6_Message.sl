@@ -1,0 +1,1 @@
+Uporabljate brskalnik Internet Explorer 6, zato nekatere funkcije morda ne bodo na voljo. Priporočamo, da brskalnik Internet Explorer nadgradite v novejšo različico in si tako izboljšate svojo izkušnjo.

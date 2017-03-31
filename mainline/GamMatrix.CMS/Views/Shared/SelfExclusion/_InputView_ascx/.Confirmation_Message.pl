@@ -1,0 +1,1 @@
+Nie będziesz mógł zalogować się do {0}, czy na pewno chcesz kontynuować?

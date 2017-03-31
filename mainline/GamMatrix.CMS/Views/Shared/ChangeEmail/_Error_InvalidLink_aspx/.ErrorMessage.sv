@@ -1,0 +1,1 @@
+Länken är ogiltig eller har gått ut.

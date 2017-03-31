@@ -1,0 +1,1 @@
+Miesięczny limit (co 30/31 dni od czasu ustawienia limitu)

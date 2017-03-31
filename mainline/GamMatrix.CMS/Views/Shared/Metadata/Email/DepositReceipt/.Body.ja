@@ -1,0 +1,16 @@
+<p>$FIRSTNAME$様</p>
+<p>この自動メールはお客様の入金を受領したこと通知するものであり、[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]ウェブサイトに代わって、
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]ウェブサイトの決済運営会社である、OddsMatrix社より処理されたものです。 お客様のカードあるいは銀行明細書にはOddsMatrix社の会社名をご確認
+頂けます。お客様の取引詳細が下記にご確認頂けます。</p>
+<ul>
+<li><strong>取引ID：</strong>　$TRANSACTION_ID$</li>
+<li><strong>処理日時：</strong>　$TRANSACTION_TIME$</li>
+<li><strong>ウェブサイト：</strong>　$TRANSACTION_SITE$ </li>
+<li><strong>受領書：</strong>　受領書のプリントスクリーン画像が添付されております。</li>
+</ul>
+<p>この受領書に関してご質問等が御座いましたら、下記の
+メールまで、処理ID番号を記載してお問合せ下さい。 <br /><a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode
+(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>何卒宜しくお願い致します。<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] チーム一同
+</p>
+<p>$SCREENSHOT$</p>

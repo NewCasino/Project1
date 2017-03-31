@@ -1,0 +1,1 @@
+﻿Status partii '{0}' nie może zostać zaktualizowany '{1}'

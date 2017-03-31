@@ -1,0 +1,1 @@
+﻿<p><img src="//static.gammatrix.com/ArtemisBetV3/_files/man_on_moon_755x285.jpg" /></p>

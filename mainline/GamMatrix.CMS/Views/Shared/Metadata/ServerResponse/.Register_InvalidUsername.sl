@@ -1,0 +1,1 @@
+Uporabniško ime ni na voljo ali ga že uporablja druga oseba; poskusite uporabiti drugo uporabniško ime.

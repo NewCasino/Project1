@@ -1,0 +1,1 @@
+﻿Obecnie nie ma aktywnej premii.

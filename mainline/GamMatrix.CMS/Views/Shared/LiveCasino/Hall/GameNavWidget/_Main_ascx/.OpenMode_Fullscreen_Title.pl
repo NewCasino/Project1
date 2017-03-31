@@ -1,0 +1,1 @@
+Otwieraj gry w trybie pełnoekranowym

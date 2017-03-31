@@ -1,0 +1,1 @@
+﻿Převod do banky

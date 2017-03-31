@@ -1,0 +1,1 @@
+﻿Zadejte konečné datum platnosti

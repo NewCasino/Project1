@@ -1,0 +1,22 @@
+﻿.icon_number{text-shadow:none;}
+#lhnContainerDone{ float:right; margin-top:3px;  }
+#profile_table #fldAvatar{display:none;}
+#formPrepareDeposit #fldGammingAccount{display:none;}
+.footer_lga img{display:inline;width:auto;height:45px;margin:0 5px;}
+.footerIcon {  width: 100%;  overflow: hidden;}
+.footerIcon img{width:auto; }
+.EGB .GTicon{background:url(//cdn.everymatrix.com/JetbullV2/img/edict-logo-ball-shadow.png) no-repeat 0 0 transparent;}
+#container .topmenu .main-item.menu-sportsmaster{display:none;float: right;}
+
+.Hybrino .GTicon {
+  background-position: -1515px -25px;
+}
+
+.Spigo .GTicon{
+      background: url('//cdn.everymatrix.com/JetbullV2/img/spigo-star.png');
+  background-size: 100% 100%;
+}
+.Spigo .GFText{
+background: url('//cdn.everymatrix.com/JetbullV2/img/spigo-star.png');
+  background-size: 95% 95%;
+}

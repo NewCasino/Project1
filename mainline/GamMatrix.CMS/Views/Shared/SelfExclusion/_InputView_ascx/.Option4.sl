@@ -1,0 +1,1 @@
+3-mesečno obdobje samoizključevanja

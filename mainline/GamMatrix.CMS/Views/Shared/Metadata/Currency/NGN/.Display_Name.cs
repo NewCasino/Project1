@@ -1,0 +1,1 @@
+﻿Nigerijská naira

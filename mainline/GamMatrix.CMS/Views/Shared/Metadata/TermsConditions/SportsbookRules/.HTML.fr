@@ -1,0 +1,623 @@
+﻿<div id="help-area">
+    <h3 class="content-item" id="1">
+        <strong>Règles générales</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">
+            Tous les paris acceptés par <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>sont soumis à ces conditions.;
+        </li>
+        <li class="content-statement">
+            <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>se réserve le droit d’annuler tout pari effectué à partir de cotes visiblement fausses ou modifiées ou tout pari effectué après le début d’un événement.;
+        </li>
+        <li class="content-statement">
+            <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>se réserve le droit de refuser, de restreindre, d’annuler ou de limiter tout pari.;
+        </li>
+        <li class="content-statement">Les paris sont notés uniquement après que le résultat de la rencontre sportive est considéré définitif.;</li>
+        <li class="content-statement">
+            Le gagnant d’une rencontre sera déterminé à la date de clôture de l’événement.'s conclusion;<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> ne reconnaît pas les décisions contestées ou les changements de décision dans le cadre de ses paris. Le résultat d’un événement suspendu après le début d’une compétition sera déterminé conformément aux conditions de paris spécifiques au sport en question de <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>;
+        </li>
+        <li class="content-statement">Selon la réglementation de Les Loteries &amp; l'Autorité de régulation des jeux en Malte les joueurs doivent obligatoirement être âgés de plus de 18 ans pour pouvoir parier.;</li>
+        <li class="content-statement">
+            Toutes les conditions, toutes les réglementations et tous les remboursements mentionnés dans les présentes sont susceptibles d’être modifiés ou révisés par <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>sans préavis;
+        </li>
+        <li class="content-statement">
+            Les montants maximaux des paris sur tous les événements sportifs seront fixés par <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>et sont susceptibles d’être modifiés sans préavis.<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>se réserve également le droit d’appliquer des limites aux comptes individuels;
+        </li>
+        <li class="content-statement">
+            Au cas où des sommes seraient créditées sur le compte d’un client par erreur, il incombe au client de notifier ladite erreur à <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>sans tarder. En ce qui concerne les comptes dont le solde est au minimum,<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> se réserve le droit d’annuler les jeux en cours, qu’ils aient été placés avec des sommes résultant d’une erreur ou non;
+        </li>
+        <li class="content-statement">
+            Les clients sont les seuls responsables des transactions effectuées sur leur compte personnel. Veuillez vérifier et confirmer l’absence d’erreurs dans vos paris avant de les valider. Une fois la transaction terminée, il est impossible de la modifier.<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong>décline toute responsabilité en matière de paris manquants ou doubles effectués par le client et ne traitera pas les réclamations concernant la différence de montant résultant d’un pari manquant ou double. Les clients peuvent vérifier leurs transactions dans la section "Mon compte de paris sportifs" du site à la fin de chaque session pour s’assurer que tous les paris demandés ont bien été acceptés.;
+        </li>
+        <li class="content-statement">Les litiges peuvent être déposés dans les sept (7) jours suivant la date du pari mis en cause. Aucune réclamation parvenue après cette période ne sera traitée. Le client est le seul responsable des transactions effectuées sur son compte.;</li>
+        <li class="content-statement">Tous les soldes et toutes les transactions du compte s’affichent dans la devise sélectionnée lors de l’ouverture du compte.;</li>
+        <li class="content-statement">Les gains seront toujours calculés sur la base des Cotes européennes. Nous vous indiquons que des erreurs d’arrondi peuvent se produire lors de la conversion vers des cotes britanniques. En effet, certaines cotes ne peuvent pas être converties de manière exacte en fractions de style britannique. Dans ce cas, nous indiquerons la fraction la plus proche de la cote.;</li>
+        <li class="content-statement">
+            <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> se réserve le droit de suspendre le compte d’un client sans préavis et de lui reverser tous les montants qui se trouvent dans son portefeuille principal.;
+        </li>
+        <li class="content-statement">Si des divergences venaient à se produire entre la version anglaise des présentes conditions générales et toute autre version, la version anglaise sera considérée comme correcte.;</li>
+        <li class="content-statement">Accumulateurs (Parlays, paris multiples) : nous acceptons jusqu’à 10 résultats dans un pari accumulateur. Dans le cas où certains résultats "dépendraient les uns des autres", comme un pari placé sur Chelsea gagnant dans la Premier League combiné avec un pari de victoire à domicile pour le dernier match décisif, les deux paris deviendraient alors nuls.;</li>
+        <li class="content-statement">Tous les paris placés dans un pari à système ne seront pas comptabilsés pour le déblocage des bonus.</li>
+    </ol>
+    <h3 class="content-item" id="2">
+        <strong>Football</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Football starting dates and times displayed on our website are an indication only and are not guaranteed to be correct. If a game is postponed, all bets will have action 48 hours after kickoff. If we receive news that a postponed game has been rescheduled for some time after two days, we will immediately return all funds from pending bets;</li>
+        <li class="content-statement">If a postponed game is rescheduled for a date within the two day window and then postponed again, all bets will have action for yet another two days from the last rescheduled date. This process would continue until (a) such time when the game was scheduled for some time after four days (bets voided) or (b) would continue on as long as postponed game kept getting rescheduled within two days;</li>
+        <li class="content-statement">Unless otherwise specified, bets on the outcome of a match will be decided based on two halves of 45 minutes each and any time the referee adds to compensate for injuries and other stoppages. It does not include periods of extra time nor penalty shootouts. Occasionally, Tournaments, Friendly, or other matches may have scheduled time frames different than two 45 minute halves. If [Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;does not make special note that a match will play a time other than the standard two halves of 45 minutes each, all bets will be stand;</li>
+        <li class="content-statement">If a match is suspended before full time is reached, and not completed the same day, bets on the outcome of the match are considered void and all stakes shall be returned;</li>
+        <li class="content-statement">
+            <strong>Overs/Unders:</strong> A match must reach full time for bets on the total number of goals scored in the match to be valid.
+        </li>
+        <li class="content-statement">
+            <strong>Buteur pendant le match</strong>: No refund on non-starters. Own goals do not count.
+        </li>
+        <li class="content-statement">
+            <strong>Premier buteur</strong>: No refund on non-starters. Own goals do not count.
+        </li>
+        <li class="content-statement">
+            <strong>Dernier buteur</strong>: No refund on non-starters. Own goals do not count.
+        </li>
+        <li class="content-statement">
+            <strong>First Team to score</strong>: In the event of an abandoned game bets stand on scores that have taken place already, Extra Time does not count for these markets.
+        </li>
+        <li class="content-statement">
+            <strong>Période du premier but</strong>: Bets are settled on what time the goal is actually scored from official source
+        </li>
+        <li class="content-statement">
+            <strong>Dernière équipe à avoir marqué</strong>: In the event of an abandoned game bets stand on scores that have taken place already, Extra Time does not count for these markets.
+        </li>
+        <li class="content-statement">
+            <strong>Premier à atteindre X buts</strong>: Settled on the team who reaches the quoted number of goals first in the event of an abandonment before 90 minutes have been played then all bets will be void unless settlement is already determined.
+        </li>
+        <li class="content-statement">
+            <strong>Both Team To Score</strong>: Based on whether both teams score a goal in the match.
+        </li>
+        <li class="content-statement">
+            <strong>Team Score Over Under</strong>: Based on total number of goals scored by a team in the match. Extra Time goals are not included.
+        </li>
+        <li class="content-statement">
+            <strong>Nombre de buts</strong>: Bets on Number of Goals included "own goals"
+        </li>
+        <li class="content-statement">
+            <strong>Goal In Time Range</strong>: Will be the official time of goal scored that will count. Extra Time not included
+        </li>
+        <li class="content-statement">
+            <strong>Marque Dans Les Deux Mi-Temps</strong>: Is a Yes/No Bet if a Team/Teams will score in both halves.
+        </li>
+        <li class="content-statement">
+            <strong>To Win To Nil</strong>: Team to win the match and keep a clean sheet.
+        </li>
+        <li class="content-statement">
+            <strong>Ecart gagnant</strong>: Settled on the result of game. The teams will be given various margins of winning and it will be the final result that counts.
+        </li>
+        <li class="content-statement">
+            <strong>Gagne une des deux mi-temps</strong>: A Team needs to win minimum one of the two halves in order for this bet to winning.
+        </li>
+        <li class="content-statement">
+            <strong>Gagne les deux mi-temps</strong>: The team must score more goals than the opposition in both halves of the match.
+        </li>
+        <li class="content-statement">
+            <strong>Revient À La Marque Et Gagne</strong>: Team must be losing at any stage during the match but subsequently go on to win the match in 90 minutes.
+        </li>
+        <li class="content-statement">
+            <strong>Corners Over Under</strong>: Based on a specific line added in Over/Under for corners taken in the match. Extra Time does not count
+        </li>
+        <li class="content-statement">
+            <strong>Nombre de corners</strong>: Based on the total numbers of cornerkicks taken in the match.
+        </li>
+        <li class="content-statement">
+            <strong>Va En X Corners</strong>: Settled on the team who reach the quoted number of corners first, in the event of an abandonment before 90 minutes have been played then all bets will be void unless settlement is already determined.
+        </li>
+        <li class="content-statement">
+            <strong>Moment Du Prochain But De L'Équipe</strong>: Settlement will be made by the time given by the official match source as the time of First/Next goal is scored.
+        </li>
+        <li class="content-statement">
+            <strong>Plus De/Moins De X Avertissements</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Plus De/Moins De X Avertissements Pour L'Équipe</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Mi-temps avec le plus de corners</strong>: According to the corner numbers of each half, the half with more corners won
+        </li>
+        <li class="content-statement">
+            <strong>Nombre De Corners Pour L'Équipe</strong>: Number of corners a team gets
+        </li>
+        <li class="content-statement">
+            <strong>Last Corner Kick</strong>: Which team will get the last corner kick, based on the current corner
+        </li>
+        <li class="content-statement">
+            <strong>Clean Sheet</strong>: Team who keeps a clean sheet won
+        </li>
+        <li class="content-statement">
+            <strong>Most Corners</strong>: Team that gets more corners in a match will win
+        </li>
+        <li class="content-statement">
+            <strong>Prochain corner</strong>: Which team will get the next corner, based on the current corner
+        </li>
+        <li class="content-statement">
+            <strong>Pari Du Match Et Total</strong>: Combine 1x2 and over under, only both won bets will win, all others lost
+        </li>
+        <li class="content-statement">
+            <strong>Aller Aux Arrêts De Jeu</strong>: If match goes to overtime, then won, if  not, lost
+        </li>
+        <li class="content-statement">
+            <strong>Envoi</strong>: Will there be red cards or not
+        </li>
+        <li class="content-statement">
+            <strong>Corners Pairs/Impairs</strong>: Total corners are Odd or Even
+        </li>
+        <li class="content-statement">
+            <strong>But De L'Équipe Dans Un Laps De Temps</strong>: Will be the official time of goal scored that will count. Extra Time not included
+        </li>
+        <li class="content-statement">
+            <strong>Corners De L'Équipe Pairs/Impairs</strong>: Team total corners are odd or even
+        </li>
+        <li class="content-statement">
+            <strong>Plus De/Moins De X Corners Pour L'Équipe</strong>: Team total corners over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Va Jusqu' Aux Tirs Aux Buts</strong>: Will the match go to penalty time?
+        </li>
+        <li class="content-statement">
+            <strong>But D' Un Remplaçant</strong>: Will a substitute score a goal
+        </li>
+        <li class="content-statement">
+            <strong>Nombre De Cartons</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Cartons Jaunes Pairs/Impairs</strong>: Settlement will be made with reference to all available evidence to cards shown during the scheduled 90 minutes play. Any card shown after the full time whistle has been blown will be disregarded.
+        </li>
+        <li class="content-statement">
+            <strong>Premier Avertissement De L'Équipe</strong>: Which team will get the next card, accordingly to the current card
+        </li>
+        <li class="content-statement">
+            <strong>But Contre Son Camp</strong>: Will there be own goal scored?
+        </li>
+        <li class="content-statement">
+            <strong>Manière De Gagner</strong>: How the match ends to get a winner
+        </li>
+        <li class="content-statement">
+            <strong>Première Équipe À Recevoir Un Carton Jaune</strong>: Which team to receive the next yellow card, according to the current card
+        </li>
+        <li class="content-statement">
+            <strong>Mi-Temps Au Score Le Plus Élevé</strong>: Half with most goal wins
+        </li>
+    </ol>
+    <h3 class="content-item" id="3">
+        <strong>Tennis</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">In case of retirement, disqualification or change of surface mid-match, all bet's which cannot be settled by current score will be voided</li>
+        <li class="content-statement">(1) A set is abandoned at 4-4: bets on Over/Under 7.5 games or fewer in the set are settled as winners/losers respectively; bets on ex Over/Under 10.5 games or more are void.</li>
+        <li class="content-statement">Sets Betting: If a tennis match is not completed because of a player retirement or disqualification, all not decided set bets will be considered void.</li>
+        <li class="content-statement">Delay or Suspension: If a tennis match is completed, all bets stand as written. A delay in the start of a match will not affect the standing of bets, nor will a suspension, as long as play is resumed and the match completed;</li>
+        <li class="content-statement">In the event a match does not go the specified number of sets, and the match is shortened by tournament officials, the leader determined to be official by tournament officials shall be the winner;</li>
+        <li class="content-statement">Example: A match is scheduled for 5 sets, but only 3 sets can be played because of weather. The leader at the end of 3 sets would be declared the winner of the match.</li>
+        <li class="content-statement">
+            <strong>Tie Break</strong>: If there is tie break, won, if no, lost
+        </li>
+        <li class="content-statement">
+            <strong>Score du jeu</strong>: Exact score of the game and will the server be broken
+        </li>
+        <li class="content-statement">
+            <strong>Game To Deuce</strong>: Will there be 40:40 in a game?
+        </li>
+        <li class="content-statement">
+            <strong>Supérieur / Inférieur - Jeux remportés</strong>: Total games of a player are over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Nombre De Jeux</strong>: Total games of both players in a set
+        </li>
+        <li class="content-statement">
+            <strong>Gagne Au Moins Un Set</strong>: If a player wins 1 set or not when the match ends
+        </li>
+        <li class="content-statement">
+            <strong>Premier joueur à gagner X jeux</strong>: Who will win the x game in x set
+        </li>
+        <li class="content-statement">
+            <strong>Va En X Points</strong>: Which player will win xth point, game y, n set
+        </li>
+        <li class="content-statement">
+            <strong>Handicap de points</strong>: Who will win the game with the handicap parameter in that set
+        </li>
+        <li class="content-statement">
+            <strong>Points Over Under</strong>: Total game points over under in x game, n set
+        </li>
+        <li class="content-statement">
+            <strong>Points Won Over Under</strong>: Total points by each player, in x game, n set
+        </li>
+        <li class="content-statement">
+            <strong>To hold first service game</strong>: Will the player hold the first service game in first set?
+        </li>
+        <li class="content-statement">
+            <strong>Game Of First Service Break</strong>: First service break is in which game at first set
+        </li>
+        <li class="content-statement">
+            <strong>Total Service Breaks</strong>: How many service breaks will be in 1st set
+        </li>
+        <li class="content-statement">
+            <strong>Ecart gagnant</strong>: What is the difference of total number of games won by winner and loser
+        </li>
+        <li class="content-statement">
+            <strong>Lose 1st Set And Win The Match</strong>: Which player lost 1st set but won the match in the end
+        </li>
+    </ol>
+
+    <h3 class="content-item" id="4">
+        <strong>Football américain, Rugby et Football australien</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Durée minimale de jeu : dans le cadre des paris, les vainqueurs et les perdants sont déterminés par le score final (incluant le temps additionnel), du moment que le match ait duré au moins 55 minutes.;</li>
+        <li class="content-statement">Si un match est suspendu après 55 minutes de jeu, qu’il ne reprend pas le même jour et que, indépendamment des conditions climatiques, il se termine à une date ultérieure, le score du match au moment où il s’interrompt déterminera les résultats du pari.;</li>
+        <li class="content-statement">Si le match est suspendu avant 55 minutes de jeu et qu’il ne reprend pas le même jour, tous les paris seront notés comme " non valables" et les mises seront remboursées.;</li>
+        <li class="content-statement">Sauf mention contraire, tous les paris portant sur les matchs incluent les buts marqués lors du temps additionnel.;</li>
+        <li class="content-statement">Pour être valables, à moins qu’il n’en soit spécifié autrement avant la rencontre, tous les matchs doivent se dérouler à la date prévue et sur le site prévu.;</li>
+        <li class="content-statement">Règlement du football australien, Rugby League, Super League et Rugby Union. Les paris gagnants seront payés sur la base du résultat final d’une rencontre (durée normale ou temps additionnel selon les cas).;</li>
+        <li class="content-statement">
+            Les "propositions" de la NFL seront notées à l’aide des résultats répertoriés sur le site <a href="http://www.nfl.com/">www.NFL.com</a>;
+        </li>
+        <li class="content-statement">
+            Les "propositions" de l’Arena Football seront notées à l’aide des résultats répertoriés sur le site <a href="http://www.arenafootball.com/">www.Arenafootball.com</a>.
+        </li>
+    </ol>
+    <h3 class="content-item" id="5">
+        <strong>Hockey sur glace</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Sauf mention contraire, tous les paris sont valables UNIQUEMENT sur la durée réglementaire et NE comprennent PAS le temps additionnel ou les pénalties. Exemple : les Rangers et les Kings sont à égalité (3-3) à l’issue du temps réglementaire et ils s’apprêtent à jouer les prolongations. Finalement, les Rangers remportent le match. Le score final pris en compte pour les paris est Rangers 3, Kings 3.;</li>
+        <li class="content-statement">Si un pari prend en compte le temps additionnel, cela sera clairement spécifié dans le pari et clairement indiqué sur le ticket. Veuillez vérifier attentivement votre ticket.;</li>
+        <li class="content-statement">Les pénalties sont considérés comme part du temps additionnel. Si l’on parvient aux pénalties, le vainqueur recevraz d’un but supplémentaire.;</li>
+        <li class="content-statement">Exemple: le Dynamo et le CSKA sont à égalité (2-2) et s’apprêtent à jouer les tirs aux buts. Le Dynamo gagne aux tirs aux buts. Pour le pari spécifiant "Dynamo avec prolongation" contre "CSKA avec prolongation", le score final pris en compte pour le pari sera Dynamo 3, CSKA 2.;</li>
+        <li class="content-statement">Durée minimale de jeu : les matchs doivent durer 55 minutes au minimum. Si un match est suspendu avant 55 minutes de jeu, tous les paris sur le résultat du match sont remboursés.</li>
+    </ol>
+    <h3 class="content-item" id="6">
+        <strong>Handball</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Dans le cadre des paris, les vainqueurs et les perdants sont déterminés par le score à l’issue du temps réglementaire. Le temps additionnel accordé (et les prolongations du temps réglementaire) ne seront pas comptabilisés, sauf mention contraire.;</li>
+        <li class="content-statement">Si un match est reporté pour quelque raison que ce soit, tous les paris seront annulés et les mises seront remboursées si le match n’est pas reprogrammé dans les 24 heures suivant le coup d’envoi initial.;</li>
+        <li class="content-statement">Si le lieu de la rencontre est modifié, les paris placés précédemment resteront valables du moment que l’équipe à domicile joue toujours à domicile. Si l’équipe à domicile et l’équipe à l’extérieur sont inversées, tous les paris placés à l’origine seront nuls.;</li>
+        <li class="content-statement">
+            "Prop" de jeu : tous les paris "prop" sur le jeu, y compris les marchés suivants, seront basés sur le temps réglementaire uniquement et excluent le temps additionnel s’ils portent sur::
+            <ol>
+                <li class="help-li">Le résultat du match pair/impair.</li>
+                <li class="help-li">Le résultat double.</li>
+            </ol>
+        </li>
+    </ol>
+    <h3 class="content-item" id="7">
+        <strong>Basket-ball</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Durée minimale de jeu : les matchs de la NBA doivent durer au moins 43 minutes pour être valables. Pour toutes les autres ligues de basketball, les matchs doivent durer au moins 35 minutes, sauf mention contraire.;</li>
+        <li class="content-statement">Dans le cadre des paris, les vainqueurs et les perdants sont déterminés par le score final (temps additionnel inclus), du moment que le match ait duré le temps minimum spécifié ci-dessus. Si un match est suspendu après la durée minimale de jeu, qu’il ne reprend pas le même jour et que, indépendamment des conditions climatiques, il se termine à une date ultérieure, le score du match au moment où il s’interrompt déterminera les résultats du pari.;</li>
+        <li class="content-statement">Si un match est suspendu avant l’écoulement de la durée minimale de jeu et qu’il ne reprend pas le même jour, tous les paris seront notés comme "non valables" et toutes les mises seront remboursées.;</li>
+        <li class="content-statement">Tous les paris portant sur les matchs incluent les buts marqués lors du temps additionnel, sauf mention contraire.;</li>
+        <li class="content-statement">Pour être valables, à moins qu’il n’en soit spécifié autrement avant l’événement, tous les matchs doivent se dérouler à la date prévue et sur le site prévu.;</li>
+        <li class="content-statement">Ces conditions s’appliquent pour le basketball universitaire et professionnel.;</li>
+        <li class="content-statement">
+            Les résultats des matchs de la NBA sont notés à l’aide des statistiques du site <a href="http://www.nba.com/">NBA.com</a>;
+        </li>
+        <li class="content-statement">
+            Les résultats des matchs de basketball de la NCAA sont notés à l’aide des statistiques du site <a href="http://www.espn.com/">espn.com</a>.
+        </li>
+
+        <li class="content-statement">
+            <strong>Double chance</strong>: What will be the match result, double the result, 12, 1X, 2X
+        </li>
+        <li class="content-statement">
+            <strong>Quart-Temps Au Score Le Plus Élevé</strong>: Quarter total points, highest quarter won
+        </li>
+        <li class="content-statement">
+            <strong>Aller Aux Arrêts De Jeu</strong>: Will the match have Overtime play?
+        </li>
+        <li class="content-statement">
+            <strong>Va En X Points</strong>: Which team will win xth point
+        </li>
+        <li class="content-statement">
+            <strong>Ecart gagnant</strong>: The margin between two teams, how many points will a team won
+        </li>
+        <li class="content-statement">
+            <strong>Team Score Over Under</strong>: Total points of a team over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Équipe Pair/Impair</strong>: Total points of a team are odd or even
+        </li>
+        <li class="content-statement">
+            <strong>Dernière équipe à avoir marqué</strong>: Which team will get the last score based on the current scores
+        </li>
+        <li class="content-statement">
+            <strong>First Team to score</strong>: Which team will score first
+        </li>
+        <li class="content-statement">
+            <strong>Mi-temps/Fin de match</strong>: Who will win first half and the match
+        </li>
+        <li class="content-statement">
+            <strong>Mi-Temps Au Score Le Plus Élevé</strong>: Half with most goal wins
+        </li>
+        <li class="content-statement">
+            <strong>Which team wins jump ball</strong>: Which  team will have the first  possession/jumpball
+        </li>
+        <li class="content-statement">
+            <strong>Points Won Over Under</strong>: Total points of a player is over or under a parameter
+        </li>
+        <li class="content-statement">
+            <strong>Point Winner</strong>: Which player will get the xth point
+        </li>
+    </ol>
+    <h3 class="content-item" id="8">
+        <strong>Baseball</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Si les paris portent sur le nombre total de runs (plus/moins), le match doit comporter 9 manches (8,5 si l’équipe à domicile a l’avantage au score) pour être valables. Si un match est interrompu ou suspendu lors de manches supplémentaires, le score sera déterminé à l’issue de la dernière manche complète sauf si l’équipe à domicile obtient un nul ou prend l’avantage dans la première moitié de la manche, auquel cas le score final sera celui du moment où le match est interrompu.;</li>
+        <li class="content-statement">Le résultat d’un match devient officiel après cinq manches, à moins que l’équipe à domicile mène après 4,5 manches. Si un match est interrompu ou suspendu, le vainqueur sera déterminé selon le score à l’issue de la dernière manche complète sauf si l’équipe à domicile obtient un nul ou prend l’avantage dans la première moitié de la manche, auquel cas le vainqueur est déterminé par le score final du moment où le match est interrompu. L’argent de la mise sera remboursé si l’équipe à domicile n’obtient qu’un nul et que le match est ensuite suspendu.d;</li>
+        <li class="content-statement">
+            <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> ne reconnaît pas les décisions de report de matchs, les décisions contestées ou les changements de décision. Tous les paris concernant le baseball doivent se dérouler le jour prévu. Dans le cas contraire, le pari n’est pas valable et l’argent est remboursé.;
+        </li>
+        <li class="content-statement">Les paris d’argent portant sur le baseball sont acceptés sans tenir compte du lanceur de départ.;</li>
+        <li class="content-statement">
+            MLB Minor Leagues : si deux matchs doivent avoir lieu le même jour entre les deux mêmes équipes (équipe A et équipe B) et que <strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> ne propose qu’un seul pari pour un match de l’équipe A contre l’équipe B (sans mentionner s’il s’agit du match 1 ou du match 2), les paris sont considérés comme portant sur le match 1. Si, de fait, le match 1 a déjà commencé, les paris porteront alors sur le match 2.;
+        </li>
+        <li class="content-statement">Règles de "prop" de la MLB : sur tous les paris "prop", le match doit comporter 9 manches (8,5 si l’équipe à domicile a l’avantage au score) pour être valable.;</li>
+        <li class="content-statement">
+            Les "prop" de la MLB seront notées à l’aide des résultats répertoriés sur le site <a href="http://www.mlb.com/">www.MLB.com</a>.
+        </li>
+    </ol>
+    <h3 class="content-item" id="9">
+        <strong>Volleyball</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Si un match est suspendu avant la fin du temps réglementaire et qu’il se termine un autre jour, les paris effectués sur le résultat du match sont considérés comme nuls et toutes les mises seront remboursées.;</li>
+        <li class="content-statement">Modification du lieu de rencontre : si le lieu de la rencontre est modifié, les paris placés resteront valables du moment que l’équipe à domicile joue toujours à domicile. Si l’équipe à domicile et l’équipe à l’extérieur sont inversées, tous les paris placés à l’origine seront nuls..</li>
+    </ol>
+    <h3 class="content-item" id="10">
+        <strong>Snooker</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Les paris "tête-à-tête" consistent à sélectionner le joueur qui gagne officiellement la partie. Si une partie a commencé (la série de la première frame) mais ne peut se terminer pour quelque raison que ce soit, le joueur qui s’apprête à jouer le prochain tour (ou qui est déclaré vainqueur de la compétition/du championnat) sera considéré comme vainqueur de la partie. Dans le cas où une partie ne pourrait avoir lieu, tous les paris seraient remboursés.;</li>
+        <li class="content-statement">Les paris portant sur la frame consistent à sélectionner le score final d’une partie de snooker. Si une partie a commencé mais ne peut être terminée pour quelque raison que ce soit ou si une partie ne peut pas avoir lieu, tous les paris sont remboursés.</li>
+    </ol>
+    <h3 class="content-item" id="11">
+        <strong>Combat</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Lorsque la cloche sonne pour marquer le début du premier round, le combat sera considéré comme officiel du point de vue des paris, quel que soit la durée prévue ou le titre.;</li>
+        <li class="content-statement">Un combat devient un KO technique lorsque le match se termine avant un nombre de rounds défini. Ceci se produit généralement suite à un coup de tête ou une faute involontaire.;</li>
+        <li class="content-statement">Tout combat qui est considéré comme « no contest » engendrera le remboursement des mises engagées.;</li>
+        <li class="content-statement">Si le pari portant sur le match inclut le KO comme 3ème option et que le combat se termine par un KO, les joueurs ayant misé sur le KO recevront leurs gains et ceux ayant parié sur les deux boxeurs perdront leur pari. Si le pari porte uniquement sur les deux boxeurs, que le KO n’est pas proposé ou est proposé séparément et que le match se termine par un KO, les joueurs ayant parié sur l’un des boxeurs, quel qu’il soit, seront remboursés.;</li>
+        <li class="content-statement">Un pari plus/moins (total) portant sur un combat représente le nombre total de rounds complets. La moitié d’un round se situe exactement à une minute trente secondes dans un round à trois minutes. Par conséquent, 9½ rounds correspondent à une minute et trente secondes du 10ème round. La moitié d’un round à deux minutes se situe à une minute. La moitié d’un round à cinq minutes se situe à deux minutes trente secondes.;</li>
+        <li class="content-statement">Les résultats seront notés conformément au résultat officiel affiché sur le ring. Dans le cadre des paris, les résultats ne sont pas officiels tant qu’ils n’ont pas été vérifiés par les responsables du lieu de la rencontre. Les modifications d’une décision effectuées par un organisme officiel ou non sur la base d’un appel, d’une suspension, d’une poursuite en justice, de résultats anti-dopage ou de toute autre sanction contre un boxeur ne seront pas prises en compte dans le cadre des paris.;</li>
+        <li class="content-statement">Sauf mention contraire, les matchs doivent se dérouler dans les trente jours suivant la date prévue pour que les paris soient valables..</li>
+    </ol>
+    <h3 class="content-item" id="12">
+        <strong>Bandy</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Sauf mention contraire, tous les paris sont valables uniquement sur la durée réglementaire et ne comprennent pas le temps additionnel. Lors de tournois, si un nouveau marché se forme à l’issue du temps réglementaire (par ex., gagne lors du temps additionnel), les pénalties sont alors pris en compte.;</li>
+        <li class="content-statement">Durée de jeu: Si la durée du jeu est modifiée pour quelque raison que ce soit, passant de 2 x 45 minutes à 3 x 30 minutes, tous les paris sont alors maintenus sauf ceux qui portent soit sur la première soit sur la seconde mi-temps.;</li>
+        <li class="content-statement">Modification du lieu de rencontre: Si le lieu de la rencontre est modifié, les paris placés resteront valables du moment que l’équipe à domicile joue toujours à domicile. Si l’équipe à domicile et l’équipe à l’extérieur sont inversées, tous les paris placés à l’origine seront nuls..</li>
+    </ol>
+    <h3 class="content-item" id="13">
+        <strong>Floorball</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Dans le cadre des paris, les vainqueurs et les perdants sont déterminés par le score à l’issue du temps réglementaire. Le temps additionnel ou la mort subite ne sont pas pris en compte, sauf mention contraire.;</li>
+        <li class="content-statement">Si un match est suspendu avant la fin du temps réglementaire et qu’il se termine un autre jour, les paris portant sur le résultat du match sont considérés comme nuls et toutes les mises seront remboursées.;</li>
+        <li class="content-statement">Si un match est reporté pour quelque raison que ce soit, tous les paris seront annulés et les mises seront remboursées..</li>
+    </ol>
+    <h3 class="content-item" id="14">
+        <strong>Darts</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Paris sur match : le joueur qui se qualifie pour le tour suivant est considéré comme vainqueur si un des joueurs a bien lancé une fléchette au début de la première manche. Si la première fléchette n’a pas été lancée, tous les paris sont nuls.;</li>
+        <li class="content-statement">Paris sur les sets : le nombre total de sets requis pour remporter le match doit être atteint. Si, pour quelque raison que ce soit, le match est remporté par un des concurrents avant que le nombre total de sets requis ne soit atteint, tous les paris portant sur les sets seront nuls..</li>
+    </ol>
+    <h3 class="content-item" id="15">
+        <strong>Football en salle</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Sauf mention contraire, tous les paris sont basés sur le temps réglementaire uniquement. Ceci comprend deux périodes de jeu et le temps additionnel que l’arbitre ajoute pour compenser les arrêts de jeu pour cause de blessures ou autres. Ceci ne comprend pas les prolongations ou les pénalties.;</li>
+        <li class="content-statement">Si un match est suspendu avant la fin du temps réglementaire et qu’il se termine un autre jour, les paris sur le résultat du match sont considérés comme nuls et toutes les mises seront remboursées.;</li>
+        <li class="content-statement">Les dates et heures de début d’un match de futsal affichées sur notre site Web sont indiquées à titre indicatif uniquement et ne sont pas nécessairement exactes. Si un match est reporté, tous les paris resteront valables 48 heures après le coup d’envoi initial. Dans le cas où un match serait reporté plus de deux jours après la date initiale, les montants des paris engagés seraient immédiatement remboursés.;</li>
+        <li class="content-statement">Modification du lieu de la rencontre : si le lieu de la rencontre est modifié de manière officielle après le placement de paris, tous les paris placés avant cette modification seraient notés comme non valables..</li>
+    </ol>
+    <h3 class="content-item" id="16">
+        <strong>Poker</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Pari outright/vainqueur &ndash; l’équipe/le joueur doit participer.</li>
+    </ol>
+    <h3 class="content-item" id="17">
+        <strong>Curling</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Dans le cadre des paris, le temps additionnel est toujours compris dans le résultat, sauf mention contraire.;</li>
+        <li class="content-statement">Pour qu’un pari soit valable, un minimum de six manches doit être joué.;</li>
+        <li class="content-statement">
+            Le score final d’un match doit être avalisé par les organisateurs du tournoi..<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> respecte les règles propres à chaque tournoi ainsi que celles concernant les matchs concédés.;
+        </li>
+        <li class="content-statement">Les paris sur les matchs reportés ou suspendus pour quelque raison que ce soit (tels que de mauvaises conditions de la piste, une panne électrique ou des problèmes de reprogrammation) sont considérés comme " valables" et seront notés une fois que les organisateurs du tournoi déclarent le match terminé.</li>
+    </ol>
+    <h3 class="content-item" id="18">
+        <strong>Tennis de table</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Si un match a commencé mais ne peut se terminer pour quelque raison que ce soit, tous les paris sur le résultat du match seront nuls.;</li>
+        <li class="content-statement">Les paris portant sur les sets (score exact) se rapportent au score final des sets.;</li>
+        <li class="content-statement">En cas de match par équipe, si des joueurs jouent deux fois, seul le premier résultat compte.</li>
+    </ol>
+    <h3 class="content-item" id="19">
+        <strong>Course Hippique</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="no-bullet">
+            <h4>Général</h4>
+            <ol>
+                <li class="help-li">All bets are settled in accordance with the official result at the time of the "weigh in". Any change to a result after this point will not count;</li>
+                <li class="help-li">Walkovers and void races count as races but any horse involved will be treated as a non-runner.</li>
+            </ol>
+            <h4>Non-partants et Retirement</h4>
+            <ol>
+                <li class="help-li">If a horse is withdrawn before coming under starter's orders, or is officially deemed by the starter to have taken no part in the race, then all bets on that horse are void. Your stakes will be returned on the withdrawn horse.</li>
+            </ol>
+            <h4>Non-partants et Retirement</h4>
+            <h4>Des prix tôt le matin/jour des prix d'évènements</h4>
+            <ol>
+                <li class="help-li">After the final declarations stage, Non-Runner no-bet will apply.</li>
+            </ol>
+            <h4>Engagements doubles</h4>
+            <ol>
+                <li class="help-li">Where a horse is doubly engaged (named as a runner in more than one race) the bet will stand as a bet for the timed race. If the selection runs in the other race it would be treated as a non runner.</li>
+            </ol>
+            <h4>Re-runs</h4>
+            <ol>
+                <li class="help-li">In the event of a false start or any other incident resulting in a race being re-run, 'under starter's orders' is negated and stakes will be refunded on horses taking no part in the re-run;</li>
+            </ol>
+            <h4>Reportements</h4>
+            <ol>
+                <li class="help-li">If a race is abandoned or declared void then any bets will be void. If the race is postponed to a future day and the final Declarations stand, all bets will stand;</li>
+                <li class="help-li">
+                    However, all single bets on horse racing will be made void and any selection involved in accumulative bets will be treated as a non-runner if:
+                    <ol>
+                        <li class="help-li">The race is abandoned;</li>
+                        <li class="help-li">The race is officially declared void;</li>
+                        <li class="help-li">The conditions of the race are altered after bets have been made;</li>
+                        <li class="help-li">The venue is altered;</li>
+                        <li class="help-li">The running surface is altered (e.g. from Turf to All Weather).</li>
+                    </ol>
+                </li>
+            </ol>
+            <h4></h4>
+            <h4>Parier sur Ante-Post</h4>
+            <ol>
+                <li class="help-li">Ante post betting will cease at the Final Declaration stage and all bets after this will be non-runner, no bet ;</li>
+                <li class="help-li">Unless specifically stated otherwise, stakes are lost on an Ante-Post bet if a horse does not take part. </li>
+                <li class="help-li">On days when classic or other trials occur, Ante-Post betting may be suspended and new prices issued;</li>
+                <li class="help-li">Ante-Post bets on horses compulsorily withdrawn will be void and stakes returned. (Stewards are empowered to reduce the numbers in a race if, at the overnight declaration stage, too many have been left in for the safety of horses and jockeys. Jockey Club Rule 121). </li>
+                <li class="help-li">Ante-Post bets are settled at the odds and place terms applicable at the time of acceptance. Should a wrong odds or place terms be given in error we reserve the right to settle the bet at the correct odds/place terms that were available at the time the bet was struck.</li>
+            </ol>
+            <h4>Pari Each-way (un pari joué à la fois en gagnant et en placé)</h4>
+            <ol>
+                <li class="help-li">All bets are settled to win unless 'Each-Way' is selected;</li>
+                <li class="help-li">An Each-Way bet is made up of two bets. It contains one bet for your horse to "Win" and a second bet for your horse to be "Placed". Each bet is placed at the stake amount you have entered, so the total cost of an each way bet will be double the amount you entered stake as you are placing two bets;</li>
+                <li class="help-li">
+                    The "Place" terms will be as advertised for the event. In general, for UK horse racing the 'Place' part of Each-Way bets will be settled using the following 'Place' terms:
+                    <ol>
+                        <li class="help-li">Less than 5 runners - the place money is invested to win;</li>
+                        <li class="help-li">Races of 5, 6 or 7 runners - one 1/4 the odds - first two places;</li>
+                        <li class="help-li">All other races of 8 or more runners 1/5 the odds - first three places</li>
+                        <li class="help-li">Handicap races with 12 - 15 runners one 1/4 the odds - first three places</li>
+                        <li class="help-li">Handicap races with 16 or more runners 1/4 the odds - first four places</li>
+                        <li class="help-li">In all races the number of runners will be the number of runners coming                        under starters orders. Bets won't be accepted where the place stake exceeds                        the win stake.</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+
+    <h3 class="content-item" id="20">
+        <strong>Lévriers</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Si un lévrier (pas de substitutions) est sélectionné et réserve runs à la place du lévrier nommé tous les paris correspondants seront considérés comme non-runner. ;</li>
+        <li class="content-statement">Tous les paris restent valides indépendamment de pièges vacants, des courses et des réunions vides et abandonnés. Le règle de lex-æquo s’applique s’il y a plusieurs gagnants.;</li>
+        <li class="content-statement">En cas labandonnement ou annulation des réunions où on a été offert un prix en avance, tous les paris restent ouverts jusqu’à la fin de la course.;</li>
+        <li class="content-statement">
+            Les paiements seront faits en accord avec les résultats officiels..<strong>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]&nbsp;</strong> se réserve le droit d’annuler tout pari si on a les soupçons d‘une manipulation des résultats finals.
+        </li>
+    </ol>
+    <h3 class="content-item" id="21">
+        <strong>Sports gaéliques</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Pari outright/vainqueur : Prédit l'équipe qui va remporter l'événement.;</li>
+        <li class="content-statement">Tous les marchés du match se basent sur le temps réglementaire uniquement (y compris le temps de blessure). Le temps additionnel ne sera pas pris en compte sauf mention contraire.;</li>
+        <li class="content-statement">Si l'une des équipes ne joue pas, les paris sont annulés.;</li>
+        <li class="content-statement">Si un match est abandonné ou déclaré nul, tous les paris sont annulés.;</li>
+        <li class="content-statement">Tout match reporté à un autre jour sera annulé.;</li>
+        <li class="content-statement">Si le lieu l'un match est modifié, les paris déjà pris seront valables à condition que l'équipe à domicile soit encore désignée comme telle. Si l'équipe jouant à domicile et l'équipe jouant à l'extérieur sont inversées pour un match programmé, les paris placés sur la liste originale du programme seront annulés.;</li>
+        <li class="content-statement">Les paris seront réglés uniquement selon les résultats officiels du GAA (Gaelic Athletics Association)..</li>
+    </ol>
+    <h3 class="content-item" id="22">
+        <strong>Sports d'hiver</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">Pari outright/vainqueur : Prédit l'équipe qui va remporter l'événement. Les paris sur des participants non partants ne seront pas remboursés.;</li>
+        <li class="content-statement">Sports l'hiver olympiques : Les événements seront officiels après la cérémonie originelle des médailles. Tout changement postérieur à ces résultats ne comptera pas.</li>
+    </ol>
+    <h3 class="content-item" id="23">
+        <strong>Virtual Sports</strong>
+    </h3>
+    <ol class="ord-list">
+        <li class="content-statement">
+            <h4>Game Play Rules</h4>
+            <ol>
+                <li class="help-li">A virtual betting event takes place every 5 minutes.</li>
+                <li class="help-li">Bets on the next event are accepted until the "bets closed" message appears on the screen, after which the bet will be allocated to the successive event.</li>
+                <li class="help-li">When the event is not specified by the customer, bets are registered on the next event.</li>
+                <li class="help-li">Winnings can be collected once the result of an event is displayed on the results screen.</li>
+                <li class="help-li">The minimum stake per bet is 50c with a maximum payout for any one customer on any one day of €50,000</li>
+                <li class="help-li">A customer who places any bet on these events takes sole responsibility for his actions in placing a bet, and for checking his ticket to ensure it is correctly reflects his chosen bet, and will not 		hold the operator liable in for any loss or damage suffered. The operator will also not be liable for any system malfunction that may result in the nullification, cancellation or refund of a bet at any time.</li>
+                <li class="help-li">No horses or greyhounds are scratched from virtual races.</li>
+                <li class="help-li">There are no dead heats (position draws) in virtual races.</li>
+                <li class="help-li">If any events are cancelled for whatever reason, outstanding bets on the affected events will be paid at settled at 1:1.</li>
+                <li class="help-li">Bet types offered may be altered from time to time.</li>
+            </ol>
+            <h4>Race Event Bet Types &ndash; Single Selection</h4>
+            <ol>
+                <li class="help-li">
+                    <b>Win</b> - Select a runner to finish 1st.
+                </li>
+                <li class="help-li">
+                    <b>Place</b> - Select a runner to finish in 1st, 2nd or 3rd place in a race with 8 runners or more, and 1st, or 2nd in a 6 runner greyhound race.
+                </li>
+                <li class="help-li">
+                    <b>Each-way (“Fractional Place” bet in some fractional odds markets)</b>Select a runner to win or place. This bet consists of two bets on one selection in one event, with the first bet on the runner to 	               			win and the second bet on the runner to place. The place bet pays at a fraction of the win odds as specified on the event data.
+                </li>
+                <li class="help-li">
+                    The Each-Way bet is not offered in most countries. The game system can be configured to set the “place” odds at a fixed proportion of the win odds of the selection as follows:
+                    <ol>
+                        <li class="help-li">Greyhounds pays 1/5th of win odds.</li>
+                        <li class="help-li">Horses pays 1/5th of win odds.</li>
+                    </ol>
+                </li>
+            </ol>
+            <h4>Race Event Bet Types - Multiple Selection Combination Odds</h4>
+            <ol>
+                <li class="help-li">These bet markets carry different terms in different geographical regions. Our data service uses fixed odds (“bookie”) terminology. The system can be configured to display pari-mutuel (“tote”)              terminology on the screen systems and video renders when required. These alternative bet names are shown in parentheses below </li>
+                <li class="help-li">
+                    <b>Forecast (Exacta)</b> - Select 2 runners to finish 1st and 2nd IN ORDER specified.
+                </li>
+                <li class="help-li">
+                    <b>Combination Exacta</b> - Some bet systems offer a player the option of selecting 2 or more selections to bet that every possible combination of two of the selections may finish 1st and 2nd in               order. So for example; on 2 selections there are 2 bets (1-2, 2-1); on 3 selections there are 6 bets (1-2, 1-3, 2-1, 2-3, 3-1, 3-2); on 4 selections there are 12 bets, on 5 selections there are 20 bets and on 6               selections there are 30 bets etc. This is a bet acceptance system bet that uses the Forecast odds in the feed service. The bet acceptance system works out all combinations.
+                </li>
+                <li class="help-li">
+                    <b>Reverse Forecast (Quinella)</b> - Select 2 runners to finish 1st and 2nd in ANY ORDER.
+                </li>
+                <li class="help-li">
+                    <b>Tricast or Trifecta</b> - Select 3 runners to finish 1st, 2nd and 3rd IN ORDER specified.
+                </li>
+                <li class="help-li">
+                    <b>Combination Trifecta</b> - Some bet systems offer a player the option of selecting 3 or more selections to bet that every possible combination of three of the selections may finish 1st, 2nd and 3rd              in order in an event. So for example; on 3 selections there are 6 bets (1-2-3, 1-3-2, 2-1-3, 2-3-1, 3-1-2, 3-2-1); on 4 selections there are 24 bets; on 5 selections there are 60 bets and on 6 selections there are 120               bets. This is a bet acceptance system bet that uses the Tricast odds. The bet acceptance system works out all combinations.
+                </li>
+                <li class="help-li">
+                    <b>Reverse Tricast or Trio</b> - Select 3 runners to finish 1st, 2nd and 3rd in ANY ORDER.
+                </li>
+            </ol>
+        </li>
+    </ol>
+    <p style="text-align:right">
+        <button type="button" onclick="window.print(); return false" class="button">
+            <span class="button_Right">
+                <span class="button_Left">
+                    <span class="button_Center">
+                        <span>Print</span>
+                    </span>
+                </span>
+            </span>
+        </button>
+    </p>
+</div>

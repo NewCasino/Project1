@@ -1,0 +1,1 @@
+To lahko traja nekaj minut;,<br />počakajte in ne zaprite tega okna.

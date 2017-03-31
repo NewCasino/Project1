@@ -1,0 +1,1 @@
+7-dnevno obdobje mirovanja, ki ga lahko izkoristite samo (2) dvakrat.

@@ -1,0 +1,2 @@
+﻿Grundat i 2005, Envoy var sändebud inrättades för att ge handlare med en från hyllan globala nätverk ofFounded lokalt bankkonto och alternativa betaltjänster. Envoy är en brittisk FSA reglerade globala betalningar som erbjuder enda tillgång till populära lokala betalnings-och inkassotjänster i hela världen. Detta globala nätverk används för att skicka och ta emot pengar till låg kostnad, snabbt och säkert på uppdrag av köpmän till och från leverantörer, dotterbolag, samarbetspartners, utländska kontor och kunder över hela världen
+

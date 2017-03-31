@@ -1,0 +1,1 @@
+Davčna številka

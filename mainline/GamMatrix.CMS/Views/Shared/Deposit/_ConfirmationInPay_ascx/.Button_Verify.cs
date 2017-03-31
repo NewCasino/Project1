@@ -1,0 +1,1 @@
+﻿Potvrďte váš převod 

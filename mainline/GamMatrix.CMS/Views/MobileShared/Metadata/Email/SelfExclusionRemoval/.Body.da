@@ -1,0 +1,12 @@
+﻿<p>Kære $FIRSTNAME$,</p>
+<br />
+<p>kontonavn: $USERNAME$ </p>
+<br />Denne email er en bekræftelse på, at din selv udelukkelsesperiode er udløbet og din konto vil igen være aktiv fra den $EXPIRY_DATETIME$.
+<br />
+<br />
+Kontakt os venligst, hvis du har spørgsmål på 
+<a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>Venlig hilsen,</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]  kundeservice team</p> 
+

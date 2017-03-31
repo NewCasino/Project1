@@ -1,0 +1,1 @@
+﻿Je možné vkládat pouze číslice. Zkuste prosím znova.

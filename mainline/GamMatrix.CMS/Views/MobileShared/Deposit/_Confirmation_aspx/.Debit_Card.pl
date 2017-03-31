@@ -1,0 +1,1 @@
+﻿Pobranie z karty nr {0}

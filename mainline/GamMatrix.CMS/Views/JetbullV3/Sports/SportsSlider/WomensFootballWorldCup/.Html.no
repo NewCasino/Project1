@@ -1,0 +1,3 @@
+﻿<h3>VM Kvinnefotball</h3>
+<p>Med et estimert tv-publikum på vanvittige 1 milliard, bringer kvinnenes VM spenning til fans verden over.</p>
+<a title="Sett et spill nå ►" class="button" href="/Sports/?tournamentid=206084318" target="_top"> <span class="GoldButtonText">Sett et spill nå <span>►</span></span> </a>

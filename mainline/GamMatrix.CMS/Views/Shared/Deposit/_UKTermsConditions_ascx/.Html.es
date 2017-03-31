@@ -1,0 +1,3 @@
+﻿<p class="content"> As per our license obligations under the United Kingdom Gambling Commission (UKGC), [metadata:value(/Metadata/Settings.Operator_DisplayName)] is required to inform you that player funds are kept in designated accounts which are separate from the Company's business accounts.
+In the event of insolvency, player funds would form part of the assets of the Company. This meets the UKGC's requirements for segregation of player funds at a basic level. For further information, please see:</p>
+     <a href="http://www.gamblingcommission.gov.uk/consumers/protection_of_customer_funds.aspx">www.gamblingcommission.gov.uk</a>

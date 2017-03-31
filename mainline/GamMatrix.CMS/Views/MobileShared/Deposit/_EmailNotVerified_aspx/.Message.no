@@ -1,0 +1,2 @@
+﻿Du kan for øyeblikket ikke gjøre innskudd fordi din konto ikke er aktivert. En aktiveringskobling har blitt sendt til den e-posten du fylte inn da du registrerte deg hos oss. Vennligst trykk på koblingen i e-posten du har mottatt for å aktivere kontoen din. Hvis du ikke har mottatt e-posten med aktiveringskoblingen, så kan du ta kontakt med 
+<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.

@@ -1,0 +1,1 @@
+Upewnij się, że wybrana powyżej waluta odpowiada tej na kuponie BOCASH.

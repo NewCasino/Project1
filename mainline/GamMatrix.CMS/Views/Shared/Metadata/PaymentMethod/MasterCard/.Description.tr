@@ -1,0 +1,1 @@
+﻿You can quickly deposit money from your MasterCard into your gaming account. Simply enter your card details, once your MasterCard is verified, your fund will be securely and instantly transferred  into your gaming account.

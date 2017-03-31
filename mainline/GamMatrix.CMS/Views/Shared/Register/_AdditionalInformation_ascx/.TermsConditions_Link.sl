@@ -1,0 +1,1 @@
+pogoje in določila.

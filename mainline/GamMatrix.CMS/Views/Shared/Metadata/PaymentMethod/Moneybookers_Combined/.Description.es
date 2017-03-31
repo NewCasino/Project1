@@ -1,0 +1,1 @@
+﻿Meneybookers es un servicio de monedero electrónico que permite a los clientes de Moneybookers depositar, retirar y transferir fondos desde su cuenta online Click2Pay a su cuenta de juego. Es seguro y los fondos están disponibles en su cuenta de juego instantáneamente. Haga clic&nbsp;<a href="http://www.moneybookers.com/app/">aquí</a> para abrir una cuenta en moneybookers.

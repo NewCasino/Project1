@@ -1,0 +1,1 @@
+﻿Stav účtu nebyl změněn

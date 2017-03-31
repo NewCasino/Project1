@@ -1,0 +1,1 @@
+﻿You are not eligible to use instaCASH. Please do not enter your bank account information.

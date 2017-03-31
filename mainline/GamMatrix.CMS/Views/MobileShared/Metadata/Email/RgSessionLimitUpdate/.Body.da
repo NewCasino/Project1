@@ -1,0 +1,4 @@
+﻿<p>Kære $USERNAME$, <br /> <br /> Tak for din henvendelse  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Denne email er en bekræftelse på, at du har ændret din personlige log ind tidsgrænse fra $LIMITPERIOD$ minutter til $NEWLIMITPERIOD$ minutter. <br /> <br /> Kontakt os venligst, hvis du har spørgsmål på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>&nbsp;</p>
+<p>Venlig hilsen</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundeservice team</p>

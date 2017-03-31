@@ -1,0 +1,1 @@
+﻿Ta opcja umożliwia dokonywanie błyskawicznych wpłat z każdego konta bankowego. To prosta, szybka i bezpieczna metoda płatności internetowych, która umożliwia przelewanie pieniędzy z konta bankowego przez Internet.&nbsp;&nbsp;

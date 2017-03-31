@@ -1,0 +1,1 @@
+﻿Le montant de la transaction n'a pas pu être porté au crédit du Compte à valeur stockée (SVA).

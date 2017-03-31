@@ -1,0 +1,1 @@
+﻿Rola o takiej nazwie już istnieje. Proszę wybrać inną

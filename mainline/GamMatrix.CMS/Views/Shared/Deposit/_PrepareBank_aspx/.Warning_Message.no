@@ -1,0 +1,1 @@
+﻿Det er viktig at du oppgir bruker-ID <strong>{0}</strong>  når du gjennomfører en bankoverføring. Ta vare på alle kvitteringer og referanser som betalingsbevis. Vi kan be om dette hvis det oppstår problemer. 

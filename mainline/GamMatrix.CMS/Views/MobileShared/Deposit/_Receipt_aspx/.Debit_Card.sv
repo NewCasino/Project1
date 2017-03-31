@@ -1,0 +1,1 @@
+Att ta från kort nr.{0}

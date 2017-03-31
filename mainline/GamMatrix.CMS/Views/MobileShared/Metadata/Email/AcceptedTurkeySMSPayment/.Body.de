@@ -1,0 +1,4 @@
+﻿<p>Hallo $FIRSTNAME$,</p><p>Ihre Einzahlung wurde erfolgreich abgeschlossen.</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">Bitte klicken Sie die „Aktualisieren“-Schaltfläche am Anfang der Seite (NICHT die Aktualisierungsschaltfläche im Webbrowser), um Ihr Guthaben neu zu laden.</strong></span></p>
+<p>Falls Sie Fragen haben sollten, kontaktieren Sie bitte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Viele Grüße,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ihr Team</p>

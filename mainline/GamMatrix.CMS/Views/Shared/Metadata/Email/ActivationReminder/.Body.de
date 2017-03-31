@@ -1,0 +1,19 @@
+﻿<p>Liebe/r&#160; $USERNAME$,<br />
+<br />
+Vielen Dank für Ihre Anmeldung bei [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+<br />
+<br />
+Zu Ihrer eigenen Sicherheit möchten wir Sie daran erinnern, Ihre E-Mail-Adresse zu bestätigen. Dadurch stellen Sie sicher, dass Ihr Konto aktiv bleibt und Sie all die großartigen Angebote in Anspruch nehmen können, die wir Ihnen bieten, hier bei [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].<br />
+<br />
+Klicken Sie bitte auf den nachfolgenden Link oder kopieren Sie die URL und fügen Sie sie in die Adresszeile Ihres Browsers ein.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+Wenn Sie sich nicht bei [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+, angemeldet haben, ignorieren Sie bitte diese E-Mail oder informieren Sie <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+Bitte führen Sie umgehend die Bestätigung Ihrer E-Mail-Adresse durch, da das Konto sonst zu Ihrem eigenen Schutz beschränkt wird.
+<p><br />
+Mit freundlichen Grüßen,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Kundenservice-Team<br />

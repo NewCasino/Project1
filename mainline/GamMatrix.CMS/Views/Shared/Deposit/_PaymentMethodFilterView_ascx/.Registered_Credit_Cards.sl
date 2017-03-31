@@ -1,0 +1,1 @@
+Registrirana kreditna kartica/kartice

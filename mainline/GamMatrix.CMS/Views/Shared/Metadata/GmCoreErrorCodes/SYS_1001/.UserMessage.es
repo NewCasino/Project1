@@ -1,0 +1,1 @@
+﻿El estado de la cuenta no ha cambiado

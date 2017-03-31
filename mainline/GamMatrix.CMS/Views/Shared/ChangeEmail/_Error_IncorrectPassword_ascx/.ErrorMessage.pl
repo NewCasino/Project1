@@ -1,0 +1,1 @@
+Nieprawidłowe hasło.

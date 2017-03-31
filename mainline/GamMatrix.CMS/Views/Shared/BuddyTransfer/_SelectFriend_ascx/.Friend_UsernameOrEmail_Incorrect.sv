@@ -1,0 +1,1 @@
+Din kompis användarnamn eller e-postadress är felaktig.

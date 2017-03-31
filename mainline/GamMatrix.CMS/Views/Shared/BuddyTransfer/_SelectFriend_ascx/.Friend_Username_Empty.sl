@@ -1,0 +1,1 @@
+Znova vnesite uporabniško ime vašega prijatelja.

@@ -1,0 +1,1 @@
+﻿Det här Quickfire-spelet tillhandahålls av EveryMatrix NV, ett företag inom {0}. Se V&B för ytterligare information.

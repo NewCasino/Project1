@@ -1,0 +1,2 @@
+﻿<p>COPYRIGHTS &copy; 2015, TODOS LOS DERECHOS RESERVADOS. [Metadata:value(/Metadata/Settings.Operator_DisplayName)]</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] es operado por EveryMatrix Ltd del Vincenti Buildings, Suite 713, 14/19 Strait Street, Valletta, una compañía de responsabilidad limitada en Malta (número de registro: C44411), un miembro de la UE desde mayo del 2004, que opera bajo la supervision y licencia de la Lotteries &amp; Gaming Authority of Malta, licencia número: LGA/CL2/497/2008 entregada el 3 de febrero del 2009</p>

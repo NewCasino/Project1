@@ -1,0 +1,1 @@
+Ne morete se prijaviti, ker je vaše geslo šibko; preverite svoj e-poštni nabiralnik in upoštevajte navodila za ponastavitev svojega gesla.

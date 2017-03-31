@@ -1,0 +1,1 @@
+﻿Cerrar esta ventana

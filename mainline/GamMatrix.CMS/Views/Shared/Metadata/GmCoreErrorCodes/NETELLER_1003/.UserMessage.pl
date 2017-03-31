@@ -1,0 +1,1 @@
+﻿Wystąpił problem związany z identyfikatorem konta, bezpiecznym identyfikatorem lub podaną kwotą. W polach identyfikatora konta, bezpiecznego identyfikatora i kwoty można wpisywać wyłącznie cyfry. Proszę spróbować ponownie.

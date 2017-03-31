@@ -1,0 +1,1 @@
+﻿Wees bewust van het feit dat $AMOUNT$ in rekening wordt gebracht bij je bankrekening, je bank kan dit bedrag omzetten naar je lokale valuta met gebruik van de eigen wisselkoers. Het aan uw rekening $ACCOUNT$ toegevoegde bedrag hoeft niet hetzelfde te zijn als dat op uw bankafschrift.

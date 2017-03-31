@@ -1,0 +1,3 @@
+﻿<p>您的要求  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 聯系郵箱已改變。一封驗證郵件已發至您的新郵箱。($EMAIL$).</p>
+<p>如果您不需要改變您的郵箱，您告訴馬上我們。 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Kind Regards, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 客服團隊</p>

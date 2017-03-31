@@ -1,0 +1,1 @@
+﻿Żądanie zakupu zostało odrzucone. W celu uzyskania szczegółowych informacji, prosimy o kontakt pod adresem service@click2pay.com.

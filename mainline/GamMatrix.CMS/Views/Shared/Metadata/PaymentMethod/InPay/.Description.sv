@@ -1,0 +1,2 @@
+Banköverföring med Inpay erbjuder en lokaliserad banktjänst till olika länder och tillhandahålls av Inpay. Den ger dig möjlighet att sätta in pengar på ditt konto till en lägre kostnad än en vanlig internationell elektronisk överföring, ofta gratis och alltid säkert.<br />
+Överföringar görs till ett bankkonto nära dig och krediteras mycket snabbt på ditt spelkonto. Beroende på ditt land och lokala bankclearingsystem, kan vissa överföringar ske i stort sett i realtid, medan andra överföringar kan ta mellan 1 och 3 bankdagar att nå fram.

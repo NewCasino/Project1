@@ -1,0 +1,1 @@
+Bekreftelseskoden må bestå av 6 sifre.

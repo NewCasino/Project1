@@ -1,0 +1,1 @@
+Du kan inte göra insättningar eftersom din profil är ofullständig. Du dirigeras om till profilsidan om 5 sekunder, vänligen komplettera din profil innan du gör en insättning. 

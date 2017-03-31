@@ -1,0 +1,1 @@
+﻿Data wygaśnięcia : {0}

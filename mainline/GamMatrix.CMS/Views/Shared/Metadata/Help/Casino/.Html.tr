@@ -1,0 +1,71 @@
+﻿<ol>
+
+    <li> <strong>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Casinosunua nasıl Para yatırabilirim?</strong> 
+        <p>
+            Casino Bakiyeniz [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ana Hesabından daha kolay bir genel Bakiş için ayrıdır. Giriş yaptığınız zaman Casinoda sağ tarafta Bulunan 'Transfer' Buttonunu kullanarak Paralarınızı kolayca Hesaplarınız arasında Transfer edilebilirsiniz.       </p>
+    </li>
+
+    <li> <strong>Siitenizdeki Oyunlar ne kadar adil?</strong>
+        <p>
+            Sitemizde Kartları oluşturmak için kullandığımız Algoritmalar oldukça rasgele olduklarına size güvence vermek istiyoruz. Oyunlarımız Sun Microsystem's Secure Random functıon for Java kullanarak tasarlanmıştır  Rasgele Numara Jeneratörü ve Karıştırma bir Matematik Doktorası tarafından tasarlanmıştır. Kullandığımız Yazılım yoğun testlerden geçmiş ve herhangi bir Sapma veya Belirlenebilirlik göstermedi, ve eCOGRA tarafından onaylanmıştır. 
+        </p>
+    </li>
+
+    <li>
+        <strong>Oyun Akışı Oyun Ortasında kesilirse ne oluyor? </strong> 
+        <p>
+            Oyunun Durumu otomatık olarak Sistemin Veritabanında kayıt ediliyor. Bu Şekilde Oyuncunun gördüğü son durum, Oyun devam ettiği zaman, geri getiriliyor Sistem, Internet, Sunucu Kesintilerden veya Alıcı tarafında oluşan Problemlerden sonra . 
+        </p>
+    </li>
+
+    <li>
+        <strong>Blackjack Oyununda kaç Deste Kart var?</strong>
+        <p>4 ve 6 deste kullanılıyor BlackJack Oyunlarında.</p>
+    </li>
+
+    <li>
+        <strong>Oyunlarınız için detaylı Açıklamaları nerede bulabilirim? </strong>
+        <p>
+            Her Oyunumuzun kendine özel Sayfasında 'Oyun Kuralları' vardır.
+        </p>
+    </li>
+
+    <li>
+        <strong>Sitenin Ortalama Ödemeleri nedir?</strong>
+        <p>
+            Oyunda Oyuna ve zamanla Ödemeler değişir, ama teorik Ödemeler 97% çıvarında. Ouynların Ödemeleri derinlerde kodlanmış ve bunları değiştirmiyoruz.      </p>
+    </li>
+
+    <li>
+        <strong>Oyunları bedave deneyebilirmiyim?</strong>
+        <p>
+            Evet, bütün Oyunları bedava da oynayabilirrsiniz 'Eğlence' Modunu seçerseniz.        </p>
+    </li>
+
+    <li>
+        <strong>Masaya bir Bahis yerleştirdikten sonra onu geri alabilirmiyim?</strong>
+        <p>
+            Oyun başlamadan bunu yapabillirsiniz, ama Oyun başladıktan sonra Bahislerinizi değiştiremez ve Miktarlarını düşüremezsiniz. 
+        </p>
+    </li>
+
+    <li>
+        <strong>Oyun Raundun ortasında Bağlantım koparsa ne oluyor?</strong>
+        <p>
+            Oyun Bağlantınızın koptuğu andaki Durumundan devam ediyor Giriş yapıp Oyunu açtığınız Zaman. Kesinti Anında dönmekte olan Slotlar Raundu bitirir, Bağlantı kesilse bile.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

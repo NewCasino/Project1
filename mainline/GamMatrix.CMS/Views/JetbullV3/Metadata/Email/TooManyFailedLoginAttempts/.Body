@@ -1,0 +1,7 @@
+﻿This is an automated email, please do not reply.  
+<hr/>
+<p>Dear $FIRSTNAME$,</p>
+<p>Your account has been blocked because of too many invalid login attempts. It will be automatically unblocked after 15 minutes.</p>
+<p>If you have forgotten your password and need to change it, please click <a href="https://www.jetbull.com/ForgotPassword">here</a> or use the &quot;Forgot password&quot; link on the web site.</p>
+<p>For further assistance contact <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Kind Regards, <br /> <br>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] Customer Service Team</p>

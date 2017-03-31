@@ -1,0 +1,1 @@
+﻿Uwaga: płatności można dokonać wyłącznie po telefonie potwierdzającym jednego z pracowników naszego Call Center. Potwierdzenie telefoniczne następuje zazwyczaj wkrótce po dokonaniu rejestracji.

@@ -1,0 +1,1 @@
+﻿Ha superado su límite de transacción.

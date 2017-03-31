@@ -1,0 +1,1 @@
+Det nya lösenordet kan inte vara samma som det gamla.

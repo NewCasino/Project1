@@ -1,0 +1,1 @@
+Hasło i powtórzenie nie pasują do siebie

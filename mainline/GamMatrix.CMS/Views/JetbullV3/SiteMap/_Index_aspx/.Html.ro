@@ -1,0 +1,63 @@
+﻿<div class="sitemap_items">
+<div class="root_title">[Metadata:value(/Metadata/Settings.Operator_DisplayName)]</div>
+<ul class="items">
+<li><a href="/">Acasă</a></li>
+<li> <a href="/customersupport">Asistenţă clienţi</a></li>
+<li> <a href="/deposit">Metode de plată&nbsp;</a></li>
+<li> <a href="/ForgotPassword">Am uitat parola</a></li>
+<li> <a href="/register">&Icirc;nscrie-te acum</a></li>
+<li> <a href="#top">Conectare</a></li>
+<li> <a href="/Sports/Home">Sport</a></li>
+<li> <a href="/Casino/Lobby">Cazinou</a></li>
+<li> <a href="/Poker/">Poker</a></li>
+<li> <a href="/Bingo/">Bingo</a></li>
+<li> <a href="/Promotions/Home">Promoţii</a></li>
+<li> <a href="/AboutUs">Despre noi</a></li>
+<li> <a href="/ResponsibleGaming">Pariuri responsabile</a></li>
+<li> <a href="/TermsConditions">Termeni şi condiţii</a></li>
+<li> <a href="/Sitemap">Harta site-ului</a></li>
+<li> <a href="/Affiliate/Home">Afilieri</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Sport</div>
+<ul class="items">
+<li> <a href="/help/Sports">&Icirc;ntrebări frecvente</a></li>
+<li> <a href="/Promotions/home/sportsbook">Promoţii&nbsp;</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Cazinou</div>
+<ul class="items">
+<li> <a href="/help/Casino">&Icirc;ntrebări frecvente</a></li>
+<li> <a href="/Promotions/home/casino">Promoţii</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Poker</div>
+<ul class="items">
+<li> <a href="#">Descarcă client</a></li>
+<li> <a href="/Poker/Tournaments/CAKEPoker">Campionate</a></li>
+<li> <a href="/PokerSchool">Şcoala de poker</a></li>
+<li> <a href="/help/Poker">&Icirc;ntrebări frecvente</a></li>
+<li> <a href="/Promotions/TermsConditions/poker/LoyaltyLevels">Niveluri de loialitate</a></li>
+<li> <a href="/Promotions/home/Poker">Promoţii</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Promoţii</div>
+<ul class="items">
+<li> <a href="/Promotions/Home">Top promoţii</a></li>
+<li> <a href="/Promotions/home/sportsbook">Sport</a></li>
+<li> <a href="/Promotions/home/casino">Cazinou</a></li>
+<li> <a href="/Promotions/home/Poker">Poker</a></li>
+</ul>
+</div>
+<div class="sitemap_items">
+<div class="root_title">Afilieri</div>
+<ul class="items">
+<li> <a href="/Affiliate/home">Conectare</a></li>
+<li> <a href="#">Parolă uitată?</a></li>
+<li> <a href="#">&Icirc;nregistrează-te acum</a></li>
+</ul>
+</div>

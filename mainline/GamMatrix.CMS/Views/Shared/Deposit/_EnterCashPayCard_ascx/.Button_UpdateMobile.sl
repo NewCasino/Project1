@@ -1,0 +1,1 @@
+Posodobite mobilni telefon

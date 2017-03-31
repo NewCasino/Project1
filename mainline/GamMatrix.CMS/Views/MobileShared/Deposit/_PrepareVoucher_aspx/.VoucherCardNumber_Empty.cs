@@ -1,0 +1,1 @@
+﻿Chybí číslo poukázky.

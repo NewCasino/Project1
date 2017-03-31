@@ -1,0 +1,1 @@
+Du godkänner bonusen genom att ange en bonuskod <a id="lnkBonusTermsConditions" href="#" target="_blank">Villkor &amp; Bestämmelser.</a>

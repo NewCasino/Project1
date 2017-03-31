@@ -1,0 +1,1 @@
+﻿Obecné otázky o Kasinu

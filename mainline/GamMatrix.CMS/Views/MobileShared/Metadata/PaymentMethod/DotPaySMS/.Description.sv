@@ -1,0 +1,1 @@
+Klicka  <a href="http://www.smscoins.net" target="_blank">here</a> för att köpa mynt. 

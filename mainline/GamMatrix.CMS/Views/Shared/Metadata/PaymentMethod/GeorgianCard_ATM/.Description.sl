@@ -1,0 +1,1 @@
+Banka Gruzije (Bank of Georgia) je zadružna banka, ki ponuja celoten nabor storitev kot vsaka druga banka, pohvali pa se lahko z izkušenimi bankirji in ljudmi, ki se bodo zares potrudili za vas.

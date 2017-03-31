@@ -1,0 +1,1 @@
+Du får snart ett e-postmeddelande med ditt registrerade användarnamn.

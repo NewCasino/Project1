@@ -1,0 +1,13 @@
+﻿<em>Tämä sähköposti on lähetetty asiakkaan toimesta käyttäen sivuston " Ota yhteyttä" palvelua.<br />
+ÄLÄ vastaa tähän viestiin! löydät asiakkaan sähköpostiosoitteen alta.</em>
+<hr/>
+<ul>
+<li><strong>Asiakkaan sähköpostiosoite</strong>:$EMAIL$</li>
+<li><strong>Asiakkaan nimi</strong>:$NAME$</li>
+<li><strong>Aihe</strong>:$SUBJECT$</li>
+<li><strong>Käyttäjä ID</strong>:$USERID$</li>
+<li><strong>Käyttäjänimi</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>
+

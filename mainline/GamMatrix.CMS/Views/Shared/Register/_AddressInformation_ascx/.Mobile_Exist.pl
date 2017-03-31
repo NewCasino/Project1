@@ -1,0 +1,1 @@
+Numer Twojego telefonu komórkowego został już zarejestrowany.

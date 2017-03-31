@@ -1,0 +1,1 @@
+Du kommer inte att kunna logga in på ditt bettingkonto under uppehållsperioden på 30 dagar

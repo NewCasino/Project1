@@ -1,0 +1,1 @@
+﻿Votre Bluff21 alias doit être comprise entre 5 et 12 caractères

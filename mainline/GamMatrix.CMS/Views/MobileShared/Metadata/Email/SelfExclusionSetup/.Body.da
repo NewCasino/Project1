@@ -1,0 +1,10 @@
+﻿<p>Kære $FIRSTNAME$,</p>
+<br />
+<p>kontonavn: $USERNAME$ </p>
+<br />Denne email er en bekræftelse på, at din konto nu er sat til selv udelukkelse, hvilket vil udløbe den $EXPIRY_DATETIME$. I denne periode vil du ikke være i stand til at log ind på din konto. Vi vil give dig besked via email, når selv udelukkelses perioden er udløbet.
+<br />
+<br />For yderligere detaljer om selv udelukkelse, se venligst vores Betingelser og Vilkår
+<p>&nbsp;</p>
+<p>Venlig hilsen,</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] kundeservice team</p> 
+

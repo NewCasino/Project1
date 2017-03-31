@@ -1,0 +1,94 @@
+﻿<ol>
+	<li> <strong>Jeg har glemt brukernavnet og passordet mitt, hva gjør jeg?</strong>
+		<p>
+			Hvis du skriver inn feil passord kan det ofte resultere i en "Klarte ikke validere passord"-kode. Passordene er sensitive for små og store bokstaver, så sjekk at Caps Lock er slått av. Hvis problemene vedvarer, velger du "Glemt passord"-knappen, og et nytt passord vil sendes til e-postadressen du har oppgitt for [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-kontoen din.
+		</p>
+	</li>
+
+	<li> <strong>Hvem kontakter jeg dersom jeg har spørsmål om kontoen min?</strong>
+		<p>
+			Vennligst kontakt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Hva gjør jeg dersom jeg ikke lenger vil bruke kontoen min?</strong>
+		<p>
+			For å stenge kontoen din sender du en e-post til [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte på
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Hvordan bytter jeg passord?</strong>
+		<p>
+			Du kan bytte passord ved å bruke Glemt passord
+			<a href="/ForgotPassword" target="_blank">link</a>
+			øverst på alle [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-sidene.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hvordan endrer jeg den registrerte e-postadressen min?</strong>
+		<p>
+			Du kan i øyeblikket ikke endre den personlige e-postadressen din, men dersom du kan vise at du har gode grunner til å gjøre det, kan du kontakte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte for å få gjort endringen. Vennligst kontaktt
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Kan jeg sjekke aktiviteten på kontoen min på noen måte?</strong>
+		<p>
+			Du kan sjekke aktiviteten på kontoen din ved å gå til "Min konto" når du har logget deg inn,&nbsp; eller du kan kontakte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte for informasjon.
+		</p>
+	</li>
+
+	<li>
+		<strong>Er det mulig å bytte brukernavn?</strong>
+		<p>
+			Du kan ikke endre spillernavnet ditt når du har opprettet [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-kontoen din. Dette skyldes sikkerhetsgrunner, siden bytte av spillernavnet kan forstyrre dataen og føre til sikkerhetsvarsler.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hvem kan jeg kontakte dersom jeg tror jeg har et problem med gambling?</strong> 
+		<p>
+			Det å drive med gambling online er spennende, morsomt og potensielt lønnsomt for de som velger å spille. Men [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] er klar over muligheten for spilleavhengighet og missbruk av tjenestene våre, og følgene dette kan få for en person. På grunn av dette tar [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] alle mulige tiltak for å sørge for at produktene og tjenestene våre bare brukes av de som har en lovlig rett til det. Ingen har, under noen omstendighet, lov til å spille med ekte penger dersom de ikke er over 18 år gamle, eller lovlig alder for deltagelse i spilling på Internett i landet de bor.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hva skjer etter at perioden min er over?</strong>
+		<p>
+			Når tidsgrensen du satte for selvekskluderingen er over, kan du kontakte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte for å åpne kontoen din igjen.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hvordan kan jeg selvekskludere meg selv?</strong>
+		<p>
+			Du kan selvekskludere deg selv ved å gå til [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-kontoen din, hvor du vil se en fane for selvekskludering. Når du trykker på "Blokker kontoen min"-knappen, vil du automatisk logges ut av [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-siden. Du vil deretter ikke kunne logge inn igjen før etter perioden for selvekskludering som du valgte.&nbsp; &nbsp;
+		</p>
+	</li>
+
+	<li>
+		<strong>Kan jeg kansellere selvekskluderingen?</strong>
+		<p>
+			Du kan ikke åpne kontoen din før perioden du valgte for selvekskluderingen er over.
+		</p>
+	</li>
+
+	<li>
+		<strong>Jeg får ikke svar på spørsmålene mine når jeg sender en e-post til kundestøtten?</strong> 
+		<p>
+			Vi prøver å svare på alle e-poster fra våre brukere innen 24 timer. Siden noen henvendelser krever flere detaljer og undersøkelse, kan responstiden variere litt avhengig av typen henvendelse. Du vil motta en e-post fra [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] som bekrefter at vi har mottatt forespørselen din, så du vet at vi jobber med å besvare den. Dersom du ikke mottar denne bekreftelsen på e-posten din etter at du har sendt inn en forespørsel, foreslår vi at du ser i mappen din for søppelpost. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sender ikke ut søppelpost, men noen meget aggressive filtre kan ved en feil identifisere våre e-poster som spam og dermed behandle dem deretter.
+		</p>
+	</li>
+</ol>

@@ -1,0 +1,1 @@
+﻿Med Wilds substitutioner, Free Spins, och den nya och innovativa Evolution inslag i Free Spins, Evolution™ tar dig tillbak till ursprunget till livet som vi känner det, till en värld fylld med primitiv varelser krypa upp den evolutionära stegen

@@ -1,0 +1,1 @@
+﻿Všechny nabídky

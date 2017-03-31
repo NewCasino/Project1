@@ -1,0 +1,1 @@
+﻿Nedostatečné prostředky

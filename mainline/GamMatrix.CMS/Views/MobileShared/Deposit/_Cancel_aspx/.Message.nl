@@ -1,0 +1,1 @@
+﻿U heeft de transactie geannuleerd.

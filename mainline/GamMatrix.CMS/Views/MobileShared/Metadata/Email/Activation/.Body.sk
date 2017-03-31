@@ -1,0 +1,7 @@
+﻿<p>Ahoj $FIRSTNAME$,</p>
+<p>ďakujeme za registráciu na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], váš účet ($USERNAME$) bol založený a pred použitím ho musíte aktivovať.</p>
+<p>K aktivácii stačí kliknúť na odkaz nižšie. Ak nefunguje, skúste ho skopírovať do adresného riadku svojho prehliadača.</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Ak ste se neregistrovali na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], e-mail môžete ignorovať, prípadne sa obrátiť na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Ďakujeme za registráciu na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>S pozdravom, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tím</p>

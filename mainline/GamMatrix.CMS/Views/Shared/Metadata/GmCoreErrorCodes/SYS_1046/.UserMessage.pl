@@ -1,0 +1,1 @@
+﻿Przekroczono maksymalny dozwolony rozmiar załączników ({0} bajtów)

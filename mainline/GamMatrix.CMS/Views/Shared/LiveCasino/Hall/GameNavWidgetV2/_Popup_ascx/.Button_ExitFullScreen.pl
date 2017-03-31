@@ -1,0 +1,1 @@
+Opuść tryb pełnego ekranu

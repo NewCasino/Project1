@@ -1,0 +1,1 @@
+﻿Je kunt snel geld storten van je Visa creditcard naar je speelaccount. Voer simpelweg je details in, als je creditcard geverifieerd is, zal je storting veilig en direct naar je speelaccount worden gestuurd.

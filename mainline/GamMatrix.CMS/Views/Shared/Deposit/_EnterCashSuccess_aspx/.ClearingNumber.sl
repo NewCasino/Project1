@@ -1,0 +1,1 @@
+Brisanje številke

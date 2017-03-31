@@ -1,0 +1,1 @@
+Transaktionen kunde inte genomföras just nu.

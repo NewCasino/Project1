@@ -1,0 +1,4 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p>Para çekme talimatı vermiş olduğunuz miktar &lsquo;$TXCOMPLETEDDATE$"de, hesabınıza geri aktarılmıştır. Bu konuda yardıma ihtiyacınız var ise lütfen müşteri hizmetlerimize başvurunuz</p>
+İşlem ID: $TXID$ İşlem Tarihi: $TXCREATEDDATE$ Miktar: $TXAMOUNT$ $TXCURRENCY$.
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>

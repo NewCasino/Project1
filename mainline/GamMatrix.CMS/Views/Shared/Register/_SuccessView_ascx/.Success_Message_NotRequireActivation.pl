@@ -1,0 +1,1 @@
+Dziękujemy, zarejestrowałeś się pomyślnie!

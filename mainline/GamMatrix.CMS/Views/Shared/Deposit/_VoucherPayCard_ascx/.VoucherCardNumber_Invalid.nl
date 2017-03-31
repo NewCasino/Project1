@@ -1,0 +1,1 @@
+﻿Het Voucher nummer moet 16 cijfers lang zijn.

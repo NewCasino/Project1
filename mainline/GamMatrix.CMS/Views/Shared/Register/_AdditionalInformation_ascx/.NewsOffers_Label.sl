@@ -1,0 +1,1 @@
+Da, pošiljajte mi e-poštna sporočila z novicami in ponudbami.

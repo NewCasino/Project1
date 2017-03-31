@@ -1,0 +1,5 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>연락 주셔서 감사합니다 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], 저희는 귀하의 유저 네임 요청을 받았습니다. </p>
+
+<p>귀하의 유저 네임은 <strong>$USERNAME$</strong>. </p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

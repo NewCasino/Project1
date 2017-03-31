@@ -1,0 +1,1 @@
+﻿Zrušili jste transakci.

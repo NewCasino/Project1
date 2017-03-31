@@ -1,0 +1,1 @@
+﻿Your request cannot be completed. Fund transfers from this merchant to your area of residence are not available. Please contact the merchant's customer service department for more information.

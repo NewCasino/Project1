@@ -1,0 +1,1 @@
+Tukaj izberite svoj želeni način odpiranja za igro; na voljo so vam načini vstavljeno, pojavno okno, nova stran in celozaslonsko.

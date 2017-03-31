@@ -1,0 +1,1 @@
+﻿U kunt niet opnemen, want uw account is niet geactiveerd.

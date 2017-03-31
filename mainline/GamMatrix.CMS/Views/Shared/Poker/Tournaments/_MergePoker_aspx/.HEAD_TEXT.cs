@@ -1,0 +1,1 @@
+﻿Sloučit pokerové turnaje

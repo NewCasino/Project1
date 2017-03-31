@@ -1,0 +1,9 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p>Ukash Fişinizin bir Mikarını kullandınız ve allta yeni Ukash Fiş Detaylarınız verilmiştir. </p>
+<ul>
+<li><strong>Ukash Fiş Numarası</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Ukash Fiş Miktarı</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>Ukash Fişi son Kullanma Tarih</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>Fişiniz ile İlgili herhangi Sorunuz olursa, lütfen bizimle burdan İletişime geçmeye çekinmeyiniz: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ekibi</p>

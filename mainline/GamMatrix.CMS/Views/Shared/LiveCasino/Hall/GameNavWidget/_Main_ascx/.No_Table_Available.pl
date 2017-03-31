@@ -1,0 +1,1 @@
+Przykro nam - żaden stół kasyna na żywo nie jest dla Ciebie dostępny. ({0}/{1}/{2})

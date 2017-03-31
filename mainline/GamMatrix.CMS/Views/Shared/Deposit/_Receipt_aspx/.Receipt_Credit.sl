@@ -1,0 +1,1 @@
+﻿Znesek, položen na vaš {0} račun

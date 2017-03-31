@@ -1,0 +1,3 @@
+S pomočjo menija spodaj lahko nastavite časovno omejitev seje. Če časovno omejitev seje prekoračite, vas bo sistem odjavil, z igranjem pa boste lahko nadaljevali, tako da se znova prijavite. Ko bo limit nastavljen, boste prejeli potrditveno e-poštno sporočilo. Z uporabo menija spodaj lahko limit kadar koli tudi zmanjšate. Toda če želite omejitev odstraniti ali povečati, prične veljati 7-dnevno obdobje mirovanja. To obdobje vam daje možnost, da premislite, ali zares želite opraviti to spremembo.
+
+OPOMBA: sprememba, ki jo opravite tukaj, morda ne bo pričela veljati, dokler se ne prijavite znova.

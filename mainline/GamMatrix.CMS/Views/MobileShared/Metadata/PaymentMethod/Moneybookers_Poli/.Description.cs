@@ -1,0 +1,1 @@
+﻿POLi přes Skrill (Moneybookers) vám umožňuje převádět prostředky přímo z vašeho bankovního účtu. POLi je jednou z nejlepších online platebních metod v Australii.

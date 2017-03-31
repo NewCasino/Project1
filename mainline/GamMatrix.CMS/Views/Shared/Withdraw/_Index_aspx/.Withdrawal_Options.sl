@@ -1,0 +1,1 @@
+Izplačilo lahko zahteve z eno od naslednjih možnosti, ki jih imate na razpolago.

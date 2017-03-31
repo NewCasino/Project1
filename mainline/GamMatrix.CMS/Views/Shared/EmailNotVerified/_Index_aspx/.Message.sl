@@ -1,0 +1,1 @@
+Nimate dovoljenja za igranje igre, ker še niste kliknili povezave v e-poštnem sporočilu za aktivacijo. 

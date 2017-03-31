@@ -1,0 +1,1 @@
+Znesek v breme računa {0} : {1} {2}

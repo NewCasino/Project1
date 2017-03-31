@@ -1,0 +1,1 @@
+Nastavite limit izgube

@@ -1,0 +1,12 @@
+﻿<p>Liebe(r) $USERNSME$,<br />
+</p>
+<br />
+Danke für Deine Anfrage an [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+Diese Email ist um Dein persönliches Einzahlungs&#160;Limit $AMOUNT$ $PERIOD$ wird am $LIMITEXPIRYDATE$enfernt werden. <br />
+<br />
+Falls Du Unklarheiten hast, kontaktiere uns bitte an <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&#160;</p>
+<p><br />
+Beste Grüsse</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team</p>

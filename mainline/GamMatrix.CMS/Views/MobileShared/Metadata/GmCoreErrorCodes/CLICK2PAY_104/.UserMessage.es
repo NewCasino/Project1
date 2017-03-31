@@ -1,0 +1,1 @@
+﻿Ha ocurrido un error técnico. Divisa inválida. Por favor contacte con el servicio de atención al cliente del comercio.

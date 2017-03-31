@@ -1,0 +1,1 @@
+Wpłata na rzecz

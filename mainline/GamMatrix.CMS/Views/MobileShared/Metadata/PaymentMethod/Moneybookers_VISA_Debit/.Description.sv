@@ -1,0 +1,1 @@
+Du kan snabbt göra en insättning från ditt Visa Delta/Debet kort via Moneybookers till ditt spelkonto. Fyll i dina kortuppgifter via Moneybookers och när ditt kredikort kort är verifierat kommer din transaktion föras över till ditt spelkonto på en gång. 

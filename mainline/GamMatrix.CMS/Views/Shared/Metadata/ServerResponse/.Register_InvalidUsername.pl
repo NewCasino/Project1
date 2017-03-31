@@ -1,0 +1,1 @@
+Nazwa użytkownika nie jest dostępna lub została użyta przez inną osobę. Spróbuj użyć innej nazwy użytkownika.

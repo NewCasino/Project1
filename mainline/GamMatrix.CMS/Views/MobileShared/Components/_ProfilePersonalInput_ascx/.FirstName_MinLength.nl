@@ -1,0 +1,1 @@
+﻿Uw voornaam moet minstens uit 2 karakters bestaan

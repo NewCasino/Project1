@@ -1,0 +1,5 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>Deine Einzahlung wurde erfolgreich durchgeführt.</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">Bitte klicke auf "aktualisieren"(NICHT den Browser, sondern nur unsere Seite) oben in der Seite um die Balance zu aktualisieren.</strong></span></p>
+<p>bitte bei Fragen kontaktiere einfach <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Beste Grüsse,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

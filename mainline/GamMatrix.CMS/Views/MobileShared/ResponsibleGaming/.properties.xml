@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <RouteName>ResponsibleGaming</RouteName>
+  <Type>Page</Type>
+  <Controller>GamMatrix.CMS.Controllers.MobileShared.MobileGenericPageController</Controller>
+  <IsInherited>False</IsInherited>
+</root>

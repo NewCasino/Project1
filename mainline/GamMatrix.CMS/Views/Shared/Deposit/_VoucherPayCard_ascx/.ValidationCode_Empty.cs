@@ -1,0 +1,1 @@
+﻿Potvrzovací kód je nutný.

@@ -1,0 +1,12 @@
+﻿<em>Denne e-posten ble sendt fra kunde via "Kontakt oss"-siden på nettstedet.<br />IKKE send e-post til denne e-posten. Du finner kundens e-postadresse nedenfor.</em>
+<hr/>
+<ul>
+<li><strong>E-post fra kunde</strong>:$EMAIL$</li>
+<li><strong>Kundens navn</strong>:$NAME$</li>
+<li><strong>Emne</strong>:$SUBJECT$</li>
+<li><strong>Bruker-ID</strong>:$USERID$</li>
+<li><strong>Brukernavn</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>
+

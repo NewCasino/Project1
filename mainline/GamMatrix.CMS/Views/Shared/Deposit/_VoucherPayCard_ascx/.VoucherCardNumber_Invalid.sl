@@ -1,0 +1,1 @@
+Številka kupona mora vsebovati 16 števk.

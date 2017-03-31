@@ -1,0 +1,71 @@
+﻿<ol>
+
+	<li> <strong>Hesabıma nasıl Para yatırabilirim?</strong>
+		<p>
+			Önce 'Hesabım'a tıklayınız sonra soldaki sütündeki 'Para Yatır' düğmesine tıklayarak tercih ettiğiniz Ödeme Yolunu seçebilirsiniz.
+		</p>
+	</li>
+
+	<li> <strong>Para Yatırma İşlemin onaylanması ne kadar sürer?</strong>
+		<p>
+			Çoğu Ödeme Yollarında Para Yatırma İşleminiz anında onaylaniyor. Banka Havalesinde Bankada Paranın bize ulaşması 7 Gün kadar sürebilir, ve o anda [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Hesabınıza Paranız yatacak.		</p>
+	</li>
+
+	<li>
+		<strong>Hangi Para Yatrıma Yöntemlerini sunuyorsunuz?</strong>
+		<p>
+			Sizin için Mevcut Ödeme Yöntemlerini görmek için lütfen herhangi bir [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Sayfasında 'Ödeme Yöntemleri' ne tıklayınız.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hangi Kredi/Banka Kartlarını kabul ediyorsunuz?</strong>
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] bütün Visa ve Mastercard/Maestro Kredi ve Banka Kartlarını Ödeme için kabul ediyor, yanlız Mastercard/Maestro da Para Çekmede Kısıtlamalar var.		</p>
+	</li>
+
+	<li>
+		<strong>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Hesabıma Para Yatırırken benden herhangi Ücret kesiliyormu?</strong> 
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Hesabınıza Para Yatırmak için bizden herhangi Ücret alınmıyor.
+		</p>
+	</li>
+
+	<li>
+		<strong>Tek İşlemde Asgari/Azami ne kadar Para yatırabilirim?</strong> 
+		<p>
+			Para Yatırmada Asgari olarak €10 veya kendi Para Biriminizdeki Eşdeğeri, Azami olarak günde €5000 veya kendi Para Biriminizdeki Eşdeğeri yatırabilirsiniz. 		</p>
+	</li>
+
+	<li>
+		<strong>
+			Günlük, Haftalık ve Aylık Para Yatırma Limit kurmam mümkünmü?		</strong>
+		<p>
+			Evet, Günlük, Haftalık ve Aylık Limitler kurabilirsiniz. Bunları 'Hesabım' Bölümündeki 'Sorumlu Kumarcılık - Para Yatırma Limitleri' alt Bölümünden kurabilirsiniz. Limitler her zaman Aynı Bölümden değiştirilebilir.		</p>
+	</li>
+
+	<li>
+		<strong>Banka Hesabımdan nasıl Para Yatırabilirim?</strong>
+		<p>
+			Lütfen 'Hesabım' Bölümündeki 'Para Yatırma' ya tıklayarak Banka Havalesi seçiniz. Bu seçeneğı 'Para yatır'a tıklayarak etkinleştirebilirsiniz. Sonra Ekrandaki Talimatlara uyunuz.		</p>
+	</li>
+
+	<li>
+		<strong>
+			Sitedeki Hesabıma Kredi Kartımdan Haftalık yatrıabileceğim Para için bir Limit varmı?		</strong>
+		<p>Günlük yatırabileceğiniz Azami Miktar 5000€ dur.</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

@@ -1,0 +1,1 @@
+﻿Overschrijving rechtstreeks op uw bank rekening

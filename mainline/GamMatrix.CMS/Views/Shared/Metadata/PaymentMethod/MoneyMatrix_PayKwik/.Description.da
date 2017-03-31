@@ -1,0 +1,1 @@
+﻿As a consumer PayKwik is the easy, safe and secure way for you to pay at your favourite international ecommerce websites.

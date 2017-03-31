@@ -1,0 +1,1 @@
+﻿/game/gamerules.jsp?game=cstud2&lang=cs

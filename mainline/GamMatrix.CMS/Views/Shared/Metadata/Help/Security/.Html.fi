@@ -1,0 +1,46 @@
+﻿<ol>
+
+    <li> <strong>Missä sivustonne sijaitsee?</strong>
+        <p>Sivustomme sijaitsee Maltalla.</p>
+    </li>
+
+    <li> <strong>Onko sivustonne lisensioitu?</strong>
+        <p>
+            Meillä on voimassa oleva EU-lisenssi urheilupeliä, kasinoa ja pokeria varten.
+        </p>
+    </li>
+
+    <li>
+        <strong>Miten turvassa ovat luottokorttitietoni?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] käyttää kehittyneintä tiedonsalaustekniikoita taataksemme, että tietosi ovat vain harvojen saatavilla  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] perheessä. Me salaamme kaikki tietosi käyttämällä kansainvälisesti hyväksyttyjä ja alan standardeja SSL salausalgoritmeja. Tämä tarkoittaa, että kaikkea edestakaisin menevää tietoa, alkaen osoitteestasi, aina käsiteltyihin kortteihin, käsitellään samalla tietoturvatasolla kuin pankki käyttäisi.
+        </p>
+    </li>
+
+    <li>
+        <strong>Miten tiedän, että maksutietoni ovat turvassa?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Me salaamme kaikki tietosi käyttämällä kansainvälisesti hyväksyttyjä ja alan standardeja SSL salausalgoritmeja. Tämä tarkoittaa, että kaikkea edestakaisin menevää tietoa, alkaen osoitteestasi, aina käsiteltyihin kortteihin, käsitellään samalla tietoturvatasolla kuin pankki käyttäisi
+        </p>
+    </li>
+
+    <li>
+        <strong>Mistä tiedän rahani olevan turvassa?</strong>
+        <p>
+            Kaikki asiakasvarat pidetään erillisellä asiakassijoitustilillä Vallettan pankissa. Tämä noudattaa Maltan veikkaus- ja pelisääntöjä, joiden mukaan meidät on lisensioitu. Asiakkaan varat ovat täysin 'aidatut' yrityksen varoista ja niitä pidetään turvassa varmistaakseemme, että asiakkaan varat ovat aina asiakkaiden saatavilla.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

@@ -1,0 +1,1 @@
+﻿El depósito actual es {0}, si añade su depósito más reciente {1}, el depósito total {2} será mayor que su límite ({3} por {4})

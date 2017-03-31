@@ -1,0 +1,1 @@
+﻿Váš požadavek nemůže být dokončen. Partnerské převody do vaší země nelze provést. Prosím kontaktujte zákaznickou podporu zprostředkovatele.

@@ -1,0 +1,1 @@
+﻿<p style="font-size: 16px;">Du buker Mastercard utstedt av <img alt="Intercash" src="/Views/Shared/_files/Icons/intercash_logo.png" align="absmiddle" /><br /> klikk <a href="/Deposit/Prepare/Intercash">her</a> for å gå til riktig innskuddsside.</p>

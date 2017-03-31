@@ -1,0 +1,1 @@
+﻿Vous avez demandé un montant qui est inférieur à 10 $ US ou supérieure à la limite de transfert du commerçant. S'il vous plaît contactez le service clientèle du marchand pour plus d'informations.

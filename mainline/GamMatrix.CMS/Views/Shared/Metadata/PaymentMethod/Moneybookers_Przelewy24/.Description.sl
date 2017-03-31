@@ -1,0 +1,1 @@
+S to storitvijo lahko sredstva naložite takoj s katerega koli bančnega računa na Poljskem.&nbsp;&nbsp;Je preprost, hiter in varen način plačevanja preko spleta, ki vam omogoča, da denar s svojega računa prenesete na internet, kjer ga potrebujete.&nbsp;&nbsp;

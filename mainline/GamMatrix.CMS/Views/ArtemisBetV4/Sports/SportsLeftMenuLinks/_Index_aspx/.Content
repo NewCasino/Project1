@@ -1,0 +1,14 @@
+﻿<ul class="SportsLeftMenuLinks">
+    <li class="SLMItem">
+        <a class="SLMLink" href="/spor-bahisleri/?sportid=1" target="_top">Today in Football</a>
+    </li>
+    <li class="SLMItem">
+        <a class="SLMLink" href="/spor-bahisleri/?sportid=8" target="_top">Today in Basketball</a>
+    </li>
+    <li class="SLMItem">
+        <a class="SLMLink" href="/spor-bahisleri/?sportid=3" target="_top">Today in Tennis</a>
+    </li>
+    <li class="SLMItem SLMLive">
+        <a class="SLMLink" href="/canli-bahis" target="_top">Live right now!</a>
+    </li>
+</ul>

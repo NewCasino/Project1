@@ -1,0 +1,1 @@
+﻿ELV le permite realizar un pago rápido desde su cuenta bancaria a su cuenta de juego mediante la pasarela Moneybookers. Es seguro e inmediato.

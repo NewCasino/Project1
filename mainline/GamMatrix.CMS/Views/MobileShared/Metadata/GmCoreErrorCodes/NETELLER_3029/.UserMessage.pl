@@ -1,0 +1,1 @@
+﻿Ten sprzedawca nie obsługuje transakcji NETELLER(1-PAY).

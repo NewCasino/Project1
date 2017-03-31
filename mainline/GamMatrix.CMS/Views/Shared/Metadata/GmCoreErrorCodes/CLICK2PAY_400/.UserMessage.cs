@@ -1,0 +1,1 @@
+﻿Převáděná částka nemůže být připsána na Stored Value Account (SVA).

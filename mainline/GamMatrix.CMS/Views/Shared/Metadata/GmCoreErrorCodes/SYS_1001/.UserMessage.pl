@@ -1,0 +1,1 @@
+﻿Status konta nie został zmieniony

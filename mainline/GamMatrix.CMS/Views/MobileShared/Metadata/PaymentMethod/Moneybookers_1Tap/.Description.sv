@@ -1,0 +1,1 @@
+Moneybookers är en e-wallet tjänst som möjliggör för Moneybookers kunder att sätta in, ta ut och föra över medel till deras spelkontojn. Det är säkert och dina medel finns på spelkontot omedelbart. Klicka <a href="http://www.moneybookers.com/app/">här</a> tför att öppna ett konto. 

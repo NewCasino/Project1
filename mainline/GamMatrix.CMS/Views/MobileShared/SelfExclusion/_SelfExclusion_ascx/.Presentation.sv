@@ -1,0 +1,1 @@
+﻿Om du upplever att ditt spel leder till problem, kan du välja självexkludera dig via email. För hjälp gällande frågor relaterande till ansvarsfullt spel, vänligen besök vår sektion för Ansvarsfullt Spel. För att få mer information om problem och självexkludering, läs våra Regler och Villkor.

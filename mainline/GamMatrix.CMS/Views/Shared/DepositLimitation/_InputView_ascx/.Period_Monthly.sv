@@ -1,0 +1,1 @@
+Månatlig gräns (var 30:e/31:a dag fr.o.m. tidpunkten då gränsen sattes)

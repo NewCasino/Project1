@@ -1,0 +1,1 @@
+﻿La retirada requiere al menos un depósito realizado con éxito

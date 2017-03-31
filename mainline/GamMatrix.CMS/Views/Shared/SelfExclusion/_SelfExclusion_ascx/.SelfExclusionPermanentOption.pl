@@ -1,0 +1,2 @@
+﻿Permanentne samowykluczenie
+

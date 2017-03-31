@@ -1,0 +1,1 @@
+Twój nowy adres e-mail został zweryfikowany i aktywowany.

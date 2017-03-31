@@ -1,0 +1,1 @@
+Du kan begära uttag med följande metoderna som finns tillgängliga för dig

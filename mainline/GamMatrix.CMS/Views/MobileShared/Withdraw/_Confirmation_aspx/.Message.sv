@@ -1,0 +1,1 @@
+Vi ber om ursäkt men du är inte berättigad att göra en annullering just nu. Vänligen <a href="/ContactUs">kontakt support</a>för mer information.

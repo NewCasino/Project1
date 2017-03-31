@@ -1,0 +1,1 @@
+﻿/game/gamerules.jsp?game=deuceswild10&lang=nl

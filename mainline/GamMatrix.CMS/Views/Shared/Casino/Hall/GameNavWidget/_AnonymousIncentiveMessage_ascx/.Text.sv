@@ -1,0 +1,1 @@
+Om du vill lägga till spel i din Favoriter-lista, måste du ha ett konto hos oss. Fördelen med ett konto innefattar att spela spel och vinna riktiga pengar, att dina egna personliga inställningar är sparade och möjligheten att spela alla dina favoritspel på din mobilenhet, med dina egna inställningar.

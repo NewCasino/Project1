@@ -1,0 +1,74 @@
+﻿<ol>
+
+    <li> <strong>Miten talletan rahaa  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Casinoon?</strong> 
+        <p>
+            Casino-saldo on eristetty  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] päätilistäsi mahdollistaakseen sinulle helpon yleiskuvan; varoja siirretään helposti näiden kahden välillä käyttämällä 'Siirrä' %nbsp; -ominaisuutta, joka on aina käytettävissä kun olet kirjautunut sisään.
+        </p>
+    </li>
+
+    <li> <strong>Kuinka reiluja ovat sivujen pelit?</strong>
+        <p>
+            Haluamme vakuuttaa teille, että sivulla käytettävät algoritmit jakavat kortteja täysin satunnaisesti. Pelimme ovat kehitetty käyttäen Sun Microsystemsin Java SecureRandom-toimintoa. Satunnaislukugeneraattorin ja pelikorttien uudelleen järjestelyn on suunnitellut matematiikan tohtori. Jaoissa käyttämämme satunnaistamisohjelmisto on perusteellisesti tutkittu eikä ilmaise mitään poikkeamia tai ennustettavuutta ja on myös eCOGRAn hyväksymä. 
+        </p>
+    </li>
+
+    <li>
+        <strong>Mitä tapahtuu, jos peli keskeytyy kesken kierroksen?</strong> 
+        <p>
+            Kunkin pelin tila tallentuu automaattisesti järjestelmän tietokantaan. Näin varmistetaan, että pelaajan viimeiseksi näkemä pelitila palautuu aina kun peli jatkuu järjestelmästä, internetistä, palvelimesta tai asiakkaasta johtuvan keskeytyksen vuoksi.
+        </p>
+    </li>
+
+    <li>
+        <strong>Kuinka monta pakkaa on Blackjackissa?</strong>
+        <p>Blackjackissamme käytetään 4 ja 6 pakkaa.</p>
+    </li>
+
+    <li>
+        <strong>Mistä löydän pelien yksityiskohtaiset ohjeet?</strong>
+        <p>
+            Jokaisesssa pelissämme on 'pelisäännöt' pelin omalla sivulla.
+        </p>
+    </li>
+
+    <li>
+        <strong>Mitkä ovat verkkosivun keskimääräiset maksut?</strong>
+        <p>
+            Maksut vaihtelevat pelistä toiseen ja ajan mittaan, mutta teoriassa maksu on noin 97 %. Pelien maksut ovat kirjoitettu lähdekoodiin emmekä muuta niiä.
+        </p>
+    </li>
+
+    <li>
+        <strong>Voinko kokeilla pelejä ilmaiseksi? </strong>
+        <p>
+            Kyllä, voit pelata kaikkia pelejä ilmaiseksi, jos valitsit 'Huvitilan'.
+        </p>
+    </li>
+
+    <li>
+        <strong>Voinko poistaa vedon sen jälkeen&nbsp; kun olen sen jo lyönyt?</strong>
+        <p>
+            Tämä on mahdollista ennen pelin alkamista, mutta sen alettua et voi enää muuttaa &nbsp; tai alentaa mitään vetoa.
+        </p>
+    </li>
+
+    <li>
+        <strong>Mitä tapahtuu, jos yhteyteni katkeaa kesken pelin? </strong>
+        <p>
+            Peli jatkuu siitä tilanteesta mihin se jäi, kun kirjaudut sisään ja avaat pelin uudelleen. Kolikkopelit, jotka pyörivät katkon aikana, jatkavat loppuun vaikka yhteys katkeaisi.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

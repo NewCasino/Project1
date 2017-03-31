@@ -1,0 +1,1 @@
+Potrditvena koda mora vsebovati 6 števk.

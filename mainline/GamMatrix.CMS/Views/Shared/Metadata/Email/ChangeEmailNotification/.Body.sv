@@ -1,0 +1,3 @@
+﻿<p>Du har begärt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ändring av din e-postadress. Ett verifieringsmeddelande har skickats till din nya e-postadress($EMAIL$).</p>
+<p>Om du inte har begärt ändring av din e-postadress, meddela oss omedelbart på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Vänliga hälsningar, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundtjänstteamet</p>

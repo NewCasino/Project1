@@ -1,0 +1,4 @@
+﻿.CasinoGameOverlay{background-color: black;background-position: center center;background-repeat: no-repeat;background-size: 100% auto;cursor: progress;display: block;height: 100%;left: 0;position: fixed;top: 0;width: 100%;z-index: 99999;}
+.CasinoGameOverlay .Wrapper1 {float: left;left: 50%;position: relative;}
+.CasinoGameOverlay .Wrapper2 {float: left;left: -50%;position: relative;}
+.CasinoGameOverlay .PopupContainer {display: inline-block;margin: 10px;}

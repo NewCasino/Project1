@@ -1,0 +1,1 @@
+Poprzednia gra

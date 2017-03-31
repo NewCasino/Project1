@@ -1,0 +1,1 @@
+Če e-poštnega sporočila ne prejmete kmalu, preverite, ali je bilo morda shranjeno v mapo za neželeno pošto.

@@ -1,0 +1,2 @@
+﻿En este momento no puede realizar depósitos porque su cuenta está inactiva.
+Un email de activación ha sido enviado a su dirección de correo utilizada al momento de su registro. Haga clic en el enlace de activación para activar su cuenta. Si no recibe el email de activación contáctenos a <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.

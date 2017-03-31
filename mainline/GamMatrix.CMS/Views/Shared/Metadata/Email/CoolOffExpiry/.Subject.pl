@@ -1,0 +1,1 @@
+﻿[Metadata:value(/Metadata/Settings.Operator_DisplayName)], Upłynął okres odpoczynku

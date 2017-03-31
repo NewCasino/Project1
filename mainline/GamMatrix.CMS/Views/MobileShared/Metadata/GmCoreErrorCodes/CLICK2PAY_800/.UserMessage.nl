@@ -1,0 +1,1 @@
+﻿Er is een probleem met uw CLICK2PAY account. Neem contact op met het service centre op service@click2pay.com.

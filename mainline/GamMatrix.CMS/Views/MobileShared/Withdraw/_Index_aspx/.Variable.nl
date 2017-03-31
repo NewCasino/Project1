@@ -1,0 +1,1 @@
+﻿Veranderlijke grootheid

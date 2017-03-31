@@ -1,0 +1,1 @@
+Za nakazilo denarja se morate prijaviti.

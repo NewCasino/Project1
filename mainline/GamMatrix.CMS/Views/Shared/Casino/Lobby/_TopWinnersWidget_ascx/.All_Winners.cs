@@ -1,0 +1,1 @@
+﻿Všichni vítězové

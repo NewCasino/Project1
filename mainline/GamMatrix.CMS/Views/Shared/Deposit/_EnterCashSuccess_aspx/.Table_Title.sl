@@ -1,0 +1,1 @@
+Nakazilo izvedite v skladu z informacijami, ki so navedene spodaj.

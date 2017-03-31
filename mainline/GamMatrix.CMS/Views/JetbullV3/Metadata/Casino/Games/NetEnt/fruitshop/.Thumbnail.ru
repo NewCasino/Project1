@@ -1,0 +1,1 @@
+﻿<img src="/Views/Shared/_files/Casino/NetEnt/fruitshop.jpg" />

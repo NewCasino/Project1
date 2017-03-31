@@ -1,0 +1,1 @@
+﻿Zamýšlená herní hodnota

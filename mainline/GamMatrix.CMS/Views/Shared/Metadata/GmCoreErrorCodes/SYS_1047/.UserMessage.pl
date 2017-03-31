@@ -1,0 +1,1 @@
+﻿Naruszenie zasady wyłącznego powiązania ClickandBuy z jednym kontem

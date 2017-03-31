@@ -1,0 +1,1 @@
+Oblika zapisa v tem polju je neveljavna.

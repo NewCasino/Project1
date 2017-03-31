@@ -1,0 +1,1 @@
+Giltig fr.o.m.

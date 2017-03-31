@@ -1,0 +1,1 @@
+Skupaj točk FPP: 

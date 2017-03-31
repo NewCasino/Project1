@@ -1,0 +1,1 @@
+Det är ett säkert och bekvämt sätt att spendera pengar online.

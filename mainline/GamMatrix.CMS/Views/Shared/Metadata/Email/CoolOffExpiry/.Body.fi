@@ -1,0 +1,12 @@
+﻿<p>Hyvä $FIRSTNAME$,</p>
+<br />
+<p>Tilin nimi:  $USERNAME$ </p>
+<br />
+Tämä sähköposti vahvistaa, että harkinta-aika on päättynyt ja kaikki tilisi ominaisuudet ovat jälleen käytössä.
+<br />
+<br />
+Jos sinulla on kysymyksiä, älä epäröi ottaa yhteyttä. 
+<a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>Ystävällisin terveisin, </p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] Asiakastuki</p>

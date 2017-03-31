@@ -1,0 +1,1 @@
+Du måste aktivera ditt konto först innan du kan spela i riktiga pengar-läge!

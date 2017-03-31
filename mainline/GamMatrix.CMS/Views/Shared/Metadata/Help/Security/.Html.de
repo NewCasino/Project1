@@ -1,0 +1,46 @@
+﻿<ol>
+
+    <li> <strong>Wo hat Ihre Website ihren Sitz?</strong>
+        <p>Unsere Website hat ihren Sitz in Malta..</p>
+    </li>
+
+    <li> <strong>Ist Ihre Website offiziell zugelassen?</strong>
+        <p>
+            YJa, wir verfügen über eine gültige EU-Lizenz für Sportwetten, Casinos und Poker.
+        </p>
+    </li>
+
+    <li>
+        <strong>Wie sicher sind meine Kreditkartendaten?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] setzt die fortschrittlichsten Datenverschlüsselungstechniken ein, um zu garantieren, dass Ihre Daten nur ausgewählten Wenigen innerhalb der [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Unternehmensgruppe verfügbar sind. Wir verschlüsseln alle Ihre Daten mithilfe der international anerkannten Standards der SSL-Verschlüsselungsalgorithmen. Das bedeutet, dass Ihre zwischen Ihnen und uns übermittelten Daten, von Ihrer Adresse bis hin zu den Karten, die Ihnen bei einem Spiel ausgeteilt werden, mit demselben Sicherheitsgrad geschützt sind, den auch eine Bank einsetzen würde..
+        </p>
+    </li>
+
+    <li>
+        <strong>Woher weiß ich, dass meine Finanzinformationen bei Ihnen sicher sind?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] verschlüsselt alle Ihre Daten mithilfe der international anerkannten Standards der SSL-Verschlüsselungsalgorithmen. Das bedeutet, dass die von Ihnen übermittelten Daten, von Ihrer Adresse bis hin zu den Karten, die Ihnen bei einem Spiel ausgeteilt werden, mit demselben Sicherheitsgrad geschützt sind, den auch eine Bank einsetzen würde.
+        </p>
+    </li>
+
+    <li>
+        <strong>Woher weiß ich, dass mein Geld bei Ihnen sicher ist?</strong>
+        <p>
+            Alle Kundengelder liegen auf separaten Treuhänderkonten der Bank of Valletta. Dies entspricht den Vorschriften unserer Aufsichtsbehörde, der Malta Gaming Authority, die uns lizenziert hat. Die Kundengelder werden von den Unternehmensgeldern vollständig getrennt gehalten und liegen auf sicheren Treuhandkonten. Auf diese Weise gewährleisten wir die Sicherheit der Kundengelder und sorgen dafür, dass Ihr Geld Ihnen jederzeit zur Verfügung steht.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

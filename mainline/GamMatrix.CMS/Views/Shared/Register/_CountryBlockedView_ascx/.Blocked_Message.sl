@@ -1,0 +1,1 @@
+Žal se skušate prijaviti iz države, iz katere stav trenutno ne sprejemamo. Registracije ne boste mogli nadaljevati.

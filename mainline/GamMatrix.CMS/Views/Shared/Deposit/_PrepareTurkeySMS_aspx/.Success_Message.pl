@@ -1,0 +1,1 @@
+Dziękujemy, Twoja prośba zostanie przetworzone najszybciej jak to możliwe.

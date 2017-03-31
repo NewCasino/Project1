@@ -1,0 +1,3 @@
+﻿<p>Estimado/a $USERNAME$, <br /> <br /> Gracias por contactar [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Este correo electrónico es para confirmar que ha&nbsp;cambiado su límite de pérdida personal&nbsp;de $LIMITAMOUNT$ $LIMITPERIOD$ a $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. El nuevo límite será activado&nbsp;en $LIMITEXPIRYDATE$. <br /> <br /> Por favor no dudes en contáctarnos si tiene preguntas <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br />Cordialmente</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Equipo de soporte al cliente</p>

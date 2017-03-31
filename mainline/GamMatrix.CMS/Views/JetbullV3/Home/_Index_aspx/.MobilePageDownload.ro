@@ -1,0 +1,28 @@
+﻿<div class="Box MobileDownload Container">
+  <h2 class="BoxTitle MobileDownloadTitle">
+    <span class="TitleIcon">&para;</span>
+    <strong class="TitleText">Aplicatii Mobile Jetbull</strong>
+  </h2>
+  <ul class="MobileDownloadContent">
+    <li class="MobileLI MobileIOS">
+      <a class="Button MobileButton" href="/Mobile/home?QR=iOS" title="Descarca aplicatia pentru iPhone sau iPad">
+        <span class="ButtonText">
+          <span class="ButtonIcon">&nbsp;</span>iOS
+        </span>
+      </a>
+      <div id="mobileqr-ios" class="MobileBigQR Container">
+        <img width="200" height="200" alt="itms-services://?action=download-manifest&amp;;;;url=http://cdn.everymatrix.com/_download/manifest.plist" src="//cdn.everymatrix.com/JetbullV2/img/qr-mobile.png" class="QR QRiOS">
+			</div>
+    </li>
+    <li class="MobileLI MobileAndroid">
+      <a class="Button MobileButton" href="/Mobile/home?QR=Android" title="Descarca Aplicatia pentru Android">
+        <span class="ButtonText">
+          <span class="ButtonIcon">&nbsp;</span>Android
+        </span>
+      </a>
+      <div id="mobileqr-android" class="MobileBigQR Container">
+        <img width="200" height="200" alt="http://cdn.everymatrix.com/_download/jetbull.apk" src="//cdn.everymatrix.com/JetbullV2/img/qr-android.png" class="QR QRAndroid">
+			</div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,1 @@
+Verifikationsmeddelandet har skickats till din nya e-postadress, kontrollera din inkorg och aktivera din nya e-postadress.

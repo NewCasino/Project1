@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <node id="ROULETTE" type="category" label="Roulette" isBranch="true">
+    <node label="Authentic Roulette Original" type="" vendor="Authentic" id="9524064553" categories="ROULETTE" platforms="PC" />
+    <node label="Authentic Roulette Superieur" type="" vendor="Authentic" id="9588043164" categories="ROULETTE" platforms="PC" />
+    <node label="Authentic Roulette Professional" type="" vendor="Authentic" id="9587063713" categories="ROULETTE" platforms="PC" />
+    <node label="Tombala" type="" vendor="Tombala" id="9553062904" categories="" platforms="PC,iPad,PC,PC,PC,PC" />
+    <node label="Turkish Roulette" type="" vendor="EvolutionGaming" id="8345068466" categories="ROULETTE" platforms="PC" />
+    <node label="French Auto Roulette" type="" vendor="NetEnt" id="8456001005" categories="ROULETTE" platforms="PC" />
+    <node label="Roulette Dragonara" type="" vendor="EvolutionGaming" id="8345079307" categories="ROULETTE" platforms="PC" />
+    <node label="Live Roulette" type="" vendor="EvolutionGaming" id="8262060160" categories="BACCARAT" platforms="PC,iPad,iPhone" />
+    <node label="Immersive Roulette" type="" vendor="EvolutionGaming" id="8510079294" categories="ROULETTE" platforms="PC" />
+    <node label="Auto Roulette" type="" vendor="EvolutionGaming" id="8345001034" categories="ROULETTE" platforms="PC" />
+    <node label="French Roulette" type="" vendor="EvolutionGaming" id="8345024928" categories="ROULETTE" platforms="PC" />
+    <node label="European Roulette" type="" vendor="EvolutionGaming" id="8345076454" categories="ROULETTE" platforms="PC" />
+    <node label="European Roulette VIP" type="" vendor="EvolutionGaming" id="8345029137" categories="ROULETTE" platforms="PC" />
+    <node label="Live Roulette4" type="" vendor="EvolutionGaming" id="8262010125" categories="BACCARAT" platforms="PC" />
+    <node label="Auto Roulette" type="" vendor="XProGaming" id="8329059547" categories="ROULETTE" platforms="PC" />
+    <node label="Europe Live 1" type="" vendor="XProGaming" id="8348006307" categories="ROULETTE" platforms="PC" />
+    <node label="Europe Live 2" type="" vendor="XProGaming" id="8328062148" categories="ROULETTE" platforms="PC" />
+    <node label="Dragon Roulette" type="" vendor="XProGaming" id="8613057978" categories="ROULETTE" platforms="PC" />
+    <node label="Live Roulette" type="" vendor="EvolutionGaming" id="0" categories="BACCARAT" platforms="PC" />
+    <node label="Live Roulette" type="" vendor="EvolutionGaming" id="8262082413" categories="" platforms="PC" />
+    <node label="French Roulette" type="" vendor="NetEnt" id="8458000003" categories="ROULETTE" platforms="PC" />
+    <node label="French Auto Roulette La Partage" type="" vendor="NetEnt" id="8457001004" categories="ROULETTE" platforms="PC" />
+    <node label="French Roulette La Partage II" type="" vendor="NetEnt" id="8459000002" categories="ROULETTE" platforms="PC" />
+    <node label="French Roulette II" type="" vendor="NetEnt" id="8458000002" categories="ROULETTE" platforms="PC" />
+    <node label="French Roulette La Partage" type="" vendor="NetEnt" id="8459000003" categories="ROULETTE" platforms="PC" />
+    <node label="French Auto Roulette" type="" vendor="NetEnt" id="8456001004" categories="ROULETTE" platforms="PC" />
+    <node label="Roulette" type="" vendor="NetEnt" id="8460000003" categories="ROULETTE" platforms="PC" />
+    <node label="Roulette II" type="" vendor="NetEnt" id="8460000002" categories="ROULETTE" platforms="PC" />
+    <node label="Roulette La Partage" type="" vendor="NetEnt" id="8461000003" categories="ROULETTE" platforms="PC" />
+    <node label="Auto Roulette La Partage" type="" vendor="NetEnt" id="8455001004" categories="ROULETTE" platforms="PC" />
+    <node label="Roulette La Partage II" type="" vendor="NetEnt" id="8461000002" categories="ROULETTE" platforms="PC" />
+    <node label="Auto Roulette" type="" vendor="NetEnt" id="8454001004" categories="ROULETTE" platforms="PC" />
+    <node label="LiveCasino Auto Roulette La Partage" type="" vendor="NetEnt" id="8315001003" categories="ROULETTE" platforms="PC" />
+    <node label="LiveCasino Auto Roulette" type="" vendor="NetEnt" id="8314001003" categories="ROULETTE" platforms="PC" />
+    <node label="Roulette" type="" vendor="Ezugi" id="8682034337" categories="ROULETTE" platforms="PC" />
+    <node label="Roulette" type="" vendor="Ezugi" id="8682034337" categories="ROULETTE" platforms="PC" />
+  </node>
+  <node id="BLACKJACK" type="category" label="Blackjack" isBranch="true">
+    <node label="Turkce Blackjack" type="" vendor="XProGaming" id="8336000020" categories="BLACKJACK" platforms="PC" />
+    <node label="Turkce Blackjack 2" type="" vendor="XProGaming" id="8339001121" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack H" type="" vendor="EvolutionGaming" id="8279087936" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP F" type="" vendor="EvolutionGaming" id="8342012801" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP B" type="" vendor="EvolutionGaming" id="8342088051" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack D" type="" vendor="EvolutionGaming" id="8342038802" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack A" type="" vendor="EvolutionGaming" id="8342017133" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack B" type="" vendor="EvolutionGaming" id="8342065746" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack Platinum VIP" type="" vendor="EvolutionGaming" id="8342001672" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP G" type="" vendor="EvolutionGaming" id="8342070267" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack E" type="" vendor="EvolutionGaming" id="8342044795" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP E" type="" vendor="EvolutionGaming" id="8342041760" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP D" type="" vendor="EvolutionGaming" id="8342088111" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP C" type="" vendor="EvolutionGaming" id="8342057929" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack C" type="" vendor="EvolutionGaming" id="8342069622" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack G" type="" vendor="EvolutionGaming" id="8342091596" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack H" type="" vendor="EvolutionGaming" id="8342090226" categories="BLACKJACK" platforms="PC" />
+    <node label="High Blackjack" type="" vendor="XProGaming" id="8333001120" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack 1" type="" vendor="XProGaming" id="8347001119" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack 2" type="" vendor="XProGaming" id="8331001121" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack 3" type="" vendor="XProGaming" id="8332001121" categories="BLACKJACK" platforms="PC" />
+    <node label="BlackJack 4" type="" vendor="XProGaming" id="8334001122" categories="BLACKJACK" platforms="PC" />
+    <node label="BlackJack 5" type="" vendor="XProGaming" id="8335001122" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack VIP A" type="" vendor="EvolutionGaming" id="8342093186" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack F" type="" vendor="EvolutionGaming" id="8279029542" categories="BACCARAT" platforms="PC" />
+    <node label="Blackjack B" type="" vendor="EvolutionGaming" id="8279071870" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack 6" type="" vendor="XProGaming" id="8614001122" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack A" type="" vendor="EvolutionGaming" id="8279019537" categories="BLACKJACK" platforms="PC" />
+    <node label="blackjack" type="" vendor="EvolutionGaming" id="8279001963" categories="" platforms="iPad,iPhone" />
+    <node label="Blackjack E" type="" vendor="EvolutionGaming" id="8279083541" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack Multiplayer Common Draw" type="" vendor="NetEnt" id="8441000104" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack Multiplayer Common Draw" type="" vendor="NetEnt" id="8317000101" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack" type="" vendor="Ezugi" id="8680020120" categories="BLACKJACK" platforms="PC" />
+    <node label="Blackjack" type="" vendor="Ezugi" id="8680020120" categories="BLACKJACK" platforms="PC" />
+  </node>
+  <node id="BACCARAT" type="category" label="Baccarat" isBranch="true" />
+  <node id="HOLDEM" type="category" label="Hold`em" isBranch="true" />
+  <node id="POKER" type="category" label="Poker" isBranch="true">
+    <node label="Caribbean Poker" type="" vendor="XProGaming" id="8618058512" categories="Poker" platforms="PC" />
+    <node label="Bet on Poker" type="" vendor="BetGames" id="8687095740" categories="Lottery" platforms="PC" />
+  </node>
+  <node id="SICBO" type="category" label="Sic Bo" isBranch="true" />
+  <node id="SinglePlayerPoker" type="category" label="Live Poker" isBranch="true" />
+  <node id="LOTTERY" type="category" label="Lottery" isBranch="true">
+    <node label="6 out of 49" type="" vendor="Ezugi" id="8683038478" categories="Lottery" platforms="PC" />
+    <node label="Wheel of Fortune" type="" vendor="BetGames" id="9204076879" categories="Lottery" platforms="PC" />
+    <node label="Bet on Poker" type="" vendor="BetGames" id="8687095740" categories="Lottery" platforms="PC" />
+  </node>
+  <node id="Other" type="category" label="Other" isBranch="true">
+    <node label="Casino Hold'em" type="" vendor="EvolutionGaming" id="8340067024" categories="HOLDEM" platforms="PC" />
+    <node label="Casino Live Hold'em" type="" vendor="XProGaming" id="8327017442" categories="HOLDEM" platforms="PC" />
+    <node label="Live Baccarat 1" type="" vendor="XProGaming" id="8346089984" categories="BACCARAT" platforms="PC" />
+    <node label="PokerPlus" type="" vendor="PokerKlas" id="9552" categories="POKER" platforms="PC" />
+    <node label="Sic Bo 1" type="" vendor="XProGaming" id="8617000350" categories="SICBO" platforms="PC" />
+    <node label="Live Sic Bo 1" type="" vendor="XProGaming" id="8617020958" categories="SICBO" platforms="PC" />
+    <node label="holdem" type="" vendor="EvolutionGaming" id="8276000414" categories="HOLDEM" platforms="PC" />
+  </node>
+</root>

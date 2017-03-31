@@ -1,0 +1,7 @@
+﻿Hi <p> $FIRSTNAME$, </P>
+Благодарим Ви за регистрацията <p> с [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], сметката ви ($username$) е създадена и за да можете да го използвате трябва да активирате профила си </P>.
+<p> да активирате профила си, моля кликнете на линка по-долу, ако тя не реагира, опитайте да копирате и поставите в браузъра си. </P>
+Activelink <p> <a href="$ACTIVELINK$"> $ACTIVELINK$ </A> </P>
+<p> Ако не сте се регистрирали с [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], не обръщайте внимание на този имейл или информира <а
+Благодарим Ви за регистрацията <p> с [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </P>
+С уважение <p> <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] екипа </P>

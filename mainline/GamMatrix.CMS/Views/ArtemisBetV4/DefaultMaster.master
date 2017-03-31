@@ -1,0 +1,565 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" PageTemplate="/RootMaster.master" Title="<%$ Metadata:value(.Title)%>" %>
+
+<%@ Import Namespace="CasinoEngine" %>
+<%@ Import Namespace="GamMatrixAPI" %>
+
+<%@ Import Namespace="System.Globalization" %>
+
+<script type="text/C#" runat="server">
+    protected bool IsAffiliates() {
+        if (Request.Url.PathAndQuery.Length > 9 && Request.Url.PathAndQuery.ToLower().IndexOf("ffiliates") > 0) {
+            return true;
+        }
+        return false;
+    }
+    private string GetJosonForLOTTERY() {
+        StringBuilder json1 = new StringBuilder();
+        StringBuilder json2 = new StringBuilder();
+        List<KeyValuePair<string, List<LiveCasinoTable>>> categories = GameMgr.GetLiveCasinoTables(SiteManager.Current).Where(n => n.Key.Equals("LOTTERY", StringComparison.InvariantCultureIgnoreCase)).ToList();
+        if (categories != null) {
+            json1.Append("[");
+            foreach (KeyValuePair<string, List<LiveCasinoTable>> category in categories) {
+                foreach (LiveCasinoTable table in category.Value) {
+                    string limitVal = table.GetLimit(Profile.UserCurrency.DefaultIfNullOrEmpty("EUR")).SafeJavascriptStringEncode();
+                    if (!string.IsNullOrEmpty(limitVal)) {
+                        Regex regex = new Regex(@"^(\D)+ (\d|\.)+ - (\d)+$");
+                        Match m = regex.Match(limitVal);
+                        if (m.Success) {
+                            int limitValI = 0;
+                            string limitValT = limitVal.Substring((limitVal.IndexOf("-")) + 1, (limitVal.Length - limitVal.IndexOf("-")) - 1);
+                            if (int.TryParse(limitValT.Replace(" ", ""), out limitValI)) {
+                                limitValT = limitValI.ToString("N");
+                                limitVal = string.Format("{0} {1}",
+                                    limitVal.Substring(0, limitVal.IndexOf("-") + 1),
+                                    (limitValT.IndexOf(",00") > 0 && limitValT.Substring(limitValT.Length - 3, 3).Equals(",00"))
+                                        ? limitValI.ToString("N").Split(',')[0].Replace('.', ',') : limitValI.ToString("N").Split('.')[0]
+                                    );
+                            }
+                        }
+                    }
+                    StringBuilder json = table.IsOpened ? json1 : json2;
+                    json.AppendFormat(CultureInfo.InvariantCulture
+                        , "{{\"ID\":{0},\"P\":{1},\"V\":\"{2}\",\"G\":\"{3}\",\"I\":\"{4}\",\"F\":{5},\"R\":{6},\"S\":\"{7}\",\"N\":{8},\"T\":{9},\"H\":{10},\"O\":{11},\"C\":\"{12}\",\"Opened\":{13},\"Limit\":\"{14}\",\"OpeningHours\":\"{15}\",\"VIP\":\"{16}\",\"NewTable\":\"{17}\",\"TurkishTable\":\"{18}\"}},"
+                        , table.ID
+                        , Math.Min(table.Popularity, 9007199254740991)
+                        , table.VendorID.ToString()
+                        , table.Name.SafeJavascriptStringEncode()
+                        , table.ThumbnailUrl.SafeJavascriptStringEncode()
+                        , (Profile.IsAuthenticated ? table.IsFunModeEnabled : table.IsAnonymousFunModeEnabled) ? "1" : "0"
+                        , (Profile.IsAuthenticated && table.IsRealMoneyModeEnabled) ? "1" : "0"
+                        , table.Slug.DefaultIfNullOrEmpty(table.ID.ToString()).SafeJavascriptStringEncode()
+                        , table.IsNewGame ? "1" : "0"
+                        , "0"
+                        , "0"
+                        , table.FPP >= 1.00M ? "1" : "0"
+                        , category.Key.SafeJavascriptStringEncode()
+                        , table.IsOpened.ToString().ToLowerInvariant()
+                        , limitVal
+                        , table.OpeningHours.SafeJavascriptStringEncode()
+                        , table.IsVIPTable ? "1" : "0"
+                        , table.IsNewTable ? "1" : "0"
+                        , table.IsTurkishTable ? "1" : "0"
+                        );
+                }
+            }
+            if (json2.Length > 0) {
+                json2.Remove(json2.Length - 1, 1);
+                json1.Append(json2.ToString());
+            }
+            else if (json1[json1.Length - 1] == ',')
+                json1.Remove(json1.Length - 1, 1);
+            json1.Append("]");
+        }
+        return json1.ToString();
+    }
+    protected override void OnPreRender(EventArgs e)
+    {
+        base.OnPreRender(e);
+        //string scri2 = String.Format("<script type=\"text/javascript\" src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js\"><","/script>");
+        //this.Page.Header.Controls.AddAt(0, new   LiteralControl(scri2)); 
+        string scri = String.Format("<script type=\"text/javascript\">Function.prototype.originalBind = Function.prototype.bind{0}{1}",";<","/script>");
+        this.Page.Header.Controls.AddAt(0, new   LiteralControl(scri)); 
+    }
+</script>
+
+<asp:content contentplaceholderid="cphHead" runat="Server">
+    <asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+
+    <!-- Meta Icons and information @TODO -->
+
+
+</asp:content>
+<asp:content contentplaceholderid="cphMain" runat="Server">
+
+<% Html.RenderPartial("/Head/PopUp", this.ViewData.Merge(new { })); %>
+
+
+<div id="container" class="Container">
+    <header id="header" class="Header">
+        <div class="topbar">
+            <%=this.GetMetadata(".LoginMenuButton_Html")%>
+            <div class="login_panel <%= Profile.IsAuthenticated  ? "LoggedUser" :"" %>">                  
+                <div class="RightMenus <%= Profile.IsAuthenticated  ? "HeaderMenus" :"" %>">
+                <% if (!Profile.IsAuthenticated){%>
+                    <div id="login-box">
+                        <%: Html.CachedPartial("/Head/SignUp", this.ViewData.Merge()) %>
+                        <%= this.GetMetadata(".Login") %>
+                    </div>
+                <% } %>
+                    <div class="languages"><% Html.RenderPartial("/Head/LanguageDropDownList", this.ViewData.Merge(new { })); %></div>
+                    <div class="helplinks">
+                        <a class="helplink" href="javascript:void(0);"><%=this.GetMetadata(".Help_Text")%></a>
+                    </div>
+                    <% if (Profile.IsAuthenticated) { %>
+                        <div class="AccountBox">
+                            <a class="Button AccountLink ToggleAccountMenu" id="ToggleAccountMenu" href="javascript:void(0);">
+                                <span class="AccTogBtnText"><%=this.GetMetadata("/Head/_MyAccount_ascx.BUTTON_TEXT") %></span>
+                            </a>
+                        </div>
+                        <div class="DepositButtonHead">
+                            <a class="Button AccountLink" href="/deposit" title="<%=this.GetMetadata(".DepositTitle")%>"><%=this.GetMetadata(".Deposit")%></a>
+                        </div>
+                        <div class="BalanceMenu">
+                            <ul id="balance-list" class="WalletMenu"></ul>
+                        </div>
+                    <% } %>
+                </div>
+            </div>
+            <div class="links"><%=this.GetMetadata(".topLinks_Html")%></div>
+        </div>
+        <div class="wrapper mainheader">
+            <div class="logo HeaderTitle">
+                <%=this.GetMetadata(".Logo")%>
+            </div>
+            <%=this.GetMetadata(".LiveChat")%>
+            <%=this.GetMetadata(".SocialMedia").HtmlEncodeSpecialCharactors() %>
+        </div>
+        <% Html.RenderPartial("/Head/TopMenu", this.ViewData.Merge(new { })); %>
+        <%=this.GetMetadata(".HeadSecondaryZone").HtmlEncodeSpecialCharactors() %>
+        
+    </header>
+    <% Html.RenderPartial("/Head/TopContent", this.ViewData.Merge(new {@MetaPath = "/Metadata/TopContent/" })); %>
+    <div class="content">
+        <asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+    </div>
+
+    <div class="BottomSection">
+        <div class="BottomWrapper">
+<!--
+        <div class="topbar">
+            <%=this.GetMetadata(".LoginMenuButton_Html")%>
+            <div class="login_panel <%= Profile.IsAuthenticated  ? "LoggedUser" :"" %>">                  
+                <div class="RightMenus <%= Profile.IsAuthenticated  ? "HeaderMenus" :"" %>">
+                <% if (!Profile.IsAuthenticated){%>
+                    <div id="login-box">
+                        <%: Html.CachedPartial("/Head/SignUp", this.ViewData.Merge()) %>
+                        <%= this.GetMetadata(".Login") %>
+                    </div>
+                <% } %>
+                    <% if (Profile.IsAuthenticated) { %>
+                        <div class="AccountBox">
+                            <a class="Button AccountLink ToggleAccountMenu" id="ToggleAccountMenu" href="javascript:void(0);">
+                                <span class="AccTogBtnText"><%=this.GetMetadata("/Head/_MyAccount_ascx.BUTTON_TEXT") %></span>
+                            </a>
+                        </div>
+                    <% } %>
+                </div>
+            </div>
+            <div class="links"><%=this.GetMetadata(".topLinks_Html")%></div>
+        </div>
+-->
+            <div class="wrapper mainheader">
+                <div class="logo HeaderTitle">
+                    <%=this.GetMetadata(".Logo")%>
+                </div>
+            </div>
+            <% Html.RenderPartial("/Head/TopMenu", this.ViewData.Merge(new { })); %>
+        </div>
+    </div>
+    <footer id="footer" class="footer">
+        <%= this.GetMetadata("/Metadata/Footer.Html").HtmlEncodeSpecialCharactors() %>
+    </footer>
+</div>
+
+<% if (Profile.IsAuthenticated) { %>
+
+    <div class="balance-list">
+        <%: Html.CachedPartial("/Head/BalanceList2", this.ViewData.Merge(new { ColumnCount = "3" })) %>            
+        <%: Html.CachedPartial("/Head/RefreshBalance", this.ViewData) %>
+    </div>
+
+    <div class="account-list">
+        <ul id="MyAccount-links" class="AccountMenu account-links">
+            <li class="account-link Userprofile">
+                <%=string.Format(this.GetMetadata("./Head/_MyAccount_ascx.Text"),Profile.FirstName ) %>    
+            </li>
+            <li class="account-link profilelink">
+                <a title="Profile" class="ProfileLink" href="/Profile"><span class="ButtonText AccountBTNText"> <%=this.GetMetadata(".Profile_Text") %> </span></a>
+            </li>
+     
+            <li class="account-link transferlink">
+                <a title="Withdraw" class="WithdrawLink" href="/Withdraw"><span class="ButtonText AccountBTNText"><%=this.GetMetadata("/Head/_Withdraw_ascx.BUTTON_TEXT") %></span></a>
+            </li>
+
+            <li class="account-link switchTheme">
+                <a href="javascript:void(0);" title="<%=this.GetMetadata(".SwitchThemeTitle")%>" class="SwitchThemeButton"><span class="ButtonText AccountBTNText"><%=this.GetMetadata(".SwitchTheme")%></span></a>
+            </li>
+
+            <!--li class="account-link bettinghistorylink">
+                <a title="Betting History" class="BettingHistoryLink" href="/sports/livebetting"><span class="ButtonText AccountBTNText"><%=this.GetMetadata(".BettingHistory_TEXT") %></span></a>
+            </li--> 
+    
+            <li class="account-link transferlink">
+                 <a title="Transfer" class="TransferLink" href="/Transfer"><span class="ButtonText AccountBTNText"><%=this.GetMetadata("/Head/_Transfer_ascx.BUTTON_TEXT") %></span></a>
+            </li>
+            <li class="account-link logoutlink">
+                <a title="Log out" class="LogoutLink" href="/Login/SignOut?returnUrl=/"><span class="ButtonText AccountBTNText"><%=this.GetMetadata(".Logout_TEXT") %></span></a>
+            </li> 
+
+        </ul>
+    </div>
+
+<% } %>
+
+<ul class="h-links <%=IsAffiliates() ? "aff-links" : "" %>" id="h-links" style="display:none;">
+    <% foreach (string path in Metadata.GetChildrenPaths(IsAffiliates() ? "/Head/AffiliateHelpLinkItems" : "/Head/TabsLinkItems")) {%>
+        <li class="h-link <%=this.GetMetadata(path+".CssClass").SafeHtmlEncode()%>">
+            <a href="<%=this.GetMetadata(path+".Url").SafeHtmlEncode().DefaultIfNullOrEmpty("javascript:void(0)")%>" <%=!string.IsNullOrEmpty(this.GetMetadata(path+".Target").SafeHtmlEncode()) ? " target='" + this.GetMetadata(path+".Target").SafeHtmlEncode() + "' " : ""%>>
+                <%=this.GetMetadata(path+".Text").SafeHtmlEncode() %>
+            </a>
+        </li>
+    <% } %>
+</ul> 
+
+<% if (Settings.SafeParseBoolString(Metadata.Get("Metadata/Promotion_Popup.Enable_PromotionPopup"), false)) { %>
+
+    <div class="PromoOverlay" id="overlay">
+        <div class="popup_promotion" style="display:none">
+            <a class="ClosePopup ClosePromotion" href="#" title="Close this dialog">
+                <span class="icon"></span>
+            </a>
+            <iframe id="ifm_popup_promotion" name="ifm_popup_promotion" frameborder="0" scrolling="no" allowTransparency="true" src="/PromotionsPopup/" style="width:100%;height:100%;background:none;"></iframe>
+        </div>
+    </div>
+
+    <input type="hidden" id="cphMain_cmSession" value="<%=Profile.SessionID %>" />
+
+    <ui:MinifiedJavascriptControl runat="server" AppendToPageEnd="true">
+        <script type="text/javascript">
+            $(function() {
+                var PromotionPopup = function() {
+                    var adjustPopup = function () {
+                        $(".popup_promotion,#overlay").css("display","block");   
+                        var popupoffsetx = ($(top.window).width() - $(".popup_promotion").width())/2;
+                        var popupoffsety = ($(top.window).height() - $(".popup_promotion").height())/2;
+                        $(".popup_promotion").css({ left:popupoffsetx}).css({ top:popupoffsety});
+                        var closebottomTop = $(".popup_promotion").offset().top - 10 + "px";
+                        var closebottomLeft = $(".popup_promotion").offset().left + $(".popup_promotion").width() - 15;
+                        $(".ClosePromotion").css({ left:closebottomLeft, top:closebottomTop });   
+                          
+                    };
+        
+                    var init = function () {
+                        var docHeight = $(document).height();
+                        $('#overlay').attr("style","height:" + docHeight + "px;");
+                        var isLoggedIn = <%= this.Profile.IsAuthenticated.ToString().ToLowerInvariant() %>;  
+                    if( !isLoggedIn ){
+                        if($.cookie("loadpopupsession") != null){
+                            if($.cookie("loadpopupsession") == $("#cphMain_cmSession").val()){
+                                $(".popup_promotion,#overlay").css("display","none");
+                            }
+                            else{
+                                var aaa =$("#cphMain_cmSession").val();
+                                $.cookie("loadpopupsession", aaa,{expires:3,path: '/'});
+                                adjustPopup();
+                            }
+                        }
+                        else{
+                            var aaa =$("#cphMain_cmSession").val();
+                            $.cookie("loadpopupsession", aaa,{expires:3,path: '/'});
+                            adjustPopup();
+                        }
+                    } 
+                    else{
+                        $(".popup_promotion,#overlay").css("display","none");
+                    }
+                    if($.cookie("dontshow_popup_promotion") == "1"){
+                        $(".popup_promotion,#overlay").css("display","none");
+                    }
+                    $(".ClosePromotion").click(function() {
+                        if($(window.frames["ifm_popup_promotion"].document).find("#ifHide_popup_Promotion").is(':checked') == true){
+                            $.cookie("dontshow_popup_promotion", "1",{expires:9999});  
+                        }
+                        $(".popup_promotion,#overlay").css("display","none");
+                    });
+                };
+        
+                init();
+            }();
+        });
+        </script>
+    </ui:MinifiedJavascriptControl>
+
+<% } %>
+
+<ui:MinifiedJavascriptControl ID="MinifiedJavascriptControl1" runat="server" Enabled="true" AppendToPageEnd="true">
+
+<script type="text/javascript">
+$('body', top.document).addClass('MainBody');
+<% if (Profile.IsAuthenticated) { %>
+    var team = '<%= GmCore.GamMatrixClient.GetUserMetadata("FavoriteTeam")%>';
+    if(team == 'Galatasaray S.K.'){
+        $('body').addClass('SupporterGalatasaray');
+    }else if(team == 'Beşiktaş J.K.'){
+        $('body').addClass('SupporterBesiktas');
+    }else if(team == 'Fenerbahçe S.K.'){
+        $('body').addClass('SupporterFenerbahce');
+    }else if(team == 'Trabzonspor'){
+        $('body').addClass('SupporterTrabzonspor');
+    }else if(team == 'Bursaspor'){
+        $('body').addClass('SupporterBursaspor');
+    }else if(team == 'Other'){
+        $('body').addClass('SupporterOther');
+    }
+    if('<%= Profile.IsInRole("VIP") %>' == 'True'){
+        $('body').addClass('IsVIP');
+    }
+
+<% } %>
+    //$('li.menu-livecasino').append('<div class="tooltipbox"><a href="/livecasino/" class="promotooltip"><span class="PromoText LiveCasinoPromoText"><%=this.GetMetadata(".New_Text")%></span></a></div>');
+    var lis = $('.PaginationBadge a.Badge').length;
+    lis = '/' + lis;
+    $('.PaginationBadge a.Badge').attr('data-content', lis);
+
+    //document.domain = $("body").data("cookiedomain");
+    InputFields.onErrorPlacement = function (error, element) {
+        var $pdiv = $(element).parents("div.inputfield");error.attr('elementId', $pdiv.attr('id'));if($('td.hint > *', $pdiv).length < 1 ){$('td.hint', $pdiv).html("<span class='NoticeText'>"+ $('td.hint', $pdiv).text() +" </span>");}
+        error.insertAfter($('td.hint > *:last', $pdiv));
+    }
+    var checkFooterLinks = function () {
+        $("#footer a[class^='ico']").each(function () {
+            var pageUrl = window.location.pathname;
+            if (pageUrl.indexOf($(this).attr("href")) > -1) {
+                $(this).addClass("selected");
+            }
+        });
+    };
+    $(document).ready(function () {
+        var jsmCssCheck = setInterval(function () { $("link[href*='jquery.simplemodal.css']:gt(0)").remove(); }, 500);
+        $("#pnLiteral button[onclick^='window.print()']").appendTo($(".h1_Middle span").eq(-1));
+        $("#pnGeneralLiteral button[onclick^='window.print()']").appendTo($(".h1_Middle span").eq(-1));
+        $(".livechat").click(function () { $("#lpButDivID-1312275796568-0").find("a").click(); return false; });
+        checkFooterLinks();
+
+        var styleVersion = getCookie('styleVersion');
+        if(styleVersion == "DarkVersion"){
+            $("body").addClass("DarkVersion");
+        }else{
+            $("body").removeClass("DarkVersion");
+        }
+
+        $(".bt-menu-trigger").click(function () {
+            $(".login_panel ").toggleClass("hide-panel");
+            $(".bt-menu-trigger").toggleClass("bt-menu-open");
+        });
+        $('#close-slider').on('click', function (e) {
+            e.preventDefault();
+            $('#slider').find('.row-fluid').slideUp("500");
+            $('#show-slider').removeClass('hidden');
+            $('#close-slider').addClass('hidden');
+        });
+        $('#show-slider').on('click', function (e) {
+            e.preventDefault();
+            $('#slider').find('.row-fluid').slideDown("500");
+            $('#show-slider').addClass('hidden');
+            $('#close-slider').removeClass('hidden');
+        });
+        setTimeout(function(evt){
+            HidePokerWallet(); 
+        },500);
+    });
+
+    function OpenPokerPlusGame() {
+        var isLoggedIn = <%= this.Profile.IsAuthenticated.ToString().ToLowerInvariant() %>;
+    
+    if( !isLoggedIn ){
+        PopUpInIframe("/Login/Dialog","Login-popup",460,500);
+    } else {
+        
+        var w = screen.availWidth * 9 / 10;
+        var h = screen.availHeight * 9 / 10;
+        var l = (screen.width - w)/2;
+        var t = (screen.height - h)/2;
+        var scrollbars='no';
+        if($(this).data('vendorid')=='BetGames')
+            scrollbars='yes';
+        var params = [
+            'height=' + h,
+            'width=' + w,
+            'fullscreen=no',
+            'scrollbars='+scrollbars,
+            'status=yes',
+            'resizable=yes',
+            'menubar=no',
+            'toolbar=no',
+            'left=' + l,
+            'top=' + t,
+            'location=no',
+            'centerscreen=yes'
+        ].join(',');
+        window.open( '/LiveCasino/Hall/Start?tableID=<%=this.GetMetadata(".PokerPlus_GameID").SafeJavascriptStringEncode()%>', 'live_casino_table', params);
+    }
+}
+
+function HidePokerWallet(){
+    if ($('body').is('.lang_en')) {
+        $('li.balance-item-CasinoKlas').addClass('hidden');
+    }
+}
+
+function getCookie(name) {
+    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+    if(arr=document.cookie.match(reg)) return unescape(arr[2]);
+    else return null;
+}
+
+$(".SwitchThemeButton").click(function(){
+    var styleVersion = getCookie('styleVersion');
+    console.log(styleVersion);
+    if(styleVersion == "DarkVersion"){
+        document.cookie = "styleVersion=none";
+        $("body").removeClass("DarkVersion");
+    }else{
+        document.cookie = "styleVersion=DarkVersion";
+        $("body").addClass("DarkVersion");
+    }
+});
+$('.helplink').click(function () {
+    $('#h-links').css({
+        position: 'absolute',
+        left: $('.helplink').offset().left.toString(10) + 'px',
+        top: ($('.helplink').offset().top + $('.helplink').height()).toString(10) + 'px'
+    }).fadeIn('fast');
+});
+$('#ToggleAccountMenu').click(function () {
+    $('#MyAccount-links').css({
+        position: 'absolute',
+        left: $('.ToggleAccountMenu').offset().left.toString(10) + 'px',
+        top: ($('.ToggleAccountMenu').offset().top + $('.ToggleAccountMenu').height()).toString(10) + 'px'
+    }).fadeIn('fast');
+});
+$('#ToggleWalletMenu').click(function () {
+    $('.balance-list').css({
+        position: 'absolute',
+        left: $('.ToggleWalletMenu').offset().left.toString(10) + 'px',
+        top: ($('.ToggleWalletMenu').offset().top + $('.ToggleWalletMenu').height()).toString(10) + 'px'
+    }).fadeIn('fast');
+});
+$(document.body).mouseup(function () {
+    $('#h-links,.balance-list, #MyAccount-links').hide();
+
+});
+
+
+setInterval(function(){
+    DisplayCurrentWallet() ;
+}, 1000);
+    
+function DisplayCurrentWallet() {   
+    if($("body.Authenticated ").length < 1 )return;
+    var isSports = <%=Regex.Match(Request.Url.PathAndQuery, @"^/sports", RegexOptions.Singleline | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant).Success.ToString().ToLower()%>;
+        var isCasino = <%=Regex.Match(Request.Url.PathAndQuery, @"^/casino", RegexOptions.Singleline | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant).Success.ToString().ToLower()%>;
+        var isPoker = <%=Regex.Match(Request.Url.PathAndQuery, @"^/poker", RegexOptions.Singleline | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant).Success.ToString().ToLower()%>;
+    var isLiveCasino = <%=Regex.Match(Request.Url.PathAndQuery, @"^/livecasino", RegexOptions.Singleline | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant).Success.ToString().ToLower()%>;
+    var balanceAmount = $("#ToggleWalletMenu span").html();  
+    var sVendorID = "";
+    sVendorID = isSports ?  "OddsMatrix" : sVendorID;
+    sVendorID = isCasino ?  "CasinoWallet" : sVendorID;
+    sVendorID = isPoker ?  "CasinoKlas" : sVendorID;
+    sVendorID = isLiveCasino ?  "XProGaming" : sVendorID;
+    var newBalance = $(".currency-" + sVendorID).html() +" " + $(".balance-" + sVendorID).html();
+    var newAmout = $(".balance-" + sVendorID).html();  
+    balanceAmount !=  newBalance && newBalance != "0" && newAmout != null && newAmout !="N/A" && newAmout !="NaN" ? $("#ToggleWalletMenu span").html(newBalance) : "";       
+}
+/*var LotteryManager=(function(){
+    var dataSource = <%=GetJosonForLOTTERY() %>,parentT,curMenu=$("#topmenu .Menu-lottery"),
+            hasData=false,isSelected=false,
+            timer=null;
+
+        function init(){
+            isSelected=!curMenu.hasClass("selected");
+            parentT=$("<div class='lottery-ddl-wraper'><ul></ul></div>").appendTo("body");
+            $.each(dataSource,function(i,opt){
+                var vItem=$("<li class='gameitem' m='"+opt.ID+"' title='"+opt.G+"'><a class='link-lottery' href='/LotteryGame/Game/"+opt.ID+"'>"+opt.G+"</a></li>");
+                if(!opt.Opened){
+                    vItem.addClass("notopened");
+                }
+                vItem.appendTo(parentT.find(">ul")).find(".link-lottery").click(function(e){
+                    e.preventDefault();
+                    <% if (Profile.IsAuthenticated)
+    { %>
+                    window.location.href=$(this).attr("href");
+                    <% }
+    else
+    { %>
+                    $.cookie('loginDialogGameId', opt.ID);
+                    PopUpInIframe("/Login/Dialog","Login-popup",460,500);
+                    <% } %>
+                });
+            });
+            <%--var vItem=$("<li class='gameitem' title='<%=this.GetMetadata("/Poker/Home/_Index_aspx.PopWindow_Title").SafeJavascriptStringEncode()%>'><a class='link-lottery link-klas' href='javascript:void(0);'><%=this.GetMetadata("/Poker/Home/_Index_aspx.PopWindow_Title").SafeJavascriptStringEncode()%></a></li>");
+            vItem.appendTo(parentT.find(">ul"));
+            $(".gameitem .link-klas", $(".Authenticated .lottery-ddl-wraper")).click(function(){window.open("/Poker/Klas/", "<%=this.GetMetadata("/Poker/Home/_Index_aspx.PopWindow_Title").SafeJavascriptStringEncode()%>", "height=600, width=790, top=100, left=100,toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");});
+            $(".gameitem .link-klas", $(".Anonymous .lottery-ddl-wraper")).click(function(){alert('<%=this.GetMetadata("/Poker/Home/_Index_aspx.NoLoginMsg_Txt").SafeJavascriptStringEncode()%>');return false;}); --%>
+            bindEvent();
+        }
+        function bindEvent(){
+            curMenu.find("a.MainMenuLink").click(function(e){
+                e.preventDefault();
+                var ps = $(this).offset();
+                parentT.css({top:ps.top+$(this).height(),left:ps.left,minWidth:$(this).width()}).show();
+            }).mouseenter(function(){
+                clearTimeout(timer);
+                if(isSelected)
+                    curMenu.addClass("selected");
+            }).mouseleave(function(){
+                if($(".lottery-ddl-wraper:visible").length==0)
+                    hidePanel();
+            });
+            parentT.mouseleave(function(){
+                hidePanel();
+            }).mouseenter(function(){
+                clearTimeout(timer);
+                if(isSelected)
+                    curMenu.addClass("selected");
+            });
+        }
+        function hidePanel(){
+            if(timer)
+                clearTimeout(timer);
+            timer=setTimeout(function(){
+                parentT.hide();
+                if(isSelected)
+                    curMenu.removeClass("selected");
+            },500);
+        }
+        init();
+        return {Init:init};
+    })();*/
+$("#topmenu .Menu-lottery").find("a.MainMenuLink").click(function(e) {
+    <% if (Profile.IsAuthenticated)
+    { %>
+        window.location.href="/LotteryGame/Game/10041013128";
+    <% }
+    else
+    { %>
+        $.cookie('loginDialogGameId', 10041013128);
+        PopUpInIframe("/Login/Dialog","Login-popup",460,500);
+    <% } %>
+});
+
+</script>
+<%= this.GetMetadata(".LiveChatCode") %>
+</ui:MinifiedJavascriptControl>
+
+</asp:content>

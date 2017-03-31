@@ -1,0 +1,3 @@
+﻿
+		Transakcja nie mogła zostać zakończona, być może z powodu problemów z połączeniem. Kliknij <a style="font-weight: bolder; text-decoration: none;" href="javascript:self.location.reload();">tutaj</a>, aby spróbować ponownie. <br /><br /> Jeśli problem będzie się powtarzać, należy skontaktować się z <a style="font-weight: bolder; text-decoration: none;" href="http://www.paysafecard.com/uk/personal/contact-us/" target="_blank">działem pomocy</a> paysafecard lub przejść na <a style="font-weight: bolder; text-decoration: none;" href="https://customer.cc.at.paysafecard.com/psccustomer/GetWelcomePanelServlet?language=en" target="_blank">stronę salda karty</a>, by sprawdzić, kiedy zarezerwowana kwota będzie ponownie dostępna.
+	

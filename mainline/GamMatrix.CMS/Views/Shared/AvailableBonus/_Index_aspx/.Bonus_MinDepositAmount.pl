@@ -1,0 +1,1 @@
+Min. kwota wpłaty

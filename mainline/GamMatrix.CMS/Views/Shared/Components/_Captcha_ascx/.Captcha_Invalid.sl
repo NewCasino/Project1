@@ -1,0 +1,1 @@
+Captcha ni pravilna; poskusite znova

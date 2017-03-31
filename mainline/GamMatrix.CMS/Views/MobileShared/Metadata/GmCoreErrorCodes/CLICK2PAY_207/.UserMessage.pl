@@ -1,0 +1,1 @@
+﻿Odrzucenie związane z ryzykiem. W celu uzyskania dalszej pomocy, prosimy o kontakt pod adresem service@click2pay.com.

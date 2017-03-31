@@ -1,0 +1,1 @@
+﻿Introduzca un número de teléfono de entre 7 y 30 dígitos

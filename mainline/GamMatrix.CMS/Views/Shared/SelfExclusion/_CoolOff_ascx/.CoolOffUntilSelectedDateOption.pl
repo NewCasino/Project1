@@ -1,0 +1,2 @@
+﻿Zawieszenie konta aż do
+

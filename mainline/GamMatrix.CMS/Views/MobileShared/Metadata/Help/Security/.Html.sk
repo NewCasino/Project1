@@ -1,0 +1,46 @@
+﻿<ol>
+    <li> <strong>Kde je umiestnená vaša stránka?</strong>
+        <p>Naša stránka má servery na Malte.</p>
+    </li>
+
+    <li> <strong>Je vaša stránka licencovaná?</strong>
+        <p>
+	Stránka je prevádzkovaná a spravovaná spoločnosťou EveryMatrix Ltd, registračné číslo spoločnosti C44411, zaregistrovaná na adrese Suite 10, Level 4, Portomaso Business Tower, Vjal Portomaso, St.Julians, STJ 4011, Malta. EveryMatrix Ltd. je licencovaná a regulovaná Úradom pre hazardné hry na Malte (www.mga.org.mt) v triede 1 číslo licencie MGA/CL1/497/2010.
+    </p>
+    </li>
+
+    <li>
+        <strong>Sú údaje o mojej platobnej karte v bezpečí?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] využíva najpokročilejšie šifrovacie mechanizmy k zaručeniu bezpečnosti údajov o platobných kartách. Tieto údaje sú sprístupnené iba vybraným zamestnancom  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. Všetky vaše údaje šifrujeme medzinárodne akceptovaným SSL algoritmom. Čo v praxi znamená, že všetky informácie plynúce od vás k nám a spätne, sú rovnako zabezpečené ako pri komunikácii s bankou.
+        </p>
+    </li>
+
+    <li>
+        <strong>Ako zistím, či sú moje finančné informácie u vás v bezpečí?</strong>
+        <p>
+            [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] šifrujeme údaje medzinárodne akceptovaným SSL algoritmom. Čo v praxi znamená, že všetky informácie plynúce od vás k nám a spätne, sú rovnako zabezpečené ako pri komunikácii s bankou.
+
+        </p>
+    </li>
+
+    <li>
+        <strong>Ako zistím, že sú moje peniaze v bezpečí?</strong>
+        <p>
+            Všetky finančné prostriedky na zákazníckych účtoch sú držané na oddelenom účte v Bank of Valletta. To je v súlade požiadavkami Malta Gaming Authority, ktorá nám vydala licenciu. Zákaznícke peniaze sú tak v úplnom bezpečí a okrem toho úplne oddelené od účtov spoločnosti a môžeme tak garantovať, že sú vždy plne k dispozícii zákazníkom. 
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Tlačiť</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

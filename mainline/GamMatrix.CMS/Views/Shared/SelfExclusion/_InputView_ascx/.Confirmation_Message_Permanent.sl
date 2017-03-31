@@ -1,0 +1,1 @@
+Vaš račun bo nepreklicno zaprt in ga ne bo več mogoče odpreti; ali ste prepričani, da želite nadaljevati?

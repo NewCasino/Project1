@@ -1,0 +1,82 @@
+﻿<ol>
+
+ <li> <strong>Koji su najveći i najmanji dozvoljeni ulozi?</strong>
+ <p>
+ Najveći ulozi se mijenjaju ovisno o događaju. Ako pokušate položiti okladu veću od dozvoljenog limita, primit ćete poruku koja će vas obavijestiti o najvećem iznosu koji možete položiti na tom odabiru. Nemamo ograničenje najmanjeg uloga.
+ </p>
+ </li>
+
+ <li> <strong>Što su pojedinačne i višestruke oklade?</strong>
+ <p>
+ Pojedinačne oklade uključuju samo jedan odabir; višestruka oklada zahtijeva više od jednog, Što više odabira povežete zajedno u višestruku okladu (npr. svi domaći timovi u kolu Premier lige), više možete dobiti, ali naravno, mnogo je teže!
+ </p>
+ </li>
+
+ <li>
+ <strong>Koliko odabira može sadržavati višestruka oklada?</strong>
+ <p>
+ Najveći broj odabira koje dozvoljavamo u višestrukoj okladi iznosi 10.
+ </p>
+ </li>
+
+ <li>
+ <strong>Kako funkcioniraju oklade na hendikep?</strong>
+ <p>
+ Za detaljno objašnjenje klađenja na hendikep (1x2 s hendikepom i azijski hendikep), posjetite odjeljak objašnjenja za oklade koji se nalazi ovdje.
+ </p>
+ </li>
+
+ <li>
+ <strong>Što će se dogoditi ako se sportski događaj odgodi?</strong>
+ <p>
+ Provjerite pravila za taj sport. Neki sportovi nalažu da se taj događaj mora odigrati na isti dan kako bi oklade bile važeće, dok oklade u drugim sportovima mogu ostati otvorene dok se događaj ne završi ili službeno okonča.
+ </p>
+ </li>
+
+ <li>
+ <strong>Zašto mi još uvijek nije isplaćen dobitak?</strong>
+ <p>
+ [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] nalaže da se rezultati službeno objave prije isplate koeficijenata. Ponekad internetski izvori kao što su stranice s rezultatima uživo mogu biti netočne i isplata može biti odgođena dok se rezultati ne potvrde.
+ </p>
+ </li>
+
+ <li>
+ <strong>Predomislio sam se, mogu li otkazati okladu?</strong>
+ <p>
+ Ne. Kada potvrdite okladu i poslužitelj je prihvati, ne možete više otkazati oklade.
+ </p>
+ </li>
+
+ <li>
+ <strong>Gdje ću pronaći evidenciju svojih oklada?</strong>
+ <p>
+ Vašu povijest klađenja i transakcija možete pronaći pod „Moj račun sportske kladionice“ kada se prijavite na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] internetsku stranicu.
+ </p>
+ </li>
+
+ <li>
+ <strong>Zašto se dobici izračunavaju drukčije na kvotama za UK?</strong>
+ <p>
+ Pri izračunavanju dobitaka koristimo decimalne (EU) kvote jer su najtočnije. Kvote SAD-a i UK-a koriste se samo za prikaz jer neke decimalne kvote nisu u korelaciji s jednostavnim razlomkom.
+ </p>
+ </li>
+
+ <li>
+ <strong>Klađenje postaje ovisnost za mene. Što da radim?</strong>
+ <p>
+ Klađenje s [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] trebala bi biti razonoda u kojoj svatko uživa, ali za nekolicinu može postati ovisnost i prouzrokovati probleme. Informacije u vezi s ovisnostima kockanja možete naći putem Odgovornog klađenja.
+ </p>
+ </li>
+
+</ol>
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

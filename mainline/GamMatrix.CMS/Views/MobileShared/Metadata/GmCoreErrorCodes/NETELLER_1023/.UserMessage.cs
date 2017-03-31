@@ -1,0 +1,1 @@
+﻿Musíte se přihlásit na svůj NETELLER účet a akceptovat pravidla a podmínky.

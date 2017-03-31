@@ -1,0 +1,1 @@
+﻿Zobrayzit všechny kategorie

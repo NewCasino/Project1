@@ -1,0 +1,1 @@
+Płatności za pomocą przelewów bankowych to łatwe płacenie na całym świecie. Oprócz różnego typu kart kredytowych, przelewy bankowe są najlepszą metodą realizacji płatności międzynarodowych.

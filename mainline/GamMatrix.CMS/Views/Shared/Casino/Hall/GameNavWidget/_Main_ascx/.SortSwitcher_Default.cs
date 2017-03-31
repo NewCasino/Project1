@@ -1,0 +1,2 @@
+﻿Původní nastavení
+

@@ -1,0 +1,1 @@
+﻿1-Tap-gräns: maxbeloppet som du tillåter dig själv varje gång du använder 1-Tap

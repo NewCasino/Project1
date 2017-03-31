@@ -1,0 +1,585 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" %>
+
+<%@ Import Namespace="System.IO" %>
+<%@ Import Namespace="CM.db" %>
+<%@ Import Namespace="System.Web.UI.HtmlControls" %>
+<%@ Import Namespace="System.Globalization" %>
+<%@ Import Namespace="System.Configuration" %>
+<%@ Import Namespace="System.Text.RegularExpressions" %>
+
+<%@ Import Namespace="CM.Sites" %>
+<%@ Import Namespace="CM.State" %>
+<%@ Import Namespace="GamMatrixAPI" %>
+<%=this.GetMetadata(".DOCTYPE").HtmlEncodeSpecialCharactors() %>
+<html xmlns="<%=this.GetMetadata(".XMLNS") %>" lang="<%= HttpContext.Current.GetLanguage().SafeHtmlEncode() %>" dir="<%= (HttpContext.Current.Items["IsRightToLeft"] as bool?) == true ? "rtl" : "ltr" %>">
+<script runat="server" type="text/C#">
+    private bool IsPrintPage
+    {
+        get
+        {
+            string result = Request.QueryString["isPrintMode"];
+            if (string.IsNullOrEmpty(result))
+                return false;
+            else
+            {
+                return bool.Parse(result);
+            }
+        }
+    }
+
+    private string CombinedJsUrl
+    {
+        get 
+        {
+            string customCombiedJsPath = this.GetMetadata(".CombiedJsPath");
+            if (!string.IsNullOrWhiteSpace(customCombiedJsPath))
+            {
+                return customCombiedJsPath;
+            }
+            if (!string.IsNullOrWhiteSpace(SiteManager.Current.StaticFileServerDomainName))
+            {
+                return string.Format(CultureInfo.InvariantCulture
+                    , "{0}/_js/combined.js"
+                    , SiteManager.Current.StaticFileServerDomainName
+                    );
+            }
+            else
+            {
+                return string.Format(CultureInfo.InvariantCulture
+                    , "//{0}/_js/combined.js"
+                    , ConfigurationManager.AppSettings["StaticFileServer"].DefaultIfNullOrEmpty("cdn.everymatrix.com")
+                    );
+            }
+        }
+    }
+
+    private string GetCdnDomain()
+    {
+        if (!string.IsNullOrWhiteSpace(SiteManager.Current.StaticFileServerDomainName))
+            return SiteManager.Current.StaticFileServerDomainName;
+
+        return "//" + ConfigurationManager.AppSettings["StaticFileServer"].DefaultIfNullOrEmpty("cdn.everymatrix.com");
+    }
+    private string GetDomain()
+    {
+        string host = HttpContext.Current.Request.Url.Host;
+        if (host.EndsWith(".gammatrix-dev.net", StringComparison.InvariantCultureIgnoreCase))
+        {
+            //If the accessing domain name is under gammatrix-dev.net (i.e, www.jetbull.gammatrix-dev.net), 
+            //the domain is set to jetbull.gammatrix-dev.net
+            var fields = host.Split('.');
+            string domain = string.Empty;
+            for (var i = fields.Length - 3; i < fields.Length; i++)
+                domain += fields[i] + ".";
+            return domain.TrimStart('.').TrimEnd('.');
+        }
+        else
+        {
+            //Otherwise, the root domain name is set as the domain. 
+            //For example, www.casino.jetbull.com and www.jetbull.com and jetbull.com all get the same cookie domain jetbull.com;
+            //www.casino.jetbull.com.mx and www.jetbull.com.mx and jetbull.com.mx all get the same cookie domain jetbull.com.mx
+            //Note: the same logic will be applied to domain XXX.net, XXX.org, XXX.co and XXX.net.XX, XXX.org.XX, XXX.co.XX
+            var tlds = new[]
+                {
+                ".com",
+                ".net",
+                ".org",
+                ".co",
+            };//top-level domains
+
+            foreach (var tld in tlds)
+            {
+                if (host.IndexOf(tld + ".", StringComparison.InvariantCultureIgnoreCase) > 0)
+                {
+                    var temp = host.Substring(0, host.IndexOf(tld + ".", StringComparison.InvariantCultureIgnoreCase));
+                    if (temp.LastIndexOf(".") >= 0)
+                        temp = temp.Substring(temp.LastIndexOf(".") + 1);
+                    var domain2 = temp + host.Substring(host.IndexOf(tld + ".", StringComparison.InvariantCultureIgnoreCase));
+                    return domain2.TrimStart('.').TrimEnd('.');
+                }
+            }
+
+            var fields = host.Split('.');
+            if (fields.Length < 2)
+                return host;
+            string domain = string.Empty;
+            for (var i = fields.Length - 2; i < fields.Length; i++)
+                domain += fields[i] + ".";
+            return domain.TrimStart('.').TrimEnd('.');
+        }
+    }
+
+    protected override void OnLoad(EventArgs e)
+    {
+        var restrictCountries = this.GetMetadata("/Metadata/Settings.SportsRestrictedCountries");
+        bool isRectrictCountry = string.IsNullOrEmpty(restrictCountries) ? false : (restrictCountries.SplitToList(",").Contains(Profile.IpCountryID.ToString()) || restrictCountries.SplitToList(",").Contains(Profile.UserCountryID.ToString()));
+        if (Request.RawUrl.ToLowerInvariant().StartsWith("/sports") && isRectrictCountry)
+        {
+            Response.Redirect("/RestrictSports");
+        }
+        // language cookie
+        string currentLanguage = HttpContext.Current.GetLanguage();
+        if (HttpContext.Current.Request.Cookies["CMS_Language"] == null ||
+            string.IsNullOrWhiteSpace(HttpContext.Current.Request.Cookies["CMS_Language"].Value) ||
+            string.Compare(HttpContext.Current.Request.Cookies["CMS_Language"].Value, currentLanguage, true) != 0)
+        {
+            HttpCookie cookie = new HttpCookie("CMS_Language", currentLanguage);
+            cookie.Secure = false;
+            cookie.HttpOnly = false;
+            cookie.Expires = DateTime.Now.AddYears(1);
+            if (!string.IsNullOrWhiteSpace(SiteManager.Current.SessionCookieDomain))
+                cookie.Domain = SiteManager.Current.SessionCookieDomain;
+            HttpContext.Current.Response.Cookies.Add(cookie);
+        }
+
+        // affiliatemarker cookie
+        string affiliateMarker = Request.QueryString["btag"];
+
+        if (!string.IsNullOrWhiteSpace(affiliateMarker))
+        {
+            HttpCookie cookie = new HttpCookie("btag", affiliateMarker.Trim());
+            cookie.Secure = false;
+            cookie.Expires = DateTime.Now.AddMinutes(Settings.Affiliate.Btag_CookieExpiresMinutes);
+            cookie.HttpOnly = false;
+            if (!string.IsNullOrWhiteSpace(SiteManager.Current.SessionCookieDomain))
+                cookie.Domain = SiteManager.Current.SessionCookieDomain;
+            HttpContext.Current.Response.Cookies.Add(cookie);
+        }
+
+        if (Request.GetTerminalType() != TerminalType.PC && Settings.Site_IsDeviceCheckerEnabled && Settings.Site_IsDeviceRedirectForced)
+        {
+            Response.Redirect(Settings.Site_MobileSiteUrl.Contains("$DOMAIN$") ? Settings.Site_MobileSiteUrl.Replace("$DOMAIN$", GetDomain()) : Settings.Site_MobileSiteUrl);
+            Response.End();
+        }
+
+        try
+        {
+            SiteRestrictDomainRule srdr = SiteRestrictDomainRule.Get(SiteManager.Current.DistinctName, false);
+            List<string> allowDomains = srdr.EnabledDomainList;
+            string currentDomain = Request.Url.Host.ToLower();
+            if (
+                string.Equals(Request.HttpMethod, "GET", StringComparison.InvariantCultureIgnoreCase) &&
+                srdr.IsDomainRestrictedMode &&
+                !string.IsNullOrEmpty(srdr.MainDomainName) &&
+                allowDomains != null &&
+                !allowDomains.Contains(currentDomain.ToLower())
+                )
+            {
+                
+                string langCode = HttpContext.Current.GetLanguage();
+                if (!string.IsNullOrWhiteSpace(langCode))
+                {
+                    langCode = "/" + langCode;
+                    if (Request.Url.PathAndQuery.StartsWith(langCode + "/", StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        langCode = string.Empty;
+                    }
+                }
+                string url = string.Format("{1}://{0}{3}{2}"
+                   , srdr.MainDomainName
+                   , Request.IsHttps() ? "https" : "http"
+                   , Request.Url.PathAndQuery
+                   , langCode
+                   );
+                Response.ClearHeaders();
+                Response.Clear();
+                Response.AddHeader("Location", url);
+                Response.StatusCode = 301;
+                Response.Flush();
+                Response.End();
+                return;
+            }
+
+        }
+        catch (Exception ex)
+        {
+            Logger.Exception(ex);
+
+        }
+
+        try
+        {
+            // <meta http-equiv="content-language" content="" />
+            HtmlMeta meta = new HtmlMeta();
+            meta.Attributes["http-equiv"] = "content-language";
+            meta.Attributes["content"] = MultilingualMgr.GetCurrentCulture();
+            this.Page.Header.Controls.Add(meta);
+
+            // styles
+            string url = null;
+            if (SiteManager.Current.UseRemoteStylesheet)
+            {
+                if (!string.IsNullOrWhiteSpace(SiteManager.Current.StaticFileServerDomainName))
+                {
+                    url = string.Format(CultureInfo.InvariantCulture, "{0}/{1}/_import.css?d={2}"
+                        , SiteManager.Current.StaticFileServerDomainName
+                        , this.PageTheme
+                        , DateTime.Now.DayOfYear
+                        );
+                }
+                else
+                {
+                    url = string.Format(CultureInfo.InvariantCulture, "//{0}/{1}/_import.css?d={2}"
+                        , ConfigurationManager.AppSettings["StaticFileServer"].DefaultIfNullOrEmpty("cdn.everymatrix.com")
+                        , this.PageTheme
+                        , DateTime.Now.DayOfYear
+                        );
+                }
+            }
+            else
+            {
+                url = string.Format(CultureInfo.InvariantCulture, "/{0}/_combined_css.ashx?Theme={1}&_t={2}"
+                    , HttpContext.Current.GetLanguage()
+                    , this.PageTheme
+                    , DateTime.Now.DayOfYear
+                    );
+            }
+
+            HtmlLink link = new HtmlLink();
+            link.Attributes["rel"] = "stylesheet";
+            link.Attributes["type"] = "text/css";
+            link.Attributes["href"] = url;
+            this.Page.Header.Controls.AddAt(0, link);
+
+            //url = "/js/combined_js.ashx";
+            HtmlGenericControl script = new HtmlGenericControl("script");
+            if (Settings.CombinedJsPosition == 0)
+            {
+                script.Attributes["type"] = "text/javascript";
+                script.Attributes["src"] = CombinedJsUrl;
+                if (Settings.EnableAsyncCombinedJs)
+                {
+                    script.Attributes["async"] = "async";
+                    script.Attributes["defer"] = "true";
+                }
+                this.Page.Header.Controls.AddAt(1, script);
+            }
+
+            //Google Univesal Analystics
+            if (Settings.Switch_GoogleAnalystics)
+            {
+                url = string.Format(CultureInfo.InvariantCulture, "/_google_analytics.ashx?_={0}&u={1}"
+                    , SiteManager.Current.ID
+                    , Profile.UserID
+                    );
+                script = new HtmlGenericControl("script");
+                script.Attributes["type"] = "text/javascript";
+                script.Attributes["src"] = url;
+                this.Page.Header.Controls.Add(script);
+            }
+
+            //Respond proxy for IE6&7&8
+            if (IsNeedToUseProxyForRespond)
+            {
+                url = "https://cdn.everymatrix.com/_js/respond-proxy.html";
+                link = new HtmlLink();
+                link.Attributes["rel"] = "respond-proxy";
+                link.Attributes["id"] = "respond-proxy";
+                link.Attributes["href"] = url;
+                this.Page.Header.Controls.Add(link);
+
+                url = "/js/respond.proxy.gif";
+                link = new HtmlLink();
+                link.Attributes["rel"] = "respond-redirect";
+                link.Attributes["id"] = "respond-redirect";
+                link.Attributes["href"] = url;
+                this.Page.Header.Controls.Add(link);
+
+                //url = "/js/respond.proxy.js";
+                //script = new HtmlGenericControl("script");
+                //script.Attributes["type"] = "text/javascript";
+                //script.Attributes["src"] = url;
+                //this.Page.Header.Controls.Add(script);
+            }
+
+            /*if (Profile.IsAuthenticated)
+            {
+                string code = Profile.SessionID.GetHashCode().ToString(CultureInfo.InvariantCulture);
+                if (Request.Cookies[Settings.TC_ACCEPTED_COOKIE] == null ||
+                  !string.Equals(Request.Cookies[Settings.TC_ACCEPTED_COOKIE].Value, code, StringComparison.InvariantCultureIgnoreCase))
+                {
+                    this.Context.AppendScript(@"$(function(){ PopupCounter.tc = true; $('<div style=""display:none;"" id=""tandcPopup""></div>').appendTo(document.body).load( '/TermsConditions/popup', null,  function(){ if($('#tandcPopup').children().length==0){ PopupCounter.tc = false; } }); }); ");
+                }
+            }*/
+        }
+        catch (Exception ex)
+        {
+            Logger.Exception(ex);
+        }
+
+
+        base.OnLoad(e);
+    }
+
+    private bool? _IsNeedToUseProxyForRespond;
+    private bool IsNeedToUseProxyForRespond
+    {
+        get
+        {
+            if (!_IsNeedToUseProxyForRespond.HasValue)
+            {
+                _IsNeedToUseProxyForRespond = Request.Browser.Type.Equals("IE6", StringComparison.OrdinalIgnoreCase)
+                        || Request.Browser.Type.Equals("IE7", StringComparison.OrdinalIgnoreCase)
+                        || Request.Browser.Type.Equals("IE8", StringComparison.OrdinalIgnoreCase);
+            }
+            return _IsNeedToUseProxyForRespond.Value;
+        }
+    }
+
+    protected override void OnPreRender(EventArgs e)
+    {
+        base.OnPreRender(e);
+
+        string inlineCSS = this.Context.GetInlineCSS();
+        if (!string.IsNullOrWhiteSpace(inlineCSS))
+        {
+            HtmlGenericControl control = new HtmlGenericControl("style");
+            control.Attributes["type"] = "text/css";
+            control.InnerHtml = inlineCSS;
+            this.Page.Header.Controls.Add(control);
+        }
+    }
+
+    private string GetBodyAttributes()
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.AppendFormat(CultureInfo.InvariantCulture, "dir=\"{0}\" "
+            , (HttpContext.Current.Items["IsRightToLeft"] as bool?) == true ? "rtl" : "ltr"
+            );
+
+
+        sb.AppendFormat(CultureInfo.InvariantCulture, "class=\"lang_{0} {1} {2}{3}"
+            , MultilingualMgr.GetCurrentCulture().ToLowerInvariant()
+            , (ViewData["CurrentPageClass"] as string).SafeHtmlEncode()
+            , Profile.IsAuthenticated ? "Authenticated" : "Anonymous"
+            , IsPrintPage ? " PrintMode" : string.Empty
+            );
+
+        try
+        {
+            dynamic p = this.Page;
+            while (p != null)
+            {
+                if (p.CssClass != null && p.CssClass.Length > 0)
+                    sb.AppendFormat(" {0}", p.CssClass);
+                if (p.Page != null && p.Page != p)
+                    p = p.Page;
+                else
+                    break;
+            }
+        }
+        catch
+        {
+        }
+
+        sb.AppendFormat(CultureInfo.InvariantCulture, "\" ");
+
+        sb.AppendFormat(CultureInfo.InvariantCulture, "data-desktop=\"{0}\" "
+            , Settings.Site_PCSiteUrl.SafeHtmlEncode()
+            );
+
+        sb.AppendFormat(CultureInfo.InvariantCulture, "data-mobile=\"{0}\" "
+            , Settings.Site_MobileSiteUrl.SafeHtmlEncode()
+            );
+
+        sb.AppendFormat(CultureInfo.InvariantCulture, "data-cookiedomain=\"{0}\" "
+            , SiteManager.Current.SessionCookieDomain.SafeHtmlEncode()
+            );
+
+        sb.Append("data-ismobile=\"0\"");
+        return sb.ToString();
+    }
+</script>
+<head id="Head1" runat="server">
+    <asp:Literal runat="server" Text="<%$ Metadata:value(.CONTENT_TYPE)%>" />
+    <asp:Literal runat="server" Text="<%$ Metadata:value(.X-UA-COMPATIBLE)%>" />
+    <asp:Literal runat="server" Text="<%$ Metadata:value(.ICON_DECLARATIONS)%>" />
+    <asp:ContentPlaceHolder ID="cphHead" runat="server"></asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        var PopupCounter = {
+            'tc': false
+        };
+    </script>
+
+</head>
+<body <%= GetBodyAttributes() %>>
+<% if (Settings.CombinedJsPosition == 1)
+{ %>
+    <script type="text/javascript" src="<%=CombinedJsUrl %>"<%=Settings.EnableAsyncCombinedJs ? @" async=""async"" defer=""true""" : "" %> />
+<% } %>
+    <%if (Settings.IovationDeviceTrack_Enabled)
+        {
+            string trackScriptPath = this.GetMetadata(".Iovation_Track_Script_Url");
+            if (!string.IsNullOrEmpty(trackScriptPath))
+            {  %>
+    <script type="text/javascript" src="<%=trackScriptPath.SafeJavascriptStringEncode() %>"></script>
+    <%}
+        } %>
+    <%  Html.RenderPartial("/RootMasterBodyPlus", this.ViewData); %>
+    <%if (IsNeedToUseProxyForRespond)
+        { %>
+    <script type="text/javascript" src="/js/respond.proxy.js"></script>
+    <%} %>
+    <%= this.GetFileContent("GlobalCode.htm")%>
+    <asp:ContentPlaceHolder ID="cphMain" runat="server"></asp:ContentPlaceHolder>
+    <% if (Profile.IsAuthenticated && Settings.Switch_NegactiveLimit)
+        { %>
+    <%=this.GetMetadata(".NegativeLimit_Panel").HtmlEncodeSpecialCharactors()%>
+    <script type="text/javascript">
+        function PopupNactiveLimitMessage() {
+            $.get('/_get_nactivelimit_info.ashx?separateBonus=True',
+            null,
+            function (data) {
+
+                if (data && data.success == true && data.isLoggedIn == true) {
+
+                    var negative_balance_limit = $.cookie('negative_balance_limit');
+                    if (negative_balance_limit == null && data.negativelimitrecord != null && data.negativelimitrecord.State == 0) {
+                        var amount = data.negativelimitrecord.CreditLimitAmount + ' ' + data.negativelimitrecord.Currency;
+                        var message = '<%=this.GetMetadata("/Metadata/Settings.NegativeLimitMessage").SafeJavascriptStringEncode() %>'.replace(/\{(\d+)\}/g, amount);
+                    $('.NegativeLimitPopup .NegativeLimit_Message_Text').html(message);
+
+                    $('.NegativeLimitPanel').width($(document).width());
+                    $('.NegativeLimitPanel').height($(document).height());
+                    $('.NegativeLimitPanel').show();
+                    $.cookie("negative_balance_limit", true, { path: "/" });
+                }
+            }
+        },
+        "json");
+    }
+    $(function () {
+        try { top.PopupNactiveLimitMessage(); } catch (e) { }
+    });
+    </script>
+    <% } %>
+    <ui:MinifiedJavascriptControl ID="MinifiedJavascriptControl1" runat="server" AppendToPageEnd="true" Enabled="true">
+        <script type="text/javascript">
+            //<![CDATA[
+            var isIE6 = /msie 6/i.test(navigator.userAgent);
+            if (isIE6) alert('<%= this.GetMetadata(".IE6_Message").SafeJavascriptStringEncode() %>');
+
+    try {
+        var arrCookie = document.cookie.split(';');
+        for (var i = 0; i < arrCookie.length; i++) {
+            var arr = arrCookie[i].split('=');
+            if ('_ser' == arr[0].replace(/(^\s*)|(\s*$)/g, '')) {
+                var endIndex = arr[1].indexOf(";");
+                if (endIndex == -1)
+                    endIndex = arr[1].length;
+                var sessionExitReason = unescape(arr[1].substring(arr[1], endIndex));
+
+                var expDate = new Date();
+                expDate.setDate(expDate.getDate() - 1);
+                document.cookie = '_ser=0; expires=' + expDate.toGMTString() + ';path=/; domain=<%=SiteManager.Current.SessionCookieDomain%>';
+                var msg = '';
+                switch (sessionExitReason) {
+                    case 'Expired':
+                        msg = '<%=this.GetMetadata(".SessionExitReason_Expired").SafeJavascriptStringEncode() %>';
+                        break;
+                    case 'Reentry':
+                        msg = '<%=this.GetMetadata(".SessionExitReason_Reentry").SafeJavascriptStringEncode() %>';
+                        break;
+                    case 'IPChanged':
+                        msg = '<%=this.GetMetadata(".SessionExitReason_IPChanged").SafeJavascriptStringEncode() %>';
+                        break;
+                    case 'LimitExceeded':
+                        msg = '<%=this.GetMetadata(".SessionExitReason_LimitExceeded").SafeJavascriptStringEncode() %>';
+                        break;
+                }
+                if (msg.length > 0)
+                    alert(msg);
+            }
+        }
+    }
+    catch (e) { }
+
+    $(function () {
+        $(document).bind("BALANCE_UPDATED", function () { try { top.reloadBalance(); } catch (e) { } });
+    });
+    //]]>
+        </script>
+    </ui:MinifiedJavascriptControl>
+    <%= this.Context.GetScript() %>
+    <%if (!string.IsNullOrWhiteSpace(Settings.Site_MobileSiteUrl))
+        { %>
+    <script type="text/javascript" src="<%=GetCdnDomain() %>/_js/devicechecker.js?_d=<%=DateTime.Now.DayOfYear %>"></script>
+    <%if (Settings.Site_IsDeviceCheckerEnabled)
+        { %>
+
+    <% 
+        if (Settings.Site_IsDeviceRedirectForced)
+        { %>
+    <script type="text/javascript">
+        if ($.browser.mobile) {
+            window.location = '<%= Settings.Site_MobileSiteUrl.Contains("$DOMAIN$") ? Settings.Site_MobileSiteUrl.Replace("$DOMAIN$", GetDomain()) : Settings.Site_MobileSiteUrl %>';
+                }
+    </script>
+    <% }
+        else
+        { %>
+    <div id="switch-promot" class="promot-box" style="display: none"><span class="switch-promot-text"><%=this.GetMetadata(".Switch_Promoting_Message").HtmlEncodeSpecialCharactors()%></span><span class="switch-promot-options"><%=Html.Button(this.GetMetadata(".Switch_Promoting_Yes"), new { @id = "switch-promot-btnYes" }) %><%= Html.Button(this.GetMetadata(".Switch_Promoting_DonotRemindMe"), new { @id = "switch-promot-btnDonotRemind" })%></span><a href="#" id="switch-promot-btnClose"><img src="<%=GetCdnDomain() %>/_js/css/promoting/image/close.png" alt="" border="0" /></a></div>
+    <script type="text/javascript">
+        $(function () {
+            DeviceChecker.Promoting.Init();
+        });
+    </script>
+    <%}
+            }
+        }%>
+
+    <% if (Settings.IsUKLicense && (CustomProfile.Current.IpCountryID == 230 || CustomProfile.Current.UserCountryID == 230))
+        { %>
+    <%=this.GetMetadata(".GamingLicense_Logo").HtmlEncodeSpecialCharactors()%>
+    <% } %>
+    <%if (Settings.IsDKLicense)
+        {
+    %>
+    <script type="text/javascript" language="javascript">
+        var dkLoginFrameSrc = "/Login/DkVerifyFrame";
+        function DKLoginCheckPopup() {
+            if ($('input[name=username]').length > 0 && $('input[name=username]').val().trim() != '')
+            {
+                $.post('/Login/DKVerifyUsername', 
+                { username: $('input[name=username]').val().trim() },
+                function (json) {
+                    if (json.success) {
+                        if (json.showCprPopup)
+                        {
+                            var url = '/CPRPopup #CprAndIntended-popup';
+                            $.post(url, {"username": $('input[name=username]').val().trim()}, function(html) {
+                                $('body', top.document).append(html);
+                            })
+                        } 
+                        else
+                        {
+                            dkLoginFrameSrc += "?username=" + $('input[name=username]').val().trim();
+                            var $iframe = $("<iframe id=\"nemid_iframe\" name=\"nemid_iframe\"  scrolling=\"no\" frameborder=\"0\"  style=\"width:500px;height:450px;border:0\" src=" + dkLoginFrameSrc + " ></iframe>");
+                            $iframe.modalex($iframe.width(), $iframe.height(), true, top.document.body);
+                        }
+                    } else {
+                        alert(json.message);
+                    }
+                });
+            } else {
+                var $iframe = $("<iframe id=\"nemid_iframe\" name=\"nemid_iframe\"  scrolling=\"no\" frameborder=\"0\"  style=\"width:500px;height:450px;border:0\" src=" + dkLoginFrameSrc + " ></iframe>");
+                $iframe.modalex($iframe.width(), $iframe.height(), true, top.document.body);
+            }
+        }
+        $(document).bind('DKCHECK_LOGIN_POPUP', function (e, data) {
+            DKLoginCheckPopup();
+        });
+        $(document).bind('DKCHECK_LOGIN_POPUPCLOSE', function (e, data) {
+            $.modal.close();
+        });
+    </script>
+    <%
+        }
+
+    %>
+<% if (Settings.CombinedJsPosition == 2)
+{ %>
+    <script type="text/javascript" src="<%=CombinedJsUrl %>"<%=Settings.EnableAsyncCombinedJs ? @" async=""async"" defer=""true""" : "" %> />
+<% } %>
+</body>
+</html>

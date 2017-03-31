@@ -1,0 +1,1 @@
+Du har endast {0} poäng vilket inte når upp till det minsta kravet ({1} poäng)

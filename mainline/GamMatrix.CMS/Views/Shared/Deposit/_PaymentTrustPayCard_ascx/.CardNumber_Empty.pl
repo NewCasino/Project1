@@ -1,0 +1,1 @@
+Pole Numer karty jest obowiązkowe.

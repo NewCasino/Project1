@@ -1,0 +1,1 @@
+Izplačilo denarja

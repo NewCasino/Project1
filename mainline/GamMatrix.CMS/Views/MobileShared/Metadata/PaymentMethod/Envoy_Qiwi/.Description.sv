@@ -1,0 +1,1 @@
+Qiwi är en eWallet och terminalservice som erbjuder dig säkra betalningsmetoder. 

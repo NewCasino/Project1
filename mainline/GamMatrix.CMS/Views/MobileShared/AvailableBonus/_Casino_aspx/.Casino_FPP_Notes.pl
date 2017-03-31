@@ -1,0 +1,2 @@
+﻿Uwaga. Możesz wymienić punkty tylko w pakietach po <span class='messageHighlight'>{0}</span> punktów na rónowartość
+<span class='messageHighlight'>{1} {2}</span>. Pozostałe punkty pozostają na saldzie punktów FPP.

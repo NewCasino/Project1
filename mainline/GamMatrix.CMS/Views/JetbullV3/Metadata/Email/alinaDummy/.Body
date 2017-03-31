@@ -1,0 +1,8 @@
+﻿Dear $FIRSTNAME$,
+
+Your credit/debit card $PAYCARD$ is about to expire in a few days, it will be removed from your account after it has expired
+
+If you wish to add a new credit/debit card to your account, please login and go to “deposit” > “Credit/Debit card” > “register a card”, and follow the online instructions. 
+
+Sincerest regards,
+The [Metadata:value(/Metadata/Settings.Operator_DisplayName)]  team

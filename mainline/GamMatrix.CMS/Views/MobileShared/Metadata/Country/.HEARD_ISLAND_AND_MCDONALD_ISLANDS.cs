@@ -1,0 +1,1 @@
+﻿Slyšel a Mc Donald Ostrovy

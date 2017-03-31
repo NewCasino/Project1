@@ -1,0 +1,1 @@
+Notera: Du kan bara byta in <span class='messageHighlight'>{0}</span> hela poäng <span class='messageHighlight'>{1} {2}</span>, resterande poäng behålls på ditt FPP balance.

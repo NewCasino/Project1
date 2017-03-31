@@ -1,0 +1,1 @@
+Izpisek računa

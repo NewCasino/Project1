@@ -1,0 +1,2 @@
+﻿Chcę ogarniczyć moje granie
+

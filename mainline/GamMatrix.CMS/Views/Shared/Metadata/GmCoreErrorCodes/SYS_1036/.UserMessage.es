@@ -1,0 +1,1 @@
+﻿Envío de petición de transacción doble

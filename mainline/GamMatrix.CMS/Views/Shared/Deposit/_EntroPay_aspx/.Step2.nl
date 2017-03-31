@@ -1,0 +1,1 @@
+﻿Gebruik uw credit/debit kaart om uw<br />nieuwe Virtual VISA van geld te voorzien

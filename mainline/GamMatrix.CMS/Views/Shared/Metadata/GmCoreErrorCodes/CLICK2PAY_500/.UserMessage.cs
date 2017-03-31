@@ -1,0 +1,1 @@
+﻿Návrat zamítnut - žádné referenční ID.

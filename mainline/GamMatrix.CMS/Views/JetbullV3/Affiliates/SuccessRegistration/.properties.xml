@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <RouteName>4937c619-5c54-41cf-84fc-4a6be2aecc8d</RouteName>
+  <Type>Page</Type>
+  <Controller>GamMatrix.CMS.Controllers.Shared.AffiliatesPageController</Controller>
+  <IsInherited>False</IsInherited>
+</root>

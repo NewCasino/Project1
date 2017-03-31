@@ -1,0 +1,1 @@
+﻿Ustawienia 3D karty płatniczej nie zostały zmienione

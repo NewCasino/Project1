@@ -1,0 +1,10 @@
+﻿<p>Kjære $USERNAME$<br /> </p>
+<br />
+Dette e-posten er for å bekrefte at kontoen din er satt til å selvekskluderes.
+<br /><br />
+Du vil ikke kunne logge inn på kontoen din.
+<br /><br />
+Hvis du har spørsmål kan du ta kontakt med oss på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<br /><br />
+<p>Hilsen,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte</p>

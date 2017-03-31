@@ -1,0 +1,1 @@
+﻿Beløpesfeltet kan ikke være tomt.

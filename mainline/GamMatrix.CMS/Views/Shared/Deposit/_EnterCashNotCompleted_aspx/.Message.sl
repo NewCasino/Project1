@@ -1,0 +1,1 @@
+Kliknite Dokončaj, če želite osvežiti podrobnosti o vaši transakciji.

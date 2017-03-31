@@ -1,0 +1,1 @@
+Vnesite kodo za vaš Secure ID

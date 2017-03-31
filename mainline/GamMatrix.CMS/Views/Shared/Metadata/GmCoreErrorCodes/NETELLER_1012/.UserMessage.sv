@@ -1,0 +1,1 @@
+﻿The last 4 digits of your bank account number do not match the number registered with your NETELLER account. Please sign in to your NETELLER account to confirm your bank account number. Should you have any questions, call NETELLER Customer Service.

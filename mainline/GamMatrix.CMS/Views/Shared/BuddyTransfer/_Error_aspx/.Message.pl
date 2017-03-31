@@ -1,0 +1,1 @@
+W chwili obecnej nie mogliśmy dokonać transakcji.

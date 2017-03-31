@@ -1,0 +1,5 @@
+﻿<P>Ahoj $FIRSTNAME$,</P>
+<P>vitajte na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], veríme, že sa budete skvele baviť!</P>
+<P>Vaše užívateľské meno je $USERNAME$.</P>
+<P>Ak ste tak ešte nespravili, máte teraz skvelú príležitosť využiť našich uvítacích ponúk. Nájdete ich v sekcii vyhradenej pre promo akcie.</P>
+<P>Ak ste pri registrácii narazili na problémy alebo máte nejaké ďalšie otázky, obráťte sa prosím na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p><p>S pozdravom,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tím</p>

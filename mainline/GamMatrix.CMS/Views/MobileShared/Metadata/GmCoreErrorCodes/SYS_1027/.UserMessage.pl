@@ -1,0 +1,1 @@
+﻿Żądana funkcja nie jest dostępna bądź nie jest obsługiwana w aktualnej konfiguracji.

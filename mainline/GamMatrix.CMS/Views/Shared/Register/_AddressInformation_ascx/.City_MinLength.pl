@@ -1,0 +1,1 @@
+Miasto musi składać się z przynajmniej 2 liter.

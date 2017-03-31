@@ -1,0 +1,1 @@
+﻿Skrill je elektronická peněženka, která zákazníkům umožňuje ukládat, vybírat a převádět prostředky pomocí online účtu Skrill. Je zcela bezpečná a prostředky jsou k dispozici okamžitě. Pro otevření úřtu Skrill klikněte <a href="http://www.moneybookers.com/app/">zde</a>.

@@ -1,0 +1,1 @@
+Kwota do przelania na {0}

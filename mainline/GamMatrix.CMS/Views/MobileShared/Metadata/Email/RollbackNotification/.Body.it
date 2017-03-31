@@ -1,0 +1,5 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+<p>Il tuo prelievo è stato rifiutato &lsquo;$TXCOMPLETEDDATE$", i fondi sono di nuovo sul tuo conto di gioco. Per favore contatta l'assistenza per eventuale ulteriore aiuto su questa transazione. </p> ID transazione: $TXID$Data della transazione: $TXCREATEDDATE$ Importo: $TXAMOUNT$ $TXCURRENCY$.
+<p>Cordialmente,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>
+
+

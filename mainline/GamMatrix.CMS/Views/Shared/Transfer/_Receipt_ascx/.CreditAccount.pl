@@ -1,0 +1,1 @@
+Uznanie na {0} koncie.

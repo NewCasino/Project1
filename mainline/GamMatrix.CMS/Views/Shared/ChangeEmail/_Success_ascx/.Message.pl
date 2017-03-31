@@ -1,0 +1,1 @@
+Przesłaliśmy weryfikacyjną wiadomość e-mail. Sprawdź swoją skrzynkę odbiorczą i aktywuj nowy adres e-mail.

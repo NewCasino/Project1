@@ -1,0 +1,1 @@
+﻿Fisticuffs™ is a 5-reel, 10-line video slot featuring Win Both Ways and a Boxing Feature re-spin where Wilds remain on the reels for the re-spin.It takes players back to a boxing arena in the early 1900s: a time when boxing was for gentlemen. Hear the bell ring, see the lights go on and the punches fly when the two boxers appear on the reels to start the Boxing feature.

@@ -1,0 +1,1 @@
+﻿IPS to system kuponów pre-paid. Bezpieczna i natychmiastowa metoda przelewania środków na konto i z niego.

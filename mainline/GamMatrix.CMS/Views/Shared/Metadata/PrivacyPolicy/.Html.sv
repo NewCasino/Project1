@@ -1,0 +1,1 @@
+Vänligen infoga sekretesspolicy här[MetaData->PrivacyPolicy].

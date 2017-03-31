@@ -1,0 +1,1 @@
+Ko bo dokončano, bo vaše plačilo obdelano, sredstva pa bodo knjižena na vaš igralni račun, takoj ko jih prejmemo.

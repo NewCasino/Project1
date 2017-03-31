@@ -1,0 +1,1 @@
+Dölj stängda bord

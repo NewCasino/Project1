@@ -1,0 +1,1 @@
+Nie masz uprawnień do grania dopóki nie klikniesz łącza w wiadomości aktywacyjnej. 

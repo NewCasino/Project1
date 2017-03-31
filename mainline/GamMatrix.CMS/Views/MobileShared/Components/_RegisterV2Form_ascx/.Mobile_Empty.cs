@@ -1,0 +1,2 @@
+﻿Mobil nemůže být prázdný
+

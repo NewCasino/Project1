@@ -1,0 +1,1 @@
+Zobacz wszystkie jackpoty teraz!

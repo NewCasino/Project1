@@ -1,0 +1,1 @@
+﻿The Account ID you entered is not valid or your account cannot accept payments.

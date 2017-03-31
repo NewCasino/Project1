@@ -1,0 +1,1 @@
+Povezava je neveljavna ali je potekla.

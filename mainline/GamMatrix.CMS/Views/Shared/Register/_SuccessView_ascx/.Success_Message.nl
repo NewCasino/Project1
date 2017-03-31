@@ -1,0 +1,1 @@
+﻿Dank u, een bevestiging e-mail naar u is verzonden. Volg de instructies in de e-mail om de inschrijving te voltooien.

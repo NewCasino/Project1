@@ -1,0 +1,1 @@
+﻿Bohužel se přihlašujete ze země, ze které nepřijímáme sázky. V registraci nebude možné pokračovat.

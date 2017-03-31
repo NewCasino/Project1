@@ -1,0 +1,1 @@
+﻿prosím vložte číslice šeku

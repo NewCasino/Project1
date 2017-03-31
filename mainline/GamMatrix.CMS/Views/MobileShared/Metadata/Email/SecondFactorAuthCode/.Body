@@ -1,0 +1,8 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>You stated you have a smart phone while you were trying to activate 2-way security login at [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].</p>
+<p>First, please install Google Authenticator to your smartphone now from here (English link: <a href="https://support.google.com/accounts/answer/1066447">https://support.google.com/accounts/answer/1066447</a>) if you haven't done already.</p>
+<p>Here is your QR code, please scan it using Google Authenticator: <br /> <img src="$QRCODEIMAGEURL$" alt="QR code" /></p>
+<p>If the QR code scanning doesn't work, please enter this secret key to Google Authenticator:<br /><strong>$AUTHKEY$</strong></p>
+<p>Now, please go back to [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] and use the 6-digit code from Google Authenticator to login.</p>
+<p>Next time you login, you will simply generate a new code from your phone and you won't need any email confirmation like this.</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

@@ -1,0 +1,1 @@
+﻿Chci omezit své hraní

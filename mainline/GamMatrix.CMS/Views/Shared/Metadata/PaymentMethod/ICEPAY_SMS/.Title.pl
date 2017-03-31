@@ -1,0 +1,1 @@
+Płać za pomocą SMS-a.

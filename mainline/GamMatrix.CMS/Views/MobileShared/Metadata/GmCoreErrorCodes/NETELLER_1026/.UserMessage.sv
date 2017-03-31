@@ -1,0 +1,1 @@
+﻿You do not have a bank account registered with your NETELLER account. You must register a bank account with NETELLER before you can use instaCASH. Should you have any questions, call NETELLER Customer Service.

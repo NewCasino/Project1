@@ -1,0 +1,1 @@
+﻿Vyskytl se problém s vaším CLICK2PAY účtem. Pokud bude problém přetrvávat kontaktujte zákaznickou podporu na service@click2pay.com.

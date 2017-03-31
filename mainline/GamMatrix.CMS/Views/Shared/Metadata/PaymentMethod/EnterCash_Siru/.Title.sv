@@ -1,0 +1,1 @@
+Betalning via mobil

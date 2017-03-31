@@ -1,0 +1,1 @@
+﻿Med det här betalningssättet kan du göra direktinsättningar från alla bankkonton i Polen.&nbsp;&nbsp; Det är ett enkelt, snabbt och säkert betalningssätt online för överföring av pengar från ditt bankkonto till Internet.&nbsp;&nbsp;

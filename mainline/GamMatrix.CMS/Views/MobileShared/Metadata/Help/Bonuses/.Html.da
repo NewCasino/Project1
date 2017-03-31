@@ -1,0 +1,34 @@
+﻿<ol>
+        
+<li><strong>Hvor finder jeg de nuværende kampagner?</strong>
+<p>Du kan se alle nuværende kampagner ved at klikke på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kampagne menupunktet.</p>
+</li>
+
+<li><strong>Kan jeg spille alle spil på hjemmesiden, når jeg accepterer en bonus eller er der restriktioner på visse spil?</strong>
+<p>Se venligst vores Vilkår og Betingelser for den givne bonus. Hvis du stadig er i tvivl kan du altid kontakte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundeservice.</p>
+</li>
+
+
+<li><strong>Hvordan kan jeg se om jeg har opfyldt kravene forbundet med en kampagne?</strong>
+<p>Du kan se din fremgang under "min konto", hvor du kan finde dine aktive kampagner.</p>
+</li>
+
+
+<li><strong>Kan jeg blive nægtet at deltage i en kampagne?</strong>
+<p>Nogle kampagner kan være forbundet med brugere fra en given region, som bruger en given betalingsmetode eller lignende. Der kan også være restriktioner forbundet med spillere, som tidligere har overtråt vores vilkår og betingelser for [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kampagner. For yderligere information, kontakt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundeservice via <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+</li>
+  
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

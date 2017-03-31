@@ -1,0 +1,1 @@
+Vnesite številko mobilnega telefona prejemnika.

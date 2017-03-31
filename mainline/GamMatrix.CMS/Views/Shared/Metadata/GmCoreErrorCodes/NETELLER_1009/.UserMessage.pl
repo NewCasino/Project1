@@ -1,0 +1,1 @@
+﻿Nie udało się zrealizować żądania. Twoje konto NETELLER zostało tymczasowo zawieszone. Proszę zadzwonić do Działu Obsługi Klienta NETELLER.

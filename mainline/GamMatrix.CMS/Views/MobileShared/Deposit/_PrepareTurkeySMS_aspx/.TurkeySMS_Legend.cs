@@ -1,0 +1,2 @@
+﻿Zaplatit smskou
+

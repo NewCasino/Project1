@@ -1,0 +1,1 @@
+Överför till bank

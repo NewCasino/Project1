@@ -1,0 +1,5 @@
+﻿<p>Kjære $USERNAME$,</p>
+<br /> Takk for at du kontaktet [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Denne eposten er sendt for å bekrefte at din personlige grense for omsetning $LIMITAMOUNT$ $LIMITPERIOD$ vil bli tatt bort den $LIMITEXPIRYDATE$. <br /> <br /> Du må ikke nøle med å kontakte oss hvis du har spørsmål til <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p><br /> Med vennlig hilsen </p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundeservice </p>

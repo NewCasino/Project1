@@ -1,0 +1,2 @@
+﻿Ikke-null desimaler i beløpet blir ikke akseptert av TLNakit.
+

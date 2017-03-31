@@ -1,0 +1,1 @@
+Musisz się zalogować, aby dokonać wpłaty.

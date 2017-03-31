@@ -1,0 +1,1 @@
+﻿Vaše adresa musí mít alespoň 2 znaky

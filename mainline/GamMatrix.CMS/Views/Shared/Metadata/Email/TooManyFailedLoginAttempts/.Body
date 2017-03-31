@@ -1,0 +1,7 @@
+﻿This is an automated email, please do not reply.  
+<hr/>
+<p>Dear $FIRSTNAME$</p>
+<p>Your account has been blocked because of too many invalid login attempts and will be automatically unblocked after 15 minutes.</p>
+<p>If you forgot your password and need to change it, please use &quot;Forgot password&quot; link on the web site.</p>
+<p>For further assistance contact <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Kind Regards, <br /> [Metadata:value(/Metadata/Settings.Operator_DisplayName)] Customer Service</p>

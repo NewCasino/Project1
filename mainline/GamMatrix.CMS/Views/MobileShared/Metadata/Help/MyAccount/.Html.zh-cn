@@ -1,0 +1,38 @@
+﻿<ol><li><strong> 我忘记了我的用户名和密码，我该怎么办？</strong>
+	<p>输入错误的密码会导致不能登录账号。所以在每次输入密码之前请检查您的键盘上的大写锁定是否按住。如果问题仍然继续那么你可以选择‘忘记密码’之后就会有一个新的密码自动发入您的 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 账号之中。</p>
+	</li><li><strong> 如果我的账号有问题我该联系谁？</strong>
+	<p>请联系 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 客服 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+	</li><li><strong> 如果我不想继续使用我的账户我该怎么办？</strong>
+	<p>如果你想关闭您的[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]帐号请联系我们的客户  <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]。</a></p>
+	</li><li><strong> 如何修改我的密码？</strong>
+	<p>你可以在[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]网页的顶部点击忘记密码<a href="/ForgotPassword" target="_blank">链接</a>。</p>
+	</li><li><strong> 如何修改我的注册邮件地址？</strong>
+	<p>目前您不能修改您的注册邮件地址，如果您十分想更改您的邮件地址并拥有充分的理由，请可以联系 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 的客服获取帮助 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>。</p>
+	</li><li><strong> 我可以查看我的账户活动信息吗？</strong>
+	<p>您可以登录您的帐号进入“我的帐号”查看您的账户信息，&nbsp;或者您也可以联系 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 的客服。</p>
+	</li><li><strong> 我可以修改我的用户名吗？ </strong>
+	<p>您不可以更改您的用户名，这些都是为了账户安全所设置的防范措施。</p>
+	</li><li><strong> 如果我对我的博彩产生疑问我应该咨询谁？</strong>
+	<p>参与网上博彩是一件十分有趣的事情。但是， [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 知道也有许多玩家都对这项运动产生质疑。因此，[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 设定了十分严谨的规则以确保只有年满 18 岁的玩家才可以参与金钱活动。</p>
+	</li><li><strong> 我如何才能自我排除？</strong>
+	<p>您可以登录您的 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 账户，在那里您可以看见自我排除选项，当您点击按钮后，您会自动登录 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 网页。只有在您选定的时间段之后您才能重新回到我们的游戏中。</p>
+	</li><li><strong> 如果我的自我约束时间到期了怎么办？</strong>
+	<p>一旦您选定的自我约束时间到期了您可以联系 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 客服来重开您的账户。</p>
+	</li><li><strong> 我可以取消它吗？</strong>
+	<p>在您选择的时间段之内您是不能够取消它的。</p>
+	</li><li><strong> 我给客服发送了信息但是没有收到回复怎么办？</strong>
+	<p>我们旨在在24小时回复客户的问题。但某些问题可能会需要额外的细节与调查，回复的时间取决与您咨询的问题的性质。当收到您的问题后 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 的客服将会给您发送一封邮件，证明我们已经接受问题并且正在处理。 如果您没有收到邮件，请检查您的垃圾邮件， [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 不会发送任何的垃圾邮件， 但可能会被某些邮件过滤器错误地标识为垃圾邮件。</p>
+	</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

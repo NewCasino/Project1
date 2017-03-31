@@ -1,0 +1,2 @@
+﻿Singel Deck Blackjack Serier
+

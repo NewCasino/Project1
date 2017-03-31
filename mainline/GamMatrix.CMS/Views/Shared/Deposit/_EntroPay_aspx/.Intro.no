@@ -1,0 +1,5 @@
+﻿Innskuddsforespørselen {0} er avslått.<br />
+Banken din har kanskje begrensninger for hvordan kortet ditt kan brukes på Internett.<br /><br />
+<strong>Vi foretrekker følgende betalingsløsning: EntroPay!</strong><br />
+Det er en alternativ betalingsmåte som gjør at innskuddsprosessen {1} 
+går like lett som 1–2–3!

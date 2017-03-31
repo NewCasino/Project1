@@ -1,0 +1,1 @@
+Jesteś w trybie Graj dla zabawy. Aby grać na prawdziwe pieniądze, musisz się zalogować.

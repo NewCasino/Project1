@@ -1,0 +1,35 @@
+﻿<ol>
+
+    <li> <strong>Efectuei o download do software – onde é que o programa se encontra?</strong>
+        <p>
+            Quando o software de Poker da [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] for instalado no seu computador, procure o ícone da [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker no seu ambiente de trabalho. Em seguida, clique no ícone para iniciar o software de poker e será imediatamente encaminhado para ao lobby de jogo.
+        </p>
+    </li>
+
+    <li> <strong>A minha palavra-passe é constantemente rejeitada.</strong>
+        <p>
+            Inserir a palavra-passe incorreta resultará num código 'palavra-passe inválida'. As palavras-passe são sensíveis a letras maiúsculas, por favor assegure-se que o CAPS LOCK não está ativado. Se o problema persistir, selecione 'Esqueceu-se da palavra-passe?' e enviaremos uma nova palavra-passe para o email listado na sua conta [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].
+        </p>
+    </li>
+
+    <li>
+        <strong>Posso alterar o meu nickname?</strong>
+        <p>
+            A [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker permite aos seus jogadores a alteração do seu Player ID (nome que aparece nas mesas de poker) a cada 7 dias. Para efetuar esta alteração, por favor, inicie a sessão na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker e viste a página 'Minha Conta'.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+

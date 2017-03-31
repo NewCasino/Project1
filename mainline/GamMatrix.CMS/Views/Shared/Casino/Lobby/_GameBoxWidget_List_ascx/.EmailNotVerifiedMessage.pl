@@ -1,0 +1,1 @@
+Aby przejść w tryb Graj na prawdziwe pieniądze, musisz się zalogować!

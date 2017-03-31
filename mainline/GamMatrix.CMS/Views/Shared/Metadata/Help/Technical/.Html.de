@@ -1,0 +1,90 @@
+﻿<ol>
+
+    <li> <strong>Was sind die Mindestsystemanforderungen für das Spielen bei  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?</strong> 
+        <p>
+            <ul>
+                <li>
+                    Windows - Intel Pentium-Prozessor (Pentium II oder höher empfohlen) und 64 MB RAM.
+                </li>
+                <li>
+                    Macintosh - Power Macintosh Power PC-Prozessor (G3 oder höher empfohlen) und 64 MB RAM.
+                </li>
+                <li>
+                    Wichtige Mitteilung für Benutzer von Apple Macs: Möglicherweise funktioniert die aktuelle Version der Casinosoftware nicht wie geplant, wenn Sie sie auf einem Apple Mac-System betreiben, das derzeit noch nicht unterstützt wird.
+                </li>
+                <li>"FLASH“ 10 oder höher</li>
+                <li>
+                    [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ist kompatibel mit den meisten Windows-Betriebssystemen (Windows 2000, XP, Vista und Windows 7). 
+                </li>
+                <li>Ältere Internet-Explorer-Version als Version 7 werden nicht unterstützt. </li>
+            </ul>
+        </p>
+    </li>
+
+    <li> <strong>Was passiert, wenn die Verbindung unterbrochen wird?</strong>
+        <p>
+            Alle gespielten Spiele werden sicher auf unseren Servern gespeichert. Bei einer Verbindungsunterbrechung müssen Sie sich einfach nur wieder in Ihr Konto einloggen, und schon sehen Sie den Ausgang jeder Sportveranstaltung und jedes Spiels. Für das Casino gilt: Wenn das Spiel noch am Laufen war, können Sie es nach dem nächsten Einloggen und Aufrufen des Spiels wieder aufnehmen. Falls dabei weiterhin Probleme auftreten, klicken Sie bitte „Hier“. Ein Mitglieder unseres Kunden-Support-Teams wird Ihnen dann in einem Live-Chat weiterhelfen.
+        </p>
+    </li>
+
+    <li>
+        <strong>Welche Software-Anbieter nutzen Sie?</strong>
+        <p>
+            Die Software für unsere Sportwetten stammt von Oddsmatrix, die des Casinos von Net Entertainment, und unsere Pokerspiele arbeiten mit Cake.
+        </p>
+    </li>
+
+    <li>
+        <strong>Warum kann ich mich nicht mit dem Spieleserver verbinden?</strong>
+        <p>
+            Überprüfen Sie bitte Ihre Internetverbindung. Falls diese einwandfrei funktioniert und eine Verbindung dennoch nicht möglich ist, wenden Sie sich bitte an den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kunden-Support.
+        </p>
+    </li>
+
+    <li>
+        <strong>Warum kann ich mich nicht in meinem Konto einloggen?</strong>
+        <p>
+            Bitte überprüfen Sie, ob Sie den korrekten Benutzernamen und das korrekte Passwort für Ihr Konto verwenden. Wenn dies der Fall ist und Sie sich dennoch nicht einloggen können, wenden Sie sich bitte an den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kunden-Support.
+        </p>
+    </li>
+
+    <li>
+        <strong>Die Website funktioniert nur sehr langsam. Was kann ich tun, um sie zu beschleunigen?</strong> 
+        <p>
+            Wenn Ihre Verbindung sehr langsam ist, beachten Sie bitte Folgendes: Wenn Sie gleichzeitig mehrere Browserfenster oder Programme geöffnet haben oder Dateien herunterladen, kann dies Ihren Computer und/oder die Internetverbindung deutlich verlangsamen. Möglicherweise gibt es auch Probleme bei Ihrem Internetanbieter. Auch wenn Sie sich die Bandbreite der Internetverbindung in Ihrem Haushalt oder womöglich gar in einem größeren Bereich mit anderen teilen müssen, kann dies die Geschwindigkeit der Verbindung herabsetzen.
+        </p>
+    </li>
+
+    <li>
+        <strong>Ich habe keinen Ton.</strong>
+        <p>
+            Bitte überprüfen Sie, ob Ihr Computer über eine Soundkarte verfügt und Ihre Lautsprecher nicht stummgeschaltet sind.  Überprüfen Sie auch, ob Sie im Reiter [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] „Optionen“ den Sound ausgewählt haben. Auch der Reiter „Chat“ unten rechts auf dem Bildschirm mit dem Spieltisch enthält einen Button „Optionen“. Hier können Sie auswählen, ob alle Sounds abgespielt werden, ob nur Alarmtöne zu hören sind oder alles stummgeschaltet ist.
+        </p>
+    </li>
+
+    <li>
+        <strong>Haben Sie auch eine Mac-Version der Software?</strong>
+        <p>
+            Leider können wir derzeit noch keine Version unserer Software anbieten, die speziell für den Mac entwickelt wurde. Viele unserer Benutzer verwenden jedoch auf ihrem Mac erfolgreich eine PC-Emulation und können so unsere Spiele spielen. Bitte besuchen Sie unsere „Download“-Seite. Dort erhalten Sie weitere Informationen.
+        </p>
+    </li>
+
+    <li>
+        <strong>Warum ist mein Spiel so langsam?</strong>
+        <p>
+            Die Kommunikation zwischen Ihrem Gerät und unseren Servern wurde für die schnellste Reaktionszeit optimiert. Wenn das Spiel dennoch langsam abläuft, kann dies z. B. die folgenden beiden Gründe haben: 1. Die Spieler am Tisch brauchen sehr lange, um zu reagieren, wenn sie an der Reihe sind. 2. Möglicherweise ist Ihre Internetverbindung nicht sehr gut.
+        </p>
+    </li>
+
+</ol>
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

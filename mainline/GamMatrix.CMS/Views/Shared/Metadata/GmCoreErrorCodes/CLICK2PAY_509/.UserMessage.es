@@ -1,0 +1,1 @@
+﻿Retirada rechazada. El pago aún no ha sido activado.

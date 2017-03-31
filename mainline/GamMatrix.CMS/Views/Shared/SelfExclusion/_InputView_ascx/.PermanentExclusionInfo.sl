@@ -1,0 +1,1 @@
+﻿Če boste želeli aktivirati trajno samoizključevanje, lahko to storite, tako da se obrnete na ekipo za podporo na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> in navedete razloge, nakar bo vaš račun nemudoma trajno blokiran.

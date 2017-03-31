@@ -1,0 +1,1 @@
+Prikaži samo nove mize

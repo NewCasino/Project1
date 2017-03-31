@@ -1,0 +1,1 @@
+﻿Niepoprawny format adresu e-mail

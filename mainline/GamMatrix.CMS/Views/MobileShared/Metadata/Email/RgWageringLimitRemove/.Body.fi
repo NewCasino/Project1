@@ -1,0 +1,6 @@
+﻿<p>Dear $USERNAME$,</p>
+<br /> Kiitos yhteydenotostasi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /><br /> Henkilökohtainen istunto raja on asetettu $NEWLIMITPERIOD$ minutes. <br /><br /> Voit vähentää istuntojen enimmäismäärä heti &nbsp; käyttäen samaa valikkoa Vastuullinen pelaaminen alueen sivuston. <br /><br /> Kuitenkin, jos haluat lisätä raja, se kestää 7 päivää ennen uuden rajan &nbsp; aktivoituu.&nbsp; 7 päivää aikana asetetaan siten, että se mahdollistaa aika harkita muutosta tarvittaessa.<br /><br /> Älä epäröi ottaa yhteyttä, jos sinulla on kysyttävää kello <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p>Kind Regards</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu joukkue &nbsp;&nbsp;&nbsp;</p>
+

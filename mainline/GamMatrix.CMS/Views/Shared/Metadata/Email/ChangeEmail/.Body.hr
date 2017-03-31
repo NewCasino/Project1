@@ -1,0 +1,7 @@
+﻿<p>Pozdrav $FIRSTNAME$,</p>
+<p>Zahtijevali ste da vaša [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] adresa e-pošte za kontakt bude izmijenjena.</p>
+<p>Radi vaše sigurnosti trebate potvrditi vašu novu adresu e-pošte za kontakt. Kako biste to uradili, jednostavno kliknite na poveznicu ispod:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Ako ova poveznica ne bude reagirala, kopirajte i zalijepite poveznicu izravno u vaš preglednik.</p>
+<p>Ako niste tražili promjenu vaše adrese e-pošte, zanemarite ovu e poštu ili nas obavijestite na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Lijepi pozdrav, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Tim službe za korisnike</p>

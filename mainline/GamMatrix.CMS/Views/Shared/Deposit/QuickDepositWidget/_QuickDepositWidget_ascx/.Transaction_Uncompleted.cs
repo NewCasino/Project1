@@ -1,0 +1,2 @@
+﻿Transakce není kompletní.
+

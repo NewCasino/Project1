@@ -1,0 +1,1 @@
+﻿Zaplatit přes mobil

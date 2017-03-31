@@ -1,0 +1,1 @@
+Pamiętaj, że nie będziesz mógł dokonywać żadnych wypłat z $ACCOUNT_NAME$ do chwili spełnienia wszystkich warunków obrotu premii.

@@ -1,0 +1,1 @@
+Swiff erbjuder enkla, säkra och privata online-betalningar för alla. Swiff är mina pengar, på mitt sätt. Online-betalningar enkelt.

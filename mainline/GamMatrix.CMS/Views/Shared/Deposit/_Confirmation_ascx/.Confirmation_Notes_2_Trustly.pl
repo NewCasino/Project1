@@ -1,0 +1,1 @@
+Prosimy pamiętać, że jeśli konto bankowe jest w innej walucie niż $CURRENCY$, konto banku, zostanie naliczony ekwiwalent $AMOUNT2$ w lokalnej walucie przy zastosowaniu kursu wymiany Trustly.

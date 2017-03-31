@@ -1,0 +1,1 @@
+Hasło musi składać się z przynajmniej 8 znaków.

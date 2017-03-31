@@ -1,0 +1,12 @@
+﻿<p>Poštovani $FIRSTNAME$,</p>
+<br />
+<p>Naziv računa: $USERNAME$ </p>
+<br />
+Ovom e-porukom vas obavještavamo da je vaš račun sada postavljen na hlađenje čiji će period isteći $EXPIRY_DATETIME$.  Tijekom ovog perioda nećete biti u mogućnosti prijaviti se na svoj račun. Obavijestit ćemo vas putem e-pošte kada vaš period hlađenja istekne.
+<br />
+<br />
+Ne oklijevajte kontaktirati nas ako imate bilo kakvih pitanja na 
+<a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>Lijepi pozdrav,</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]  Tim za podršku korisnicima</p> 

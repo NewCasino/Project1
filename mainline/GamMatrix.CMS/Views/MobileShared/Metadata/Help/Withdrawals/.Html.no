@@ -1,0 +1,52 @@
+﻿<ol>
+        
+<li><strong>Hvordan kan jeg foreta et uttak fra kontoen min på nettstedet?</strong>
+<p>Du kan spørre om uttak når&nbsp; som helst&nbsp; så lenge du oppfyller alle kravene og har &nbsp; blitt autorisert for uttak i systemet vårt. Du kan foreta så mange uttak som du måtte ønske, men i henhold til lovene som [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] følger for å hindre hvitvasking av penger, kan vi ikke tillate uttak fra [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-kontoen&nbsp; din før 24 timer etter at du har foretatt innskuddet. Det&nbsp; minste beløpe som kan tas ut er €10.</p>
+</li>
+
+<li><strong>Er det noen grense for hvor mye jeg kan ta ut?</strong>
+<p>Du må minst ta ut €10,00, eller tilsvarende i din valuta. Du kan maksimalt ta ut €5000 per dag, eller tilsvarende i din valuta.</p>
+</li>
+
+<li><strong>Kan jeg kansellere en forespørsel om uttak?</strong>
+<p>Du må kontakte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte, og hvis uttaket ikke har behandlet vil det kunne stoppes.</p>
+</li>
+
+<li><strong>Kan jeg få gevinstene mine satt tilbake inn på kreditt-/debetkortet mitt?</strong>
+<p>Ja, så lenge det er det samme kortet som du brukte da du foretok det opprinnelige innskuddet, og kortet har mulighet til&nbsp; å godta et&nbsp; uttak tilbake til det.</p>
+</li>
+
+<li><strong>Jeg brukte kreditt-/debetkortet mitt til å foreta et innskudd, men kan jeg be om en utbetaling på en annen måte?</strong>
+<p>Ja, det kan du, men vi trenger kanskje full dokumentasjon fra deg og all informasjon om den nye metoden.</p>
+</li>
+
+<li><strong>Hvorfor kan jeg ikke velge hvordan jeg vil bli betalt?</strong>
+<p>Dette er grunnet lovene for hvitvasking av penger, som vi følger for vår og din egen sikkerhet, som gjelder for alle finansielle transaksjoner. Så dersom det ikke autoriseres, vil alle utbetalinger skje tilbake via samme metode som ble brukt til innskuddet.</p>
+</li>
+
+<li><strong>Tar dere noen avgifter for uttak?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+<p>Avgiftene for uttak varierer avhengig av metoden du benytter. Vennligst klikk på "<a href="/deposit">Betalingsmetoder</a>" for å se informasjon om avgifter. Det kan også hende at banken din belaster deg en avgift for tjenestene deres.</p>
+</li>
+
+
+<li><strong>Hvor lang tid tar vanligvis prosessen med et uttak?</strong>
+<p>Dette kan variere avhengig av metoden du har valgt for uttaket. Vennligst klikk på "<a href="/deposit">Betalingsmetoder</a>" for å se alle uttaksmetodene som er tilgjengelig for deg, og hvor lang tid de tar.</p>
+</li>
+
+<li><strong>Hvorfor tar et uttak til kortet mitt mange dager, mens innskuddet skjedde umiddelbart?</strong>
+<p>Vi har en rekke kontroller og sjekker vi å gjennomføre før uttak forlater [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], og disse forsinker uttak med omtrent 12 timer. Disse sjekkene er en del av vår pågående innsats for å sørge for sikkerheten til våre kunders midler. Eventuelle andre forsinkelser skyldes begrensninger på betalingsformidlerens side.</p>
+</li>
+
+<li><strong>Hva skjer hvis kortet jeg satt inn penger med har utløpt eller blitt kansellert?</strong>
+<p>Du må gi oss beskjed om endringer av&nbsp; kort, og gi oss bevis på at kortet har gått ut på dato eller en annen grunn for endringen.&nbsp; Nye kort må registreres hos oss på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-kontoen din.</p>
+</li>
+
+<li><strong>Kan jeg foreta et uttak fra kontoen min og sende det til noen andre?</strong>
+<p>Nei, dette anses som en tredjepartstransaksjon, og er ikke tillatt under noen omstendigheter.</p>
+</li>
+
+<li><strong>Hva er [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sine retningslinjer for uttak?</strong>
+<p>Kontoen din må være aktiv og ha minimumsbeløpet med penger som kreves for å foreta et uttak. Noen restriksjoner kan gjelder for spillere som deltar i [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-kampanjer.</p>
+</li>
+    
+</ol>

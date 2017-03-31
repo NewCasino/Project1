@@ -1,0 +1,16 @@
+﻿/**********slieder items**********/
+.imageslider-wrapper {position: relative;height: 204px;width: 544px; }
+#imageslide-holder {position: relative;height: 204px;width: 544px;float: left;}
+#imageslide-holder div {position: absolute;top: 0;left: 0;z-index: 3;height: 204px;width: 544px;overflow: hidden;}
+#imageslide-holder div.current {z-index: 5;}
+#imageslide-holder div.prev {z-index: 4;}
+#imageslide-holder div img {display: block;border: 0;width: 544px; }
+#imageslide-holder div span {display: none;position: absolute;bottom: 0;left: 0;height: 50px;line-height: 50px;background: #000;color: #fff;width: 100%;}
+/**********slider control**********/
+#slidecontrols {z-index: 10;position: relative;float: right;list-style-type: none;margin: -30px 30px 0 0;*margin:-28px 30px 0 0;}
+#slidecontrols li {float: left;margin-right: 1px;}
+#slidecontrols a {display: block;padding: 16px 0px 0px 18px;text-align: center;color: #fff;float: left;height: 0px;line-height: 18px;
+text-decoration: none;background: url(//cdn.everymatrix.com/Jetbull/_files/home/jetbullslider.png) -308px -598px;width: 0px;overflow: hidden;}
+#slidecontrols li.current a {background: url(//cdn.everymatrix.com/Jetbull/_files/home/jetbullslider.png) -308px -581px;color: #000}
+.slideimgloading {position: absolute;top: 90px;right: 80px;}
+/**********slidehandle  **********/

@@ -1,0 +1,8 @@
+﻿<p>Sayın $USERNAME$,<br /> </p>
+<br />
+Bu e-posta, hesabınızın 30 gün boyunca kendi isteğinizle dondurulduğunu doğrulamak için gönderilmiştir. <br /><br />Bu süre içinde hesabınıza giriş yapamayacaksınız. Hesap dondurma süreniz sona erdiğinde size e-posta ile bir bildirim yollayacağız. 
+<br /><br />Herhangi bir sorunuz olursa, lütfen bizimle iletişime geçmekten çekinmeyiniz: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<br /><br />
+<p>Saygılarımızla,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Destek Takımı</p>
+

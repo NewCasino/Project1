@@ -1,0 +1,12 @@
+﻿Dear $FIRSTNAME$,<br /><br />
+Account username: $USERNAME$<br /><br />This email is to confirm that your pending withdrawal was cancelled on $TXCOMPLETEDDATE$. Your funds have been returned to your gaming account.</p>
+<p>The details of this transaction are shown below:</p>
+<ul>
+     <li><strong>Transaction ID</strong>:$TXID$</li>
+     <li><strong>Transaction Date</strong>:$TXCREATEDDATE$</li>
+     <li><strong>Amount</strong>:$TXAMOUNT$ $TXCURRENCY$ </li>
+</ul>
+<p>Please contact support if you require further assistance regarding this transaction.</p>
+<p>Kind Regards,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team</p>
+ 

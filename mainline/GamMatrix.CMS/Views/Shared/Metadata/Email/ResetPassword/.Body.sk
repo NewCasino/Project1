@@ -1,0 +1,6 @@
+﻿<p>Ahoj $FIRSTNAME$,</p>
+<p>ďakujeme, že ste sa obrátili na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. Požiadali ste nás o obnovenie hesla, preto prosím kliknite na nasledujúci odkaz.</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>Odkaz platí iba 24 hodin a je možné ho použiť iba raz.<p>
+<p>Ak si neprajete svoje heslo meniť, tento e-mail prosím ignorujte.<p/>
+<p>S pozdravom,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tím</p>

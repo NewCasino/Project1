@@ -1,0 +1,1 @@
+﻿El estado del lote '{0}' no puede ser actualizado en '{1}'

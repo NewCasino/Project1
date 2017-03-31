@@ -1,0 +1,1 @@
+﻿Bonusová pravidla a podmínky 

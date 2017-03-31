@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" PageTemplate="/DefaultMaster.master" Title="<%$ Metadata:value(.Title)%>" MetaKeywords="<%$ Metadata:value(.Keywords)%>" MetaDescription="<%$ Metadata:value(.Description)%>" %>
+
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server">
+
+    <asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+
+    <div class="left-pane ProfileMenu">
+        <% Html.RenderPartial("/Components/SidePanel"); %>
+    </div>
+    <div class="main-pane MainProfile">
+        <asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+    </div>
+
+    <ui:MinifiedJavascriptControl runat="server" AppendToPageEnd="true">
+        <script type="text/javascript">
+            $(function() {
+                <% if (ViewContext.RouteData.Values["controller"].ToString() == "Deposit" && ViewContext.RouteData.Values["action"].ToString() == "Prepare") { %>
+                    jQuery('body').addClass('DepositPrepare');
+                <% } %>
+                jQuery('body').addClass('AuthenticatedProfile');
+                try {
+                    if ($('#quickDepositFrame', window.parent.document).length > 0) {
+                        $('html').addClass('QuickDepositPage');
+                        $('.MainProfile').children().appendTo('body');
+                        $('#container').hide();
+                    }
+                } catch(e) {
+                }
+            });
+        </script>
+    </ui:MinifiedJavascriptControl>
+
+</asp:Content>
+

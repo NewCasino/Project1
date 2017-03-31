@@ -1,0 +1,1 @@
+﻿Click2Pay es un servicio de monedero electrónico que permite a los clientes de Click2Pay depositar, retirar y transferir fondos desde&nbsp;su cuenta online Click2Pay a&nbsp;su cuenta de juego. Es seguro y los fondos están disponibles en su cuenta de juego instantáneamente. Haga clic&nbsp;<a href="http://www.click2pay.com/">aquí</a> para abrir una cuenta Click2Pay.&nbsp;

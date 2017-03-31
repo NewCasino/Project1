@@ -1,0 +1,1 @@
+﻿Seřadit podle poskytovatele.

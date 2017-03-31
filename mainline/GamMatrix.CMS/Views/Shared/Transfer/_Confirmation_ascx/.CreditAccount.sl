@@ -1,0 +1,1 @@
+V dobro na {0} račun

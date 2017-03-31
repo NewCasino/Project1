@@ -1,0 +1,1 @@
+Jag har läst reglerna och villkoren

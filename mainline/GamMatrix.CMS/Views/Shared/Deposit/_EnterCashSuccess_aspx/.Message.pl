@@ -1,0 +1,1 @@
+Prosimy pamiętać, że numeru referencyjnego można użyć tylko do jednej wpłaty. Drugi przelew z tym samym numerem referencyjnym nie zasili Twojego konta.

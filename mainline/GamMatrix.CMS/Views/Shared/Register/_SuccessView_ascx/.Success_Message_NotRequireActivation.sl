@@ -1,0 +1,1 @@
+Hvala, vaša registracija je bila uspešno opravljena!

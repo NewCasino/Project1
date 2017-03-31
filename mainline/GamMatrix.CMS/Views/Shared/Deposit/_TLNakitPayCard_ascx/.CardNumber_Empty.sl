@@ -1,0 +1,1 @@
+Številka kartice ne more biti prazna.

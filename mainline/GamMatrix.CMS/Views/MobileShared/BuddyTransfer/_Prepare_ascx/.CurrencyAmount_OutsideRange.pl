@@ -1,0 +1,1 @@
+﻿Kwota przekracza limity.

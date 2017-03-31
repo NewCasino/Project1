@@ -1,0 +1,1 @@
+﻿<p style="font-size: 16px;">Если Вы используете карту Mastercard, выданную <img alt="Intercash" src="/Views/Shared/_files/Icons/intercash_logo.png" align="absmiddle" /><br /> нажмите <a href="/Deposit/Prepare/Intercash">здесь</a>, чтобы перейти на страницу с депозитами.</p>

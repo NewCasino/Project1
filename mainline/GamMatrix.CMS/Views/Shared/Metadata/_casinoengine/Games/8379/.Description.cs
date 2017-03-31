@@ -1,0 +1,1 @@
+﻿Fisticuffs™ je pětiválcový video automat s 10 liniemi a speciály Win Both Ways a Boxing Feature, kde symboly Wild zůstávají na válcích, které se znovu roztočí. Hráči se přenesou do ringu na počátku 20. století, tedy do doby, kdy byl box záležitostí gentlemanů. Nechte zaznít gong, rozsvítit reflektory a sledujte, jak dva boxeři na válcích rozdávají ránu za ránou.

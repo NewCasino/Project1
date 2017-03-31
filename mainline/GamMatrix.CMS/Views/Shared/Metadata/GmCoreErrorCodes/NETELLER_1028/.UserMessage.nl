@@ -1,0 +1,1 @@
+﻿Uw aanvraag kan niet worden voltooid. Transacties vanaf uw verblijfsplaats naar deze handelaar zijn niet beschikbaar.

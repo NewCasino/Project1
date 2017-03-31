@@ -1,0 +1,1 @@
+Możesz szybko przelać pieniądze z karty Maestro na swoje konto gracza. Wystarczy podać dane swojej karty. Po zweryfikowaniu karty Maestro środki zostaną szybko i bezpiecznie przesłane na Twoje konto gracza.

@@ -1,0 +1,1 @@
+﻿<p class="chromeframe">Ваш браузер <em>окончательно устарел!</em> <a href="http://browsehappy.com/">Пожалуйста, обновите свой браузер</a> или <a href="http://www.google.com/chromeframe/?redirect=true">установите фрейм Google Chrome Frame</a> для того, чтобы в полную силу насладиться нашим сайтом.</p>

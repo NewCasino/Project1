@@ -1,0 +1,8 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+ll tuo deposito è stato rifiutato, per favore controlla le informazioni inserite e riprova più tardi..
+<p>Se hai domande riguardanti il tuo voucher contatta senza esitazioni <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Saluti,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team</p>
+
+
+
+

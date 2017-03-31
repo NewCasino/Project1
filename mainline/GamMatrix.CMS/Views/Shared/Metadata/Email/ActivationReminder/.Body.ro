@@ -1,0 +1,19 @@
+﻿<p>Dear&#160; $USERNAME$,<br />
+<br />
+Multumim ca v-ati inregistrat la [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+<br />
+<br />
+Pentru siguranta dumneavoastra am vrea sa va amintim sa va verificati e-mailul pentru a fi sigur ca va ramane activ contul pentru a putea sa va bucurati in continuare de toate ofertele grozave disponibile la [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].<br />
+<br />
+Va rugam apasati pe linkul de mai jos, daca nu functioneaza, incercati sa copiati linkul in browser.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+Daca nu v-ati inregistrat la [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+, va rugam sa ignorati acest email sau sa informati <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />Asigurati-va ca ati completat emilul de verificare cat mai curand pentru a preveni restrictia contului dumneavoastra pentru propria protectie.
+<p><br />
+Cu drag,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Echipa Customer Service <br />
+

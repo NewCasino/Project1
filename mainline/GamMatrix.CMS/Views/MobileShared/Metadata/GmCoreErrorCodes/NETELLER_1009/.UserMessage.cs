@@ -1,0 +1,1 @@
+﻿Váš požadavek nemůže být dokončen. Váš NETELLER účet byl dočasně pozastaven. Prosím volejte NETELLER zákaznickou podporu.

@@ -1,0 +1,1 @@
+﻿Částka je mimo limity.

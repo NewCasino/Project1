@@ -1,0 +1,1 @@
+﻿Introduzca un número de móvil de entre 7 y 30 dígitos

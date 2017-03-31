@@ -1,0 +1,1 @@
+Jag bekräftar att jag är 18 år eller äldre och har redan accepterat era 

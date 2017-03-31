@@ -1,0 +1,13 @@
+<#
+	var data = arguments[0];
+
+	for( var i = 0; i < data.length; i++) {
+#>
+<div class="entry Winner country-flags">
+	<# if(data[i].CountryFlagName){ #>
+		<div class="GFlagImage <#= data[i].CountryFlagName.htmlEncode() #>"></div>
+    <# } #>
+    <div class="WinnerName"><#= data[i].DisplayName.htmlEncode() #></div>
+    <div class="WinAmmount Cash"><#= data[i].Currency.htmlEncode() #> <#= data[i].Price #></div>
+</div>
+<# } #>

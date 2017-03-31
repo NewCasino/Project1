@@ -1,0 +1,1 @@
+Se föregående spelsida

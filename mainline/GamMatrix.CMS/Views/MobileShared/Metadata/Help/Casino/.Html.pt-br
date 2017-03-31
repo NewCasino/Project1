@@ -1,0 +1,73 @@
+﻿<ol>
+
+    <li> <strong>Como faço para depositar dinheiro para o [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Cassino?</strong> 
+        <p>
+            O saldo casino é separado da [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] conta principal para que você possa ter uma visão geral fácil, os fundos são transferidos facilmente entre os dois usando o recurso de 'Transferência', que está sempre disponível à direita no cassino quando você está logado.
+        </p>
+    </li>
+
+    <li> <strong>Como justo são os jogos em seu site?</strong>
+        <p>
+            Gostaríamos de assegurar-lhe que os algoritmos usados ​​para gerar cartões em nosso site são completamente aleatórios . Nossos jogos são desenvolvidos utilizando a função Secure Random da Sun Microsystems. O gerador de números aleatórios e shuffle foi projetado por um PhD em Matemática . O software que usamos para randomisar ofertas foi exaustivamente testado e revela nenhum preconceito ou previsibilidade, e foi aprovado pela eCOGRA .
+        </p>
+    </li>
+
+    <li>
+        <strong>O que acontece se o jogo for interrompido no meio de uma rodada jogo?</strong> 
+        <p>
+            O estado de cada rodada é automaticamento armazenada no banco de dados do sistema. Isso garante que o último estado do jogo visto pelo jogador sempre é restaurado quando o jogo é retomado após uma interrupção devido ao sistema, à internet ou falhar, ou devido a problemas no lado do cliente.
+        </p>
+    </li>
+
+    <li>
+        <strong>Quantos baralhos existem no jogo de Blackjack?</strong>
+        <p>4 e 6 baralhos são usados em nossos jogos de Blackjack.</p>
+    </li>
+
+    <li>
+        <strong>Onde posso encontrar instruções detalhadas para os seus jogos?</strong>
+        <p>
+            Cada um dos nossos jogos têm as 'regras do jogo' na página do jogo específico em si.
+        </p>
+    </li>
+
+    <li>
+        <strong>Quais são os pagamentos médios para o site?</strong>
+        <p>
+            Os pagamentos variam de jogo para jogo e ao longo do tempo, no entanto, a o pagamento teórico está na faixa de 97%. O pay-out dos jogos é codificado e não ajustamos estes.
+        </p>
+    </li>
+
+    <li>
+        <strong>Posso experimentar os jogos de graça?</strong>
+        <p>
+            Sim, você pode jogar todos os jogos de graça, se você escolher o modo 'Play for Fun".
+        </p>
+    </li>
+
+    <li>
+        <strong>Posso remover uma aposta depois de colocá-la em cima da mesa?</strong>
+        <p>
+            Antes de o jogo ter começado isso pode ser possível, mas após o início do jogo, você não pode mudar ou diminuir qualquer aposta.        </p>
+    </li>
+
+    <li>
+        <strong>O que acontece quando eu perder a conexão durante uma rodada de jogo?</strong>
+        <p>
+            O jogo continua com a situação que foi deixado quando você entrar e abrir o jogo novamente. Slots que giravam durante o corte vão terminar a rodada até mesmo se a conexão for cortada.        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Imprimir</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+

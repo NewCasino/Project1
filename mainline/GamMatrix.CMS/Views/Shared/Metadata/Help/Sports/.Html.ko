@@ -1,0 +1,54 @@
+﻿<ol>
+        
+<li><strong>허용되는 최소 및 최대 베팅은 얼마입니까?</strong>
+<p>최대 베팅은 종목에 따라서 다릅니다. 만약 귀하가 최대 한도보다 더 큰 베팅을 하려고 한다면, 귀하가 그 선택 종목에서 허용되는 최대 금액을 알려 주는 메시지를 받게 됩니다. 저희는 최소 베팅 한도는 두고 있지 않습니다.<p>
+</li>
+
+<li><strong>단일 베팅과 복수 베팅은 무엇인가요?</strong>
+<p>단일 베팅은 단 하나의 선택을 의미합니다. 복수 베팅은 하나 이상의 베팅을 필요로 합니다. 귀하가 복수 베팅에서 더 많은 선택들을 연결시킬수록(예, 프리미어 리그 라운드의 모든 홈팀들), 귀하는 더 많은 승리를 거둘 수 있습니다. &ndash; 그러나, 물론 그것은 더욱 힘든 것이기도 합니다!<p>
+</li>
+
+<li><strong>복수 베팅은 얼마나 많은 선택들을 포함할 수 있나요?</strong>
+<p>저희가 복수 베팅에서 허용하는 최대 선택의 수는 10개 입니다.<p>
+</li>
+
+<li><strong>핸디캡 베팅은 어떻게 이루어지나요?</strong>
+<p>핸디캡 베팅에 대한 상세한 설명에 대해서는 (1x2 with Handicap and Asian Handicaps), 여기의 베팅 설명 항목을 방문하시기 바랍니다.<p>
+</li>
+
+<li><strong>만약 경기가 연기되면, 어떻게 되나요?</strong>
+<p>그 스포츠에 대한 규칙을 확인하세요. 일부 스포츠는, 베팅이 유효하도록, 당일에 그 시합이플레이 될 것을 요구합니다. 또 일부 다른 스포츠들에서는, 그 시합이 완료되거나 공식적으로 포기될 때까지, 오픈 상태로 남아 있기도 합니다.<p>
+</li>
+
+<li><strong>왜 저의 승리 베팅액이 아직 지급이 안되고 있습니까?</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 시장이 결제가 되기 이전에, 공식적인 결과가 선언되는 것을 필요로 합니다. 때때로, 라이브 스코어 사이트 같은 온라인 소스들은 부정확할 수가 있으며, 따라서 결제는 결과가 확인될 때까지 지연될 수 있습니다.<p>
+</li>
+
+<li><strong>제가 마음이 바뀌었습니다. 제가 저의 베팅을 취소할 수 있나요?</strong>
+<p>안됩니다. 일단 귀하가 귀하의 베팅을 확인을 하고 그것이 저희 서버에 의해 접수가 되었으면, 베팅은 취소될 수 없습니다.<p>
+</li>
+
+<li><strong>저는 어디서 저의 베팅 기록을 볼 수 있나요?</strong>
+<p>귀하의 베팅 및 거래 내역은 로그인 되었을 때 ‘내 스포츠베팅 계정’에서 보실 수 있습니다. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 웹사이트.<p>
+</li>
+
+<li><strong>왜 승리가 영국 확률에서는 다르게 계산되나요?</strong>
+<p>승리를 계산할 때에, 저희는 그것들이 가장 정확하기 때문에 소수점(EU) 확률을 이용합니다.  일부 소수점 확률들이 간단한 분수와 일치하지 않기 때문에, 영국과 미국의 확률은 디스플레이 목적으로만 쓰입니다.<p>
+</li>
+
+<li><strong>베팅이 저에게 중독이 되어가고 있습니다. 제가 어떻게 해야 되나요?</strong>
+<p>베팅 하는 것은 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 모든사람에게 즐길 수 있는 오락거리여야 하지만, 그러나 일부 소수의 사람들에게는, 그것이 중독이 될 수 있으며 문제를 일으킬 수 있습니다. 도박에 대한 정보는 스스로 책임지는 도박을 통하여 얻을 수 있습니다.<p>
+</li>
+
+</ol>
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

@@ -1,0 +1,1 @@
+﻿Du spelar nu med riktiga pengar under jurisdiktionen i {0}.

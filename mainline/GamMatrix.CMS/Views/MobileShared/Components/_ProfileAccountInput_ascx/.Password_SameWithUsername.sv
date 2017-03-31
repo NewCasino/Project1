@@ -1,0 +1,1 @@
+Lösenordet får inte vara samma som användarnamnet

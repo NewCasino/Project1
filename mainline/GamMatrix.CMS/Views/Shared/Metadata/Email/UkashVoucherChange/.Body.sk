@@ -1,0 +1,8 @@
+﻿<p>Ahoj $FIRSTNAME$,</p>
+<p>utratili ste časť hodnoty svojej poukážky Ukash a nižšie nájdete jej nové údaje.</p>
+<ul>
+<li><strong>Číslo poukážky Ukash</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Hodnota poukážky Ukash</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>Platnosť poukážky Ukash</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>Ak máte nejaké otázky, obráťte sa prosím na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p><p>S pozdravom,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tím</p>

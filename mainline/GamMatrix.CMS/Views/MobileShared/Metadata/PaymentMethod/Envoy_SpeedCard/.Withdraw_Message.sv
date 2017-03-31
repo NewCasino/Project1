@@ -1,0 +1,1 @@
+Gör ett uttag direkt med ditt SpeedCard konto.

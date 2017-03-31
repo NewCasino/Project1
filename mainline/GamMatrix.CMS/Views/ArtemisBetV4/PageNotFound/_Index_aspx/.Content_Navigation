@@ -1,0 +1,11 @@
+﻿<h2>Return to another page of the site:</h2>
+<div class="Box TheGameList Columns-1 sitemap_items">
+<ul class="List">
+<li class="Item Odd">
+<a class="ListLink" href="/sports/">Sportsbook</a></li>
+<li class="Item Even">
+<a class="ListLink" href="/casino/">Casino</a></li>
+<li class="Item Odd">
+<a class="ListLink" href="/poker/">Poker</a></li>
+<li class="Item Even">
+<a class="ListLink" href="/livecasino/">Live Casino</a></li></ul></div>

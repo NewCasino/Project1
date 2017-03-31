@@ -1,0 +1,1 @@
+Kwota nie jest prawidłowa dla wybranej premii

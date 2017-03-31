@@ -1,0 +1,1 @@
+Transakcja nie została zakończona. Odśwież tę stronę po zakończeniu transakcji.

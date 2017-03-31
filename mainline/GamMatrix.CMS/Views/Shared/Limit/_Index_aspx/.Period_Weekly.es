@@ -1,0 +1,1 @@
+﻿Límite semanal (por semana)

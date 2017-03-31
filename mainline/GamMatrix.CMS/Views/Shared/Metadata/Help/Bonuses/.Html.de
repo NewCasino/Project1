@@ -1,0 +1,17 @@
+﻿<ol>
+  <li><strong>Wo kann ich die aktuellen Werbeangebote finden?</strong>
+    <p>Sie können sich alle aktuellen Werbeangebote durch einen Klick auf den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Reiter „Werbeaktionen“ anzeigen lassen.</p>
+  </li>
+  <li><strong>Kann ich, wenn ich den Bonus in Anspruch nehme, alle Spiele auf der Website spielen, oder gibt es Einschränkungen, welche Spiele ich damit spielen kann?</strong>
+    <p>Bitte überprüfen Sie die AGB für den Bonus. Wenn Sie sich nicht sicher sind, wenden Sie sich bitte an unseren [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kunden-Support.</p>
+  </li>
+  <li><strong>Wie kann ich überprüfen, ob ich die Anforderungen für eine Werbeaktion erfülle?</strong>
+    <p>Sie können dies überprüfen, indem Sie auf „Mein Konto“ klicken. Dann klicken Sie links auf „Mein Sport-Konto“ und anschließend auf „Aktive Werbeaktionen“.</p>
+  </li>
+  <li><strong>Aus welchen Gründen könnte man es mir verweigern, ein Werbeangebot in Anspruch zu nehmen?</strong>
+    <p>Manche Werbeangebote gelten nur für Kunden aus bestimmten Ländern und Kunden mit einer ganz bestimmten Zahlungsmethode. Es gibt möglicherweise auch Beschränkungen für verbundene Konten und das Verbot des Missbrauchs von [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Werbeaktionen. Für weitere Informationen wenden Sie sich bitte an den [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kunden-Support unter <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+  </li>
+</ol>
+<p style="text-align:right">
+  <button type="button" onclick="window.print(); return false" class="button"> <span class="button_Right"> <span class="button_Left"> <span class="button_Center"> <span>Drucken</span> </span> </span> </span> </button>
+</p>

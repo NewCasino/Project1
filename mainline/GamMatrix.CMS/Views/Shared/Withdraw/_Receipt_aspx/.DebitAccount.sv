@@ -1,0 +1,1 @@
+Belopp som ska tas ut från {0} konto.

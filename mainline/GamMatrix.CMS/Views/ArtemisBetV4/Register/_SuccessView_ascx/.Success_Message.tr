@@ -1,0 +1,9 @@
+﻿<p class="PopupThanksP">Kayıt olduğunuz i&ccedil;in teşekk&uuml;rler!</p>
+
+<p class="PopupThanksP"><strong class="QROffer">1000TL</strong> <span class="QRType">kayıt bonusu senden sadece bir ka&ccedil; dakika uzaklıkta.</span><br />Uyeliginizin son adımını tamamlamak&nbsp;i&ccedil;in, e-posta adresini ziyaret edin ve g&ouml;nderilen aktivasyon e-postasındaki bağlantıyı tıklayın. Spam klas&ouml;r&uuml;n&uuml; kontrol ettiğinizden emin olun! Aktivasyon e-postamı almadım, yeniden almak istiyorum diyorsaniz, burada g&uuml;zel bir tekrar g&ouml;nder d&uuml;ğmesi var:</p>
+
+<a href="#" id="btnResendEmail" class="Button Step2resendEmail">Aktivasyon pastasını tekrar g&ouml;nder</a>
+
+<p class="PopupThanksP">Zaten e-postadaki linke tıklayarak hesabınızı aktive varsa, şunları yapabilirsiniz:</p>
+
+<a href="/Deposit" id="btnActivateDeposit" class="Button ActivateDeposit" target="_top">Hemen Para Yatırın!</a>

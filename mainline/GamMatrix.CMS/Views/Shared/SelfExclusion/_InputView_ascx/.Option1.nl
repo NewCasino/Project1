@@ -1,0 +1,1 @@
+﻿Een 7 daagse afkoelingsperiode. Deze kan maar twee (2) keer gebruikt worden.

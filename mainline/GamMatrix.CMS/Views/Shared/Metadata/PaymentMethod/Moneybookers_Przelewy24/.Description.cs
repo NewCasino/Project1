@@ -1,0 +1,1 @@
+﻿S touto bankovní službou můžete provést okamžitý vklad z každého bankovního účtu v Polsku. Jedná se o jednoduchý, rychlý a bezpečný on-line způsob placení, který umožňuje převést peníze z vašeho bankovního účtu na internetu. & Nbsp; & nbsp;

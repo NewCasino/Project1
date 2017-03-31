@@ -1,0 +1,1 @@
+﻿Obecna Karta(-y)

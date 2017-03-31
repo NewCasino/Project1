@@ -1,0 +1,1 @@
+Musisz potwierdzić, że masz przynajmniej {0} lat.

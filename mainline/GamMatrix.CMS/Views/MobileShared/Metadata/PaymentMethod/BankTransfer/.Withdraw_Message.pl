@@ -1,0 +1,1 @@
+﻿Przelew pieniędzy bezpośrednio na konto bankowe

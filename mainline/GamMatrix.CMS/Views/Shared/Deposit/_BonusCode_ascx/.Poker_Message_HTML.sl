@@ -1,0 +1,1 @@
+﻿* <em>Če želite prejeti bonus za poker, morate prenesti aplikacijo za poker in izbrati svoj vzdevek za poker, preden lahko opravite polog v denarnico za poker. </em>

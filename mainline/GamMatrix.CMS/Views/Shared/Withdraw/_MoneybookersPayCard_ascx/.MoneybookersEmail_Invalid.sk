@@ -1,0 +1,1 @@
+﻿Neplatná Skrill adresa

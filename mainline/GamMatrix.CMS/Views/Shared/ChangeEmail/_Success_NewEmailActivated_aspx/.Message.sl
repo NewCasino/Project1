@@ -1,0 +1,1 @@
+Vaš novi e-poštni naslov je bil preverjen in aktiviran.

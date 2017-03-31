@@ -1,0 +1,9 @@
+﻿.BonusCodeVendorContainer
+{
+    margin: 0 0 1em 24%;
+}
+    .BonusCodeVendorContainer .BonusCode_Vendor li
+    {
+        display: inline;
+        margin: 0 1.5em 0 0;
+    }

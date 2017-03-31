@@ -1,0 +1,1 @@
+﻿Vemte prosím v úvahu, že platby mohou býti provedeny až poté co budete kontaktováni pracovníkem naší zákaznické podpory. Kontaktování většinou probíhá krátce po registraci.

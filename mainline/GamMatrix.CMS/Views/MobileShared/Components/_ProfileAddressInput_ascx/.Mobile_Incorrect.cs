@@ -1,0 +1,1 @@
+﻿Vložte číslo mobilního telefonu meti 7 a 30 znaky

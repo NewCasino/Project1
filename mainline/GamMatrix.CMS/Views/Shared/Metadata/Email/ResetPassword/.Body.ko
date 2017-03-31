@@ -1,0 +1,6 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>연락 주셔서 감사합니다 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], 저희는 귀하의 패스워드 분실 요청을 받았습니다. 귀하의 패스워드를 리셋 하기 위해 다음의 링크를 클릭하세요.</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p> 이 링크는 24시간 동안 유효하며 딱 한 번만 이용 가능합니다.<p>
+<p>만약 귀하가 패스워드를 변경하기를 원치 않으신다면, 이 이메일을 무시하시기 바랍니다.<p/>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

@@ -1,0 +1,1 @@
+Transaktionen är oavslutad, vänligen uppdatera denna sida efter avslutad transaktion.

@@ -1,0 +1,1 @@
+Du kan inte registrera från ip [IP] mer än [COUNT] per dag. Vänligen kontakta supporten om du har några frågor.

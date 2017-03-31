@@ -1,0 +1,1 @@
+Aktualizuj telefon komórkowy

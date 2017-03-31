@@ -1,0 +1,1 @@
+Du kan begära ett uttag via något av följande alternativ som är tillgängliga för dig.

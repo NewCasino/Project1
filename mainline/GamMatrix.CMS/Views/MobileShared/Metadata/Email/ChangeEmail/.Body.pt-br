@@ -1,0 +1,7 @@
+﻿<p>Olá $FIRSTNAME$,</p>
+<p>Você pediu que o seu [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] contato de e-mail seja alterado.</p>
+<p>Para sua segurança nós precisamos que você verifique o seu novo e-mail de contato. Para fazer isso, basta clicar no link abaixo:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Se este link não responder, copie e cole o link diretamente para o seu navegador. </p><p>Se você não pediu para mudar o seu endereço de e-mail, por favor desconsidere este e-mail ou informe-nos em <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Atenciosamente, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Equipe de Atendimento ao Consumidor</p>
+

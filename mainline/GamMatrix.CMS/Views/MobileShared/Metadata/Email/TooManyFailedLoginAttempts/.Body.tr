@@ -1,0 +1,7 @@
+﻿Bu sistem tarafından otomatik gönderilmiş bir e-maildir.Lütfen bu maile direk cevap vermeyiniz.  
+<hr/>
+<p>Merhaba $FIRSTNAME$</p>
+<p>Hesabınız birçok hatalı giriş denemesi yüzünden 15 dakikalığına bloke edilmiştir. Hesabınız 15 dakika sonra otomatik olarak geri aktif olacaktır. </p>
+<p>Eğer şifrenizi hatırlamıyor veya unuttuysanız sitemizdeki Şifremi Unuttum bölümünden talimatları takip ederek yeni şifre oluşturunuz. </p>
+<p> Lütfen herhangi bir probleminizde müşteri hizmetlerimize başvurunuz. <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> .</p>
+<p>Saygılarımızla, <br /> [Metadata:value(/Metadata/Settings.Operator_DisplayName)] Müşterş Hizmetleri</p>

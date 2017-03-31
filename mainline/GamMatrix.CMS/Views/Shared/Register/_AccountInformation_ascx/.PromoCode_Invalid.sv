@@ -1,0 +1,1 @@
+Ogiltig kampanjkod.

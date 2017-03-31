@@ -1,0 +1,1 @@
+Minimalt antal poäng för ansökan:

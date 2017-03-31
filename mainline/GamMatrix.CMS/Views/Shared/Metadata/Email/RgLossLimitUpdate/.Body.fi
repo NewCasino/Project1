@@ -1,0 +1,5 @@
+﻿<p>Hyvä $USERNAME$, <br /> <br /> Kiitoksia yhteydenotostasi [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Tämä sähköposti vahvistaa henkilökohtaisen  pelaamisrajan muuttamisen;$LIMITAMOUNT$ $LIMITPERIOD$&  $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. <br /> <br /> Ota yhteyttä jos sinulla on jotain kysyttävää<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>&nbsp;</p>
+<p>Ystävällisin terveisin</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu</p>
+

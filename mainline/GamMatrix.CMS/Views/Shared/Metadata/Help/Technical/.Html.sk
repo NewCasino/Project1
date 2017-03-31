@@ -1,0 +1,83 @@
+﻿<ol>
+
+    <li> <strong>Aké sú minimálne požiadavky na systém pre hranie na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?</strong> 
+        <p>
+            <ul>
+                <li>
+                    Windows - Intel Pentium procesor (odporúčame Pentium II alebo vyšší) 64Mb RAM.
+                </li>
+                <li>
+                    Macintosh - Power Macintosh Power PC procesor (odporúčame G3 alebo vyšší) 64Mb RAM.
+                </li>
+                <li>
+                    Dôležité upozornenie pre používateľov Apple Mac  - Súčasná verzia nášho kasína nemusí byť na vašom systéme plno funkčná.
+                </li>
+                <li>"FLASH" 10 alebo vyšší</li>
+                <li>
+                    [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] je kompatibilné s väčšinou operačných systémov Windows (Windows 2000, XP, Vista a 7).
+                </li>
+                <li>Internet Explorer verzia nižšia ako 7 nie sú podporované.</li>
+            </ul>
+        </p>
+    </li>
+
+    <li> <strong>Čo sa stane keď stratím spojenie?</strong>
+        <p>
+            Všetky hry sú bezpečne zálohované na našich serveroch, v prípade straty spojenia sa jednoducho opätovne prihláste na váš účet pre zobrazenie výsledku hry. Pokiaľ bola kasíno hra nedokončená, tak pri následnom prihlásení a spustení hry bude hra pokračovať. Pokiaľ i naďalej bude dochádzať k problémom, kontaktujte prosím zákaznícku podporu.
+        </p>
+    </li>
+
+    <li>
+        <strong>Akých dodávateľov softvéru používate?</strong>
+        <p>
+            Dodávatelia hier v našom kasíne sú: Net Entertainment, Microgaming a NYX Gaming.
+        </p>
+    </li>
+
+    <li>
+        <strong>Prečo sa nemôžem pripojiť k hernému serveru?</strong>
+        <p>
+            Skontrolujte prosím svoje pripojenie na internet a v prípade, že je v poriadku kontaktujte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu.
+        </p>
+    </li>
+
+    <li>
+        <strong>Prečo sa nemôžem prihlásiť na svoj účet?</strong>
+        <p>
+            Overte si, že používate správne užívateľské meno a heslo, pokiaľ problémy pretrvávajú aj naďalej, kontaktujte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu.
+        </p>
+    </li>
+
+    <li>
+        <strong>Stránka sa načíta veľmi pomaly, čo môžem urobiť pre jej zrýchlenie?</strong> 
+        <p>
+            Pokiaľ je vaše pripojenie pomalé, majte na pamäti následujúce: Spustenie niekoľkých prehliadačov, hudobných programov alebo sťahovanie niekoľkých súborov súčasne, môže mať za následok spomalenie vášho počítača alebo internetového pripojenia. Problémy môžu  nastať aj u vášho miestneho poskytovateľa internetu. Zdieľanie pripojenia k internetu s ďalšími členmi domácnosti alebo vo vašej oblasti môže taktiež spomaliť rýchlosť pripojenia.
+        </p>
+    </li>
+
+    <li>
+        <strong>Nejde mi zvuk.</strong>
+        <p>
+            Overte prosím, že máte funkčnú zvukovú kartu a zapnuté reproduktory. Skontrolujte si aj či máte nastavené zvuky priamo na stránkach [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] v sekcii 'Nastavenia'.
+        </p>
+    </li>
+
+    <li>
+        <strong>Máte verziu pre MAC?</strong>
+        <p>
+            Ľutujeme, momentálne nemáme k dispozícii verziu špeciálne navrhnutú pre MAC. Mnoho našich zákazníkov však úspešne používa PC emulátor a užíva si tak našich hier.
+        </p>
+    </li>
+</ol>
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Tlačiť</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>
+

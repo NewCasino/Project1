@@ -1,0 +1,1 @@
+Yandex (obsługiwany przez serwis Moneta)

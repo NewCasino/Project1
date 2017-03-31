@@ -1,0 +1,5 @@
+﻿<p>Sayın $USERNAME$, <br /> <br />[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile iletişime geçtiğiniz için teşekkür ederiz.<br /> <br /> Bu e-posta&nbsp;$LIMITAMOUNT$ $LIMITPERIOD$ olan kişisel kayıp limitinizi; $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$ olarak değiştirdiğinizi doğrulamak için gönderilmiştir. Yeni limitiniz &nbsp;$LIMITEXPIRYDATE$ tarihinde aktif olacaktır. <br /> <br /> Herhangi bir sorunuz olursa, lütfen bizimle iletişime geçmekten çekinmeyin: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br /> Saygılarımızla,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Destek Takımı</p>
+
+

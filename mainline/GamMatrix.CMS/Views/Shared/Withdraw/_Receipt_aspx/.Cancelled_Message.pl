@@ -1,0 +1,1 @@
+Transakcja została anulowana.

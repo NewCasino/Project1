@@ -1,0 +1,1 @@
+﻿<p style="font-size: 16px;">Χρησιμοποιείς Mastercard που έχει εκδοθεί από<img alt="Intercash" src="/Views/Shared/_files/Icons/intercash_logo.png" align="absmiddle" /><br /> κλικ <a href="/Deposit/Prepare/Intercash">εδώ</a> για να μεταβείς στην σελίδα κατάθεσης.</p>

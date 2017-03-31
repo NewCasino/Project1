@@ -1,0 +1,1 @@
+Du måste logga in för att spela i riktiga pengar-läget, eller så kan du försöka spela spelet i skoj-läget.

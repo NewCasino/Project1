@@ -1,0 +1,13 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Your withdrawal has been successfully completed.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Please check the balance of your bank account.</strong>
+  </span>
+</p>
+<p>
+  If you have any question please do not hesitate to contact <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team
+</p>

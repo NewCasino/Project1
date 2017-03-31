@@ -1,0 +1,1 @@
+﻿Oblast / Stát

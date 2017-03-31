@@ -1,0 +1,1 @@
+﻿ Los datos de usuario CLICK2PAY proporcionados no son válidos. Por favor compruébelo e inténtelo de nuevo. Si el problema persiste, por favor contacte con el servicio de atención al cliente en service@click2pay.com.

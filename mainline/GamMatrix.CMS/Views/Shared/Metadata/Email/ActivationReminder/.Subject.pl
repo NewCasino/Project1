@@ -1,0 +1,1 @@
+﻿[Metadata:value(/Metadata/Settings.Operator_DisplayName)] Aktywuj swoje konto

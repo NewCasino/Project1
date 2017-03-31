@@ -1,0 +1,1 @@
+﻿Votre ID de compte doit être d'au moins 12 caractères

@@ -1,0 +1,1 @@
+﻿Kortnummeret kan ikke stå tomt

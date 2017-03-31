@@ -1,0 +1,1 @@
+Adres {0} e-mail jest już zarejestrowany na {1}, jeśli chcesz powiązać swoje {2} konto z istniejącym {1} kontem, możesz to zrobić, logując się tutaj.

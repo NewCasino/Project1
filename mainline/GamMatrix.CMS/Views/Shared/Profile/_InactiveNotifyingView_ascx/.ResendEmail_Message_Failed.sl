@@ -1,0 +1,1 @@
+Oprostite, vaš postopek ni uspel; poskusite znova.

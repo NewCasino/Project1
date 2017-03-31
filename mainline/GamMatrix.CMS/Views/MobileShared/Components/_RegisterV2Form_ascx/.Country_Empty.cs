@@ -1,0 +1,1 @@
+﻿Země nemůže být prázdná

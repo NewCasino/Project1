@@ -1,0 +1,1 @@
+﻿Pokud chcete přidávat hry do seznamu vašich oblíbených her, potřebujete mít založený účet. Výhoda vlastního účtu je, že můžete hrát a vyhrávat skutečné peníze, uložit si svá nastavení, moci hrát své oblíbené hry na mobilním zařízení se všemi vašimi preferencemi.

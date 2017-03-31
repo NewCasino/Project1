@@ -1,0 +1,1 @@
+﻿Przelew od gracza {0}

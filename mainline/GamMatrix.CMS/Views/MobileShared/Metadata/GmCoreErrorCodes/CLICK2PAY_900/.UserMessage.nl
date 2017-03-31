@@ -1,0 +1,1 @@
+﻿Er is een technisch probleem opgetreden. Neem contact op met het service centre op service@click2pay.com.

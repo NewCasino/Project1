@@ -1,0 +1,1 @@
+Skupni dobitki

@@ -1,0 +1,1 @@
+﻿Para ser cobrado de la tarjeta número {0}

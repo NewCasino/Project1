@@ -1,0 +1,1 @@
+Du kommer inte kunna logga in på ditt vadslagningskonto under avkylningsperioden av 1 år

@@ -1,0 +1,1 @@
+﻿GiroPay za pomocą przelewu Skrill to prosta, szybka i bezpieczna metoda płatności online, która umożliwia użycie środków dostępnych na koncie bankowym.&nbsp;

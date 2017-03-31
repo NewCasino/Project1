@@ -1,0 +1,1 @@
+Valuta bančnega računa

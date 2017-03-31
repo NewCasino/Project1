@@ -1,0 +1,1 @@
+på grund av spelrestriktionerna i Norge kommer ditt uttag att skickas i EUR. Observera att beloppet som du tar emot kan skilja sig från beloppet som du har begärt ut på grund av valutaväxlingen.

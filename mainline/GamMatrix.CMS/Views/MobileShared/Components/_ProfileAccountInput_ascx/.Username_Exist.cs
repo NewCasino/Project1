@@ -1,0 +1,1 @@
+﻿Uživatelské jméno již vybráno, prosím, zvolte jiné. 

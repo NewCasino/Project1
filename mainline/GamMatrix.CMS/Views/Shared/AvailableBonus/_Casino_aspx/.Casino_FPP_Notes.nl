@@ -1,0 +1,1 @@
+﻿Opmerking: U kunt alleen wisselen in ronde <span class='messageHighlight'>{0}</span> punten voor <span class='messageHighlight'> {1} {2}</span>, de resterende punten zullen in uw FPP-saldo blijven.

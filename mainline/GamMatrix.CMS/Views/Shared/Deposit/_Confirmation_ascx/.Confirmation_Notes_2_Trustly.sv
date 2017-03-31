@@ -1,0 +1,1 @@
+Observera att, om ditt bankkonto har en annan valuta än $CURRENCY$, kommer ditt bankkonto att debiteras ett belopp motsvarande  $AMOUNT2$ din lokala valuta enligt Trustlys växelkurs.

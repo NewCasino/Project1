@@ -1,0 +1,1 @@
+﻿Domeinstatus is niet gewijzigd

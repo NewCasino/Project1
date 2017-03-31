@@ -1,0 +1,1 @@
+﻿[Metadata:value(/Withdraw/_IntercashPayCard_ascx.Tab_IssuePayCard)]

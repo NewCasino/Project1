@@ -1,0 +1,1 @@
+﻿Nie będziesz mógł/mogła logować się na swoim koncie przez 6 miesięcy okresu samowykluczenia

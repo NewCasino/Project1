@@ -1,0 +1,1 @@
+Qiwi je storitev e-denarnice in storitev na terminalih, ki vam omogoča varno plačevanje preko spleta.

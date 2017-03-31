@@ -1,0 +1,1 @@
+﻿NETELLER is een e-wallet service waarmee NETELLER klanten geld kunnen storten, opnemen en overmaken van hun online NETELLER account naar hun gamingrekening. Het is veilig en geld is direct beschikbaar in uw gaming account. Klik&nbsp;<a href="https://www.neteller.com/home/index.jsf" target="_blank">hier</a> om nu een NETELLER account te openen.

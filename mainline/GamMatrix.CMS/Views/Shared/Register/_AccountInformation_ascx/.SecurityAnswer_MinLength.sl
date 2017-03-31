@@ -1,0 +1,1 @@
+Vaš odgovor mora vsebovati vsaj 2 znaka

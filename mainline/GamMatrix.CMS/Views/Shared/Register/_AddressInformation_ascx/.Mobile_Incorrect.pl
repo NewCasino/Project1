@@ -1,0 +1,1 @@
+Wpisz numer telefonu komórkowego – od 7 do 30 cyfr

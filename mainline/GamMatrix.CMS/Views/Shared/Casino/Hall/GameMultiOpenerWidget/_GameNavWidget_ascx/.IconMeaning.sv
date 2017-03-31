@@ -1,0 +1,1 @@
+Ikonerna betyder:

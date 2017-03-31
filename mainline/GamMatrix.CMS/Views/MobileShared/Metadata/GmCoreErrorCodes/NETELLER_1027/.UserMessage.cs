@@ -1,0 +1,1 @@
+﻿instaCASH pro vás není k dispozici. Prosím nevkládejte informace o bankovním účtu.

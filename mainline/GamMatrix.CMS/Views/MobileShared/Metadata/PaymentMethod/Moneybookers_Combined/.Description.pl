@@ -1,0 +1,1 @@
+﻿Moneybookers to portfel elektroniczny umożliwiający klientom Moneybookers wpłacanie, wypłacanie i przesyłanie środków z internetowego konta Moneybookers na konto do gry. Jest to bezpieczna metoda, a środki są błyskawicznie dostępne na koncie do gry.Kliknij&nbsp;<a href="http://www.moneybookers.com/app/">tutaj</a>, aby już teraz założyć konto Moneybookers.

@@ -1,0 +1,1 @@
+﻿Yıldızlararası'nda bir seçim yapmakta zorlanacaksınız!

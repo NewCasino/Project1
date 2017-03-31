@@ -1,0 +1,4 @@
+﻿<p>Sayın $USERNAME$, <br /> <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile iletişime geçtiğiniz için teşekkür ederiz.<br /> <br /> Bu e-posta, $LIMITPERIOD$ dakika olan kişisel oturum limitinizi $NEWLIMITPERIOD$ dakika olarak değiştirdiğinizi doğrulamak için gönderilmiştir. <br /> <br /> Herhangi bir sorunuz olursa, lütfen bizimle iletişime geçmekten çekinmeyiniz: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>&nbsp;</p>
+<p>Saygılarımızla,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Destek Takımı</p>

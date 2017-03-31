@@ -1,0 +1,11 @@
+﻿<p>Kære $FIRSTNAME$,</p>
+<br />
+<p>kontonavn: $USERNAME$ </p>
+<br />Denne email er for at bekræfte, at du konto nu er sat til at køle af, hvilket vil ophøre igen den $EXPIRY_DATETIME$.  Gennem denne periode vil du ikke have mulighed for at log ind på din konto. Vi vil orientere dig via email, når nedkølingsperioden slutter.
+<br />
+<br />
+Kontakt os venligst såfremt du har spørgsmål på 
+<a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>Venlig hilsen,</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]  kundeservice team</p> 

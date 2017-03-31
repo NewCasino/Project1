@@ -1,0 +1,1 @@
+Din kompis identitet är inte verifierad.

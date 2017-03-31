@@ -1,0 +1,19 @@
+﻿<p>Dear $FIRSTNAME$,</p>
+<br />
+<p>Account name: $USERNAME$ </p>
+<br />
+This email is to confirm that your cool off period has been ended and all features of your account are now enabled.
+<br />
+<br />
+Please do not hesitate to contact us if you have any queries at 
+<a href="mailto: <p>Dobrý deň $FIRSTNAME$,</p>
+<br />
+<p>Názov účtu: $USERNAME$ </p>
+<br />
+Tento e-mail je pre vás informáciou že váš limit vypršal a váš účet je opäť plne aktívny.
+<br />
+<br />
+Ak máte nejaké otázky neváhajte nás kontaktovať <a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>S pozdravom,</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)] Zákaznícka podpora</p>

@@ -1,0 +1,1 @@
+﻿A technical error occurred. Please contact the customer service at service@click2pay.com.

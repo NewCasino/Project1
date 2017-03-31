@@ -1,0 +1,35 @@
+﻿<ol>
+        
+<li><strong>Hvordan kan jeg finne ut om hva slags tilbud og promotions som tilbys?</strong>
+<p>Du kan se en oversikt over alle tilbud ved å klikke på vår [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Promotions fane.</p>
+</li>
+
+<li><strong>Kan jeg spille alle typer spill på nettsiden når jeg har fått en bonus, eller er det begrensninger på hvilke spill jeg kan spille?</strong>
+<p>Vennligst sjekk Regler & Betingelser for den aktuelle bonusen og hvis du er i tvil kan du ta kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundeservice.</p>
+</li>
+
+
+<li><strong>Hvordan kan jeg sjekke om jeg har innfridd kravene for en promotion eller bonus?</strong>
+<p>Du kan sjekke hvordan du ligger an og dette varierer fra produkt til produkt, så vennligst sjekk Regler & Betingelser for den aktuelle bonusen.</p>
+</li>
+
+
+<li><strong>Hva er årsaken til at jeg har blitt nektet en bonus?</strong>
+<p>Noen promotions er kun beregnet på spillere fra enkelte land eller som bruker spesifikke betalingsmetoder. Det kan også være begrensninger for kontoer som på en eller annen måte er knyttet til hverandre (f.eks. IP adresse), eller at en konto har blitt brukt til å misbruke [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] promotions tidligere. For assistanse, ta kontakt med  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundeservice på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+</li>
+  
+
+</ol>
+
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

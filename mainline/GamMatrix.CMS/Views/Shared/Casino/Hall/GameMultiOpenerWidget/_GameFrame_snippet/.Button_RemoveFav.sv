@@ -1,0 +1,1 @@
+Ta bort från Favoriter

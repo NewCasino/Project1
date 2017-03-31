@@ -1,0 +1,9 @@
+﻿Hi $USERNAME$, 
+
+You have requested that your  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] contact email address be changed. A verification email has been sent to this new email address($EMAIL$).
+
+If you have not asked to change your email address, please inform us immediately at [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+
+Kind Regards, 
+
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Service Team

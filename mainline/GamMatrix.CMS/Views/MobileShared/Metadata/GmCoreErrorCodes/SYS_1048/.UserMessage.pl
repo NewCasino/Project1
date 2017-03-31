@@ -1,0 +1,1 @@
+﻿Rejestracja konta nie jest dozwolona w przypadku dostawcy powiązanego z jednym kontem

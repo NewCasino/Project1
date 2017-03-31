@@ -1,0 +1,1 @@
+﻿Uw stad/dorp moet minstens uit 2 karakters bestaan

@@ -1,0 +1,1 @@
+Vaš vzdevek mora vsebovati od 5 do 12 znakov.

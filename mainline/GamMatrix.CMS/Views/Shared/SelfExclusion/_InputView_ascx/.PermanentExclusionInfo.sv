@@ -1,0 +1,1 @@
+﻿Om du vill aktivera permanent självuteslutning, kan du göra det genom att kontakta kundtjänst på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> ange dina skäl och du blir permanent blockerad med omedelbar verkan.

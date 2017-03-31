@@ -1,0 +1,1 @@
+﻿Pokud chcete aktivovat trvalé vyloučení ze hry, můžete se obrátit na podporu <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [metadat: HTMLEncode(/Metadata/Settings.Email_SupportAddress)]</a> a zdůvodnit své důvody pro pozastavení a budete vám účet zablokován okamžitě.

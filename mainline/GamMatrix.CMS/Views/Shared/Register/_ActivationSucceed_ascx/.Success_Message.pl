@@ -1,0 +1,1 @@
+Rejestracja jest zakończona.

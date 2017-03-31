@@ -1,0 +1,1 @@
+Ta igra ni na voljo za anonimne uporabnike; če želite igrati, se morate najprej prijaviti.

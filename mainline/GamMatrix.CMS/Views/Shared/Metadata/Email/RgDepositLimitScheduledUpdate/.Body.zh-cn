@@ -1,0 +1,10 @@
+﻿<p>尊敬的$USERNAME$, <br />
+<br />
+感谢您联系[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+您已将您的个人的存款限制从$LIMITAMOUNT$ $LIMITPERIOD$ 更改成了 $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. 新的存款限制将会在$LIMITEXPIRYDATE$生效. <br />
+<br />
+如果您有任何的问题请随时联系<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br />
+瑾致问候</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]客户支持团队</p>

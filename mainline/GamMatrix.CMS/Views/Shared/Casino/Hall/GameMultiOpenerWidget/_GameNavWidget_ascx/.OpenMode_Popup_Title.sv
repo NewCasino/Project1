@@ -1,0 +1,1 @@
+Öppnar spelet överlappande.

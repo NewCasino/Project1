@@ -1,0 +1,3 @@
+﻿<h3>Gung Pow!</h3>
+<p>Kom og feire kinesisk nytt&aring;r med en 243 ways videoautomat<br />som byr p&aring; b&aring;de free spins og achievements.</p>
+<a title="Play now ►" class="button" href="/Casino/Game/Info/gung-pow"><span class="GoldButtonText">Spill n&aring;►</span></a>

@@ -1,0 +1,66 @@
+﻿<ol>
+	<li> <strong>Hvordan åpner jeg en [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-konto?</strong> 
+		<p>
+			Du kan opprette en konto hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] på følgende måter: 1)
+			<a href="/register">Klikke her.</a>
+			2) Gå til nettstedet og klikke på "Registrer" øverst i venstre hjørne eller "Bli med nå" øverst på høyre side. Uansett hvilken måte du velger, vil du havne på registreringssiden vår, hvor du må oppgi informasjonen din. Merk at brukernavnet ditt og valutaen du velger ikke kan endres på et senere tidspunkt.
+			<br />
+			Du kan også skrive inn en kampanjekode. Før du sender inn detaljene dine, må du erklære at du er over 18 år og godta vilkårene våre. Du kan umiddelbart logge deg inn på kontoen din på hvilken som helst [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-side med brukernavnet og passordet ditt.
+		</p>
+	</li>
+
+	<li> <strong>Hvorfor har jeg problemer med å opprette en konto?</strong>
+		<p>
+			Vennligst kontakt [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sin kundestøtte på
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+			for å få hjelp.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hvorfor må jeg opprette en konto for å spille spillene deres?</strong>
+		<p>
+			Du må åpne en konto hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] fordi du, ved å gjøre det, godtar å følge reglene våre, som inkluderer at du erklærer at du er over 18 år.
+		</p>
+	</li>
+
+	<li>
+		<strong>Hvorfor trenger dere den personlige informasjonen min? Er den personlige informasjonen min trygg hos dere?</strong> 
+		<p>
+			Vi trenger den personlige informasjonen din for å bekrefte identiteten, alderen og adressen din, og også for å kunne foreta finansielle transaksjoner med deg.&nbsp; [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] bruker det nyeste innen krypteringsteknologi for å beskytte din personlige informasjon.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Må jeg foreta et innskudd for å kunne åpne en konto hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+		</strong>
+		<p>
+			Nei, du kan spille i vårt Casino og spille Poker for moro, dersom du ønsker det.
+		</p>
+	</li>
+
+	<li>
+		<strong>Kan jeg har mer enn én konto?</strong>
+		<p>Nei, det er bare tillatt med én konto.</p>
+	</li>
+
+	<li>
+		<strong>
+			Er det noen minimumsalder for å spille hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+		</strong>
+		<p>
+			Du må være minst 18 år for å kunne spille på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-siden.
+		</p>
+	</li>
+
+	<li>
+		<strong>Godtar dere spillere fra landet jeg bor i?</strong>
+		<p>
+			Så lenge du ikke bryter noen av lovene i landet ditt, godtar vi spillere fra alle land med unntak av USA, Tyrkia og Frankrike.
+		</p>
+	</li>
+
+</ol>

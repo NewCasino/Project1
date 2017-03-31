@@ -1,0 +1,79 @@
+<ol>
+
+	<li> <strong>自分の銀行・クレジットカード明細書で[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] へのお支払い、出金をどうやって確認する事ができますか？strong> 
+		<p>
+			お客様のクレジットカードか銀行明細書に載っている全ての入金、出金には記述子が付いており、 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] が表示されています。これを基にこのサイトからの入金、出金履歴を追うが出来ます。
+		</p>
+	</li>
+
+	<li> <strong>一通り以上のお支払い方法が利用できますか？</strong>
+		<p>
+			はい、可能ですがお支払い方法の変更は書類が求められる場合があります。		</p>
+	</li>
+
+	<li>
+		<strong>自分の国のカードを利用可能ですか？</strong>
+		<p>
+			アメリカ合衆国、トルコ、フランス以外の全ての国のカードがご利用頂けます。
+		</p>
+	</li>
+
+	<li>
+		<strong>どうして御社のウェブサイトで自分のカードが使えないのですか？</strong>
+		<p>
+			クレジットカードの発行会社によっては直にオンライン・ゲームサイトへ入金出来ないといったルールがある場合もあります。この件に関しては自分のカード会社へお問い合わせ頂くか、代わりにe-ウォレット入金オプションをお試し頂く事が出来ます。&nbsp; 詳細等は[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] カスタマーサービスまでお問い合わせ下さい。		</p>
+	</li>
+
+	<li>
+		<strong>自分のカード入金が拒否された場合はどうすればよいのですか？</strong>
+		<p>
+			折々、最後の入金が完了する前に２回目の入金をされようとすると24時間と週毎の入金制限に対して数えられ、入金不具合となる事がございます。こうなる最も一般的な原因は請求フォームの欄が不適切に記入されている場合です。[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] カスタマーサービスへ連絡し修正して下さい。クレジットカードの発行会社によっては直にオンライン・ゲームサイトへ入金出来ないといったルールがある場合もあります。この件に関しては自分のカード会社へお問い合わせ頂くか、代わりにe-ウォレット入金オプションをお試し頂く事が出来ます。&nbsp; 詳細等は[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] カスタマーサービスまでお問い合わせ下さい。		</p>
+	</li>
+
+	<li>
+		<strong>自分のカードを使い友達のアカウントへ入金する事は出来ますか？</strong>
+		<p>
+			これは第三者の取引と見なされ許可されておりません。
+		</p>
+	</li>
+
+	<li>
+		<strong>誤ったカードから入金してしまった場合に何とかする事は出来ますか？</strong> 
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]カスタマーサービスまで<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]にてご連絡ください。			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>アカウント間でのお金の移動は可能ですか？</strong>
+		<p>
+			個人アカウント間での移動は出来ませんが個人アカウント内のカジノ、スポーツブック、ポーカー間では可能です。
+		</p>
+	</li>
+
+	<li>
+		<strong> IBANとは何ですか？</strong>
+		<p>
+			IBANとは国際銀行口座番号です。IBANは国際銀行電信送金で用いられ、お客様の勝ち金のお引き出しをより簡単に致します。		</p>
+	</li>
+
+	<li>
+		<strong> CVC2コードとは何ですか？</strong>
+		<p>
+			CVC2とは「カード認証コード」の略語です。このコードはやクレジットカードによる国際電話での購入やインターネット上の決済の際にセキュリティーを設ける為に必要とされます。このコードは３つの数字から成り、クレジットカードの裏側に表示されます。
+		</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

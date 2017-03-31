@@ -1,0 +1,7 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>Sie haben eine Änderung Ihrer [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] E-Mail-Adresse für den Kontakt verlangt.</p>
+<p>Zu Ihrer eigenen Sicherheit müssen Sie Ihre neue E-Mail-Adresse bestätigen. Klicken Sie für diese Bestätigung einfach auf den nachfolgenden Link:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Sie können den Link auch kopieren und direkt in die Adresszeile Ihres Browsers einfügen.</p>
+<p>Falls Sie keine Änderung Ihrer E-Mail-Adresse verlangt haben, können Sie diese E-Mail einfach ignorieren. Oder informieren Sie uns unter <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Mit freundlichen Grüßen <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundenservice-Team</p>

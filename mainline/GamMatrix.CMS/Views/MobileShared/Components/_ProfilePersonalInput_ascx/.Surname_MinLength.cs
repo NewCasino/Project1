@@ -1,0 +1,1 @@
+﻿Vaše příjmení musí mít alespoň 2 znaky

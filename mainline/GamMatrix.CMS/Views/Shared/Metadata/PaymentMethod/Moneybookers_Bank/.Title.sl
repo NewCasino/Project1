@@ -1,0 +1,1 @@
+Spletno bančno nakazilo

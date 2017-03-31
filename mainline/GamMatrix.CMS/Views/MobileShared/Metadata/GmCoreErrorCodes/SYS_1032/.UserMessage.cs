@@ -1,0 +1,1 @@
+﻿Status uživatele nebyl změněn

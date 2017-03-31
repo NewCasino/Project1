@@ -1,0 +1,1 @@
+Vaš ID računa mora vsebovati vsaj 12 znakov ali pa je oblika zapisa e-poštnega naslova napačna.

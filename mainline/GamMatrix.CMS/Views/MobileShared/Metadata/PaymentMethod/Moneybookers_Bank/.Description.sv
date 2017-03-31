@@ -1,0 +1,1 @@
+Med detta bankalternativ kan du göra omedelbara insättningar från alla bankkonton. Det är enkelt, snabbt och säkert. 

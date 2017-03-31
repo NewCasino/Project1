@@ -1,0 +1,1 @@
+Ukryj pełne stoły

@@ -1,0 +1,1 @@
+Potrditi morate, da ste stari vsaj {0} let.

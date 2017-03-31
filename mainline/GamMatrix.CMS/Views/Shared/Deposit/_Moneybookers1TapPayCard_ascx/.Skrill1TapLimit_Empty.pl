@@ -1,0 +1,1 @@
+Wpisz swój limit ﻿1 kliknięcia

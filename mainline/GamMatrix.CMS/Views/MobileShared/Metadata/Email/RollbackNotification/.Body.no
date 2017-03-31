@@ -1,0 +1,5 @@
+﻿<p>Hei, $FIRSTNAME$</p>
+<p>Ditt uttak har blitt reversert &lsquo;$TXCOMPLETEDDATE$", og pengene har blitt returnert til din spillekonto. Ta gjerne kontakt med kundestøtte hvis du har spørsmål angående denne transaksjonen.</p>
+Transaksjons-ID: $TXID$Transaksjonsdato: $TXCREATEDDATE$ Beløp: $TXAMOUNT$ $TXCURRENCY$.
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-teamet</p>
+

@@ -1,0 +1,1 @@
+Du kan snabbt föra över pengar från ditt Maestro kort till ditt spelkonto. Fyll bara i dina kortdetaljer, och så snart kortet är verifierat kommer dina medel bli överförda till ditt spelkonto

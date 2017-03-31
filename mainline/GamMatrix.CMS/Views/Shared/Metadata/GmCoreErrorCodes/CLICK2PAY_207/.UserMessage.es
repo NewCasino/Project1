@@ -1,0 +1,1 @@
+﻿Rechazo de riesgo. Para obtener más asistencia, por favor contacte con service@click2pay.com.

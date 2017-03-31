@@ -1,0 +1,1 @@
+Vnesite naslov prejemnika plačila.

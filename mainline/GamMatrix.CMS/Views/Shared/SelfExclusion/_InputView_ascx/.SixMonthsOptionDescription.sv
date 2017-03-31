@@ -1,0 +1,1 @@
+Du kommer inte att kunna logga in på ditt bettingkonto under självuteslutningsperioden på 6 månader

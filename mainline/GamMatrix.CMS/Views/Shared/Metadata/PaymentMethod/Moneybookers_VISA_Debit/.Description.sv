@@ -1,0 +1,1 @@
+Med ditt Visa Delta/betalkort kan du snabbt sätta in pengar på ditt spelkonto via Skrill. Du behöver bara registrera ditt kort på Skrills gateway och så snart ditt kreditkort har verifierats kommer pengarna att föras över till ditt spelkonto, säkert och omedelbart.

@@ -1,0 +1,18 @@
+﻿<p>Merhaba $USERNAME$, <br />
+</p>
+<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] müşteri hizmetlerine başvurduğunuz için teşekkür ederiz. <br />
+<br />
+Para yatırma limitiniz &#160;$NEWLIMITAMOUNT$ $NEWLIMITPERIOD$ olarak ayarlanmıştır. <br />
+<br />
+Para yatırma limitleri seçtiğiniz ödeme yöntemlerinin uyguladığı limitlerden tamamen bağımsızdır. <br />
+<br />
+Para yatırma limitinizi istediğiniz zaman aynı şekilde hesabınızdan anında azaltabilirsiniz. <br />
+<br />
+Ancak, limitinizi artırmak isterseniz, limit artırma işleminiz 3 gün içinde aktif olarak yeni limitleriniz hesabınıza işlenir. 3 günlük süre sizin para yatırma limiti artırma kararınızı gerektiği taktirde yeniden gözden geçirmeniz için verilmektedir. <br />
+<br />
+Lütfen herhangi bir probleminizde müşteri hizmetlerimize başvurunuz. <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> 
+<p>&#160;</p>
+<p>Saygılarımızla</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri&#160;&#160;&#160; <br />
+</p>

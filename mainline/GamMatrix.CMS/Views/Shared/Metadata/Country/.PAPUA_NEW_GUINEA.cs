@@ -1,0 +1,1 @@
+﻿Papua-Nová Guinea

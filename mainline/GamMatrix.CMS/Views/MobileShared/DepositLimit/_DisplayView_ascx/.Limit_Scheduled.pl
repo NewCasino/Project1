@@ -1,0 +1,1 @@
+﻿Limit został zmieniony, ale obowiązuje do upłynięcia terminu ważności. Nowe wartości limitu:

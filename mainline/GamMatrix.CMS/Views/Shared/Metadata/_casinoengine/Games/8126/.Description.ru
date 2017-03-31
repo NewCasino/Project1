@@ -1,0 +1,1 @@
+﻿Frankenstein™ is a 5 reel, 3 row and 20 bet line video slot with a maximum bet of € 100. It introduces the ground breaking new feature Linked Wilds™ that appear in both main game and Free Spins.

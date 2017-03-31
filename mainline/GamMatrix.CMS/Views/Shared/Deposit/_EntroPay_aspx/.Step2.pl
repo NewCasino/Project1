@@ -1,0 +1,1 @@
+﻿Użyj swojej karty kredytowej/debetowej, aby zasilić <br />swoją nową wirtualną kartę VISA

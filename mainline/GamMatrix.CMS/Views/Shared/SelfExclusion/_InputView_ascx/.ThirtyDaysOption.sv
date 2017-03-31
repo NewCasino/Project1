@@ -1,0 +1,1 @@
+De kommande 30 dagarna

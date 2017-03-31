@@ -1,0 +1,7 @@
+﻿
+<p>Hi $FIRSTNAME$,</p>
+<p>感谢您联系[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], 我们已收到您关于忘记密码的请求，请单击如下链接来重置您的密码</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>此链接在24小时内有效并只能被使用一次.<p>
+<p>如果您不希望修改密码，请忽略此邮件.<p/>
+<p>致意,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 团队</p>

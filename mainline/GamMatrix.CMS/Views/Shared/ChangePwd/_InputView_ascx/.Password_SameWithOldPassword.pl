@@ -1,0 +1,1 @@
+Nowe hasło musi być inne od starego.

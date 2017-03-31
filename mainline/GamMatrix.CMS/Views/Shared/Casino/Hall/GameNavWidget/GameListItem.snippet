@@ -1,0 +1,72 @@
+﻿<#
+    var getTitle = function(g){
+        if (g == null) return "";
+        var str = '[Metadata:scriptencode(.Link_Title)]';
+        return str.replace( "{0}", g).htmlEncode();
+    };
+
+	var enableContentProvider = false;
+	if( typeof(config !== 'undefined') && config.enableContentProvider!== 'undefined' )
+        enableContentProvider = config.enableContentProvider;
+
+    var vendors = {};
+    if( typeof(config !== 'undefined') && config.vendors )
+        vendors = config.vendors;	
+
+	var contentProviders = {};
+	if( typeof(config !== 'undefined') && config.contentProviders )
+        contentProviders = config.contentProviders;
+
+    var data = arguments[0];
+    for( var i = 0; i < data.length; i++) {
+ #>
+
+<li class="GLItem" data-gameid="<#= data[i].ID #>">
+    <a href="/Casino/Game/Info/<#= data[i].S #>" class="GameThumb" title="<#= getTitle(data[i].G) #>" target="_blank">
+    		
+        <# if( data[i].I.length > 0 ) { #>
+        <img class="GT" src="<#= data[i].I.htmlEncode() #>" alt="<#= data[i].G.htmlEncode() #>" />
+        <# } #>
+
+        <span class="Hidden">[Metadata:htmlencode(.Game_Properties)]</span>
+
+        <# if(data[i].N == 1) { #>
+        <span class="GTnew">New</span>
+        <# } #>
+
+        <# if(data[i].T == 1) { #>
+        <span class="GTtournament">T<span class="Hidden">ournament</span></span>
+        <# } #>
+
+        <span class="GTfav <#= (data[i].Fav != 1) ? 'Hidden' : '' #>">[Metadata:htmlencode(.Favorite)]</span>
+
+		<# if(data[i].O == 1) { #>
+		<span class="GToffer AltButton">€</span>
+		<# } #>
+
+        <# if(data[i].H == 1) { #>
+        <span class="GThot">Hot</span>
+        <# } #>
+
+
+		<# if(enableContentProvider) { #>
+        <span class="GTprovider <#= data[i].CP.toString(10) #>"><span class="GTicon"><img src="<#= contentProviders[data[i].CP]#>" alt="" /></span></span>
+		<# } else { #>
+		<span class="GTprovider <#= vendors[data[i].V.toString(10)] #>"><span class="GTicon"><#= vendors[data[i].V.toString(10)] #></span></span>
+		<# } #>
+
+    </a>
+    <h3 class="GameTitle">
+    
+        <a href="/Casino/Game/Info/<#= data[i].S #>" class="Game" title="<#= getTitle(data[i].G) #>" target="_blank">
+            <#= data[i].G.htmlEncode() #>
+
+            <# if(data[i].C) { #>
+            <sup class="MoreVariants">(<#= data[i].C.length #>)</sup>
+            <# } #>
+        </a>
+    </h3>
+</li>
+
+
+<# } #>

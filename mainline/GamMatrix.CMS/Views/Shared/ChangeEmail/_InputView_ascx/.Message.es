@@ -1,0 +1,1 @@
+﻿Para cambiar tu correo de contacto. Por favor escribe y confirma tu nuevo correo electrónico. Un correo de verificación será enviado a tu nuevo correo, deberás de dar click al vínculo que recibas para verificar tu nueva dirección de correo. Tu correo electrónico no cambiara hasta que no hagas lo anterior. 

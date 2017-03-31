@@ -1,0 +1,1 @@
+Dokonałeś zbyt wielu nieudanych prób logowania i Twoje konto zostało zablokowane. Poczekaj 15 minut i spróbuj ponownie później.

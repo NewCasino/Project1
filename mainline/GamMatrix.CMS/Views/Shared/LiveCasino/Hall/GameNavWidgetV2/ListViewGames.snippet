@@ -1,0 +1,88 @@
+﻿<#
+  var getTitle = function(g){
+    var str = '[Metadata:scriptencode(.Link_Title)]';
+    return str.replace( "{0}", g).htmlEncode();
+  };
+
+  var data = arguments[0];
+  var tableExists = false;
+
+  if (arguments[0].Games){
+    data = arguments[0].Games;
+    tableExists = arguments[0].TableExists;
+  }
+#>
+<# if (tableExists != true) {#> 
+<table class="live-casino list-view-table">
+	<thead>
+		<tr>
+			<th data-sortfield="name" data-sortorder="asc" class="lv-asc">
+				<span class="header-text">Name</span>
+				<span class="sort-icon by-name">></span>
+			</th>
+			<th data-sortfield="provider" data-sortorder="asc" class="lv-asc">
+				<span class="header-text">Provider</span>
+				<span class="sort-icon by-provider">></span>
+			</th>
+			<th data-sortfield="category" data-sortorder="asc" class="lv-asc">
+				<span class="header-text">Category</span>
+				<span class="sort-icon by-category">></span>
+			</th>
+			<th data-sortfield="betlimit" data-sortorder="asc" class="lv-asc">
+				<span class="header-text">Betlimit</span>
+				<span class="sort-icon by-betlimit">></span>
+			</th>
+			<th data-sortfield="openinghours" data-sortorder="asc" class="lv-asc">
+				<span class="header-text">Opening hours</span>
+				<span class="sort-icon by-openinghours">></span>
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+  <tbody>
+<# } #>
+<#
+    for( var i = 0; i < data.length; i++) {
+	var elementClass = (data[i].Fav != 1) ? '' : 'fav';
+	elementClass = elementClass + (i % 2 == 0 ? '' : ' alt');
+	elementClass = 'class="' + elementClass + '"';
+ #>
+<tr <#= elementClass #>>
+	<td>
+		<span class="column-name">
+			<#= data[i].G.htmlEncode() #>
+		</span>
+	</td>
+	<td>
+		<span class="column-provider">
+			<#= data[i].V #>
+		</span>
+	</td>
+	<td>
+		<span class="column-category">
+			<#= data[i].C #>
+		</span>
+	</td>
+	<td>
+		<# if( data[i].Limit != null && data[i].Limit != '' ) { #>
+		<span class="column-betlimit">
+            <span><#= data[i].Limit.htmlEncode() #></span>
+        </span>
+		<# } #>
+	</td>
+	<td>
+		<# if( data[i].OpeningHours != null && data[i].OpeningHours != '' ) { #>
+		<span class="column-openinghours">
+            <span><#= data[i].OpeningHours.htmlEncode() #></span>
+        </span>
+		<# } #>
+	</td>
+	<td>
+		<input type="button" class="Button btn-play" data-gameId="<#= data[i].ID #>" value="[Metadata:htmlencode(.PlayText)]" />
+	</td>
+</tr>
+<# } #>
+<# if (!tableExists) {#> 
+  </tbody>
+</table>
+<#}#>

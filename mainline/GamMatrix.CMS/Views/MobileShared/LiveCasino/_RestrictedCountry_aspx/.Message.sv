@@ -1,0 +1,1 @@
+På grund av spelreglering i ditt land är uttag från ditt spelkonto enda aktivitet du kan genomföra. 

@@ -1,0 +1,16 @@
+﻿<p>Dear&#160; $USERNAME$,<br />
+<br />[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ dakı Kayıdınız için Teşekkür ederiz.<br />
+<br />
+Emniyetiniz için Epostanızı Onaylatmanızı hatırlatmak istiyoruz ki Hesabınız etkin kalsın ve [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]da sunulan tüm harika Tekliflerden Zevk almaya devam ediniz.<br />
+<br />Lütfen alttaki Linke tıklayınız, karşılık vermez ise, Linki Kopyalayın ve Tarayıcınızın Adres Bölümüne yapıştırınız.<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da Kayıt olmadıyseniz lütfen bu Epostayı Dikkata almayınız veya bize bildiriniz:<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />Lütfen Eposta Doğrulamay tamamladığınıza emin olunuz ki Hesabınız Korumanız için kıstlanmasını önleyiniz.
+<p><br />
+Saygılarımızla,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ Müşteri Hizmetleri Ekibi<br />
+

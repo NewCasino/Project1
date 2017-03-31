@@ -1,0 +1,1 @@
+﻿Żądanie nie może zostać zrealizowane. Ten sprzedawca nie obsługuje przelewów środków do Twojego regionu zamieszkania. Aby uzyskać więcej informacji, skontaktuj się z działem obsługi klienta sprzedawcy.

@@ -1,0 +1,1 @@
+﻿Svalbard a Jan Mayen

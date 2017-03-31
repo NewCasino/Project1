@@ -1,0 +1,1 @@
+Ditt konto-ID måste bestå av 12 tecken eller e-postformatet är felaktigt.

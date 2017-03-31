@@ -1,0 +1,1 @@
+﻿Ha ocurrido un error técnico. Dirección IP no válida. Por favor contacte con el servicio de atención al cliente del comercio.

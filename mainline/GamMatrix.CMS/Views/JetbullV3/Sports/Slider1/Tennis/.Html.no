@@ -1,0 +1,3 @@
+﻿<h3>Wimbledon</h3>
+<p>Skyene er faretruende og det er regn i lufta. Nyt den norske sommeren og følg de beste tennisspillerne i verden i årets tredje Grand Slam!</p>
+<a title="Sett et spill nå ►" class="button" href="/Sports/?tournamentid=209770056,209764723" target="_top"> <span class="GoldButtonText">Sett et spill nå <span>►</span></span></a>

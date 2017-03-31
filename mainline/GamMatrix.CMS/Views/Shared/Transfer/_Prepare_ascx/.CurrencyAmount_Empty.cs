@@ -1,0 +1,1 @@
+﻿Částka nemůže zůstat prázdná.

@@ -1,0 +1,1 @@
+Niestety Twoje konto zostało ograniczone i masz jedynie prawo dokonywania wypłat istniejących funduszy na swoim koncie. W razie pytań, prosimy o kontakt z działem pomocy

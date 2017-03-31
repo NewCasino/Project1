@@ -1,0 +1,12 @@
+﻿<p>Kære $FIRSTNAME$,</p>
+<br />
+<p>kontonavn: $USERNAME$ </p>
+<br />
+Denne email er en bekræftelse på, at din selv udelukkelses periode er udløbet og, at din konto forbliver blokkeret indtil du foretager dig noget aktivt for at få kontoen genåbnet for spil, kontakt support.
+<br />
+<br />
+Kontakt os venligst, hvis du har spørgsmål på 
+<a href="mailto: [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]"> [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)] </a>
+<p>&nbsp;</p>
+<p>Venlig hilsen,</p>
+<p>[Metadata:value(/Metadata/Settings.Operator_DisplayName)]  kundeservice team</p>

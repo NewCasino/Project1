@@ -1,0 +1,1 @@
+Du kan inte spela det här spelet innan du har klickat på länken i bekräftelsemeddelandet. 

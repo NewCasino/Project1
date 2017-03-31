@@ -1,0 +1,1 @@
+Plačujte z gotovino preko spleta, brez bančnega računa ali kreditne kartice. S kartico Paysafecard lahko preko spleta plačujete hitro, preprosto in varno.

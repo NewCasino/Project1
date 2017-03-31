@@ -1,0 +1,1 @@
+Upewnij się, że podane dane zgadzają się z danymi z karty AstroPay.

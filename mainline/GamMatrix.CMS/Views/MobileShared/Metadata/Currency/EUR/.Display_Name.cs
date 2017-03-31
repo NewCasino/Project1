@@ -1,0 +1,1 @@
+﻿Euro měna, Euro

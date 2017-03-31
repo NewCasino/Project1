@@ -1,0 +1,3 @@
+Du kan bruke menyen nedenfor til å angi en tidsgrense for økt. Hvis du overskrider tidsgrensen for økt, logges du av systemet. Du kan fortsette å spille ved å logge på igjen. Når du har angitt en grense, mottar du en bekreftelse per e-post. Du kan når som helst bruke denne menyen til å redusere grensen. Hvis du vil fjerne eller øke grensen, må du vente i 7 dager. Denne perioden gir deg mulighet til å tenke over endringen.
+
+MERK: Endringer du angir her, trer kanskje ikke i kraft før neste gang du logger deg på.

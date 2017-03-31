@@ -1,0 +1,1 @@
+﻿/game/gamerules.jsp?game=wizards&lang=pl

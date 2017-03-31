@@ -1,0 +1,1 @@
+﻿Tento zprostředkovatel nepodporuje NETELLER (1-PAY) transakce.

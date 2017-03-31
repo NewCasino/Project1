@@ -1,0 +1,1 @@
+﻿Současný stav sázkové povinnosti

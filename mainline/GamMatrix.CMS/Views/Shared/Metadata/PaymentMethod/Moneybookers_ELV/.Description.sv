@@ -1,0 +1,1 @@
+Med ELV kan du göra snabba utbetalning från ditt bankkonto till ditt spelkonto via Skrill gateway. Det sker säkert och direkt.

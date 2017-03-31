@@ -1,0 +1,7 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>您已要求您的 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 联系邮箱作出变更。</p>
+<p>为了安全，我们需要验证您的新邮箱地址. 您需要单击如下链接:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>请点击下面的链接激活您的帐号, 如果链接不能点击或点击后无反应请复制链接并粘贴到您的浏览器地址栏.</p>
+<p>如果您没有要求[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]邮件地址作出变更, 请略过该邮件或者联系我们<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>谨致问候, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 客户团队</p>

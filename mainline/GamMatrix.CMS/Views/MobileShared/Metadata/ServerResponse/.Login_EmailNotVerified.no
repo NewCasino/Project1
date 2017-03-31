@@ -1,0 +1,1 @@
+﻿Innloggingen var mislykket. Du har ikke aktivert din konto i løpet av {0} dager etter registrering og din konto er derfor blokkert.

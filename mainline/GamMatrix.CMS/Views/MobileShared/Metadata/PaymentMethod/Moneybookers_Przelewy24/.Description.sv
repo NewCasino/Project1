@@ -1,0 +1,1 @@
+Med detta alternativ kan du omedelbart göra en insättning från alla bankkonton i Polen. Det är enkelt, snabbt och säkert och som tillåter dig att göra insättningar från ditt bankkonto till internetsidor. 

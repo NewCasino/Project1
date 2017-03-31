@@ -1,0 +1,1 @@
+﻿Tragamonedas de vídeo

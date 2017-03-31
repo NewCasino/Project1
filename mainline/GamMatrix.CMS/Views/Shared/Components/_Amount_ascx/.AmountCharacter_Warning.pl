@@ -1,0 +1,1 @@
+Dozwolone są tylko cyfry i kropka. Używaj kropki jako separatora dziesiętnego i wpisz numer bez formatowania.

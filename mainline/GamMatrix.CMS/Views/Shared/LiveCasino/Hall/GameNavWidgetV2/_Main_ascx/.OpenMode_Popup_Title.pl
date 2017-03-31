@@ -1,0 +1,1 @@
+Otwiera grę w oddzielnej nakładce.

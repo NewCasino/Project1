@@ -1,0 +1,1 @@
+Du har inte befogenhet att logga in då du är från ett land med begränsad rättighet. Har du några problem vänligen kontakta vår support.

@@ -1,0 +1,1 @@
+Antal vinnare:

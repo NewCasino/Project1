@@ -1,0 +1,1 @@
+﻿Počáteční sázková povinnost

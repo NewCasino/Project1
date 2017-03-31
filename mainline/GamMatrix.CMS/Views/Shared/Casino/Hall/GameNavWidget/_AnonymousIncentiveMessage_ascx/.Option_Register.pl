@@ -1,0 +1,1 @@
+﻿Zarejestruj swoje nowe [Metadata:value(/Metadata/Settings.Operator_DisplayName)] konto 

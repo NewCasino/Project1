@@ -1,0 +1,1 @@
+﻿Opname vereist ten minste een succesvolle storting

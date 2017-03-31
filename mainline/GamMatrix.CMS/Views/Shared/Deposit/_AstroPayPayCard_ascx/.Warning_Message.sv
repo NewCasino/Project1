@@ -1,0 +1,1 @@
+Kontrollera att angivna uppgifter stämmer överens med uppgifterna för ditt AstroPay-kort.

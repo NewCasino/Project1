@@ -1,0 +1,1 @@
+En permanent självuteslutningsperiod

@@ -1,0 +1,1 @@
+﻿Ha cancelado la transacción.

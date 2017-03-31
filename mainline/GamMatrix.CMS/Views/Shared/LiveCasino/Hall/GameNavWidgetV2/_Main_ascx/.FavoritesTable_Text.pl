@@ -1,0 +1,1 @@
+Wyświetl Ulubione stoły

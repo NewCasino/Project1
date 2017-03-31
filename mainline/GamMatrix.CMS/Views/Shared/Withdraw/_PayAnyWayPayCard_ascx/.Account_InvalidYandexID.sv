@@ -1,0 +1,1 @@
+﻿Ogiltigt Yandex-konto, måste börja med 41001 följt av minst 7 siffror.

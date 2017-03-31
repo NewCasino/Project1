@@ -1,0 +1,1 @@
+Aby ustawić samowykluczenie, musisz się zalogować.

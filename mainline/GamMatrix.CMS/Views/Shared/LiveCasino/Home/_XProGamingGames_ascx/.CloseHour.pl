@@ -1,0 +1,1 @@
+Godzina zamknięcia

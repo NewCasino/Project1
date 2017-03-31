@@ -1,0 +1,1 @@
+Nezadostna sredstva.

@@ -1,0 +1,1 @@
+﻿Ha sido superado el número máximo de adjuntos ({0})

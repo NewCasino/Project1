@@ -1,0 +1,1 @@
+﻿Haz logrado transferir dinero.

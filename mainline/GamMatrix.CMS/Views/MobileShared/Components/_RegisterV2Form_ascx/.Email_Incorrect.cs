@@ -1,0 +1,2 @@
+﻿Neplatný e-mail
+

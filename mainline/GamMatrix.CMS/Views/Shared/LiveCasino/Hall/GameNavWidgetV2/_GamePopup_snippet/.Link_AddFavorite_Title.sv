@@ -1,0 +1,1 @@
+Lägg {0} till i Favoriter

@@ -1,0 +1,1 @@
+﻿Ukázat oblíbené tabulky

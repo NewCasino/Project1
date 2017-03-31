@@ -1,0 +1,1 @@
+﻿ELV vám umožní provést rychlou platbu z vašeho bankovního účtu na hráčský účet přes Skrill (Moneybookers) rozhraní. Je to bezpečné a rychlé.

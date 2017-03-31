@@ -1,0 +1,1 @@
+﻿The current deposit is {0}, if add your newest deposit {1}, the whole deposit {2} will be larger than your limitation ({3} per {4})

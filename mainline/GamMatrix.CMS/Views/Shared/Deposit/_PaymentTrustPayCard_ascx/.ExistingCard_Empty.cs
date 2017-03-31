@@ -1,0 +1,1 @@
+﻿Prosíme vyberte platební kartu

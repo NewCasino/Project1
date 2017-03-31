@@ -1,0 +1,5 @@
+﻿<p>Olá $FIRSTNAME$,</p>
+Seu depósito foi recusado, por favor, verifique as informações bancárias e tente novamente mais tarde.
+<p>Se você tem alguma dúvida sobre seu voucher por favor não hesite em contatar <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Atenciosamente,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] time</p>
+

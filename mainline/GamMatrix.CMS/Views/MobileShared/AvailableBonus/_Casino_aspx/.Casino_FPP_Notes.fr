@@ -1,0 +1,2 @@
+﻿Note: Vous ne pouvez échanger en class='messageHighlight'> <span rondes {0} </ span> pour les points
+class='messageHighlight'> <span {1} {2} </ span>, les points restants resteront dans votre compte FPP.

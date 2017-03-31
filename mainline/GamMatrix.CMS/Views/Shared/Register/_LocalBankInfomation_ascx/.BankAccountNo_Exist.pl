@@ -1,0 +1,1 @@
+Numer konta bankowego jest już zajęty, wpisz inny

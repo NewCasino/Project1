@@ -1,0 +1,17 @@
+﻿<em>Diese Email ist von einem Kunden über die "kontaktiere uns" Seite.<br />
+Antworte nicht direkt auf diese Email! Anbei findest Du die Email des Kunden.</em>
+<hr 
+
+/>
+<ul>
+<li><strong>Kunden Email</strong>:$EMAIL$</li>
+<li><strong>Kunden Name</strong>:$NAME$</li>
+<li><strong>Betreff</strong>:$BETREFF$</li>
+<li><strong>Benutzer 
+
+ID</strong>:$USERID$</li>
+<li><strong>Benutzername</strong>:$BENUTZERNAME$</li>
+</ul>
+<hr/>
+<pre>$INHALT$</pre>
+

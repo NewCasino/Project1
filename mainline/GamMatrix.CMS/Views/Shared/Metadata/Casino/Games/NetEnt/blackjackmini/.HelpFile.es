@@ -1,0 +1,1 @@
+﻿/game/gamerules.jsp?game=blackjackmini&lang=es

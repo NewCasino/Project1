@@ -1,0 +1,1 @@
+﻿Voucher-nummeret må være 16 siffer.

@@ -1,0 +1,2 @@
+﻿Uživatelské jméno již existuje
+

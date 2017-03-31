@@ -1,0 +1,1 @@
+﻿Měsíční limit (na měsíc)

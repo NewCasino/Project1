@@ -1,0 +1,11 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>diese automatisierte E-Mail ist eine Quittung für Ihre Einzahlung. Diese Einzahlung wurde bearbeitet im Auftrag von [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] durch OddsMatrix Ltd., den Zahlungsanbieter für die  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Website. Der Name OddsMatrix wird auf Ihrer Kartenabrechnung oder Ihrem Kontoauszug erscheinen. Nachfolgend finden Sie die Einzelheiten dieser Transaktion.</p>
+<ul>
+<li><strong>Transaction ID</strong>:$TRANSACTION_ID$</li>
+<li><strong>Date time</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Website</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Quittung</strong>: Beigefügt finden Sie den Bildschirmausdruck der Quittung.</li>
+</ul>
+<p>Bei Fragen bezüglich dieser Einzahlung wenden Sie sich bitte an <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> und nennen Sie dabei die Transaktions-ID. </p>
+<p>Mit freundlichen Grüßen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Team</p>
+<p>$SCREENSHOT$</p>

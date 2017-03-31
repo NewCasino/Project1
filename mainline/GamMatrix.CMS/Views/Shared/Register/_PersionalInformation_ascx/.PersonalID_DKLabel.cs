@@ -1,0 +1,1 @@
+﻿Národní identifikační číslo

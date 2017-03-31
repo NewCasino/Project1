@@ -1,0 +1,1 @@
+Oznaka partnerja bo skrajšana, ker njena dolžina presega omejitev.

@@ -1,0 +1,1 @@
+Öppna spel på den här sidan

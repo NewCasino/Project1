@@ -1,0 +1,1 @@
+﻿Debetní vouchery kód

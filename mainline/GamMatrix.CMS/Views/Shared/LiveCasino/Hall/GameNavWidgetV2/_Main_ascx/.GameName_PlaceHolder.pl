@@ -1,0 +1,1 @@
+Szukaj stołu

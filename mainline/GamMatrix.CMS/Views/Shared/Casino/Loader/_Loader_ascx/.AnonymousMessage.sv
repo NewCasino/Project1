@@ -1,0 +1,1 @@
+Du spelar i underhållningsläge. För att spela med riktiga pengar, logga in först.

@@ -1,0 +1,4 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>你的提款已經在$TXCOMPLETEDDATE$退回,款項已退回至你的遊戲賬戶，如果關於此次交易你需要任何進一步的幫助，請聯繫客服</p>
+交易號: $TXID$ 交易日期: $TXCREATEDDATE$ 金額: $TXAMOUNT$ $TXCURRENCY$.
+<p>致意,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]團隊</p>

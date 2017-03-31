@@ -1,0 +1,1 @@
+Öppna spel i helskärmsläge

@@ -1,0 +1,90 @@
+﻿<ol>
+
+    <li> <strong>Hva er systemkravene for å kunne spille på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?</strong> 
+        <p>
+            <ul>
+                <li>
+                    Windows – Intel Pentium-prosessor (Pentium II eller nyere anbefales), 64 MB RAM.
+                </li>
+                <li>
+                    Macintosh – Power Macintosh Power PC-prosessor (G3 eller nyere anbefales), 64 MB RAM.
+                </li>
+                <li>
+                    Viktig merknad for Apple Mac-brukere: Gjeldende versjon av dette casinoet fungerer kanskje ikke optimalt på Apple Mac-systemer. Disse systemene støttes ikke for øyeblikket.
+                </li>
+                <li>"FLASH" 10 eller nyere</li>
+                <li>
+                    [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] er kompatibelt med de fleste Windows-operativsystemer (Windows 2000, XP, Vista og 7).
+                </li>
+                <li>Versjoner av Internet Explorer eldre enn versjon 7 støttes ikke.</li>
+            </ul>
+        </p>
+    </li>
+
+    <li> <strong>Hva skjer hvis jeg blir frakoblet Internett?</strong>
+        <p>
+            All spillaktivitet lagres trygt på serverne våre. Hvis du blir frakoblet, logger du deg bare på igjen for å se resultatet av et arrangement eller spill. Hvis spillaktiviteten i et casinospill ikke ble fullført, skal dette fortsette neste gang du logger deg på spillet. Hvis problemene vedvarer, kan du klikke her for å komme i direkte kontakt med en på kundestøtteteamet vårt.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hvilken programvareleverandør bruker dere?</strong>
+        <p>
+            Programvaren for Sportsbook leveres av Oddsmatrix, Casino er levert av Net Entertainment og Poker er levert av Cake.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hvorfor får jeg ikke koblet til spillserveren?</strong>
+        <p>
+            Kontroller Internett-tilkoblingen din. Hvis du fortsatt ikke får koblet til, tar du kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundestøtte.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hvorfor får jeg ikke logget på kontoen min?</strong>
+        <p>
+            Kontroller at du bruker riktig passord og brukernavn for kontoen din. Hvis du fortsatt ikke får logget på, tar du kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundestøtte.
+        </p>
+    </li>
+
+    <li>
+        <strong>Nettstedet er veldig tregt. Hva kan jeg gjøre for at det skal gå raskere?</strong> 
+        <p>
+            Hvis du opplever treg tilkobling, bør du være oppmerksom på følgende: Maskinen og/eller Internett-tilkoblingen din kan bli tregere hvis du bruker flere nettlesere samtidig, kjører musikkprogrammer eller laster ned filer. Tregheten kan skyldes forsinkelser hos den lokale Internett-leverandøren. Tilkoblingshastigheten kan reduseres hvis du deler Internett-tilkoblingen din innenfor hjemmet og på det lokale nettverket.
+        </p>
+    </li>
+
+    <li>
+        <strong>Jeg har ingen lyd.</strong>
+        <p>
+            Kontroller at du har et gyldig lydkort og at høyttalerne ikke er dempet. Kontroller at du har valgt lyd via [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] fanen Alternativer. Fanen Nettprat nederst til høyre i skjermbildet Bord inneholder en Alternativer-knapp hvor du kan velge Alle, Bare varsler eller Dempet.
+        </p>
+    </li>
+
+    <li>
+        <strong>Har dere en MAC-versjon?</strong>
+        <p>
+            Vi har dessverre ingen MAC-versjon av programvaren vår for øyeblikket. Mange av brukerne våre bruker en PC-emulator for å spille spillene våre. Du finner mer informasjon på siden for nedlastinger.
+        </p>
+    </li>
+
+    <li>
+        <strong>Hvorfor er spillet mitt så tregt?</strong>
+        <p>
+            Kommunikasjonen mellom maskinen din og serverne våre er optimalisert for å gi raskest mulig svartid. Hvis du synes at spillet går tregt, er det to sannsynlige forklaringer på dette: 1. Spillerne på bordet bruker lang tid når det er deres tur. 2. Du har dårlig Internett-tilkobling.
+        </p>
+    </li>
+
+</ol>
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

@@ -1,0 +1,78 @@
+﻿<ol>
+ <li> <strong>Kako otvoriti [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] račun?</strong> 
+ <p>
+ Možete kreirati račun [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] na jedan od sljedećih načina: 1)
+ <a href="/register">Klikom izravno ovdje.</a>
+ 2) Ili možete otići na naslovnu stranicu i kliknuti na opciju „Registracija“ koja se nalazi u gornjem lijevom kutu ili na „Pridružite se sada“ u desnom gornjem dijelu. Što god da izaberete, bit ćete preusmjereni na stranicu za registraciju gdje trebate unijeti. Važno je napomenuti da vaše korisničko ime i valutu na vašem računu kasnije ne možete promijeniti.
+ <br />
+Također možete unijeti promotivni kod. Prije slanja vaših podataka pobrinite se da izjavite da ste stariji od 18 godine i da se slažete s našim „odredbama i uvjetima“. Možete se trenutno prijaviti na svoj račun na bilo kojoj [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] stranici korištenjem korisničkog imena i lozinke.
+ </p>
+ </li>
+
+ <li> <strong>Zašto imam probleme pri izradi svog računa?</strong>
+ <p>
+ Kontaktirajte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službu za korisnike na
+ <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+ [Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+ </a>
+ kako bi vam oko ovoga pomogli.
+ </p>
+ </li>
+
+ <li>
+ <strong>Zašto moram otvoriti račun da igram vaše igre?</strong>
+ <p>
+ Od vas tražimo da otvorite račun [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] jer otvaranjem računa prihvaćate naša pravila&nbsp; i odredbe koje uključuju potvrdu da ste stariji od 18 godina.
+ </p>
+ </li>
+
+ <li>
+ <strong>Zašto su vam potrebni moji osobni podaci? Jesu li moji osobni podaci sigurni?</strong> 
+ <p>
+ Vaši osobni podaci su nam potrebni kako bismo utvrdili vaš identitet, dob, dokaz o adresi te za sve financijske transakcije.&nbsp; [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] koristi najsuvremenije tehnike kodiranja podataka kako bi se zaštitili vaši osobni podaci.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Moram li izvršiti uplatu da mogu otvoriti račun na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+ </strong>
+ <p>
+ Ne, možete igrati u našem kasinu i igrati poker za zabavu ako želite.
+ </p>
+ </li>
+
+ <li>
+ <strong>Mogu li imati više od jednog računa?</strong>
+ <p>Ne, dozvoljen je samo jedan račun.</p>
+ </li>
+
+ <li>
+ <strong>
+ Postoji li ograničenje za minimalnu dob igrača na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]?
+ </strong>
+ <p>
+ Morate imati najmanje 18 godina za igranje na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] stranici.
+ </p>
+ </li>
+
+ <li>
+ <strong>Prihvaćate li igrače iz moje zemlje? </strong>
+ <p>
+ Sve dok ne kršite zakone svoje zemlje prihvaćamo igrače iz svih zemalja izuzev Sjedinjenih Američkih Država, Francuske i Turske.
+ </p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

@@ -1,0 +1,1 @@
+Inloggningen misslyckades. Du har inte aktiverat ditt konto från och med 7 dagar från registreringen och ditt konto är nu blockat.

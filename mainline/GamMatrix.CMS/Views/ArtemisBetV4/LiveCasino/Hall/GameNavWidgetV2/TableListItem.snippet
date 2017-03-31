@@ -1,0 +1,59 @@
+﻿<#
+    var getTitle = function(g){
+        var str = '[Metadata:scriptencode(.Link_Title)]';
+        return str.replace( "{0}", g).htmlEncode();
+    };
+
+    var vendors = {};
+    if( typeof(config !== 'undefined') && config.vendors )
+        vendors = config.vendors;
+
+    var data = arguments[0];
+    for( var i = 0; i < data.length; i++) {
+ #>
+<li class="GLItem <#= data[i].Opened ? 'OpenedTable' : 'ClosedTable' #>" 
+data-tableid="<#= data[i].ID #>" data-category="<#= data[i].C #>" data-vendor="<#= data[i].V #>"
+data-viptable="<#= data[i].VIP #>" data-turkishtable="<#= data[i].TurkishTable #>">
+  <h3 class="GameTitle">    
+        <a href="#" class="Game" title="<#= getTitle(data[i].G) #>">
+            <#= data[i].G.htmlEncode() #>
+        </a>
+    </h3>
+    <a href="#" class="GameThumb" title="<#= getTitle(data[i].G) #>">    
+        <# if( data[i].I.length > 0 ) { #>
+        <span class="GT" style="background-image:url('<#= data[i].I.htmlEncode() #>');"></span>
+        <# } #>
+        <span class="Hidden">[Metadata:htmlencode(.Game_Properties)]</span>
+        <span class="VIPTable  <#= (data[i].VIP != 1) ? 'Hidden' : '' #>">&nbsp;</span>        
+        <# if(data[i].TurkishTable == 1) { #>
+            <span class="TurkishTable">Turkish</span>
+        <# } #>
+        <# if(data[i].NewTable == 1) { #>
+            <span class="GTnew">New</span>
+        <# } #>
+        <span class="GTfav <#= (data[i].Fav != 1) ? 'Hidden' : '' #>">[Metadata:htmlencode(.Favorite)]</span>
+        <# if(data[i].H == 1) { #>
+        <span class="GThot">Hot</span>
+        <# } #>
+        <span class="GTprovider <#= data[i].V #>"><span class="GTicon"><#= data[i].V #></span></span>
+        <span class="GTStatus">
+            <span class="GTStatusIcon"></span>
+            <span class="OptionSpecial"></span>
+        </span>
+    </a>
+ <span class="ExtraGameDetails">
+            <span class="AvSeats Seats-Color1">Nr. of seats: 
+                <span data-gameseats="X" id="NrSeats-X" class="NrSeats">UNLIMITED</span>
+            </span>           
+            <# if( data[i].Limit != null && data[i].Limit != '' ) { #>
+                <span class="GameLimits">Limits: 
+                    <span class="LimitAmount1"><#= data[i].Limit.htmlEncode() #></span>
+                </span><#}else{#>
+                <span class="GameLimits NoLimits">&nbsp;<span class="LimitAmount1">&nbsp;<!--NO LIMITS!--></span></span>                
+            <# } #>   
+            <# if( data[i].OpeningHours != null && data[i].OpeningHours != '' ) { #>
+            <span class="GTOpeningHours">[Metadata:scriptencode(.OpeningHours)]<span class="OptionSpecial"><#= data[i].OpeningHours.htmlEncode() #></span> </span>
+            <# } #>         
+        </span>
+</li>
+<# } #>

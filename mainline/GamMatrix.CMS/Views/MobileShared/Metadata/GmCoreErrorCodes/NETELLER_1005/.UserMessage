@@ -1,0 +1,1 @@
+﻿You have requested an amount that is below USD $10 or is above the merchant’s transfer limit. Please contact the merchant’s customer service for more information.

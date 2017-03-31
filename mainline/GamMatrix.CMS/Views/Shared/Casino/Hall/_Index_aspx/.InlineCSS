@@ -1,0 +1,7 @@
+﻿iframe.GameLoaderIframe { width:80%; }
+
+.CasinoGameOverlay { position:fixed; left:0px; top:0px; display:block; z-index:99999; width:100%; height:100%; background-repeat:no-repeat; cursor:progress; background-position:center; background-size:100%; background-color:black; }
+.CasinoGameOverlay .Wrapper1 { float:left; position:relative; left:50%; }
+.CasinoGameOverlay .Wrapper2 { float:left; position:relative; left:-50%; }
+.CasinoGameOverlay .PopupContainer { display:inline-block; margin:10px; }
+

@@ -1,0 +1,1 @@
+﻿Okamžitý bankovní převod

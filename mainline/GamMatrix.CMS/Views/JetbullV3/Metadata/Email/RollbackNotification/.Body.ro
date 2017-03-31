@@ -1,0 +1,10 @@
+﻿<p>Stimate $USERNAME$,</p>
+<p>Retragerea dvs. a fost anulata la data $TXCOMPLETEDDATE$, iar fondurile au fost returnate in contul Jetbull.</p>
+<p>Daca aveti intrebari, nu ezitati sa ne contactati la <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</p>
+<ul>
+     <li><strong>ID Tranzactie</strong>:$TXID$</li>
+     <li><strong>Data Tranzactie</strong>:$TXCREATEDDATE$</li>
+     <li><strong>Suma</strong>:$TXAMOUNT$ $TXCURRENCY$ </li>
+</ul>
+<p><br />Salutari,</p>
+<p>Echipa [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]</p>

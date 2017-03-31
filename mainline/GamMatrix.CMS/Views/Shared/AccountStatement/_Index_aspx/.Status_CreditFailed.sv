@@ -1,0 +1,1 @@
+Kreditering misslyckades

@@ -1,0 +1,1 @@
+Uttag direkt till dittVISA electron kort.

@@ -1,0 +1,1 @@
+﻿Číslo bankovního účtu

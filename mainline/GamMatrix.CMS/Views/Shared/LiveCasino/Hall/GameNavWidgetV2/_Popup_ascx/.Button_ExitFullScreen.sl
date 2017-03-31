@@ -1,0 +1,1 @@
+Izhod iz celozaslonskega načina

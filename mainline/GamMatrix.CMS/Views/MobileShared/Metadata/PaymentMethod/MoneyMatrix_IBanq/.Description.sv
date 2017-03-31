@@ -1,0 +1,1 @@
+﻿i-BANQ är en snabb, säker och pålitlig onlinebetalningstjänst för dig som du sätter in direkt från din bank först till i-BANQ och sedan till ditt spelkonto - när du känner för det - oavsett var i världen du befinner dig!

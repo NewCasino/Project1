@@ -1,0 +1,11 @@
+﻿<p>Pozdrav $FIRSTNAME$,</p>
+<p>Ova automatska e-poruka je priznanica za vaš polog koji je obradila [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tvrtka OddsMatrix Ltd, operater plaćanja za [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] internetsku stranicu. OddsMatrix će biti prikazan na vašem bankovnom izvodu ili izvodu kreditne kartice. Podaci o vašoj transakciji nalaze se ispod.</p>
+<ul>
+<li><strong>Transaction ID</strong>:$TRANSACTION_ID$</li>
+<li><strong>Date time</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Internetska stranica</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Priznanica</strong>: Priložen je ispis zaslona priznanice.</li>
+</ul>
+<p>Ako budete imali bilo kakvih pitanja u vezi s ovim pologom, kontaktirajte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> navođenjem identifikacijskog broja transakcije.</p>
+<p>Pozdrav,,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tim</p>
+<p>$SCREENSHOT$</p>

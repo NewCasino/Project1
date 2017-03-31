@@ -1,0 +1,1 @@
+﻿/game/gamerules.jsp?game=hrhilo2-3c&lang=el

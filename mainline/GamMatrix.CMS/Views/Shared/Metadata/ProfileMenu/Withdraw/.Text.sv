@@ -1,0 +1,1 @@
+Uttag av pengar

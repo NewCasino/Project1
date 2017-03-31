@@ -1,0 +1,1 @@
+Tack så mycket, ett bekräftelsemeddelande har skickat till din e-postadress. Klicka på länken i e-postmeddelandet för att aktivera ditt konto.

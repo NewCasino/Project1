@@ -1,0 +1,7 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>You have requested that your [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] contact email address to be changed.</p>
+<p>For your security we need you to verify your new contact email. To do this, simply click on the link below:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>If this link does not respond, copy and paste the link directly into your browser.</p>
+<p>If you have not asked to change your email address, please disregard this email or inform us at <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Kind Regards, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Service Team</p>

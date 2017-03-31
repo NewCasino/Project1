@@ -1,0 +1,13 @@
+﻿<p>Merhaba $USERNAME$, <br />
+<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] müşteri hizmetlerine başvurduğunuz için teşekkür ederiz. <br />
+<br />
+Para yatırma limitiniz $LIMITAMOUNT$ $LIMITPERIOD$ dan&nbsp;to $NEWLIMITAMOUNT$ a $NEWLIMITPERIOD$ değiştirilmiştir. <br />
+<br />
+Lütfen herhangi bir probleminizde müşteri hizmetlerimize başvurunuz. <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> 
+</p>
+<p>&nbsp;</p>
+<p>Saygılarımızla</p>
+<p>
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri <br />
+</p>

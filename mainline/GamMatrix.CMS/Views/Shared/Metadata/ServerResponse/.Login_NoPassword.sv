@@ -1,0 +1,1 @@
+Du kan inte logga in på grund av ett svagt lösenord, kontrollera din e-postkorg och följ anvisningarna för att återställa ditt lösenord.

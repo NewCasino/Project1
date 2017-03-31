@@ -1,0 +1,1 @@
+﻿Status karty płatniczej nie został zmieniony

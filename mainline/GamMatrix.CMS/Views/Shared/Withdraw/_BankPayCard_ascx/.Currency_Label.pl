@@ -1,0 +1,1 @@
+Waluty konta bankowego

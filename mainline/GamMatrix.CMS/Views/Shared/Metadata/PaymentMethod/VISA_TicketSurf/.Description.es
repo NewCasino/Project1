@@ -1,0 +1,1 @@
+﻿Puede rápidamente depositar dinero desde su tarjeta de crédito Visa en su cuenta de juego. Simplemente ingrese los detalles de su tarjeta, una vez que su tarjeta de crédito haya sido verificada, sus fondos serán transferidos de manera segura e instantanea en su cuenta de juego. 

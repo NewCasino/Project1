@@ -1,0 +1,13 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>Ihre Auszahlung wurde erfolgreich abgeschlossen.</p>
+<p>
+  <span style="font-size: medium;">
+    <strong style="color: #ff3366;">Bitte überprüfen Sie den Zahlungseingang auf Ihrem Bankkonto.</strong>
+  </span>
+</p>
+<p>
+  Bei Fragen können Sie sich jederzeit wenden an <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.
+</p>
+<p>
+  Viele Grüße,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Team
+</p>

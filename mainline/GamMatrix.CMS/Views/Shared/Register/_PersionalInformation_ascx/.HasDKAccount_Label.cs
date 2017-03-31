@@ -1,0 +1,1 @@
+﻿Nemám národní identifikační číslo

@@ -1,0 +1,1 @@
+﻿Cupón no válido o caducado

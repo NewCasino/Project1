@@ -1,0 +1,5 @@
+<p>$FIRSTNAME$様、</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]までご連絡頂きありがとうございます、お客様からユーザー名を忘れた時のご依頼を承りました。</p>
+
+<p>貴方のユーザー名は<strong>$USERNAME$</strong>です。</p>
+<p>敬具、<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] チーム</p>

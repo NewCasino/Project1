@@ -1,0 +1,2 @@
+﻿[Metadata:value(/Metadata/GammingAccount/Microgaming.Display_Name)] Kredit & Debet
+

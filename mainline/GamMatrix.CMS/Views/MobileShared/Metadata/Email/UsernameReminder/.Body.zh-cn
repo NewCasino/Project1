@@ -1,0 +1,5 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>感谢您联系[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], 我们已经收到关于您忘记用户名的信息. </p>
+
+<p>您的用户名<strong>$USERNAME$</strong>. </p>
+<p>瑾致以<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 团队</p>

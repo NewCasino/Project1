@@ -1,0 +1,1 @@
+Izbran je bil neveljaven datum

@@ -1,0 +1,7 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<p>Kiitos kun otit yhteyttä [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], Olemme vastaanottaneet unohtunut salasana pyyntösi. Klikkaa linkkiä ala asettaaksesi uuden salasanan.</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>Tämä linkki on voimassa 24t ja on käytettävissä vain kerran.<p>
+<p>Jos et tahdo muuttaa salasanaasi, poista tämä viesti.<p/>
+<p>Terveisin,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tiimi</p>
+

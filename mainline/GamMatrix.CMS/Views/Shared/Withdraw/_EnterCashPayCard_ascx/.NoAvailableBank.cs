@@ -1,0 +1,1 @@
+﻿Nedostupná banka

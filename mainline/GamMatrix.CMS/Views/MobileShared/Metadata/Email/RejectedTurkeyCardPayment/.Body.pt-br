@@ -1,0 +1,5 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+<p>Seu depósito foi recusado.&nbsp;</p>
+<p>Por favor, verifique as informações que você de entrada e tente novamente mais tarde. </p><p>Se você tem alguma dúvida não hesite em contatar <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Atenciosamente,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] time</p>
+

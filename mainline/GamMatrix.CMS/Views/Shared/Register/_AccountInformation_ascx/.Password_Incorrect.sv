@@ -1,0 +1,1 @@
+Lösenordet måste bestå av minst 8 tecken.

@@ -1,0 +1,10 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+<p>Il tuo versamento di $VOUCHERAMOUNT$  è stato processato. Qui di seguito puoi trovare le informazioni riguardanti il tuo voucher:</p>
+<ul>
+<li><strong>Numero Voucher Ukash </strong>:$VOUCHERNUMBER$</li>
+<li><strong> Importo del Voucher Ukash </strong>:$VOUCHERAMOUNT$</li>
+<li><strong>Scadenza del Voucher Ukash </strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>Per qualsiasi richiesta riguardante il tuo voucher non esitare a contattare <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Cordialmente,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team</p>
+

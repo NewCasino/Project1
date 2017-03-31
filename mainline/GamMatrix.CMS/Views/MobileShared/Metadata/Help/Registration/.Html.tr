@@ -1,0 +1,35 @@
+﻿
+<ol>
+     <li><strong>Nasıl hesap a&#231;arım ?</strong></li>
+     <p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] hesabı a&#231;mak i&#231;in şu yollardan birini izleyebilirsiniz 1)&nbsp;Buraya tıklayabilirsiniz 2) Ana sayfada sağ men&#252; de ya da &#252;st men&#252;de yer alana &#8216;Kayıt Ol&#8217;&nbsp; butonunu tıklayarak. İki şekilde de kayıt formuna y&#246;nlendirilirsiniz. Burada se&#231;eceğiniz kullanıcı adı ve para birimi daha sonra değitirilemez. Varsa bir bonus kodu da girebilirsiniz. Bilgilerinizi&nbsp; girmeden &#246;nce 18 yaşından b&#252;y&#252;k olduğunuzdan ve &#8216;Kurallar ve Şartlar&#8217; ı kabul ettiğinizden emin olunuz. Kullanıcı adı ve şifrenizle [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] hesabınıza hemen ulaşabilirsiniz.</p>
+     <li><strong>Neden hesap a&#231;amıyorum ?</strong>
+     <p>M&#252;şteri hizmetleri ile iletişime ge&#231;iniz. Canlı destek hattı ve <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>&nbsp;.</p>
+     </li>
+     <li><strong>Oyun oynamak i&#231;in neden hesap a&#231;mam gerekli ?</strong>
+     <p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da yer alan kuralları kabul ettiğinizi ve 18 yaşından b&#252;y&#252;k olduğunuzu g&#246;stermek i&#231;in kayıt olmalısınız.</p>
+     </li>
+     <li><strong>Neden kişisel bilgilerim gerekli ? Kişisel bilgilerim g&#252;vende mi ?</strong>
+     <p>Kimlik, yaş ve adres bilgilerinizin doğrulanması ve finansal işlemler i&#231;in kişisel bilgilerinize ihtiya&#231; duyulmaktadır. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kişisel bilgilerinizin g&#252;venliği i&#231;in en g&#252;ncel veri şifreleme yazılımlarını kullanmaktadır.</p>
+     </li>
+     <li><strong>Hesap a&#231;mak i&#231;in para yatırmak zorunda mıyım ?</strong>
+     <p>Hayır, casinoda eğlence i&#231;in oynayabilirsiniz.</p>
+     </li>
+     <li><strong>Birden fazla hesabım olabilir mi ?</strong>
+     <p>Hayır, ancak bir hesabınız olabilir.</p>
+     </li>
+     <li><strong>Herhangi bir yaş sınırı var mı ?</strong>
+     <p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] da oynamak i&#231;in 18 yaşından b&#252;y&#252;k olmalısınız.</p>
+     </li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

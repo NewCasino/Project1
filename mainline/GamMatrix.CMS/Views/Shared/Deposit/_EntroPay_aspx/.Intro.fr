@@ -1,0 +1,4 @@
+﻿Malheureusement, votre demande de dépôt de {0} a été refusé. <br />
+Votre banque peut avoir des restrictions sur la façon dont votre carte peut être utilisée en ligne. <br />
+<strong> Notre option de paiement préférée: EntroPay </strong> <br />
+C'est une autre façon de payer qui fait de remplir votre depost à {1} aussi facile que 1-2-3!

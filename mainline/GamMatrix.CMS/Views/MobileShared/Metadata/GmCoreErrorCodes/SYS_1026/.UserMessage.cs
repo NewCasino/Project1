@@ -1,0 +1,1 @@
+﻿V průběhu zpracovávání transakce se vyskytla chyba

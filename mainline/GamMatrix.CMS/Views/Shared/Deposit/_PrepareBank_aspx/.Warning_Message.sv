@@ -1,0 +1,1 @@
+﻿Det är viktigt att du anger ditt användar-ID <strong>{0}</strong>  när du gör en banköverföring, och spara alla kvitton och referensnummer som bevis för din betalning ifall vi skulle behöva se dem. 

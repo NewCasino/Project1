@@ -1,0 +1,1 @@
+﻿Zostałeś/-aś wylogowany/-a lub sesja wygasła. Proszę zalogować się ponownie

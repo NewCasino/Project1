@@ -1,0 +1,11 @@
+﻿<p>Ahoj $FIRSTNAME$,</p>
+<p>tento automatický e-mail slúži ako potvrdenie vkladu uskutočneného pomocou [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] cez OddsMatrix Ltd, poskytovateľa platobných metód na stránkach [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. Na vašom výpise z účtu sa preto objaví OddsMatrix. Ďalšie informácie o transakcii nájdete nižšie.</p>
+<ul>
+<li><strong>Číslo transakcie</strong>:$TRANSACTION_ID$</li>
+<li><strong>Dátum, čas</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Stránka</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Potvrdenie</strong>: verzia pre tlač je pripojená k e-mailu.</li>
+</ul>
+<p>Ak máte ohľadom vkladu nejaké otázky, obráťte sa prosím s číslom transakcie na <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>S pozdravom,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tým</p>
+<p>$SCREENSHOT$</p>

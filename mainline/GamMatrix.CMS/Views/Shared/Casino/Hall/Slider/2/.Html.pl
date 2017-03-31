@@ -1,0 +1,1 @@
+HTML dla tej zawartości można edytować w panelu CMS.

@@ -1,0 +1,1 @@
+﻿eNETS přes Skrill (Moneybookers) vám umožňuje jednoduše, okamžitě a bezpečně platit z vašeho bankovního účtu. eNETS je mimořádně vhodný pro zákazníky ze Singaporu.

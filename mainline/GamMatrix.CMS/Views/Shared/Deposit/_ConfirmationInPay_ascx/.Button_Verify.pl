@@ -1,0 +1,1 @@
+Zweryfikuj swój przelew

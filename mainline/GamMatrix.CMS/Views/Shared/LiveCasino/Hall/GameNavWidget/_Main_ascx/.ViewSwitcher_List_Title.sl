@@ -1,0 +1,1 @@
+Igre prikažite v pogledu seznama

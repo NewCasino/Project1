@@ -1,0 +1,1 @@
+﻿Musisz zarejestrować się na swoim koncie NETELLER i zaakceptować zasady i warunki.

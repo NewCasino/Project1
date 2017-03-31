@@ -1,0 +1,1 @@
+﻿Ongeldig kaart nummer

@@ -1,0 +1,1 @@
+﻿Senders TC-nummer kan ikke være tomt.

@@ -1,0 +1,18 @@
+﻿<ol>
+  <li><strong>Güncel Promosyonları nerede bulabilirim?</strong>
+    <p>Tüm güncel Promosyonlarımızı [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] nun Promosyon Tabına tıklayarak görebilirsiniz.</p>
+  </li>
+  <li><strong>Bir Bonus kullanırsam Sitedeki tüm Oyunları oynayabilirmiyim, yoksa oynayabileceğim Oyunlarda Sınırlama varmı?</strong>
+    <p>Lütfen Bonusun Şartlar ve Koşullarına bakınız ve şüpheniz varsa bizimle burdan İletişime geçiniz:[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Desteği.</p>
+  </li>
+  <li><strong>Bir Promosyon için Gereksinimleri tamamladığımı nasıl öğrenebilirim?</strong>
+    <p>'Hesabım'a sonra sol tarafta bulunan 'Spor Hesabım' sonra Aktif Promosyonlara tıklayarak İlerlemenize bakabilirsiniz.</p>
+  </li>
+  <li><strong>Neden bir Promosyondan reddedilebilirim ?</strong>
+    <p>Bazı Bonuslar sadece belli Ülkelere veya belirli Ödeme Yollarını kullanan Müsterilerimize açık olabilir. Bağlanmış Hesaplar ve [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Promosyonların Suistimalı için Kısıtlamalar olabilir, herhangi Tavsiye için lütfen bizimle İletişime geçiniz, [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+  </li>
+</ol>
+<p style="text-align:right">
+  <button type="button" onclick="window.print(); return false" class="button"> <span class="button_Right"> <span class="button_Left"> <span class="button_Center"> <span>Print</span> </span> </span> </span> </button>
+</p>
+

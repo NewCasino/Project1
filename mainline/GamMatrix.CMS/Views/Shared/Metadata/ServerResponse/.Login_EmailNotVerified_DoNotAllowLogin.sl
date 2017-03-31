@@ -1,0 +1,1 @@
+Prijava ni uspela. Svojega računa niste aktivirali.

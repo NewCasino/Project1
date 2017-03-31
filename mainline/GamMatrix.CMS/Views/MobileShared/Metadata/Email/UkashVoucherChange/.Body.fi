@@ -1,0 +1,13 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+<p>Olet käyttänyt osan Ukash-kuponkisi arvosta, alla löydät uuden Ukash-kuponkisi tiedot.</p>
+<ul>
+<li><strong>Ukash-Kupongin numero</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Ukash-kupongin määrä</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>Ukash-kupongin erääntymispäivä</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>Mikäli sinulla on kysyttävää liittyen kuponkiisi, ota yhteyttä meihin<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode (/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br />Ystävällisin terveisin</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelutiimi <br />
+</p>
+
+

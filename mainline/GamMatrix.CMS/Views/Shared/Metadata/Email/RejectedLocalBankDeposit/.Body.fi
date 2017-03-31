@@ -1,0 +1,4 @@
+﻿<p>Hei $FIRSTNAME$!</p>Talletuksesi hylättiin. Tarkista pankkitiedot ja yritä uudelleen
+ myöhemmin.
+<p>Jos sinulla on kuponkiisi liittyviä kysymyksiä, ota yhteyttä osoitteeseen <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Terveisin<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] -tiimi</p>

@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" Inherits="CM.Web.ViewMasterPageEx" PageTemplate="/RootMaster.master" Title="<%$ Metadata:value(.Title)%>" MetaKeywords="<%$ Metadata:value(.Keywords)%>" MetaDescription="<%$ Metadata:value(.Description)%>" %>
+<%@ Import Namespace="GamMatrix.CMS.Models.MobileShared.Components" %>
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server">
+
+
+<asp:ContentPlaceHolder id="cphHead" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+	<% if (Settings.MobileV2.IsV2MenuEnabled) { %>
+
+        <%: Html.Partial("/Components/MenuV2", new MenuV2ViewModel(this.Url)) %>
+
+    <% } else { %>
+
+        <%: Html.Partial("/Components/Header", this.ViewData.Merge(new { IsLocalSite = true }))%>
+
+    <% } %>
+
+	<div class="Framework">
+		<div class="Container ActivePageTitle">
+			<a class="iOSBack" href="#">
+				<span><%= this.GetMetadata(".Back").SafeHtmlEncode() %></span>
+			</a>
+		</div>
+		<div class="Box TextBox NoHeadBox">
+			<div class="BoxContent">
+				<asp:ContentPlaceHolder id="cphMain" runat="server"></asp:ContentPlaceHolder>
+			</div>
+		</div>
+	</div>
+	 <% if(!Settings.MobileV2.IsFooterCopyrightHidden) { %>
+	    <%: Html.Partial("/Components/Footer")%>
+    <% } %>
+
+	<script type="text/javascript">
+		$(function () {
+			new CMS.views.BackBtn('.iOSBack');
+		});
+		$(CMS.mobile360.Generic.init);
+	</script>
+</asp:Content>
+

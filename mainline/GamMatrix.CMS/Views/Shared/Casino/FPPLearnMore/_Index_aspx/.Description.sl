@@ -1,0 +1,1 @@
+V kazinu Guts zvestoba prinaša nagrade – in z nagradami imamo v mislih denar! 

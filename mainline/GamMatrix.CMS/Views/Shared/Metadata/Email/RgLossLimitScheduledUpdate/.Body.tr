@@ -1,0 +1,3 @@
+﻿<p>Sayın $USERNAME$, <br /> <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile İletişime geçtiğiniz için Teşekkür ederiz.<br /> <br /> Bu Eposta bireysel Kayıp Limitinizi $LIMITAMOUNT$ $LIMITPERIOD$ dan $LIMITAMOUNT$ $LIMITPERIOD$ a değiştirdiğinizi tasdiklemek içindir. Yeni Limitiniz $LIMITEXPIRYDATE$ Tarihinde etkinleşecektir. <br /> <br /> Lütfen herhangi bir Sorunuz olursa bizimle İletişime geçmeye çekinmeyiniz:<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br />Saygılarımızla,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri Ekibi</p>

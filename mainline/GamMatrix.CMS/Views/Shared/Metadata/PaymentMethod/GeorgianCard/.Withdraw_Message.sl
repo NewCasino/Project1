@@ -1,0 +1,1 @@
+Izplačilo neposredno na vašo kartico Georgian Card

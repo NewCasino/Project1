@@ -1,0 +1,11 @@
+﻿<p>尊敬的$USERNAME$, <br />
+<br />
+感謝您聯繫[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+該郵件以確認您將您的個人存款限制從&nbsp;$LIMITAMOUNT$ $LIMITPERIOD$&nbsp;修改為了$NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. <br />
+<br />
+如果您有任何問題請隨時聯繫<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p> </p>
+<p>謹致問候</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]客服團隊<br />
+</p>

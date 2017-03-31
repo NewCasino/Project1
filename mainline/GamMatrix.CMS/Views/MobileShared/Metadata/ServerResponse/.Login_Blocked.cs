@@ -1,0 +1,1 @@
+﻿Přihlášení se nezdařilo. Váš účet je zablokován. Pokud jste si nastavili dobrovolné vyloučení, můžete kontaktovat zákaznickou podporu ohledně výběru svých prostředků. 

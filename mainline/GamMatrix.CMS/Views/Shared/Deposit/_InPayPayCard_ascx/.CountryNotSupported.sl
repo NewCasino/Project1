@@ -1,0 +1,1 @@
+Vaša država ni podprta; poskusite uporabiti druge načine plačila.

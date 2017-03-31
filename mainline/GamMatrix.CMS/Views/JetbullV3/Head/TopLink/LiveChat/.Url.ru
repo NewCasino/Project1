@@ -1,0 +1,1 @@
+﻿javascript:$('#lnkLiveChat').click();void(0)

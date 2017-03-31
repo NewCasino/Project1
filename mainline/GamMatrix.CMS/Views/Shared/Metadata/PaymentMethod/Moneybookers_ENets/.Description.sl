@@ -1,0 +1,1 @@
+eNETS preko storitve Skrill vam omogoča hitro, takojšnje in varno plačevanje s svojega bančnega računa. eNETS zagotavlja hitro, varno in zanesljivo obdelavo plačil preko spleta za stranke iz Singapurja.

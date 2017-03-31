@@ -1,0 +1,1 @@
+Lojalność opłaca się w kasynie Guts Casino – i mamy tu na myśli żywą gotówkę! 

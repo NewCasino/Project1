@@ -1,0 +1,1 @@
+Vaša povezava je bila prekinjena, ker se je vaš naslov IP od zadnje prijave spremenil.

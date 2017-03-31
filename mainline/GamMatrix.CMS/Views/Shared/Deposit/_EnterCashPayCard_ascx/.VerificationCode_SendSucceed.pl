@@ -1,0 +1,1 @@
+zakończono pomyślnie

@@ -1,0 +1,1 @@
+﻿Ajuste rechazado - no hay ID de referencia.

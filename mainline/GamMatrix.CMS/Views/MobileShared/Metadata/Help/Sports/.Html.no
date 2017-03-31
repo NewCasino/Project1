@@ -1,0 +1,43 @@
+﻿<ol>
+        
+<li><strong>Hva er den minste og maksimale innsatsen som tillates?</strong>
+<p>Den maksimale innsatser varierer avhengig av begivenhet. Hvis du prøver å plassere et spill som er større enn den maksimale grensen, vil du få en beskjed som forteller deg det maksimale beløpet du kan satser. Vi har ingen minimumsgrense.<p>
+</li>
+
+<li><strong>Hva er single spill og multispill?</strong>
+<p>Single spill involverer bare ett valg, mens multispill involverer flere. Jo flere valg du lenker sammen i en multi (f.eks. alle hjemmelagene i en Premier League-runde), desto mer kan du vinne &ndash; men det er selvsagt mye vanskeligere!<p>
+</li>
+
+<li><strong>Hvor mange valg kan et multispill inneholde?</strong>
+<p>Det maksimale antallet valg vi tillater i et multispill er 10.<p>
+</li>
+
+<li><strong>Hvordan fungerer handikap?</strong>
+<p>For detaljert forklaring om spill med handikap (1x2 med handikap og asiatiske handikap), kan du besøke Spill forklart-seksjonen her.<p>
+</li>
+
+<li><strong>Hva skjer hvis en kamp utsettes?</strong>
+<p>Sjekk reglene for den sporten. Noen sporter krever at kampen spilles samme dag for at spillet skal stå, mens spill på andre sporter kan forbli åpne til kampen fullføres eller offisielt kanselleres.<p>
+</li>
+
+<li><strong>Hvorfor har ikke mitt vinnende spill betalt ut noen gevinst enda?</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] krever offisielle resultater før marked avgjøres. Noen ganger kan ressurser på Internett, som sider med live resultater, være feil, så avgjørelsen kan forsinkes til resultatene kan bekreftes.<p>
+</li>
+
+<li><strong>Jeg har ombestemt meg. Kan jeg kansellere spillet mitt?</strong>
+<p>Nei. Når du har bekreftet spillet ditt og det har blitt godkjent av serveren vår, kan spillet ikke kanselleres.<p>
+</li>
+
+<li><strong>Hvor finner jeg en oppføring av spillene mine?</strong>
+<p>Dine spill- og transaksjonshistorikk finner du under "Min Odds-konto" når du logger deg inn på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-nettstedet.<p>
+</li>
+
+<li><strong>Hvorfor kalkuleres gevinster annerledes for britisk odds?</strong>
+<p>Når vi kalkuleres gevinster, bruker vi odds med desimaler (EU), siden de er mest nøyaktige. Odds for Storbritannia og USA vises på denne måten, siden det er det de er vant til i disse landene. All odds i desimaltall kan imidlertid ikke oppgis nøyaktig med brøk, noe som kan føre til små variasjoner.<p>
+</li>
+
+<li><strong>Spilling er i ferdig med å over kontrollen over meg, hva kan jeg gjøre?</strong>
+<p>Spilling hos [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] er ment å være en morsom fritidssyssel for alle, men for en liten gruppe mennesker kan spillingen bli avhengighetsdannende og føre til problemer. Informasjon om spillavhengighet finner du via Ansvarlig spilling.<p>
+</li>
+
+</ol>

@@ -1,0 +1,1 @@
+﻿Sprawdź, czy zapisałeś zmienione dane, bo nie będzie już można powrócić do tego ekranu.

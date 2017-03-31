@@ -1,0 +1,1 @@
+﻿Pravidla a Podmínky

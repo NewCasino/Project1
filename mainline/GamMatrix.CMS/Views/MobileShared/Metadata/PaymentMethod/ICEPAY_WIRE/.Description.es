@@ -1,0 +1,1 @@
+﻿Pagos por transferencia bancaria es el medio más sencillo de realizar pagos en todo el mundo. Añadiendo los varios sistemas de tarjetas de crédito disponibles, las transferencias bancarias son el mayor medio usado para realizar pagos internacionales

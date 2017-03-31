@@ -1,0 +1,1 @@
+﻿Vaše křestní jméno musí mít alespoň 2 znaky

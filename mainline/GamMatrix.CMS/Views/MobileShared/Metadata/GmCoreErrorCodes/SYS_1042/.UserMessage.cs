@@ -1,0 +1,1 @@
+﻿Skupinový status nebyl změněn

@@ -1,0 +1,4 @@
+﻿<style id="UKTermsConditions_css" type="text/css">.message_Text{margin-left:10px;}.UKTermsConditions .message{width:85%}.uktc-item.cbx-axccept{padding:0px 20px;}.UKTermsConditions{display:none;}.uk-title{font-size:16px;text-align:left}.uktc-wraper{padding:15px;text-align:left}#UKTermsConditions .content{display:block;margin:5px auto 0;}.uktc-item.termsconditions>a:hover{text-decoration:none}.uktc-item.termsconditions>a{text-decoration:underline}.uktc-item{margin:10px 0}#btn-UKTermsConditions {
+    float: right;
+    margin-right: 30px;
+}</style>

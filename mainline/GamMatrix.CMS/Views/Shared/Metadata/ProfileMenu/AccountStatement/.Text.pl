@@ -1,0 +1,1 @@
+Wyciąg z konta

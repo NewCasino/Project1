@@ -1,0 +1,64 @@
+﻿<div class="sitemap_items">
+  <div class="root_title">[Metadata:value(/Metadata/Settings.Operator_DisplayName)]</div>
+  <ul class="items">
+    <li><a href="/">Domov</a></li>
+    <li><a href="/help">Pomoc</a></li>
+    <li> <a href="/customersupport">Zákaznícka podpora</a></li>
+    <li> <a href="/deposit">Platobné metody</a></li>
+    <li> <a href="/ForgotPassword">Zabudnuté heslo</a></li>
+    <li> <a href="/register">Registrácia</a></li> 
+    <li> <a href="#top">Prihlásenie</a></li>
+    <li> <a href="/Sports/Home">Športy</a></li>
+    <li> <a href="/Casino/Lobby">Kasíno</a></li>
+    <li> <a href="/Poker/">Poker</a></li>
+    <li> <a href="/Bingo/">Bingo</a></li>
+    <li> <a href="/Promotions/Home">Promo akcie</a></li>
+    <li> <a href="/AboutUs">O nás</a></li>
+    <li> <a href="/ResponsibleGaming">Zodpovedné hranie</a></li>
+    <li> <a href="/TermsConditions">Pravidlá a predpisy</a></li>
+    <li> <a href="/Sitemap">Mapa stránok</a></li>
+    <li> <a href="/Affiliate/Home">Partneri</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Športy</div>
+  <ul class="items">
+    <li> <a href="/help/Sports">FAQ</a></li>
+    <li> <a href="/Promotions/home/sportsbook">Promo akcie</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Kasíno</div>
+  <ul class="items">
+    <li> <a href="/help/Casino">FAQ</a></li>
+    <li> <a href="/Promotions/home/casino">Promo akcie</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Poker</div>
+  <ul class="items">
+    <li> <a href="#">Stiahnutie klienta</a></li>
+    <li> <a href="/Poker/Tournaments/CAKEPoker">Turnaje</a></li>
+    <li> <a href="/PokerSchool">Škola pokeru</a></li>
+    <li> <a href="/help/Poker">FAQ</a></li>
+    <li> <a href="/Promotions/TermsConditions/poker/LoyaltyLevels">Vernostné úrovne</a></li>
+    <li> <a href="/Promotions/home/Poker">Promo akcie</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Promo akcie</div>
+  <ul class="items">
+    <li> <a href="/Promotions/Home">Nejlepšie akcie</a></li>
+    <li> <a href="/Promotions/home/sportsbook">Športy</a></li>
+    <li> <a href="/Promotions/home/casino">Kasíno</a></li>
+    <li> <a href="/Promotions/home/Poker">Poker</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Partneri</div>
+  <ul class="items">
+    <li> <a href="/Affiliate/home">Prihlásenie</a></li>
+    <li> <a href="#">Zabudnuté heslo</a></li>
+    <li> <a href="#">Registrácia</a></li>
+  </ul>
+</div>

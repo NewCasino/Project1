@@ -1,0 +1,1 @@
+﻿Opname afgewezen. De betaling is nog niet geactiveerd.

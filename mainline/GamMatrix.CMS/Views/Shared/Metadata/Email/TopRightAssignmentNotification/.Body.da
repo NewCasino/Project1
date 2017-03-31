@@ -1,0 +1,3 @@
+﻿<p>Hello, </p>
+We are writing to inform you that the user $ASSIGNED_USERNAME$ has been assigned the role $ROLENAME$ by $ASSIGNER_USERNAME$ on $DATETIME$. 
+<p>Regards, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

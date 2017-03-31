@@ -1,0 +1,4 @@
+﻿<p>Dear $USERNAME$, <br /> <br /> 연락 주셔서 감사합니다 [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> 이 이메일은 귀하가 개인 손실 한도를 변경했음을 확인하고자 함 입니다 &nbsp;$LIMITAMOUNT$ $LIMITPERIOD$&nbsp;to $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. <br /> <br /> 의문사항이 있으시면 언제든 연락 주시기 바랍니다 <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>&nbsp;</p>
+<p>Kind Regards</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team</p>

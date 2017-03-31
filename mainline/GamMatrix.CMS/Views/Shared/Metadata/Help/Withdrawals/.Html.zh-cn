@@ -1,0 +1,38 @@
+﻿<ol><li><strong> 我如何取款？</strong>
+<p>只要您满足取款要求那么您随时都可以取款。之后您可以随时无限次数的取款。为了防止洗钱行为，在您存款24小之后您才可以提款，这个是[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]的规定。最小取款限额是10 Euro.</p>
+</li><li><strong> 取款限额有规定吗？</strong>
+<p>最小取款限额是 €10.00或者等值货币。每天最大取款限额是 €5000 或等值货币。</p>
+</li><li><strong> 我可以取消取款吗？</strong>
+<p>您需要联系[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]客服来解决这个问题，如果取款没有处理那么它可以被停止。</p>
+</li><li><strong> 我可以把我的赢得的资金转回我的信用/借记卡吗？</strong>
+<p>只要您使用的同一张卡存取款，那么当然没有问题。</p>
+</li><li><strong> 我使用我的信用/借记卡存款，我可以使用其他存取款方式吗？</strong>
+<p>可以，不过您需要提供全面的文件证明您的个人信息。</p>
+</li><li><strong> 我为什么不能选择我希望的存取款方式？</strong>
+<p>这是因为反洗钱法案的出台所有您只能使用您存款的方式进行取款。</p>
+</li><li><strong> 要收取款手续费吗？</strong>
+<p>取款手续费根据不同的取款方式而不同。请点击‘<a href="/deposit">付款方式</a>’来查看相关信息。</p>
+</li><li><strong> 取款需要多长时间？</strong>
+<p>取款方式不同时间就不同。请点击这里‘<a href="/deposit">付款方式</a>’来查看所有的取款方式需要的时间。</p>
+</li><li><strong> 为什么存款是及时进行的而取款需要很长时间？</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]在您取款的时候我们需要进行检查，这大概需要12个小时左右。其他的延时大概都是因为付款方式提供商的问题。</p>
+</li><li><strong> 如果我取款的卡过期或者取消了怎么办？</strong>
+<p>您需要让我提前知道这个消息，而且您需要提供证明。新卡的资料在您证实之后就会在您的[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]账号出现。</p>
+</li><li><strong> 我可以提款到其他人的账户吗？</strong>
+<p>不可以，这个是与第三方转账是不允许的。</p>
+</li><li><strong> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]的取款规定是什么？</strong>
+<p>您的账户必须激活并且有一些取款限额。一些其他的[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]推广活动可能会限制您的取款。 </p>
+</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

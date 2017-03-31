@@ -1,0 +1,12 @@
+﻿<p>尊敬的 $USERNAME$,<br />
+</p>
+<br />
+感謝您聯繫[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />
+此郵件是為了確認您的個人存款 限制$LIM​​ITAMOUNT$ $LIMITPERIOD$ 將在$LIMITEXPIRYDATE$被移除. <br />
+<br />
+如果您有任何的問題請隨時聯繫<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p> </p>
+<p><br />
+謹致問候</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]客服團隊</p>

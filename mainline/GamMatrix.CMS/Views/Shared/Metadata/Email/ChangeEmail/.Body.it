@@ -1,0 +1,10 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+<p>hai chiesto di [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] cambiare la tua e-mail di contatto</p>
+<p>Per tutelare la tua sicurezza dobbiamo verificare il tuo nuovo contatto e-mail, per favore clicca sul link qui di seguito: </p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Se il link non funziona, copia ed incolla il link direttamente nel tuo browser.</p>
+<p>Se non hai richiesto il cambio della password per favore ignora questa e-mail ed informarmaci a <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Cordiali saluti, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il servizio clienti</p>
+
+
+

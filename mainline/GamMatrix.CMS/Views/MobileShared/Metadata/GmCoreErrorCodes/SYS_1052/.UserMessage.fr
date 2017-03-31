@@ -1,0 +1,1 @@
+﻿La transaction n’a pas pu être engagée en raison de problème technique temporaire. Si le problème persiste, nous vous prions de contacter notre support.

@@ -1,0 +1,9 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+<p>il tuo deposito è stato completato con successo.</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">Per favore clicca il pulsante "aggiorna"(NON il pulsante aggiorna del browser) in cima alla pagina per  ricaricare il bilancio.</strong></span></p>
+<p>Per qualunque domanda contatta senza esitazione <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Saluti,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team</p>
+
+
+
+

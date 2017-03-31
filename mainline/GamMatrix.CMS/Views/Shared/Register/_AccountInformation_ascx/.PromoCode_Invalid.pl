@@ -1,0 +1,1 @@
+Nieprawidłowy kod promocyjny.

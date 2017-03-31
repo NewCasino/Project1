@@ -1,0 +1,1 @@
+﻿Vous ne pouvez pas vous enregistrer à partir de cette adresse IP [IP] plus de [quant] fois par jour. Nous sommes désolés, contactez s’il vous plaît le support technique pour toute question.

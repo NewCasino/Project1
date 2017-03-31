@@ -1,0 +1,1 @@
+﻿Ha solicitado una cantidad inferior a {$}. Por favor inténtelo de nuevo.

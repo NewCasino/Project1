@@ -1,0 +1,18 @@
+﻿<ol>
+        
+<li><strong>Hvis befinner nettstedet deres seg?</strong>
+<p>Vårt nettsted befinner seg i Malta.</p></li>
+
+<li><strong>Har nettstedet deres lisens?</strong>
+<p>Ja, vi har en gyldig EU-lisens for odds, kasino og poker.</p></li>
+
+<li><strong>Hvor trygg er kredittkortinformasjonen min?</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] bruker den mest avanserte krypteringsteknikken, for å garantere at informasjonen din bare er tilgjengelig for et par utvalgte innen [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-familien. Vi krypter alle informasjonen din med den industrigodkjente standarden SSL. Det betyr at all informasjonen din som sendes frem og tilbake, fra adressen din til kortene du får utdelt, beskyttes av den samme sikkerheten som banker bruker.</p></li>
+
+<li><strong>Hvordan vet jeg at den finansielle informasjonen min er trygg?</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] krypterer alle informasjonen din med den industrigodkjente standarden SSL. Det betyr at all informasjonen din som sendes frem og tilbake, fra adressen din til kortene du får utdelt, beskyttes av den samme sikkerheten som banker bruker.</p></li>
+
+<li><strong>Hvordan vet jeg at pengene mine er trygge?</strong>
+<p>Alle pengene til brukerne våre oppbevares på en separat konto hos pålitelige Bank of Valletta. Dette er i henhold til Lotteries and Gaming Regulations of Malta, som vi har fått lisensen fra. Brukernes penger er helt adskilt fra selskapets penger, og oppbevares på denne måten for å sikre at brukernes penger alltid er tilgjengelige for klientene.</p></li>
+
+	</ol>

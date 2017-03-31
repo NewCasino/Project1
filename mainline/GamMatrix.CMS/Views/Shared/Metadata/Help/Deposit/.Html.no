@@ -1,0 +1,78 @@
+﻿<ol>
+
+ <li> <strong>Hvordan kan jeg sette inn midler på kontoen min?</strong>
+ <p>
+ Klikk på Min konto og innskuddsknappen i venstre kolonne. Du får deretter mulighet til å velge betalingsløsning.
+ </p>
+ </li>
+
+ <li> <strong>Hvor lang tid tar det før innskuddet blir godkjent?</strong>
+ <p>
+ Innskuddene godkjennes umiddelbart for de fleste betalingsløsninger. Hvis du velger bankoverføring, kan det ta opptil 7 dager å få pengene fra banken. Når pengene mottas, krediteres [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] konto.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvilke innskuddsalternativer har dere?</strong>
+ <p>
+ Klikk på betalingsløsninger i menyen øverst på alle [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] sider for å se tilgjengelige betalingsløsninger.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvilke kreditt-/debetkort godtar dere?</strong>
+ <p>
+ [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] godtar alle Visa- og MasterCard/maestro-kort, både kreditt- og debetkort, som innskuddsalternativ. Det kan imidlertid være begrensninger på uttak med MasterCard/maestro-kort.
+ </p>
+ </li>
+
+ <li>
+ <strong>Blir jeg ilagt gebyr for innskudd på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kontoen min?</strong> 
+ <p>
+ Det er ingen gebyr for innskudd på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kontoen din.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hva er de minste/største beløpene jeg kan sette inn? </strong> 
+ <p>
+ Det minste beløpet du kan sette inn, er 10 euro eller tilsvarende i annen valuta. Det største beløpet du kan sette inn er 5000 euro eller tilsvarende i annen valuta per dag.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Er det mulig å angi daglige, ukentlige og månedlige innskuddsgrenser?
+ </strong>
+ <p>
+ Du kan angi daglige, ukentlige eller månedlige innskuddsgrenser. Du kan angi dette under Spillevett – innskuddsgrense under Min konto. Du kan når som helst gå dit og endre grensene.
+ </p>
+ </li>
+
+ <li>
+ <strong>Hvordan kan jeg gjøre innskudd fra bankkontoen min?</strong>
+ <p>
+ Gå til Min konto, klikk på Innskudd, og velg Bankoverføringer. Du kan aktivere dette alternativet ved å klikke på Innskudd. Følg instruksjonene på skjermen.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Er det en ukentlig grense for hvor mye jeg kan sette inn på nettstedskontoen ved hjelp av kredittkortet mitt? 
+ </strong>
+ <p>Det største beløpet du kan sette inn per dag, er 5000 euro.</p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

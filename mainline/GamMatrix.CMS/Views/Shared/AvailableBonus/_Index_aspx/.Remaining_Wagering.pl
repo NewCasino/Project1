@@ -1,0 +1,1 @@
+Pozostało do spełnienia warunku obrotu

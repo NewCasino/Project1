@@ -1,0 +1,3 @@
+﻿<p class="content"> I enlighet med våra licensåtaganden under United Kingdom Gambling Commission (UKGC), [metadata:value(/Metadata/Settings.Operator_DisplayName)] krävs för att informera dig om att spelarnas pengar förvaras på särskilda konton som är separerade från företagets affärskonton.
+Vid eventuell insolvens, räknas spelarnas pengar in som en del av företagets tillgångar. Detta uppfyller UKGCs grundläggande krav om separation av spelares pengar. För ytterligare information, se:</p>
+     <a href="http://www.gamblingcommission.gov.uk/consumers/protection_of_customer_funds.aspx">www.gamblingcommission.gov.uk</a>

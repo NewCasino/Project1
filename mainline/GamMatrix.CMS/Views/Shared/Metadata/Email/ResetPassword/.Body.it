@@ -1,0 +1,8 @@
+﻿<p>Ciao $FIRSTNAME$,</p>
+<p>grazie per aver contattato [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], abbiamo ricevuto la tua richiesta per recuperare la password. Per favore clicca sul link che segue per reimpostare la password.</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>Questo link è valido per 24 ore e può essere utilizzato solo una volta. T.<p>
+<p>Se non vuoi cambiare la password, per favore ignora questa e-mail.<p/>
+<p>Saluti,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team</p>
+
+

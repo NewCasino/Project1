@@ -1,0 +1,1 @@
+Bank of Georgia är en full-service bank med erfarna bankirer och omtänksamma människor som är villiga att göra det lilla extra för dig.

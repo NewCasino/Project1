@@ -1,0 +1,1 @@
+Upewnij się, że wybrana powyżej waluta i kwota, którą wybierasz zgadzają się z walutą i kwotą Twojej kuponu Ukash.

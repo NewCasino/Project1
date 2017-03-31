@@ -1,0 +1,8 @@
+﻿        <img usemap="#bottomMap" src="//cdn.everymatrix.com/JetbullV2/img/partner.png" alt="Payments">
+<map name="bottomMap" id="bottomMap">
+   <area shape="rect" coords="67, 50, 128, 77" href="http://www.netent.com" target="_blank">
+  <area coords="683, 56, 766, 76" target="_blank" shape="rect" href="http://www.oddsmatrix.com/">
+  <area shape="rect" coords="991, 52, 1052, 82" href="https://sealserver.trustwave.com/cert.php?customerId=w6oj3BctHpqOGnDsmK2daFWOHPZVM8&amp;size=105x54&amp;style=" target="_blank">
+<area target="_blank" href="http://www.lga.org.mt" coords="779, 41, 880, 79" shape="rect">
+<area coords="1063, 54, 1090, 78" target="_blank" shape="rect" href="/under18">
+</map>

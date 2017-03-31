@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <RouteName>f363fa62-5e77-4987-8976-19da5318239a</RouteName>
+  <Type>Page</Type>
+  <Controller>GamMatrix.CMS.Controllers.Shared.LiveCasinoHallController</Controller>
+  <IsInherited>False</IsInherited>
+</root>

@@ -1,0 +1,1 @@
+﻿Karta gruzińska – dostawca usług przetwarzania kart.

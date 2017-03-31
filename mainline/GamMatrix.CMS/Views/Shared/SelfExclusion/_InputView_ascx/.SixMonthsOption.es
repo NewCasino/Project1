@@ -1,0 +1,1 @@
+﻿No me permitan entrar en los próximos 6 meses

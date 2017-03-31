@@ -1,0 +1,4 @@
+﻿<p>Sehr geehrte/r $USERNAME$, <br /><br /> Vielen Dank für Ihre Kontaktanfrage an [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /><br /> Diese E-Mail bestätigt die Änderung Ihres persönlichen Verlustlimits von&nbsp;$LIMITAMOUNT$ $LIMITPERIOD$&nbsp;auf $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. <br /><br />Falls Sie Fragen haben sollten, kontaktieren Sie uns bitte unter<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>&nbsp;</p>
+<p>Viele Grüße,</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Ihr Kundenbetreuungsteam</p>

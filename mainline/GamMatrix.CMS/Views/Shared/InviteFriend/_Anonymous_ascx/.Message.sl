@@ -1,0 +1,1 @@
+Za povabilo prijatelja se morate prijaviti.

@@ -1,0 +1,17 @@
+﻿<div class="Breadcrumbs" role="navigation">
+    <ul class="BreadMenu Container" role="menu">
+        <li class="BreadItem" role="menuitem" itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="itemscope">
+            <a class="BreadLink url" href="/" itemprop="url" title="Visit the EveryMatrix homepage">
+                <span itemprop="title">Home</span>
+            </a>
+        </li>
+        <li class="BreadItem" role="menuitem" itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="itemscope">
+            <a class="BreadLink url" href="/promosyonlar/" itemprop="url" title="See the entire inventory of solutions EveryMatrix offers">
+                <span itemprop="title">Promotions</span>
+            </a>
+        </li>
+        <li class="BreadItem BreadCurrent" role="menuitem" itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="itemscope">
+                <span itemprop="title">{0}</span>
+        </li>
+    </ul>
+</div>

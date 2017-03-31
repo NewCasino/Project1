@@ -1,0 +1,1 @@
+﻿Captcha není správně, prosím zkuste znovu.

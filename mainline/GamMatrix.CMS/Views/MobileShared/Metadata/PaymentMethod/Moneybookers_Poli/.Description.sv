@@ -1,0 +1,1 @@
+POLi genom Moneybookers tillåter dig att föra över medel från en bank dorekt till ditt konto. Du behöver inte vänta, överföringen är omedelbar. POLi är en av de mest effektiva online valutaförmedlarna i Australien.

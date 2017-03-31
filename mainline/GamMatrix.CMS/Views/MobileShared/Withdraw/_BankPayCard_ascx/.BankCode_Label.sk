@@ -1,0 +1,1 @@
+﻿Kód banky / Sort code

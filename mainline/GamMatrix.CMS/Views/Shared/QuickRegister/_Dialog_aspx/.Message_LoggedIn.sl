@@ -1,0 +1,1 @@
+﻿Ste že prijavljeni [Metadata:value(/Metadata/Settings.Operator_DisplayName)].

@@ -1,0 +1,1 @@
+ID lub adres e-mail konta ﻿Neteller 

@@ -1,0 +1,1 @@
+﻿Proszę podać kod zabezpieczający karty.

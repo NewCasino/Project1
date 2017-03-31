@@ -1,0 +1,3 @@
+﻿<p class="content"> V skladu s svojimi obveznostmi v okviru dovoljenja, ki ga je izdala komisija United Kingdom Gambling Commission (UKGC), vas, [metadata:value(/Metadata/Settings.Operator_DisplayName)] mora obvestiti, da so vaša sredstva, namenjena igranju, hranjena na temu namenjenih računih, ki so ločeni od poslovnih računov podjetja.
+V primeru plačilne nesposobnosti bodo sredstva igralcev obravnavana kot del sredstev podjetja. To je v skladu z zahtevami komisije UKGC glede ločevanja sredstev igralcem na osnovnem nivoju. Za več informacij preberite:</p>
+     <a href="http://www.gamblingcommission.gov.uk/consumers/protection_of_customer_funds.aspx">www.gamblingcommission.gov.uk</a>

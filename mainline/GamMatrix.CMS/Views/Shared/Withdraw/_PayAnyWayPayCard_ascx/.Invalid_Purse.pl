@@ -1,0 +1,1 @@
+Portfel musi zaczynać się od R / Z / E i zawierać dalej przynajmniej 12 cyfr.

@@ -1,0 +1,1 @@
+﻿Wyspy Wallis i Futuna

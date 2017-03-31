@@ -1,0 +1,1 @@
+﻿Votre Secure ID doit être d'au moins 6 caractères

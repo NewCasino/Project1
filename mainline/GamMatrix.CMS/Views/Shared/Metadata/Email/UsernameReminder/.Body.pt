@@ -1,0 +1,7 @@
+﻿<p>Olá $FIRSTNAME$,</p>
+<p>Obrigado pelo seu contacto [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], Recebemos o seu pedido de recuperação do nome de utilizador.</p>
+
+<p>O seu nome de utilizador é o seguinte:<strong>$USERNAME$</strong>. </p>
+<p>Com o melhores cumprimentos,<br /> Equipa [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>
+
+

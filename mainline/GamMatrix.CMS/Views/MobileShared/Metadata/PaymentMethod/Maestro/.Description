@@ -1,0 +1,1 @@
+﻿You can quickly deposit money from your Maestro Card into your gaming account. Simply enter your card details, once your Maestro Card is verified, your fund will be securely and instantly transferred  into your gaming account.

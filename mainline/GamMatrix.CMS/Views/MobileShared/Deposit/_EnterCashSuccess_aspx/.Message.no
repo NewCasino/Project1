@@ -1,0 +1,2 @@
+﻿Vær oppmerksom på at refcoden bare kan brukes til en gang per forsøk på innskudd. Ett andre forsøk på overføring med samme refcode vil ikke bli kreditert din konto.
+

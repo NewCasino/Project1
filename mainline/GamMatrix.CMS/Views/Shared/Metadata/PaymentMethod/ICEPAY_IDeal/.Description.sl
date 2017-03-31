@@ -1,0 +1,1 @@
+Da bo spletno plačevanje za izdelke in storitve še lažje, je združenje nizozemskih bank razvilo način spletnega plačevanja, imenovan iDEAL.

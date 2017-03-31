@@ -1,0 +1,1 @@
+﻿Totalt antal Casino FPP-poäng: 

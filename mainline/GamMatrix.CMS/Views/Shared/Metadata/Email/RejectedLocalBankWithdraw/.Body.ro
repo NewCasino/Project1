@@ -1,0 +1,4 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+Your withdrawal has been declined, please check the bank information and try again later.
+<p>If you have any question regarding your voucher please do not hesitate to contact <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Regards,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]</p>

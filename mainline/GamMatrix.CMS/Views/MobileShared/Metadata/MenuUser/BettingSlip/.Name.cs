@@ -1,0 +1,1 @@
+﻿Sázkový tiket

@@ -1,0 +1,1 @@
+﻿Švédsko, Koruny

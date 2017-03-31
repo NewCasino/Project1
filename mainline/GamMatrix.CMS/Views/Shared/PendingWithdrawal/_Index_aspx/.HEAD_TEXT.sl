@@ -1,0 +1,1 @@
+Čakajoče izplačilo

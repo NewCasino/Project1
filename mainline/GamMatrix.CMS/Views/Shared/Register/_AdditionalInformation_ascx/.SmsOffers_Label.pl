@@ -1,0 +1,1 @@
+Tak, chcę otrzymywać ekskluzywne oferty przez SMS. 

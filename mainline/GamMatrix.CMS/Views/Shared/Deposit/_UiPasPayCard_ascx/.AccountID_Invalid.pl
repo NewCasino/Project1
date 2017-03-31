@@ -1,0 +1,1 @@
+ID Twojego konta musi posiadać przynajmniej 7 znaków

@@ -1,0 +1,1 @@
+Trustly je rešitev e-plačil preko spletnega bančništva, posebej prilagojena za mobilne naprave in tablice.

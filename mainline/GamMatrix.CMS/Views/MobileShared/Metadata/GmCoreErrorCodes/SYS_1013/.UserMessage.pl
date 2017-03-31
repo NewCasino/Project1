@@ -1,0 +1,1 @@
+﻿Niepoprawny lub nieznany użytkownik

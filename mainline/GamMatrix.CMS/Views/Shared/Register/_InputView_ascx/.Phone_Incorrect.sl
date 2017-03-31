@@ -1,0 +1,1 @@
+Vnesite telefonsko številko, dolgo od 7 do 30 števk

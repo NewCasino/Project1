@@ -1,0 +1,1 @@
+﻿Musíte potvrdit, že souhlasíte s pravidly a podmínkami

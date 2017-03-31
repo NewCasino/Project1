@@ -1,0 +1,1 @@
+Preverite, ali ste opazili spremembo podatkov, saj se na ta zaslon ne boste mogli vrniti.

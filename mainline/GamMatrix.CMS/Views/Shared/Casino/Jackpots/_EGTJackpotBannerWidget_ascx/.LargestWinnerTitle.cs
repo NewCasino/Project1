@@ -1,0 +1,2 @@
+﻿Vítěz nejvyšší sumy:
+

@@ -1,0 +1,1 @@
+﻿Georgian Card - Leverantör av korthanteringstjänster.

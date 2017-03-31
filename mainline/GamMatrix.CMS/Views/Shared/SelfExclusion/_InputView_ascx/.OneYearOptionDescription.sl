@@ -1,0 +1,1 @@
+V svoj račun za igranje stav se ne boste mogli prijaviti za obdobje 1 leta mirovanja.

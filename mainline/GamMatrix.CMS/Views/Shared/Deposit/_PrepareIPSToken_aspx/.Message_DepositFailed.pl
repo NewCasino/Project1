@@ -1,0 +1,1 @@
+Nie udało się, sprawdź wprowadzone dane i spróbuj ponownie.

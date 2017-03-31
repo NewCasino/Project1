@@ -1,0 +1,1 @@
+﻿Ukryj wczorajszych najlepszych graczy!

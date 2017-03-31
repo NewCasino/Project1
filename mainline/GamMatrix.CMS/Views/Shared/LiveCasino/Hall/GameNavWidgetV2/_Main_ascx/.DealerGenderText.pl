@@ -1,0 +1,1 @@
+Płeć krupiera:

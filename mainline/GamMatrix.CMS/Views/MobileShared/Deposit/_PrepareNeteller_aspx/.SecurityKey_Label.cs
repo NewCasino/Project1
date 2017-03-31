@@ -1,0 +1,1 @@
+﻿Identifikační číslo (Secure ID)

@@ -1,0 +1,15 @@
+<p>&#160; $USERNAME$様<br />
+<br />[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]までご登録頂き有難う御座います。
+<br />
+<br />
+お客様のセキュリティーのため、更には[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]でご利用頂ける、素晴らしいオファーの全てをお楽しみ頂くため、アカウントが確実に有効であり続けられるよう、Eメールの有効化を行って頂きます様お願い致します。<br />
+<br />下記のリンクをクリックして下さい。正常に動作し無い場合は、リンクをコピーして頂き、ブラウザーに直接貼り付けて下さい。<br />
+<br />
+<a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<br />
+もし[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+にてご登録頂けていないようでありましたら、このメールを無視して頂くか、下記のEメールまでご連絡下さい。 <br /> <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a><br />
+<br />
+お客様の情報を保護するため、アカウントへの制限がかかるのを避けるため、Eメールの認証を確実に完了して下さい。<p><br />何卒宜しくお願い致します。<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]
+ カスタマーサービスチーム一同<br />

@@ -1,0 +1,1 @@
+﻿EggOMatic™ je nová hra úrovně Platinum od Net Entertainment. Jedná se o pětiválcový video automat s 20 liniemi a symboly Wild, Točením zdarma a dalšími cenami. Symboly Spreading Wild Egg, Free Spins Egg, Coin Win Egg a Surprise Egg, EggOMatic™ přináší  hráčům opravdu bohaté Velikonoce.

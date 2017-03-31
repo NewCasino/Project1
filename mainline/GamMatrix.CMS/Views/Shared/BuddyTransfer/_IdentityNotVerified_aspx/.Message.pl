@@ -1,0 +1,1 @@
+Zanim będziesz mógł dokonać przelewu, musimy sprawdzić Twoją tożsamość.

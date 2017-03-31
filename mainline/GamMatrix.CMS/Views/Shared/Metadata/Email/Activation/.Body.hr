@@ -1,0 +1,7 @@
+﻿<p>Pozdrav $FIRSTNAME$,</p>
+<p>Hvala na registriranju preko [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], vaš račun ($USERNAME$) je kreiran i prije nego što ga možete koristiti morate ga aktivirati.</p>
+<p>Kako biste aktivirali svoj račun, kliknite na poveznicu ispod, a ako ne bude reagirala, pokušajte kopirati i zalijepiti poveznicu u vaš preglednik.</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Ako niste registrirani putem [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], zanemarite e-poruku ili obavijestite <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Hvala na registriranju preko [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]!</p>
+<p>S poštovanjem,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tim</p>

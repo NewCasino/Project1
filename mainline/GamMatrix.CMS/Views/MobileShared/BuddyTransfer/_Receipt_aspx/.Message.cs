@@ -1,0 +1,2 @@
+﻿Peníze byly úspěšně převedeny.
+

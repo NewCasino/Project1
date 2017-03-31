@@ -1,0 +1,106 @@
+﻿<ol>
+
+ <li> <strong>Kako ću podignuti novac sa svog računa na internetskoj stranici?</strong>
+ <p>
+ Možete zatražiti isplatu bilo&nbsp; kada&nbsp; ako ste ispunili sve uvjete i ako vam je&nbsp; dopuštena isplata u našem sustavu. Možete podići novac koliko god puta želite ali, prema zakonima za sprječavanje pranje novca i pronevjeru kojih se [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] pridržava, ne možemo vam dozvoliti podizanje novca s vašeg [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]&nbsp; računa 24 sata nakon pologa. &nbsp;Najmanja vrijednost podizanja novca je 10 €.
+ </p>
+ </li>
+
+ <li> <strong>Postoje li ograničenja u iznosu koji mogu podići?</strong>
+ <p>
+ Najmanja vrijednost podizanja novca je 10,00 € ili jednak iznos u vašoj valuti. Najveći iznos podizanja novca je 5000 € po danu ili jednak iznos u vašoj valuti.
+ </p>
+ </li>
+
+ <li>
+ <strong>Mogu li otkazati zahtjev za isplatu?</strong>
+ <p>
+Morat ćete kontaktirati [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] službu za korisnike i ako&nbsp; isplata nije obrađena možete je zaustaviti.
+ </p>
+ </li>
+
+ <li>
+ <strong>Mogu li zatražiti isplatu dobitaka natrag na svoju kreditnu/debitnu karticu?</strong>
+ <p>Da, možete, ako je to ista kartica kojom ste uplatili izvorni polog i ako kartica može&nbsp; primiti&nbsp; isplatu.
+ </p>
+ </li>
+
+ <li>
+ <strong>Koristio sam svoju kreditnu/debitnu karticu za polog. Mogu li zahtijevati isplatu na neki drugi način?</strong> 
+ <p>
+ Da, možete, ali nam može biti potrebna cjelokupna dokumentacija te podaci o vašoj novoj metodi.
+ </p>
+ </li>
+
+ <li>
+ <strong>Zašto ne mogu izabrati koju metodu želim koristiti za isplatu?</strong>
+ <p>
+ To je zbog zakona o pranju novca kojih se pridržavamo te zbog vaše i naše sigurnosti svih financijskih transakcija, tako da ako nisu dozvoljena, sva se sredstva moraju vratiti istom metodom koja je korištena za uplatu pologa.
+ </p>
+ </li>
+
+ <li>
+ <strong>Naplaćujete li naknadu za isplatu?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> 
+ <p>*Isplatne naknade se mijenjaju ovisno o odabranoj metodi isplate. Kliknite ovdje '
+ <a href="/deposit">Metoda plaćanja</a>
+ Kako biste vidjeli informacije u vezi s naknadom; budite svjesni da vam vaša banka može naplatiti naknadu za usluge.
+ </p>
+ </li>
+
+ <li>
+ <strong>Koliko je potrebno za obradu isplata?</strong>
+ <p>
+ Ovo može varirati ovisno o odabranoj metodi isplate. Kliknite ovdje '
+ <a href="/deposit">Metoda plaćanja</a>
+ ' to see all of the withdrawal methods available to you and their processing times.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Why is it that a withdrawal to my card takes days while a deposit is immediate?
+ </strong>
+ <p>
+ Provodimo brojne kontrole i provjere prije slanja isplate od strane [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] a to odlaže isplatu za približno 12 sati. Te su provjere dio naše kontinuirane posvećenosti održavanju sigurnosti sredstava naših korisnika. Sva druga odgađanja nastaju zbog ograničenja koja su nametnuli vaši davatelji usluga plaćanja.
+ </p>
+ </li>
+
+ <li>
+ <strŠto će se dogoditi ako je kartica na koju sam zatražio isplatu istekla ili otkazana?
+ </strong>
+ <p>
+ Morat ćete nas obavijestiti o svim izmjenama&nbsp; kartice te pružiti dokaz o isteku kartice ili razlogu za izmjenu.&nbsp; Svaka će nova kartica morati biti registrirana kod nas te na vaš [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] račun.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Mogu li isplatiti novac sa svog računa i poslati ga nekom drugom?
+ </strong>
+ <p>
+ Ne, to se smatra kao transakcija treće strane i ne dozvoljava se ni u kojim okolnostima.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Što je  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] politika isplate?
+ </strong>
+ <p>
+ Vaš račun mora biti omogućen te na njemu mora postojati najmanji potrebni iznos novca kako bi se izvršilo podizanje novca. Moguća su određena ograničenja igračima koji sudjeluju u [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] promotions.
+ </p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

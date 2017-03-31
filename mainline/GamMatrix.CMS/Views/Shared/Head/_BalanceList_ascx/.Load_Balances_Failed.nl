@@ -1,0 +1,1 @@
+﻿Laden van saldi is mislukt.

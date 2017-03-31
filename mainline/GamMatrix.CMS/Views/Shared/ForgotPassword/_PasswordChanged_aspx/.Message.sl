@@ -1,0 +1,1 @@
+Geslo ste uspešno spremenili.

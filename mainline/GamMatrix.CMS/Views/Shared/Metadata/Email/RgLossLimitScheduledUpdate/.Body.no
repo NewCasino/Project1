@@ -1,0 +1,4 @@
+﻿<p>Kjære $USERNAME$, <br /> <br /> Takk for at du kontaktet [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Denne eposten er sendt for å bekrefte at du&nbsp;endret din personlige tapsgrense &nbsp;fra $LIMITAMOUNT$ $LIMITPERIOD$ til $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. Den nye grensen vil bli aktivert&nbsp;på $LIMITEXPIRYDATE$. <br /> <br /> Du må ikke nøle med å kontakte oss hvis du har spørsmål til<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br /> Med vennlig hilsen </p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kundeservice </p>
+

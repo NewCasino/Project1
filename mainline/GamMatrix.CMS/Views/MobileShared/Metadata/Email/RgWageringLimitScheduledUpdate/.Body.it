@@ -1,0 +1,11 @@
+﻿<p>Caro $USERNAME$, <br /> <br /> Grazie per aver contattato [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Questa e-mail conferma che hai modificato il tuo limite di volume di gioco  da $LIMITAMOUNT$ $LIMITPERIOD$ a $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$. Il nuovo limite sarà attivato il $LIMITEXPIRYDATE$. <br /> <br /> 
+Per favore per qualsiasi richiesta non esitare a contattarci al <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p><br /> Cordiali saluti</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team dell'assistenza clienti</p>
+
+
+
+
+
+
+

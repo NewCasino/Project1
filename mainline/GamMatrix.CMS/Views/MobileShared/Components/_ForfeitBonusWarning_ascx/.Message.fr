@@ -1,0 +1,1 @@
+﻿Vous n'avez pas rempli les conditions du bonus. Si vous retirez ou transférez des fonds du compte {0}, vous perdrez tout bonus ou gains.

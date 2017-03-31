@@ -1,0 +1,1 @@
+﻿Istniejące karty

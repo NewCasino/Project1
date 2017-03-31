@@ -1,0 +1,1 @@
+Brukernavnet må bestå av minst 4 tegn

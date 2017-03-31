@@ -1,0 +1,11 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p>Bu otomatik mesaj para yatırma işleminizin [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tarafından başarılı bir şekilde tamamlandığını gösterir. Kart veya banka ekstrenizde [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ödeme operatörü olan EveryMatrix görünecektir. Para yatırma işleminizin detayları aşağıdaki gibidir.</p>
+<ul>
+<li><strong>İşlem ID No</strong>:$TRANSACTION_ID$</li>
+<li><strong>İşlem Zamanı</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Website</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>İşlem Çıktısı</strong>: işlemin ekran görüntüsü e-maile eklendi.</li>
+</ul>
+<p>Bu para yatırma işlemi hakkında herhangi bir sorunuz olur ise, lütfen müşteri temsilcimize <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> işlem ID  numarası ile başvurunuz</p>
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>
+<p>$SCREENSHOT$</p>

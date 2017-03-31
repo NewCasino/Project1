@@ -1,0 +1,1 @@
+﻿Nie udało się zrealizować żądania. Wystąpił nieznany błąd. Proszę spróbować ponownie. Jeśli ten błąd będzie się powtarzać, wyślij wiadomość na adres {email address}.

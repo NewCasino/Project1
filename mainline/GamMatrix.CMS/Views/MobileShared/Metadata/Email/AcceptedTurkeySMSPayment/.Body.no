@@ -1,0 +1,9 @@
+﻿<p>Hei, $FIRSTNAME$</p>
+<p>Ditt innskudd ble gjennomført.</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">Vennligst trykk på "Oppdater"-knappen øverst på siden for å vise ny kontosaldo (IKKE oppdater-knappen til nettleseren).</strong></span></p>
+<p>Hvis du har spørsmål, vennligst ta kontakt med <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-teamet</p>
+
+
+
+

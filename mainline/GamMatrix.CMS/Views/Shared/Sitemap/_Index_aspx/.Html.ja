@@ -1,0 +1,64 @@
+<div class="sitemap_items">
+  <div class="root_title">[Metadata:value(/Metadata/Settings.Operator_DisplayName)]</div>
+  <ul class="items">
+    <li><a href="/">ホーム</a></li>
+    <li><a href="/help">ヘルプ</a></li>
+    <li> <a href="/customersupport">カスタマーサポート</a></li>
+    <li> <a href="/deposit">お支払い方法&nbsp;</a></li>
+    <li> <a href="/ForgotPassword">パスワードをお忘れの場合</a></li>
+    <li> <a href="/register">今すぐご加入</a></li> 
+    <li> <a href="#top">ログオン</a></li>
+    <li> <a href="/Sports/Home">スポーツ</a></li>
+    <li> <a href="/Casino/Lobby">カジノ</a></li>
+    <li> <a href="/Poker/">ポーカー</a></li>
+    <li> <a href="/Bingo/">ビンゴ</a></li>
+    <li> <a href="/Promotions/Home">プロモーション</a></li>
+    <li> <a href="/AboutUs">弊社について</a></li>
+    <li> <a href="/ResponsibleGaming">責任あるゲームプレイ</a></li>
+    <li> <a href="/TermsConditions">ご利用規約</a></li>
+    <li> <a href="/Sitemap">サイトマップ</a></li>
+    <li> <a href="/Affiliate/Home">会員</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">スポーツ</div>
+  <ul class="items">
+    <li> <a href="/help/Sports">よくある質問</a></li>
+    <li> <a href="/Promotions/home/sportsbook">プロモーション&nbsp;</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">カジノ</div>
+  <ul class="items">
+    <li> <a href="/help/Casino">よくある質問</a></li>
+    <li> <a href="/Promotions/home/casino">プロモーション</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">ポーカー</div>
+  <ul class="items">
+    <li> <a href="#">Download Client</a></li>
+    <li> <a href="/Poker/Tournaments/CAKEPoker">トーナメント</a></li>
+    <li> <a href="/PokerSchool">ポーカー学校</a></li>
+    <li> <a href="/help/Poker">よくある質問</a></li>
+    <li> <a href="/Promotions/TermsConditions/poker/LoyaltyLevels">ロイヤルティー・レベル</a></li>
+    <li> <a href="/Promotions/home/Poker">Promotions</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">プロモーション</div>
+  <ul class="items">
+    <li> <a href="/Promotions/Home">トップ・プロモーション</a></li>
+    <li> <a href="/Promotions/home/sportsbook">スポーツ</a></li>
+    <li> <a href="/Promotions/home/casino">カジノ</a></li>
+    <li> <a href="/Promotions/home/Poker">ポーカー</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">会員</div>
+  <ul class="items">
+    <li> <a href="/Affiliate/home">ログオン</a></li>
+    <li> <a href="#">パスワードをお忘れの場合</a></li>
+    <li> <a href="#">今すぐご登録</a></li>
+  </ul>
+</div>

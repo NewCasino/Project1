@@ -1,0 +1,5 @@
+﻿<p>Caro $USERNAME$,</p>
+<br /> Obrigado por nos contatar [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br /> <br /> Este e-mail é para confirmar que seu limite de sessão ($LIMITPERIOD$ minutes) será removido em $LIMITEXPIRYDATE$. <br /> <br /> Por favor não hesite em nos contatar caso tenha qualquer dúvida em <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p><br /> Atenciosamente</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Equipe de Atendimento ao Consumidor</p>

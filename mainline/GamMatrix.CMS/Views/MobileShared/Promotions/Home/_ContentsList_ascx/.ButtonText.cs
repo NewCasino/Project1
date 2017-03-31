@@ -1,0 +1,1 @@
+﻿Smluvní podmínky

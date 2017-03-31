@@ -1,0 +1,1 @@
+﻿Četl jsem pravidla a podmínky

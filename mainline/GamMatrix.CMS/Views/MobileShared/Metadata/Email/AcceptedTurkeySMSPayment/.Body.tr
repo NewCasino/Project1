@@ -1,0 +1,6 @@
+﻿<p>Merhaba $FIRSTNAME$,</p>
+<p>Para yatırma işleminiz başarıyla tamamlandı.</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">Lütfen bakiyenizi güncellemek için sayfanın başında bulunan "Yenile" düğmesine basın (tarayıcınızda bulunan Yenile düğmesi DEĞİL). </strong></span></p>
+<p>Sorularınız olursa, lütfen bizimle iletişime geçmekten çekinmeyin: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Saygılarımızla,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Takımı</p>
+

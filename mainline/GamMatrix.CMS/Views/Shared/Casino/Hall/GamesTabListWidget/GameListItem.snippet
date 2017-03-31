@@ -1,0 +1,73 @@
+﻿<#
+    var getTitle = function(g){
+    	if (g == null) return "";
+        var str = '[Metadata:scriptencode(.Link_Title)]';
+        return str.replace( "{0}", g).htmlEncode();
+    };
+
+    var vendors = {};
+    if( typeof(config !== 'undefined') && config.vendors )
+        vendors = config.vendors;
+
+    var data = arguments[0],l,temp;
+    for( var i = 0; i < data.length; i++) {
+		temp = data[i];
+		l=GameManager.GetLevelById(temp.ID);
+ #>
+
+<li class="GLItem" data-gameid="<#= temp.ID #>">
+	<div class="item_left">
+		<ul>
+			<li class="item_name">
+				<a href="/Casino/Game/Info/<#= temp.S #>" class="Game" title="<#= getTitle(temp.G) #>" target="_blank">
+					<#= temp.G.htmlEncode() #>
+				</a>
+			</li>
+			<li class="item_rates">
+				<span class="rate_label">[Metadata:scriptencode(.Rate_Label)]</span>
+				<ul class="rates_ct">
+				<# if(l>0){ #>
+				<li class="rate_icon_s"></li>
+				<# }else{ #>
+				<li class="rate_icon"></li>
+				<# } #>
+				<# if(l>1){ #>
+				<li class="rate_icon_s"></li>
+				<# }else{ #>
+				<li class="rate_icon"></li>
+				<# } #>
+				<# if(l>2){ #>
+				<li class="rate_icon_s"></li>
+				<# }else{ #>
+				<li class="rate_icon"></li>
+				<# } #>
+				<# if(l>3){ #>
+				<li class="rate_icon_s"></li>
+				<# }else{ #>
+				<li class="rate_icon"></li>
+				<# } #>
+				<# if(l>4){ #>
+				<li class="rate_icon_s"></li>
+				<# }else{ #>
+				<li class="rate_icon"></li>
+				<# } #>
+				</ul>
+			</li>
+			<li class="item_desc">
+				<span title="<#= temp.E.htmlEncode() #>">
+					<#= temp.E.htmlEncode() #>
+				</span>
+			</li>
+		</ul>
+	</div>
+	<div class="item_right">
+		<a href="/Casino/Game/Info/<#= temp.S #>" class="GameThumb" title="<#= getTitle(temp.G) #>" target="_blank">
+			<# if( temp.I.length > 0 ) { #>
+			<img class="GT" src="<#= temp.I.htmlEncode() #>" alt="<#= temp.G.htmlEncode() #>" />
+			<# } #>
+		</a>
+	</div>
+</li>
+
+
+<# } #>

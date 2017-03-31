@@ -1,0 +1,3 @@
+﻿#fldDebitGammingAccount, #fldCreditGammingAccount {
+  width: 320px;
+}

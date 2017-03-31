@@ -1,0 +1,1 @@
+Kontrollera att den valda valutan ovan och beloppet du anger överensstämmer med valutan och beloppet på din Ukash-voucher.

@@ -1,0 +1,23 @@
+﻿<p>Hallo $FIRSTNAME$,</p>
+<p>Das ist eine automatische Email als Bestätigung Deiner Einzahlung, durcheführt von 
+
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]EveryMatrix Ltd, der Zahlungsanbieter von [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] 
+
+Webseite, Du wirst den Namen EveryMatrix auf Deinem Bankauszug oder Kartenabrechnung wieder finden. Deine Transfer Details sind diese anbei.</p>
+<ul>
+<li><strong>Transaktions ID</strong>:$TRANSACTION_ID$</li>
+<li><strong>Datum Uhrzeit</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Webseite</strong>: 
+
+$TRANSACTION_SITE$ </li>
+<li><strong>Quittung</strong>: die Bestätigung der Quittung ist im Anhang.</li>
+</ul>
+<p>Falls Du eine Unklarheit hast was diese Einzahlung 
+
+betrifft, dann kontaktiere bitte <a 
+
+href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> erwähne bitte diese 
+
+ID Nummer.</p>
+<p>Beste Grüsse,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Team</p>
+<p>$SCREENSHOT$</p>

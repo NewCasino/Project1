@@ -1,0 +1,1 @@
+﻿Num. móvil del receptor

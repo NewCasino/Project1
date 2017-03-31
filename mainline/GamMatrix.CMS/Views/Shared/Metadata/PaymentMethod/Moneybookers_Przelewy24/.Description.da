@@ -1,0 +1,1 @@
+﻿With this banking option you can make instant deposit from every banking account in Poland.&nbsp;&nbsp; It is a simple, quick and secure online payment method that allows you to transfer money from your bank account onto the Internet.&nbsp;&nbsp;

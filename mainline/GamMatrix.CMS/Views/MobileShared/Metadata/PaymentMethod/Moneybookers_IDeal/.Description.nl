@@ -1,0 +1,1 @@
+﻿&nbsp;iDeal by Moneybookers has the full support of all the major Dutch banks for fast deposits.&nbsp;iDeal guarantees simple and secure online payments.

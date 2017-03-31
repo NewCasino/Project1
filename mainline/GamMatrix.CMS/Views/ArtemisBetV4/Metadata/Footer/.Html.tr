@@ -1,0 +1,12 @@
+﻿<div class="footerPanel">
+	<div class="footepayments footerIcon">[Metadata:value(.Image)]</div>
+        <div class="CopyZone">
+            <div class="CopyZoneWrapper">
+	        <div class="copyRight copyright">[Metadata:value(.CopyRight)]</div>
+	        <div class="footerSocial">[Metadata:value(.FooterSocial)]</div>
+            </div>
+        </div>
+</div>
+<div class="footerLinks">
+	[Metadata:value(.Links)]
+</div>

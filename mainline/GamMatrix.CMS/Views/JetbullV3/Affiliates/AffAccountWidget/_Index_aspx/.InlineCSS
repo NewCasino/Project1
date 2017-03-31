@@ -1,0 +1,27 @@
+﻿html, body, #aspnetForm{background:none repeat scroll 0 0 transparent !important }
+
+.affiliate #join_aff .joinnow {color: #fbaf5d;height: 15px;position: absolute;top: 62px;*top:30px;width: 120px;text-align: center;}
+.affiliate #join_aff .joinnow:hover {background: none}
+.affiliate #login_aff {float:right;}
+
+.affiliate #login_aff #passwordCtrl {margin: 3px 5px 0 5px;}
+.affiliate #login_aff #usernameCtrl {margin: 3px 5px 0 5px;}
+.affiliate #login_aff #passwordCtrl, .affiliate #login_aff #usernameCtrl {float:left;background: url(//cdn.everymatrix.com/JetbullV2/_files/affiliate/bg_aff_new.png) no-repeat -360px -297px;height: 21px;width: 113px;}
+.affiliate #login_aff #passwordCtrl input, .affiliate #login_aff #usernameCtrl input {height:16px;margin: 2px 0;width: 103px;box-shadow:none;background:none repeat scroll 0 0 transparent;}
+
+.affiliate #login {margin-left: 460px;width: 350px;display: none}
+.affiliate .divLogin {width: 350px}
+.affiliate #usernameTitle, .affiliate #passwordTitle { float:left; font-size:11px; height:25px; line-height:25px;}
+.affiliate #login #passwordCtrl {margin: 7px 5px 0 5px;}
+.affiliate #login #usernameCtrl {margin: 7px 5px 0 5px;}
+.affiliate #loginBtnCtrl {float:left;margin: 0 0 0 15px;}
+.affiliate #loginBtnCtrl .Button {display:inline-block; background: url(//cdn.everymatrix.com/JetbullV2/_files/affiliate/bg_aff_new.png) no-repeat left -657px;height: 29px;padding: 0 0 0 15px}
+.affiliate #loginBtnCtrl .Button_Right {padding:0 10px 0 0;background: url(//cdn.everymatrix.com/JetbullV2/_files/affiliate/bg_aff_new.png) no-repeat right -657px;height: 29px}
+.affiliate #loginBtnCtrl .Button_Middle {height:100%;background: url(//cdn.everymatrix.com/JetbullV2/_files/affiliate/bg_aff_new.png) repeat-x -305px -657px;line-height: 28px;min-width: 85px;font-size: 16px}
+.affiliate #loginBtnCtrl .Button:hover {background: url(//cdn.everymatrix.com/JetbullV2/_files/affiliate/bg_aff_new.png) no-repeat left -690px;}
+.affiliate #loginBtnCtrl .Button:hover .Button_Right {background: url(//cdn.everymatrix.com/JetbullV2/_files/affiliate/bg_aff_new.png) no-repeat right -690px;}
+.affiliate #loginBtnCtrl .Button:hover .Button_Middle {background: url(//cdn.everymatrix.com/JetbullV2/_files/affiliate/bg_aff_new.png) repeat-x -305px -690px;color: #fff}
+
+.affiliate #ForgotPwdCtrl{ position:absolute; top:35px; right:135px;}
+.affiliate #SignupNowCtrl{ position:absolute; top:35px; right:0; text-align:center}
+.affiliate #ForgotPwdCtrl a, .affiliate #SignupNowCtrl a{color:#FBAF5D; font-size:11px; font-family:Tahoma}

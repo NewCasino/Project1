@@ -1,0 +1,12 @@
+﻿<em>这封邮件由客户发送，通过点击在网站上的“联系我们”页面.<br />
+不要直接回复这封邮件！您可以在下面找到客户的邮址.</em>
+<hr/>
+<ul>
+<li><strong>客户电子邮件</strong>:$EMAIL$</li>
+<li><strong>客户名称</strong>:$NAME$</li>
+<li><strong>主题</strong>:$SUBJECT$</li>
+<li><strong>用户ID</strong>:$USERID$</li>
+<li><strong>用户名</strong>:$USERNAME$</li>
+</ul>
+<hr/>
+<pre>$CONTENT$</pre>

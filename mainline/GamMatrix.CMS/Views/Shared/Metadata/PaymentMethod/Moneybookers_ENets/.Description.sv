@@ -1,0 +1,1 @@
+Med eNETS från Skrill kan du enkelt göra säkra direktbetalningar från ditt bankkonto. eNETS erbjuder snabb, säker och tillförlitlig betalningshantering online för sina kunder i Singapore.

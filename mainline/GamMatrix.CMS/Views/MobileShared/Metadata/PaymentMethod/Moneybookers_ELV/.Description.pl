@@ -1,0 +1,1 @@
+﻿ELV umożliwia szybkie dokonywanie płatności z konta bankowego na konto do gry za pośrednictwem Moneybookers. Jest to bezpieczna i błyskawiczna metoda.

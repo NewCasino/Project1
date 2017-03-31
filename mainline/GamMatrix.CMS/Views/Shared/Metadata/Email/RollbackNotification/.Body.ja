@@ -1,0 +1,3 @@
+<p>$FIRSTNAME$様、</p>
+<p>&lsquo;$TXCOMPLETEDDATE$"のお客様のお引き出しは後退復帰され、お金はゲーム口座へ戻りました。今回の処理に関してもしご質問等ございましたらサポートまでご連絡下さい。</p>処理 ID: $TXID$処理日: $TXCREATEDDATE$ 金額: $TXAMOUNT$ $TXCURRENCY$.
+<p>よろしくお願い致します。<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] チーム</p>

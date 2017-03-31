@@ -1,0 +1,1 @@
+﻿Dokonując przelewu bankowego należy pamiętać o podaniu swojego ID <strong>{0}</strong>  użytkownika. Zachowaj wszystkie potwierdzenia i numery referencyjne jako dowód płatności, ponieważ możemy o nie poprosić w przypadku pojawienia się ewentualnych problemów. 

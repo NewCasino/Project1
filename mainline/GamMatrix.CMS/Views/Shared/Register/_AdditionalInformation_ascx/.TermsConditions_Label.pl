@@ -1,0 +1,1 @@
+Potwierdzam, że ukończyłem 18 lat oraz zapoznałem się i akceptuję 

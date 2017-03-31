@@ -1,0 +1,1 @@
+﻿Emailová adresa není povolena

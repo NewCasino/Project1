@@ -1,0 +1,1 @@
+﻿No se pudo realizar la transacción en este momento.

@@ -1,0 +1,1 @@
+Kortet kommer att utfärdas baserat på uppgifterna i din profil, kontrollera din profil nedan. Eller, klicka <a href="/Profile">här</a> för att uppdatera din profil.

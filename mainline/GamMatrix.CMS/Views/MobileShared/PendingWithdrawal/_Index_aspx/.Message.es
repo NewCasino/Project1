@@ -1,0 +1,1 @@
+﻿Las transacciones de retiros de la lista siguiente están pendientes. Puede cancelar estas transacciones y los fondos volveran a ser acreditados en su cuenta inmediatamente con solo presionar el botón de Cancelar Retiro.

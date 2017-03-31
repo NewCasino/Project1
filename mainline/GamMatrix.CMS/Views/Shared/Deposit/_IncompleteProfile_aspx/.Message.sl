@@ -1,0 +1,1 @@
+Nimate dovoljenja za opravljanje pologa, ker vaš profil ni v celoti izpolnjen. Čez 5 sekund boste preusmerjeni na stran s profilom; pred izvajanjem pologa v celoti izpolnite svoj profil. 

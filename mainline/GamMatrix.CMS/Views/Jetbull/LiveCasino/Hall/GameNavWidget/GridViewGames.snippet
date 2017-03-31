@@ -1,0 +1,70 @@
+﻿<table>
+	<thead>
+		<tr>
+			<th>
+				<span>Name</span>
+			</th>
+			<th>
+				<span>Provider</span>
+			</th>
+			<th>
+				<span>Category</span>
+			</th>
+			<th>
+				<span>Betlimit</span>
+			</th>
+			<th>
+				<span>Opening hours</span>
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+<#
+    var getTitle = function(g){
+        var str = '[Metadata:scriptencode(.Link_Title)]';
+        return str.replace( "{0}", g).htmlEncode();
+    };
+
+    var vendors = {};
+    if( typeof(config !== 'undefined') && config.vendors )
+        vendors = config.vendors;
+
+    var data = arguments[0];
+    for( var i = 0; i < data.length; i++) {
+ #>
+<tr>
+	<td>
+		<span>
+			<#= data[i].G.htmlEncode() #>
+		</span>
+	</td>
+	<td>
+		<span>
+			<#= data[i].V #>
+		</span>
+	</td>
+	<td>
+		<span>
+			<#= data[i].C #>
+		</span>
+	</td>
+	<td>
+		<# if( data[i].Limit != null && data[i].Limit != '' ) { #>
+		<span>
+            <span><#= data[i].Limit.htmlEncode() #></span>
+        </span>
+		<# } #>
+	</td>
+	<td>
+		<# if( data[i].OpeningHours != null && data[i].OpeningHours != '' ) { #>
+		<span>
+            <span><#= data[i].OpeningHours.htmlEncode() #></span>
+        </span>
+		<# } #>
+	</td>
+	<td>
+		<input type="button" value="Play" />
+	</td>
+</tr>
+<# } #>
+</table>

@@ -1,0 +1,1 @@
+Captcha-koden är felaktig, försök igen.

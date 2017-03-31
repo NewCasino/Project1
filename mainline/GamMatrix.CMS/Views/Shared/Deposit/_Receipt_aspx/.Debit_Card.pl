@@ -1,0 +1,1 @@
+﻿Do obciążenia karty nr.{0}

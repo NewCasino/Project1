@@ -1,0 +1,1 @@
+﻿Neplatný formát e-mailu.

@@ -1,0 +1,1 @@
+﻿Baht tailandés

@@ -1,0 +1,1 @@
+﻿Uživatel již obdržel funkci '{0}'

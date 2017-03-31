@@ -1,0 +1,1 @@
+﻿Před výběrem musíte učinit alespoň jeden vklad

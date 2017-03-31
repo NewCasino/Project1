@@ -1,0 +1,1 @@
+﻿S'il vous plaît notez que votre dépôt sera traité par EveryMatrix Ltd, l'opérateur de paiement de [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] site, vous pourrez voir {0} figurant sur votre relevé de compte.

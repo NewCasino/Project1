@@ -1,0 +1,1 @@
+Jeśli wiadomość e-mail nie przyjdzie wkrótce, sprawdź folder spamu.

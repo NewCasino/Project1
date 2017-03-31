@@ -1,0 +1,1 @@
+﻿Nie będziesz mógł/mogła logować się na swoim koncie przez 7 dni, by mieć czas na ochłonięcie

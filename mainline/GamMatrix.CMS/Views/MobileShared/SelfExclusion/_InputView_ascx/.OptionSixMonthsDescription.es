@@ -1,0 +1,1 @@
+﻿No podrá entrar en su cuenta de apuestas durante el periodo de auto exclusión de seis meses

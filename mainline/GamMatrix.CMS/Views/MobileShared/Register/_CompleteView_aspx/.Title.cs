@@ -1,0 +1,1 @@
+﻿Ukončena registrace

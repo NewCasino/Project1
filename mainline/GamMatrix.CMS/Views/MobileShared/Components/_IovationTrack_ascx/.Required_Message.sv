@@ -1,0 +1,1 @@
+﻿Om du har fått detta felmeddelande, är du förbjuden att utföra det du försöker göra baserat på reglerna satta i vår iovation backend och inställningarna satta i Device Tracking Settings  (GM Admin > Users > Device Tracking settings).

@@ -1,0 +1,1 @@
+﻿Visa endast {0} spel

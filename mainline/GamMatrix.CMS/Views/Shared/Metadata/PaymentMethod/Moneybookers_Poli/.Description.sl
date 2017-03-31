@@ -1,0 +1,1 @@
+POLi preko storitve Skrill vam omogoča prenos sredstev z vašega bančnega računa neposredno na vaš račun. Plačilo je izvedeno takoj, brez nepotrebnega čakanja, da so sredstva odobrena.&nbsp;POLi je ena najbolj učinkovitih storitev plačevanja preko spleta v Avstraliji.

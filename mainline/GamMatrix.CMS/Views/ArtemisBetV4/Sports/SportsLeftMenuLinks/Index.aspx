@@ -1,0 +1,20 @@
+﻿<%@ Page Language="C#" PageTemplate="/RootMaster.master" Inherits="CM.Web.ViewPageEx" Title="<%$ Metadata:value(.Title)%>" MetaKeywords="<%$ Metadata:value(.Keywords)%>" MetaDescription="<%$ Metadata:value(.Description)%>"%>
+
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server">
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+
+    <div class="SportsLeftMenuLinks">
+        <%=this.GetMetadata(".Content")%>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            jQuery('body').addClass('iframe-SportsLeftMenuLinks');
+        });
+    </script>
+
+</asp:Content>

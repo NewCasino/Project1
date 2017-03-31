@@ -1,0 +1,1 @@
+Przed rozpoczęciem gry, musisz się zalogować.

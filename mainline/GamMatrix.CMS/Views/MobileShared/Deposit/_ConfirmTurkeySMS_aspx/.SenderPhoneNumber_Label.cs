@@ -1,0 +1,10 @@
+﻿Telefonní číslo odesilatele
+
+
+
+
+
+
+
+
+

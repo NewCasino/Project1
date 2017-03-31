@@ -1,0 +1,1 @@
+Kontrollera att den valda valutan ovan och "Ukash-värdet" överensstämmer med valutan och beloppet på ditt Ukash-kort.

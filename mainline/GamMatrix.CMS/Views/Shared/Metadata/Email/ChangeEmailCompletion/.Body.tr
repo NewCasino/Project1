@@ -1,0 +1,9 @@
+﻿<p>Hi $FIRSTNAME$,</p>
+
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] daki Epostanızın İsteğiniz üzere Değiştini bildirmek istiyoruz.</p>
+<p>Epostanızı Değiştirmemizi Talep etmediyseniz bunu lütfen derhal Destek Ekibimize bildiriniz buradan 
+<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+</p>
+
+Saygılarımızla, [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri
+

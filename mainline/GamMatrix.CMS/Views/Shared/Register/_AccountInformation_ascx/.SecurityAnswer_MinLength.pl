@@ -1,0 +1,1 @@
+Twoja odpowiedź musi posiadać przynajmniej 2 znaki

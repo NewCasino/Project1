@@ -1,0 +1,1 @@
+Decimaler som inte är 0 accepteras inte av TLNakit

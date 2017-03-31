@@ -1,0 +1,1 @@
+Pole Imię i nazwisko właściciela karty jest obowiązkowe.

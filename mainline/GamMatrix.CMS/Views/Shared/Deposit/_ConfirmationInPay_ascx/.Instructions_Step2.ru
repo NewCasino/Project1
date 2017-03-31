@@ -1,0 +1,1 @@
+﻿Шаг 2. Переведите <span style="font-weight: bold">{0}</span> <span style="font-weight: bold">{1}</span> на следующий счет

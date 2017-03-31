@@ -1,0 +1,1 @@
+Ditt valda användarnamn finns redan registrerat, var vänlig och välj ett nytt.

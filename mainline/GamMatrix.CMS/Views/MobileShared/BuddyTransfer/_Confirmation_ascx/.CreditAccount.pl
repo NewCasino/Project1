@@ -1,0 +1,1 @@
+﻿Przelew na konto {0} użytkownika {1}

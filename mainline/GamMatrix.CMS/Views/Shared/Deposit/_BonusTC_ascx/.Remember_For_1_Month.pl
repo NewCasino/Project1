@@ -1,0 +1,1 @@
+Pamiętaj przez 1 miesiąc

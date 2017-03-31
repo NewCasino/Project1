@@ -1,0 +1,1 @@
+﻿Betaling afgewezen. Activeer uw standaard Betalings Methode en probeer het nogmaals.

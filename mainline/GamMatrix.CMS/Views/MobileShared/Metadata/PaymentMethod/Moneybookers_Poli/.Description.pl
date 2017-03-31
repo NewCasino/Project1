@@ -1,0 +1,1 @@
+﻿Usługa POLi oferowana przez Moneybookers umożliwia dokonywanie przelewów z konta bankowego bezpośrednio na konto do gry. Nie trzeba czekać na zaksięgowanie środkó, płatność przebiega błyskawicznie.&nbsp;POLi to jeden z najlepszych operatorów płatności internetowych w Australii.

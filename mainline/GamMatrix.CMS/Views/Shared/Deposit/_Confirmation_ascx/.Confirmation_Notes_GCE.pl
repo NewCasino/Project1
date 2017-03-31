@@ -1,0 +1,1 @@
+Kiedy klikniesz przycisk Kontynuuj, zostaniesz przekierowany do strony internetowej giftcardempire.com 

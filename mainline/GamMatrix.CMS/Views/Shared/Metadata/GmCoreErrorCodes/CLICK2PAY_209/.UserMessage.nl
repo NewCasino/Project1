@@ -1,0 +1,1 @@
+﻿Risico afwijzing dankzij IP Landen check. Voor hulp kunt u contact opnemen met de klanten service op service@click2pay.com.

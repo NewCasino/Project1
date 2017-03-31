@@ -1,0 +1,1 @@
+﻿Zadejte bezpečnostní kód

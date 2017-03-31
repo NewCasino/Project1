@@ -1,0 +1,1 @@
+NETELLER er en e-wallet-tjeneste som lar NETELLER-kunder gjøre innskudd, uttak og overføringer fra deres online NETELLER-konto til deres spillkonto. Det er trygt og pengene er tilgjengelig på din spillkonto øyeblikkelig. Klikk <a href="https://www.neteller.com/home/index.jsf">her</a> for å åpne en NETELLER-konto nå.

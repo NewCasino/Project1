@@ -1,0 +1,1 @@
+﻿AGMO to główny dostawca płatności on-line w regionie Europy Środkowo-Wschodniej.

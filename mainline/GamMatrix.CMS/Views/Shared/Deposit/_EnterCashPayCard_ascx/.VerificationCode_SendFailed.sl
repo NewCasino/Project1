@@ -1,0 +1,1 @@
+Pošiljanje potrditvene kode ni uspelo; preverite svojo telefonsko številko ali poskusite znova.

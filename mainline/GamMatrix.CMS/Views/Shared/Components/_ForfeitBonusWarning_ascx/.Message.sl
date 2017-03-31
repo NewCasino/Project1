@@ -1,0 +1,1 @@
+Trenutno imate neporavnane zahtevke za bonus stavljenje. Če sredstva izplačate ali nakažete z {0} računa, boste izgubili vse bonuse oziroma dobitke.

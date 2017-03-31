@@ -1,0 +1,1 @@
+Prejeli boste e-poštno sporočilo s svojim registriranim uporabniškim imenom.

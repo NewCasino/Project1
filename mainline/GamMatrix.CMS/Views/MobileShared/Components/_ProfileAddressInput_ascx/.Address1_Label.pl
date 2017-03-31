@@ -1,0 +1,1 @@
+﻿Wiersz adresu 1

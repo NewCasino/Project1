@@ -1,0 +1,107 @@
+﻿<ol>
+	<li> <strong>Zabudol som užívateľské meno a heslo, čo mám robiť?</strong>
+		<p>
+			Skontrolujte, že nemáte zapnutú klávesu CapsLock. Pokiaľ problémy pretrvávajú, kliknite na odkaz 'Zabudnuté heslo'. Nové heslo vám zašleme na emailovú adresu uvedenú na vašom [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] účte.
+		</p>
+	</li>
+
+	<li> <strong>Koho mám kontaktovať, ak mám otázku o mojom účte?</strong>
+		<p>
+			Prosím kontaktujte [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu na
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Čo mám robiť, keď už nechcem používať svoj účet?</strong>
+		<p>
+			Pre uzatvorenie účtu kontaktujte prosím [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu na
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Ako si môžem zmeniť heslo?</strong>
+		<p>
+			Heslo si môžete zmeniť kliknutím na 
+			<a href="/ForgotPassword" target="_blank">odkaz</a>
+			Zabudnuté heslo v hornej časti všetkých [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] stránok.
+		</p>
+	</li>
+
+	<li>
+		<strong>Ako si môžem zmeniť registrovaný e-mail?</strong>
+		<p>
+			E-mail si môžete zmeniť v časti 'Môj účet' sekcia 'Zmeniť e-mail'. V prípade problémov kontaktujte prosím [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu na
+			<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">
+				[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]
+			</a>
+		</p>
+	</li>
+
+	<li>
+		<strong>Existuje spôsob, ako skontrolovať aktivitu na mojom účte?</strong>
+		<p>
+			Svoju aktivitu môžete skontrolovať po prihlásení v časti 'Môj účet' alebo pre viac informácii môžete kontaktovať [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu.
+		</p>
+	</li>
+
+	<li>
+		<strong>Môžem si zmeniť užívateľské meno?</strong>
+		<p>
+			Ľutujeme, z bezpečnostných dôvodov nie je možné zmeniť užívateľské meno.
+		</p>
+	</li>
+
+	<li>
+		<strong>S kým sa môžem poradiť, v prípade obáv ohľadne problému s mojím hraním?</strong> 
+		<p>
+			Online hranie je vzrušujúce, zábavné a potenciálne ziskové pre tých, ktorí sa rozhodnú hrať. Avšak [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] si uvedomuje, že na niektorých hráčov môže mať nepriaznivý dopad. V dôsledku toho, [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] robí všetko pre to aby zabezpečilo, že stránky budú využívať iba tí, ktorí sú na to oprávnení. Za žiadnych okolností neumožňujeme hru o reálne peniaze tým,  ktorí nedosiahli požadovaný vek 18 rokov alebo štandardný legálny vek pre účasť na hazardných hrách v krajine ich bydliska. Pre tých, ktorí majú obavy nad vlastným hraním, je tu stránka 'Zodpovedné hranie' a prípadne stránka 'Sebavylúčenia'. 
+
+		</p>
+	</li>
+
+	<li>
+		<strong>Čo sa stene po uplynutí obdobia sebavylúčenia?</strong>
+		<p>
+			Po uplynutí obdobia na ktoré ste zvolil sebavylúčenie môžete kontaktovať [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zákaznícku podporu pre otvorenie účtu.
+		</p>
+	</li>
+
+	<li>
+		<strong>Ako sa môžem vylúčiť?</strong>
+		<p>
+			Sebavylúčenie môžete zadať v časti 'Môj účet', sekcia 'Sebavylúčenie', po stlačení na Blokovať účet, budete automaticky odhlásený zo stránky [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. Opätovné prihlásenie bude možné až po uplynutí zvolené ho obdobia.
+		</p>
+	</li>
+
+	<li>
+		<strong>Môžem sebavylúčenie zrušiť?</strong>
+		<p>
+			Do doby uplynutia zvoleného obdobia sa nebudete môcť prihlásiť na váš účet.
+		</p>
+	</li>
+
+	<li>
+		<strong>Prečo nedostávam odpoveď na moje otázky zaslané na e-mail zákazníckej podpory?</strong> 
+		<p>
+			Našim cieľom je odpovedať na všetky e-maily do 24 hodín. K niektorým odpovediam je však potrebné dôkladné prešetrenie problému, preto sa čas odpovede môže odlišovať v závislosti od podstaty vášho problému. Okamžite po obdŕžaní vášho e-mailu vám zašleme potvrdzujúci e-mail, ako oznámenie, že pracujeme na vašej odpovedi. Pokiaľ toto potvrdenie nedostanete, skontrolujte prosím schránku zo spamom. [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] v žiadnom prípade neposiela nevyžiadanú poštu, ale niektoré prísne e-mailové filtre môžu naše e-maily omylom identifikovať ako spam. 
+		</p>
+	</li>
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Tlačiť</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

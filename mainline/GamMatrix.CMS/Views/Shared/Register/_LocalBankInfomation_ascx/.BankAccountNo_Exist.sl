@@ -1,0 +1,1 @@
+Številka bančnega računa je že zasedena; izberite drugo

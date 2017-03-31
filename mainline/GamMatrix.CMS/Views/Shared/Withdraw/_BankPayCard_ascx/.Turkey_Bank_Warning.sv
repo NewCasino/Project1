@@ -1,0 +1,1 @@
+Banköverföringar till ett bankkonto i Turkiet kommer endast att göras i EUR eller USD, kontrollera att din bank accepterar banköverföringar i EUR eller USD.

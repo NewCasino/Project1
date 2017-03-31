@@ -1,0 +1,1 @@
+﻿Zavříte tento popup!

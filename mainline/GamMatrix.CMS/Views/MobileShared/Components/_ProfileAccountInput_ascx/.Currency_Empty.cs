@@ -1,0 +1,1 @@
+﻿Prosím, zvolte svou měnu

@@ -1,0 +1,1 @@
+﻿<img src="https://casino.gammatrix.com/thumbnails/2/2ED119DEB7C94A18D595556429156416.jpg" />

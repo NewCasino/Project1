@@ -1,0 +1,4 @@
+﻿<p>Hei $FIRSTNAME$,</p>
+Ditt uttak er blitt avvist, vennligst sjekk din bankinformasjon og prøv igjen senere.
+<p>Hvis du har noen spørsmål kan du kontakte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Med vennlig hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

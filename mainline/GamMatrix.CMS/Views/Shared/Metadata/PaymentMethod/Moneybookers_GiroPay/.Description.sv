@@ -1,0 +1,1 @@
+﻿GiroPay via Skrill är ett enkelt, snabbt och säkert betalningssätt online, som ger dig möjlighet att använda de pengar du har tillgängliga på ditt bankkonto.&nbsp;

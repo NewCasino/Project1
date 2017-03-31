@@ -1,0 +1,1 @@
+Wybierz datę - karta ważna od.

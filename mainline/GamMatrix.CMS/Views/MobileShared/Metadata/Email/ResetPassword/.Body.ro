@@ -1,0 +1,6 @@
+﻿<p>Buna ziua $FIRSTNAME$,</p>
+<p>Multumim ca ati contactat [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)], v-am primit cererea pentru parola uitata. V rugam apasati pe linkul de mai jos pentru a schimba parola.</p>
+<p><a href="$RESETLINK$">$RESETLINK$</a></p>
+<p>Acest link este valid 24 de ore si poate fi folosit o singura data.<p>
+<p>Daca nu doriti sa va schimbati parola va rugam sa ignorati acest email.<p/>
+<p>Cu respect,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] echipa</p>

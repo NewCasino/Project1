@@ -1,0 +1,1 @@
+Pole Numer karty musi być wypełnione.

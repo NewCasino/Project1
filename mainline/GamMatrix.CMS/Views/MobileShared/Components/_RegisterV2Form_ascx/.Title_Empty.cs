@@ -1,0 +1,1 @@
+﻿Pohlaví nemůže být prázdné

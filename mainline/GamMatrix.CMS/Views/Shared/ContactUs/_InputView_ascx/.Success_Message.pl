@@ -1,0 +1,1 @@
+Wiadomość została wysłana pomyślnie. Odezwiemy się do Ciebie najszybciej jak to możliwe.

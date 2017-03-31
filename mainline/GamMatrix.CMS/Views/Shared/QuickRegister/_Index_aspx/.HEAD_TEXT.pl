@@ -1,0 +1,1 @@
+Szybka rejestracja

@@ -1,0 +1,1 @@
+﻿Vložte číslo karty

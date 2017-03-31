@@ -1,0 +1,1 @@
+Qiwi är en e-plånbok och terminalservice som erbjuder dig säkra betalningar online

@@ -1,0 +1,1 @@
+﻿Platné od

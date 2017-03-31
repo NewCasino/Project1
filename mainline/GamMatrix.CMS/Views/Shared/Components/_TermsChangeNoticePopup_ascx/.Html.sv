@@ -1,0 +1,3 @@
+﻿<p class="content"> Enligt våra skyldigheter i och med vår licens under United Kingdom Gambling Commission (UKGC), [metadata:value(/Metadata/Settings.Operator_DisplayName)] är skyldiga att informera dig att våra spleres medel hålls i betecknade konton som är helt separerade från Företaget's företagskonton. I händelsen av insolvens kommer spelares medel vara en del av Företagets tillgångar. 
+Detta möter UKGC's krav på uppdelning av spelares medel på en grundnivå. För mer information, var god se:</p>
+     <a href="http://www.gamblingcommission.gov.uk/consumers/protection_of_customer_funds.aspx">www.gamblingcommission.gov.uk</a>

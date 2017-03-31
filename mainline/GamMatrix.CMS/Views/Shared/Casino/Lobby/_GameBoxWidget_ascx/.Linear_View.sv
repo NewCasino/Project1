@@ -1,0 +1,1 @@
+Linjär vy

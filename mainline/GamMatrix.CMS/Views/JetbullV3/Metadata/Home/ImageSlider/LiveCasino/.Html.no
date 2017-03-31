@@ -1,0 +1,3 @@
+﻿<h3>Live Casino</h3>
+<p>Si hei til v&aring;re attraktive og vennlige casino-vertinner! Du kan velge og vrake mellom alle klassiske bordspill i v&aring;rt Live Casino.</p>
+<a href="/LiveCasino/" class="button" title="Live Casino Lobby ►"><span class="GoldButtonText">Live Casino Lobby&nbsp;►</span></a>

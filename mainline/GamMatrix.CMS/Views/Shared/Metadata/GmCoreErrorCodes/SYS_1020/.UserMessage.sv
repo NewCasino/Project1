@@ -1,0 +1,1 @@
+﻿Your payment card has been blocked

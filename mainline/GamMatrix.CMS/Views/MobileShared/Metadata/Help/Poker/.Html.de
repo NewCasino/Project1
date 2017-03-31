@@ -1,0 +1,25 @@
+﻿<ol>
+<li><strong>Ich habe die Software heruntergeladen - wo finde ich sie?</strong>
+<p>Wenn die [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Poker-Software erfolgreich auf Ihrem PC installiert wurde, erscheint auf Ihrem Desktop das [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Poker-Symbol. Mit einem einfachen Doppelklick auf dieses Symbol können Sie die Pokersoftware starten und gelangen direkt in unsere Spielelobby.</p>
+</li>
+
+<li><strong>Mein Passwort wird nicht angenommen. Was kann ich tun?</strong>
+<p>Bei Eingabe eines ungültigen Passworts erscheint der Hinweis ""Passwort konnte nicht bestätigt werden"". Da bei Passwörtern zwischen der Groß- und Kleinschreibung unterschieden wird, sollten Sie sicherstellen, dass die Umschalttaste nicht betätigt ist. Bleibt das Problem weiterhin bestehen, klicken Sie auf die Schaltfläche ""Passwort vergessen"" und Ihnen wird an die in Ihrem [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Konto angegebene E-Mail-Adresse ein neues Passwort geschickt.</p>
+</li>
+
+<li><strong>Kann ich meinen Benutzernamen ändern?</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Poker ermöglicht es den Spielern, ihren Spielernamen (der Name, der an den Pokertischen angezeigt wird) alle 7 Tage zu ändern. Wenn Sie dies tun möchten, gehen Sie auf ""Mein Konto"", wenn Sie in der [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]-Pokersoftware eingeloggt sind.</p>
+</li>
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

@@ -1,0 +1,1 @@
+Nie możesz się zalogować się z powodu słabego hasła. Sprawdź swoją skrzynkę odbiorczą i postępuj zgodnie z instrukcjami w celu zresetowania swojego hasła.

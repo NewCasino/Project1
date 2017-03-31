@@ -1,0 +1,1 @@
+﻿El ID de Cuenta que ha introducido no es válido o su cuenta no puede aceptar pagos.

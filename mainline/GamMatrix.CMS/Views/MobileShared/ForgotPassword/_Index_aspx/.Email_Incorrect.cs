@@ -1,0 +1,1 @@
+﻿Nesprávný formát e-mailu.

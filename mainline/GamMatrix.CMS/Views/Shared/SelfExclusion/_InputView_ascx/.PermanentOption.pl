@@ -1,0 +1,1 @@
+Nie zezwalaj mi już nigdy na logowanie.

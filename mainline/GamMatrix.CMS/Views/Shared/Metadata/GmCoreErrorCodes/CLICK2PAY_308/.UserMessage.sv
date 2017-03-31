@@ -1,0 +1,1 @@
+﻿Payment declined. Please activate your default Payment Method and try again.

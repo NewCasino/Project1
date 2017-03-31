@@ -1,0 +1,1 @@
+Utworzenie konta zajmie około [Metadata:value(/Metadata/Settings.Operator_DisplayName)] 30 sekund!

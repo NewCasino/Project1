@@ -1,0 +1,1 @@
+﻿Bulgariska lev

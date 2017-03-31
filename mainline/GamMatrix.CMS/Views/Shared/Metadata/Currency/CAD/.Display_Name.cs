@@ -1,0 +1,1 @@
+﻿Kanadský dolar

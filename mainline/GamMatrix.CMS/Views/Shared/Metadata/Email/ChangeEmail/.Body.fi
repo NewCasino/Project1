@@ -1,0 +1,7 @@
+﻿<p>Hei! $FIRSTNAME$,</p>
+<p>Olet pyytänyt muuttaa  [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] yhteydenpidossa käyttämäsi sähköpostiosoitteen.</p>
+<p>Oman turvallisuutesi vuoksi, pyydämme sinua vahvistamaan uuden yhteystiedon sähköpostitse. Voit tehdä tämän, napsauttamalla alla olevaa linkkiä:</p>
+<p><a href="$ACTIVELINK$">$ACTIVELINK$</a></p>
+<p>Jos linkki ei reagoi, kopioi ja liitä linkki suoraan selaimeen. </p>
+<p>Jos et ole pyytänyt vaihtaa sähköpostiosoitettasi, jätä tämä viesti huomiotta tai ilmoita meille osoitteessa <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Ystävällisin terveisin,  <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Asiakaspalvelu </p>

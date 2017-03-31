@@ -1,0 +1,1 @@
+Operacja została zakończona pomyślnie!

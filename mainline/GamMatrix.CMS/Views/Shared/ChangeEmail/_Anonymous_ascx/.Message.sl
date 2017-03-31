@@ -1,0 +1,1 @@
+Za spremembo e-poštnega naslova se morate prijaviti.

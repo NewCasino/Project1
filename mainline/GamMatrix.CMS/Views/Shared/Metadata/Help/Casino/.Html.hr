@@ -1,0 +1,74 @@
+﻿<ol>
+
+    <li> <strong>Kako uplatiti novčani polog na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Kasino?</strong> 
+        <p>
+            Saldo kasina odvojen je od [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] glavnog računa kako bi vam omogućili lak pregled. Sredstva je lako prenijeti između ova dva računa korištenjem opcije&nbsp;„Prijenos novca“ koja vam je uvijek dostupna na desnoj strani kasina kada se prijavite.
+        </p>
+    </li>
+
+    <li> <strong>Koliko su igre na vašoj internetskoj stranici poštene?</strong>
+        <p>
+            Uvjeravamo vas da su algoritmi korišteni za generiranje karata na našoj stranici potpuno nasumični. Naše igre razvijene su korištenjem iste funkcije Secure Random tvrtke Sun Microsystem kao i za Javu. Generator nasumičnih brojeva i miješanja dizajnirala je osoba s doktoratom iz matematike. Softver koji koristimo za nasumična dijeljenja temeljito je ispitan te ne pokazuje ni odstupanja ni predvidivost, a odobrila ga je eCOGRA.
+        </p>
+    </li>
+
+    <li>
+        <strong>Što će se dogoditi ako se igra prekine usred runde?</strong> 
+        <p>
+            Stanje svake runde igre automatski se pohranjuje u bazu podataka sustava. Time osiguravamo da se zadnje stanje igre koje je igrač vidio uvijek vraća kada se igra nastavi nakon prekida koji je uslijedio zbog greške sustava, internetske veze ili problema na strani korisnika.
+        </p>
+    </li>
+
+    <li>
+        <strong>Koliko se špilova nalazi u igri blackjack?</strong>
+        <p>U našim igrama Blackjack koristimo 4 i 6 špilova.</p>
+    </li>
+
+    <li>
+        <strong>Gdje mogu pronaći detaljne upute za vaše igre?</strong>
+        <p>
+            Svaka naša igra sadrži „pravila igre“ na posebnoj stranici.
+        </p>
+    </li>
+
+    <li>
+        <strong>Koji je prosječni omjer isplate za vašu stranicu?</strong>
+        <p>
+            Isplate variraju od igre do igre i s vremenom, međutim teoretska isplata je u rasponu od 97 %. Isplata u našim igrama je unaprijed kodirana i mi je ne prilagođavamo.
+        </p>
+    </li>
+
+    <li>
+        <strong>Mogu li besplatno isprobati igre?</strong>
+        <p>
+            Da, možete isprobati sve igre besplatno ako izaberete režim igre Igrajte za zabavu.
+        </p>
+    </li>
+
+    <li>
+        <strong>Mogu li ukloniti okladu nakon&nbsp; polaganja oklade na stol?</strong>
+        <p>
+            To možete uraditi prije nego igra počne, ali nakon početka igre ne možete promijeniti&nbsp; ili smanjiti oklade.
+        </p>
+    </li>
+
+    <li>
+        <strong>Što će se dogoditi ako izgubim internetsku vezu tijekom igre?</strong>
+        <p>
+            Kada se opet prijavite i otvorite igru, nastavljate od istog mjesta na kojem ste je i ostavili. Slotovi koji su se okretali prilikom prekida internetske veze će završiti rundu iako se internetska veza prekinula.
+        </p>
+    </li>
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

@@ -1,0 +1,1 @@
+IPS är ett förbetalt voucher-system. En säker och direkt metod för överföring av pengar till och från ditt konto.

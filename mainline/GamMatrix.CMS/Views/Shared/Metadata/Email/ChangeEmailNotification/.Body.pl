@@ -1,0 +1,3 @@
+﻿<p>Poprosiłeś o zmianę [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] swojego kontaktowego adresu e-mail. Weryfikacyjny adres e-mail został wysłany na ten nowy adres e-mail.($EMAIL$).</p>
+<p>Jeśli nie prosiłeś o zmianę swojego adresu e-mail, natychmiast poinformuj nas pod adresem <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+<p>Z poważaniem, <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] zespół działu obsługi klienta</p>

@@ -1,0 +1,1 @@
+Opazili smo, da za račun niste nastavili nobene finančne omejitve; priporočamo, da jo nastavite, tako da kliknete na to povezavo <a href="{0}">link</a>. Lahko tudi izberete, da omejitve ne želite, tako da kliknete gumb Zapri.

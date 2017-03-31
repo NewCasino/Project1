@@ -1,0 +1,1 @@
+﻿U komt niet in aanmerking om gebruik te maken van instaCASH. Geef alstublieft niet uw bankrekening informatie op.

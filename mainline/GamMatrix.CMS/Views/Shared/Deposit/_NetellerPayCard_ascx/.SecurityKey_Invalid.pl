@@ -1,0 +1,1 @@
+Twój ID bezpieczeństwa musi posiadać przynajmniej 6 znaków.

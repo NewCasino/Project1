@@ -1,0 +1,1 @@
+﻿Krevde poeng: {0}<br />Gjenværende poeng: {3}

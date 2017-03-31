@@ -1,0 +1,3 @@
+﻿Poprzednia strona
+
+

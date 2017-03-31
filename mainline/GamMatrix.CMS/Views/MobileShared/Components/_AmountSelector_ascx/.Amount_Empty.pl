@@ -1,0 +1,1 @@
+﻿Pole kwoty nie może być puste.

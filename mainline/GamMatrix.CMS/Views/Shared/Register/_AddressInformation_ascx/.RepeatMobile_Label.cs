@@ -1,0 +1,1 @@
+﻿Potvrďte mobilní číslo

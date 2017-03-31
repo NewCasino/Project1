@@ -1,0 +1,2 @@
+﻿Mostrar todas las categorías
+

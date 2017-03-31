@@ -1,0 +1,1 @@
+﻿jackpot-spel

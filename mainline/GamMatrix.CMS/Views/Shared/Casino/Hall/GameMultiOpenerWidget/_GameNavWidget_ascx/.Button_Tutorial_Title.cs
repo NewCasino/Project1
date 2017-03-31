@@ -1,0 +1,1 @@
+﻿Klikněte pro zobrazení pokynů.

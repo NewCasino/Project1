@@ -1,0 +1,2 @@
+﻿Innloggingen var mislykket. Vennligst kontroller brukernavn og passord.
+

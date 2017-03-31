@@ -1,0 +1,78 @@
+﻿<ol>
+
+	<li> <strong>Ako môžem vkladať na môj účet?</strong>
+		<p>
+			Po prihlásení sa na svoj účet kliknite na ktorékoľvek tlačidlo Vklad, následne si môžete zvoliť preferovanú metódu platby.
+		</p>
+	</li>
+
+	<li> <strong>Ako dlho trvá schválenie môjho vkladu?</strong>
+		<p>
+			U väčšiny platobných metód prebehne schválenie vkladu okamžite. V prípade bankového prevodu môže prijatie platby trvať až 7 dní, po prijatí platby pripíšeme finančné prostriedky na váš [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] účet.
+		</p>
+	</li>
+
+	<li>
+		<strong>Aké metódy vkladu máte k dispozícii?</strong>
+		<p>
+			Kliknite prosím na Vklad na ktorejkoľvek [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] stránke; pre zobrazenie dostupných platobných metód.
+		</p>
+	</li>
+
+	<li>
+		<strong>Ktoré kreditné/debetné karty akceptujete?</strong>
+		<p>
+			[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] akceptuje všetky VISA a MasterCard/Maestro kreditné a debetné karty ako metódy vkladu, avšak výbery na MasterCard/Maestro sú obmedzené.
+		</p>
+	</li>
+
+	<li>
+		<strong>Budú mi účtované poplatky za vklad na môj [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] účet?</strong> 
+		<p>
+			Neúčtujeme žiadne poplatky za vklady na váš [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] účet.
+		</p>
+	</li>
+
+	<li>
+		<strong>Aké sú minimálne/maximálne sumy, ktoré môžem naraz vložiť?</strong> 
+		<p>
+			Minimálna suma vkladu je 10 € alebo ekvivalent vo vašej mene a maximálna suma, ktorú môžete vložiť za deň je 5.000 € alebo ekvivalent vo vašej mene.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Existuje spôsob akým môžem nastaviť denný, týždenný alebo mesačný limit vkladu?
+		</strong>
+		<p>
+			Môžete nastaviť denný, týždenný a mesačný limit vkladu. Tieto limity môžete nastaviť v časti ‘Môj účet’ sekcia ’Zodpovedné hranie - Limit vkladu’. Limity môžu byť kedykoľvek upravené v tej istej sekcii.
+		</p>
+	</li>
+
+	<li>
+		<strong>Ako prevediem vklad z môjho bankového účtu?</strong>
+		<p>
+			Kliknite na ‘Vklad‘ a zvoľte bankový prevod. Túto možnosť môžete aktivovať kliknutím na ‘Vklad‘. Následne postupujte podľa inštrukcií zobrazených na obrazovke.
+		</p>
+	</li>
+
+	<li>
+		<strong>
+			Existuje týždenný limit vkladu na účet kreditnou kartou?
+		</strong>
+		<p>Maximálna suma ktorú môžete vložiť za deň je 5.000 €.</p>
+	</li>
+
+</ol>
+
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Tlačiť</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>

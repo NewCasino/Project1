@@ -1,0 +1,1 @@
+﻿No se permite un periodo de auto exclusión de siete días más de {0} veces

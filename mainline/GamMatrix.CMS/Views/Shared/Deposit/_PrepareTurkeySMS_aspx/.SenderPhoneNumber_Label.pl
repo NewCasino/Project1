@@ -1,0 +1,1 @@
+Numer telefonu nadawcy.

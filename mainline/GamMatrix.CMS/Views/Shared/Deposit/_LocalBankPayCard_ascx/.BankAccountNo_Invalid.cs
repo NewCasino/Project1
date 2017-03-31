@@ -1,0 +1,1 @@
+﻿Neplatné číslo bankovního účtu

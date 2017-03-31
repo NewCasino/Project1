@@ -1,0 +1,1 @@
+﻿EggOMatic™ is a new Platinum game from Net Entertainment. It is a 5-reel, 20-payline video slot with Wild substitutions, Free Spins and prize eggs.A Spreading Wild Egg, Free Spins Egg, Coin Win Egg and a Surprise Egg, EggOMatic™ gives players an eggstraordinary eggsperience on the reels.

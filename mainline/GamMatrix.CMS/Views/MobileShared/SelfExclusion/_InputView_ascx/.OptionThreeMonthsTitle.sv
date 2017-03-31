@@ -1,0 +1,1 @@
+En 30 dagars självutslutningsperiod

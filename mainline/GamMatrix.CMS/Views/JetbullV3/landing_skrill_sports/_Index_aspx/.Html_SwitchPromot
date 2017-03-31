@@ -1,0 +1,17 @@
+﻿<div id="switch-promot" class="promot-box" style="display: none"><span class="switch-promot-text">Hello
+ mobile user, we have a site optimised for mobile devices, would you 
+like to improve your browsing experience and switch to our mobile site?</span><span class="switch-promot-options"><button class="button" id="switch-promot-btnYes" onclick="this.blur();">
+<span class="button_Right">
+    <span class="button_Left">
+        <span class="button_Center">
+            <span>Yes please</span>
+        </span>
+    </span>
+</span></button><button class="button" id="switch-promot-btnDonotRemind" onclick="this.blur();">
+<span class="button_Right">
+    <span class="button_Left">
+        <span class="button_Center">
+            <span>No thank you</span>
+        </span>
+    </span>
+</span></button></span><a href="#" id="switch-promot-btnClose"><img src="//cdn.everymatrix.com/JetbullV2/landing_skrill_files/close.png" alt="" border="0" /></a></div>

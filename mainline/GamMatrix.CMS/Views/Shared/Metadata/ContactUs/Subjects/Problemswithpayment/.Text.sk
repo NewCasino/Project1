@@ -1,0 +1,1 @@
+﻿Problémy s platbou

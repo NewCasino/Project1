@@ -1,0 +1,6 @@
+﻿<a href="/AboutUs" target="_top">Om [Metadata:value(/Metadata/Settings.Operator_DisplayName)]</a> |
+<a href="/ResponsibleGaming" target="_top">Ansvarlig spilling</a> |
+<a href="/TermsConditions" target="_top">Regler og betingelser</a> |
+<a href="/ContactUs" target="_top">Kontakt oss</a> |
+<a href="/Affiliates/Home" target="_top">Partnere</a>
+

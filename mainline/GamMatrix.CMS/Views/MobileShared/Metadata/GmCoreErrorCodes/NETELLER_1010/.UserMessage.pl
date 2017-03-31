@@ -1,0 +1,1 @@
+﻿Proszę zarejestrować się na swoim koncie NETELLER, aby potwierdzić aktualne saldo. W przypadku pytań należy zadzwonić do Działu Obsługi Klienta NETELLER.

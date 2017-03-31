@@ -1,0 +1,1 @@
+﻿Su nombre de usuario contiene caracteres ilegales

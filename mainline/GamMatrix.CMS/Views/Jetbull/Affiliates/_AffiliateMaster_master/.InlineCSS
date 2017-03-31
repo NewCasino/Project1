@@ -1,0 +1,3 @@
+﻿@import url("/App_Themes/JetbullRD/affiliate.css");
+
+#footer{display:none;}

@@ -1,0 +1,1 @@
+﻿Pomocí níže uvedeného menu můžete vybrat, kolik můžete prohrát za den, týden či měsíc. Jakmile nastavíte limit, obdržíte potvrzující email. Můžete si snížit limit pomocí tohoto menu. Nicméně pokud chcete změnit či zrušit limit, existuje 7 denní čekací lhůta, která vám umožní zvážit svá rozhodnutí. Vemte na vědomí, že tento limit se vztahuje pouze na hry v Kasinu.

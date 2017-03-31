@@ -1,0 +1,1 @@
+﻿Por favor tenga en cuenta que el pago sólo puede realizarse después de que le haya llamado uno de nuestros agentes del Centro de Atención al Cliente. La validación mediante llamada normalmente se realiza un poco después del registro.

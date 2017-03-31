@@ -1,0 +1,1 @@
+Knjiženje v breme ni uspelo

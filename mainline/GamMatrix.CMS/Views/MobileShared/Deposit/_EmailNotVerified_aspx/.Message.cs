@@ -1,0 +1,2 @@
+﻿Váš účet není aktivní, nemůžete proto zatím provádět vklady. Na adresu použitou při registraci byl odeslán aktivační e-mail. Pro aktivaci účtu prosím klikněte v e-mailu uvedený odkaz. Pokud jste aktivační e-mail neobrdželi, obraťte se prosím na adresu 
+<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.

@@ -1,0 +1,1 @@
+Kortnummer kan ikke stå tomt.

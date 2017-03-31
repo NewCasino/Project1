@@ -1,0 +1,3 @@
+﻿<p class="content"> I henhold til lisensforpliktelsene underlagt United Kingdom Gambling Commission (UKGC), [metadata:value(/Metadata/Settings.Operator_DisplayName)] er vi forpliktet til å informere deg om at spillermidler oppbevares på bestemte kontoer som er separate fra selskapets driftskontoer.
+Skulle det oppstå tilfeller med manglende betalingsevne, blir spillermidlene del av selskapets aktiva. Dette oppfyller UKGCs krav om atskilte spillermidler på et grunnleggende nivå. Hvis du vil ha mer informasjon, kan du se:</p>
+     <a href="http://www.gamblingcommission.gov.uk/consumers/protection_of_customer_funds.aspx">www.gamblingcommission.gov.uk</a>

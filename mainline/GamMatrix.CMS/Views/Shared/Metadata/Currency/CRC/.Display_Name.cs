@@ -1,0 +1,1 @@
+﻿Kostariský colon

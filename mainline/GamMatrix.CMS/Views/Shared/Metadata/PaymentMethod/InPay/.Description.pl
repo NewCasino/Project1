@@ -1,0 +1,2 @@
+Przelew bankowy w serwisie Inpay oferuje zlokalizowaną usługę bankową w różnych krajach, obsługiwaną przez Inpay. Umożliwia przelewanie środków na Twoje konto po stawkach niższych niż za regularne międzynarodowe przelewy bankowe, często za darmo i zawsze bezpiecznie.<br />
+Przelewy są wykonywane na lokalne konto bankowe i bardzo szybko zasilają Twoje konto gracza. Zależnie od kraju i systemu księgowania lokalnego banku, niektórych przelewów można dokonywać niemal w czasie rzeczywistym. Jednakże niektóre przelewy mogą potrwać od 1 do 3 dni roboczych.

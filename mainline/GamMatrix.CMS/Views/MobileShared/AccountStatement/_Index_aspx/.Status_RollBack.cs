@@ -1,0 +1,1 @@
+﻿Opakované zpracování

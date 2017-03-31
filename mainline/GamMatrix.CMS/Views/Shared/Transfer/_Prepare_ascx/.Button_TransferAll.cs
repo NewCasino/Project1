@@ -1,0 +1,1 @@
+﻿Přecod všeho

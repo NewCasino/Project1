@@ -1,0 +1,1 @@
+﻿Självexkludera permanent

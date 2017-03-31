@@ -1,0 +1,5 @@
+﻿<p>Olá $FIRSTNAME$,</p>
+<p>Seu depósito foi concluída com êxito.</p>
+<p><span style="font-size: medium;"><strong style="color: #ff3366;">Por favor, clique no botão (não o botão de atualização do navegador web) "Refresh" no cabeçalho da página para recarregar a saldo.</strong></span></p>
+<p>Se você tem alguma dúvida não hesite em contatar <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Atenciosamente,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] time</p>

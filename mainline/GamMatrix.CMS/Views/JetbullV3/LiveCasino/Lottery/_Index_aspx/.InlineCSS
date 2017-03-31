@@ -1,0 +1,9 @@
+﻿.TablesHeader .TablesTitle{display:none}
+.SearchFilterForm{display:none}
+.GamesCategoriesWrap{display:none}
+.TablesList li.GLItem{display:none; width:31.85em}
+.LiveCasinoHall .GameThumb{width:31.85em; height:17.3333em}
+.GLVendorFilter .GFilterItem{display:none}
+.TablesHeader .GFL5{ width:14.3em;}
+.casino_venders .livecasino, .casino_venders .casino{ width:49%}
+.LiveCasinoHall .PopupContent{width:32em}

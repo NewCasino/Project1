@@ -1,0 +1,1 @@
+Promocijska koda je potekla.

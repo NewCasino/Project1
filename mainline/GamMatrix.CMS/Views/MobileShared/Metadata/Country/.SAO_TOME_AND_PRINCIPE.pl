@@ -1,0 +1,1 @@
+﻿Wyspy Świętego Tomasza i Książęcej

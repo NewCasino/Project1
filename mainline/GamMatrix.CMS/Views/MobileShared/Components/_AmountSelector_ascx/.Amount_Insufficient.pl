@@ -1,0 +1,1 @@
+﻿Niewystarczające środki.

@@ -1,0 +1,1 @@
+﻿Wystąpił błąd techniczny. Niepoprawny identyfikator produktu. Prosimy o kontakt z działem obsługi klienta sprzedawcy.

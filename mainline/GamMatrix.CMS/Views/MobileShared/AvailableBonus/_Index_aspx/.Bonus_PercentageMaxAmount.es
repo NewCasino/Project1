@@ -1,0 +1,2 @@
+﻿Porcentaje Máx. Cantidad  
+

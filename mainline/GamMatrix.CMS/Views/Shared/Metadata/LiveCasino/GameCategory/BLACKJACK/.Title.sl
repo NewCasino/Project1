@@ -1,0 +1,1 @@
+Igrajte BlackJack v ŽIVO zdaj!

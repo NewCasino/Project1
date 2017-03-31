@@ -1,0 +1,1 @@
+Vzdevek ni na voljo ali ga že uporablja druga oseba; poskusite uporabiti drug vzdevek.

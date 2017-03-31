@@ -1,0 +1,17 @@
+﻿<ol>
+  <li><strong>Hvor finner jeg informasjon om hvilke kampanjer som gjelder?</strong>
+    <p>Du kan se alle gjeldende tilbud ved å klikke på [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kategorien Kampanjer.</p>
+  </li>
+  <li><strong>Kan jeg spille alle nettspillene når jeg får en bonus, eller er det begrensninger på hvilke spill jeg kan spille?</strong>
+    <p>Les vilkår og betingelser for bonusen. Er du i tvil, kan du ta kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundestøtte.</p>
+  </li>
+  <li><strong>Hvordan kontrollerer jeg at jeg oppfyller kravene for en kampanje?</strong>
+    <p>Du kan kontrollere fremgangen din ved å klikke på Min konto, deretter på Min sportskonto til venstre og til sist på Aktive kampanjer.</p>
+  </li>
+  <li><strong>I hvilke tilfeller kan jeg bli nektet å delta i en kampanje?</strong>
+    <p>Noen av kampanjene våre gjelder bare for personer fra bestemte land eller kunder som bruker bestemte betalingsløsninger. Det kan også være begrensninger for tilknyttede kontoer og misbruk av [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kampanjer. Hvis du trenger hjelp, kan du ta kontakt med [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] kundestøtte på <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]" target="_blank">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a></p>
+  </li>
+</ol>
+<p style="text-align:right">
+  <button type="button" onclick="window.print(); return false" class="button"> <span class="button_Right"> <span class="button_Left"> <span class="button_Center"> <span>Skriv ut</span> </span> </span> </span> </button>
+</p>

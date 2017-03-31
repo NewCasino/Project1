@@ -1,0 +1,1 @@
+﻿Validation kod måste vara 6 tecken

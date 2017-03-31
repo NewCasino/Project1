@@ -1,0 +1,2 @@
+﻿В настоящий момент вы не можете изменить ваш email адрес так как ваш аккаунт неактивен. Код с активацией будет выслан на ваш email который вы ввели при регистрации. Пожалуйста, перейдите по ссылке в письме, чтобы активировать ваш аккаунт. Если вы не получили письмо, свяжитесь с нами <a href="mailto:[Metadata:value(/Metadata/Settings.Email_SupportAddress)]">[Metadata:value(/Metadata/Settings.Email_SupportAddress)]</a>.
+

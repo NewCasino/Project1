@@ -1,0 +1,1 @@
+﻿PayCard har ventende uttak, og kan ikke deaktiveres eller blokkeres

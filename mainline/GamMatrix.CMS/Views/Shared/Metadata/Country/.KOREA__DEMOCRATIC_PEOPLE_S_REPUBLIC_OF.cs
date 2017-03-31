@@ -1,0 +1,1 @@
+﻿Severní Korea (lidová republika Korea)

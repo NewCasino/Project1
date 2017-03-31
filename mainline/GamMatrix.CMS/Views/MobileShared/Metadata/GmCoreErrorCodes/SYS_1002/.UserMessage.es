@@ -1,0 +1,1 @@
+﻿El número de cuenta no es válido

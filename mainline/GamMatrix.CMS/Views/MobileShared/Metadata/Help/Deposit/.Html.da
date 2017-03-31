@@ -1,0 +1,67 @@
+﻿<ol>
+        
+<li><strong>Hvordan kan jeg indskyde penge på min spillekonto?</strong>
+<p>Klik på "min konto" eller "indskyd" knappen. Herefter kan du vælge din foretrukne betalingsmetode.<p>
+</li>
+
+
+<li><strong>Hvor lang tid tager det for mit indskud at blive godkendt?</strong>
+<p>De fleste betalingsløsninger sikrer, at dit indskud bliver synligt på din spillekonto øjeblikkeligt. Hvis almindelige bankoverførsler bliver benyttet, så kan det dog i visse tilfælde tage op til 7 dage, før et indskud er modtaget af os. Med det samme vi modtager dette, vil pengene blive krediteret din [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] konto.<p>
+</li>
+
+
+
+<li><strong>Hvilke betalingsløsninger kan man indskyde penge med?</strong>
+<p>Klik venligst på Betalingsløsninger i top menuen på enhver [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] side for at se alle de tilgængelige betalingsløsninger.<p>
+</li>
+
+
+
+<li><strong>Hvilke credit/debit kort accepterer i?</strong>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] accepterer alle Visa og Mastercard/maestro Credit of Debit kort, men der kan være restriktioner på udtræk til Mastercard/Maestro<p>
+</li>
+
+
+
+<li><strong>Vil jeg blive påkrævet nogle gebyrer, når jeg sætter penge ind på min [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] konto?</strong>
+<p>Der kan være gebyrer forbundet med indsættelsen af penge. Alle gebyrer kan ses på listen over vores accepterede betalingsløsninger.<p>
+</li>
+
+
+
+<li><strong>Er der nogle minimum/maksimum beløb som jeg kan indskyde af gangen?</strong>
+<p>Minimum indskuddet er på 100 kr. og maksimum indskuddet er 50.000 kr. per dag.<p>
+</li>
+
+
+
+<li><strong>Er der nogen måde, hvorpå jeg kan opsætte daglige, ugentlige eller månedlige indskudsgrænser?</strong>
+<p>Ja, du er i stand til at opsætte daglige, ugentlige eller månedlige indskudsgrænser. Disse kan opsættes under "Min Konto" under "ansvarligt spil - Indskudsgrænse". Disse grænser kan justeres løbende efter behov under samme sektion.<p>
+</li>
+
+
+
+<li><strong>Hvordan kan jeg foretage et indskud fra min bankkonto?</strong>
+<p>Klik venligst "Indskyd Penge" under "Min Konto" og vælg bankoverførsel. Du kan aktivere denne mulighed ved at klikke "indskyd". Følg derefter instruktionerne på skærmen.<p>
+</li>
+
+
+
+<li><strong>Er der en grænse for, hvor meget jeg kan indskyde på min konto via kredit kort?</strong>
+<p>Det maksimale beløb du kan indskyde på en dag er 50.000 kr.<p>
+</li>
+
+
+</ol>
+
+<p style="text-align:right">
+    <button type="button" onclick="window.print(); return false" class="button">
+        <span class="button_Right">
+            <span class="button_Left">
+                <span class="button_Center">
+                    <span>Print</span>
+                </span>
+            </span>
+        </span>
+    </button>
+</p>

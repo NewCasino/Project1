@@ -1,0 +1,40 @@
+﻿<# 
+    var game = arguments[0]; 
+    var formatStr = function(str, name){
+        if (name == null) return "";
+        return str.replace( "{0}", name).htmlEncode();
+    };
+#>
+
+<a class="Close" href="#" title="[Metadata:htmlencode(.Close_Title)]">
+<span class="CloseText">[Metadata:htmlencode(.Close)]</span>
+</a>
+<div class="PopupAdditional">
+    <div class="PAWrapper">
+    <h3 class="AdditionalTitle">[Metadata:scriptencode(.Variants)]</h3>
+    <ol class="GameVariants">
+        <# for( var i = 0; i < game.C.length; i++) { #>
+        <li class="GVItem">
+            <a class="Button AltButton GVLink" href="/Casino/Game/Info/<#= game.C[i].S #>" data-gindex="<#=i #>" data-gameid="<#= game.C[i].S #>"
+                title="<#= formatStr('[Metadata:scriptencode(.Link_PlayNow_Title)]', game.C[i].G) #>" data-gameid="<#= game.ID #>">
+                <span class="ButtonText"><#= game.C[i].A.htmlEncode() #><span class="ActionSymbol">&#9658;</span></span>
+            </a>
+        </li>
+        <# } #>
+    </ol>
+    <!--
+    <h3 class="AdditionalTitle">Tournaments:</h3>
+    <ol class="GameVariants GVTournaments">
+        <li class="GVItem">
+            <a class="Button AltButton GVLink" href="#" title="Go to this tournament's page">
+                <span class="ButtonText">#31: Daily Champion <span class="ActionSymbol">&#9658;</span></span>
+            </a>
+        </li>
+        <li class="GVItem">
+            <a class="Button AltButton GVLink" href="#" title="Play Abra Cadabra - 5 Hand now!">
+                <span class="ButtonText">#50: SuperBonus Day <span class="ActionSymbol">&#9658;</span></span>
+            </a>
+        </li>
+    </ol>
+    -->
+</div>

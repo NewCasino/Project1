@@ -1,0 +1,1 @@
+Št. bančnega računa

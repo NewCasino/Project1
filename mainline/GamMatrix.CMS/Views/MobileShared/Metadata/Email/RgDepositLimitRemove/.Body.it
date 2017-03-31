@@ -1,0 +1,15 @@
+﻿<p>Caro $USERNAME$,<br />
+</p>
+<br />
+grazie per aver contattato [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]<br />
+<br />Questa è una e-mail di conferma della rimozione del tuo limite di deposito 
+&#160;limit $LIMITAMOUNT$ $LIMITPERIOD$ il $LIMITEXPIRYDATE$. <br />
+<br />Per qualunque richiesta non esitare a contattarci al <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&#160;</p>
+<p><br />
+Cordiali saluti</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Il team dell'assistenza clienti</p>
+
+
+
+

@@ -1,0 +1,5 @@
+﻿<p>Bonjour $FIRSTNAME$,</p>
+<p>Votre retrait a été restauré le &lsquo;$TXCOMPLETEDDATE$" ; les fonds ont été retourné sur votre compte de jeu. Veuillez contacter notre service clientèle si vous avez besoin de la moindre assistance au sujet de cette transaction. </p>
+Transaction ID: $TXID$Transaction Date: $TXCREATEDDATE$ Montant: $TXAMOUNT$ $TXCURRENCY$.
+<p>Cordialement, Service Clientèle <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] </p>
+

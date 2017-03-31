@@ -1,0 +1,1 @@
+Pengar överförs direkt till dit EcoCard kort

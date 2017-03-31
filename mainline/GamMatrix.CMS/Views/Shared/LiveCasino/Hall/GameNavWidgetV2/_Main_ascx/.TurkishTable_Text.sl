@@ -1,0 +1,1 @@
+Prikaži turške mize

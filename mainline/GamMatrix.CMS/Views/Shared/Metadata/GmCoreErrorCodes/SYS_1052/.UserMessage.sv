@@ -1,0 +1,1 @@
+﻿Transaction could not be initiated due to connection problems.If the problem persists, please contact our support.

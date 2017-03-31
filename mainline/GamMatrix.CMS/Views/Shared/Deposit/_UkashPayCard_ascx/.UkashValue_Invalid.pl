@@ -1,0 +1,1 @@
+Nieprawidłowa wartość Ukash.

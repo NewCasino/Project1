@@ -1,0 +1,1 @@
+Ta transakcija je bila uspešno obdelana.

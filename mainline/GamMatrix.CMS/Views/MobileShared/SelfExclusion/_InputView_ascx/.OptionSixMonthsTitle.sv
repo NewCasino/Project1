@@ -1,0 +1,1 @@
+En 3 månaders självutslutningsperid

@@ -1,0 +1,82 @@
+﻿<ol>
+
+	<li> <strong>Quais são os máximos e mínimos de aposta?</strong>
+		<p>
+			As apostas máximas variam de acordo com o evento. Se tentar apostar mais do que o limite máximo receberá uma mensagem a informar acerca da aposta máxima permitida na secção em causa. Não temos limitações em termos de mínimos de aposta. 
+		</p>
+	</li>
+
+	<li> <strong>O que são apostas simples e apostas múltiplas?</strong>
+		<p>
+			A aposta simples envolve apenas uma secção e uma aposta múltipla requer mais do que uma secção.  Quanto mais secções interligar em valor múltiplo (ex: todas as equipas a jogar em casa na Premier League), maiores serão as possibilidades de ganhar!
+		</p>
+	</li>
+
+	<li>
+		<strong>Quantas secções podem conter uma aposta múltipla?</strong>
+		<p>
+			O número máximo de secções que permitimos numa aposta múltipla é de 10.
+		</p>
+	</li>
+
+	<li>
+		<strong>Como funciona o handycap?</strong>
+		<p>
+			Para informação detalhada acerca do handicap (1x2 com Handicap e Handicaps Asiáticos), visite a expansão de apostas desportivas.
+		</p>
+	</li>
+
+	<li>
+		<strong>O que acontece se um jogo é alterado? </strong>
+		<p>
+			Veja as regras da secção desportiva. Alguns desportos requerem apostas no dia do jogo e em alguns desportos a aposta poderá ficar aberta até que o jogo seja oficialmente terminado.		</p>
+	</li>
+
+	<li>
+		<strong>Porque é que o meu retiro de dinheiro ainda não foi pago?</strong>
+		<p>
+			A [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] exige que os resultados oficiais sejam anunciados. Por vezes algumas fontes online tais como live scores, poderão estar incorretos e os pagamentos poderão ser adiados até que os resultados sejam confirmados. 
+		</p>
+	</li>
+
+	<li>
+		<strong>Mudei de ideia, posso cancelar a minha aposta?</strong>
+		<p>
+			Não, uma vez confirmada a sua aposta, será aceite pelo servidor e não poderá ser cancelada. 
+		</p>
+	</li>
+
+	<li>
+		<strong>Onde posso encontrar os resultados das minhas apostas?</strong>
+		<p>
+			O historial de apostas e transações poderá ser consultado em "Minha Conta de Apostas", após iniciar a sessão na [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)].
+		</p>
+	</li>
+
+	<li>
+		<strong>Porque é que os ganhos são calculados de forma diferente em Odds do Reino Unido?</strong>
+		<p>
+			Quando calculamos os ganhos, usamos as odds decimais (EU) porque são mais exatas.  As Odds do Reino Unido e EUA são apenas para visualização e algumas odds decimais não poderão ser lidas em fração simples.  .
+		</p>
+	</li>
+
+	<li>
+		<strong>As apostas estão a tornar-se viciantes, o que posso fazer?</strong>
+		<p>
+			Apostar com a [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] deverá ser uma atividade agradável e divertida para toda a gente, mas para uma mínoria de pessoas pode-se tornar viciante, causando problemas. A informação relativa a problemas com o jogo pode ser encontrada na secção do Jogo Responsável. 
+		</p>
+	</li>
+
+</ol>
+<p style="text-align:right">
+	<button type="button" onclick="window.print(); return false" class="button">
+		<span class="button_Right">
+			<span class="button_Left">
+				<span class="button_Center">
+					<span>Print</span>
+				</span>
+			</span>
+		</span>
+	</button>
+</p>
+

@@ -1,0 +1,1 @@
+Teoretyczna wypłata

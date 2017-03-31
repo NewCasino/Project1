@@ -1,0 +1,3 @@
+﻿<h3><p style="font-size:25pt;line-height:25pt;">&euro;35 еженедельный релоад бонус</p></h3>
+<p>Мы все знаем, что больше денег - это больше развлечений, поэтому каждую неделю Вы можете воспользоваться нашим 50% бонусом на депозит в размере до  &euro;35. Не упустите свою возможность!</p>
+<a title="Узнать подробности" class="button" href="/Promotions/TermsConditions/casino/casinoweeklyreload"> <span class="GoldButtonText">Узнать подробности <span>►</span></span> </a>

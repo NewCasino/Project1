@@ -1,0 +1,1 @@
+﻿žádná banka k dispozici

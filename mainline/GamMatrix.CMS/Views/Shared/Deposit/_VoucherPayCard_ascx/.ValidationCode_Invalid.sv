@@ -1,0 +1,1 @@
+Valideringskoden består av 6 siffror.

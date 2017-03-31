@@ -1,0 +1,1 @@
+Kliknij, aby wyświetlić samouczek.

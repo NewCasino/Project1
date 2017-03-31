@@ -1,0 +1,1 @@
+Din hämtning av poäng lyckades.

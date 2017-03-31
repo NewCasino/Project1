@@ -1,0 +1,1 @@
+Polog {0} za {1} bonus!

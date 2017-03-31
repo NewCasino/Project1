@@ -1,0 +1,1 @@
+﻿Väljer du aktivera permanent självexkludering, kan du göra det genom att kontakta vår support på [Metadata:value(/Metadata/Settings.Email_SupportAddress)] och ange anledningen till detta. Du kommer att bli självexkluderat direkt. 

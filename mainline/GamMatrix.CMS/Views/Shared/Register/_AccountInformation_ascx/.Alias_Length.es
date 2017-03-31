@@ -1,0 +1,1 @@
+﻿Su alias debe tener entre 5 y 12 caracteres

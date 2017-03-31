@@ -1,0 +1,1 @@
+﻿Er is een technische fout opgetreden. Ongeldige valuta. Neem contact op met de handelaars klanten service.

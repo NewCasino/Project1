@@ -1,0 +1,1 @@
+Pomyślnie odebrałeś punkty.

@@ -1,0 +1,1 @@
+Neveljavna št. bančnega računa

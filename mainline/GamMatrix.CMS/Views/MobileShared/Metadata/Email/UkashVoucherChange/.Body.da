@@ -1,0 +1,9 @@
+﻿<p>Hej $FIRSTNAME$,</p>
+<p>Du har brugt en del af din Ukash rabatkupon værdi og nedenunder er din nye Ukash rabatkupon detaljer.</p>
+<ul>
+<li><strong>Ukash rabatkupon nummer</strong>:$VOUCHERNUMBER$</li>
+<li><strong>Ukash rabatkupon beløb</strong>:$VOUCHERAMOUNT$</li>
+<li><strong>Ukash rabatkupon bruges inden dato</strong>:$VOUCHEREXPIRYDATE$</li>
+</ul>
+<p>Hvis du har spørgsmål angående rabatkupon bedes du kontakte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Hilsen,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team</p>

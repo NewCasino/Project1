@@ -1,0 +1,1 @@
+Affiliate-markören kommer att trunkeras eftersom dess längd överstiger gränsen.

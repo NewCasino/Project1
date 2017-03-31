@@ -1,0 +1,1 @@
+﻿Recibirá un correo electrónico con más instrucciones sobre cómo cambiar su contraseña.

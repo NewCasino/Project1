@@ -1,0 +1,1 @@
+﻿La transacción se ha realizado con éxito.

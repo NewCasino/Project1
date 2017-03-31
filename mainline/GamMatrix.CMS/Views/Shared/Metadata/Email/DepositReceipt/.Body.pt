@@ -1,0 +1,11 @@
+﻿<p>Olá $FIRSTNAME$,</p>
+<p>Este email automático é um recibo para o seu depósito que foi processado em proveito de [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)]. A EveryMatrix é a operadora de pagamento de;[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] website, vai aparecer EveryMatrix no seu extrato bancário ou no extrato do seu cartão de crédito. Os seus detalhes da transação são como aparecem abaixo.</p>
+<ul>
+<li><strong> ID Transação</strong>:$TRANSACTION_ID$</li>
+<li><strong> Data e Hora</strong>:$TRANSACTION_TIME$</li>
+<li><strong>Website</strong>: $TRANSACTION_SITE$ </li>
+<li><strong>Recibo</strong>: O print do recibo segue em anexo.</li>
+</ul>
+<p> Se tiver alguma questão relacionada com este depósito, por favor contacte <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a> referindo o número de ID da transação.</p>
+<p>Cumprimentos,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] a equipa</p>
+<p>$SCREENSHOT$</p>

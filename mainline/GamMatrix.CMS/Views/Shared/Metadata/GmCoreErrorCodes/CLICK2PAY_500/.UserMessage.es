@@ -1,0 +1,1 @@
+﻿Ganancia rechazada - no hay ID de referencia.

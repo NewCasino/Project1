@@ -1,0 +1,1 @@
+﻿Filtrar juegos por proveedor.

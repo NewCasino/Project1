@@ -1,0 +1,1 @@
+Obdelava knjiženja v breme

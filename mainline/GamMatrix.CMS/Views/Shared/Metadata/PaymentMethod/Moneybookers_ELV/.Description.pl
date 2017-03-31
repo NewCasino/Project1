@@ -1,0 +1,1 @@
+﻿ELV umożliwia dokonywanie szybkich płatności z konta bankowego na Twoje konto gracza za pomocą bramki Skrill. Odbywa się to w szybki i bezpieczny sposób.

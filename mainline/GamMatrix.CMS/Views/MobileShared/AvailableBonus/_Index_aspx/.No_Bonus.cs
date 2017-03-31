@@ -1,0 +1,1 @@
+﻿Momentálně žádný aktivní bonus

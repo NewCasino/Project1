@@ -1,0 +1,1 @@
+schweizisk Franc

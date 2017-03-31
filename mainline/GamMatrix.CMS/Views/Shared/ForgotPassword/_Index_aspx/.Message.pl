@@ -1,0 +1,1 @@
+Wpisz swój adres e-mail, a otrzymasz wiadomość e-mail zawierającą instrukcje, jak odzyskać hasło.

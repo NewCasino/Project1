@@ -1,0 +1,65 @@
+﻿<div class="sitemap_items">
+  <div class="root_title">[Metadata:value(/Metadata/Settings.Operator_DisplayName)]</div>
+  <ul class="items">
+    <li><a href="/">Anasayfa</a></li>
+    <li><a href="/help">Yardım</a></li>
+    <li> <a href="/customersupport">Müşteri Hizmetleri</a></li>
+    <li> <a href="/deposit">Ödeme Yöntemleri&nbsp;</a></li>
+    <li> <a href="/ForgotPassword">Unutulmuş Parola</a></li>
+    <li> <a href="/register">Şimdi Kayıt ol</a></li> 
+    <li> <a href="#top">Giriş</a></li>
+    <li> <a href="/Sports/Home">Sporlar</a></li>
+    <li> <a href="/Casino/Lobby">Casino</a></li>
+    <li> <a href="/Poker/">Poker</a></li>
+    <li> <a href="/Bingo/">Bingo</a></li>
+    <li> <a href="/Promotions/Home">Promosyonlar</a></li>
+    <li> <a href="/AboutUs">Hakkımızda</a></li>
+    <li> <a href="/ResponsibleGaming">Sorumlu Kumarcılık</a></li>
+    <li> <a href="/TermsConditions">Şartlar ve Koşullar</a></li>
+    <li> <a href="/Sitemap">Site Haritası</a></li>
+    <li> <a href="/Affiliate/Home">Affiliates</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Sporlar</div>
+  <ul class="items">
+    <li> <a href="/help/Sports">SSS</a></li>
+    <li> <a href="/Promotions/home/sportsbook">Promosyonlar&nbsp;</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Casino</div>
+  <ul class="items">
+    <li> <a href="/help/Casino">SSS</a></li>
+    <li> <a href="/Promotions/home/casino">Promosyonlar</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Poker</div>
+  <ul class="items">
+    <li> <a href="#">Uygulamayı İndir</a></li>
+    <li> <a href="/Poker/Tournaments/CAKEPoker">Turnuvalar</a></li>
+    <li> <a href="/PokerSchool">Poker Okulu</a></li>
+    <li> <a href="/help/Poker">SSS</a></li>
+    <li> <a href="/Promotions/TermsConditions/poker/LoyaltyLevels">Sadakât Seviyeleri</a></li>
+    <li> <a href="/Promotions/home/Poker">Promosyonlar</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Promosyonlar</div>
+  <ul class="items">
+    <li> <a href="/Promotions/Home/">En iyi Promosyonlar</a></li>
+    <li> <a href="/Promotions/home/sportsbook">Sportlar</a></li>
+    <li> <a href="/Promotions/home/casino">Casino</a></li>
+    <li> <a href="/Promotions/home/Poker">Poker</a></li>
+  </ul>
+</div>
+<div class="sitemap_items">
+  <div class="root_title">Affiliates</div>
+  <ul class="items">
+    <li> <a href="/Affiliate/home">Giriş</a></li>
+    <li> <a href="#">Parolanızı mı unuttunuz?</a></li>
+    <li> <a href="#">Şimdi Kayıt ol</a></li>
+  </ul>
+</div>
+

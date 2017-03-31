@@ -1,0 +1,1 @@
+Napačna oblika zapisa e-poštnega naslova.

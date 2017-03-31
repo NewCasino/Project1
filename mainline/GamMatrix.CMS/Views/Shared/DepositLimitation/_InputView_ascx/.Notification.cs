@@ -1,0 +1,1 @@
+﻿Berte na vědomí, že limitz odpovídají kalendářním týdnům a měsícům. Nastavený vkladový limit bude zresetován na začátku každého týdne a nebo měsíce. Např. pokud nastavíte měsíční limit 100 20. srpna a do konce měsíce vložíte maximální částku, od 1. září můžete opět vložit  € 100.

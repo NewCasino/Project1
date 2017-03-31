@@ -1,0 +1,1 @@
+Vsi dobitniki

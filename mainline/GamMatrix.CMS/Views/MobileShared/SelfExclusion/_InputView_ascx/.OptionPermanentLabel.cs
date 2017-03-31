@@ -1,0 +1,1 @@
+﻿Trvale zakázat přihlášení

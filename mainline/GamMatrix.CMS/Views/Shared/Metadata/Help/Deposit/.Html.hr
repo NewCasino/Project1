@@ -1,0 +1,78 @@
+﻿<ol>
+
+ <li> <strong>Kako ću uplatiti polog na svoj račun?</strong>
+ <p>
+ Kliknite na „Moj račun“, zatim na tipku za pologe u koloni na lijevoj strani. Zatim možete odabrati metodu plaćanja koju želite.
+ </p>
+ </li>
+
+ <li> <strong>Koliko traje odobravanje mog pologa?</strong>
+ <p>
+ Za većinu metoda plaćanja vaš će polog biti trenutno odobren. U slučaju bankovnog prijenosa novca može biti potrebno do 7 dana kako bi banka izvršila uplatu, a po uplati ćemo dodati iznos vašem [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] računu.
+ </p>
+ </li>
+
+ <li>
+ <strong>Koje su metode uplate pologa dostupne?</strong>
+ <p>
+ Kliknite na Metode plaćanja u glavnom izborniku bilo koje [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] stranice&nbsp; kako biste vidjeli sve dostupne metode plaćanja.
+ </p>
+ </li>
+
+ <li>
+ <strong>Koje kreditne/debitne kartice prihvaćate?</strong>
+ <p>
+ [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] prihvaća sve Visa i MasterCard/Maestro kreditne i debitne kartice kao metodu uplate pologa, mada su moguća ograničenja isplate kada je u pitanju MasterCard/Maestro.
+ </p>
+ </li>
+
+ <li>
+ <strong>Naplaćujete li proviziju kada uplaćujem polog na svoj [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] račun?</strong> 
+ <p>
+ Naknada se ne uzima pri uplaćivanju na vaš [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] račun.
+ </p>
+ </li>
+
+ <li>
+ <strong>Koji je najveći/najmanji iznos pologa koji mogu odjednom uplatiti? </strong> 
+ <p>
+ Najmanji iznos pologa je 10 € ili jednaki iznos u vašoj valuti, a najviši iznos je 5000 € po danu ili jednaki iznos u vašoj valuti.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+Postoji li način da postavim dnevni, tjedni i mjesečni limit pologa?
+ </strong>
+ <p>
+ U mogućnosti ste postaviti dnevni, tjedni ili mjesečni limit pologa. To&nbsp; možete postaviti unutar opcije „Moj račun“, odjeljak „Odgovorno kockanje - Limit pologa“. Limite možete u istim odjeljku izmijeniti kada god poželite.
+ </p>
+ </li>
+
+ <li>
+ <strong>Kako ću uplatiti polog s mog bankovnog računa?</strong>
+ <p>
+ Kliknite „Uplati novčani polog“ u opciji „Moj račun“ i izaberite Bankovni prijenos novca. Možete aktivirati ovu opciju klikom na „Polog“. Zatim slijedite upute na zaslonu.
+ </p>
+ </li>
+
+ <li>
+ <strong>
+ Postoji li tjedni limit koliko mogu uplatiti na svoj internetski račun preko kreditne kartice? 
+ </strong>
+ <p>Najveći iznos koji možete uplatiti u jednom danu je 5000 €.</p>
+ </li>
+
+</ol>
+
+<p style="text-align:right">
+ <button type="button" onclick="window.print(); return false" class="button">
+ <span class="button_Right">
+ <span class="button_Left">
+ <span class="button_Center">
+ <span>Print</span>
+ </span>
+ </span>
+ </span>
+ </button>
+</p>

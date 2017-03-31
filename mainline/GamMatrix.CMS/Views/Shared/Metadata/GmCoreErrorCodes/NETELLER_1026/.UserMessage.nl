@@ -1,0 +1,1 @@
+﻿U heeft geen bankrekening geregistreerd op uw NETELLER account. U moet eerst een bankrekening registreren op uw NETELLER account voordat u gebruik kan maken van instaCASH. Heeft u vragen, bel dan met de NETELLER Klanten Service.

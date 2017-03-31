@@ -1,0 +1,2 @@
+﻿Mín Cantidad de depósito
+

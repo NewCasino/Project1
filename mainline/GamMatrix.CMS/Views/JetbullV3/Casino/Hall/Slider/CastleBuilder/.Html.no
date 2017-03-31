@@ -1,0 +1,3 @@
+﻿<h3>Castle Builder</h3>
+<p>Bli med p&aring; et eventyr hvor du samler<br />byggematerialer&nbsp;og bygger borger!</p>
+<br /><a href="/Casino/Game/Info/castle-builder-mg" class="button" title="Play now ►"><span class="GoldButtonText">Spill n&aring; ►</span></a>

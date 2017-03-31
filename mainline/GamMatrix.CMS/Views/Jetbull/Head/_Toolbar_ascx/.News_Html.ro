@@ -1,0 +1,42 @@
+﻿<a href="#">
+  <span class="news_text">
+    <span class="newsitem">
+      <span class="newsitem_label">Pariuri Sportive:</span>
+      <span class="newsitem_text">
+        <span class="icon_number">3</span>
+        <span class="newitem_description"> statut schimbat pariuri.</span>
+      </span>
+    </span>
+    <span class="newsitem">
+      <span class="newsitem_label">Casino:</span>
+      <span class="newsitem_text">
+        <span class="icon_number">1</span>
+        <span class="newitem_description">joc nou.</span>
+      </span>
+    </span>
+    <span class="newsitem">
+      <span class="newsitem_label">Live Casino:</span>
+      <span class="newsitem_text">
+        <span class="icon_number">2</span>
+        <span class="newitem_description">notificari mese.</span>
+      </span>
+    </span>
+    <span class="newsitem">
+      <span class="newsitem_label">Bingo:</span>
+      <span class="newsitem_text">
+        fara stiri     </span>
+    </span>
+    <span class="newsitem">
+      <span class="newsitem_label">Poker:</span>
+      <span class="newsitem_text">
+        <span class="icon_number">2</span>
+        <span class="newitem_description">table required action.</span>
+      </span>
+    </span>
+  </span>
+  <span class="signup">
+   Vezi notificari<span class="ActionSymbol">►</span>
+  </span>
+</a>
+
+

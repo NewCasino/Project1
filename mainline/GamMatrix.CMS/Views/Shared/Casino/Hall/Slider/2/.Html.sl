@@ -1,0 +1,1 @@
+Brezplačen HTML za vsebino je mogoče urejati v konzoli CMS.

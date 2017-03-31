@@ -1,0 +1,1 @@
+﻿W polu kwoty można wpisywać wyłącznie cyfry. Proszę spróbować ponownie.

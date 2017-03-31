@@ -1,0 +1,1 @@
+Visa spel med ikoner i ett rutnät

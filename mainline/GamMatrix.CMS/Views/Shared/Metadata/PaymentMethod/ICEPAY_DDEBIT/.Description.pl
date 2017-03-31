@@ -1,0 +1,1 @@
+Bezpośrednie obciążenie Twojego konta bankowego.

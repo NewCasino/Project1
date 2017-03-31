@@ -1,0 +1,1 @@
+Točke ste uspešno prevzeli.

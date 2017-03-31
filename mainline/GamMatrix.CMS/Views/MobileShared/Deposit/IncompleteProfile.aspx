@@ -1,0 +1,20 @@
+﻿<%@ Page Language="C#" PageTemplate="/DefaultMaster.master" Inherits="CM.Web.ViewPageEx" Title="<%$ Metadata:value(.Title)%>" MetaKeywords="<%$ Metadata:value(.Keywords)%>" MetaDescription="<%$ Metadata:value(.Description)%>"%>
+<%@ Import Namespace="GamMatrix.CMS.Models.MobileShared.Components" %>
+
+<asp:Content ContentPlaceHolderID="cphHead" Runat="Server">
+</asp:Content>
+
+
+<asp:Content ContentPlaceHolderID="cphMain" Runat="Server">
+<% Html.RenderPartial("/Components/StatusNotification", new StatusNotificationViewModel(StatusType.Error, this.GetMetadata(".Message")) 
+	{ IsHtml = true }); %>
+
+<script type="text/javascript">
+	$(function () {
+		setTimeout(function () {
+			self.location = '<%= this.Url.RouteUrl("Profile", new { @action = "Edit"}).SafeJavascriptStringEncode() %>';
+		}, 5000);
+	});
+</script>
+</asp:Content>
+

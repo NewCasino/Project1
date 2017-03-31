@@ -1,0 +1,11 @@
+﻿<p>Kjære&#160; $USERNAME$,<br />
+<br />
+Du mottar denne e-posten fordi dine kumulative uttak har nådd 2300 euro. Vi er pålagt å verifisere din identitet når dine kumulative uttak har nådd 2300 euro for å følge maltesiske og europeiske lover, forskrifter og retningslinjer for å unngå hvitvasking og finanisering av terrorisme. Alle transaksjoner gjort av spillere blir sjekket for å unngå hvitevasking og andre ulovlige aktiviteter. Ved å godta Vilkårene gir du oss tillatelse til å utføre verifiseringer.
+<br />
+Vennligst send bevis på identifikasjon slik som pass eller nasjonal ID til <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>. Når verifiseringen er gjort vil uttaket ditt bli utført umiddelbart.
+<br />
+Hvis du ikke kan gi slik bevis vil kontoen din bli suspendert eller stengt permanent. 
+<br />
+Med vennlig hilsen,<br />
+[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] team
+

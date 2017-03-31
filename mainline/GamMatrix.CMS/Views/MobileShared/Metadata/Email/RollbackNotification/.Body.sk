@@ -1,0 +1,4 @@
+﻿<p>Ahoj $FIRSTNAME$,</p>
+<p>dňa $TXCOMPLETEDDATE$ bol váš výber vrátený a prostriedky prešli spät na váš herný účet. Ak máte k transakcii ďalšie otázky, obráťte sa prosím na oddelenie zákazníckej podpory.</p>Číslo transakcie: $TXID$ Dátum: $TXCREATEDDATE$ Suma: $TXAMOUNT$ $TXCURRENCY$.
+<p>S pozdravom,<br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] tím</p>
+

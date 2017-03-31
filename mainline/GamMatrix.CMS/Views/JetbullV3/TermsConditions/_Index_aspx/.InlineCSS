@@ -1,0 +1,10 @@
+﻿#pnLiteral table {
+  color: #FFFFFF;
+  margin: 10px;
+}
+#pnLiteral table td {
+  padding-left: 10px;
+}
+.GameTable .GameName {min-width: 10em; width: 70%; }
+.GameTable .Percentage { min-width: 11em; width: 25%; }
+.GameTable .Percentage span{ color: #000000; line-height: 2em; padding-left: 0.5em; outline: 0 none;}

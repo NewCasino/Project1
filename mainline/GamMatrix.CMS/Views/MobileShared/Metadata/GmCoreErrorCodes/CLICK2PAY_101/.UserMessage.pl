@@ -1,0 +1,1 @@
+﻿Podana nazwa użytkownika CLICK2PAY jest błędna. Proszę sprawdzić i spróbować ponownie. Jeśli problem będzie się powtarzać, prosimy o kontakt z działem obsługi klienta pod adresem service@click2pay.com.

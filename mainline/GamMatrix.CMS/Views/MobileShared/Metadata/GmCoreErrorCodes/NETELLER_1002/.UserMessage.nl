@@ -1,0 +1,1 @@
+﻿Er was een probleem met de lengte van uw Account ID of uw Secure ID. Uw Account ID moet 12 cijfers lang zijn en uw Secure ID moet 6 cijfers lang zijn. Probeer het opnieuw.

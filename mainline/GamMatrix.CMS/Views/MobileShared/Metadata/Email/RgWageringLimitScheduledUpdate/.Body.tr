@@ -1,0 +1,6 @@
+﻿<p>Sayın $USERNAME$, <br /> <br /> [Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] ile iletişime geçtiğiniz için teşekkür ederiz.<br /> <br /> Bu e-posta  $LIMITAMOUNT$ $LIMITPERIOD$ olan kişisel bahis limitinizi $NEWLIMITAMOUNT$ $NEWLIMITPERIOD$ olarak değiştirdiğinizi doğrulamak için gönderilmiştir. Yeni limitiniz $LIMITEXPIRYDATE$ tarihinde aktif olacaktır. <br /> <br /> Herhangi bir sorunuz olursa, lütfen bizimle iletişime geçmekten çekinmeyiniz: <a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>
+<p>&nbsp;</p>
+<p> Kind Regards</p>
+<p>[Metadata:htmlencode(/Metadata/Settings.Operator_DisplayName)] Customer Support Team</p>
+
+

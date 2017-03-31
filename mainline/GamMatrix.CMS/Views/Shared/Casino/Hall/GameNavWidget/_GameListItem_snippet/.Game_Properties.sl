@@ -1,0 +1,1 @@
+Lastnosti igre:

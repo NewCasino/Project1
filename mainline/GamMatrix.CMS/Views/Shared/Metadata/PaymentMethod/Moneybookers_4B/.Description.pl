@@ -1,0 +1,1 @@
+﻿Szybkiej wpłaty pieniędzy na konto do gry z karty 4B można dokonać za pośrednictwem Moneybookers. Wystarczy zarejestrować swoją kartę w Moneybookers; po zweryfikowaniu karty kredytowej będzie można bezpiecznie i błyskawicznie przelewać środki na konto do gry.

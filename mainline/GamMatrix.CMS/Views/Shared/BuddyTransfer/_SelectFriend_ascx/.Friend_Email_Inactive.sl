@@ -1,0 +1,1 @@
+Račun vašega prijatelja je neaktiven.

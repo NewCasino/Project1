@@ -1,0 +1,1 @@
+﻿El número de cupón debe tener 16 dígitos.

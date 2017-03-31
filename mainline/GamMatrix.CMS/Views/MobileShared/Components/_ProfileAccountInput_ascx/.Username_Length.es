@@ -1,0 +1,1 @@
+﻿El nombre de usuario debe tener entre 4 y 20 caracteres

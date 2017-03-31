@@ -1,0 +1,1 @@
+﻿<p style="font-size: 16px;">Si vous utilisez une Mastercard émise par <img alt="Intercash" src="/Views/Shared/_files/Icons/intercash_logo.png" align="absmiddle" /><br /> veuillez cliquer <a href="/Deposit/Prepare/Intercash">ici</a> pour aller à la page de dépôt correcte.</p>

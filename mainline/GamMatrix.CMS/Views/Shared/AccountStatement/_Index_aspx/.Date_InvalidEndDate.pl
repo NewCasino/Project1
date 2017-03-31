@@ -1,0 +1,1 @@
+Data zakończenia musi być późniejsza od daty rozpoczęcia.

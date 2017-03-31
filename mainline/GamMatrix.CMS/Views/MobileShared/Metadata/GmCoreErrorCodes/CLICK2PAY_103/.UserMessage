@@ -1,0 +1,1 @@
+﻿The supplied amount is wrong. Please try again. If the problem persists, please contact the customer service at service@click2pay.com.

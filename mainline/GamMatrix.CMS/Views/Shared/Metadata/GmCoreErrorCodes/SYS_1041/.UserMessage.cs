@@ -1,0 +1,1 @@
+﻿Uživatel je dobrovolně vyloučen

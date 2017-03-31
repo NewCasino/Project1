@@ -1,0 +1,7 @@
+﻿Bu otomatik bir Epostası, lütfen çevap vermeyiniz. 
+<hr/>
+<p>Sayın $FIRSTNAME$</p>
+<p>Hesabınız çok fazla yanliş Giriş Denemesi yüzünden Bloke edildi ve 15 dakika sonra otomatik olarak yeniden etkinleşecek.</p>
+<p> Parolanızı unuttuysanız ve değiştirmeniz gerekiyorsa lütfen Sitedeki &quot;Parolamı unuttum&quot; Linkini kullanınız. </p>
+<p>Daha fazla Destek için, burdan bizimle İletişime geçiniz :<a href="mailto:[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]">[Metadata:htmlencode(/Metadata/Settings.Email_SupportAddress)]</a>.</p>
+<p>Saygılarımızla, <br /> [Metadata:value(/Metadata/Settings.Operator_DisplayName)] Müşteri Hizmetleri</p>

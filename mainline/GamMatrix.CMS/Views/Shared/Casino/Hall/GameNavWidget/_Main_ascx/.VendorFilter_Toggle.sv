@@ -1,0 +1,1 @@
+﻿Öppna visning av spel från {0}

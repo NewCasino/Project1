@@ -1,0 +1,1 @@
+Registrera ett nytt konto

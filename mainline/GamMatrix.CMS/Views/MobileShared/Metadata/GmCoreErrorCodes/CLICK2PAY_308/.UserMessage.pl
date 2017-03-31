@@ -1,0 +1,1 @@
+﻿Odmowa płatności. Proszę aktywować swoją domyślną metodę płatności i spróbować ponownie.

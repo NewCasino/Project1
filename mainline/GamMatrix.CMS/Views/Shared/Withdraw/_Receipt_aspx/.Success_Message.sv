@@ -1,0 +1,1 @@
+Den här transaktionen har slutförts.

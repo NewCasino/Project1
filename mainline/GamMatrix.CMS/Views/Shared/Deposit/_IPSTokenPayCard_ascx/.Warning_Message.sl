@@ -1,0 +1,1 @@
+Poskrbite, da bosta valuta in znesek, ki sta navedena zgoraj, enaka valuti in znesku na vašem kuponu IPS.

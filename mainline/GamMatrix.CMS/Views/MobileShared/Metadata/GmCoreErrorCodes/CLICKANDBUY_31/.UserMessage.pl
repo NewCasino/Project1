@@ -1,0 +1,1 @@
+﻿Podczas przetwarzania transakcji wystąpił błąd.
