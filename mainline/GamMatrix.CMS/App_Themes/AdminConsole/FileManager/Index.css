@@ -1,0 +1,45 @@
+﻿#file-manager-wrapper { width: 100%; height:100%; background-color:#FFFFFF; }
+
+#file-manager-wrapper .left { width:30%; height:100%; float:left; overflow:hidden; }
+
+#file-manager-wrapper .left .list-wrapper { width:100%; height:380px; overflow:auto; background-color:#D9E8F4; }
+
+#file-manager-wrapper .right { width:69%; height:100%; float:right; overflow:hidden; }
+
+#file-manager-wrapper .left .item { width:98%; height:24px; overflow:hidden; clear:both; }
+#file-manager-wrapper .left .item table { width:100%; height:24px; border-collapse:collapse; }
+#file-manager-wrapper .left .item .checkbox { width:20px; height:100%; }
+#file-manager-wrapper .left .text a { color:#333333; text-decoration:none; font-style:normal;}
+#file-manager-wrapper .left .text a:hover { color:#0000FF; text-decoration:none; } 
+#file-manager-wrapper .left .item .name { display:inline-block; padding-left:18px; overflow:hidden; height:24px; vertical-align:middle; line-height:24px; background-repeat:no-repeat; background-position:left; }
+#file-manager-wrapper .left .type-parent-dir { background-color:#6BA6D6; width:100%; }
+#file-manager-wrapper .left .type-parent-dir .name { background-image:url(/images/icon/folder_up.png);  display:inline-block; padding-left:18px; overflow:hidden; height:24px; vertical-align:middle; line-height:24px; background-repeat:no-repeat; background-position:left; }
+#file-manager-wrapper .left .type-image .name { background-image:url(/images/icon/image.gif); }
+#file-manager-wrapper .left .type-html .name { background-image:url(/images/icon/page_white_h.png); }
+#file-manager-wrapper .left .type-script .name { background-image:url(/images/icon/page_white_gear.png); }
+#file-manager-wrapper .left .type-flash .name { background-image:url(/images/icon/page_white_actionscript.png); }
+#file-manager-wrapper .left .type-xml .name { background-image:url(/images/icon/page_white_code.png); }
+#file-manager-wrapper .left .type-zip .name { background-image:url(/images/icon/page_white_compressed.png); }
+#file-manager-wrapper .left .type-media .name { background-image:url(/images/icon/page_white_cd.png); }
+#file-manager-wrapper .left .type-txt .name { background-image:url(/images/icon/page_text.gif); }
+#file-manager-wrapper .left .type-exe .name { background-image:url(/images/icon/page_white_gear.png); }
+#file-manager-wrapper .left .type-0-dir .name { background-image:url(/images/icon/folder.png); }
+#file-manager-wrapper .left .type-other .name { background-image:url(/images/icon/page_white.png); }
+
+
+#file-preview { width:99%; float:right; border:dotted 1px #666666; height:250px; overflow:auto; }
+#spFilePath { font-weight:bold; }
+
+#uploader { width:99%; float:right; height:100px; }
+
+#links-wrapper {  float:right; }
+#file-dlg-links { display: block; width:100%; overflow:auto; margin:0px; }
+#file-dlg-links ul { padding:0px; margin:0px; font-style:normal; }
+#file-dlg-links li { overflow:auto; float:left; list-style-type:none; margin-left:5px; }
+
+#file-dlg-links a { color:#666666; padding-left:18px; background-repeat:no-repeat; background-position:left middle; text-decoration:none; font-style:normal;}
+#file-dlg-links a:hover { text-decoration:underline; }
+
+#file-dlg-links .refresh { background:url("../img/tools_sprites.png") no-repeat 0px 0px; }
+#file-dlg-links .delete { background:url("../img/tools_sprites.png") no-repeat 0px -120px; }
+#file-dlg-links .create { background:url("../img/tools_sprites.png") no-repeat 0px -180px; }

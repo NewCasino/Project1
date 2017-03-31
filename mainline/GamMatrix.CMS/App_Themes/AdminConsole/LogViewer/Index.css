@@ -1,0 +1,66 @@
+﻿html, body { width:100%; height:100%; margin:0; padding:0; background:url(../img/bg.png) repeat-x left top; font-size:12px; font-family:Verdana; font-style:normal;}
+body { overflow:scroll; }
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div .ui_tpicker_hour div { padding-right: 2px; }
+.ui-timepicker-div .ui_tpicker_minute div { padding-right: 6px; }
+.ui-timepicker-div .ui_tpicker_second div { padding-right: 6px; }
+.ui-timepicker-div td { font-size: 90%; }
+
+#txtStartTime { text-align:center; width:139px; }
+#txtEndTime { text-align:center; width:139px; }
+
+#log-viewer-form-wrapper { width:95%; margin: 10px auto 0px auto; background-color:White; border:solid 1px #6BA6D6;  }
+#log-viewer-form-wrapper form { margin:10px; }
+#log-viewer-result { width:95%; margin:0 auto; }
+
+#log-viewer-result .entry { width:100%; overflow:hidden; background-color:White;  clear:both; margin-top:10px; }
+#log-viewer-result .entry .id { color:#666666; }
+#log-viewer-result .entry .message { font-weight:600; clear:right; }
+
+
+#log-viewer-result .entry .details { width:100%; clear:both; height:auto;  }
+#log-viewer-result .entry .details ul { margin:0px 0px 0px 30px; padding:0px; }
+#log-viewer-result .entry .details ul li { margin:5px 0px 5px 30px; list-style-type:none; float:left; color:#999999; }
+
+#log-viewer-result .entry .links { width:100%; clear:both; height:auto; padding-top:5px; padding-bottom:5px; }
+#log-viewer-result .entry .links a { text-decoration:none; margin-left:10px; font-style:normal; color:#333333; }
+#log-viewer-result .entry .links a:hover { color:#333333; text-decoration:underline; }
+
+
+#log-viewer-result .entry .links .details-wrap { width:95%; margin:5px auto 15px auto; clear:both; }
+#log-viewer-result .entry .links textarea { border:solid 1px #999999; width:100%; height:200px; resize:none; }
+
+
+#log-viewer-result .entry .head
+{
+    width:100%; height:24px; line-height:24px; vertical-align:middle; padding-left:20px;
+    background-repeat:no-repeat; background-position:2px 4px;
+    overflow:hidden;
+}
+
+#log-viewer-result .log-type-information { border:solid 1px #6BA6D6; }
+#log-viewer-result .log-type-information .head { background-image: url(/images/icon/information.png); background-color:#D9E8F4; }
+#log-viewer-result .log-type-information .details { border-bottom: dotted 1px #6BA6D6; }
+
+#log-viewer-result .log-type-warning { border:solid 1px #D0D66A; }
+#log-viewer-result .log-type-warning .head { background-image: url(/images/icon/bullet_error.png); background-color:#F2F3D8; }
+#log-viewer-result .log-type-warning .details { border-bottom: dotted 1px #D0D66A; }
+
+#log-viewer-result .log-type-error { border:solid 1px #EA5F56; }
+#log-viewer-result .log-type-error .head { background-image: url(/images/icon/stop.png); background-color:#F9D5D3; }
+#log-viewer-result .log-type-error .details { border-bottom: dotted 1px #EA5F56; }
+
+#log-viewer-result .log-type-exception { border:solid 1px #EC54AC; }
+#log-viewer-result .log-type-exception .head { background-image: url(/images/icon/delete.png); background-color:#FAD2E9; }
+#log-viewer-result .log-type-exception .details { border-bottom: dotted 1px #EC54AC; }
+
+
+#log-viewer-result .log-type-codeprofiler { border:solid 1px #A0A0A0; }
+#log-viewer-result .log-type-codeprofiler .head { background-image: url(/images/icon/time.png); background-color:#E5E5E5; }
+#log-viewer-result .log-type-codeprofiler .details { border-bottom: dotted 1px #A0A0A0; }
+
+

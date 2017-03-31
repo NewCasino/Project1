@@ -1,0 +1,55 @@
+﻿.payment-method-mgt-links { display: block; width:100%; overflow:auto; }
+.payment-method-mgt-links ul { padding:0px; margin:0px; font-style:normal;}
+.payment-method-mgt-links li { overflow:auto; float:left; list-style-type:none; margin-left:5px; }
+.payment-method-mgt-links a { color:#666666; padding-left:18px; background-repeat:no-repeat; background-position:left middle; text-decoration:none; font-style:normal;}
+.payment-method-mgt-links a:hover { text-decoration:underline; }
+.seperator { border:dotted 1px #CCCCCC; width:100%; }
+.payment-method-mgt-links .refresh { background:url("../img/tools_sprites.png") no-repeat 0px 0px; }
+.payment-method-mgt-links .save { background:url("../img/tools_sprites.png") no-repeat 0px -200px; }
+.payment-method-mgt-links .history { background:url("../img/tools_sprites.png") no-repeat 0px -60px; }
+
+
+#payment-method-wrap { width:100%; }
+#payment-method-wrap .payment-method { width:100%; border:solid 1px #6BA6D6; margin-top:5px; }
+#payment-method-wrap .payment-method .head { width:100%; height:30px; background-color:#6BA6D6;  }
+#payment-method-wrap .payment-method .head .text { float:left; width:49%; display:inline; height:30px; line-height:30px; vertical-align:middle; color:White; font-weight:bold; }
+#payment-method-wrap .payment-method .head .text span { margin-left:10px; }
+#payment-method-wrap .payment-method .head .link { float:right; width:49%; display:inline; height:30px; line-height:30px; vertical-align:middle; text-align:right; }
+#payment-method-wrap .payment-method .head .link a { color:Blue; text-decoration:underline; }
+#payment-method-wrap .payment-method .body { width:100%; }
+
+#payment-method-wrap .payment-method .body table { border-collapse:collapse; width:100%; }
+
+#payment-method-wrap .body a { color:Blue; text-decoration:underline; }
+#payment-method-wrap .body .col1 { width:20px; height:70px; }
+#payment-method-wrap .body .col2 { width:110px; height:70px; }
+#payment-method-wrap .body .col3 { width:120px; overflow:hidden; color:#000033; }
+#payment-method-wrap .body .col4 { color:Black; }
+#payment-method-wrap .body .entry-name { color:Black; }
+#payment-method-wrap .body .entry-value a { color:Blue; text-decoration:none; cursor:pointer; height:16px; line-height:16px; overflow:hidden; display:block; text-overflow:ellipsis; -o-text-overflow: ellipsis; }
+#payment-method-wrap .body .entry-value a:hover { text-decoration:underline; }
+
+#payment-method-wrap .body .row1 { background-color:#A8CAE6; height:70px; overflow:hidden; }
+#payment-method-wrap .body tfoot { background-color:#D9E8F4; }
+
+#ddlCountry { width:100%; }
+#ddlCurrency { width:100%; }
+#ddlPaymentMethod { width:100%; }
+.button-contaner { float:right; margin-top:10px; }
+
+
+.pm-category { width:400px; float:left; border:solid 1px #CCCCCC; margin-left:10px; margin-top:5px; user-select:none; -moz-user-select:none; -webkit-user-select:none; }
+.pm-category h5 { margin:0px; padding:0px; height:30px; background-color:#6BA6D6; width:100%; }
+.pm-category h5 .h5_Left { margin-left:10px; }
+.pm-category h5 span { color:White; height:30px; line-height:30px; vertical-align:middle; }
+.pm-category .pm-item { width:90%; margin:0 auto; margin-top:5px; margin-bottom:5px; border:dotted 1px #DDDDDD; clear:both; }
+.pm-category .pm-item .icon { display:block; width:102px; height:64px; cursor:move; background-size:100% 100%; background-repeat: no-repeat;}
+.pm-category .pm-item .disabled { text-decoration:line-through; }
+.pm-category .moving { position:absolute; z-index:20; border:solid 1px #666666; background-color:White; filter:alpha(opacity=80); -moz-opacity:0.8; opacity: 0.8; }
+.pm-category .placeholder { width:90%; margin:0 auto; margin-top:5px; margin-bottom:5px; border:dotted 1px blue; clear:both; }
+
+
+#country-bank-withdraw-table { width:100%; }
+#country-bank-withdraw-table thead th { background-color:#6BA6D6; color:White; text-align:left; }
+#country-bank-withdraw-table tbody td { background-color:#A8CAE6; color:Black; }
+#country-bank-withdraw-table tbody .odd td { background-color:#D9E8F4; color:Black; }

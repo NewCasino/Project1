@@ -1,0 +1,71 @@
+﻿html, body 
+{ 
+    padding:0px !important; 
+    margin:0px !important; 
+    background-color:#000000 !important; 
+    overflow:hidden !important; 
+    width:100% !important; 
+    height:100% !important; 
+    background-image:none !important; 
+    font-family: Verdana !important; 
+    color:Black !important; 
+}
+
+#entropay 
+{ 
+    width:502px; height:356px; overflow:hidden; background:url(./img/entropay.png) no-repeat scroll left top; 
+    position:relative;
+    left:50%;
+    top:50%;
+    margin-left: -251px;
+    margin-top: -179px;
+}
+
+#entropay .title 
+{
+    position:absolute;
+    left: 160px; top: 16px; width:319px; height:14px;
+    overflow:hidden;
+    color:White;
+    font-weight:bold;
+    font-size:12px; line-height:14px; vertical-align:14px;
+    text-align:center;
+}
+
+#entropay .intro 
+{
+    position:absolute;
+    left: 19px; top: 40px; width:462px; height:100px;
+    overflow:hidden;
+    text-align:left;
+    font-size:12px;
+}
+
+#entropay .steps
+{
+    position:absolute;
+    left: 24px; top: 153px; width:277px; height:143px;
+    overflow:hidden;
+    text-align:left;
+    font-size:12px;
+    font-weight:bold;
+}
+
+#entropay .steps .how-it-works { width:100%; font-weight:bold; }
+
+#entropay .steps .step { width:100%; clear:both; margin-top:5px; }
+#entropay .steps .step .icon { float:left; width:19px; height:19px; overflow:hidden; margin-right:5px; margin-top:5px;
+                                background:url(./img/entropay_ordinal.png) no-repeat scroll left top;
+                                color:White; text-align:center; line-height:19px; vertical-align:19px; }
+#entropay .steps .step .desc { display:inline; }
+
+
+#entropay .safe-way { position:absolute; left:19px; top:312px; width:400px; height:17px;
+                      font-style:italic; font-size:10px; }
+                      
+#entropay .already_entropay_user { position:absolute; left:19px; top:330px; width:400px; height:17px;
+                       font-size:10px; }
+                       
+#entropay .register-entropay { position:absolute; left:335px; top:320px; width:148px; height:24px; border:0px; background-color:transparent;
+                               overflow:hidden; line-height:24px; vertical-align:24px; text-align:center;  color:White; font-size:11px;
+                               background:url(./img/entropay_button.png) no-repeat scroll left top; }

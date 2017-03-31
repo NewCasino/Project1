@@ -1,0 +1,767 @@
+/******************/
+/* GENERIC STYLES */
+/******************/
+html { 
+font-size: 100.01%;
+overflow-y: scroll;
+-webkit-overflow-scrolling: touch;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+display: block;
+}
+html, html > body {	padding: 0; margin: 0; }
+html > body { position: relative; min-height: 100%; top: 0; width: 100%; }
+
+/* anchor style */
+a, *|*:link { color : #ef0000; text-decoration : none; outline: 0 none;}
+/*a:visited { color : #ef0000; }*/
+a:hover { color : #666; }
+a:active { color : #f00; }
+a:focus { outline : none; }
+a:hover, a:active { outline : none; }
+*:focus, *:active, .Button:focus { outline: none; }
+::-moz-selection{ background : #ef0000; color : #fff; text-shadow : none; }
+::selection { background : #ef0000; color : #fff; text-shadow : none; }
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance : none; margin : 0; }
+.FormInput, input, select, textarea{ outline: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0;	margin: 0; }
+
+// -------------------
+// Background
+// -------------------
+// http://www.svgeneration.com/
+// base64 BG : http://codepen.io/iliutastoica/pen/ofikp  
+// html {  }
+
+// ---------------
+	/* CLEARFIX */
+// ---------------
+.Main { display : table-cell; *display : block; width : auto; }
+.Body, .Container, .Box, .OutcomeList, .FooterMenu, .FormItem, .AmountContainer, .CardLink, .WalletContainer, .Match-FoundOdds, .ProfileDetail, .DetailPairs, .slides, .swipe-slide, .Box { *zoom : 1; }
+.Body:after, .Container:after, .BoxContent:after, .OutcomeList:after, .FooterMenu:after, .NewSliderControls:after, .FormItem:after, .AmountContainer:after, .CardLink:after, .WalletContainer:after, .Match-FoundOdds:after, .ProfileDetail:after, .DetailPairs:after, .slides:after, .swipe-slide:after, .Box:after, .AccountWrapper:after, .SelectBonusSlider:after { clear : both; display : block; visibility : hidden; overflow : hidden; height : 0 !important; line-height : 0; font-size : xx-large; content : " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x "; }
+
+// -------------------
+	/* HIDING STUFF */
+// -------------------
+.ir { display : block; overflow : hidden; text-indent : 100%; white-space : nowrap; overflow : hidden; background-repeat : no-repeat; text-align : left; direction : ltr; }
+.ir br { display : none; }
+.hidden, .Hidden { display : none !important; visibility : hidden; }
+.visuallyhidden { border : 0; clip : rect(0 0 0 0); height : 1px; margin : -1px; overflow : hidden; padding : 0; position : absolute; width : 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip : auto; height : auto; margin : 0; overflow : visible; position : static; width : auto; }
+.invisible { visibility : hidden; }
+.Fixed { position: static;}
+.DisableFramework, .DisableOverflow { position:absolute !important; left:0; right:0; top:0; bottom:0; height:100%; width:100%; user-select: none; overflow:hidden; background: rgba(0,0,0,0.5); z-index:2; }
+.DisableOverflow { height: auto; }
+
+// /**************/
+// /* Debugging */
+// /*************/
+// .DebugBox{position: fixed; left: 0; right: 0; bottom: auto; top: 0; background: rgba(0,0,0,0.3); color: #FFFFFF; padding: 0 1em; font-size: 1em; line-height: 1.5em; z-index: 999; pointer-events:none; opacity: 0.9}
+// .DebugBox:hover{opacity: 0.1;}
+// 	.DebugMessage { display: block;}
+// 		.DebugLog{}
+// 		.DebugDebug{ color: #1BF919;}
+// 		.DebugError{ color: red;}
+// 		.DebugWarn{ color: yellow;}
+// 		.DebugInfo{ color: #00C8FF;}
+
+@import "buttons";
+.Framework { 
+	display : inline-block; margin : 0 auto; padding : 3.3571em 0; position : relative; background : transparent; font-size : 10.5pt; line-height : 1.5714em; text-align : left; transition : all 2s ease-in-out; z-index: 1; height: 100%; width: 100%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
+	@media (max-width: 320px) {
+		padding: 3.571em 0 0em;
+	}
+	.ShowRightMenu &, .ShowLeftMenu & { z-index: 1; }
+	&.FrameWorkStyle2 { padding: 3.3571rem 0; }
+	&.DisableOverflow { position:absolute !important; height: 100% !important; -moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box; overflow: hidden !important; }
+}
+
+//-----------------------------
+// HEADER 
+//-------------------
+	.Header { display : block; width : 100%; position : fixed; left : 0; top : 0; z-index : 100; background : #333 url("img/radial-button.png") center top no-repeat; background-size : 300% 100%; border-top : 0.0714em solid #999; border-bottom : 0.0714em solid #000; }
+	.Header2 { position: absolute; z-index: 5; min-height: 50px; height: auto; top: 0; margin: 0; width:100%; left: 0; right: 0; bottom: auto; }
+		.HeaderWrapper { display : block; background : transparent url("img/radial-full.png") center top no-repeat; background-size : 200% 400%; }
+			.Header .Button { display : block; float : left; width : 3.2857em; height : 3.2857em; margin : 0 0.2857em 0 0; background : transparent url("img/bg-darken-bottom.png") center top repeat-x; background-size : 100% 100%; border-right : 1px solid #0c0c0c; overflow : hidden; text-indent : 100%; white-space : nowrap; border-radius : 0; box-shadow : 1px 0 0 #666; }
+			.Header .MenuButton { float : right; margin : 0 0 0 0.2857em; border-right : none; border-left : 1px solid #0c0c0c; box-shadow : -1px 0 0 #666; }
+			.Header .Button:hover, .Header .Button:active { background : transparent url("img/radial-full.png") center top no-repeat; background-size : 200% 400%; }
+			.Header .ButtonIcon { display : block; width : 1.5714em; height : 1.5714em; margin : 0.8571em auto; background : transparent url("img/big-sprite.png") -44px -440px no-repeat; }
+			
+			.HomeButtonHeader .ButtonIcon { background-position : -88px -440px; }
+			.HomeButtonHeader:hover .ButtonIcon, .HomeButtonHeader:active .ButtonIcon { background-position : -88px -462px; }
+			.SportsButtonHeader .ButtonIcon, .SportsButtonHeader:hover .ButtonIcon{ background-position: -22px -482px; }
+
+			.MenuButton .ButtonIcon { background-position : -66px -440px; }
+			.MenuButton:hover .ButtonIcon, .MenuButton:active .ButtonIcon { background-position : -66px -462px; }
+				.OpenMenu .MenuButton .ButtonIcon { background-position : -198px -440px; }
+				.Search .ButtonIcon { background-position : -176px -440px; }
+				.Search:hover .ButtonIcon, .Search:active .ButtonIcon { background-position : -176px -462px; }
+	
+			.OperatorLogo { display : block; overflow : hidden; background : transparent; text-align : center; }
+			.OperatorLogo:hover, .OperatorLogo:active { background : transparent url("img/radial-full.png") center bottom no-repeat; background-size : 100% 200%; }
+				.BrandingImage { display : block; width : auto; max-width : 100%; height : 2.3571em; margin : 0.5em auto 0 auto; }
+	
+
+	/* Home Page */
+
+	// v1
+	.IntroBox { display : block; margin : 0 auto -0.7857em auto; background : transparent center top no-repeat; border-top : 1px solid #000; text-align : center; }
+		.IntroBoxTitle { display : none; padding : 1.2857em 0 0.7857em 0; }
+			.IntroBoxLogo { display : block; height : auto; margin : 0 auto; }
+			.IntroBoxLogo, .IntroBoxLogoContainer { display : block; width : 150px; max-width : 100%; height : 50px; margin : 0 auto; text-align : left; white-space : nowrap; overflow : hidden; text-indent : 100%; }
+			.IntroBoxOptions { padding : 0; max-width : none; background : transparent url("img/radial-full.png") center top repeat-x; background-size : 200% 400%; box-shadow : 0 0.25em 0.25em #111; margin: 0 auto 2em; }
+			.HomeBigButton, .HomeBigButton:visited { display : block; margin : 0 1em; padding : 0.5em 0 0 0; background : #333 url("img/bg-verticalbutton.png") left top repeat-x; background-size : 100% 200%; color : #fff; font-size : 1.5714em; line-height : 1em; text-shadow : 0 -1px 0 #111; box-shadow : 0 0.5em 0.5em #000; border-radius : 0.5em; opacity : 0.75; }
+			.HomeBigButton:hover, .HomeBigButton:active { background : #ef0000; color : #fff; text-shadow : 0 1px 1px #000; box-shadow : 0 0.5em 0.5em #000 inset; opacity : 1; }
+			
+			.HBCasino, .HBSports, .HBLiveCasino { margin : 0; display: block; padding: 1em 0; text-shadow: 0 1px 0 #000000; background-color: rgba(52, 2, 2, 0.25); }
+			.HomeButton:hover, .HomeButton:active { background-color: rgba(200, 1, 0, 0.5); color: #FFFFFF; text-shadow: 0 1px 0 #000000; }
+	        .HBSports { border-right : 1px solid rgba(34, 34, 34, 0.21); }
+	        .HBSports:hover { border-color: rgba(0, 0, 0, 0.56); }
+	        .HBCasino { border-left : 1px solid rgba(204, 204, 204, 0.2); }
+			.HBIcon { display: block; width: 128px; max-width: 128px; height: 128px; margin: 0 auto; background-image: url('img/icn-sprite.png');  background-size: 200% auto; background-repeat: no-repeat; background-position: left center; text-indent:100%; overflow: hidden; white-space: nowrap; }
+			.HBSports .HBIcon { background-position: left center;  }
+			.HBCasino .HBIcon { background-position: right center; }
+			.HBText { display : block; padding : 0.5em 0; background : transparent; border-radius : 0.5em; color: #EEE;}
+			.HomeButton:hover .HBText, .HomeButton:active .HBText { background-position : left bottom; }
+
+			/*** 3 boxes intro ***/
+			.Intro3Boxes { }
+			.Intro3Boxes .HomeButton .HBIcon { background-image: url('img/icn3-sprite.png'); background-size: 300% auto; }
+			.Intro3Boxes .HBSports .HBIcon { background-position: left center;  }
+			.Intro3Boxes .HBCasino { border-right : 1px solid rgba(0, 0, 0, 0.65); }
+			.Intro3Boxes .HBCasino .HBIcon { background-position: center center; }
+			.HBLiveCasino { border-left : 1px solid rgba(204, 204, 204, 0.2); }
+			.Intro3Boxes .HBLiveCasino .HBIcon { background-position: right center; }
+			.Cols-3 .HBLiveCasino .HBIcon { background-position: right center; background-image: url('img/icn3-sprite.png'); background-size: 300% auto; }
+			.Cols-3.IntroBoxOptions .Col { width: 33.333%; float: left; clear:none; }
+			@media only screen and (max-width: 480px) {
+				.IntroBoxOptions { font-size: 10px; }
+				.Cols-3.IntroBoxOptions .HomeButton { border-bottom: 1px solid rgba(0, 0, 0, 0.65); box-shadow: inset 0 1px 0 rgba(204, 204, 204, 0.2); font-size: .875rem}
+				.Cols-3.IntroBoxOptions .Col { width: 50%; float: left; clear: none; max-width: 50%; overflow: hidden;}
+				.Cols-3.IntroBoxOptions .Col:last-child { width: 100%; float: none; clear: both; max-width: 100%; }
+			}
+			@media only screen and (min-width: 481px) {
+				.Cols-3.IntroBoxOptions .Col { width: 33.333%; float: left; clear:none; }
+			}
+			@media only screen and (max-width: 299px) {
+				.Cols-3.IntroBoxOptions .Col { width: 100%; max-width: 100%; float: none; clear: both; }
+			}
+
+	//v2
+	.IntroBoxOptions_V2 { display : block; background : transparent; border-top : 1px solid #000; text-align : center; padding : 0; max-width : none; box-shadow : 0 0.25em 0.25em #666 inset; margin: 0 auto; }
+		.HomePageV2, .HomeSection .FrameWorkStyle2 { background-color: #969292;background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzMwMCcgdmlld0JveD0nMCAwIDIwMCAzMDAnPgoJPGZpbHRlciBpZD0nZnV6eicgeD0nMCcgeT0nMCc+CgkJPGZlVHVyYnVsZW5jZSB0eXBlPSd0dXJidWxlbmNlJyBiYXNlRnJlcXVlbmN5PScwLjY1JyBudW1PY3RhdmVzPScxMCcgc3RpdGNoVGlsZXM9J3N0aXRjaCcvPgoJPC9maWx0ZXI+Cgk8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWx0ZXI9J3VybCgjZnV6eiknIG9wYWNpdHk9JzAuNTEnLz4KPC9zdmc+'); }
+
+		.IntroButton { 
+			color: #4b4b4b; margin : 0; display: block; padding: 1em 0; text-shadow: 0 -1px 0 #000000; background-color: transparent; font-size: 1em; line-height: 1; text-decoration: none; 
+			&:hover, &:active {
+				.HBText_V2 { background-position : left bottom; }
+			}
+		}
+		.HBCasino_V2, .HBSports_V2, .HBLiveCasino_V2 {  }
+		.IntroButton:hover, .IntroButton:active { background-color: rgba(200, 1, 0, 0.5); color: #FFFFFF; text-shadow: 0 1px 0 #000000; }
+     	// .HBSports_V2:hover { border-color: rgba(0, 0, 0, 0.56); }
+		.HBIcon_V2 { display: block; width: 90%; max-width: 100%; max-height: 128px; height: auto; font-size: 16px; line-height: 1; margin: 0 auto 0.5em; text-decoration: none;
+			@media (min-width: 1025px) { 
+				margin: 1em auto; height: 144px; width: 200px; overflow: visible; max-height: 144px;
+			}
+			&:before { 
+				font-size: 9em; 
+				.windowsphone & { font-size: 140px; }
+				@media (max-width: 320px) { 
+					font-size: 5em;
+					.windowsphone & { font-size: 100px; }
+				}
+			}
+		}
+		.HBDescription_V2 { display : none; line-height: 1; font-size: .75em; opacity: 0.5; }
+		.HBText_V2 { 
+			display : block; padding : 0; background : transparent; border-radius : 0.5em; text-shadow:0 -1px 0px rgba(0, 0, 0, 0.61), 0 -1px 3px rgba(0, 0, 0, 0.51); font-size: 3em; line-height: 1; text-transform: uppercase; text-decoration: none; 
+			@media (max-width: 320px) { font-size: 1.875em;}
+			@media (min-width: 320px) { font-size: 2rem; margin-top: 1.5rem; }
+			@media (min-width: 481px) { font-size: 2rem; margin-top: 1em; }
+			@media (min-width: 1025px) { margin-top: 0; .IntroButton & { text-indent: -10px;} }
+		}
+
+		@media only screen and (max-width: 480px) {
+			.Cols-3.IntroBoxOptions_V2 .Col { width: 100%; float: none; clear: both; }
+			.Cols-3.IntroBoxOptions_V2 .IntroButton { border-bottom: 1px solid rgba(0, 0, 0, 0.15); box-shadow: inset 0 1px 0 rgba(204, 204, 204, 0.3); }
+		}
+		@media (min-width: 481px) {
+			.IntroBoxOptions_V2 { border-bottom: 1px solid rgba(0, 0, 0, 0.15); box-shadow: 0 1px 0 rgba(204, 204, 204, 0.3); }
+			.Cols-3.IntroBoxOptions_V2 .IntroButton { border-right: 1px solid rgba(0,0,0,.15); box-shadow: inset 1px 0px 0 rgba(204,204,204,.3);}
+		}
+
+
+.MenuContainer { top:0px; left:0px; position:fixed; width:100%; z-index:10; background-color:black; height:auto; }
+.MenuButtons { list-style: none; }
+.MenuButton { display: inline; }
+	.HeaderMenu { position: relative; }
+    .HeaderBTN { 
+    	float:left; 
+    	font-family: Roboto,Arial,sans-serif; font-weight: bold;
+    	&.MainMenuBTN { float: right; }
+    }
+    .HeaderMenuItem { 
+    	display: inline-block; text-decoration: none; float: left; margin-right: 0.5em;
+    	&.MainMenuItem { float:right; margin-right: 0;}
+    	&.Item-LiveCasinoSection { margin-right: 0; }
+    	@media (min-width: 481px) { 
+    		.HeaderBTN { margin: 0 auto; }
+    	}
+    }
+    .ClientLogoBox { display: none; margin: 0 auto; }
+    @media (min-width: 500px) { 
+    	body:not(.HomeSection) { 
+			.ClientLogoBox { display: block; float: left; width: 37%; position: relative; top: 3px; }
+			.Logo-Icon { width: 100%; }
+		}
+    }
+    @media (min-width: 604px) {
+    	body:not(.HomeSection) { 
+			.ClientLogoBox { width: 48%; }
+		}
+    }
+    @media (min-width: 769px) {
+    	body:not(.HomeSection) { 
+			.ClientLogoBox { width: 28%; top: 0; }
+		}
+    }
+    @media (min-width: 900px) {
+    	body:not(.HomeSection) { 
+			.ClientLogoBox { width: 40%; }
+		}
+    }
+    @media (min-width: 1024px) {
+		body:not(.HomeSection) { 
+			.ClientLogoBox { width: 47%;  }
+		}
+    }
+    @media (min-width: 1200px) {
+		body:not(.HomeSection) { 
+			.ClientLogoBox { width: 55%; }
+		}
+    }
+    @media (min-width: 1279px){
+		body:not(.HomeSection) {
+			.HeaderLogo, .Logo-Icon { width: 760px; height: 32px; }
+		}
+	}
+
+    .HomeSection {
+    	.ClientLogoBox { display: block; max-height: 42px; overflow: hidden; margin: 0 auto; float: none; }
+    	.SignInItem { margin-right: 0; }
+    }
+    .SideMenuList li { display: block; float: none; width: 100%; padding:0; margin: 0; font-size: 1em; }
+    .SideMenu { width:100%; max-height:100%; overflow:scroll; display:block; bottom:0; right: 0; top:3.3571rem; position:fixed; z-index:9; background-color:black; opacity: 0; @include Transition(.333s, ease-in-out);
+    	&.SideMenuOpen { opacity: 1; }
+    }
+    .MainMenuBox, .AccountMenuBox { }
+    .AccountMenuBox { right:auto; left:0;
+    	@include transform( translateX(-100%));
+    	&.SideMenuOpen { 
+    		@include transform( translateX(0%));
+    	}
+    }
+    .MainMenuBox{
+    	@include transform( translateX(100%)); left:auto; 
+    	&.SideMenuOpen { 
+    		@include transform( translateX(0%)); 
+    	}
+    }
+    .SideMenuList { height:auto; }
+    .HeaderLogo { 
+    	display: block; width: 100%; min-width: 150px; height: 42px; 
+    	@media (max-width: 320px) {
+    		min-width: 120px; max-width: 120px;
+    	}
+    }
+    	.Logo-Icon { display: inline-block; width: 100%; height: 100%; min-height: 42px; background-size: 100% auto; background-position: center center; background-repeat: no-repeat;  }
+    	.HeaderButtonText { display: none; visibility: hidden; opacity: 0; }
+//----------------------
+// REGISTRY MENU
+.Registry { display : block; width : 100%; position : fixed; left : 0; bottom : 0; z-index : 100; background : #333 url("img/radial-button.png") center top no-repeat; background-size : 300% 100%; color : #fff; border-top : 0.0714em solid #999; border-bottom : 0.0714em solid #000; }
+	.RegList { display : block; padding : 0.3571em; }
+	.RegItem { display : block; float : left; width : 50%; }
+	.RegP { display : block; padding : 0.3571em; text-align : center; text-shadow : 0 -1px 0 #000; }
+
+
+// -----------------
+	/* Box Model */
+// -----------------
+	.Box { display : block; margin : 1.5714em 0.3571em; } /* generic box */
+	.IntroBox { display : block; margin : 0 auto -0.7857em; background : transparent center top no-repeat; border-top : 1px solid #000; text-align : center; }
+	.SportsBox { padding: 0 0.143em 0.5em; margin: 3.5714em auto 1.5714em;}
+	.CasinoBox { @extend .SportsBox; }
+	.NotificationBox { max-width: 640px; margin: 1em auto; }
+	.CenterBox{ @extend .Box; max-width: 600px; margin: 1.5714em auto; }
+	.PopularBox {}
+	.UserBox, .NotificationBox { @extend .CenterBox; }
+
+	/* Info Boxes */ 
+	.TextBox { 
+		@extend .CenterBox;
+		text-align: left; 
+		.BoxContent { padding: 0.3517em 1em 0.75em; line-height: 1.5em; font-size: 0.857em; background: none $gray1; overflow: hidden; @include Boxshadow(0,1px,2px,rgba(0, 0, 0, 0.25));}
+		h2, h3, h4 { margin: 1em 0.333em 0.5em 0.333em; color: $black; font-weight:normal; }
+		h2 { font-size: 1.167em; font-weight: bold; margin: 0.5em 0.143em ; }
+		h2 + strong { margin: 0 0.2em;}
+		h3 { font-size:1.33em }
+		h4 { font-size:1.15em }
+		p { display: block; margin: 1em 0.5em; color: #000; }
+		ol, ul { margin: 0 0.5em }
+	}
+	
+		.BoxContent { border-radius: 0.5em; display: block; position: relative; z-index: 0; background-color: transparent; line-height: 1.5em; font-size: 1em; overflow: hidden;} 
+		.SHNoLink { color: #333; border-top: 0.0714em solid #aaa; border-bottom: 0.0714em solid $gray9; -webkit-text-shadow: 0 -1px 0 #ccc; text-shadow: 0 -1px 0 #ccc; }	
+			.SHText { display : block; padding : 0.2857em 0.3571em 0.3571em 0.3571em; overflow : hidden; } /* generic box toggle text */
+
+	.MenuBox {
+		margin: 0.857em 0.857em 1.5714em;
+		.MenuList { margin: 0 auto; box-shadow: none; }
+		.BoxContent { 
+			@extend .BoxContent; 
+			@include BGIMG($gray1, "../img/bg-darken-bottom.png", left top, repeat-x, 100%, 120%);	//background: url("../img/bg-darken-bottom.png") repeat-x scroll left top $gray1; background-size: 100% 120%; 
+			@include Boxshadow(0,2px,2px,rgba(0, 0, 0, 0.65)); 
+		}
+	}
+	.MenuLink { position: relative; }
+
+
+	/* Tab controls */
+	.Tabs { display : block; padding : 0.7857em 0 0 0; border-bottom : 0.7857em solid #ab0000; text-align : center; box-shadow : 0 1px 0 #8c0000; } /* generic tabs list */
+		.Col { display : block; float : left; } /* generic column */
+		/* variable number of columns */
+		.Cols-1 .Col { float : none; width : 100%; }
+		.Cols-2 .Col { width : 50%; }
+		.Cols-3 .Col { width : 33.3333%; }
+		.Cols-4 .Col { width : 25%; }
+		.Cols-5 .Col { width : 20%; }
+		.Cols-2 .Col:nth-child(2n+1), .Cols-3 .Col:nth-child(3n+1), .Cols-4 .Col:nth-child(4n+1), .Cols-5 .Col:nth-child(5n+1) { clear : left; }
+
+		.TabLink, .TabLink:visited { background:#AAAAAA url("img/bg-darken-bottom.png") repeat-x scroll left bottom ; background-size: 100% 150%; border-top: 0.0714em solid #FFFFFF; color: #FFFFFF; display: block; font-weight: bold; margin: 0 0.7857em; overflow: hidden; padding: 0.3571em 0.7857em; -webkit-text-shadow: 0 -1px 0 #333; -o-text-shadow: 0 -1px 0 #333; -khtml-text-shadow: 0 -1px 0 #333;text-overflow: ellipsis; text-shadow: 0 -1px 0 #333333; white-space: nowrap; } /* generic tab link */
+		.TabLink:active { background: #ef0000 url("img/bg-button.png") left 66.6666% repeat-x; background-size: 100% 400%; color: #fff; border-top: 0.0714em solid #300; -moz-text-shadow: 0 1px 0 #080808; -webkit-text-shadow: 0 1px 0 #080808; -o-text-shadow: 0 1px 0 #080808; -khtml-text-shadow: 0 1px 0 #080808; text-shadow: 0 1px 0 #080808; }
+		.TabLink:hover { background: #ef0000 url("img/bg-button.png") left 33.3333% repeat-x; background-size: 100% 400%; color: #fff; border-top: 0.0714em solid #ef6666; -moz-text-shadow: 0 -1px 0 #8c0000; -webkit-text-shadow: 0 -1px 0 #8c0000; -o-text-shadow: 0 -1px 0 #8c0000; -khtml-text-shadow: 0 -1px 0 #8c0000; text-shadow: 0 -1px 0 #8c0000; }
+		.ActiveTab .TabLink { background: #ab0000 url("img/bg-button.png") left top repeat-x; background-size: 100% 400%; border-top: 0.0714em solid #ef6666; }
+		.TabLink.Disabled, TabLink.Disabled:visited, TabLink.Disabled:active, TabLink.Disabled:hover { background : #aaa; border-top : 0.0714em solid #aaa; opacity : 0.5; }
+		.Cols-1 {
+			.TabLink, .TabLink:visited { margin: 0; }
+		}
+		.DepositContent .Cols-1 { border-bottom-width: .25em; }
+
+	.SettingsTabs { 
+		.TabLink { margin: 0; width: 100%; border: 0; height: 100%; padding: .3571em .7857em; border-top: 0; display: block; line-height: 1.5em; }
+	}
+
+		
+	.ToggleName { padding: 0.1428em 0.6111em 0 0.6111em; font-size: 1.5714em; font-weight: bold; }
+	.ToggleContent { background: #ddd url("img/bg-darken-bottom.png") left bottom repeat-x; }
+	.ToggleClose{text-align: center;}
+	.ToggleClose .MW{ padding: 0.7857em 0.4285em;}
+
+	.PopularBox .ToggleContent{ background: none transparent;}
+	.CasinoGames .SubHeader{ display: none;}
+	
+	.AccordionList .ToggleContent{ display: none; }
+	.AccordionList .Active .ToggleContent{ display:block; }
+	.TabContent { background: none transparent; } 
+
+	/* generic Icon List */
+	.IconList { display : block; padding: 0; margin: 0; width: 100%; max-width: 100%; } 
+		.IconList .X { border-bottom : 0.0714em solid #eee; }
+		.GameList .GameItem:nth-child(4n), .GameList .GameItem:nth-child(4n+3) { background-color : #f4f4f4; }
+			.B, .B:visited { display : block; border-right : 0.0714em solid #eee; padding : 0; color : #333; }
+			.B:hover, .B:active { color : #000; background : #ddd url("img/radial-full.png") center top no-repeat; background-size : 100% 200%; box-shadow : inset 0 0.5em 0.5em #999; text-shadow : 0 -1px 0 #fff; }
+			.Cols-2 .X:nth-child(2n) .B, .GameList .GameItem:last-child .B { border-right : none; }
+				.IconList .Icon { display : block; float : left; width : 4.1248em; height : 4.1248em; margin : 0.6428em 0.7142em 0.6428em 0.7142em; position : relative; background : transparent url("img/radial-top.png") center top no-repeat; background-size : 300% 100%; border-radius : 0.2857em; box-shadow : 0 0.2857em 0.2857em #000; }
+				.B:hover .Icon, .B:active .Icon { background : #ef0000 url("img/bg-button.png") left 33.3333% repeat-x; background-size : 100% 400%; box-shadow : 0 0.2142em 0.2142em #000; }
+					.IconWrapper { display : block; width : 4.1248em; height : 4.1248em; padding : 0; background : transparent url("img/radial-full.png") center top no-repeat; background-size : 100% 200%; border-radius : 0.2857em; }
+					.B:hover .IconWrapper, .B:active .IconWrapper { background-size : 200% 300%; }
+						.IconList .I { display : block; width : 100%; height : 100%; margin : 0 auto; background : transparent; border-radius : 0.2857em; background-size: 100% auto; }
+						.IconList .LiveUpdate { display : block; padding : 0.2857em; position : absolute; top : -0.5em; right : -0.5em; z-index : 10; background : #ef0000 url("img/radial-button.png") center top no-repeat; background-size : 300% 100%; color : #fff; font-size : 1em; line-height : 1em; text-shadow : 0 -1px 0 #8c0000; box-shadow : 0 1px 1px #000; }
+					.IconList .N { padding : 1.2857em 0 0 0; overflow : hidden; text-overflow : ellipsis; }
+
+
+	/* Generic form controls */
+	.UserBox { display:block; margin: 1.5714em 0; }
+	.UserBox .BoxContent { padding: 0.5em; }
+	.UserBox .FinalStep { background: none repeat scroll 0 0 #FFFFFF; box-shadow: 0 1px 2px #999999; margin: 1em; padding: 1em; }
+
+	.GenericForm { display: block; }
+		.CenterBox{max-width: 600px; margin: 1.5714em auto; display: block;}
+		.FormList { display: inline-block; margin-top: 0.5em; width: 100%; padding: 0; height: 100%; }
+			.FormItem { display: block; padding: 0.571em 0.5em 0.286em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; position: relative; }
+			.FormItem .FormItem { padding: 0 0 1.143em; }
+			.MobilePrefixFormItem { max-width: 25%; float: left;}
+			.MobileNbFormItem { max-width: 71%; float: right; }
+			@media (min-width: 600px) { 
+				.RegisterList .TitleFormItem, .RegisterList .UsernameFormItem { margin-bottom: 0; }
+				.FirstNameFormItem, .SurnameFormItem { max-width: 50%; float: left; margin-bottom: .5em; }
+				.SurnameFormItem { float: right; }
+			}
+			@media (min-width: 800px) { 
+				.CountryFormItem, .CityFormItem, .PasswordFormItem, .pass2FormItem, .Address1FormItem, .PostalCodeFormItem { max-width: 50%; float: left; margin-bottom: .5em; }
+				.CountryFormItem, .CityFormItem, .Address1FormItem, .PostalCodeFormItem { margin-bottom: 0; }
+				.CityFormItem, .pass2FormItem, .PostalCodeFormItem { float: right; }
+				.CurrencyFormItem { max-width: 28%; float: left; } 
+				.MobileNumberBox { max-width: 72%; float: right; }
+				.InnerFormItem.MobilePrefixFormItem { max-width: 28%; }
+				.InnerFormItem.MobileNbFormItem { max-width: 68.5%; width: auto; }
+			}
+
+			.OK {  }
+			.Error {  }
+				.FormLabel { display: block; line-height: 2em; padding: 0.2857em 0.2142em; font-weight: bold; }
+				.FormInput { box-shadow: inset 0 1px 2px #a7a7a7, 0 0 1px #eee; display: block; float: none; width: 100%; max-width: 100%; font-size: 1.143em; padding: .6667em .5em .5em .333em; position: relative; z-index: 1; border: 0.0714em solid #ccc9c0; -moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; -o-border-radius: 0.5em; -khtml-border-radius: 0.5em; border-radius: 0.5em; text-indent : 0.2142em; }
+				select.FormInput { max-width: 100%; padding: 0.5em 0.75em 0.5em 0.143em; width: 100%; -webkit-appearance: searchfield;  //menulist
+					background-color: #f9f9f9;
+					background-image: url("img/down-arrow.png");
+					background-position: 98% 50%;
+					background-repeat: no-repeat;
+					background-size: auto 60%;
+				}
+				// birthSelect 
+				.birthSelect { display: inline-block; width: 100%; max-width: 100%; padding: .5em 0; -webkit-appearance: searchfield; box-shadow: inset 0 1px 2px #a7a7a7,0 0 1px #eee; -webkit-box-shadow:inset 0 1px 2px #a7a7a7,0 0 1px #eee; border: .0714em solid #ccc9c0; -moz-border-radius: .5em; -webkit-border-radius: .5em; -o-border-radius: .5em; -khtml-border-radius: .5em; border-radius: .5em; text-indent: .2142em; font-size: 1.143em; margin-bottom: 1em;}
+				select.birthSelect { background-color: #f9f9f9; background-image: url("img/down-arrow.png"); background-position: 94% 50%; background-repeat: no-repeat; background-size: auto 60%; }
+				.birthSelect.birth-year { margin-bottom: 0; }
+
+				.FormLabel[for="registerCountry"], .FormLabel[for="txtAddress2"], .FormLabel[for^="registerPassword"], .FormLabel[for="registerQuestion"]{ line-height: 1.25em;}
+				.AllowNewsEmailFormItem { clear: both; }
+
+			form fieldset{position: relative;}
+			.ErrorContainer{position: absolute; top: 0; left: 0; right: auto; bottom: auto; z-index: 99;}
+			.ErrorTitle{font-weight: bold;}
+			.Popup{}
+			.Popup .BoxContent { background-color: rgba(17, 17, 17, 0.87); border: 1px solid #000000; box-shadow: 0 0 5px #111111;  color: #FFFFFF; line-height: 2em; margin: 0 auto; padding: 1.5em; width: 66.66%; }
+			.Popup p{margin-bottom:1em; }
+			.Popup .Button { background-color: #000000; border: 1px solid #000000; box-shadow: 0 0 5px #111111; color: #FFFFFF; margin: 0.333em auto; text-shadow: 0 1px 0 #000000; }
+			.Popup .ButtonText { background-position: center bottom; padding: 0.3571em 1em; background-size: 150% 500%; }
+			.Popup .Button:hover{background-color: #D20000; color: #FFFFFF; text-shadow:0 1px 0 #000;}
+
+
+				.InputDisabled{ 	opacity: 0.5;	color: #DDD; cursor: not-allowed;}
+				.InputDisabled .FormLabel, .InputDisabled .FormInput, .InputDisabled .FormBulletLabel { color: #DDD;cursor: not-allowed; }
+				.InputDisabled .FormInput {background: url("img/bg-darken-pattern.png") repeat-x scroll left center #FFFFFF;}
+				.InputDisabled .FormStatus, .InputDisabled .FormRadio{display: none;}
+
+				.FormCheck, .FormRadio { display: block; float: left; top: 0.75em; opacity: 0; position: absolute; left: 0.5em; width: 2em; height: 2em; z-index: 2; }
+				// input[type=radio] { display: none; }
+				// input[type=radio] + label { padding: 0.25em 0 0.25em 2em; background-image: url('img/radio_bg_uncheck.png'); background-repeat: no-repeat; background-position: left 4px; font-size: 1em; margin: 0; font-weight: bold; color: #FFF; display: block; line-height: 1.5em; min-height: 1.333em}
+				// input[type=radio]:checked + label {  background-image: url('img/radio_bg_check.png');}
+				input[type=radio] + label, input.FormCheck ~ .FormLabel, .SquareForm .FormRadio + label, .FormCheckLabel { padding-left: 36px; position: relative; line-height: 1.333em; padding: .587em .2142em .587em 3em; white-space: normal;}
+				input[type=radio] + label:after { content:""; display: block; margin: 0px;width: 24px; height: 24px; cursor: pointer; vertical-align: middle; background-color: rgba(215, 203, 203, 0.2); background-repeat: no-repeat; text-indent: -9999px; white-space: nowrap; font-size: 0; position: absolute; left:0; top:6px; 
+				    background-image: -webkit-radial-gradient(hsla(200, 100%, 90%, 1) 0%, hsla(200, 100%, 70%, 1) 15%, hsla(200, 100%, 60%, 0.3) 28%, hsla(200, 100%, 30%, 0) 70%);
+				    background-image: -moz-radial-gradient(hsla(200, 100%, 90%, 1) 0%, hsla(200, 100%, 70%, 1) 15%, hsla(200, 100%, 60%, 0.3) 28%, hsla(200, 100%, 30%, 0) 70%);
+				    background-image: -o-radial-gradient(hsla(200, 100%, 90%, 1) 0%, hsla(200, 100%, 70%, 1) 15%, hsla(200, 100%, 60%, 0.3) 28%, hsla(200, 100%, 30%, 0) 70%);
+				    background-image: radial-gradient(hsla(200, 100%, 90%, 1) 0%, hsla(200, 100%, 70%, 1) 15%, hsla(200, 100%, 60%, 0.3) 28%, hsla(200, 100%, 30%, 0) 70%);
+				    -webkit-border-radius: 12px;
+				       -moz-border-radius: 12px;
+				            border-radius: 12px;    
+				        
+				    -webkit-box-shadow: hsla(0, 0%, 100%, 0.15) 0 1px 1px, inset hsla(0, 0%, 0%, 0.5) 0 0 0 1px;
+				       -moz-box-shadow: hsla(0, 0%, 100%, 0.15) 0 1px 1px, inset hsla(0, 0%, 0%, 0.5) 0 0 0 1px;
+				            box-shadow: hsla(0, 0%, 100%, 0.15) 0 1px 1px, inset hsla(0, 0%, 0%, 0.5) 0 0 0 1px;
+				        
+				    -webkit-transition: background-position 0.15s cubic-bezier(0.8, 0, 1, 1), -webkit-transform 0.25s cubic-bezier(0.8, 0, 1, 1);
+				       -moz-transition: background-position 0.15s cubic-bezier(0.8, 0, 1, 1), -moz-transform 0.25s cubic-bezier(0.8, 0, 1, 1);
+				        -o-transition: background-position 0.15s cubic-bezier(0.8, 0, 1, 1), -o-transform 0.25s cubic-bezier(0.8, 0, 1, 1);
+				            transition: background-position 0.15s cubic-bezier(0.8, 0, 1, 1), transform 0.25s cubic-bezier(0.8, 0, 1, 1);
+				    background-position: 0 24px;
+				    transition:all .333s ease-in-out;
+				    -webkit-transition:all .333s ease-in-out;
+				}
+				input[type=radio]:checked + label:after { background-position: 0 0; background-color: hsla(0, 0%, 0%, 0.2);}
+
+				/* Square Form Element */
+				.SquareForm{}
+				.SquareForm .FormRadio { display: block; opacity: 0; width: 2em; height: 2em; z-index: 2; position: absolute; top: 1em; }
+				input.FormCheck ~ .FormLabel:before, .SquareForm .FormRadio + label:before, .FormCheckLabel:before { font-family: 'icomoon'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; text-indent: 0; white-space: nowrap; color: #444; content:"\e019"; display: block; margin: 0px;width: 24px; height: 24px; cursor: pointer; vertical-align: middle; background-color: transparent;  font-size: 1.865em; position: absolute; left:0; top:4px; -webkit-transition: all 0.333s ease-in-out 0; transition: all 0.333s ease-in-out 0; }
+				.SquareForm .FormRadio + label:before { color: #444; content:"\e019"; }
+				.FormCheckLabel:before { top: 8px; }
+				input.FormCheck:checked ~ .FormLabel:before, .SquareForm .FormRadio:checked + label:before, input.FormCheck:checked ~ .FormCheckLabel:before { content:"\e01c"; color: #FFF; }
+
+				.FormBulletLabel { display: block; float: left; font-weight: bold; margin: 0 .5em; }
+				.FormBulletDesc { display: block; float: left; clear: left; margin: 0 1.5em; }
+				textarea.FormInput { padding: 0.5257em; width: 100%; }
+					.ButtonAttached { -moz-border-radius: 0.5em 0 0 0.5em; -webkit-border-radius: 0.5em 0 0 0.5em; -o-border-radius: 0.5em 0 0 0.5em; -khtml-border-radius: 0.5em 0 0 0.5em; border-radius: 0.5em 0 0 0.5em; }
+				.FormStatus { display: none; float: left; width: 1.5714em; height: 1.5714em; margin: 0.2142em 0 0 -1.7857em; position: relative; z-index: 3; background: url("img/temp-icon-small.png") no-repeat; overflow: hidden; text-indent: 100%; white-space: nowrap; }
+				.FormGeotag, #formGeotag { display: block; float: left; width: 1.5714em; height: 1.5714em; margin: 0 0 0 -0.0714em; padding: 0.1428em; background: cyan; border: 0.0714em solid #999; overflow: hidden; text-indent: 100%; white-space: nowrap; -moz-border-radius: 0 0.5em 0.5em 0; -webkit-border-radius: 0 0.5em 0.5em 0; -o-border-radius: 0 0.5em 0.5em 0; -khtml-border-radius: 0 0.5em 0.5em 0; border-radius: 0 0.5em 0.5em 0; }
+				.FormHelp { display: block; padding: 0.2727em 1em 0 1em; overflow: hidden; font-size: 0.7857em; line-height: 1em; }
+					.Error .FormHelp, .FormError { color: #f00; }
+					.OK .FormHelp, .FormOk{ color: #00ab00; }
+					.Ok .FormHelp {  display: none; }
+					/*.FormError .FormInput, .Error .FormInput { border: 1px solid #A72107; box-shadow: 0 1px 2px #C1553F inset, 0 0 2px #9A2008; color: #A72107; }*/
+					.FormError .FormInput, .Error .FormInput { box-shadow: 0 1px 6px #651100 inset, 0 0 0.75em #B11D00, 0 1px 0 #F00, 1px 0 0 #F00, -1px 0 0 #F00, 0 -1px 0 #F00; color: #A72107; }
+					.FormError .FormInput:focus, .Error .FormInput:focus { color: #111; box-shadow: 0 0 0.75em #FF0404,0 1px 0 #F00, 1px 0 0 #F00, -1px 0 0 #F00, 0 -1px 0 #F00;  }
+					.FormAdditional{ display:block; clear:both;}
+				.CompositeInput {  display: block; float: left; width: 74%; } 
+					.CompositeInput .FormInput { width: 90%; padding-right: 0.75em; }
+					.CompositeInput .Col:last-child .FormInput{float: right;}
+					.DateInput #registerYear{ max-width: 100%}
+		.AccountButtonContainer { margin: 2.5em auto 1em;  max-width: 600px; }
+		.ProfileList + .AccountButtonContainer { margin: 1.5em auto 0; }
+			.AccountButton { display: block; width: 100%; padding: 0; cursor: pointer; }
+			.PromoContent .AccountButton { float: right; max-width: 10em; }
+				.AccountButton .ButtonText { padding: 0.5em; font-size: 1.4285em; text-align: center; text-transform: none; font-weight: normal; letter-spacing: 0; }
+				.AccountButtonContainer .SignUpLink.SignUpBtn_V2 { margin: 1em auto 0; max-width: 14em; width: auto; font-size: 1.143em; float: none; line-height: 1; padding: 0; }
+
+					.AmountFields .FormHelp{text-align: center; line-height: 1.5em}
+					.AmountText { clear: both; color: #8C8980; display: block; font-size: 0.857em; margin: 1em 25%; text-shadow: 0 1px 0 #FFFFFF; width: auto; text-align: center;}
+					.MinAmount{ margin-right: 3em; }
+					.AmountText .AmountValue{ font-weight: bold;}
+					.AmountBox, .AccountBox { margin: 1em auto 0; display:block; max-width: 600px; }
+					.AmountBox .FormInput { background: none repeat scroll 0 0 transparent; border: 0 none; border-radius: 0 0 0 0; box-shadow: none; display: block; float: none; font-size: 0.875rem; left: 0; line-height: inherit; max-width: 70%; padding: 0.643em 0.286em 0.5em; position: relative; width: 75%; z-index: 0; }
+					.AmountContainer{ display: block; background-color: #FFF; border-radius: 0.5em; border:0.0714em solid #D3D0C7; position: relative; box-shadow: 0 0px 2px rgba(51, 51, 51, 0.58) inset;}
+						.AmountInfo {display: block; float: left; padding: 0.5em 1em; background-color: #C1C0BC; position: relative; z-index: 2; box-shadow: 0 1px 0 #C1C0BC; color: #A0A09D; text-shadow: 0 1px 0 #FFFFFF;}
+						.AmountInfo.DecreaseAmount{ float: left; border-radius: 0.5em 0 0 0.5em }
+						.AmountInfo.IncreaseAmount{float: right; border-radius: 0 0.5em 0.5em 0} 
+						.AmountInfo .ButtonText {  background: none repeat scroll 0 0 transparent; }
+
+					.AccountBox .FormInput{width: 100%; max-width: 100%; padding-right: 0.75em;}
+
+					/* Circle Form Radio check */
+					.CircleForm{}
+					.CircleForm input[type="radio"] { display: none; }
+					.CircleForm input + label { padding: 0.25em 0 0.25em 2em; background-image: url('img/form_round_radio_bg.png'); background-repeat: no-repeat; background-position: left 4px; font-size: 1em; margin: 0; font-weight: bold; color: #FFF; display: block; line-height: 1.5em;}
+					.CircleForm input:checked + label { background-position: left -34px;}
+					
+					form[action^="/Withdraw/MobilePrepareTransaction/"] { margin: 0 1em;}
+					.PayCardList li { background-color: rgba(126, 125, 105, 0.25); border-radius: 0.5em 0.5em 0.5em 0.5em; margin: 0.5em 0; padding: 0.25em 0.75em; }
+					.SelectBonusType { margin-bottom: 1.5em; }
+
+
+	.StatusContainer { padding: 1em; }
+	.StatusBackground { display : block; margin : 0; padding : 1em; background : #eee url("img/bg-button.png") left top repeat-x; background-size : 100% 400%; border : 0.0833em solid #ccc; font-size : 1em; line-height : 1.5em; -moz-border-radius : 1em; -webkit-border-radius : 1em; -o-border-radius : 1em; -khtml-border-radius : 1em; border-radius : 1em; -moz-text-shadow : 0 0.0833em 0 #fff; -webkit-text-shadow : 0 0.0833em 0 #fff; -o-text-shadow : 0 0.0833em 0 #fff; -khtml-text-shadow : 0 0.0833em 0 #fff; text-shadow : 0 0.0833em 0 #fff; -moz-box-shadow : 0 0.1666em 0.1666em #9A9A9A; -webkit-box-shadow : 0 0.1666em 0.1666em #9A9A9A; -o-box-shadow : 0 0.1666em 0.1666em #9A9A9A; -khtml-box-shadow : 0 0.1666em 0.1666em #9A9A9A; box-shadow : 0 0.1666em 0.1666em #9A9A9A; }
+	.StatusIcon { float: left; background: transparent url("img/status_icons.png") no-repeat; font-size: 0.875rem; width: 1.5714em; height: 1.857em; margin: 0.143em 0.75em 0.2857em 0; overflow: hidden; text-indent: 100%; white-space: nowrap; }
+	.StatusTitle { display : block; margin : 0; font-size : 1.5714em; font-weight : bold; }
+	.StatusMessage { overflow : hidden; }
+
+	.InfoStatus .StatusIcon {  }
+	.InfoStatus .StatusBackground { background-color: #FFFFFF; background-position: left -600px; border: 0.0833em solid #176AC2; color: #176AC2; text-shadow: 0 0.1111em 0 #F4F4F4; }
+
+	.SuccessStatus .StatusIcon { background-position: -22px -2px; }
+	.SuccessStatus .StatusBackground { background-color: #FFFFFF; background-position: left -600px; border: 0.0833em solid #008C03; color: #166509; text-shadow: 0 0.1111em 0 #F4F4F4; }
+
+	.WarningStatus .StatusIcon { background-position: -44px -2px; }
+	.WarningStatus .StatusBackground { background-color : #FEFD64; background-position : left -1.25em; color : #440808; border : 0.0833em solid #FFF; text-shadow : 0 0.1111em 0 #DEDEDE; }
+
+	.ErrorStatus .StatusIcon { background-position: -66px 0; }
+	.ErrorStatus .StatusBackground { background-color : #ef0000; background-position : left -0.5em; color : #fff; border : 0.0833em solid #8c0000;  text-shadow : 0 -0.0833em 0 #8c0000; }
+	.ErrorStatus .StatusBackground a{ color: #FFFFFF;  text-shadow: 0 1px 0 rgba(0,0,0,.85);  }
+	.ErrorStatus .StatusBackground a:hover{ color: #F7D724; }
+
+	.DepositStatus { background: none repeat scroll 0 0 transparent; border-color: transparent transparent #DDDDDD; border-radius: 0 0 0 0; border-style: none none solid; border-width: 0 0 1px; box-shadow: none; display: block; font-size: 1em; line-height: 1.5em; margin: 0; padding: 1em; text-shadow: 0 0.0833em 0 #FFFFFF; }
+	.DepositStatus .StatusBackground{background: none transparent; border: 0 none; color: #999; box-shadow: none; padding: 0; margin: 0 auto; }
+	.DepositStatus .StatusTitle{font-size: 1.143em; font-weight: bold; margin: 0.125em auto 0.250em; color: #111; }
+	/*.DepositStatus h3{font-size: 1em; line-height: 1.5em; display: block; margin: 0.250em auto 1em;}*/
+	.DepositStatus .StatusMessage{font-style: italic; color: #999;}
+
+	/* Hide Print button */
+	.TextBox .button { display: none; }
+
+
+
+//------------------------
+// Deposit Categories
+//------------------------
+.DepositPage_V2 {
+	.CircleWrapper  { display: none; }
+}
+.TopGuide { display: block; clear:both; float:none; width: 100%; height: 4em; overflow: hidden; background: #bdbbbb; color: #000;
+	.goBackLink, .paymentInfo { display: inline-block; width: 50%; max-width: 49%; padding: 0; margin: 0; height: 100%; }
+	.BackButton { 
+		color: #000; margin: 0.25em 0 0; font-weight: bold; 
+		.ActionArrow { color: #D20000; }
+	}
+	.paymentInfo { 
+		padding: 0.5em; 
+		.Card { display: block; float:right; width: auto; height: 100%; max-width: 110px; }
+	}
+}
+
+	
+.DepositContent_V2 { 
+	position: relative; 
+	@media (max-width: 320px) { 
+		&.BoxContent {
+			padding: 0;
+			border-radius: 0;
+		}
+	}
+	.CircleWrapper { display: none; }
+}
+.DepositOptionsList { 
+	&.CenterBox { margin: 1em auto 1em; }
+	@media (max-width: 480px) {
+		&.DepositStep3 { 
+			max-width: 100%; 
+		}
+	}	
+
+}
+
+.DepositContent_V2 { @include Transition(.3s, ease-in-out);  }
+
+.DepositCategories_V2 { 
+	background: #b2b1b1; position: relative; z-index: 3; 
+	@include Transition(.3s, ease-in-out);
+	// &.SwipeUp { 
+	// 	margin-top: -652px; 
+	// 	@media (min-width: 768px) { 
+	// 		margin-top: -660px; 
+	// 	}
+	// }
+}
+.DepositList_V2 { 
+	position: relative; 
+	top: 2%; left: 2%; right: 2%; z-index: 1; width: 96%; height: auto;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	@include Transition(.3s, ease-in-out);
+	&.ActiveCategory { opacity: 1; z-index: 2; visibility: visible; display: block; }
+	.DepositBack { display: inline-block; clear: both; width: 100%; float: none; min-height: 10px; background: none; height: 60px; border-bottom:0 none; background: none; }
+}
+
+.DepositItem_V2, .DepositCard_V2 {
+	display: block;
+	width: 50%;
+	max-width: 50%;
+	float: left;
+	border: 1px solid #777;
+	border-bottom: 0 none;
+	background: none repeat scroll 0 0 #b2b1b1;
+	&:nth-child(2n) { border-left: 0 none;}
+}
+.DepositItem_V2.DepositCard_V2 { border-bottom: 1px solid #777; }
+
+.DepositTitle_V2 {
+	display: inline-block;
+	font-size: 2em;
+	transition: all 0.333s ease-in-out;
+	-webkit-transition: all 0.333s ease-in-out;
+	height: 100%;
+	width: 100%;
+	&.CardHeader { height: auto; overflow: hidden;}
+
+	.CardText { display: none; }
+	.CardDetails { display: block; font-size: 0.75rem; color: #373737; padding: 0.333rem; max-width: 100%; margin: 0.5em auto 0 1em; text-shadow:0 1px 1px #ddd; }
+	.FirstDetails, .DTM { display: block; clear: both; line-height: 1.333em;}
+	
+	@media (max-width: 320px) { 
+		font-size: 1.5em; 
+		&.CardHeader { height: auto; overflow: hidden;  }
+	}
+	
+}
+.DepositCategoryTitle {
+	display: block;
+	clear: right;
+	font-size: 1.5em;
+	line-height: 2.5;
+	color: #575757;
+	@include TextShadow(0 -1px 0 #000);
+	width: 65%;
+	margin: 0.3333em 0;
+	padding: 0 .4285em 0 0;
+	text-align: right;
+	text-indent: 0.5em;
+	float:right;
+	text-transform: uppercase;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	@media (max-width: 320px) {
+		font-size: 1em; line-height: 4;
+	}
+}
+	.DepositLink {
+		background: #e2dfdf;
+		@include box-shadow(0 0 2.5em 1em #B3B3B3 inset, 0 0 2em #DDD);
+		display: block;
+		color: #444444;
+		border: 4px solid #444;
+		border-radius: 50%;
+		text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+		vertical-align: middle;
+		line-height: 1;
+		max-height: 150px;
+		max-width: 150px;
+		overflow: hidden;
+		width: 150px;
+		height: 150px;
+		margin: 10% auto;
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		text-transform: capitalize;
+		font-size: inherit;
+		@media (max-width: 320px) { 
+			width: 120px; 
+			height: 120px;
+
+		}
+	}
+		.DepositCatText {
+			display: table-cell;
+			vertical-align: middle;
+			padding: 10px;
+			font-size: 1em;
+			font-weight: 400;
+			font-family: Arial,Tahoma,sans-serif;
+			height: 120px;
+			width: 140px;
+			text-align: center;
+			position: relative; 
+			max-width: 150px; 
+			@media (max-width: 320px) { 
+				width: 120px;
+				height: 100px;
+				max-width: 130px;
+			}
+			&:after { top: 85%; left: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(163, 17, 17, 0); border-top-color: #a31111; border-width: 1em; margin-left: -1em; }
+		}
+
+
+//-----------
+// Loading DIV LoaderContainer 
+//----------------
+.LoaderContainer { display: inline-block; width: 100%; clear: both; margin: 0 auto; font-size: 2rem; max-width: 100%; padding: 0 10%; text-align: center;}
+	.LoadingContent { }
+		//loading icon .LoadMessage { width: 1em; height: 1em; display: inline-block; margin: 0 0.5rem 0 0; font-size: 2.5rem; color: #eee;position: relative;top: 4px; } 	
+		.LoadingIcon { }
+		//loading text
+		.LoadDetails { display: block; clear: both; font-size: 1rem; font-family: 'Roboto', Arial, Helvetica, sans-serif; font-weight: bold; }	
+
+@-moz-keyframes anim-rotate {
+	  0% { -moz-transform: rotate(0); }
+	100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes anim-rotate {
+	  0% { -webkit-transform: rotate(0); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes anim-rotate {
+	  0% { transform: rotate(0); }
+	100% { transform: rotate(360deg); }
+}
+
+.spinner {
+	display: inline-block;
+	font-size:3em;
+	height: 1em;
+	line-height: 1;
+	margin: .5rem;
+	-webkit-animation: anim-rotate 2s infinite linear;
+	-moz-animation: anim-rotate 2s infinite linear;
+	animation: anim-rotate 2s infinite linear;
+	color: #fff;
+	text-shadow: 0 0 .25em rgba(255,255,255, .3);
+}
+.spinner--steps {
+	-webkit-animation:anim-rotate 1s infinite steps(8);
+    -moz-animation:anim-rotate 1s infinite steps(8);
+    animation: anim-rotate 1s infinite steps(8);
+}		

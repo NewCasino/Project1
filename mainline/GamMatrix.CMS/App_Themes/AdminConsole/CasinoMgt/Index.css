@@ -1,0 +1,112 @@
+﻿#properties-links { position:relative; display:block; }
+
+#properties-links ul { width:500px; display:block; /*position:absolute; left:0px; bottom:0px;*/ }
+#casino_type_radio { display:block; clear:both; /*position:absolute; right:0px; bottom:0px;*/ }
+    #casino_type_radio.ui-buttonset .ui-button{ margin-top:5px;} 
+#casino_type_checkbox { display:inline-block; position:absolute; right:0px; bottom:0px; }
+
+#properties-links ul { padding:0px; margin:0px; font-style:normal;}
+#properties-links li { overflow:auto; float:left; list-style-type:none; margin-left:5px; }
+#properties-links a { color:#666666; padding-left:18px; background-repeat:no-repeat; background-position:left middle; text-decoration:none; font-style:normal;}
+#properties-links a:hover { text-decoration:underline; }
+.seperator { border:dotted 1px #CCCCCC; width:100%; }
+#properties-links .refresh { background:url("../img/tools_sprites.png") no-repeat 0px 0px; }
+#properties-links .save { background:url("../img/tools_sprites.png") no-repeat 0px -200px; }
+#properties-links .clearcache { background:url("../img/tools_sprites.png") no-repeat 0px -240px; }
+#properties-links .sync { background:url("../img/tools_sprites.png") no-repeat 0px -300px; }
+
+#categories-links { display: block; width:100%; overflow:auto; }
+#categories-links ul { padding:0px; margin:0px; font-style:normal;}
+#categories-links li { overflow:auto; float:left; list-style-type:none; margin-left:5px; }
+#categories-links a { color:#666666; padding-left:18px; background-repeat:no-repeat; background-position:left middle; text-decoration:none; font-style:normal;}
+#categories-links a:hover { text-decoration:underline; }
+#categories-links .history { background:url("../img/tools_sprites.png") no-repeat 0px -60px; }
+
+#live-casino-tables-links { display: block; width:100%; overflow:auto; }
+#live-casino-tables-links ul { padding:0px; margin:0px; font-style:normal;}
+#live-casino-tables-links li { overflow:auto; float:left; list-style-type:none; margin-left:5px; }
+#live-casino-tables-links a { color:#666666; padding-left:18px; background-repeat:no-repeat; background-position:left middle; text-decoration:none; font-style:normal;}
+#live-casino-tables-links a:hover { text-decoration:underline; }
+#live-casino-tables-links .history { background:url("../img/tools_sprites.png") no-repeat 0px -60px; }
+
+ul.casino-categories-links a { color:#666666; padding-left:18px; background-repeat:no-repeat; background-position:left middle; text-decoration::underline; font-style:normal;}
+ul.casino-categories-links .translate { background:url("../img/tools_sprites.png") no-repeat 0px -220px; }
+ul.casino-categories-links .up { background:url("../img/tools_sprites.png") no-repeat 0px -320px; }
+ul.casino-categories-links .down { background:url("../img/tools_sprites.png") no-repeat 0px -340px; }
+
+
+
+
+.game-table { width:100%; margin-top:10px; border:solid 1px #6BA6D6;  }
+.game-table thead th { background-color:#6BA6D6; color:White; font-size:14px; font-weight:bold; }
+.game-table tbody td { background-color:#A8CAE6; }
+
+.game-table a { color:blue; font-weight:normal; text-decoration:none; }
+.game-table a:hover { text-decoration:underline; }
+a.dialog-link { font-size:10px; }
+
+.game-table tbody td { color:#000000; }
+
+.game-table tfoot { background-color:#D9E8F4; }
+.game-table tfoot ul { margin:0px 0px 0px 0px; padding-left:20px; }
+
+
+.game-attributes { width:100%; }
+.game-attributes li { width:250px; float:left; }
+
+.ifmDialog { width:100%; height:560px; }
+#ddlCountry { width:100%; }
+.button-contaner { text-align:right;}
+
+#tree-wrapper { width:60%; min-height:450px; border:solid 1px #666666; float:left; overflow:auto; }
+#content-wrapper { width:39%; border:solid 1px #666666; float:right; }
+
+#tree-wrapper ul { padding:0px; margin:0px; list-style-type:none; }
+#tree-wrapper li { padding:0px; margin:0px; }
+#tree-wrapper .category { display:block; background-color:#6BA6D6; border-bottom:solid 1px #1C4566; }
+#tree-wrapper .category > span { height:24px; background:url(/images/icon/folder.png) no-repeat scroll left top; cursor:default; padding-left:20px; margin-left:5px; line-height:24px;  color:White; font-size:14px; font-weight:bold; }
+#tree-wrapper .game { height:24px; background-color:#D9E8F4; border-top:dotted 1px #6BA6D6;}
+#tree-wrapper .game > span { display:inline-block; height:24px;  vertical-align:middle; color:Black;  background:url(/images/icon/icon_package.gif) no-repeat scroll left 3px; cursor:default; padding-left:20px; margin-left:35px; line-height:24px;  color:Black; font-size:12px; font-weight:normal; }
+#tree-wrapper .place-holder { height:24px; background-color:White; border:dotted 2px blue; }
+#tree-wrapper .grouped-games .place-holder { margin-left:60px; }
+#tree-wrapper .to-be-moved { display:none; }
+
+#tree-wrapper .grouped-games { background-color:#A8CAE6;  border-top:dotted 1px #6BA6D6; }
+#tree-wrapper .grouped-games .game > span { margin-left:60px; }
+#tree-wrapper .grouped-games > span { display:inline-block; height:24px;  vertical-align:middle; color:Black;  background:url(/images/icon/icon_attachment.gif) no-repeat scroll left 3px; cursor:default; padding-left:20px; margin-left:35px; line-height:24px;  color:Black; font-size:12px; font-weight:normal; }
+
+#tree-wrapper .toolbar { height:16px; float:right; margin-right:4px; margin-top:4px; }
+#tree-wrapper .toolbar a { border:0px; }
+#tree-wrapper .toolbar .move_up { background:url(../img/16x16tools.png) no-repeat scroll left top; display:inline-block; width:16px; height:16px; }
+#tree-wrapper .toolbar .move_up:hover { background:url(../img/16x16tools.png) no-repeat scroll -16px top; }
+#tree-wrapper .toolbar .move_down { background:url(../img/16x16tools.png) no-repeat scroll -32px top; display:inline-block; width:16px; height:16px; }
+#tree-wrapper .toolbar .move_down:hover { background:url(../img/16x16tools.png) no-repeat scroll -48px top; }
+#tree-wrapper .toolbar .delete { background:url(../img/16x16tools.png) no-repeat scroll -64px top; display:inline-block; width:16px; height:16px; }
+#tree-wrapper .toolbar .delete:hover { background:url(../img/16x16tools.png) no-repeat scroll -80px top; }
+#tree-wrapper .toolbar .edit { background:url(../img/16x16tools.png) no-repeat scroll -96px top; display:inline-block; width:16px; height:16px; }
+#tree-wrapper .toolbar .edit:hover { background:url(../img/16x16tools.png) no-repeat scroll -112px top; }
+
+
+#tree-wrapper .toolbar img { border:0px; }
+
+
+#content-wrapper .title-bar { width:100%; background-color:#6BA6D6; padding-top:5px; padding-bottom:5px; }
+#content-wrapper ul { padding:0px; margin:0px; }
+#content-wrapper li { padding:0px; margin:0px; }
+#content-wrapper .list { height:400px; overflow:auto; hutia:expression(this.onselectstart=function(){return(false)}); user-select: none; -o-user-select:none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+.list .game { height:24px; background-color:#D9E8F4; vertical-align:middle; line-height:24px; border-bottom:dotted 1px #6BA6D6; }
+.list .game span { cursor:default; margin-left:10px; padding-left:20px; background:url(/images/icon/action_back.gif) no-repeat scroll left 0px; }
+#content-wrapper .game .toolbar { display:none; }
+
+#content-wrapper .list .to-be-moved { color:Blue; }
+
+.float-list { margin:0px; padding:0px 20px 0px 20px; background-color:#D9E8F4; list-style-type:none; position:absolute; display:inline-block; filter: Alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; border:dotted 2px blue; }
+
+#context-menu { margin:0px; padding:0px;  position:absolute; top:200px; left:100px; display:inline-block; list-style:none; background-color:#FFF; border:solid 1px #000; box-shadow: 4px 4px 5px #888; -moz-box-shadow:  4px 4px 5px #888; -webkit-box-shadow: 4px 4px 5px #888; }
+#context-menu li { margin:0px; padding:0px; }
+#context-menu a { padding:0px 5px 0px 25px; display:block; height:24px; vertical-align:middle; line-height:24px; text-decoration:none; }
+#context-menu a:hover { background-color:#5555AA; color:#FFF; }
+#context-menu .lnkCreateCategory { background:url("/images/icon/folder_add.png") no-repeat 4px 4px; }
+#context-menu .lnkCreateGroupedGames { background:url("/images/icon//icon_attachment.gif") no-repeat 4px 4px; }
+
+

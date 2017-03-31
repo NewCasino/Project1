@@ -1,0 +1,82 @@
+﻿#editor-wrapper { width:100%; padding-top:2px; }
+.fullscreen { position:absolute; top:0px; left:0px; height:100%; z-index:999; background-color:white; }
+
+#editor-toolbar
+{
+    padding:0px;
+    margin:0px;
+    width:100%;
+}
+
+#editor-toolbar li
+{
+    float:left;
+    list-style-type:none;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+
+#editor-toolbar li a
+{
+    color:#666666;
+    padding-left:18px;
+    background-repeat:no-repeat;    
+    background-position:left middle;
+    text-decoration:none;
+    font-style:normal;
+}
+
+#editor-toolbar li a:hover { text-decoration:underline; }
+
+#editor-toolbar .icoFullscreen a { background-image:url(/images/icon/box.gif); }
+#editor-toolbar .icoSave a { background-image:url(/images/icon/disk.png); }
+#editor-toolbar .icoReload a { background-image:url(/images/icon/action_refresh.gif); }
+#editor-toolbar .icoOverride a { background-image:url(/images/icon/star.png); }
+#editor-toolbar .icoUnoverride a { background-image:url(/images/icon/layers.png); }
+#editor-toolbar .icoCompare a { background-image:url(/images/icon/layers.png); }
+#editor-toolbar .icoMasterPage a { background-image:url(/images/icon/application_side_expand.png); }
+#editor-toolbar .icoVersion a { background-image:url(/images/icon/database_save.png); }
+#editor-toolbar .icoFileManager a { background-image:url("/images/icon/images.png"); }
+#editor-toolbar .icoMetadata a { background-image:url("/images/icon/bricks.png"); }
+
+
+#css-editor-wrapper { width:100%; padding-top:2px; }
+.fullscreen { position:absolute; top:0px; left:0px; height:100%; z-index:999; background-color:white; }
+
+#css-editor-toolbar
+{
+    padding:0px;
+    margin:0px;
+    width:100%;
+}
+
+#css-editor-toolbar li
+{
+    float:left;
+    list-style-type:none;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+
+#css-editor-toolbar li a
+{
+    color:#666666;
+    padding-left:18px;
+    background-repeat:no-repeat;    
+    background-position:left middle;
+    text-decoration:none;
+    font-style:normal;
+}
+
+#css-editor-toolbar li a:hover { text-decoration:underline; }
+
+#css-editor-toolbar .icoFullscreen a { background-image:url(/images/icon/box.gif); }
+#css-editor-toolbar .icoSave a { background-image:url(/images/icon/disk.png); }
+#css-editor-toolbar .icoReload a { background-image:url(/images/icon/action_refresh.gif); }
+#css-editor-toolbar .icoOverride a { background-image:url(/images/icon/star.png); }
+#css-editor-toolbar .icoUnoverride a { background-image:url(/images/icon/layers.png); }
+#css-editor-toolbar .icoCompare a { background-image:url(/images/icon/layers.png); }
+#css-editor-toolbar .icoMasterPage a { background-image:url(/images/icon/application_side_expand.png); }
+#css-editor-toolbar .icoVersion a { background-image:url(/images/icon/database_save.png); }
+#css-editor-toolbar .icoViewHistory a { background-image:url("/images/icon/zoom.png"); }
+#css-editor-toolbar .icoFileManager a { background-image:url("/images/icon/images.png"); }

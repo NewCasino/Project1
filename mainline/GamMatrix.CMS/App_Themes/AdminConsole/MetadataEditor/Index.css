@@ -1,0 +1,4 @@
+﻿@import url("../HistoryViewer/Index.css");
+@import url("TabMetadata.css");
+
+.inputfield .controls { min-width:200px; }

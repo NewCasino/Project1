@@ -1,0 +1,6 @@
+﻿html, body { overflow:hidden; }
+#tutorial-wrapper { width:100%; height:100%; overflow:auto; background-image:url(../img/help.bg.png); background-repeat:no-repeat; background-attachment:fixed; background-position: right bottom; }
+
+#tutorial-wrapper .content { width:100%; height:100%; }
+#tutorial-wrapper .content .header { width:100%; height:52px; line-height:50px; vertical-align:middle; background-image:url(../img/tutorial_head.png) }
+#tutorial-wrapper .content .header h2 { padding:0px; margin:0px; margin-left:20px; }

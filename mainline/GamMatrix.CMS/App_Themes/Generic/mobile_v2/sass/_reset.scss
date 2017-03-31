@@ -1,0 +1,81 @@
+/*-----------------------
+	RESETS
+------------------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size : 100.01%; overflow-y : scroll; -webkit-overflow-scrolling : touch; -webkit-tap-highlight-color : rgba(0,0,0,0); -webkit-text-size-adjust : 100%; -ms-text-size-adjust : 100%; -ms-text-size-adjust : 100%; color : #999; background-color : #333; background-image: none;/*url("../img/bg-grid.png")*/ background-position: left top; background-repeat: repeat; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{ margin : 0; padding : 0; }
+body { font-family : Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", FreeSans, clean, sans-serif; font-size : 10.5pt; line-height : 1.5714em; }
+html>body { font-size : 10.5pt; }
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display : block; }
+audio[controls], canvas, video { display : inline-block; *display : inline; *zoom : 1; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style : normal; font-weight : normal; }
+table { border-collapse : collapse; border-spacing : 0; font-size : inherit; font : 100%; }
+	td { vertical-align : top; }
+	strong,th { font-weight : bold; }
+	caption,th { text-align : left; }
+h1,h2,h3,h4,h5,h6 { font-size : 100%; font-weight : normal; }
+b, strong { font-weight : bold; }
+blockquote, q { quotes : none; }
+	blockquote:before,blockquote:after,q:before,q:after { content : ''; content : none; }
+ul,ol { list-style-position : outside; margin : 0; }
+	ol { list-style-type : decimal; }
+	li { list-style : none; }
+	nav ul,nav li { margin : 0; list-style : none; list-style-image : none; }
+	em { font-style : italic; }
+	small { font-size : 85%; }
+	sup { vertical-align : top; }
+	sub { vertical-align : bottom; }
+	ins { background-color : #ff9; color : #080808; text-decoration : none; }
+	mark { background-color : #ff9; color : #080808; font-style : italic; font-weight : bold; }
+	del { text-decoration : line-through; }
+	pre { white-space : pre; white-space : pre-wrap; word-wrap : break-word; padding : 2em; }
+abbr,acronym { border : 0; font-variant : normal; }
+dfn { font-style : italic; }
+	abbr[title], dfn[title] { border-bottom : 1px dotted; cursor : help; }
+hr { display : block; height : 1px; border : 0; border-top : 1px solid #ccc; margin : 1em 0; padding : 0; }
+form { display : block; }
+	fieldset,img { border : 0; }
+	fieldset { display : block; }
+	form fieldset{position: relative;}
+	label { cursor : pointer; }
+	button,input,select,textarea { margin : 0; font-size : 100%; vertical-align : baseline; *vertical-align : middle; }
+	button, input { line-height : normal; *overflow : visible; }
+		button, input[type="reset"], input[type="button"], input[type="submit"] { line-height : 1.3333em; }
+	input,textarea,select { background : #eee left top repeat-x; color : #666; border : none; font-family : "PT Sans", Helvetica, Arial, "Nimbus Sans L", "Liberation Sans", FreeSans, clean, sans-serif; font-size : inherit; font-weight : inherit; vertical-align : middle; }
+	button, input[type="button"], input[type="reset"], input[type="submit"] { cursor : pointer; -webkit-appearance : button; }
+	input[type="checkbox"], input[type="radio"] { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+	input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration { display : none; }
+	input[type="search"] { -webkit-appearance : textfield; -moz-box-sizing : content-box; -webkit-box-sizing : content-box; box-sizing : content-box; }
+	button::-moz-focus-inner, input::-moz-focus-inner { border : 0; padding : 0; }
+	input:hover,textarea:hover,select:hover { background-color : #eee; color : #080808; }
+		.admin input:hover, .admin .textarea:hover, .admin select:hover { border : 1px solid #666; }
+	input:focus,textarea:focus,select:focus { background-color : #fff; color : #080808; box-shadow : 0 0 0.25em #eee; }
+	.admin input:focus, .admin textarea:focus, .admin select:focus { box-shadow : 0 0 1em #f00; }
+		.admin input:focus, .admin .textarea:focus, .admin select:focus { border : 1px solid #ef0000; }
+		input[type="checkbox"], input[type="radio"], input[type="search"], input[type="checkbox"]:hover, input[type="radio"]:hover, input[type="search"]:hover, input[type="checkbox"]:focus, input[type="radio"]:focus, input[type="search"]:focus { border : none; }
+	textarea { overflow : auto; vertical-align : top; }
+	input:valid,textarea:valid {  }
+	input:invalid,textarea:invalid {  } 
+	.no-boxshadow input:invalid,.no-boxshadow textarea:invalid { background-color : #f0dddd; }
+	legend { border : 0; padding : 0; }
+	form legend { display: none; visibility: hidden; height: 0; }
+img { border : 0; -ms-interpolation-mode : bicubic; max-width: 100%; }
+figure { margin : 0; }
+:-moz-any-link { cursor: pointer; text-decoration: none; outline: 0 none;}
+
+ // clearfix 
+ // Works in IE6 and up. by http://nicolasgallagher.com/micro-clearfix-hack/
+ // USAGE : .container-with-floated-children {   @extend %clearfix; }
+ //	------------------------------
+
+ %clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

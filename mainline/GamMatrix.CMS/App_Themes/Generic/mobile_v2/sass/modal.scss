@@ -1,0 +1,147 @@
+.md-perspective,
+.md-perspective body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.md-perspective body  {
+    background: #222;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    perspective: 600px;
+}
+
+.md-modal {
+    backface-visibility: hidden;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    right:25%;
+    width: 50%;
+    max-width: 630px;
+    min-width: 200px;
+    height: auto;
+    z-index: 2000;
+    visibility: hidden;
+    backface-visibility: hidden;
+    // transform: translateX(-50%) translateY(-50%);
+}
+ 
+.md-show {
+    visibility: visible;
+}
+ 
+.md-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0;
+    background: rgba(20, 4, 3, 0.8);
+    transition: all 0.3s;
+    background-image: url("./img/pattern-diagonal.png");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+ 
+.md-show ~ .md-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+.md-show ~ .Framework {
+    -webkit-filter: blur(2px);
+    -moz-filter:  blur(2px);
+    filter: blur(2px);
+}
+
+/* Content styles */
+.md-content {
+    color: #fff;
+    background: none repeat scroll 0 0 #3A250A;
+    position: relative;
+    border-radius: 3px;
+    margin: 0 auto;
+    box-shadow:0 0.25em 2em #000000, -1px 1px 2px rgba(249, 249, 249, 0.49);
+    border:1px solid #111111; 
+}
+
+.md-content h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 300;
+    opacity: 0.8;
+    background: none repeat scroll 0 0 rgba(163, 119, 0, 0.66);
+    border-radius: 3px 3px 0 0;
+}
+
+.md-content > div {
+    padding: 15px 40px 30px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.15em;
+}
+
+.md-content > div p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.md-content > div ul {
+    margin: 0;
+    padding: 0 0 30px 20px;
+}
+
+.md-content > div ul li {
+    padding: 5px 0;
+}
+
+.md-content button {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+
+/* Effect 3: Slide from the bottom */
+.md-effect-3 .md-content {
+    -webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.md-show.md-effect-3 .md-content {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.SignInModal {
+}
+.SignInModal h3 {
+    background:url("./img/radial-bottom.png") no-repeat scroll center top #301D05;
+    background-size:100% 200%;
+}
+
+@media screen and (max-width: 480px){
+    .md-modal { top: 10%; left:1em; right:1em; width: auto; }
+        .md-content {
+            font-size:10px;
+        }
+}
+
+
+@media screen and (max-width: 320px){
+    .md-modal { top: 1em; left:1em; right:1em; width: auto; }
+}

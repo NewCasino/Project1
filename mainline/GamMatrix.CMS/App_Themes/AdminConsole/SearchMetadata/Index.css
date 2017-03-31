@@ -1,0 +1,8 @@
+﻿html, body { width:100%; height:100%; margin:0; padding:0; background:url(../img/bg.png) repeat-x left top; font-size:12px; font-family:Verdana; font-style:normal;}
+body { overflow:scroll; }
+
+
+#search-metadata-form-wrapper { width:95%; margin: 10px auto 0px auto; background-color:White; border:solid 1px #6BA6D6;  }
+#search-metadata-form-wrapper form { margin:10px; }
+
+.inputfield .controls { min-width:200px; }

@@ -1,0 +1,207 @@
+// /* Buttons */
+// ---------------
+
+.Button { 
+	display : block; position : relative; background : #ef0000 url("img/bg-button.png") left top repeat-x; background-size : 100% 400%; color : #fff; border : none; text-align : left; text-transform : uppercase; text-shadow : 0 -1px 0 #8c0000; border-radius : 0.2857em; box-shadow : 0 1px 0 #111;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
+	&:hover { 
+		background : #ef0000 url("img/bg-button.png") left 33.3333% repeat-x; background-size : 100% 400%; color : #fff; text-shadow : 0 -1px 0 #8c0000; box-shadow : 0 1px 0 #8c0000; 
+	}
+	&:active { 
+		background : #666 url("img/bg-button.png") left 66.6666% repeat-x; background-size : 100% 400%; color : #fff; text-shadow : 0 1px 0 #080808; box-shadow : 0 1px 0 #ccc; box-shadow : 0 1px 0 #ccc, 0 -1px 0 #111; 
+		.ButtonText { background : transparent; }
+	}
+}
+	.ButtonText { display : block; background : transparent url("img/radial-full.png") center top no-repeat; background-size : 150% 250%; border-radius : 0.2857em; }
+	.ButtonIcon { display : block; }
+
+.RegLink { display : block; float : left; font-weight : bold; box-shadow : 0 0.0714em 0.0714em #000; }
+	.LogInLink, .NextStepLink { float : right; }
+	.BackLink, .NextStepLink { font-size : 13.5pt; line-height : 1.5em; }
+
+.RegLink, .DepositButtons {
+	.ButtonText { padding : 0.3571em 1em; background-position : center bottom; text-transform: none; display: block; max-width: 8em; text-overflow:ellipsis; overflow: hidden; white-space: nowrap;}
+}
+.DepositButtons { display: block; width: 100%; margin: 0 auto 0.5em; padding: 0; max-width: 95%; float: none; font-size: 1.143em; position: relative;
+	.ButtonText { max-width: 100%; text-align: center; font-weight: bold; }
+	.ButtonIcon { position: absolute; left: 1em; top: 0.667em; font-size: 0.875em; }
+
+}
+.DepLink { text-transform: capitalize; padding: 0; position: relative; line-height: 1.5em;
+	.DepLinkIcon { position: absolute; left: 4px; top: 6px; font-size: 1.5em; line-height: 1;}
+	&.BackLink { 
+		.ButtonText { padding: .3571em 1em .3571em 2em; }
+	}
+	&.NextStepLink {
+		.ButtonText { padding: .3571em 2em .3571em 1em; }
+		.DepLinkIcon { left: auto; right: 4px; }
+	}
+}
+	
+
+.SubmitRegister, .LoginBTNLink, .ChangeEmailBTN, .UpdateProfileBTN { 
+	display: block; float: none; margin: 1.5em auto 0.5em; min-width: 3em; max-width: 14em; font-size: 1.143em; text-align: center;
+	background: #17a600;
+	background: -moz-linear-gradient(top, #17a600 0%, #107100 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#17a600), color-stop(100%,#107100));
+	background: -webkit-linear-gradient(top, #17a600 0%,#107100 100%);
+	background: -o-linear-gradient(top, #17a600 0%,#107100 100%);
+	background: -ms-linear-gradient(top, #17a600 0%,#107100 100%);
+	background: linear-gradient(to bottom, #17a600 0%,#107100 100%);
+	.ButtonText { display: block; width: auto; padding: .75em 4em; line-height: 1; text-shadow:0 -1px 0px #000, 0 2px 5px rgba(0,0,0,0.5); }
+	.ButtonIcon { text-shadow: none; }
+	&:hover { background: #006e2e;
+background: -moz-linear-gradient(top, #006e2e 0%, #006e2e 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#006e2e), color-stop(100%,#006e2e));
+background: -webkit-linear-gradient(top, #006e2e 0%,#006e2e 100%);
+background: -o-linear-gradient(top, #006e2e 0%,#006e2e 100%);
+background: -ms-linear-gradient(top, #006e2e 0%,#006e2e 100%);
+background: linear-gradient(to bottom, #006e2e 0%,#006e2e 100%); box-shadow: 0 0 3px #006e2e; border-color: #006e2e; }
+}
+
+.iOSBack{ font-size: 14px; background: #B0ADA4; border: solid #AFACA3; border-width: 1px 1px 1px 0; -moz-border-radius: 0 5px 5px 0;  -webkit-border-radius: 0 5px 5px 0;  border-radius: 0 5px 5px 0; display: inline-block;  height: 38px;  line-height: 2em; margin-left: 1.429em; margin-right: 0.143em; padding: 0.286em 1em 0.286em 0.714em; position: relative; text-decoration: none; margin: 2em 2.5em 0; }
+	.iOSBack:before { background: #B0ADA4; border: solid #AFACA3; border-width: 0 0 1px 1px; border-radius: 0.143em 0 0.143em 0.143em; content: ''; display: block; height: 1.929em; left: -0.929em; position: absolute; top: 0.286em; -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); width: 26px; -ms-transform: rotate(45deg); }
+	.iOSBack:hover, .iOSBack:focus { border-color: #89877F; background: #777368;}
+	.iOSBack:hover:before, .iOSBack:focus:before { border-color: #89877F; background: #777368;}
+	.iOSBack span { color: #FFFFFF; font-size: 1.143em; font-weight: bold; position: relative; text-shadow: 0 -1px 0 #6A6963; background: none;}
+
+/* Box controls */
+.Box { display : block; margin : 1.5714em 0.3571em; } /* generic box */
+	.BoxContent { border-radius: 0.5em; display: block; position: relative; z-index: 0; background-color: transparent; } 
+	.SHNoLink { color: #333; border-top: 0.0714em solid #aaa; border-bottom: 0.0714em solid #999; -moz-text-shadow: 0 -1px 0 #ccc; -webkit-text-shadow: 0 -1px 0 #ccc; -o-text-shadow: 0 -1px 0 #ccc; -khtml-text-shadow: 0 -1px 0 #ccc; text-shadow: 0 -1px 0 #ccc; }
+		.ToggleArrow { background: url("img/bg-darken-bottom.png") repeat-x scroll center center / 100% 200% transparent; border-left: 1px solid #FFFFFF; box-shadow: -1px 0 0 #CCCCCC; display: block; line-height: 2em; float: right; font-size: 1em; height: 2.2142em; text-align: center; width: 2.2142em; } /* generic box toggle arrow */
+		.ToggleButton .ToggleArrow { background: url("img/big-sprite.png") no-repeat scroll -235px -440px transparent; border: 0 none; box-shadow: none; display: block; float: right; font-size: 2.143em; font-weight: bold; height: 1em; line-height: 1em; margin-right: 0.286em; margin-top: 0.143em; overflow: hidden; text-align: center; text-indent: 100%; width: 1em; }
+		.PopularBox .ToggleButton .ToggleArrow{ font-size: 1em; background: url("img/bg-darken-bottom.png") repeat-x scroll center center transparent; background-size: 100% 200%; border-left: 1px solid #FFFFFF; box-shadow: -1px 0 0 #CCCCCC; display: block; line-height: 2em; float: right; height: 2.2142em; text-align: center; width: 2.2142em;  }
+		.SHText { display : block; padding : 0.2857em 0.3571em 0.3571em 0.3571em; overflow : hidden; } /* generic box toggle text */
+
+.AppDownload {     background-color: #EF0000; display: block; font-size: 1.5714em; line-height: 1em; overflow: hidden; padding: 0.5em 0; text-align: center; }
+	.AppDownload .RegText{ }
+	 .AppIcon.App_IOS { background-image: url('img/app_apple.png');}
+	 .AppIcon.App_Android { background-image: url('img/app_android.png');}
+	.AppIcon { background: none repeat scroll 0 0 #333333; border-radius: 0.5em 0.5em 0.5em 0.5em; box-shadow: 0 0.5em 0.5em #000000; color: #FFFFFF; display: block; float: left; height: 3.1428em; margin: 0 1.5714em 0 0; position: relative; text-shadow: 0 -1px 0 #111111; width: 3.1428em; z-index: 2; background-size: 100% auto;}
+
+
+	/* More link */
+	.M { display : block; background : #222 url("img/bg-button.png") left top repeat-x; background-size : 100% 400%; border-top : 0.0714em solid #222; border-bottom : 0.0714em solid #000; } /* generic More link */
+		.MW { display : block; padding : 0.3571em 0 0.4285em 0.7857em; background : transparent url("img/radial-full.png") center bottom repeat-x; background-size : 300% 600%; color : #eee; font-size : 1em; line-height : 1em; text-shadow : 0 1px 0 #000; } /* generic More Wrapper */
+		.M:active { background : #f00 url("img/bg-button.png") left 66.6666% repeat-x; background-size : 100% 400%; }
+		.M:hover { background-color : #444; border-top : 0.0714em solid #666; }
+			.M .ActionArrow { margin : -0.0714em 0.3571em; background-position : -10px -440px; }
+
+	.ErrorMsg { color : #f00; display : block; width : 100%; }
+
+
+	.AddToHome { display : block; width : 94%; padding : 0.666em 3%; position : fixed; left : 0; z-index : 1000; background : #000; color : #eee; border : 1px solid #222; }
+	.Context_IOS { bottom : 0; box-shadow : 0 -0.5em 0.5em #000; padding-bottom: 3em; }
+	.Context_Android { top : 0; box-shadow : 0 0.5em 0.5em #000; padding-bottom: 3em; }
+		.ATHClose { display : block; float : right; width : 2.3571em; height : 2.3571em; margin : -0.5em -1% 0.5em 0.5em; background : transparent url("img/close.png") center center no-repeat; background-size : 33px 33px; white-space : nowrap; overflow : hidden; text-indent : 100%; }
+		.ATHTitle { display : block; overflow : hidden; font-weight : bold; line-height: 1em; margin-bottom: 1em; }
+		.ATHP { display : block; line-height : 2.3571em; }
+			.ATHIcon { display : inline-block; width : 2.3571em; height : 2.3571em; margin : 0 0.1428em; vertical-align : middle; background : transparent center center no-repeat; background-size : 33px 33px; white-space : nowrap; overflow : hidden; text-indent : 100%; }
+			.Context_IOS .ATHIcon { background-image : url("img/addtohome-ios.png"); }
+			.Context_Android .ATHIcon { background-image : url("img/addtohome-android.png"); }
+
+.ProfileBTN {
+	.ProfileIcon { display: block; float: right; position: relative; top: 10px;	right: 10px; font-size: 1.313rem; height: 1em; line-height: 1; }
+}
+
+.SideMenuList {
+ 	margin: 1em;
+ 	display: block;
+	.SideMenuLink {
+		background: #e5e5e5;
+		background: -moz-linear-gradient(top, #e5e5e5 0%, #e1e1e1 40%, #cfcfcf 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(40%,#e1e1e1), color-stop(100%,#cfcfcf));
+		background: -webkit-linear-gradient(top, #e5e5e5 0%,#e1e1e1 40%,#cfcfcf 100%);
+		background: -o-linear-gradient(top, #e5e5e5 0%,#e1e1e1 40%,#cfcfcf 100%);
+		background: -ms-linear-gradient(top, #e5e5e5 0%,#e1e1e1 40%,#cfcfcf 100%);
+		background: linear-gradient(to bottom, #e5e5e5 0%,#e1e1e1 40%,#cfcfcf 100%);
+		display: block;
+		padding: 0.333em 1em 0.333em 0;
+		margin: 0;
+		font-size: 1rem;
+		border: 0 none;
+		color: #000000;
+		width: 100%;
+		max-width: none;
+		text-align: left;
+		text-indent: 0;
+		position: relative; 
+		font-family: $font3;
+		font-weight: 700;
+		max-height: 44px;
+	}
+	.SMLink-Deposit {
+		background: #299a0b;
+		background: -moz-linear-gradient(top, #299a0b 0%, #147709 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#299a0b), color-stop(100%,#147709));
+		background: -webkit-linear-gradient(top, #299a0b 0%,#147709 100%);
+		background: -o-linear-gradient(top, #299a0b 0%,#147709 100%);
+		background: -ms-linear-gradient(top, #299a0b 0%,#147709 100%);
+		background: linear-gradient(to bottom, #299a0b 0%,#147709 100%);
+		color: #FFF;
+		@include TextShadow(0 1px 0 #333);
+	}
+	.SMLink-SignOut {
+		background: #ff3019;
+		background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404));
+		background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+		background: -o-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+		background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+		background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+		color: #FFF;
+		@include TextShadow(0 1px 0 #333);
+	}
+	&.ProfileList { margin: 1em 0.5em; }
+
+	.Item-BettingSlip, .Item-Profile, .Item-About { margin-top: 1.5em; @include BorderRadius(.3571em .3571em 0 0); overflow: hidden; }
+	.Item-BettingHistory, .Item-CasinoFpp, .Item-Winners { @include BorderRadius(0 0 .3571em .3571em ); overflow: hidden;}
+}
+
+	.SideMenuLink { 
+		&:hover {  }
+		.ButtonText {
+			display: inline-block;
+			line-height: 1.5em;
+			font-size: 1em;
+			padding: .333em 0;
+			background: none;
+		}
+		.icon-arrow {
+			float: right;
+			position: absolute;
+			right: .333em;
+			top: 6px;
+			font-size: 1.5em;
+			color: inherit; //rgba(0, 0, 0, 0.45);
+			display: block;
+			height: 1em;
+			width: 1em;
+			text-indent: 0;
+			background: 0 0;
+			font-family: 'icomoon',sans-serif;
+			line-height: 1.286em;
+			overflow: visible;
+		}
+		.ButtonIcon { display: inline-block; width: 1em; height: 1em; float: left; font-size: 1.313em; margin: 6px .5em 0; color: inherit; }
+	}
+
+.ProfileItem { 
+	&.ProfileView-Username { border-radius: .333em .333em 0 0; -webkit-border-radius: .333em .333em 0 0; overflow: hidden; }
+	&.ProfileView-SmsOffers { border-radius: 0 0 .333em .333em; -webkit-border-radius: 0 0 .333em .333em; overflow: hidden;}
+}
+	.MenuLink {
+		.ActionArrow { 
+		}
+	}
+	.BackButton {
+		background: none; color: #FFF; font-size: 1rem;	border: 0 none;	margin: .5em .5em 0; float: left; clear: both; position: relative; padding: 0.5em 0.5em 0.5em 2.5em; line-height: 2;
+		.ActionArrow  {
+			font-size: 3em;
+			position: absolute;
+			left: -5px;
+			top:0;
+		}
+		.ButtonText { background: none; }
+	}

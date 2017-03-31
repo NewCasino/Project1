@@ -1,0 +1,7 @@
+﻿@import url("../HistoryViewer/Index.css");
+@import url("../MetadataEditor/TabMetadata.css");
+
+
+#ifmMetadataDlg { width:100%; height:400px; }
+#ifmFileManager { width:100%; height:400px; }
+.btn-insert-metadata { width:16px; height:16px; background-image:url(/images/icon/link.png); cursor:pointer; }

@@ -1,0 +1,32 @@
+﻿.console-content-table { width:100%; font-family:Verdana; }
+
+.console-content-table thead tr { height:30px; }
+.console-content-table tbody tr { height:40px; }
+.console-content-table thead tr th { background-color:#6BA6D6; font-size:12px; color:White; }
+
+.console-content-table tbody td { padding: 0px 5px 0px 5px; border-bottom-style:dashed; border-bottom-width:1px; border-bottom-color: #666666; }
+.console-content-table tbody .col-1 { background-color:#EFF5FA; }
+.console-content-table tbody .col-2 { background-color:#D9E8F4; width:30px;}
+.console-content-table tbody .col-3 { background-color:#EFF5FA; width:30px;}
+.console-content-table tbody .col-4 { background-color:#D9E8F4; width: 150px; }
+.console-content-table tbody .col-5 { background-color:#EFF5FA; }
+.console-content-table tbody .col-6 { background-color:#D9E8F4; width: 80px; }
+.console-content-table tbody .col-7 { background-color:#EFF5FA; width:200px; }
+
+.console-content-table tbody td a
+{
+    color:#666666;
+    padding-left:18px;
+    background-repeat:no-repeat;    
+    background-position:left middle;
+    text-decoration:none;
+    font-style:normal;
+}
+
+.console-content-table tbody td a:hover { text-decoration:underline; }
+
+.console-content-table tbody td .icoView { background-image:url(/images/icon/book_open.png); }
+.console-content-table tbody td .icoRollback { background-image:url(/images/icon/page_next.gif); }
+.console-content-table tbody td .icoCompare, .showChanges { background-image:url(/images/icon/layers.png); }
+
+.console-content-table tbody td .hidden { display: none; }

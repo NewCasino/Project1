@@ -1,0 +1,33 @@
+﻿/* CSS Document */
+
+#UserMessages{}
+#UserMessages .c{ clear:both;} 
+#UserMessage_Success{ display:none;}
+#UserMessage_Error{ display:none;}
+
+.UserMessagesList{ display:block; min-height:80px; background-color:#2b2b2b;   padding:20px;}
+.UserMessages_list_body_header{ font-weight:700; font-family:"KO","Helvetica Neue",Helvetica,Arial,"Nimbus Sans L","Liberation Sans",FreeSans,clean,sans-serif; font-size:18px; height:40px; line-height:40px; background-color:#000; }
+.UserMessages_list_body_list{}
+.UserMessages_list_body_list .entry{ min-height:40px; clear:both; line-height:40px;  }
+.UserMessages_list_body_list .entry.Even{}
+.UserMessages_list_body_list .entry.Odd{ background:#444;}
+.um_subject{ display:block; float:left; width:70%; min-height:40px; padding-left:2%; font-weight:700; font-size:14px; word-break:break-all;word-wrap : break-word; }
+.um_subject.UnRead a{ font-weight:700;   }
+.um_subject.Read a,.um_subject.FromUser a{ font-weight:normal;   }
+.um_type{ display:block; float:left; width:12%; text-align:center;}
+.um_type img{ margin-top:8px;}
+.um_Time{ display:block; float:left; width:15%; text-align:center;}
+.um_status{ display:block; float:right; width:12%;  text-align:center; } 
+.UserMessages_list_header,.UserMessages_list_footer{ display:none;} 
+.UserMessageDetail{ background-color:#333; padding:20px;}
+.UserMessage_Detail_Subject{font-weight:700; font-family:"KO","Helvetica Neue",Helvetica,Arial,"Nimbus Sans L","Liberation Sans",FreeSans,clean,sans-serif; font-size:18px; min-height:40px; line-height:40px; border-bottom:1px solid #666; padding-left:20px; word-break:break-all;word-wrap : break-word; }
+.UserMessage_Detail_content{ padding:20px; word-break:break-all;word-wrap : break-word;}
+.UserMessages_PageTitle{ display:block; width:50%; float:left;}
+.UserMessages_SendNew{ display:block; width:160px; float:right; padding-right:1%; height:20px; padding-top:10px; line-height:20px; }
+.UserMessageSendNew{ padding:20px;}
+.UserMessageSendNew .inputfield{ padding:20px;}
+.pagination-wrapper a.current{ background-color:#E1A81A !important;  }
+.pagination-wrapper a{ background-color:#555;}
+.UserMessages_title{ *height:50px;}
+.UserMessage_Null{ display:block; height:60px; line-height:60px; font-size:16px; font-weight:700px; text-align:center; }
+ 

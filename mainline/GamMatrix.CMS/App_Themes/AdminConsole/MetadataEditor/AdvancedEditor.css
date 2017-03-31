@@ -1,0 +1,18 @@
+﻿@import url("/images/flags/flags.css");
+
+html, body { background-image:none !important; background-color:white !important; overflow:hidden; }
+
+#translation-wrap { width:100%; height:100%; }
+#translation-wrap .language-nav { float:left; width:15%; height:100%; background-image:url(../img/nav.bg.png); background-repeat:repeat-y; background-position:right; }
+#translation-wrap .translation-editor-container { float:right; width:85%; height:100%; }
+#translation-editor { width:99%; height:530px; resize:none; }
+
+.country-flags img { width:16px; height:11px; float:left; margin: 7px  0px 0px 15px; }
+.language-item { height:25px; line-height:25px; vertical-align:middle; border-bottom: dashed 1px #999999; cursor:pointer; }
+.language-item span { margin-left:15px; font-style:normal; }
+#translation-wrap .language-nav .selected { background-color:White; cursor:default !important;}
+#translation-wrap .language-nav .selected span { font-weight:bold; }
+
+#ifmMetadataDlg { width:100%; height:500px; }
+
+#ifmFileManager { width:100%; height:400px; }

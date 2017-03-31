@@ -1,0 +1,36 @@
+﻿html, body
+{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	background-attachment:scroll;
+	background-color:#FFFFFF;
+	background-image:url(../img/login.bg.png);
+	background-position:top;
+	background-repeat:repeat-x;
+	font-style:normal;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serifl;
+}
+#dlg
+{
+	width:975px;
+	height:520px;
+	margin:0 auto;
+	background-image:url(../img/login.dlg.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+#dlg .controls { position:relative; top:310px; left:450px; }
+#dlg .info { color:#10A6EA; position:absolute; left:0px; top:530px; text-align:center; width:100%; height:24px; line-height:24px; vertical-align:24px; }
+input { border:1px solid #D9D9D9; padding:3px 3px 3px 20px; width:100px; font-family:Arial; }
+#txtUsername { background-image:url(/images/icon/user_green.png); background-repeat:no-repeat; background-position: 2px 2px; }
+#txtPassword { background-image:url(/images/icon/lock.png); background-repeat:no-repeat; background-position: 2px 2px; }
+#txtSecurityToken { background-image:url(/images/icon/icon_security.gif); background-repeat:no-repeat; background-position: 2px 2px; }
+#btnSignIn { width:95px; height:34px; overflow:hidden; background-image:url(../img/login.btn.png); border:none; padding:0px; }
+span.msg { color:Red; width:200px; overflow:hidden; }
+
+#table-login {  table-layout:fixed; width:240px; }
+#table-login .col1 { width:100px; }

@@ -1,0 +1,153 @@
+/**********/
+/* RESETS */
+/**********/
+
+html { background : #000; color : #fff; font-size : 100.01%; overflow-y : scroll; -webkit-overflow-scrolling : touch; -webkit-tap-highlight-color : rgba(0,0,0,0); -webkit-text-size-adjust : 100%; -ms-text-size-adjust : 100%; -ms-text-size-adjust : 100%; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{ margin : 0; padding : 0; }
+body { font-family : Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", FreeSans, clean, sans-serif; font-size : 75%; line-height : 1.5em; text-align : center; }
+html > body { font-size : 75%; line-height : 1.5em; }
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display : block; }
+audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style : normal; font-weight : normal; }
+table { border-collapse : collapse; border-spacing : 0; font-size : inherit; font : 100%; }
+	td { vertical-align : top; }
+	strong,th { font-weight : bold; }
+	caption,th { text-align : left; }
+h1,h2,h3,h4,h5,h6 { font-size : 100%; font-weight : normal; }
+b, strong { font-weight : bold; }
+blockquote, q { quotes : none; }
+	blockquote:before,blockquote:after,q:before,q:after { content : ''; content : none; }
+ul,ol { list-style-position : outside; margin : 0; }
+	ol { list-style-type : decimal; }
+	li { list-style : none; }
+	nav ul,nav li { margin : 0; list-style : none; list-style-image : none; }
+pre,code,kbd,samp,tt { font-family : monospace, monospace; _font-family : 'courier new', monospace; font-size : 1em; }
+	em { font-style : italic; }
+	small { font-size : 85%; }
+	sub, sup { font-size : 75%; line-height : 0; position : relative; vertical-align : baseline; }
+	sup { top : -0.5em; }
+	sub { bottom : -0.25em; }
+	ins { background-color : #ff9; color : #080808; text-decoration : none; }
+	mark { background-color : #ff9; color : #080808; font-style : italic; font-weight : bold; }
+	del { text-decoration : line-through; }
+	pre { white-space : pre; white-space : pre-wrap; word-wrap : break-word; padding : 2em; }
+abbr,acronym { border : 0; font-variant : normal; }
+dfn { font-style : italic; }
+	abbr[title], dfn[title] { border-bottom : 1px dotted; cursor : help; }
+hr { display : block; height : 1px; border : 0; border-top : 1px solid #ccc; margin : 1em 0; padding : 0; }
+form { display : block; position:relative; }
+	fieldset,img { border : 0; }
+	fieldset { display : block; }
+	label { cursor : pointer; }
+	button,input,select,textarea { margin : 0; font-size : 100%; vertical-align : baseline; *vertical-align : middle;  border : none;  outline: none;}
+    .safari input{-webkit-appearance:none;}
+	button, input { line-height : normal; *overflow : visible;/* -moz-box-sizing : content-box; -webkit-box-sizing : content-box; -ms-box-sizing : content-box; box-sizing : content-box;*/ }
+		button, input[type="reset"], input[type="button"], input[type="submit"] { line-height : 1.3333em; }
+	input,textarea,select { background :url("./img/bg-lighten-top.png") repeat-x scroll left top #CCC; color : #666; border : none; font-family : inherit; font-size : inherit; font-weight : inherit; vertical-align : middle; }
+    input:hover, textarea:hover, select:hover {    background-color: #999999;    color: #000000; }
+		.admin input, .admin .textarea, .admin select { border : 1px solid #080808; }
+	button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+	input[type="checkbox"], input[type="radio"] { box-sizing : border-box; }
+	input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration { display : none; }
+	input[type="search"] { -webkit-appearance : textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; font-family: arial, tahoma, sans-serif;}
+	button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+		.admin input:hover, .admin .textarea:hover, .admin select:hover { border : 1px solid #666; }
+	input:focus,textarea:focus,select:focus { background-color : #fff; color : #080808; -moz-box-shadow : 0 0 0.1666em #eee; -webkit-box-shadow : 0 0 0.25em #eee; -o-box-shadow : 0 0 0.25em #eee; -khtml-box-shadow : 0 0 0.25em #eee; box-shadow : 0 0 0.25em #eee; }
+	textarea { overflow : auto; vertical-align : top; }
+	input:valid,textarea:valid {  }
+	input:invalid,textarea:invalid { border-radius : 1px; -moz-box-shadow : 0 0 5px red; -webkit-box-shadow : 0 0 5px red; box-shadow : 0 0 5px red; }
+    input:focus,textarea:focus,select:focus { background-color : #fff; color : #000; -moz-box-shadow : 0 0 1em #f00; -webkit-box-shadow : 0 0 1em #f00; -o-box-shadow : 0 0 1em #f00; -khtml-box-shadow : 0 0 1em #f00; box-shadow : 0 0 1em #f00; }
+    input:focus::-webkit-input-placeholder { color:transparent !important; -webkit-transition: all 0.2s ease; -ms-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
+	input:focus:-moz-placeholder { color:transparent !important; -webkit-transition: all 0.2s ease; -ms-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease;}
+	input:focus { -webkit-transition: all 0.2s ease; -ms-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease;}
+
+	.no-boxshadow input:invalid,.no-boxshadow textarea:invalid { background-color : #f0dddd; }
+	legend { border : 0; *margin-left : -7px; padding : 0; }
+	.ie6 legend, .ie7 legend { margin-left : -7px; } 
+    .ie7 img { -ms-interpolation-mode : bicubic; }
+img { border : 0; -ms-interpolation-mode : bicubic; vertical-align : middle; }
+svg:not(:root) { overflow : hidden; }
+figure { margin: 0; }
+
+::-moz-selection { background : #d20000; color : #fff; text-shadow : none; }
+::selection { background : #d20000; color : #fff; text-shadow : none; }
+::-webkit-input-placeholder  { color:gray; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
+::-moz-placeholder { color:gray; -ms-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
+:-moz-placeholder { color:gray; -webkit-transition: all 0.2s ease; -ms-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
+
+/* hiding classes */
+.ir { display : block; text-indent : -999em; overflow : hidden; background-repeat : no-repeat; text-align : left; direction : ltr; } /* image replacement */
+.hidden { display : none !important; visibility : hidden; } /* hiding stuff */
+.visuallyhidden { border : 0; clip : rect(0 0 0 0); height : 1px; margin : -1px; overflow : hidden; padding : 0; position : absolute; width : 1px; } /* hiding stuff, but keeping them in screen readers */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip : auto; height : auto; margin : 0; overflow : visible; position : static; width : auto; }
+.invisible { visibility : hidden; } /* hide from everything but keep layout */
+
+
+/***************************/
+/*	Game Percentage       */
+/**************************/
+
+h2.BoxTitle.GameList { -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px; -o-border-radius: 5px 5px 5px 5px; -ms-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; line-height: 2em; margin-bottom: 1em; padding: 0.25em 0; }
+h2.BoxTitle.GameList .TitleIcon{ margin-right:0.5em; }
+.GameTable { background: none repeat scroll 0 0 #FEFEFE; color: #000000; display: block; float: left; font-size: 12px; line-height: 2em; margin: 0 10px 0 0; border-radius: 0; overflow: hidden;}
+.GameTable.table-2 {    float: right;    margin-right: 0; }
+.GameTable thead{    background-color: #DDD;}
+.GameTable thead tr{  line-height: 2.5em;  color: #000;}
+.GameTable thead .GameName{    padding-left: 3em;}
+.GameTable thead .Percentage {line-height: 1.25em;}
+.GameTable tr { line-height: 2em; min-height: 2em; width: auto; border-bottom: 0.0853em solid #CCC; }
+.GameVendor { background: none repeat scroll 0 0 #FFFFFF; border-right: 0.0853em solid #CCCCCC; height: 2em; margin: 0; width: 2.66em; text-align: center;}
+.GameVendor span{display: block; height: 1.5em; margin: 0.25em auto 0; width: 1.5em;}
+.GameTable .GameName { width: 30.255em; }
+.GameName a{ color: #000000; line-height: 2em; padding-left: 0.5em; outline: 0 none;}
+.GameName a:hover{color:red}
+.GameTable .Percentage { border-left: 1px solid #CCC; text-align: right; text-indent: 0; width: 6.500em; padding-right: 1em; }
+
+.desc, .asc{ background-image: url("//cdn.everymatrix.com/images/vendor/vendors-small.png"); background-size: auto; background-repeat:  no-repeat; background-position: center bottom;}
+.GameTable th{cursor: pointer; background-image: url("//cdn.everymatrix.com/images/vendor/vendors-small.png"); background-size: auto; background-repeat:  no-repeat; background-position: 7px 9px; }
+.GameTable .Percentage.desc, .GameTable .GameName.desc{ background-position: 7px -36px; }
+.GameTable .GameVendor.desc{ background-position: center -36px;}
+.GameTable .Percentage.asc, .GameTable .GameName.asc{ background-position: 7px -16px;}
+.GameTable .GameVendor.asc{ background-position: center -16px;}
+
+.GameVendor span{ background-image: url("//cdn.everymatrix.com/images/vendor/vendors-small.png"); background-size: auto; background-repeat:  no-repeat; } 
+.NetEntIcon{ background-position  :center -131px;}
+.IGTIcon{ background-position  :center -107px;}
+.CTXMIcon{ background-position  :center -82px;}
+.MicrogamingIcon{ background-position  :center -156px;}
+.PlaynGOIcon{ background-position  :center -178px;}
+.BetSoftIcon{ background-position: center -199px;}
+.GreentubeIcon{background-position: center -222px;}
+.XPROGameingIcon, .XProGamingIcon{background-position: center -245px;}
+.SheriffIcon { background-position: center -269px; }
+.EvolutionGamingIcon {  background-position: center -324px; }
+.NYXGamingIcon { background-position: center -353px; }
+.OMIIcon { background-position: center -297px;}
+.EnterCashIcon { background-position: center -409px; }
+.NorkseIcon { background-position: center -438px; }
+.BallyGamingIcon { background-position: center -465px; }
+.CasinoSiegerIcon { background-position: center -382px; }
+.EzugiIcon { background-position: center -520px; }
+.ISoftBetIcon { background-position: center -547px; }
+.BetGamesIcon { background-position: center -574px; }
+.VivoIcon { background-position: center -602px; }
+.OneXTwoGamingIcon { background-position: center -629px; }
+
+
+/*** casino filters ***/
+.BallyGaming .GFText { background-position: -791px 0; }
+.BallyGaming.GFActive .GFText { background-position: -791px -26px; }
+.Norske .GFText { background-position: -900px 0; }
+.Norske.GFActive .GFText { background-position: -900px -26px; }
+.EnterCash .GFText { background-position: -864px 0; }
+.EnterCash.GFActive .GFText { background-position: -864px -26px; }
+.CasinoSiger .GFText { background-position: -828px 0; }
+.CasinoSiger.GFActive .GFText { background-position: -828px -26px; }
+
+.BallyGaming .GTicon { background-position: -801px -30px; }
+.Norske .GTicon { background-position: -908px -30px; }
+.EnterCash .GTicon { background-position: -872px -30px; }
+.CasinoSiger .GTicon { background-position: -836px -30px; }
+.Ezugi .GTicon { background-position: -981px -30px; }
+.ISoftBet .GTicon { background-position: -1016px -30px; }

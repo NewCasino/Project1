@@ -1,0 +1,44 @@
+/*
+ *  M360 V2
+ *  ----
+ *
+ *  Authors:  Radu Mihai Filipescu
+ *        	  Iliuta Stoica - iliutastoica.ro
+ *
+*/
+
+/*
+
+FONT SIZE:    14px = 10.5pt = 1em
+LINE HEIGHT:  22px      = 1.5714em
+
+BASELINE:   22px      = 1.5714em
+        	44px      = 3.1428em
+
+*/
+
+
+// -----------------------
+//  Includes
+// -----------------------
+//utils
+@import "reset";
+@import "colors"; 				//default colors, mixins 
+@import "fonts";				// included fonts, webfonts, icon fonts
+//  Base
+@import "generic";
+//modal @import "modal"; 		//currently not using any modal windows
+
+@import "old_default"; 			// old main.css
+
+// @import "slider";
+// @import "animations";
+// @import "sidemenu";
+
+//sections
+// @import "home";
+// @import "casino";
+// @import "formpages";
+// @import "sports";
+
+// responsive

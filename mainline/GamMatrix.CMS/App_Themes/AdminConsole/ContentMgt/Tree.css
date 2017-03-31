@@ -1,0 +1,29 @@
+﻿html, body { width:100%; height:100%; margin:0px; padding:0px; background:white; font-size:12px; font-family:Verdana; overflow:hidden; font-style:normal;}
+
+.tree li a, .tree li span{margin:0 15px 0 0 !important;}
+
+#wrapper { width:100%; height:100%;}
+#content-tree { width:100%; height:500px; overflow:auto; }
+#content-tree .inherted { color:#006600; display:inline-block; cursor:pointer; float:left; clear:right; padding-right:16px; background-image:url(/images/icon/arrow_down.gif); background-repeat:no-repeat; background-position:right; }
+#content-tree .non-inherted { display:inline-block; color:#000000; cursor:pointer;  clear:right; }
+#content-tree .overrode { color:#996600; font-weight:bold; display:inline-block; cursor:pointer; float:left; clear:right; padding-right:16px; background-image:url(/images/icon/bullet_star.png); background-repeat:no-repeat; background-position:right; }
+#content-tree .disabled { color:#666666 !important; text-decoration:line-through !important; }
+
+
+#toolbar { height:25px; clear:both; width:100%; line-height:25px; vertical-align:middle; background-image:url(../img/tree.tool.bg.png); }
+
+#toolbar a
+{
+    color:#666666;
+    padding-left:18px;
+    background-repeat:no-repeat;    
+    background-position:left middle;
+    text-decoration:none;
+    font-style:normal;
+}
+
+#toolbar a:hover { text-decoration:underline; }
+
+#toolbar .icoRefresh { background-image:url(/images/icon/action_refresh.gif); }
+
+#toolbar select { height:20px; width:120px; }

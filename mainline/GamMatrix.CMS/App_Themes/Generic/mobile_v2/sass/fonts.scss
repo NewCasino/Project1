@@ -1,0 +1,352 @@
+/*-----------------
+	 CUSTOM FONTS 
+-------------------*/
+$font12 : 12px;
+$font14 : 14px;
+$font16 : 16px;
+$font18 : 18px;
+
+$fontgeneral : Arial,Helvetica,"Nimbus Sans L","Liberation Sans",FreeSans,clean,sans-serif; 
+$font1 : "Myriad Pro",Arial,sans-serif;
+$font2 : Tahoma, Arial, sans-serif; 
+
+// @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 300;
+//   src: local('Roboto Light'), local('Roboto-Light'), url(http://themes.googleusercontent.com/static/fonts/roboto/v11/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+// }
+// @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 400;
+//   src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v11/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+// }
+// @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 700;
+//   src: local('Roboto Bold'), local('Roboto-Bold'), url(http://themes.googleusercontent.com/static/fonts/roboto/v11/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+// }
+@import url('//fonts.googleapis.com/css?family=Roboto:400,300,700,900,700italic,500,400italic,300italic,500italic,900italic');
+
+
+$font3 : 'Roboto', Arial, sans-serif; 
+
+$FontURL : "//assets.gammatrix-dev.net/fonts";
+$basePath:"project_path";
+$baseFont : "./fonts";
+//$baseFont1 : "../Fonts/icomoon62090/fonts/";
+// example to include @import "${basePath}less.scss";
+// example font src: url('#{$icon-font-path}#{$icon-font-name}.eot');
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('#{$baseFont}/icomoon.eot?-y9jh5o');
+	src:url('#{$baseFont}/icomoon.eot?#iefix-y9jh5o') format('embedded-opentype'),
+	 /*
+            The SVG font has rendering problems in Chrome on Windows.
+            To fix this, I have moved the SVG font above the woff font
+            so that the woff file gets downloaded.
+        */
+        url('#{$baseFont}/icomoon.svg?-y9jh5o#icomoon') format('svg'),
+		url('#{$baseFont}/icomoon.woff?-y9jh5o') format('woff'),
+		url('#{$baseFont}/icomoon.ttf?-y9jh5o') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// /* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before,[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	text-rendering:auto ;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[data-icon]:before{ content: attr(data-icon); }
+
+// /* Use the following CSS code if you want to have a class per icon */
+// /*
+// Instead of a list of all class selectors,
+// you can use the generic selector below, but it's slower:
+// [class*="icon-"] {
+// */
+// .icon-alert,.icon-popular-games, .icon-video-pokers, .icon-ace-spades, .icon-all-games, .icon-classic-slots, .icon-jackpot-games, .icon-other-games, .icon-roulette, .icon-scratch-cards, .icon-table-games, .icon-cancel, .icon-leaf, .icon-glass, .icon-trophy, .icon-gift, .icon-pawn, .icon-betslip, .icon-increase-decrease, .icon-attachment, .icon-live-events, .icon-yelp, .icon-bullhorn, .icon-apple, .icon-android, .icon-windows, .icon-windows8, .icon-layers-alt, .icon-bookmark, .icon-close, .icon-checkmark, .icon-menu, .icon-menu-2, .icon-download, .icon-star, .icon-star-2, .icon-star-3, .icon-warning, .icon-checkbox-unchecked, .icon-checkbox-checked, .icon-checkbox-partial, .icon-radio-checked, .icon-radio-unchecked, .icon-enter, .icon-exit, .icon-cog, .icon-location, .icon-location-2, .icon-coin, .icon-file, .icon-play, .icon-stack, .icon-ticket, .icon-link, .icon-flag, .icon-bookmark-2, .icon-bookmarks, .icon-list, .icon-cog-2, .icon-fantasy-games, .icon-casino, .icon-football, .icon-dice, .icon-wand, .icon-earth, .icon-pacman, .icon-globe, .icon-tags, .icon-tag, .icon-box-add, .icon-download-2, .icon-bell, .icon-cogs, .icon-spinner, .icon-busy, .icon-arrow, .icon-arrow-left-alt1, .icon-arrow-right-alt1, .icon-arrow-down-alt1, .icon-arrow-up-alt1, .icon-spades, .icon-clubs, .icon-droplet, .icon-home, .icon-home-2, .icon-diamonds, .icon-spinner-2, .icon-spinner-3, .icon-key, .icon-tasks, .icon-list-ol, .icon-group, .icon-user, .icon-double-angle-right, .icon-double-angle-left, .icon-users, .icon-new, .icon-book, .icon-graduation, .icon-network, .icon-text, .icon-spam, .icon-filter, .icon-th, .icon-th-list, .icon-th-large, .icon-ok, .icon-remove, .icon-zoom-out, .icon-zoom-in, .icon-home-3, .icon-bookmarks-2, .icon-newspaper, .icon-credit, .icon-coin-2, .icon-support, .icon-phone, .icon-key-2, .icon-lock, .icon-trophy-2, .icon-info, .icon-info-2, .icon-baloon, .icon-candy, .icon-cherry, .icon-eightball, .icon-bowlingpins, .icon-bat, .icon-vendetta, .icon-stadium, .icon-domino, .icon-dart, .icon-curling, .icon-diefive, .icon-scales, .icon-wizard, .icon-codeigniter, .icon-supportrequest, .icon-phone2, .icon-basketball, .icon-tennis, .icon-football-2, .icon-americanfootball, .icon-medalgold, .icon-warmedal, .icon-medalsilver, .icon-medalbronze, .icon-bomb, .icon-controllerps, .icon-diary, .icon-arrow-right, .icon-arrow-up, .icon-arrow-down, .icon-arrow-left, .icon-arrow-left-2, .icon-arrow-down-2, .icon-arrow-up-2, .icon-arrow-right-2, .icon-info-3, .icon-info-4, .icon-help, .icon-bowling, .icon-racquet, .icon-pingpong, .icon-golf, .icon-diamonds-2, .icon-rook, .icon-ruby, .icon-megaphone, .icon-alarm, .icon-refresh, .icon-chevron-down, .icon-chevron-up, .icon-chevron-right, .icon-chevron-left, .icon-time, .icon-pawn-2, .icon-megaphone-2, .icon-banknote, .icon-wallet, .icon-news, .icon-params, .icon-calendar, .icon-settings5, .icon-qrcode, .icon-equalizer, .icon-enter-2, .icon-exit-2, .icon-pencil, .icon-danis-lou-joystick, .icon-virtual-sports, .icon-pushpin, .icon-search, .icon-calendar-2, .icon-stopwatch, .icon-search-2, .icon-th-large-2, .icon-list-alt, .icon-user-2, .icon-user-add, .icon-book-2, .icon-bag, .icon-eye-blocked, .icon-eye, .icon-flowernew, .icon-pocket, .icon-sale, .icon-crown, .icon-psup, .icon-plaque, .icon-trophy-3, .icon-medal, .icon-xbox, .icon-search-3, .icon-imac, .icon-tablet, .icon-laptop, .icon-nexus, .icon-iphone, .icon-user-3, .icon-grid, .icon-checkmark-2, .icon-cancel-2, .icon-home-4, .icon-bookmark-3, .icon-bookmark-4, .icon-chat, .icon-asterisk, .icon-certificate, .icon-file-2, .icon-chart, .icon-folder, .icon-minus, .icon-plus, .icon-plus-alt, .icon-minus-alt, .icon-pin, .icon-tag-fill, 
+.Y{font-family:'icomoon';speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-alert:before{content:"\e600"}
+.icon-popular-games:before{content:"\e057"}
+.icon-video-pokers:before{content:"\e056"}
+.icon-ace-spades:before{content:"\e055"}
+.icon-all-games:before{content:"\e054"}
+.icon-classic-slots:before{content:"\e053"}
+.icon-jackpot-games:before{content:"\e052"}
+.icon-other-games:before{content:"\e051"}
+.icon-roulette:before{content:"\e050"}
+.icon-scratch-cards:before{content:"\e04f"}
+.icon-table-games:before{content:"\e046"}
+.icon-cancel:before{content:"\e032"}
+.icon-leaf:before{content:"\e02f"}
+.icon-glass:before{content:"\e02e"}
+.icon-trophy:before{content:"\e02d"}
+.icon-gift:before{content:"\e02c"}
+.icon-pawn:before{content:"\e02b"}
+.icon-betslip:before{content:"\e045"}
+.icon-increase-decrease:before{content:"\e044"}
+.icon-attachment:before{content:"\e02a"}
+.icon-live-events:before{content:"\e043"}
+.icon-yelp:before{content:"\e029"}
+.icon-bullhorn:before{content:"\e042"}
+.icon-apple:before{content:"\e028"}
+.icon-android:before{content:"\e027"}
+.icon-windows:before{content:"\e026"}
+.icon-windows8:before{content:"\e025"}
+.icon-layers-alt:before{content:"\e03e"}
+.icon-bookmark:before{content:"\e03d"}
+.icon-close:before{content:"\e024"}
+.icon-checkmark:before{content:"\e03c"}
+.icon-menu:before{content:"\e012"}
+.icon-menu2:before{content:"\e013"}
+.icon-download:before{content:"\e014"}
+.icon-star:before{content:"\e015"}
+.icon-star2:before{content:"\e016"}
+.icon-star3:before{content:"\e017"}
+.icon-warning:before{content:"\e018"}
+.icon-checkbox-unchecked:before{content:"\e019"}
+.icon-checkbox-checked:before{content:"\e01c"}
+.icon-checkbox-partial:before{content:"\e01d"}
+.icon-radio-checked:before{content:"\e01e"}
+.icon-radio-unchecked:before{content:"\e01f"}
+.icon-enter:before{content:"\e020"}
+.icon-exit:before{content:"\e021"}
+.icon-cog:before{content:"\e00d"}
+.icon-location:before{content:"\e00c"}
+.icon-location2:before{content:"\e00b"}
+.icon-coin:before{content:"\e00a"}
+.icon-file:before{content:"\e008"}
+.icon-play:before{content:"\e009"}
+.icon-stack:before{content:"\e007"}
+.icon-ticket:before{content:"\e001"}
+.icon-link:before{content:"\e03b"}
+.icon-flag:before{content:"\e03a"}
+.icon-bookmark2:before{content:"\e039"}
+.icon-bookmarks:before{content:"\e038"}
+.icon-list:before{content:"\e037"}
+.icon-cog2:before{content:"\e036"}
+.icon-fantasy-games:before{content:"\e041"}
+.icon-casino:before{content:"\e040"}
+.icon-football:before{content:"\e03f"}
+.icon-dice:before{content:"\e006"}
+.icon-wand:before{content:"\e00e"}
+.icon-earth:before{content:"\e00f"}
+.icon-pacman:before{content:"\e005"}
+.icon-globe:before{content:"\e010"}
+.icon-tags:before{content:"\e002"}
+.icon-tag:before{content:"\e004"}
+.icon-box-add:before{content:"\e031"}
+.icon-download2:before{content:"\e033"}
+.icon-bell:before{content:"\e034"}
+.icon-cogs:before{content:"\e035"}
+.icon-spinner:before{content:"\e04a"}
+.icon-busy:before{content:"\e04c"}
+.icon-arrow-left-alt1:before{content:"\e049"}
+.icon-arrow-right-alt1:before{content:"\e04b"}
+.icon-arrow-down-alt1:before{content:"\e04d"}
+.icon-arrow-up-alt1:before{content:"\e04e"}
+.icon-spades:before{content:"\e030"}
+.icon-clubs:before{content:"\e003"}
+.icon-droplet:before{content:"\e011"}
+.icon-home:before{content:"\e01a"}
+.icon-home2:before{content:"\e01b"}
+.icon-diamonds:before{content:"\e000"}
+.icon-spinner2:before{content:"\e047"}
+.icon-spinner3:before{content:"\e048"}
+.icon-key:before{content:"\f084"}
+.icon-tasks:before{content:"\f0ae"}
+.icon-list-ol:before{content:"\f0cb"}
+.icon-group:before{content:"\f0c0"}
+.icon-user:before{content:"\f007"}
+.icon-double-angle-right:before{content:"\f101"}
+.icon-double-angle-left:before{content:"\f100"}
+.icon-users:before{content:"\e058"}
+.icon-new:before{content:"\e059"}
+.icon-book:before{content:"\e05a"}
+.icon-graduation:before{content:"\e05b"}
+.icon-network:before{content:"\e05c"}
+.icon-text:before{content:"\e05d"}
+.icon-spam:before{content:"\e05e"}
+.icon-filter:before{content:"\e05f"}
+.icon-th:before{content:"\f00a"}
+.icon-th-list:before{content:"\f00b"}
+.icon-th-large:before{content:"\f009"}
+.icon-ok:before{content:"\f00c"}
+.icon-remove:before{content:"\f00d"}
+.icon-zoom-out:before{content:"\f010"}
+.icon-zoom-in:before{content:"\f00e"}
+.icon-home3:before{content:"\f015"}
+.icon-bookmarks2:before{content:"\e022"}
+.icon-newspaper:before{content:"\e023"}
+.icon-credit:before{content:"\e060"}
+.icon-coin2:before{content:"\e061"}
+.icon-support:before{content:"\e062"}
+.icon-phone:before{content:"\e063"}
+.icon-key2:before{content:"\e064"}
+.icon-lock:before{content:"\e065"}
+.icon-trophy2:before{content:"\e066"}
+.icon-info:before{content:"\e067"}
+.icon-info2:before{content:"\e068"}
+.icon-baloon:before{content:"\f405"}
+.icon-candy:before{content:"\f42d"}
+.icon-cherry:before{content:"\f35d"}
+.icon-eightball:before{content:"\f36e"}
+.icon-bowlingpins:before{content:"\f3d2"}
+.icon-bat:before{content:"\f3d3"}
+.icon-vendetta:before{content:"\f3c5"}
+.icon-stadium:before{content:"\f3d6"}
+.icon-domino:before{content:"\f3d5"}
+.icon-dart:before{content:"\f3d4"}
+.icon-curling:before{content:"\f3d7"}
+.icon-diefive:before{content:"\f3fb"}
+.icon-scales:before{content:"\f3fd"}
+.icon-wizard:before{content:"\f03c"}
+.icon-codeigniter:before{content:"\f077"}
+.icon-supportrequest:before{content:"\f0a3"}
+.icon-phone2:before{content:"\f148"}
+.icon-basketball:before{content:"\f2e9"}
+.icon-tennis:before{content:"\f2ea"}
+.icon-football2:before{content:"\f2eb"}
+.icon-americanfootball:before{content:"\f2ec"}
+.icon-medalgold:before{content:"\f2e6"}
+.icon-warmedal:before{content:"\f2e4"}
+.icon-medalsilver:before{content:"\f2e7"}
+.icon-medalbronze:before{content:"\f2e8"}
+.icon-bomb:before{content:"\f2dc"}
+.icon-controllerps:before{content:"\f2d1"}
+.icon-diary:before{content:"\e069"}
+.icon-arrow-right:before{content:"\e06d"}
+.icon-arrow-up:before{content:"\e06c"}
+.icon-arrow-down:before{content:"\e06b"}
+.icon-arrow-left:before{content:"\e06a"}
+.icon-arrow-left2:before{content:"\e06e"}
+.icon-arrow-down2:before{content:"\e06f"}
+.icon-arrow-up2:before{content:"\e070"}
+.icon-arrow-right2:before{content:"\e071"}
+.icon-info3:before{content:"\e072"}
+.icon-info4:before{content:"\e073"}
+.icon-help:before{content:"\e074"}
+.icon-bowling:before{content:"\f2f3"}
+.icon-racquet:before{content:"\f2f2"}
+.icon-pingpong:before{content:"\f2f0"}
+.icon-golf:before{content:"\f2f1"}
+.icon-diamonds2:before{content:"\f2f7"}
+.icon-rook:before{content:"\f2fa"}
+.icon-ruby:before{content:"\f067"}
+.icon-megaphone:before{content:"\e075"}
+.icon-alarm:before{content:"\e076"}
+.icon-refresh:before{content:"\f021"}
+.icon-chevron-down:before{content:"\f078"}
+.icon-chevron-up:before{content:"\e077"}
+.icon-chevron-right:before{content:"\f054"}
+.icon-chevron-left:before{content:"\f053"}
+.icon-time:before{content:"\f017"}
+.icon-pawn2:before{content:"\f2f8"}
+.icon-megaphone2:before{content:"\e078"}
+.icon-banknote:before{content:"\e079"}
+.icon-wallet:before{content:"\e07a"}
+.icon-news:before{content:"\e07b"}
+.icon-params:before{content:"\e07c"}
+.icon-calendar:before{content:"\f073"}
+.icon-settings5:before{content:"\f309"}
+.icon-qrcode:before{content:"\e07d"}
+.icon-equalizer:before{content:"\e07e"}
+.icon-enter2:before{content:"\e07f"}
+.icon-exit2:before{content:"\e080"}
+.icon-pencil:before{content:"\e081"}
+.icon-danis-lou-joystick:before{content:"\e082"}
+.icon-virtual-sports:before{content:"\e083"}
+.icon-pushpin:before{content:"\e084"}
+.icon-search:before{content:"\e085"}
+.icon-calendar2:before{content:"\e086"}
+.icon-stopwatch:before{content:"\e087"}
+.icon-search2:before{content:"\f002"}
+.icon-th-large2:before{content:"\e088"}
+.icon-list-alt:before{content:"\f022"}
+.icon-user2:before{content:"\e089"}
+.icon-user-add:before{content:"\e08a"}
+.icon-book2:before{content:"\e08b"}
+.icon-bag:before{content:"\e08c"}
+.icon-eye-blocked:before{content:"\e08d"}
+.icon-eye:before{content:"\e08e"}
+.icon-flowernew:before{content:"\f3a8"}
+.icon-pocket:before{content:"\f16b"}
+.icon-sale:before{content:"\f277"}
+.icon-crown:before{content:"\f28f"}
+.icon-psup:before{content:"\f2c4"}
+.icon-plaque:before{content:"\f2b8"}
+.icon-trophy3:before{content:"\f2d7"}
+.icon-medal:before{content:"\f2e5"}
+.icon-xbox:before{content:"\f353"}
+.icon-search3:before{content:"\f0c5"}
+.icon-imac:before{content:"\f0fb"}
+.icon-tablet:before{content:"\f118"}
+.icon-laptop:before{content:"\f0d8"}
+.icon-nexus:before{content:"\f0e7"}
+.icon-iphone:before{content:"\f0e6"}
+.icon-user3:before{content:"\e08f"}
+.icon-grid:before{content:"\e090"}
+.icon-checkmark2:before{content:"\e091"}
+.icon-cancel2:before{content:"\e092"}
+.icon-home4:before{content:"\e093"}
+.icon-bookmark3:before{content:"\e094"}
+.icon-bookmark4:before{content:"\e095"}
+.icon-chat:before{content:"\e096"}
+.icon-asterisk:before{content:"\f069"}
+.icon-certificate:before{content:"\e097"}
+.icon-file2:before{content:"\e09a"}
+.icon-chart:before{content:"\e09b"}
+.icon-folder:before{content:"\e09c"}
+.icon-minus:before{content:"\e098"}
+.icon-plus:before{content:"\e099"}
+.icon-plus-alt:before{content:"\e09d"}
+.icon-minus-alt:before{content:"\e09e"}
+.icon-pin:before{content:"\e09f"}
+.icon-tag-fill:before{content:"\e0a0"}
+.icon-profile:before{content:" \e603 "}
+.icon-qrcode2:before{content:" \e604 "}
+.icon-key2:before{content:" \e606 "}
+.icon-Popular:before{content:"\e02d"}
+.icon-BettingSlip:before{content:"\e001"}
+.icon-BettingHistory:before{content:"\f073"}
+.icon-Terms:before{content:"\e039"}
+.icon-Transfer:before{content:"\f101"}
+.icon-About:before{content:"\e058"}
+.icon-Deposit:before{content:"\e060"}
+.icon-coin-2:before{content:"\e061"}
+.icon-Help:before{content:"\e062"}
+.icon-Contact:before{content:"\e063"}
+.icon-Withdraw:before{content:"\e079"}
+.icon-Settings:before{content:"\e07c"}
+.icon-PendingWithdrawal:before{content:"\e04c"}
+.icon-SignOut:before{content:"\e021"}
+.icon-TransactionHistory:before{content:"\f022"}
+.icon-Responsible:before{content:"\f2b8"}
+.icon-Winners:before{content:"\f2d7"}
+.icon-CasinoFpp:before{content:"\f2e5"}
+.icon-SignIn:before{content:"\e020";left:0}
+.icon-CasinoLobbySection:before{content:"\e602"}
+.icon-SportsLobbySection:before{content:"\e601"}
+.icon-LiveCasinoSection:before{content:"\e600"}
+.icon-MainMenu:before{content:"\e013"}
+.icon-AccountMenu:before,.icon-Profile:before{content:"\e089"}
+.icon-arrow:before{content:"\e071"}
+.icon-BonusesPage:before{content:"\e02c"}
+.icon-Promotions:before{content:"\f277"}
+.icon-SignIn,.icon-CasinoLobbySection,.icon-SportsLobbySection,.icon-LiveCasinoSection,.icon-MainMenu,.icon-AccountMenu,.RefreshIcon{font-family:'icomoon';speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;left:3px;top:-2px;position:relative;cursor:pointer}
+.ButtonIcon[class*="icon-"]{font-family:'icomoon';speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;position:relative}
+.SubmitIcon{float:right;position:relative;top:8px;right:10px;font-size:1.313rem;height:1em;line-height:1}
+.ButtonIcon.icon-SignOut:before{top:2px;left:2px;color:inherit}
+.RefreshIcon:before{content:"\f021";text-indent:0;color:#FFF;background:none;position:absolute;left:0;top:0}
+
+.icon-CasinoLobbySection, .icon-SportsLobbySection { 
+	@media (min-width: 1025px) {
+		&.HBIcon_V2 { left: -10px; }
+	}
+}

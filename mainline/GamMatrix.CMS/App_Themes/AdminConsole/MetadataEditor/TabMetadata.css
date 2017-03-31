@@ -1,0 +1,70 @@
+﻿#metadata-table { width:100%; font-family:Verdana; }
+
+#metadata-table thead tr { height:30px; }
+#metadata-table thead tr th { background-color:#6BA6D6; font-size:12px; color:White; }
+
+#metadata-table tbody td { padding: 5px 5px 5px 5px; border-bottom-style:dashed; border-bottom-width:1px; border-bottom-color: #666666; }
+
+#metadata-table .col-name span { font-weight:bold; }
+#metadata-table .col-name { width:170px; }
+#metadata-table .col-name .inherited 
+{
+    width:150px; 
+    padding-right:18px;
+    background-repeat:no-repeat;    
+    background-position:right;
+    text-decoration:none;
+    background-image:url(/images/icon/arrow_down.gif);
+ }
+#metadata-table .col-name .overrode 
+{
+    width:150px; 
+    padding-right:18px;
+    background-repeat:no-repeat;    
+    background-position:right;
+    text-decoration:none;
+    background-image:url(/images/icon/bullet_star.png);
+ }
+#metadata-table tbody tr textarea { width:95%; resize: none; height:75px; border:solid 1px #999999; background-color:transparent; cursor:default; overflow:hidden; }
+
+#metadata-table tbody .hover td { background-color:#EFF5FA; }
+#metadata-table tbody .selected td { background-color:#D9E8F4 !important; }
+#metadata-table tbody .selected textarea { background-color:white !important; cursor:text !important; border:solid 1px #666666 !important; overflow:auto; }
+
+#metadata-table .focus .col-name span { color:Red; }
+
+#metadata-table tbody .col-name a
+{
+    color:#999999;
+    padding-left:18px;
+    background-repeat:no-repeat;    
+    background-position:left middle;
+    text-decoration:none;
+    font-style:normal;
+}
+#metadata-table tbody .col-name a:hover { text-decoration:underline; }
+#metadata-table tbody .col-name .icoHtml { background-image:url(/images/icon/html.png); }
+#metadata-table tbody .col-name .icoHistory { background-image:url(/images/icon/zoom.png); }
+#metadata-table tbody .col-name .icoDelete { background-image:url(/images/icon/cross.png); }
+#metadata-table tbody .col-name .icoPreview { background-image:url(/images/icon/eye.png); }
+
+#ifmDialog { width:100%; height:560px; }
+
+
+
+#metadata-links { display: block; width:100%; overflow:auto; }
+#metadata-links ul { padding:0px; margin:0px; font-style:normal;}
+#metadata-links li { overflow:auto; float:left; list-style-type:none; margin-left:5px; }
+
+#metadata-links a { color:#666666; padding-left:18px; background-repeat:no-repeat; background-position:left middle; text-decoration:none; font-style:normal;}
+#metadata-links a:hover { text-decoration:underline; }
+
+#metadata-links .refresh { background:url("../img/tools_sprites.png") no-repeat 0px 0px; }
+#metadata-links .save { background:url("../img/tools_sprites.png") no-repeat 0px -200px; }
+#metadata-links .create { background:url("../img/tools_sprites.png") no-repeat 0px -180px; }
+
+#formCreateEntry .inputfield { width: 400px !important; }
+#formCreateEntry .inputfield .inputfield_Label { width:15% !important; }
+#formCreateEntry .inputfield .inputfield_Container { width:85% !important; }
+#formCreateEntry .buttons-wrap { padding-left: 300px !important; }
+#formCreateEntry .inputfield-tooltip { display:none !important; }

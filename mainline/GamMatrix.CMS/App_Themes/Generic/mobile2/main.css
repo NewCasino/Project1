@@ -1,0 +1,1458 @@
+/*
+ *	M360
+ *	----
+ *
+ *	Authors:	Viorel Mocanu - http://viorel.tel
+ *				Andrei Balescu
+ *				Iliuta Stoica
+ *
+*/
+
+/*
+
+FONT SIZE:		14px = 10.5pt	= 0.875rem
+LINE HEIGHT:	22px			= 1.5714em
+
+BASELINE:		22px			= 1.5714em
+				44px			= 3.1428em
+
+*/
+
+
+/**********/
+/* RESETS */
+/**********/
+
+html { font-size : 100.01%; overflow-y : scroll; -webkit-overflow-scrolling : touch; -webkit-tap-highlight-color : rgba(0,0,0,0); -webkit-text-size-adjust : 100%; -ms-text-size-adjust : 100%; -ms-text-size-adjust : 100%; color : #999; background : #333 url("img/hexabump.png") left top repeat; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{ margin : 0; padding : 0; }
+body { font-family : Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", FreeSans, clean, sans-serif; font-size : 10.5pt; line-height : 1.5714em; _text-align : center; }
+html>body { font-size : 10.5pt; }
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display : block; }
+audio[controls], canvas, video { display : inline-block; *display : inline; *zoom : 1; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style : normal; font-weight : normal; }
+table { border-collapse : collapse; border-spacing : 0; font-size : inherit; font : 100%; }
+	td { vertical-align : top; }
+	strong,th { font-weight : bold; }
+	caption,th { text-align : left; }
+h1,h2,h3,h4,h5,h6 { font-size : 100%; font-weight : normal; }
+b, strong { font-weight : bold; }
+blockquote, q { quotes : none; }
+	blockquote:before,blockquote:after,q:before,q:after { content : ''; content : none; }
+ul,ol { list-style-position : outside; margin : 0; }
+	ol { list-style-type : decimal; }
+	li { list-style : none; }
+	nav ul,nav li { margin : 0; list-style : none; list-style-image : none; }
+pre,code,kbd,samp,tt { font-family : monospace, monospace; _font-family : 'courier new', monospace; font-size : 1em; }
+	em { font-style : italic; }
+	small { font-size : 85%; }
+	sup { vertical-align : top; }
+	sub { vertical-align : bottom; }
+	ins { background-color : #ff9; color : #080808; text-decoration : none; }
+	mark { background-color : #ff9; color : #080808; font-style : italic; font-weight : bold; }
+	del { text-decoration : line-through; }
+	pre { white-space : pre; white-space : pre-wrap; word-wrap : break-word; padding : 2em; }
+abbr,acronym { border : 0; font-variant : normal; }
+dfn { font-style : italic; }
+	abbr[title], dfn[title] { border-bottom : 1px dotted; cursor : help; }
+hr { display : block; height : 1px; border : 0; border-top : 1px solid #ccc; margin : 1em 0; padding : 0; }
+form { display : block; }
+	fieldset,img { border : 0; }
+	fieldset { display : block; }
+	label { cursor : pointer; }
+	button,input,select,textarea { margin : 0; font-size : 100%; vertical-align : baseline; *vertical-align : middle; }
+	button, input { line-height : normal; *overflow : visible; }
+		button, input[type="reset"], input[type="button"], input[type="submit"] { line-height : 1.3333em !important; }
+	input,textarea,select { background : #fff url("img/bg-button.png") left top repeat-x; color : #666; border : none; font-family : "PT Sans", Helvetica, Arial, "Nimbus Sans L", "Liberation Sans", FreeSans, clean, sans-serif; font-size : inherit; font-weight : inherit; vertical-align : middle; }
+		.admin input, .admin .textarea, .admin select { border : 1px solid #080808; }
+	button, input[type="button"], input[type="reset"], input[type="submit"] { cursor : pointer; -webkit-appearance : button; }
+	input[type="checkbox"], input[type="radio"] { box-sizing : border-box; -moz-box-sizing : border-box; -webkit-box-sizing : border-box;}
+	input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration { display : none; }
+	input[type="search"] { -webkit-appearance : textfield; -moz-box-sizing : content-box; -webkit-box-sizing : content-box; box-sizing : content-box; }
+	button::-moz-focus-inner, input::-moz-focus-inner { border : 0; padding : 0; }
+	input:hover,textarea:hover,select:hover { background-color : #eee; color : #080808; }
+		.admin input:hover, .admin .textarea:hover, .admin select:hover { border : 1px solid #666; }
+	input:focus,textarea:focus,select:focus { background-color : #fff; color : #080808; box-shadow : 0 0 0.25em #eee; }
+	.admin input:focus, .admin textarea:focus, .admin select:focus { box-shadow : 0 0 1em #f00; }
+		.admin input:focus, .admin .textarea:focus, .admin select:focus { border : 1px solid #ef0000; }
+		.admin input[type="checkbox"], .admin input[type="radio"], input[type="search"], .admin input[type="checkbox"]:hover, .admin input[type="radio"]:hover, input[type="search"]:hover, .admin input[type="checkbox"]:focus, .admin input[type="radio"]:focus, input[type="search"]:focus { border : none; }
+	textarea { overflow : auto; vertical-align : top; }
+	input:valid,textarea:valid {  }
+	input:invalid,textarea:invalid {  } 
+	.no-boxshadow input:invalid,.no-boxshadow textarea:invalid { background-color : #f0dddd; }
+	legend { border : 0; *margin-left : -7px; padding : 0; }
+	.ie6 legend, .ie7 legend { margin-left : -7px; } 
+img { border : 0; -ms-interpolation-mode : bicubic; max-width: 100%; }
+figure { margin : 0; }
+:-moz-any-link { cursor: pointer; }
+
+
+/******************/
+/* GENERIC STYLES */
+/******************/
+
+/* anchor style */
+a, *|*:link { color : #ef0000; text-decoration : none; }
+/*a:visited { color : #ef0000; }*/
+a:hover { color : #666; }
+a:active { color : #f00; }
+a:focus { outline : none; }
+a:hover, a:active { outline : none; }
+*:focus, *:active, .Button:focus { outline: none; }
+::-moz-selection{ background : #ef0000; color : #fff; text-shadow : none; }
+::selection { background : #ef0000; color : #fff; text-shadow : none; }
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance : none; margin : 0; }
+.FormInput, input, select, textarea{ outline: none;}
+
+/****************/
+/* CUSTOM FONTS */
+/****************/
+
+
+
+/************/
+/* CLEARFIX */
+/************/
+
+.Main { display : table-cell; *display : block; width : auto; }
+
+.Body, .Container, .Box, .OutcomeList, .FooterMenu, .FormItem, .AmountContainer, .CardLink, .WalletContainer, .Match-FoundOdds, .ProfileDetail, .DetailPairs, .slides, .swipe-slide, .Box { *zoom : 1; }
+
+.Body:after, .Container:after, .BoxContent:after, .OutcomeList:after, .FooterMenu:after, .NewSliderControls:after, .FormItem:after, .AmountContainer:after, .CardLink:after, .WalletContainer:after, .Match-FoundOdds:after, .ProfileDetail:after, .DetailPairs:after, .slides:after, .swipe-slide:after, .Box:after, .AccountWrapper:after, .SelectBonusSlider:after, .TransactionList .CardHeader:after, .TransactionList .DetailTable tr:after, .BonusContainnerBox .ToggleButton:after, .AmountBox:after { clear : both; display : block; visibility : hidden; overflow : hidden; height : 0 !important; line-height : 0; font-size : xx-large; content : " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x "; }
+.AccountButtonContainer:after, .SelectBonusContainer:after { clear : both; display : block; visibility : hidden; overflow : hidden; height : 0 !important; line-height : 0; font-size : xx-large; content : " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x "; }
+
+/****************/
+/* HIDING STUFF */
+/****************/
+
+.ir { display : block; overflow : hidden; text-indent : 100%; white-space : nowrap; overflow : hidden; background-repeat : no-repeat; text-align : left; direction : ltr; }
+.ir br { display : none; }
+.hidden, .Hidden { display : none !important; visibility : hidden; }
+.visuallyhidden { border : 0; clip : rect(0 0 0 0); height : 1px; margin : -1px; overflow : hidden; padding : 0; position : absolute; width : 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip : auto; height : auto; margin : 0; overflow : visible; position : static; width : auto; }
+.invisible { visibility : hidden; }
+
+
+/**************/
+/* Debugging */
+/*************/
+.DebugBox{position: fixed; left: 0; right: 0; bottom: auto; top: 0; background: rgba(0,0,0,0.3); color: #FFFFFF; padding: 0 1em; font-size: 1em; line-height: 1.5em; z-index: 999; pointer-events:none; opacity: 0.9}
+.DebugBox:hover{opacity: 0.1;}
+	.DebugMessage { display: block;}
+		.DebugLog{}
+		.DebugDebug{ color: #1BF919;}
+		.DebugError{ color: red;}
+		.DebugWarn{ color: yellow;}
+		.DebugInfo{ color: #00C8FF;}
+
+
+
+
+/****************/
+/* GENERIC ELEM */
+/****************/
+
+	/* Buttons */
+	.Button { display : block; position : relative; background : #ef0000 url("img/bg-button.png") left top repeat-x; background-size : 100% 400%; color : #fff; border : none; text-align : left; text-transform : uppercase; text-shadow : 0 -1px 0 #8c0000; border-radius : 0.2857em; box-shadow : 0 1px 0 #111; }
+		.Button:hover { background : #ef0000 url("img/bg-button.png") left 33.3333% repeat-x; background-size : 100% 400%; color : #fff; text-shadow : 0 -1px 0 #8c0000; box-shadow : 0 1px 0 #8c0000; }
+		.Button:active { background : #666 url("img/bg-button.png") left 66.6666% repeat-x; background-size : 100% 400%; color : #fff; text-shadow : 0 1px 0 #080808; box-shadow : 0 1px 0 #ccc; box-shadow : 0 1px 0 #ccc, 0 -1px 0 #111; }
+			.ButtonText { display : block; background : transparent url("img/radial-full.png") center top no-repeat; background-size : 150% 250%; border-radius : 0.2857em; }
+			.Button:active .ButtonText { background : transparent; }
+				.ButtonIcon { display : block; }
+
+	.iOSBack{ font-size: 14px; background: #B0ADA4; border: solid #AFACA3; border-width: 1px 1px 1px 0; -moz-border-radius: 0 5px 5px 0;  -webkit-border-radius: 0 5px 5px 0;  border-radius: 0 5px 5px 0; display: inline-block;  height: 2em;  line-height: 2em; margin-left: 1.429em; margin-right: 0.143em; padding: 0.286em 1em 0.286em 0.714em; position: relative; text-decoration: none; margin: 2em 2.5em 0; }
+		.iOSBack:before { background: #B0ADA4; border: solid #AFACA3; border-width: 0 0 1px 1px; border-radius: 0.143em 0 0.143em 0.143em; content: ''; display: block; height: 1.929em; left: -0.929em; position: absolute; top: 0.286em; -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); width: 26px; -ms-transform: rotate(45deg); }
+		.iOSBack:hover, .iOSBack:focus { border-color: #89877F; background: #777368;}
+		.iOSBack:hover:before, .iOSBack:focus:before { border-color: #89877F; background: #777368;}
+		.iOSBack span { color: #FFFFFF; font-size: 1.143em; font-weight: bold; position: relative; text-shadow: 0 -1px 0 #6A6963; background: none;}
+
+	/* Box controls */
+	.Box { display : block; margin : 1.5714em 0.3571em; } /* generic box */
+		.BoxContent { border-radius: 0.5em; display: block; position: relative; z-index: 0; background-color: transparent; } 
+		.SHNoLink { color: #333; border-top: 0.0714em solid #aaa; border-bottom: 0.0714em solid #999; -moz-text-shadow: 0 -1px 0 #ccc; -webkit-text-shadow: 0 -1px 0 #ccc; -o-text-shadow: 0 -1px 0 #ccc; -khtml-text-shadow: 0 -1px 0 #ccc; text-shadow: 0 -1px 0 #ccc; }
+			.ToggleArrow { background: url("img/bg-darken-bottom.png") repeat-x scroll center center / 100% 200% transparent; border-left: 1px solid #FFFFFF; box-shadow: -1px 0 0 #CCCCCC; display: block; line-height: 2em; float: right; font-size: 1em; height: 2.2142em; text-align: center; width: 2.2142em; } /* generic box toggle arrow */
+			.ToggleButton .ToggleArrow { background: url("img/big-sprite.png") no-repeat scroll -235px -440px transparent; border: 0 none; box-shadow: none; display: block; float: right; font-size: 2.143em; font-weight: bold; height: 1em; line-height: 1em; margin-right: 0.286em; margin-top: 0.143em; overflow: hidden; text-align: center; text-indent: 100%; width: 1em; }
+			.PopularBox .ToggleButton .ToggleArrow{ font-size: 1em; background: url("img/bg-darken-bottom.png") repeat-x scroll center center transparent; background-size: 100% 200%; border-left: 1px solid #FFFFFF; box-shadow: -1px 0 0 #CCCCCC; display: block; line-height: 2em; float: right; height: 2.2142em; text-align: center; width: 2.2142em;  }
+			.SHText { display : block; padding : 0.2857em 0.3571em 0.3571em 0.3571em; overflow : hidden; } /* generic box toggle text */
+
+	.AppDownload {     background-color: #EF0000; display: block; font-size: 1.5714em; line-height: 1em; overflow: hidden; padding: 0.5em 0; text-align: center; }
+		.AppDownload .RegText{ }
+		 .AppIcon.App_IOS { background-image: url('img/app_apple.png');}
+		 .AppIcon.App_Android { background-image: url('img/app_android.png');}
+		.AppIcon { background: none repeat scroll 0 0 #333333; border-radius: 0.5em 0.5em 0.5em 0.5em; box-shadow: 0 0.5em 0.5em #000000; color: #FFFFFF; display: block; float: left; height: 3.1428em; margin: 0 1.5714em 0 0; position: relative; text-shadow: 0 -1px 0 #111111; width: 3.1428em; z-index: 2; background-size: 100% auto;}
+
+
+
+	/* generic box content */ /
+	.MenuBox {margin: 0.857em 0.857em 1.5714em;}
+	.MenuBox .MenuList{margin: 0 auto; box-shadow: none;}
+
+	/* Info Boxes */ 
+	.TextBox { text-align: left; margin: 1.5714em;}
+	.TextBox .BoxContent  {padding: 0.3517em 1em 0.75em; line-height: 1.5em; font-size: 0.857em; background: none #FBFBFB; -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); -khtml-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); overflow: hidden;}
+	.MenuBox .BoxContent{line-height: 1.5em; font-size: 1em; background: url("img/bg-darken-bottom.png") repeat-x scroll left top / 100% 120% #FBFBFB; background-size: 100% 120%; -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.65); -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.65); -o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.65); -khtml-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.65); box-shadow: 0 2px 2px rgba(0, 0, 0, 0.65); overflow: hidden;}
+	.TextBox h2, .TextBox h3, .TextBox h4{ margin: 1em 0.333em 0.5em 0.333em; color: #000; font-weight:normal}
+	.TextBox h2 { font-size: 1.167em; font-weight: bold; margin: 0.5em 0.143em ; }
+	.TextBox h2 + strong { margin: 0 0.2em;}
+	.TextBox h3{font-size:1.33em}
+	.TextBox h4{font-size:1.15em}
+	.TextBox p{display: block; margin: 1em 0.5em; color: #000;}
+	.TextBox ol, .TextBox ul{margin: 0 0.5em}
+
+
+	/* Tab controls */
+	.Tabs { display : block; padding : 0.7857em 0 0 0; border-bottom : 0.7857em solid #ab0000; text-align : center; box-shadow : 0 1px 0 #8c0000; } /* generic tabs list */
+		.Col { display : block; float : left; } /* generic column */
+		/* variable number of columns */
+		.Cols-1 .Col { float : none; width : 100%; }
+		.Cols-2 .Col { width : 50%; }
+		.Cols-3 .Col { width : 33.3333%; }
+		.Cols-4 .Col { width : 25%; }
+		.Cols-5 .Col { width : 20%; }
+		.Cols-2 .Col:nth-child(2n+1), .Cols-3 .Col:nth-child(3n+1), .Cols-4 .Col:nth-child(4n+1), .Cols-5 .Col:nth-child(5n+1) { clear : left; }
+
+		.TabLink, .TabLink:visited { background:#AAAAAA url("img/bg-darken-bottom.png") repeat-x scroll left bottom ; background-size: 100% 150%; border-top: 0.0714em solid #FFFFFF; color: #FFFFFF; display: block; font-weight: bold; margin: 0 0.7857em; overflow: hidden; padding: 0.3571em 0.7857em; -webkit-text-shadow: 0 -1px 0 #333; -o-text-shadow: 0 -1px 0 #333; -khtml-text-shadow: 0 -1px 0 #333;text-overflow: ellipsis; text-shadow: 0 -1px 0 #333333; white-space: nowrap; } /* generic tab link */
+		.TabLink:active { background: #ef0000 url("img/bg-button.png") left 66.6666% repeat-x; background-size: 100% 400%; color: #fff; border-top: 0.0714em solid #300; -moz-text-shadow: 0 1px 0 #080808; -webkit-text-shadow: 0 1px 0 #080808; -o-text-shadow: 0 1px 0 #080808; -khtml-text-shadow: 0 1px 0 #080808; text-shadow: 0 1px 0 #080808; }
+		.TabLink:hover { background: #ef0000 url("img/bg-button.png") left 33.3333% repeat-x; background-size: 100% 400%; color: #fff; border-top: 0.0714em solid #ef6666; -moz-text-shadow: 0 -1px 0 #8c0000; -webkit-text-shadow: 0 -1px 0 #8c0000; -o-text-shadow: 0 -1px 0 #8c0000; -khtml-text-shadow: 0 -1px 0 #8c0000; text-shadow: 0 -1px 0 #8c0000; }
+		.ActiveTab .TabLink { background: #ab0000 url("img/bg-button.png") left top repeat-x; background-size: 100% 400%; border-top: 0.0714em solid #ef6666; }
+		.TabLink.Disabled, TabLink.Disabled:visited, TabLink.Disabled:active, TabLink.Disabled:hover { background : #aaa; border-top : 0.0714em solid #aaa; opacity : 0.5; }
+
+
+
+	/* Standard lists */
+	.L { display : block; } /* generic List */
+		.X { display : block; } /* generic item X */
+			.A, .A:visited, .PseudoA, .MIBox, .ProfileDetail { display : block; padding : 0.7142em 0; background : #F8F8F8 url("img/radial-full.png") center bottom no-repeat; background-size : 200% 200%; color : #333; border-top : 0.0714em solid #fff; border-bottom : 0.0714em solid #eee; text-shadow : 0 -1px 0 #fff; } /* generic Anchor / link / container */
+			.A:active { background : #999 url("img/bg-button.png") left 66.6666% repeat-x; background-size : 100% 400%; color : #fff; border-top : 0.0714em solid #222; border-bottom : 0.0714em solid #888; text-shadow : 0 1px 0 #000; }
+			.A:hover { background-color : #ef0000; color : #fff; border-top : 0.0714em solid #faa; border-bottom : 0.0714em solid #640000; text-shadow : 0 -1px 0 #640000; }
+				.Y { display : block; float : right; width : 0.7142em; height : 1.1428em; margin : 0.2143em 0.3571em; background : transparent url("img/big-sprite.png") -20px -440px no-repeat; overflow : hidden; text-indent : 100%; white-space : nowrap; } /* generic action sYmbol */
+				.A:active .Y, .A:hover .Y { background-position : -10px -440px; }
+				.I, .BalanceIcon { display : block; float : left; width : 1.5714em; height : 1.5714em; margin : 0 0.3571em; background : url("img/temp-icon-small.png") no-repeat; overflow : hidden; text-indent : 100%; white-space : nowrap; } /* generic Icon */
+				.N { display : block; overflow : hidden; } /* generic Name */
+
+		
+			.ToggleName { padding: 0.1428em 0.6111em 0 0.6111em; font-size: 1.5714em; font-weight: bold; }
+	.ToggleContent { background: #ddd url("img/bg-darken-bottom.png") left bottom repeat-x; }
+	.ToggleClose{text-align: center;}
+	.ToggleClose .MW{ padding: 0.7857em 0.4285em;}
+
+	.PopularBox .ToggleContent{ background: none transparent;}
+	.CasinoGames .SubHeader{ display: none;}
+	
+	.AccordionList .ToggleContent{ display: none; }
+	.AccordionList .Active .ToggleContent{ display:block; }
+	.TabContent { background: none transparent; } /* url("img/bg-darken-bottom.png") repeat-x scroll left bottom #DDDDDD*/
+
+	/* generic Icon List */
+	.IconList { display : block; padding: 0; margin: 0; width: 100%; max-width: 100%; } 
+		.IconList .X { border-bottom : 0.0714em solid #eee; }
+		.GameList .GameItem:nth-child(4n), .GameList .GameItem:nth-child(4n+3) { background-color : #f4f4f4; }
+			.B, .B:visited { display : block; border-right : 0.0714em solid #eee; padding : 0; color : #333; }
+			.B:hover, .B:active { color : #000; background : #ddd url("img/radial-full.png") center top no-repeat; background-size : 100% 200%; box-shadow : inset 0 0.5em 0.5em #999; text-shadow : 0 -1px 0 #fff; }
+			.Cols-2 .X:nth-child(2n) .B, .GameList .GameItem:last-child .B { border-right : none; }
+				.IconList .Icon { display : block; float : left; width : 4.1248em; height : 4.1248em; margin : 0.6428em 0.7142em 0.6428em 0.7142em; position : relative; background : transparent url("img/radial-top.png") center top no-repeat; background-size : 300% 100%; border-radius : 0.2857em; box-shadow : 0 0.2857em 0.2857em #000; }
+				.B:hover .Icon, .B:active .Icon { background : #ef0000 url("img/bg-button.png") left 33.3333% repeat-x; background-size : 100% 400%; box-shadow : 0 0.2142em 0.2142em #000; }
+					.IconWrapper { display : block; width : 4.1248em; height : 4.1248em; padding : 0; background : transparent url("img/radial-full.png") center top no-repeat; background-size : 100% 200%; border-radius : 0.2857em; }
+					.B:hover .IconWrapper, .B:active .IconWrapper { background-size : 200% 300%; }
+						.IconList .I { display : block; width : 100%; height : 100%; margin : 0 auto; background : transparent; border-radius : 0.2857em; background-size: 100% auto; }
+						.IconList .LiveUpdate { display : block; padding : 0.2857em; position : absolute; top : -0.5em; right : -0.5em; z-index : 10; background : #ef0000 url("img/radial-button.png") center top no-repeat; background-size : 300% 100%; color : #fff; font-size : 1em; line-height : 1em; text-shadow : 0 -1px 0 #8c0000; box-shadow : 0 1px 1px #000; }
+					.IconList .N { padding : 1.2857em 0 0 0; overflow : hidden; text-overflow : ellipsis; }
+	
+	/* More link */
+	.M { display : block; background : #222 url("img/bg-button.png") left top repeat-x; background-size : 100% 400%; border-top : 0.0714em solid #222; border-bottom : 0.0714em solid #000; } /* generic More link */
+		.MW { display : block; padding : 0.3571em 0 0.4285em 0.7857em; background : transparent url("img/radial-full.png") center bottom repeat-x; background-size : 300% 600%; color : #eee; font-size : 1em; line-height : 1em; text-shadow : 0 1px 0 #000; } /* generic More Wrapper */
+		.M:active { background : #f00 url("img/bg-button.png") left 66.6666% repeat-x; background-size : 100% 400%; }
+		.M:hover { background-color : #444; border-top : 0.0714em solid #666; }
+			.M .ActionArrow { margin : -0.0714em 0.3571em; background-position : -10px -440px; }
+
+	.ErrorMsg { color : #f00; display : block; width : 100%; }
+
+	/* Generic form controls */
+.UserBox { display:block; margin: 1.5714em 0; }
+.UserBox .BoxContent { padding: 0.5em; }
+.UserBox .FinalStep { background: none repeat scroll 0 0 #FFFFFF; box-shadow: 0 1px 2px #999999; margin: 1em; padding: 1em; }
+
+	.GenericForm { display: block; }
+		.CenterBox{max-width: 600px; margin: 1.5714em auto; display: block;}
+		.FormList { display: block; margin-top: 0.5em; } 
+			.FormItem { display: block; padding: 0.571em 0.5em 0.286em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+			.OK {  }
+			.Error {  }
+				.FormLabel { display: block; line-height: 2em; padding: 0.2857em 0.2142em; font-weight: bold; }
+				.FormInput { box-shadow: inset 0 1px 2px #a7a7a7, 0 0 1px #eee; display: block; float: none; width: 90%; max-width: 100%; font-size: 1.143em; padding: 0.500em 1.500em 0.500em 0.250em; position: relative; z-index: 1; border: 0.0714em solid #ccc9c0; -moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; -o-border-radius: 0.5em; -khtml-border-radius: 0.5em; border-radius: 0.5em; text-indent : 0.2142em; }
+				select.FormInput { max-width: 100%; padding: 0.5em 0.75em 0.5em 0.143em; width: 98%; -webkit-appearance: menulist;}
+				.FormLabel[for="registerCountry"], .FormLabel[for="txtAddress2"], .FormLabel[for^="registerPassword"], .FormLabel[for="registerQuestion"]{ line-height: 1.25em;}
+
+			form fieldset{position: relative;}
+			.ErrorContainer{position: absolute; top: 0; left: 0; right: auto; bottom: auto; z-index: 99;}
+			.ErrorTitle{font-weight: bold;}
+			.Popup{}
+			.Popup .BoxContent { background-color: rgba(17, 17, 17, 0.87); border: 1px solid #000000; box-shadow: 0 0 5px #111111;  color: #FFFFFF; line-height: 2em; margin: 0 auto; padding: 1.5em; width: 66.66%; }
+			.Popup p{margin-bottom:1em; }
+			.Popup .Button { background-color: #000000; border: 1px solid #000000; box-shadow: 0 0 5px #111111; color: #FFFFFF; margin: 0.333em auto; text-shadow: 0 1px 0 #000000; }
+			.Popup .ButtonText { background-position: center bottom; padding: 0.3571em 1em; background-size: 150% 500%; }
+			.Popup .Button:hover{background-color: #D20000; color: #FFFFFF; text-shadow:0 1px 0 #000;}
+
+
+				.InputDisabled{ 	opacity: 0.5;	color: #DDD; cursor: not-allowed;}
+				.InputDisabled .FormLabel, .InputDisabled .FormInput, .InputDisabled .FormBulletLabel { color: #DDD;cursor: not-allowed; }
+				.InputDisabled .FormInput {background: url("img/bg-darken-pattern.png") repeat-x scroll left center #FFFFFF;}
+				.InputDisabled .FormStatus, .InputDisabled .FormRadio{display: none;}
+
+				.FormRadio, .FormCheck { display: block; float: left;  position: relative;  top: 0.25em; }
+				.FormBulletLabel { display: block; float: left; font-weight: bold; margin: 0 .5em; }
+				.FormBulletDesc { display: block; float: left; clear: left; margin: 0 1.5em; }
+				textarea.FormInput {    padding: 0.5257em;    width: 95%; }
+					.ButtonAttached { -moz-border-radius: 0.5em 0 0 0.5em; -webkit-border-radius: 0.5em 0 0 0.5em; -o-border-radius: 0.5em 0 0 0.5em; -khtml-border-radius: 0.5em 0 0 0.5em; border-radius: 0.5em 0 0 0.5em; }
+				.FormStatus { display: none; float: left; width: 1.5714em; height: 1.5714em; margin: 0.2142em 0 0 -1.7857em; position: relative; z-index: 3; background: url("img/temp-icon-small.png") no-repeat; overflow: hidden; text-indent: 100%; white-space: nowrap; }
+				.FormGeotag, #formGeotag { display: block; float: left; width: 1.5714em; height: 1.5714em; margin: 0 0 0 -0.0714em; padding: 0.1428em; background: cyan; border: 0.0714em solid #999; overflow: hidden; text-indent: 100%; white-space: nowrap; -moz-border-radius: 0 0.5em 0.5em 0; -webkit-border-radius: 0 0.5em 0.5em 0; -o-border-radius: 0 0.5em 0.5em 0; -khtml-border-radius: 0 0.5em 0.5em 0; border-radius: 0 0.5em 0.5em 0; }
+				.FormHelp { display: block; padding: 0.2727em 1em 0 1em; overflow: hidden; font-size: 0.7857em; line-height: 1em; }
+					.Error .FormHelp, .FormError { color: #f00; }
+					.OK .FormHelp, .FormOk{ color: #00ab00; }
+					.Ok .FormHelp {  display: none; }
+					/*.FormError .FormInput, .Error .FormInput { border: 1px solid #A72107; box-shadow: 0 1px 2px #C1553F inset, 0 0 2px #9A2008; color: #A72107; }*/
+					.FormError .FormInput, .Error .FormInput { box-shadow: 0 1px 6px #651100 inset, 0 0 0.75em #B11D00, 0 1px 0 #F00, 1px 0 0 #F00, -1px 0 0 #F00, 0 -1px 0 #F00; color: #A72107; }
+					.FormError .FormInput:focus, .Error .FormInput:focus { color: #111; box-shadow: 0 0 0.75em #FF0404,0 1px 0 #F00, 1px 0 0 #F00, -1px 0 0 #F00, 0 -1px 0 #F00;  }
+					.FormAdditional{ display:block; clear:both;}
+				.CompositeInput {  display: block; float: left; width: 74%; } 
+					.CompositeInput .FormInput { width: 90%; padding-right: 0.75em; }
+					.CompositeInput .Col:last-child .FormInput{float: right;}
+					.DateInput #registerYear{ max-width: 100%}
+		.AccountButtonContainer { margin: 2.5em auto 1em;  max-width: 600px; }
+		.ProfileList + .AccountButtonContainer { margin: 2.5em auto 0; }
+			.AccountButton { display: block; width: 100%; padding: 0; cursor: pointer; }
+			.PromoContent .AccountButton { float: right; max-width: 10em; }
+				.AccountButton .ButtonText { padding: 0.5em; font-size: 1.4285em; text-align: center; text-transform: none; font-weight: normal; letter-spacing: 0; }
+					
+					.AmountFields .FormHelp{text-align: center; line-height: 1.5em}
+					.AmountText { clear: both; color: #8C8980; display: block; font-size: 0.857em; margin: 1em 25%; text-shadow: 0 1px 0 #FFFFFF; width: auto; text-align: center;}
+					.MinAmount{ margin-right: 3em; }
+					.AmountText .AmountValue{ font-weight: bold;}
+					.AmountBox, .AccountBox { margin: 1em auto 0; display:block; max-width: 600px; }
+					.AmountBox .FormInput { background: none repeat scroll 0 0 transparent; border: 0 none; border-radius: 0 0 0 0; box-shadow: none; display: block; float: none; font-size: 0.875rem; left: 0; line-height: inherit; max-width: 70%; padding: 0.643em 0.286em 0.5em; position: relative; width: 75%; z-index: 0; }
+					.AmountContainer{ display: block; background-color: #FFF; border-radius: 0.5em; border:0.0714em solid #D3D0C7; position: relative; box-shadow: 0 0px 2px rgba(51, 51, 51, 0.58) inset;}
+						.AmountInfo {display: block; float: left; padding: 0.5em 1em; background-color: #C1C0BC; position: relative; z-index: 2; box-shadow: 0 1px 0 #C1C0BC; color: #A0A09D; text-shadow: 0 1px 0 #FFFFFF;}
+						.AmountInfo.DecreaseAmount{ float: left; border-radius: 0.5em 0 0 0.5em }
+						.AmountInfo.IncreaseAmount{float: right; border-radius: 0 0.5em 0.5em 0} 
+						.AmountInfo .ButtonText {  background: none repeat scroll 0 0 transparent; }
+
+					.AccountBox .FormInput{width: 100%; max-width: 100%; padding-right: 0.75em;}
+
+					/* Square Form Element */
+					.SquareForm{}
+					.SquareForm .FormRadio { display: none;}
+					.SquareForm .FormRadio + label { background: url("img/form-radio_bg.png") no-repeat scroll left top transparent; line-height: 2.167em; margin: 0.333em; padding: 0 0 0 2.5em; }
+					.SquareForm .FormRadio:checked + label {background-position: left bottom;}
+
+					/* Circle Form Radio check */
+					.CircleForm{}
+					.CircleForm input[type="radio"] { display: none; }
+					.CircleForm input + label { padding: 0.25em 0 0.25em 2em; background-image: url('img/form_round_radio_bg.png'); background-repeat: no-repeat; background-position: left 4px; font-size: 1em; margin: 0; font-weight: bold; color: #FFF; display: block; line-height: 1.5em;}
+					.CircleForm input:checked + label { background-position: left -34px;}
+					
+					form[action^="/Withdraw/MobilePrepareTransaction/"] { margin: 0 1em;}
+					.PayCardList li { background-color: rgba(126, 125, 105, 0.25); border-radius: 0.5em 0.5em 0.5em 0.5em; margin: 0.5em 0; padding: 0.25em 0.75em; }
+					input[type=radio] { display: none; }
+					input[type=radio] + label { padding: 0.25em 0 0.25em 2em; background-image: url('img/radio_bg_uncheck.png'); background-repeat: no-repeat; background-position: left 4px; font-size: 1em; margin: 0; font-weight: bold; color: #FFF; display: block; line-height: 1.5em; min-height: 1.333em}
+					input[type=radio]:checked + label {  background-image: url('img/radio_bg_check.png');}
+					.SelectBonusType { margin-bottom: 1.5em; }
+
+		.AddToHome { display : block; width : 94%; padding : 0.666em 3%; position : fixed; left : 0; z-index : 1000; background : #000; color : #eee; border : 1px solid #222; }
+		.Context_IOS { bottom : 0; box-shadow : 0 -0.5em 0.5em #000; padding-bottom: 3em; }
+		.Context_Android { top : 0; box-shadow : 0 0.5em 0.5em #000; padding-bottom: 3em; }
+			.ATHClose { display : block; float : right; width : 2.3571em; height : 2.3571em; margin : -0.5em -1% 0.5em 0.5em; background : transparent url("img/close.png") center center no-repeat; background-size : 33px 33px; white-space : nowrap; overflow : hidden; text-indent : 100%; }
+			.ATHTitle { display : block; overflow : hidden; font-weight : bold; line-height: 1em; margin-bottom: 1em; }
+			.ATHP { display : block; line-height : 2.3571em; }
+				.ATHIcon { display : inline-block; width : 2.3571em; height : 2.3571em; margin : 0 0.1428em; vertical-align : middle; background : transparent center center no-repeat; background-size : 33px 33px; white-space : nowrap; overflow : hidden; text-indent : 100%; }
+				.Context_IOS .ATHIcon { background-image : url("img/addtohome-ios.png"); }
+				.Context_Android .ATHIcon { background-image : url("img/addtohome-android.png"); }
+
+		.StatusContainer { padding: 1em; }
+		.StatusBackground { display : block; margin : 0; padding : 1em; background : #eee url("img/bg-button.png") left top repeat-x; background-size : 100% 400%; border : 0.0833em solid #ccc; font-size : 1em; line-height : 1.5em; -moz-border-radius : 1em; -webkit-border-radius : 1em; -o-border-radius : 1em; -khtml-border-radius : 1em; border-radius : 1em; -moz-text-shadow : 0 0.0833em 0 #fff; -webkit-text-shadow : 0 0.0833em 0 #fff; -o-text-shadow : 0 0.0833em 0 #fff; -khtml-text-shadow : 0 0.0833em 0 #fff; text-shadow : 0 0.0833em 0 #fff; -moz-box-shadow : 0 0.1666em 0.1666em #9A9A9A; -webkit-box-shadow : 0 0.1666em 0.1666em #9A9A9A; -o-box-shadow : 0 0.1666em 0.1666em #9A9A9A; -khtml-box-shadow : 0 0.1666em 0.1666em #9A9A9A; box-shadow : 0 0.1666em 0.1666em #9A9A9A; }
+		.StatusIcon { float: left; background: transparent url("img/status_icons.png") no-repeat; font-size: 0.875rem; width: 1.5714em; height: 1.857em; margin: 0.143em 0.75em 0.2857em 0; overflow: hidden; text-indent: 100%; white-space: nowrap; }
+		.StatusTitle { display : block; margin : 0; font-size : 1.5714em; font-weight : bold; }
+		.StatusMessage { overflow : hidden; }
+
+		.InfoStatus .StatusIcon {  }
+		.InfoStatus .StatusBackground { background-color: #FFFFFF; background-position: left -900px; border: 0.0833em solid #176AC2; color: #176AC2; text-shadow: 0 0.1111em 0 #F4F4F4; }
+
+		.SuccessStatus .StatusIcon { background-position: -22px -2px; }
+		.SuccessStatus .StatusBackground { background-color: #FFFFFF; background-position: left -600px; border: 0.0833em solid #008C03; color: #166509; text-shadow: 0 0.1111em 0 #F4F4F4; }
+
+		.WarningStatus .StatusIcon { background-position: -44px -2px; }
+		.WarningStatus .StatusBackground { background-color : #FEFD64; background-position : left -1.25em; color : #440808; border : 0.0833em solid #FFF; text-shadow : 0 0.1111em 0 #DEDEDE; }
+
+		.ErrorStatus .StatusIcon { background-position: -66px 0; }
+		.ErrorStatus .StatusBackground { background-color : #ef0000; background-position : left -0.5em; color : #fff; border : 0.0833em solid #8c0000;  text-shadow : 0 -0.0833em 0 #8c0000; }
+		.ErrorStatus .StatusBackground a{ color: #FFFFFF;  text-shadow: 0 1px 0 rgba(0,0,0,.85);  }
+		.ErrorStatus .StatusBackground a:hover{ color: #F7D724; }
+
+		.DepositStatus { background: none repeat scroll 0 0 transparent; border-color: transparent transparent #DDDDDD; border-radius: 0 0 0 0; border-style: none none solid; border-width: 0 0 1px; box-shadow: none; display: block; font-size: 1em; line-height: 1.5em; margin: 0; padding: 1em; text-shadow: 0 0.0833em 0 #FFFFFF; }
+		.DepositStatus .StatusBackground{background: none transparent; border: 0 none; color: #999; box-shadow: none; padding: 0; margin: 0 auto; }
+		.DepositStatus .StatusTitle{font-size: 1.143em; font-weight: bold; margin: 0.125em auto 0.250em; color: #111; }
+		/*.DepositStatus h3{font-size: 1em; line-height: 1.5em; display: block; margin: 0.250em auto 1em;}*/
+		.DepositStatus .StatusMessage{font-style: italic; color: #999;}
+
+		/* Hide Print button */
+		.TextBox .button { display: none; }
+
+
+/*****************/
+/*   STRUCTURAL  */
+/*****************/
+
+.Framework { display : block; margin : 0 auto; padding : 3.3571em 0; position : relative; left : 0; background : transparent; font-size : 10.5pt; line-height : 1.5714em; text-align : left; transition : all 2s ease-in-out; z-index: 1;}
+
+	.Header { display : block; width : 100%; position : fixed; left : 0; top : 0; z-index : 100; background : #333 url("img/radial-button.png") center top no-repeat; background-size : 300% 100%; border-top : 0.0714em solid #999; border-bottom : 0.0714em solid #000; }
+
+		.HeaderWrapper { display : block; background : transparent url("img/radial-full.png") center top no-repeat; background-size : 200% 400%; }
+			.Header .Button { display : block; float : left; width : 3.2857em; height : 3.2857em; margin : 0 0.2857em 0 0; background : transparent url("img/bg-darken-bottom.png") center top repeat-x; background-size : 100% 100%; border-right : 1px solid #0c0c0c; overflow : hidden; text-indent : 100%; white-space : nowrap; border-radius : 0; box-shadow : 1px 0 0 #666; }
+				.Header .MenuButton { float : right; margin : 0 0 0 0.2857em; border-right : none; border-left : 1px solid #0c0c0c; box-shadow : -1px 0 0 #666; }
+			.Header .Button:hover, .Header .Button:active { background : transparent url("img/radial-full.png") center top no-repeat; background-size : 200% 400%; }
+				.Header .ButtonIcon { display : block; width : 1.5714em; height : 1.5714em; margin : 0.8571em auto; background : transparent url("img/big-sprite.png") -44px -440px no-repeat; }
+	
+				.HomeButtonHeader .ButtonIcon { background-position : -88px -440px; }
+				.HomeButtonHeader:hover .ButtonIcon, .HomeButtonHeader:active .ButtonIcon { background-position : -88px -462px; }
+				.SportsButtonHeader .ButtonIcon, .SportsButtonHeader:hover .ButtonIcon{ background-position: -22px -482px; }
+
+				.MenuButton .ButtonIcon { background-position : -66px -440px; }
+				.MenuButton:hover .ButtonIcon, .MenuButton:active .ButtonIcon { background-position : -66px -462px; }
+					.OpenMenu .MenuButton .ButtonIcon { background-position : -198px -440px; }
+				.Search .ButtonIcon { background-position : -176px -440px; }
+				.Search:hover .ButtonIcon, .Search:active .ButtonIcon { background-position : -176px -462px; }
+	
+			.OperatorLogo { display : block; overflow : hidden; background : transparent; text-align : center; }
+			.OperatorLogo:hover, .OperatorLogo:active { background : transparent url("img/radial-full.png") center bottom no-repeat; background-size : 100% 200%; }
+				.BrandingImage { display : block; width : auto; max-width : 100%; height : 2.3571em; margin : 0.5em auto 0 auto; }
+	
+		.MainMenu { display : none; position : absolute; left : 0; top : 3.3571em; z-index : 200; background : #333; background-size : 300% 100%; color : #fff; border : 1px solid #000; box-shadow : 0 1em 1em #000; padding-bottom: 0.286em;}
+		.MainMenu.FallbackMenu { display : block; position: relative; top: 0; box-shadow: none; z-index: 0; }
+			.Section { display: block; background: #000 url("img/bg-button.png") left top repeat-x; background-size: 100% 400%; border-top: 0.0714em solid #999; border-bottom: 0.0714em solid #000; }
+			.MainMenu .Section { display : none; }
+				.SectionText { display: block; padding: 0.2857em 0.7857em 0.3571em 2.3571em; background: transparent url("img/radial-full.png") center top no-repeat; background-size: 150% 200%; color: #fff; font-weight: bold; -moz-text-shadow: 0 -1px 0 #000; -webkit-text-shadow: 0 -1px 0 #000; -o-text-shadow: 0 -1px 0 #000; -khtml-text-shadow: 0 -1px 0 #000; text-shadow: 0 -1px 0 #000; }
+			.MenuTitle { display : none; background : #333 url("img/radial-full.png") center 66% no-repeat; background-size : 100% 200%; border-top : 0.0714em solid #999; border-bottom : 0.0714em solid #000; color : #fff; text-shadow : 0 -1px 0 #000; }
+				.MenuTitleWrap { display : block; background : transparent url("img/radial-button.png") center top no-repeat; background-size : 100% 100%; }
+					.Close { display : block; float : right; width : 2.0714em; height : 2.0714em; margin : 0.3571em; background : #ef0000 url("img/bg-button.png") left top repeat-x; background-size : 100% 400%; border : 1px solid #0C0C0C; border-radius : 0.2857em; box-shadow : 0 1px 0 #666; text-indent : 100%; white-space : nowrap; overflow : hidden; }
+					.Close:hover { background-color: #BB0000; background-position: left center; background-size: 100% 300%; }
+						.CloseWrap { display : block; padding : 0.2142em 0 0.2857em 0; background : transparent url("img/radial-button.png") center top no-repeat; background-size : 100% 300%; border-radius : 0.2857em; }
+							.CloseIcon { display : block; width : 1.5714em; height : 1.5714em; margin : 0 auto; background : transparent url("img/big-sprite.png") -198px -440px no-repeat; }
+					.MTText { display : block; padding : 0.4545em 0.5em 0.409em 1.4545em; overflow : hidden; font-size : 1.5714em; line-height : 1em; }
+			.MenuList { display : block; margin : 0.7857em 0.3571em; border-radius : 0.3571em; box-shadow :  0 1px 2px rgba(0, 0, 0, 0.25); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); overflow: hidden; }
+				.MenuItem { display : block; }
+				.MenuItem:first-child { border-top-left-radius : 0.3571em; border-top-right-radius : 0.3571em; }
+				.MenuItem:last-child { border-bottom-left-radius : 0.3571em; border-bottom-right-radius : 0.3571em; }
+					.MenuLink { display : block; }
+					.MenuItem:first-child .MenuLink, .MenuItem:first-child .MIBox { border-top-left-radius : 0.3571em; border-top-right-radius : 0.3571em; }
+					.MenuItem:last-child .MenuLink, .MenuItem:last-child .MIBox { border-bottom-left-radius : 0.3571em; border-bottom-right-radius : 0.3571em; }
+						.MenuLink .ActionArrow {  }
+						.MenuLink .Count { float : right; }
+						.MenuLink .LiveUpdate {  }
+						.MenuLink .Page, .BalanceIcon { display : block; background : transparent url("img/big-sprite.png") 0 -484px no-repeat; }
+		
+							.HomePage .I		{ background-position : 0 -484px; }
+							.SportsPage .I, .SportsBalance .BalanceIcon { background-position : -22px -484px; }
+							.CasinoPage .I, .CasinoBalance .BalanceIcon { background-position : -44px -484px; }
+							.SignUpPage .I		{ background-position : -66px -484px; }
+							.LoginPage .I		{ background-position : -88px -484px; }
+							.AboutPage .I		{ background-position : -110px -484px; }
+							.PromotionsPage .I	{ background-position : -132px -484px; }
+							.WinnersPage .I		{ background-position : -154px -484px; }
+							.PopularPage .I		{ background-position : -176px -484px; }
+							.TermsPage .I		{ background-position : -198px -484px; }
+							.ResponsiblePage .I	{ background-position : -220px -484px; }
+							.ContactPage .I		{ background-position : -242px -484px; }
+		
+							.ProfilePage .I		{ background-position : -264px -484px; }
+							.LogoutPage .I		{ background-position : -286px -484px; }
+							.SettingsPage .I	{ background-position : -308px -484px; }
+							.BonusesPage .I		{ background-position : -330px -484px; }
+							.DepositPage .I		{ background-position : 0 -506px; }
+							.TransferPage .I	{ background-position : -22px -506px; }
+							.WithdrawPage .I	{ background-position : -44px -506px; }
+							.PendingWPage .I	{ background-position : -66px -506px; }
+							.HistoryPage .I		{ background-position : -88px -506px; }
+							.HelpPage .I		{ background-position : -110px -506px; }
+		
+						.MenuLink .PageName { display : block; }
+
+			.MainMenuList { }
+				.MainMenuList .PageName { font-weight : bold; }
+
+			.MenuClose { display : block; }
+				.MenuClose .Close { float : none; width : auto; }
+
+	.Registry { display : block; width : 100%; position : fixed; left : 0; bottom : 0; z-index : 100; background : #333 url("img/radial-button.png") center top no-repeat; background-size : 300% 100%; color : #fff; border-top : 0.0714em solid #999; border-bottom : 0.0714em solid #000; }
+		.RegList { display : block; padding : 0.3571em; }
+			.RegItem { display : block; float : left; width : 50%; }
+				.RegLink { display : block; float : left; font-weight : bold; box-shadow : 0 0.0714em 0.0714em #000; }
+				.LogInLink, .NextStepLink { float : right; }
+				.BackLink, .NextStepLink { font-size : 13.5pt; line-height : 1.5em; }
+					.RegLink .ButtonText { padding : 0.3571em 1em; background-position : center bottom; text-transform: none; display: block; max-width: 8em; text-overflow:ellipsis; overflow: hidden; white-space: nowrap;}
+		.RegP { display : block; padding : 0.3571em; text-align : center; text-shadow : 0 -1px 0 #000; }
+
+
+	/*** My Account Menu ***/
+	.AccountMenu {bottom: 0; display: block; top: auto; position: fixed; background-color: #222; border:0 none; padding: 0; }
+	.toggleAccountMenu{cursor: pointer;}
+	.AccountList{display: none; }
+		.AccountMenu .MenuTitle, .OpenMenu .AccountList{display: block;}
+		.AccountMenu .MenuTitle { background: transparent; border-bottom: 0 none; border-top: 0 none;}
+		.AccountMenu .MenuTitleWrap { background: url("img/radial-button.png") no-repeat scroll center top transparent; background-size: 100% 100%; }
+		.AccountMenu .MTText { display: block; font-size: 1.143em; line-height: 1.5em; padding: 0.5em 0.5em 0.5em 1em; }
+		.AccountMenu .ToggleIcon { border-left: 0 none;  box-shadow: none; width: 2.714em; height: 2.714em; border-left: 1px solid rgba(255, 255, 255, 0.19);}
+			.AccountMenu .ToggleText { background-position: -242px -460px;}
+	.AccountWrapper { background-color: #494949; border-radius: 0.5em 0.5em 0.5em 0.5em; margin: 0.5em 0.333em 0.5em; padding: 0.167em; }
+		.AccountWrapper .MainMenuList { border-radius: 0 0 0 0; border-right: 1px solid #000000; box-shadow: 1px 0 0 #666666; float: left; margin: 0.7857em 1.333% 0.7857em 0.5%; padding-right: 2%; width: 29.5%;}
+		.Accounttype .Count{float: none;}
+
+	/** Balance **/
+		.BalanceList{}
+			.BalanceAccount { display: block; float: left; font-size: 1em; height: auto; line-height: 1.75em; margin: 0 0 1em; overflow: hidden; text-align: left; text-indent: 0.333em; text-shadow: 0 0.0833em 0 #222222; width: 100%; }
+			.BalanceName{ color: #aaaaaa; font-size: 0.857em; line-height:2em; display: block;  }
+			.BalanceSum { clear: both; color: #CCCCCC; display: block; font-size: 1.143em; font-weight: bold; line-height: 1.5em; }
+			.BalanceIcon{}
+			#lnkLoadBalance{padding: 0.333em 0;}
+                .BalanceInfo { clear: left; }
+                .BalanceRefresh{ float: left; line-height: 1.5em; color: #FFFFFF; margin: 0.5em 0;}
+                .LoadingBalances{}
+                    .BalanceMessage{margin: 0.333em; text-align: center; padding: 0.333em 0 0;}
+				.BalanceText { display : block; float : left; margin : 0 0.5em 0 0; font-weight : bold; }
+					.RefreshIcon { display : block; float : left; width : 22px; height : 22px; margin : -2px 0.2857em -6px 0.2857em; background : transparent url("img/refresh.png") center center no-repeat; background-size : 22px 22px; text-indent : -999px; white-space : nowrap; overflow : hidden; }
+                    .BalanceClose{display: block; float: right; width: 2.3571em; height: 2.3571em; margin: 0; background: transparent url("img/close.png") center center no-repeat; background-size: 33px 33px; white-space: nowrap; overflow: hidden; text-indent: 100%; }
+
+
+	.Logout{margin-bottom: 1em}
+	.LogOutLink { float: none; height: auto; margin: 0 auto; text-align: center; width: 7em; }
+	.Logout .CloseWrap{padding: 0.429em 0;}
+	.Logout .CloseIcon{display: none; }
+	.Logout .Buttontext { color: #FFFFFF; display: block; font-size: 1em; font-weight: bold; text-align: center; text-indent: 0; text-shadow: 0 -0.0833em 0 #000000; }
+
+
+	.PageTitle { display : block; margin : 0.7857em 0.1785em; overflow : hidden; font-size : 2em; line-height : 1.1785em; text-align : center; font-weight : bold; white-space : nowrap; text-shadow : 0 1px 0 #000; }
+	.ShowPageTitle .PageTitle { display: block; font-size: 1.143em; line-height: 1em; margin: 2em auto 0; padding: 0 1em; text-align: left; }
+
+	.GameCategory { margin: 0 0 1em; }
+	.GameCategory:last-of-type { margin-bottom: 0; }
+
+	.OpenCategory { background : #fff; border : 1px solid #ccc; border-radius : 0.2857em; box-shadow : 0 0.5em 0.5em #000; }
+		.GameCatTitle, .SubHeader { display : block; position : relative; z-index : 1; }
+			.GameCatLink, .SHToggle  { display : block; margin : -1px 0; background : #ddd url("img/radial-button.png") center top no-repeat; background-size : 300% 100%; color : #111; border : 0.0714em solid #ccc; font-weight : bold; text-shadow : 0 1px 0 #fff; border-radius : 0.2857em; box-shadow : 0 0.5em 0.5em #000; }
+			.GameCatLink:hover, .GameCatLink:active { background-color : #666; color : #fff; border : 0.0714em solid #333; text-shadow : 0 -1px 0 #333; }
+			.SHToggle, .SHToggle:hover, .SHToggle:active{ background : #e3e1db url("img/bg-cat.png") left center repeat-x; background-size : 100% 100%; color : #1f1f1f; border : 0.0714em solid #d3d0c7; text-shadow : 0 1px 0 #fff; box-shadow : none; }			
+
+			.OpenCategory .GameCatLink { box-shadow : none; }
+				.ToggleIcon { display : block; float : right; width : 2.2142em; height : 2.2142em; background : transparent url("img/bg-darken-bottom.png") center center repeat-x; background-size : 100% 200%; border-left : 1px solid #fff; box-shadow : -1px 0 0 #ccc; }
+				.GameCatLink:hover .ToggleIcon, .GameCatLink:active .ToggleIcon { border-left : 1px solid #999; box-shadow : -1px 0 0 #333; }
+					.ToggleText { display : block; width : 1.5714em; height : 1.5714em; margin : 0.2857em auto; background : transparent url("img/big-sprite.png") -220px -440px no-repeat; text-indent : 100%; white-space : nowrap; overflow : hidden;  -webkit-transition: all 0.333s ease; -moz-transition: all 0.333s ease; -ms-transition: all 0.333s ease; -o-transition: all 0.333s ease; transition: all 0.333s ease;}
+					.GameCatLink:hover .ToggleText, .GameCatLink:active .ToggleText { background-position : -220px -462px; }
+					.OpenCategory .ToggleText { background-position : -242px -440px; }
+					.OpenCategory .GameCatLink:hover .ToggleText, .OpenCategory .GameCatLink:active .ToggleText { background-position : -242px -462px; }
+				.CatIcon { display : block; float : left; width : 2.2142em; height : 2.2142em; margin : 0 0 -0.1428em 0; background : transparent; }
+					.CatIconText { display : block; width : 1.5714em; height : 1.5714em; margin : 0.2857em auto; background : transparent url("img/big-sprite.png") -176px -484px no-repeat; text-indent : 100%; white-space : nowrap; overflow : hidden; }
+						.Cat-Popular .CatIconText		{ background-position : -176px -484px; }
+						.Cat-VideoSlots .CatIconText	{ background-position : 0 -528px; }
+						.Cat-ClassicSlots .CatIconText	{ background-position : -22px -528px; }
+						.Cat-TableGames .CatIconText	{ background-position : -66px -528px; }
+						.Cat-VideoPoker .CatIconText	{ background-position : -88px -528px; }
+						.Cat-OtherGames .CatIconText	{ background-position : -110px -528px; }
+						.Cat-AllGames .CatIconText		{ background-position : -44px -484px; }
+				.GameCatText { display : block; padding : 0.2857em 0.3571em 0.3571em 0.3571em; overflow : hidden; }
+		.TemplateList { display : block; }
+			.TemplateItem { display : block; border-bottom : 0.0714em solid #eee; }
+			.TemplateItem:last-child { border : none; }
+				.TemplateLink { display : block; padding : 0.2857em 0.3571em 0.3571em 0.3571em; }
+
+
+	.Footer { display: block; margin: 0.7857em 0 2em 0; padding: 0 0 0.7857em 0; color: #eee; }
+		.FooterMenuWrap { display: block; background: #333 url("img/radial-button.png") center top no-repeat; background-size: 300% 100%; border-top: 0.0714em solid #999; border-bottom: 0.0714em solid #000; }
+		.FooterMenu { display: block; background: transparent url("img/radial-full.png") center top no-repeat; background-size: 200% 400%; }
+			.FMItem {  }
+				.FMLink { display: block; padding: 0.7142em 0 0.4285em 0; color: #fff; border-right: 1px solid #222; border-left: 1px solid #999; text-align: center; font-weight: bold; -moz-text-shadow: 0 -1px 0 #000; -webkit-text-shadow: 0 -1px 0 #000; -o-text-shadow: 0 -1px 0 #000; -khtml-text-shadow: 0 -1px 0 #000; text-shadow: 0 -1px 0 #000; }
+					.Col:first-child .FMLink { border-left : none; }
+				.FMLink:hover, .FMLink:active { margin: -0.0714em 0; background: #333 url("img/bg-button.png") left 66.6666% repeat-x; background-size: 100% 400%; color: #fff; border: 0.0714em solid #000; border-bottom: 0.0714em solid #444; -moz-text-shadow: 0 1px 1px #000; -webkit-text-shadow: 0 1px 1px #000; -o-text-shadow: 0 1px 1px #000; -khtml-text-shadow: 0 1px 1px #000; text-shadow: 0 1px 1px #000; }
+					.FMLink .I { float: none; margin: 0 auto 0.4285em auto; background: transparent url("img/big-sprite.png") -88px -440px no-repeat; }
+					
+						.FMHome .I { background-position: -88px -440px; }
+						.FMPopular .I { background-position: -110px -440px; }
+						.FMSettings .I { background-position: -132px -440px; }
+					
+					.FMText { display: block; overflow : hidden; white-space : nowrap; -moz-text-overflow : ellipsis; -webkit-text-overflow : ellipsis; -o-text-overflow : ellipsis; -khtml-text-overflow : ellipsis; text-overflow : ellipsis; }
+
+			.FMClock { text-align: center; background: transparent url("img/radial-full.png") left bottom no-repeat; background-size: 100% 200%; -moz-text-shadow: 0 -1px 0 #000; -webkit-text-shadow: 0 -1px 0 #000; -o-text-shadow: 0 -1px 0 #000; -khtml-text-shadow: 0 -1px 0 #000; text-shadow: 0 -1px 0 #000; }
+				.FMTime { display: block; padding: 0.7857em 0.7857em 0 0.7857em; color: #fff; background: transparent url("img/bg-30.png") left top repeat; border-left: 1px solid #999; }
+				.FMZone { display: block; padding: 0 0.7857em 0.7857em 0.7857em; background: transparent url("img/bg-30.png") left top repeat; border-left: 1px solid #999; }
+
+		.CopyContainer { display: block; padding: 1em; background: transparent url("img/bg-button.png") left 75% repeat-x; background-size: 100% 400%; overflow: hidden; font-size: 0.750rem; line-height: 1.5em; color: #888; text-align: center;}
+			.Copy, .LessEmphasis { -moz-text-shadow: 0 1px 1px #000; -webkit-text-shadow: 0 1px 1px #000; -o-text-shadow: 0 1px 1px #000; -khtml-text-shadow: 0 1px 1px #000; text-shadow: 0 1px 1px #000; }
+			.Copy { display: block; margin: 0.7857em 0.3571em; }
+			.LessEmphasis { display: block; margin: 0.7857em 0.3571em 0 0.3571em; }
+
+	.Loading { display : block; width : 100%; height : 100%; position : fixed; top : 0; left : 0; z-index : 1000; background : transparent url("img/bg-30.png") left top repeat; }
+		.LoadingWrap { display : block; max-width : 300px; margin : 1.5714em auto 0 auto; padding : 0.5714em 0; background : #333 url("img/bg-verticalbutton.png") left top repeat-x; background-size : 100% 200%; border-radius : 0.5em; box-shadow : 0 0.5em 0.5em #000; }
+			.LoadingImg { display : block; max-width : 90%; height : auto; margin : 0 auto; }
+
+	.Winners { display : none; }
+	.BackTo { display : none; }
+	.overthrow { overflow: auto; -webkit-overflow-scrolling: touch; }
+
+/*****************/
+/*    SLIDER     */
+/*****************/
+.NewSlider { display : block; margin : 0; position : relative; overflow : hidden;/* overflow-x : scroll;*/ padding-bottom: 0; -webkit-border-radius: 0.2857em ; border-radius: 0.2857em;}
+	.SlideList { display : block; width : 600px; margin : 0 auto 0.5714em; position: relative;}
+		.SlideItem { display : block; float : left; margin : 0 0.5714em 0 0; }
+		.SlideItem:last-of-type{margin: 0;}
+			.SlideLink { display : block; position : relative; width : 400px; height : 200px; border-radius : 0.2857em; box-shadow : 0 0.2857em 0.2857em #000; overflow: hidden; }
+				.SlideImage { display : block;  opacity : .5; width: 100%; height: auto; max-width: 100%; }
+				.ActiveItem .SlideImage { opacity : 1; }
+	.NewSliderControls { display : block; width : 100%; height : 1.5em; position : absolute; left : 0; bottom : 1em; z-index : 10; text-align : center; }
+		.NSPrev, .NSNext { bottom: -0.5em; display: block; height: 14.333em; left: 0; position: absolute; text-align: left; width: 1.5714em; }
+		.NSNext { left : auto; right : 0; text-align : right; }
+			.PrevLink, .NextLink { display : block; width : 0.5238em; height : 100%; background : url("img/bg-darken-h.png") repeat-y scroll left top transparent; background-size: 400% 100%; color : #fff; font-size : 3em; line-height : 4.5714em; text-shadow : 0 1px 1px #000; text-align: center; -webkit-border-radius:0 6px 6px 0; border-radius:0 6px 6px 0;  overflow: hidden;}
+			.PrevLink{ -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH"; }			
+			.PrevLink:hover, .NextLink:hover, .PrevLink:active, .NextLink:active { background-color : #ef0000; color : #fff; }
+		.NSNumber { display : inline-block; width : 1.5714em; height : 100%; line-height : 1.571em; }
+			.NumberLink { display : inline-block; width : 0.7142em; height : 0.7142em; background : #ccc url("img/radial-full.png") center bottom repeat-x; background-size : 150% 200%; border : 0.0714em solid #ddd; text-align : left; text-indent : 100%; white-space : nowrap; overflow : hidden; box-shadow : 0 0 0.1428em #000; border-radius : 0.8571em; }
+			.NumberLink:hover, .NumberLink:active { background-color : #eee; border : 1px solid #f4f4f4; box-shadow : 0 0 0.2857em #000; }
+			.CurrentNumber .NumberLink { background-color : #ef0000; border : 0.0714em solid #8c0000; }
+
+
+/**
+*	Select Bonus Slider : Swipe JS;
+**/
+		.SelectBonusSlider { padding-bottom:2em; min-height: 11em; background : #eee url("img/radial-full.png") center bottom no-repeat; background-size : 100% 200%; border : 0.0714em solid #ccc; position: relative; clear: both;}
+			.SelectBonusItem{ display: block; width: 100%; height:100%; padding: 0; margin: 0; }
+				.SelectBonusContent{ width: 100%; position: relative; }
+					.SelectBonusInfo { background-color: #eee; font-size: 1em; margin: 0 auto; padding: 0.5em 0.5em 1em; position: relative; top: 2em; bottom: 2em; width: 80%; z-index: 2;}
+                        .SelectBonusTitle { font-weight: bold; margin: 0.25em 0.143em; text-shadow: 0 1px 0 #FFFFFF; text-transform: capitalize; }
+						.SelectBonusDescription { margin: 0 0.35em 0.75em; max-height: 6em; overflow: hidden;}
+					.SelectBonusImage{position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height: auto;}
+			/* Direction Nav */
+            .SelectBonusNav { *height: 2em; left: 0; min-height: 2em; position: absolute; top: 44%; width: 100%;}
+				.SelectBonusNav a {width: 30px; height: 30px; margin:0; display: block; background: url("img/bg_direction_nav.png") no-repeat; position: absolute; top: 0; z-index: 10; cursor: pointer; text-indent: 100%; overflow: hidden; white-space: nowrap; text-overflow:ellipsis; opacity: 0.5; -moz-transform: translate3d(0px, 0px, 0px); -webkit-transform: translate3d(0px, 0px, 0px); transform: translate3d(0px, 0px, 0px);}
+				.SelectBonusNav .SelectBonusNext {background-position: 100% 0; right: 0; }
+				.SelectBonusNext:hover, .SelectBonusPrev:hover { opacity: 1; }
+
+
+/*****************************/
+/* 		CSS3 ANIMATIONS 	*/
+.PreloadDiv { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; -webkit-animation-duration: .666s; -webkit-animation-delay: .2s; -webkit-animation-timing-function: ease; -webkit-animation-fill-mode: both; -moz-animation-duration: .666s;	-moz-animation-delay: .2s; -moz-animation-timing-function: ease; -moz-animation-fill-mode: both; -ms-animation-duration: .666s;  -ms-animation-delay: .2s;  -ms-animation-timing-function: ease;  -ms-animation-fill-mode: both;	-o-animation-duration: .666s; -o-animation-delay: .2s; -o-animation-timing-function: ease; -o-animation-fill-mode: both; animation-duration: .666s;	animation-delay: .2s;	animation-timing-function: ease;	animation-fill-mode: both; -webkit-transition:all 0.666s ease;	-moz-transition:all 0.666s ease; -ms-transition:all 0.666s ease; -o-transition:all 0.666s ease;	transition:all 0.666s ease; }
+@-webkit-keyframes bounceInLeft {
+	0%  { opacity: 0; -webkit-transform: translateX(-200%); }
+	60% { opacity: 1; -webkit-transform: translateX(30px); 	}
+	80% { -webkit-transform: translateX(-10px);  }
+	100% {-webkit-transform: translateX(0); left:0;	}
+}
+@-moz-keyframes bounceInLeft {
+	0%  { opacity: 0; -moz-transform: translateX(-200%);	}
+	60% { opacity: 1; -moz-transform: translateX(30px); 	}
+	80% { -moz-transform: translateX(-10px);	}
+	100% {-moz-transform: translateX(0);	}
+}
+@-o-keyframes bounceInLeft {
+	0%  { opacity: 0; -o-transform: translateX(-200%);	}
+	60% { opacity: 1; -o-transform: translateX(30px);	}
+	80% { -o-transform: translateX(-10px);	}
+	100% { -o-transform: translateX(0);	}
+}
+@keyframes bounceInLeft {
+	0%  { opacity: 0; transform: translateX(-200%); 	}
+	60% { opacity: 1; transform: translateX(30px);	}
+	80% { transform: translateX(-10px);	}
+	100% {transform: translateX(0);	}
+}
+
+@-webkit-keyframes bounceInRight {
+	0%  { opacity: 0; -webkit-transform: translateX(2000px);	}
+	60% { opacity: 1; -webkit-transform: translateX(-30px);	}
+	80% { -webkit-transform: translateX(10px);	}
+	100% {-webkit-transform: translateX(0); 	}
+}
+@-moz-keyframes bounceInRight {
+	0%  { opacity: 0; -moz-transform: translateX(2000px);	}
+	60% { opacity: 1; -moz-transform: translateX(-30px);	}
+	80% { -moz-transform: translateX(10px);	}
+	100% { -moz-transform: translateX(0);	}
+}
+@-o-keyframes bounceInRight {
+	0%  { opacity: 0; -o-transform: translateX(2000px); 	}
+	60% { opacity: 1; -o-transform: translateX(-30px);	}
+	80% { -o-transform: translateX(10px);	}
+	100% {-o-transform: translateX(0);	}
+}
+@keyframes bounceInRight {
+	0%  { opacity: 0; transform: translateX(2000px);	}
+	60% { opacity: 1; transform: translateX(-30px); 	}
+	80% { transform: translateX(10px);	}
+	100% {transform: translateX(0); 	}
+}
+
+.Show-Sports .PreloadDiv.Sports { left: 0; -webkit-animation-name: bounceInLeft; -moz-animation-name: bounceInLeft;	-o-animation-name: bounceInLeft; animation-name: bounceInLeft; }
+.Show-Casino .PreloadDiv.Casino, .Show-LiveCasino .PreloadDiv.LiveCasino{ right: 0; -webkit-animation-name: bounceInRight; -moz-animation-name: bounceInRight; -o-animation-name: bounceInRight;	animation-name: bounceInRight; }
+
+   /* PreLoadingBox */
+    .PreLoadingBox{ color: #FFFFFF; font-size: 1em;  text-shadow: 0 1px 0 rgba(0,0,0,.85); position: absolute; top: 3.3333em; left: 0; right: 0; width: 100%; overflow: hidden; min-height: 240px; z-index: 11;}
+    	.PreloadContent{ background-color: #111; width: auto; position: relative;}
+    		.PreloadDiv{ font-size: 1.333em; line-height: 2em; width: 100%; float: left; min-height: 240px; position: absolute; left: 0; height: 100%; background-color: #111; background-size: 300px 250px; background-position: center top; background-repeat: no-repeat; z-index: 1; }
+    		.PreloadDiv.Sports{ background-image: url('img/m360-loading-generic-sports.jpg'); left: -100%;}
+    		.PreloadDiv.Casino, .PreloadDiv.LiveCasino{ background-image: url('img/m360-loading-generic-casino.jpg'); left: auto; right: -100%;}
+    		.iphone .PreloadDiv, .android .PreloadDiv{ background-size: 300px 250px;} 
+    			.PreloadText{ display: block; font-family: "Myriad Pro", Tahoma, sans-serif; font-size: 14px; font-weight: bold; color: #000000;  text-shadow: 0 1px 0 #DDD; text-align: center; line-height: 1em; margin: 6.5em 0 2em; }
+    			/*.PreloadDiv.Casino .PreloadText{color: #000;  text-shadow: 0 1px 0 #DDD;  }*/
+    			.loaderDiv{display: none; position: absolute; z-index: 2; top: 20em; left: 5%; height: 5em; width: 90%; right: 5%; text-align: center;}
+    			#loaderImage { display: inline-block; width: 4.333em; height: 4.333em; background: url('img/loader-generic.gif') no-repeat center center; background-size: 100% auto;}
+    				.PreloadingText { font-family: "Myriad Pro", Tahoma, sans-serif; font-size: 24px; font-weight: bold; color: #FFF;  text-shadow: 0 -1px 0 #430202; line-height: 2.5em; display: inline-block; padding-left: 1em; position: relative; top: -1em; }
+
+
+/*****************/
+/* PAGE BY PAGE  */
+/*****************/
+
+	/* Home Page */
+	.IntroBox { display : block; margin : 0 auto -0.7857em auto; background : transparent center top no-repeat; border-top : 1px solid #000; text-align : center; }
+		.IntroBoxTitle { display : none; padding : 1.2857em 0 0.7857em 0; }
+			.IntroBoxLogo { display : block; height : auto; margin : 0 auto; }
+			.IntroBoxLogo, .IntroBoxLogoContainer { display : block; width : 150px; max-width : 100%; height : 50px; margin : 0 auto; text-align : left; white-space : nowrap; overflow : hidden; text-indent : 100%; }
+			.IntroBoxOptions { padding : 0; max-width : none; background : transparent url("img/radial-full.png") center top repeat-x; background-size : 200% 400%; box-shadow : 0 0.25em 0.25em #111; margin: 0 auto 2em; }
+			.HomeBigButton, .HomeBigButton:visited { display : block; margin : 0 1em; padding : 0.5em 0 0 0; background : #333 url("img/bg-verticalbutton.png") left top repeat-x; background-size : 100% 200%; color : #fff; font-size : 1.5714em; line-height : 1em; text-shadow : 0 -1px 0 #111; box-shadow : 0 0.5em 0.5em #000; border-radius : 0.5em; opacity : 0.75; }
+			.HomeBigButton:hover, .HomeBigButton:active { background : #ef0000; color : #fff; text-shadow : 0 1px 1px #000; box-shadow : 0 0.5em 0.5em #000 inset; opacity : 1; }
+			
+			.HBCasino, .HBSports, .HBLiveCasino { margin : 0; display: block; padding: 1em 0; text-shadow: 0 1px 0 #000000; background-color: rgba(52, 2, 2, 0.25); }
+			.HomeButton:hover, .HomeButton:active { background-color: rgba(200, 1, 0, 0.5); color: #FFFFFF; text-shadow: 0 1px 0 #000000; }
+	        .HBSports { border-right : 1px solid rgba(34, 34, 34, 0.21); }
+	        .HBSports:hover { border-color: rgba(0, 0, 0, 0.56); }
+	        .HBCasino { border-left : 1px solid rgba(204, 204, 204, 0.2); }
+			.HBIcon { display: block; width: 128px; max-width: 128px; height: 128px; margin: 0 auto; background-image: url('img/icn-sprite.png');  background-size: 200% auto; background-repeat: no-repeat; background-position: left center; text-indent:100%; overflow: hidden; white-space: nowrap; }
+			.HBSports .HBIcon { background-position: left center;  }
+			.HBCasino .HBIcon { background-position: right center; }
+			.HBText { display : block; padding : 0.5em 0; background : transparent; border-radius : 0.5em; }
+			.HomeButton:hover .HBText, .HomeButton:active .HBText { background-position : left bottom; }
+
+
+			/*** 3 boxes intro ***/
+			.Intro3Boxes { }
+			.Intro3Boxes .HomeButton .HBIcon { background-image: url('img/icn3-sprite.png'); background-size: 300% auto; }
+			.Intro3Boxes .HBSports .HBIcon { background-position: left center;  }
+			.Intro3Boxes .HBCasino { border-right : 1px solid rgba(0, 0, 0, 0.65); }
+			.Intro3Boxes .HBCasino .HBIcon { background-position: center center; }
+			.HBLiveCasino { border-left : 1px solid rgba(204, 204, 204, 0.2); }
+			.Intro3Boxes .HBLiveCasino .HBIcon { background-position: right center; }
+			.Cols-3 .HBLiveCasino .HBIcon { background-position: right center; background-image: url('img/icn3-sprite.png'); background-size: 300% auto; }
+
+			@media only screen and (max-width: 384px) {
+				.Cols-3.IntroBoxOptions .Col { width: 100%; float: none; clear: both; }
+				.Cols-3.IntroBoxOptions .HomeButton { border-bottom: 1px solid rgba(0, 0, 0, 0.65); box-shadow: inset 0 1px 0 rgba(204, 204, 204, 0.2); }
+			}
+
+
+		.CTABox { display : block; padding : 0.7857em 1.5714em 1.5714em 1.5714em; }
+			.LanguageChooser { display : block; float : left; width : 3.1428em; height : 3.1428em; margin : 0 1.5714em 0 0; position : relative; z-index : 2; background : #333; color : #fff; text-shadow : 0 -1px 0 #111; box-shadow : 0 0.5em 0.5em #000; border-radius : 0.5em; }
+				.LanguageAction { display : block; width : 3.1428em; height : 3.1428em; background : transparent url("img/lang-en.png") center center no-repeat; background-size : 44px 44px; color : #fff; text-shadow : 0 -1px 0 #111; border-radius : 0.5em; opacity : 0.5; }
+				.LanguageAction:active, .LanguageAction:hover { opacity : 1; }
+				.lang_bg .LanguageAction, .LanguageList .lang_bg .LanguageAction { background-image : url("img/lang-bg.png"); }
+				.lang_da .LanguageAction, .LanguageList .lang_da .LanguageAction { background-image : url("img/lang-da.png"); }
+                .lang_de .LanguageAction, .LanguageList .lang_de .LanguageAction { background-image : url("img/lang-de.png"); }
+				.lang_en .LanguageAction, .LanguageList .lang_en .LanguageAction { background-image : url("img/lang-en.png"); }
+				.lang_el .LanguageAction, .LanguageList .lang_el .LanguageAction { background-image : url("img/lang-el.png"); }
+				.lang_es .LanguageAction, .LanguageList .lang_es .LanguageAction { background-image : url("img/lang-es.png"); }
+				.lang_fi .LanguageAction, .LanguageList .lang_fi .LanguageAction { background-image : url("img/lang-fi.png"); }
+				.lang_fr .LanguageAction, .LanguageList .lang_fr .LanguageAction { background-image : url("img/lang-fr.png"); }
+				.lang_it .LanguageAction, .LanguageList .lang_it .LanguageAction { background-image : url("img/lang-it.png"); }
+				.lang_no .LanguageAction, .LanguageList .lang_no .LanguageAction { background-image : url("img/lang-no.png"); }
+                .lang_ru .LanguageAction, .LanguageList .lang_ru .LanguageAction { background-image : url("img/lang-ru.png"); }
+                .lang_hu .LanguageAction, .LanguageList .lang_hu .LanguageAction { background-image : url("img/lang-hu.png"); }
+                .lang_ro .LanguageAction, .LanguageList .lang_ro .LanguageAction { background-image : url("img/lang-ro.png"); }
+                .lang_sv .LanguageAction, .LanguageList .lang_sv .LanguageAction { background-image : url("img/lang-sv.png"); }
+                .lang_pl .LanguageAction, .LanguageList .lang_pl .LanguageAction { background-image : url("img/lang-pl.png"); }
+                .lang_pt .LanguageAction, .LanguageList .lang_pt .LanguageAction { background-image : url("img/lang-pt.png"); }
+                .lang_tr .LanguageAction, .LanguageList .lang_tr .LanguageAction { background-image : url("img/lang-tr.png"); }
+                .lang_ka .LanguageAction, .LanguageList .lang_ka .LanguageAction { background-image : url("img/lang-ka.png"); }
+                .lang_zh-cn .LanguageAction, .LanguageList .lang_zh-cn .LanguageAction { background-image : url("img/lang-zh-cn.png"); }
+                .lang_zh-tw .LanguageAction, .LanguageList .lang_zh-tw .LanguageAction { background-image : url("img/lang-zh-tw.png"); }
+                
+                .lang_se .LanguageAction, .LanguageList .lang_se .LanguageAction { background-image: url("img/lang-se.png"); }
+				.lang_en-za .LanguageAction, .LanguageList .lang_en-za .LanguageAction { background-image: url("img/lang_en-za.png"); }
+				.lang_en-gb .LanguageAction, .LanguageList .lang_en-gb .LanguageAction { background-image: url("img/lang_en-gb.png"); }
+
+				.ActiveDropdown .MainLanguageAction { background : transparent url("img/bg-verticalbutton.png") left bottom repeat-x; background-size : 100% 200%; opacity : 1; }
+					.LanguageText { display : block; width : 3.1428em; height : 3.1428em; background : transparent url("img/bg-verticalbutton.png") left top repeat-x; background-size : 100% 200%; white-space : nowrap; overflow : hidden; text-indent : 100%; border-radius : 0.5em; opacity : 0.5; }
+					.ActiveDropdown .MainLanguageAction .LanguageText { background : transparent url("img/close.png") center center no-repeat; background-size : 33px 33px; opacity : 1; }
+				.LanguageChooser .LanguageDropdown { display : none; width : 300%; height : auto; position : absolute; left : 44px; top : 0; z-index : 10; background : #171717; box-shadow : 0 0.5em 0.5em #000; }
+				.ActiveDropdown .LanguageDropdown { display : block; }
+					.LanguageList { display : block; }
+						.LanguageItem { display : block; float : left; }
+							.LanguageItem .LanguageAction { opacity : 1; margin: 0.500em 0.786em /*7px 11px*/; }
+			.HomeRegisterButton { display : block; overflow : hidden; padding : 0.5em 0; background-color : #ef0000; font-size : 1.5714em; line-height : 1em; text-align : center; }
+			.HomeRegisterButton:hover { background-color : #111; }
+
+		/*Casino Lobby Page*/
+		.DropdownContainer { display: block; background: #ddd url("img/bg-button.png") left top repeat-x; background-size: 100% 400%; }
+			.DropdownForm { display: block; padding: 0.7857em; }
+				.Dropdown { display: block; width: 100%; height: 1.5714em; line-height: 1.5714em; }
+		.GameList { background : transparent; overflow: hidden; position:relative; }
+		.PopularGamesList{ padding-top : 1em; }
+			.GameItem {  }
+				.GameLink, .GameLink:visited { color : inherit; }
+					.GameName { line-height : 1em; overflow : hidden; -moz-text-overflow : ellipsis; -webkit-text-overflow : ellipsis; -o-text-overflow : ellipsis; -khtml-text-overflow : ellipsis; text-overflow : ellipsis;  }
+					.GameLink .GameName { position: relative; top: 1em; }
+					.Game { width:100%; height:100%; background-position: center; -moz-border-radius: 0.2857em; -webkit-border-radius: 0.2857em; -o-border-radius: 0.2857em; -khtml-border-radius: 0.2857em; border-radius: 0.2857em; }
+
+		.WinnerCanvas { display: block; margin: 0 0 -0.0714em 0; overflow: hidden; overflow-x: scroll; border: 0.0714em solid #000; border-top: none; }
+			.WinnerList { display: block; width: 300%; background: transparent url("img/bg-button.png") left 66.6666% repeat-x; background-size: 100% 400%; }
+				.Winner { display: block; float: left; width: 33.3333%; height: 4.5em; padding: 0.5em 0 0 0; margin: 0 -0.0714em 0 0; background: transparent url("img/radial-full.png") center bottom no-repeat; background-size: 200% 200%; color: inherit; border-right: 0.0714em solid #000;  }
+					.CountryIcon { display: block; float: left; margin: 0.5em 0.3571em 0 0.3571em; }
+					.SectionTitle .CountryIcon{margin: 0 0.3571em;}
+					.UserInfo { display: block; float: left; }
+						.WinnerName { display: block; padding: 0.3809em 0 0 0; font-size: 1.5em; line-height: 1.0476em; }
+						.WinTime { display: block; font-size: 0.7857em; line-height: 2em; }
+					.WinnerDetails { display: block; padding: 0 0.7857em 0 0; overflow: hidden; text-align: right; }
+						.WinAmmount { display: block; padding: 0.3809em 0 0 0; font-size: 1.5em; line-height: 1.0476em; }
+						.WinAt { display: block; font-size: 0.7857em; line-height: 2em; text-transform: uppercase; }
+						.WinGame:active, .WinGame:hover { color: inherit; font-weight: bold; }
+
+/* Casino Tournaments Page */
+
+
+	/* Casino Bonuses Page */
+	.PromoItemTitle{ display: block;}
+		.PromoItemClick{ font-weight: normal;}
+	.ToggleButton .I { margin: 0.25em 0.75em; }
+
+	.BonusContainnerBox .SubHeader + .ToggleContent { border-radius: 0 0 0.5em 0.5em; padding: 2em 0.5em 0.5em; top: -2em; }
+
+	.SortButtons { margin: 0 0.3571em; color: #999; }
+		.SortButtons .ContribSort {padding: 0.5714em 0 ; border-radius: 0.3571em 0.3571em 0 0; }
+		.SortLink.I { }
+		.SortLink.Count { float: right; padding-right: 1.25em; width: 4em; text-align: right; color: #999; }
+		.SortLink.Name { color: #999; }
+	.SortButtons + .MenuList.L { margin-top: 0; border-radius: 0 0 0.3571em 0.3571em  }
+	.SortButtons + .MenuList.L .MenuItem:first-child, .SortButtons + .MenuList.L .MenuItem:first-child .MenuLink { border-radius: 0;}
+
+	/* Login Page */
+	.LoginBox {margin: 1.5714em auto; max-width: 600px;}
+	.LoginBox .BoxContent { background-color: rgba(17, 17, 17, 0.87); border: 1px solid #000000;  box-shadow: 0 0 5px #111111; color: #FFFFFF; line-height: 2em; margin: 0 auto; padding: 1em; width: 66.66%; }
+		.LoginBox legend{display: block; padding: 0 0.5em; font-weight: bold;}
+		.ForgotPassWordLink{padding: 0.25em 0.75em; margin-bottom: 0.5em; display: block;}
+		.CancelLink{ background-color: #D20000; text-shadow:0 -1px 0 #000; box-shadow: 0 0.0714em 0.0714em #000000; display: block; float: left; font-weight: bold; text-transform: capitalize;}
+		.CancelLink:hover, .CancelLink:active { background-color: #9F210D; background-image: none; box-shadow: 0 0.5em 0.5em #001603 inset; text-shadow: 0 1px 0 #3D0404; }
+			.CancelLink .ButtonText { background-position: center bottom; padding: 0.3571em 1em; }
+			.CancelLink:hover .ButtonText, .CancelLink:active .ButtonText { background-image: none; }
+	.LoginBox input:focus, .LoginBox textarea:focus, .LoginBox select:focus{ box-shadow: 0 0 0.333em #19FC2D}
+
+
+	/* Register Page */
+	.ShowLabel label{display: block;}
+	.FormProfileAdditional label{ float: right; margin: 0; display: block; width: 95%; }
+	/* Casino Play Game Page */
+
+	/* Transfer Page */
+	.WalletFunds { background: #ab0000; border-bottom: .7857em solid #ab0000; color: #fff; text-align: center; }
+	.AmountControl { font-size: .7142em; }
+	
+	/* Deposit Page */
+	.ProgressLoading { font-size: 12px; margin: 0 auto; max-width: 600px; }
+		.ProgressLoading .ProgressBar { background: none repeat scroll 0 0 #CCC9C0; border: 1px solid #A39E90; border-radius: 0.5em 0.5em 0.5em 0.5em; box-shadow: 0 0 2px #A39E90 inset; display: block; height: 1em; margin-bottom: 3em; max-width: 600px; overflow: hidden; padding: 0; position: relative; }
+		.Cols-3.Step3 .ProgressLoading .ProgressBar { border: 1px solid #800707; }
+			.expand { background: none repeat scroll 0 0 #2CA83B; display: block; height: 100%; margin: 0; position: relative; }
+			.expand:after { background: -moz-linear-gradient(left, rgba(44,168,59,1) 0%, rgba(44,168,59,1) 9%, rgba(204,201,192,0) 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(44,168,59,1)), color-stop(9%,rgba(44,168,59,1)), color-stop(100%,rgba(204,201,192,0))); background: -webkit-linear-gradient(left, rgba(44,168,59,1) 0%,rgba(44,168,59,1) 9%,rgba(204,201,192,0) 100%); background: -o-linear-gradient(left, rgba(44,168,59,1) 0%,rgba(44,168,59,1) 9%,rgba(204,201,192,0) 100%); background: -ms-linear-gradient(left, rgba(44,168,59,1) 0%,rgba(44,168,59,1) 9%,rgba(204,201,192,0) 100%); background: linear-gradient(to right, rgba(44,168,59,1) 0%,rgba(44,168,59,1) 9%,rgba(204,201,192,0) 100%); content: " "; height: 100%; overflow: hidden; position: absolute;  right: -8em; text-indent: 100%; top: 0; width: 8em; }
+			.Step0 .expand { width:0%;   }
+			.Step1 .expand { width:15%; }
+			.Cols-4.Step1 .expand { width: 12%; }
+			.Cols-2.Step1 .expand { width:40%; }
+			.Cols-2.Step2 .expand, .Cols-2.Step3 .expand { width:100%; }
+			.Cols-3.Step2 .expand { width:65%; }
+			.Cols-4.Step2 .expand { width:40%; }
+			.Step3 .expand { width:75%;  }
+			.Cols-3.Step3 .expand { width:100%; }
+			.Step4 .expand { width:100%;  }
+			.Step0 .expand:after, .Step4 .expand:after, .Cols-2.Step2 .expand:after, .Cols-3.Step3 .expand:after {background: none;}
+
+			.Box .CircleProgress{position: relative; margin: 0 auto; overflow: visible;}
+			.ProgressLoading { position: absolute;  top: 35%;  width: 75%;  margin: 0 12.5%; z-index: 1; }
+			.Cols-2 .ProgressLoading{width: 100%; margin: 0;}
+
+			/* fix for 3 circles */
+			.Cols-3 .FirstCol .CircleDiv { left: -2.25em  ; }
+			.Cols-3 .LastCol .CircleDiv{ right: -2.5em; }
+
+	.DepositProgress { font-size: 0.714em; height: 5em; padding: 1em 0em 1em; width: auto; max-width: 600px; position: relative; margin: 0 auto; } 
+	.DepositProgress .Col{position: relative; z-index: 2;}
+	.CircleDiv { background: url("img/radial-full.png") repeat scroll 0 0 #EEE; border: 1em solid #CCC9C0; border-radius: 3em 3em 3em 3em; box-shadow: 0 -1px 0 0 #AEAB9F inset, 0 -1px 0 #88877B, 0 1px 1px #FFFFFF inset; display: block; height: 3em; margin: 0 auto; overflow: hidden; text-indent: 100%; white-space: nowrap; width: 3em; position: relative; z-index: 2; cursor: default;}
+	.ActiveCol .CircleDiv{border:1em solid  #1BA70F; box-shadow: 0 -1px 1px #273C1D inset, 0 -1px 1px #1BA70F; background-color: #f9f8f7; cursor: pointer;}
+	.HasCheck{ }
+	.HasCheck:after { content: "\2713"; font-size: 1.5em; font-weight: bold; left: 0.55em; position: absolute; text-indent: 0; top: 0.21em; width: 100%; }
+	
+
+	.FirstCol .CircleDiv { float: none;}
+	.LastCol .CircleDiv { float: none;}
+	.Cols-2 .FirstCol .CircleDiv { float: left;}
+	.Cols-2 .LastCol .CircleDiv { float: right;}
+	.MiddleCol{z-index: 2}
+
+	.CardList{display: none;}
+	.CardList.TransactionList { display: block;}
+	.OpenCategory .CardList{display: block;}
+	.CardHeader .Y {  margin: 2em 0.714em; }
+	.CardDetails {font-weight: bold; font-family: Arial, tahoma, sans-serif; font-size: 0.786em;}
+	.CardList .Icon{width:5.286em; height: 3.214em; /* 2.571em */ margin: 0.6428em 1.5em 0.6428em 0.7142em; box-shadow: 0 0.2857em 0.2857em rgba(0, 0, 0, 0.47);}
+	.IconList .N{padding: 0.2857em 0 0; font-size: 0.857em;}
+		.CardList .IconWrapper{width: auto; height: auto; box-shadow: 0 6px 6px -6px #111111; -webkit-box-shadow:0 6px 6px -6px #111111;}
+		.DepLink{text-transform: capitalize; padding: 0;}
+	.DepositDetails{}
+	.DepositDetails .PageName, .DetailName{ margin-left: 0.500em; line-height: 1.286em; }
+	.Sum, .DetailValue { background: none repeat scroll 0 0 transparent;  float: right; margin: 0.3571em 0.500em; text-indent: 0; }
+	.Sum .BalanceAmount, .DetailValue{font-weight: bold;}
+	.CardContainer{display: block;}
+
+	.CompositeInput .Col:first-child select { float: left; }
+    .CompositeInput #registerMonth { width: 100%; }
+    .CompositeInput .Col:last-child select { float: right; }
+    .PhoneInput .Col{ width: 50%; max-width: 50%; }
+
+
+	/* Withdraw page */
+	.WithdrawSubHeading { display: none; }
+	.BankWithdrawal{}
+		.confirmation_table { background: none repeat scroll 0 0 #F4F4F4; border: 0 none; border-radius: 0.5em 0.5em 0.5em 0.5em; color: #222222; display: block; padding: 0.5em; }
+			.confirmation_table td { border: 1px solid #CCCCCC; border-radius: 0.5em 0.5em 0.5em 0.5em; line-height: 1.25em; padding: 0.333em; }
+	.DebitValueMessage { background: none transparent; clear: both; color: red; display: block; float: right; font-family: Arial,Tahoma,sans-serif; font-size: 1rem; line-height: 1.5em; margin: 0;  max-width: 100%; min-height: 2em; min-width: 90%; overflow: hidden; padding: 0.333em 0.5em; text-align: center; width: auto; }
+	.DebitValueCurrency{ color: #999;}
+	.DebitValueAmount{ font-weight: bold; color: #FFF;}
+
+
+
+	/* Bonus component	*/
+	.BonusInput { clear: left; }
+
+	/* Winner Page */
+	.WinnerBox {  }
+		.WinnerBox .MenuList{margin: 0; border-radius: 0; display: block; width: 100%;}
+		.WinnerBox .Winner { width: 100%; background-color: #eee; }
+			.WinnerItem .WinGame:hover { color: #333; }
+	
+	/* Promotions Page */
+	.PromotionsBox {  }
+		.PromoContent { background: #ddd url("img/bg-darken-bottom.png") left bottom repeat-x; padding: .5em; color: #666;}
+		.PromoContent br{ display: none;}
+		.PromoContent p {line-height: 1.333em; margin-bottom: 0.5em;}
+		.BoxContent .PromoContent p > a { background: url("img/bg-button.png") repeat-x scroll left top / 100% 400% #EF0000; border: medium none; border-radius: 0.2857em 0.2857em 0.2857em 0.2857em; box-shadow: 0 1px 0 #111111; color: #FFFFFF; display: block; float: left; font-weight: bold; padding: 0.5em 1em; position: relative; text-align: left; text-shadow: 0 -1px 0 #8C0000; text-transform: uppercase; }
+			.PromoContent .AccountButtonContainer { width: 50%; float: right; }
+		.CloseArrow { font-size: 1.5714em; position: relative; top: .1428em;}
+
+	/* AccountSettings */
+	.AccountSettings {}
+	.AccountSettings .UserBox { margin: 1.5714em auto; max-width: 700px;}
+	#depositLimit span.FormLabel { clear: both; float: none; padding: 0 0.2142em; }
+	#depositLimit .AccountButton { max-width: 70%; margin: 0 auto; }
+
+	/* Casino Play Game Page */
+	.GameBox { background: none repeat scroll 0 0 #FCFCFC;  height: auto; padding: 0.5em; text-align: center; border-radius: 0.5em; overflow: hidden; border: 1px solid #DDD; }
+		.GameDetails{border-radius: 0; text-align: left; padding-bottom: 0.286em;}
+		.GameBox .ErrorMsg { display: none; }
+		.GameWrapper { display: none; }
+
+	.GamePage .LoginBox { margin : 1.5714em 0.3571em; }
+	.GamePage .LoginBox .BoxContent { padding : 0.5em 0; }
+
+	.GameImage { background: url("img/game-largeimage.jpg") no-repeat scroll center center #000000; background-size: 100% auto; border-top: 0.0785em solid #333333; display: block; height: 140px; margin: 0 auto; margin: -0.5em -0.5em 0;}
+		.GameTitle { display : block; padding : 0.5em 0.3809em 0.2619em 0.3809em; margin : 0; color : #111; font-size : 2em; line-height : 1em; text-shadow : 0 0.0714em 0.0714em #eee; }
+		.GameDescription { display : none; padding : 0.286em 0.714em 0.714em; margin : 0; color : #666; text-shadow : 0 0.0714em 0 #eee; }
+
+	.GameButton, .GameButton:visited { padding : 0.7142em 0; background-color: #ef0000; border-top: 0.0714em solid #eee; border-bottom: 0.0714em solid #888; -moz-border-radius: 0.75em; -webkit-border-radius: 0.5em; -o-border-radius: 0.5em; -khtml-border-radius: 0.5em; border-radius: 0.5em; color: #fff; font-size: 1em; margin: .7142em .3571em; padding: .7142em; text-align: center; -moz-text-shadow: 0 -1px 0 #fff; -webkit-text-shadow: 0 -1px 0 #000; -o-text-shadow: 0 -1px 0 #000; -khtml-text-shadow: 0 -1px 0 #000; text-shadow: 0 -1px 0 #000; }
+		.GameButton:hover { background: #ef0000 url("img/bg-button.png") left 66.6666% repeat-x; background-size: 100% 400%; border-top: 0.0714em solid #222; }
+	.LowImportance { background-color : #666; }
+
+
+	/* Transaction History */
+	.CompositeInput { display: block; float: right; width: 77.5%; }
+	#transaction-list-wrapper .TransactionList{ display: block; margin: 0 0.5em; }
+	.HeaderLable, .HeaderValue { display: block; float: left; overflow: hidden; text-overflow: ellipsis; width: 25%; }
+	.HeaderValue { color: #98C0F8; }
+	.CardList li { margin-bottom: 0px; border-bottom: 1px solid #999; }
+	.CardList li:first-child .CardHeader{border-top: 1px solid #999;}
+	.CardList li:first-child .WithdrawHeader { border-top: 0 none; }
+	a.WithdrawHeader { height: auto; display: block; }
+	.CardList li:last-child { margin-bottom: 0; border-bottom: none }
+	.CardList li:hover .DetailTable td{ color: #333;}
+		.TransactionList .CardHeader{ color:#999; border-top:1px solid #fefefe}
+		.TransactionList li:hover{ background-color:#fff; cursor: pointer; }
+		.TransactionList .DetailTable tr{ background-color:transparent; display: block;}
+		.TransactionList.ShortLine .DetailTable td{ height: auto;}
+		.DetailTable { width: 100%; color: #999; }
+		.DetailTable th, .DetailTable td { width: 25%; display: block; white-space: nowrap; text-overflow: ellipsis; text-indent: 0.25em; float: left; overflow: hidden; }
+		.DetailTable th { background-color: #666; color: #fff; font-weight: normal; }
+		.DetailTable td { vertical-align:middle; font-weight: bold; height: auto; /* 3.1428em */ padding: 0.5em 0; }
+		.DetailTable td:last-child { text-align: left; min-height: 1.5em;}
+		.DetailTable .success {color: green;}
+        .DetailTable .pending {color: #000;}
+        .DetailTable .rollback {color: #660000;}
+        .DetailTable .cancelled {color: #666600;}
+        .DetailTable .pendingnotification {color: #0000CC;}
+        .DetailTable .processing {color: #0000CC;}
+        .DetailTable .debitfailed {color: #FF0000;}
+        .DetailTable .failed {color: #FF0000;}
+        .DetailTable .creditfailed {color: #FF0000;}
+        .DetailTable .credit-amount {color: green;}
+        .DetailTable .debit-amount {color: red;}
+
+        .DTF { text-align: left; } /* Detail table first (cell) */
+		.DTM { text-align: center; } /* Detail table mid (cell) */
+		/*.DTL { text-align: right; } */
+		.DTL { text-align: left; line-height: 1; display: block; } /* Detail table last (cell) */
+
+
+
+
+
+	
+/**** Live Casino Hall  ****/
+	.LiveCasinoSection {}
+	.LiveCasinoPage .MenuLink .Page { background-position: -26px -556px; height: 24px; width: 24px; display: block; }
+	.LiveCasinoSection .TableList .Col { width: 50%; clear: none; box-shadow: none; border-bottom: 0.0714em solid #333333; }
+	.LiveCasinoSection .TableList .TableItem.Col.X a.TableLink { border-right: 0.0714em solid #333333; }
+		.TableCatTitle { display: block; position: relative; z-index: 1; }
+		.TableCatLink { display: block; margin: -1px 0; background: #ddd url("img/radial-button.png") center top no-repeat; background-size: 300% 100%; color: #111; border: 0.0714em solid #ccc; font-weight: bold; text-shadow: 0 1px 0 #fff; border-radius: 0.2857em; box-shadow: 0 0.25em 0.25em rgba(0,0,0,0.4); }
+		.TableCatText { display: block; padding: 0.2857em 0.3571em 0.3571em 0.3571em; overflow: hidden; }
+
+		.GTprovider { border-radius: 0.5em 0.5em 0.5em 0.5em; bottom: 0.5em; box-shadow: 0 0 0.25em #080808; font-size: 12px; left: 0.5em; overflow: hidden; position: absolute; text-indent: 100%; white-space: nowrap; z-index: 5; }
+		.GTicon { display : block; width : 1.5833em; height : 1.5833em; background : transparent url("img/casino/sprite.png") -260px -4px no-repeat; border-radius: 0.5em; }
+		.Sheriff .GTicon { background-position : -260px -30px; }
+		.BetSoft .GTicon { background-position : -296px -30px; }
+		.PlaynGO .GTicon { background-position : -332px -30px; }
+		.IGT .GTicon { background-position : -368px -30px; }
+		.Microgaming .GTicon { background-position : -404px -29px; }
+		.NetEnt .GTicon { background-position : -440px -30px; }
+		.CTXM .GTicon { background-position : -548px -30px; }
+		.GreenTube .GTicon { background-position : -584px -30px; }
+		.OMI .GTicon { background-position : -620px -30px; }
+		.XProGaming .GTicon { background-position : -656px -30px; }
+		.EvolutionGaming .GTicon { background-position: -728px -30px;}
+		
+	.TableList { background: #111; }
+	.TableCategory { margin: 1em 0 1em; }
+	.TablesContainer {  background: none repeat scroll 0 0 #222222;  border-left: 0.0833em solid #080808; box-shadow: 0 0.1666em 0.1666em #080808;  overflow: hidden; }
+		.TableItem { background-color: #111111; box-shadow: 0 0.25em 0.25em #080808; border-bottom: 0.0714em solid #333333; }
+			.TableLink { padding: 2em 1em 0.5em; border-right: 0.0714em solid #333333; min-width: 300px;}
+				.TableThumb { background: url("img/no-thumb.png") no-repeat scroll center center transparent; display: block; height:11.429em; /*160px*/ position: relative; width: 21.000em;/*294px*/ padding: 0; z-index: 0; margin: 0 auto 1em;	}
+					.LiveCasinoSection .GT { width: 100%; overflow: hidden; border:1px solid #333; border-radius: 0.5em; box-shadow: 0 0 0.5em #333333; -webkit-box-shadow:0 0 0.5em #333333; position: relative; z-index: 1; }
+					.LiveCasinoSection .GT[src=""], .LiveCasinoSection .GT[src="#"] { color: transparent;box-shadow: none; border: 0 none; display: none; opacity: 0; }
+				.TableName { display: block; color: #FFF; font-size: 1em; font-weight: bold; line-height: 2em; text-align: left; text-indent: 0.5em; box-shadow: none; text-shadow:0 1px 0 #000; text-align: center; }
+			.TableLink:active .TableName, .TableLink:hover .TableName { color: #111; text-shadow: 0 1px 0 #DDD;}
+			.OptionSpecial { display: inline-block; padding: 0.25em; }
+
+		.ClosedText { position: absolute; top: 35%; font-size: 2em; color: #FFFFFF; display: block; left: 5%; width: 90%; right: 5%; overflow: hidden; line-height: 1em; text-overflow:ellipsis; white-space: nowrap; font-family: "Myriad Pro", Tahoma, Arial, sans-serif; font-weight: bold; text-shadow:0 2px 0 #111, 0 -2px 0 #111; text-transform: uppercase; }
+		.ClosedTable .TableThumb { background-image: url('img/casino/closed-table2.jpg'); background-size: 100% auto; border-radius: 0.5em;  }
+
+		/*.ClosedTable .PlayNowButton, .ClosedTable .PlayNowButton:hover, .ClosedTable .PlayNowButton:active { cursor: not-allowed; color: #EEE; text-shadow: 0 1px 0 #000; background: #999 url("./casino/bg-darken-pattern.png") left bottom repeat-x; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; -ms-filter: "alpha(opacity=50)"; filter: alpha(opacity=50); -moz-opacity: .5; -webkit-opacity: .5; -o-opacity: .5; -khtml-opacity: .5; opacity: .5; box-shadow: 0 0.1111em 0.1111em #080808; }*/
+		
+/*		.GOItem { display : block; margin : 0.75em 0 0 0; font-family: "Myriad Pro", Arial, Tahoma, sans-serif; font-size: 1em; color: #666; font-weight: normal;  text-shadow: 0 1px 0 #FFF; }
+		.GOItem .OptionSpecial { color: #111; font-weight: bold; }
+		.ClosedTable .PlayNowButton, .ClosedTable .PlayNowButton:hover, .ClosedTable .PlayNowButton:active { cursor: not-allowed; color: #EEE; text-shadow: 0 1px 0 #000; background: #999 url("./casino/bg-darken-pattern.png") left bottom repeat-x; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; -ms-filter: "alpha(opacity=50)"; filter: alpha(opacity=50); -moz-opacity: .5; -webkit-opacity: .5; -o-opacity: .5; -khtml-opacity: .5; opacity: .5; box-shadow: 0 0.1111em 0.1111em #080808; }
+*/	
+	.GTStatus { background: url("img/casino/bg-button2.png") repeat-x scroll left bottom #B0A995; background-size: 100% 400%; border: 1px solid #5B5C5B; border-radius: 0.5em 0.5em 0.5em 0.5em; box-shadow: 0 1px 2px #333333; color: #DDDDDD; font-family: tahoma,arial,sans-serif; height: auto; left: -0.5em; line-height: 1em; overflow: hidden; padding: 0.0833em 0.25em 0.25em; position: absolute; text-indent: 0; text-shadow: 0 -1px 0 #333333; top: -1em; white-space: nowrap; width: auto; z-index: 12; }
+		.GTStatusIcon { background-image: url("img/casino/sprite.png"); background-position: -185px -74px; background-repeat: no-repeat; background-size: auto auto; display: block; float: left; height: 1.35em; left: 0; position: relative; text-indent: 0; top: 0; width: 1.25em; }
+	.ClosedTable .GTStatusIcon { background-position: -209px -73px; }
+	.OpenedTable .GTStatus { background-color: #7CA72F; border:1px solid #5C7645; color: #BEF163; }
+
+	.TableItem .GTnew { background: url("img/radial-button.png") no-repeat scroll center top #EF0000; background-size: 300% 100%; box-shadow: 0 1px 1px #000000; color: #FFFFFF; display: block; font-size: 1em; line-height: 1em; padding: 0.2857em; position: absolute; right: -0.5em; text-shadow: 0 -1px 0 #8C0000; top: -0.5em; z-index: 10; }
+
+	.GTLimit { background: url("img/casino/bg-button2.png") repeat-x scroll left bottom #D20303; background-size: 100% 400%; border-radius: 0.5em 0.5em 0.5em 0.5em; box-shadow: 0 1px 1px #333333; color: #DEC668; font-family: tahoma,arial,sans-serif; font-size: 12px; font-weight: normal; margin: 0; padding: 0 0.667em; position: absolute; right: -1em; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.85); top: -1em; width: auto; z-index: 12; }
+		.GTLimit .OptionSpecial { color: #FFFAEE; font-weight: bold; }
+	.GTOpeningHours { background: url("img/casino/bg-button2.png") repeat-x scroll left bottom #C29723; background-size: 100% 400%; border: 1px solid #7A670B; box-shadow: 0 1px 1px #080808; border-radius: 0.5em 0.5em 0.5em 0.5em; bottom: -0.5em; color: #DEBE68; font-size: 12px; font-weight: bold; margin: 0; padding: 0 0.75em; position: absolute; right: -1em; text-shadow: 0 -1px 0 #2B2626; width: auto; z-index: 12;}
+		.GTOpeningHours .OptionSpecial { color: #FFFAEE;font-weight: bold;}
+		.ClosedTable .GT { -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */ filter: gray; /* IE6-9 */ filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */  display: none;  }
+	
+	.ClosedTable  .GTOpeningHours { background-color: #666; border:1px solid #333; color: #CCC; text-shadow: 0 -1px 0 #111; }
+
+	@media only screen and (max-width: 640px) {
+		.LiveCasinoSection .TableList .Col { width: 100%; float: none; clear: both; border-right: 0 none;}
+		.LiveCasinoSection .TableList .TableItem.Col.X a.TableLink { border-right: 0 none; }
+		.TableThumb { width: 95%; max-width: 23em; }
+	}
+	@media only screen and (min-width: 768px) { 
+		.TableThumb { width: 23em;} 
+	}
+	@media only screen and (min-width: 1025px) {
+		.LiveCasinoSection .TableList .Col { width: 33.3333%; }
+	}
+	@media only screen and (min-width: 1281px) {
+		.TableThumb { width: 24em; height: 13.429em; }
+	}
+
+
+/**** Hidding Stuff ****/
+/*.DepositSection .CardDetails .DTF, .DepositSection .CardDetails .DTM { display: none;}*/
+.DTL .max { margin-left: 0.5em; }
+
+
+/*****************/
+/*    DEVICES    */
+/*****************/
+
+.mobile{}
+.ipad{}
+.ipod{}
+.iphone{}
+.android{}
+.blackberry{}
+.j2me{}
+.touch{}
+.no-touch{}
+.webtv{}
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+@media only screen and (max-width: 1024px){
+	/** Ipad landscape **/
+	.ipad {}
+	.ipad .FormInput { max-width: 450px; float: left; margin-left: 2em; }
+	.ipad .LoginBox .FormInput { margin-left: 0; float: none; }
+	.ipad .FormLabel[for="captcha"] { width: auto; display: block; text-overflow:none; overflow: visible;}
+	.FormLabel[for="captcha"] + p { margin-bottom: 1em;}
+	.ipad #formFindPassword .AccountButtonContainer { max-width: 490px; margin: 1.5em auto 1em; }
+	.ipad #captcha { margin-left: 0; }
+	.ipad #formFindPassword .FormAdditional { text-align: center; }
+	/*.ipad #formRegisterStep1 .FormInput, .ipad #formRegisterStep2 .FormInput, .ipad #formRegisterStep3 .FormInput { float: right; margin-left: 0; max-width: none; }*/
+    .ipad #formRegisterStep2 .FormLabel, .ipad #formRegisterStep3 .FormLabel { width: 21%; }
+    .ipad #formRegisterStep1 #registerDay, .ipad #formRegisterStep2 #registerMobilePrefix { float: left; }
+    .ipad .FormLabel[for="ddlExpiryMonth"] { display: inline-block; line-height: 1.333em; }
+    .FormHit { display: block; text-align: center;}
+}
+
+@media only screen and (max-width: 768px){
+	/** Ipad landscape **/
+	.ipad {}
+	.ipad .FormInput { float: right; margin-left: 0; max-width: 440px; }
+	.FormLabel[for="captcha"] + p { margin-bottom: 1em;}
+	.ipad #formFindPassword .AccountButtonContainer { max-width: 490px; }
+	.AccountButtonContainer .AccountButton { max-width: 17em; margin: 0 auto; }
+	.ipad #captcha { margin-left: 0; }
+	.ipad #formFindPassword .FormAdditional { text-align: center; }
+
+}
+@media only screen and (max-width: 640px){
+/*********************************/
+/** 	HIDE LIVE CASINO		**/
+.TableLink:active .TableName, .TableLink:hover .TableName { color: #FFF; text-shadow:0 1px 0 #000000; }
+/*.TableCategory { display: none; }
+.TableCategory.Category_ROULETTE { display: block;}*/
+
+}
+
+/* > 600 */
+@media only screen and (min-width: 600px) {
+    .ForgotPassWordLink, .SignUpLink{ display: block; clear: both; }
+}
+
+/* > 320 */
+@media only screen and (min-width: 321px){
+	.MainMenuList { margin-bottom : -0.7857em;; background : transparent; box-shadow : none; }
+		.MainMenuList .MenuLink { margin : 0 0 0.7857em 0; background : transparent url("img/bg-10.png") left top repeat; color : #fff; border : none; text-shadow : 0 1px 0 #000; border-radius : 0.3571em; }
+		.MainMenuList .MenuLink:hover, .MainMenuList .MenuLink:active { background-image : url("img/bg-30.png"); }
+	.AccountWrapper .MainMenuList { border: 0 none; box-shadow: none;  margin: 0.7857em 0.3571em; padding-right: 0; width: auto; float:none; }
+	/*.HasCheck:after{left: 0.5em; top: 0;}*/
+	.AddToHome{padding: 1.143em 3% 3em; }
+}	
+
+/* > 480 */
+@media only screen and (min-width: 481px){
+	@viewport {
+		width: device-width;
+		user-zoom:fixed;
+		zoom:1.0;
+	}
+
+	.MainMenuList {  }
+	.AccountWrapper .MainMenuList { border: 0 none; box-shadow: none; margin: 0.7857em 0.3571em; padding-right: 0; width: auto; float:none;}
+		.MainMenuList .MenuItem { display : block; float : left; width : 49%; }
+		.BalanceAccount{width: 50%; max-width: 50%;}
+		.BalanceList .RefreshLink { width: 100%;}
+		.MainMenuList .MenuItem:nth-child(2n) { float : right; }
+			.MainMenuList .PageName { font-size : 1.2857em; font-weight : normal; }
+	.MainMenuSecondary { display : block; margin : 0.7857em 0.3571em; border-radius : 0.3571em; }
+		.SecondaryMenuList { float : left; width : 49%; margin : 0; }
+		.SML2 { float : right; }
+
+	.SlideContent img { width : auto; height : 100%; }
+
+	.NewSlider { margin : 1.5714em 0.3571em; }
+
+	.Cols-X-2 .Col { width : 33.3333%; }
+	.Cols-X-3 .Col { width : 25%; }
+	.Cols-X-4 .Col { width : 20%; }
+	.Cols-X-5 .Col { width : 16.6666%; }
+	.Cols-X-2 .Col:nth-child(2n+1), .Cols-X-3 .Col:nth-child(3n+1), .Cols-X-4 .Col:nth-child(4n+1), .Cols-X-5 .Col:nth-child(5n+1) { clear : none; }
+	.Cols-X-2 .X:nth-child(2n) .B { border-right : 1px solid #eee; }
+	.Cols-X-2 .X:nth-child(3n) .B { border-right : none; }
+	
+	.Box .GameList .GameItem { background : transparent; }
+	.GameList .GameItem:nth-child(6n), .GameList .GameItem:nth-child(6n+4), .GameList .GameItem:nth-child(6n+5) { background-color : #f4f4f4; }
+}
+
+/* > 768 */
+@media only screen and (min-width: 769px){
+
+	.MainMenuList { float : left; width : 33.3333%; margin : 0.7857em 0; }
+	.AccountWrapper .MainMenuList { border-radius: 0 0 0 0; border-right: 1px solid #000000; box-shadow: 1px 0 0 #666666; float: left; margin: 0.7857em 1.333% 0.7857em 0.5%; padding-right: 2%; width: 29.5%; }
+		.MainMenuList .MenuItem, .MainMenuList .MenuItem:nth-child(2n) { float : none; width : auto; }
+			.MainMenuList .MenuLink { margin : 0 3% 0.7857em 0.3571em; }
+			.BalanceAccount{width: 100%; max-width: 100%;}
+	.FallbackMenu .MainMenuList { width: 100%; }
+	.FallbackMenu .MainMenuList .MenuLink { margin: 0 0.3571em 0.7857em }
+	.MainMenuSecondary { overflow : hidden; }
+
+	.swipe-slide { width : 480px; }
+	
+	.Cols-X-2 .Col { width : 25%; }
+	.Cols-X-3 .Col { width : 20%; }
+	.Cols-X-4 .Col { width : 16.6666%; }
+	.Cols-X-5 .Col { width : 14.2857%; }
+	.Cols-X-2 .X:nth-child(3n) .B { border-right : 1px solid #eee; }
+	.Cols-X-2 .X:nth-child(4n) .B { border-right : none; }
+
+	.Box .GameList .GameItem { background : transparent; }
+	.GameList .GameItem:nth-child(8n), .GameList .GameItem:nth-child(8n+5), .GameList .GameItem:nth-child(8n+6), .GameList .GameItem:nth-child(8n+7) { background-color : #f4f4f4; }
+
+	/* progress Bar */
+	.Box .CircleProgress.Cols-4, .Box.CircleProgress.Cols-3 { left: -7.5em; margin: 0 auto;  max-width: 750px; overflow: visible; position: relative; width: 750px; }
+	body .Footer { margin: 0 0 3em; }
+}
+
+/* > 1024 */
+@media only screen and (min-width: 1025px){
+
+	.Cols-X-2 .Col { width : 20%; }
+	.Cols-X-3 .Col { width : 16.6666%; }
+	.Cols-X-4 .Col { width : 14.2857%; }
+	.Cols-X-5 .Col { width : 12.5%; }
+	.Cols-X-2 .X:nth-child(4n) .B { border-right : 1px solid #eee; }
+	.Cols-X-2 .X:nth-child(5n) .B { border-right : none; }
+
+	.Box .GameList .GameItem { background : transparent; }
+	.GameList .GameItem:nth-child(10n), .GameList .GameItem:nth-child(10n+6), .GameList .GameItem:nth-child(10n+7), .GameList .GameItem:nth-child(10n+8), .GameList .GameItem:nth-child(10n+9) { background-color : #f4f4f4; }
+}
+
+/* > 1280 */
+@media only screen and (min-width: 1281px){
+	.Cols-X-2 .Col { width : 16.6666%; }
+	.Cols-X-3 .Col { width : 14.2857%; }
+	.Cols-X-4 .Col { width : 12.5%; }
+	.Cols-X-5 .Col { width : 11.1111%; }
+	.Cols-X-2 .X:nth-child(5n) .B { border-right : 1px solid #eee; }
+	.Cols-X-2 .X:nth-child(6n) .B { border-right : none; }
+
+	.Box .GameList .GameItem { background : transparent; }
+	.GameList .GameItem:nth-child(12n), .GameList .GameItem:nth-child(12n+7), .GameList .GameItem:nth-child(12n+8), .GameList .GameItem:nth-child(12n+9), .GameList .GameItem:nth-child(12n+10), .GameList .GameItem:nth-child(12n+11) { background-color : #f4f4f4; }
+}
+
+/* < 481 */
+@media only screen and (max-width: 480px) {
+
+	.Footer { margin: 0 0 1em;}
+	.MenuClose .Close { margin-top : 0; margin-bottom : 0; }
+	.SlideList { width: 410px;}
+	.swipe .SlideContent { min-height : 0; }
+	.BalanceAccount{width: 50%; max-width: 50%;}
+		.BalanceAmount{ margin-left: 0.333em}
+	.NewSlider { margin : 0 0 0.3571em; padding-bottom: 1.143em; }
+		.SlideList { width : auto; margin : 0 0 0.5em 0; }
+			.SlideItem { display : none; width : 100%; margin : 0; }
+			.ActiveItem { display : block; }
+				.SlideLink { border-radius : 0; box-shadow : 0 0.1428em 0.1428em #666; width : 100%; /*height: 150px;*/ height: auto;}
+					.SlideImage { width : 100%; height : auto;  }
+/*		 .NewSliderControls { background : transparent url("img/bg-darken-bottom.png") left bottom repeat-x; background-size : 100% 100%; border-bottom : 0.0714em solid #333; }*/
+		 		.NumberLink { /*height : 100%; position : relative; top : -0.5714em;*/ }
+	.AccountWrapper .MainMenuList{width: auto; padding-right: 0; }
+	.BalanceList .MenuItem{float: left; width: 50%; max-width: 50%;}
+	.BalanceList .RefreshLink { width: 100%; max-width: 100%;}
+	.DepositProgress{font-size: 0.643em; }
+	.DepositDetails .PageName, .DetailName { float: left; max-width: 60%; }
+	
+		.Sum, .DetailValue{margin: 0 0.5em;}
+
+	.HBIcon{width: 75%}
+	.NewSlider, .PrevLink, .NextLink{border-radius: 0;}
+	.NSPrev, .NSNext{bottom: 1.5em}
+	.Box .FinalStep{ margin: 1em 3em; }
+	select.FormInput{width: 100%;}
+	.GameBox{border: 0 none; border-radius: 0; }
+
+	.Cols-4.Step1 .expand { width: 4%; }
+	.Cols-4.Step2 .expand { width: 37%; }
+	.Cols-4.Step3 .expand { width: 70%; }
+	
+	.AccountSettings .SubHeading{display: none;}
+	.HeaderValue:last-child{ text-align: center; line-height: 1.25em}
+	.iphone .HasCheck::after{left: 0.167em; top: 0.167em; font-size: 2.5em;}
+	.iphone .CompositeInput .FormInput { margin-bottom: 0em; width: 95%; padding: 0.333em; border:0 none;}
+	.iphone .FormList + .FormList { margin-top: 0; }
+	.FormLabel[for="registerCountry"], .FormLabel[for="txtAddress2"], .FormLabel[for^="registerPassword"], .FormLabel[for="registerQuestion"]{ line-height: 2em;}
+
+	/*** Lost Password ***/
+	#formFindPassword .FormAdditional { text-align: center; }
+	#formFindPassword .FormLabel { width: 23%; }
+	.AccountButtonContainer { max-width: 480px; }
+
+	.InfoStatus .StatusBackground { background-position: left top;}
+
+	.AmountBox .FormInput { font-size: 14px; line-height: 1em; max-width: 55%; width: 55%; }
+
+	/*********************************/
+/** 	HIDE LIVE CASINO		**/
+/*.TableCategory { display: none; }
+.TableCategory.Category_ROULETTE { display: block;}*/
+
+}
+
+@media only screen and (max-width: 480px) and (max-height: 320px){
+	.iphone .Framework { padding-bottom: 0; }
+	.iphone .Footer { margin-bottom: 3em; }
+}
+
+/* < 320 */
+@media only screen and (max-width: 320px){
+	@media only screen and (max-height: 480px){
+        body { height: 480px; }
+    }
+	/*.Header .HomeButtonHeader { display : none; }*/
+	.BrandingImage { width : 10.7142em; height : auto; }
+	.SlideList {width: 300px;}
+	.Cols-2 .Col { width : 100%; float : none; clear : both; }
+	.IntroBoxOptions.Cols-2 .Col { width: 50%; float: left; clear: none; }
+	.HBSports,.HBCasino{ margin: 0}
+	.Cols-3 .Col { width : 33.333%; }
+	.Cols-3.IntroBoxOptions .Col { width: 50%; float: left; clear: none; max-width: 50%;}
+	.Cols-3.IntroBoxOptions .Col:last-child { width: 100%; float: none; clear: both; max-width: 100%;}
+	.Cols-3.IntroBoxOptions .HBIcon { width: 128px; max-width: 128px; height: 128px;}
+	.Cols-3 .HomeButton .HBIcon { background-size: 200% auto; }
+	.Cols-3 .HBLiveCasino .HBIcon { background-position: right center; background-size: 300% auto; }
+
+	.Cols-4 .Col { width : 25%; }
+	.Cols-5 .Col { width : 12.5%; }
+	.Cols-X-2 .Col { width : 50%; float: left; clear: none;}
+	.AccountSettings .Tab{width: 100%; float: none;clear: both;}
+	.AccountSettings .Tabs .TabLink { border-radius: 0 0 0 0; margin: 0; }
+	.AccountWrapper{ margin: 0; border-radius: 0; -webkit-border-radius:0; }
+	.NewSlider { height: 170px; }
+		.NSPrev, .NSNext {  bottom: 0.5em; height: 11.333em; }
+			.PrevLink, .NextLink{ line-height: 3.571em; }
+		.SlideLink { height: 250px; }
+	.Box .GameList .GameItem { background : transparent; }
+	.GameList .GameItem:nth-child(2n) { background-color : transparent; box-shadow: -0.0714em 0 0 #EEE; }
+	.GameList .GameItem:nth-child(4n),	.GameList .GameItem:nth-child(4n+3) { background-color: #F4F4F4;}
+		.GameList .GameItem .B { border : none; }
+	.AccountWrapper .MainMenuList { border: 0 none; box-shadow: none;  margin: 0.7857em 0.3571em; padding-right: 0; width: auto; float:none; }
+	.BalanceSum { font-size: 1em; padding-left: 0.5em; text-indent: 0; }
+	.CenterBox, .UserBox {max-width: 300px; margin: 0 auto;}
+	.DepositProgress{font-size: 0.571em; margin-bottom: 2em; }
+		.CircleDiv { border: 1em solid #CCCCCC; font-size: 8px; height: 2.5em; top: 0.75em; width: 2.5em; z-index: 9; }
+		.ActiveCol .CircleDiv{ border:1em solid #1BA70F;}
+		.CircleWrapper.Cols-2 .Col { width: 50%; clear: none; float: left; }
+		.ProgressLoading { top: 4.5em; width: 75%; margin: 0 12.5%; font-size: 6px; }
+		.DTL { display: block; float: right; }
+		.FormInput{width: 90%;}
+		.CompositeInput, .AmountContainer {width: 100%;}
+			.FormHelp{font-size: 1em; line-height: 1.5em;}
+			.AmountBox .FormInput{ width: 55%; max-width: 65%; font-size: 14px; line-height: 1em; }
+
+	.HBSports,.HBCasino{ margin: 0em; }
+	.CompositeInput .FormInput { margin-bottom: 1em; width: 95%; padding: 0.333em; border:0 none;}
+	.CompositeInput .Col:last-child .FormInput{margin-bottom: 0; float: right; width: 93%; max-width: 93%;}
+	.HasCheck:after{top: 0; left: 0.45em;}
+	.Box .FinalStep { margin: 1em; }
+	/*.AccountButtonContainer { margin: 2.5em 0.571em; max-width: 320px; }*/
+	.AccountButtonContainer { display: block; margin: 1.5em auto 0.5em; max-width: 280px; padding: 0 10px; width: auto; }
+	.RegLink .ButtonText{padding: 0.3571em 0.5em;}
+	.CopyContainer	{ font-size: 0.625rem; padding: 0.5em; }
+	.GameImage { background-size: 100% auto; height: 11.429em; }
+
+	.iphone .HasCheck::after{left: 0.167em; top: 0; font-size: 2em;}
+	.iphone .BoxContent form, .android .BoxContent form{max-width: 300px; overflow: hidden; margin: 0 auto;}
+	.Context_IOS{padding-top: 1em;}
+	.Box .FinalStep, .AmountText { margin: 1em; }
+	.Footer, .iphone .Footer { margin: 0 0 3rem; padding: 0; min-height: 170px; }
+	.GameLink .GameName{ font-size: 0.750rem; max-height: 3em;}
+	form[action="/Profile/UpdateProfile"] .PhoneInput .Col .FormInput { width: 90%; margin: 0; }
+	.ActivePageTitle .iOSBack { margin-bottom: 1.5em; }
+
+	.DateInput.Cols-3 select.FormInput { width: 90%; max-width: 90%; }
+	.DateInput.Cols-3 select#registerYear { float: right;}
+
+	/**** Lost Password ****/
+	#formFindPassword .FormLabel { width: auto; }
+	#formFindPassword .FormItem { clear: both; padding: 0; }
+	
+}
+@media only screen and (max-width: 320px) and (max-height: 568px){
+	.Footer { margin-bottom: 4rem; }
+} 
+
+/* < 299 */
+@media only screen and (max-width: 299px){
+
+}
+
+
+
+/* iPhone4 and other retina displays (portrait and landscape) */
+@media only screen and (-webkit-min-device-pixel-ratio : 2) {
+	/*.Y, .Header .ButtonIcon, .MenuLink .Page, .PageIcon, .FMLink .I, .SearchIcon, .CloseIcon { background-image : url("img/big-sprite@2x.png"); background-size : 352px 598px; }*/
+	.Header .ButtonIcon, .ToggleText { background-image: url("img/big-sprite@2x.png"); background-size : 352px 598px; }
+	.StatusIcon {  }
+	.HBIcon { width : 75%; max-width : 64px; }
+	/*.IntroBoxLogo { max-width : 75px; }*/
+
+	.ATHClose { background-image : url("img/close@2x.png"); }
+	.Context_IOS .ATHIcon { background-image : url("img/addtohome-ios@2x.png"); background-size : 33px 33px; }
+	.Context_Android .ATHIcon { background-image : url("img/addtohome-android@2x.png"); background-size : 33px 33px; }
+
+	.LoadIcon { background-image : url("img/refresh@2x.png"); background-size : 22px 22px; }
+	/* for inline images */
+	.replace-2x { font-size: 1px; }
+    .ActiveDropdown .MainLanguageAction .LanguageText{background-image: url("img/close@2x.png"); background-color: #333; background-size: 33px 33px;}
+    .lang_bg .LanguageAction, .LanguageList .lang_bg .LanguageAction { background-image : url("img/lang-bg@2x.png"); }
+	.lang_da .LanguageAction, .LanguageList .lang_da .LanguageAction { background-image : url("img/lang-da@2x.png"); }
+    .lang_de .LanguageAction, .LanguageList .lang_de .LanguageAction { background-image : url("img/lang-de@2x.png"); }
+	.lang_en .LanguageAction, .LanguageList .lang_en .LanguageAction { background-image : url("img/lang-en@2x.png"); }
+	.lang_el .LanguageAction, .LanguageList .lang_el .LanguageAction { background-image : url("img/lang-el@2x.png"); }
+	.lang_es .LanguageAction, .LanguageList .lang_es .LanguageAction { background-image : url("img/lang-es@2x.png"); }
+	.lang_fi .LanguageAction, .LanguageList .lang_fi .LanguageAction { background-image : url("img/lang-fi@2x.png"); }
+	.lang_fr .LanguageAction, .LanguageList .lang_fr .LanguageAction { background-image : url("img/lang-fr@2x.png"); }
+	.lang_it .LanguageAction, .LanguageList .lang_it .LanguageAction { background-image : url("img/lang-it@2x.png"); }
+	.lang_no .LanguageAction, .LanguageList .lang_no .LanguageAction { background-image : url("img/lang-no@2x.png"); }
+    .lang_ru .LanguageAction, .LanguageList .lang_ru .LanguageAction { background-image : url("img/lang-ru@2x.png"); }
+    .lang_hu .LanguageAction, .LanguageList .lang_hu .LanguageAction { background-image : url("img/lang-hu@2x.png"); }
+    .lang_ro .LanguageAction, .LanguageList .lang_ro .LanguageAction { background-image : url("img/lang-ro@2x.png"); }
+    .lang_sv .LanguageAction, .LanguageList .lang_sv .LanguageAction { background-image : url("img/lang-sv@2x.png"); }
+    .lang_pl .LanguageAction, .LanguageList .lang_pl .LanguageAction { background-image : url("img/lang-pl@2x.png"); }
+    .lang_pt .LanguageAction, .LanguageList .lang_pt .LanguageAction { background-image : url("img/lang-pt@2x.png"); }
+    .lang_tr .LanguageAction, .LanguageList .lang_tr .LanguageAction { background-image : url("img/lang-tr@2x.png"); }
+    .lang_ka .LanguageAction, .LanguageList .lang_ka .LanguageAction { background-image : url("img/lang-ka@2x.png"); }
+    .lang_zh-cn .LanguageAction, .LanguageList .lang_zh-cn .LanguageAction { background-image : url("img/lang-zh-cn@2x.png"); }
+    .lang_zh-tw .LanguageAction, .LanguageList .lang_zh-tw .LanguageAction { background-image : url("img/lang-zh-tw@2x.png"); }
+
+    /*.MenuLink .Page { background-image: url("img/big-sprite@2x.png"); background-position: -25px -554px; }*/
+    .LiveCasinoPage .MenuLink .Page { background-image: url("img/big-sprite@2x.png"); background-position: -25px -554px; height: 24px; width: 24px; background-size: 352px 598px; }
+
+}
+
+/* PRINT STYLES */
+@media print {
+	* { background : transparent !important; color : black !important; text-shadow : none !important; filter:none !important; -ms-filter : none !important; } /* Black prints faster : sanbeiji.com/archives/953 */
+	a, a:visited { color : #444 !important; text-decoration : underline; }
+	a[href]:after { content : " (" attr(href) ")"; font-size : 0.75em; }
+	abbr[title]:after { content : " (" attr(title) ")"; font-size : 0.75em; }
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content : ""; }
+	.ir { text-indent : 0; }
+	pre, blockquote { border : 1px solid #666; page-break-inside : avoid; }
+	thead { display : table-header-group; }
+	tr, img { page-break-inside : avoid; }
+	img { max-width : 100% !important; }
+	@page { margin : 0.5cm; }
+	p, h2, h3 { orphans : 3; widows : 3; }
+	h2, h3{ page-break-after : avoid; }
+}
+
+.AccountButtonContainer.ProfileBTNs .AccountButton { margin-top: 1.2143em; }

@@ -1,0 +1,10 @@
+﻿html, body { width:100%; height:100%; margin:0px; padding:0px; overflow:hidden; font-size:12px; font-family:Verdana; font-style:normal;}
+
+
+#main-table { width:100%; margin-top:0px; table-layout:fixed; }
+#main-table .splitter{ background:url(./../img/splitter.png) repeat-x center center; cursor:e-resize; width:4px; border-right:1px solid #123c66; }
+#main-table .tree { width:250px; }
+
+#main-table .left { width:200px; padding:10px; border-top:solid 1px #333333; }
+
+#overlapped-layer { position:absolute; left:0px; top:0px; width:100%; height:100%; z-index:99999; background-image:url(/images/transparent.gif); cursor:e-resize;}

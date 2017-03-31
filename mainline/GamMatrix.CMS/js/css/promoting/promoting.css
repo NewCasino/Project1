@@ -1,0 +1,42 @@
+﻿.promot-box
+{
+position:absolute;
+line-height:32px;
+width:98%;
+padding:0.5em 1%;
+top:0px;
+left:0px;
+z-index:99999;
+font-size:12px;
+color:#000;
+background: #fefcea; /* Old browsers */
+background: -moz-linear-gradient(top,  #fefcea 1%, #f1da36 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#fefcea), color-stop(100%,#f1da36)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #fefcea 1%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #fefcea 1%,#f1da36 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #fefcea 1%,#f1da36 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #fefcea 1%,#f1da36 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+}
+.promot-box .button
+{
+height:32px;
+margin-right:5px;
+color:#000;
+border:1px solid #BBBBBB;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 10%, rgba(255,255,255,0.31) 72%, rgba(255,255,255,0.12) 89%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,rgba(255,255,255,1)), color-stop(72%,rgba(255,255,255,0.31)), color-stop(89%,rgba(255,255,255,0.12)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 10%,rgba(255,255,255,0.31) 72%,rgba(255,255,255,0.12) 89%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 10%,rgba(255,255,255,0.31) 72%,rgba(255,255,255,0.12) 89%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 10%,rgba(255,255,255,0.31) 72%,rgba(255,255,255,0.12) 89%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 10%,rgba(255,255,255,0.31) 72%,rgba(255,255,255,0.12) 89%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+.promot-box .button span{ background:none; color:#000;}
+.promot-box .switch-promot-text{ float:left;}
+.promot-box .switch-promot-options{ float:left; margin-left:1em;}
+.promot-box #switch-promot-btnClose{ float:right; vertical-align:middle;}
+.promot-box #switch-promot-btnClose img{ vertical-align:middle;}

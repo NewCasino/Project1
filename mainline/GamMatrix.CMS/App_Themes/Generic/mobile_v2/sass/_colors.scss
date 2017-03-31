@@ -1,0 +1,177 @@
+// -----------------------
+//  Colors
+// -----------------------
+$red        : #ef0000;
+$red1       : #D20000;
+$dark 			: #111111;
+$dark2      : #222222;
+$nocolor		: transparent;
+$white      : #ffffff;
+$black			: #000000;
+$graye      : #EEE;
+$grayd      : #DDD;
+$grayc      : #CCC;
+$gray1      : #FBFBFB;
+$gray9 			: #999;
+$gray6 			: #666;
+$gray3      : #333;
+$gray4      : #444;
+$bt_round 	: 0.2857em; // 3px from 14px
+
+
+$blue       : #09bcec;
+$darkBlue		: #364491;
+
+
+
+//--------------------------
+// Gradients
+//-------------------------
+@mixin gradient($from, $to) {
+  background: $to; // /* fallback/image non-cover color */
+  background: -moz-linear-gradient(top, $from 0%, $to 100%); 																// /* Firefox 3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$from), color-stop(100%,$to));			// /* Safari 4+, Chrome 1+ */
+  background-image: -webkit-linear-gradient(top, $from 0%, $to 100%);														// /* Safari 5.1+, Chrome 10+ */
+  background-image: -o-linear-gradient(top, $from 0%, $to 100%);															// /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, $from 0%,$to 100%);																	// /* IE9+ */
+  background: linear-gradient(to bottom, $from 0%,$to 100%); 																// /* Default */
+  background-size: 100% 100%;
+  border-radius : $bt_round;
+  box-shadow : 0 1px 1px $dark;
+  color : #fff; 
+  display : block;
+  position : relative;
+  text-shadow : 0 1px 1px $black;
+}
+
+@mixin buttonNormal($color) { // /*background : #ef0000 url("../img/bg-button.png") left top repeat-x; background-size : 100% 400%;*/
+	background : $color url("../img/bg-button.png") left top repeat-x; 
+	background-size : 100% 400%;
+	border-radius : $bt_round;
+  box-shadow : 0 1px 1px $dark;
+	color: $white;
+	display : block;
+}
+
+@mixin buttonActive($color) { //background : #666 url("../img/bg-button.png") left 66.6666% repeat-x; background-size : 100% 400%; color : #fff; text-shadow : 0 1px 0 #080808; box-shadow : 0 1px 0 #ccc; box-shadow : 0 1px 0 #ccc, 0 -1px 0 #111; 
+	@include buttonNormal($color);
+	text-shadow : 0 1px 0 #080808;
+	box-shadow : 0 1px 0 #ccc, 0 -1px 0 $dark; 	
+}
+
+@mixin RadialFullBG($bgwidth, $bgheight) {
+	background: url("../img/radial-full.png") no-repeat scroll center bottom transparent; 
+	background-size: $bgwidth $bgheight; //300% 300%;
+	border-radius: 0;
+}
+
+@mixin BGIMG($bgcolor, $img, $position, $bgrepeat, $bgwidth, $bgheight) { // background : #333 url("../img/radial-button.png") center top no-repeat; background-size : 300% 100%;
+  background-color: $bgcolor;
+  background-image: url($img);
+  background-position: $position;
+  background-repeat: $bgrepeat;
+  background-size: $bgwidth $bgheight;
+}
+
+@mixin ButtonText(){
+  border-radius : $bt_round;
+  display: block; 
+  font-family: "Myriad Pro",Arial,sans-serif; 
+  font-size: 1.125rem; //$font18; 18px 
+  font-weight: bold; 
+  line-height: 1em; 
+  padding:0.5em 1em; 
+  text-transform: capitalize; 
+  vertical-align: middle; 
+  white-space: normal; 
+  text-align: center; 
+  text-shadow: 0 -1px 0 $black;
+  box-shadow: 0 1px 0 #EF3434 inset;
+}
+
+@mixin Transition($time, $type){ //.6s ease-in-out
+  -webkit-transition: all $time $type; 
+  -moz-transition: all $time $type; // ease-in-out; 
+  -o-transition: all $time $type; // ease-in-out; 
+  -ms-transition: all $time $type; // ease-in-out; 
+  transition: all $time $type; // ease-in-out; 
+}
+
+@mixin Animation($name, $time, $duration, $type){ // fadeInDown 0.333s 1 alternate ease-out
+  -webkit-animation: $name $time $duration alternate $type; 
+  -moz-animation: $name $time $duration alternate $type; 
+  -o-animation: $name $time $duration alternate $type; 
+  animation: $name $time $duration alternate $type;
+}
+
+@mixin Boxshadow($vertical, $bottom, $fade, $color){ //0 1px 2px rgba(0, 0, 0, 0.25)
+  -moz-box-shadow: $vertical $bottom $fade $color; 
+  -webkit-box-shadow: $vertical $bottom $fade $color; 
+  -o-box-shadow: $vertical $bottom $fade $color; 
+  -khtml-box-shadow: $vertical $bottom $fade $color; 
+  box-shadow: $vertical $bottom $fade $color;
+}
+
+@mixin Boxshadow2($size){ //0 1px 2px rgba(0, 0, 0, 0.25)
+  -moz-box-shadow: $size; 
+  -webkit-box-shadow: $size; 
+  -o-box-shadow: $size; 
+  -khtml-box-shadow: $size; 
+  box-shadow: $size;
+}
+// Drop shadows
+  @mixin box-shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+       -moz-box-shadow: $shadow;       
+            box-shadow: $shadow;
+  }
+
+@mixin BorderRadius($round){
+  -moz-border-radius: $round; //0 5px 5px 0;  
+  -webkit-border-radius: $round;
+  -o-border-radius: $round;  
+  -ms-border-radius: $round; 
+  border-radius: $round;
+}
+
+@mixin TextShadow( $shadow) { //0 0.0833em 0 #fff
+  -moz-text-shadow : $shadow; 
+  -webkit-text-shadow : $shadow; 
+  -o-text-shadow : $shadow; 
+  -khtml-text-shadow : $shadow; 
+  text-shadow : $shadow; 
+}
+
+// generic transform
+@mixin transform($transforms) { //translateY(-600px)
+     -moz-transform: $transforms;
+       -o-transform: $transforms;
+      -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+          transform: $transforms;
+}
+// rotate
+@mixin rotate ($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+ 
+// scale
+@mixin scale($scale) {
+   @include transform(scale($scale));
+} 
+// translate
+@mixin translate ($x, $y) {
+   @include transform(translate($x, $y));
+}
+// skew
+@mixin skew ($x, $y) {
+   @include transform(skew(#{$x}deg, #{$y}deg));
+}
+//transform origin
+@mixin transform-origin ($origin) {
+     -moz-transform-origin: $origin;
+       -o-transform-origin: $origin;
+      -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+          transform-origin: $origin;
+}

@@ -1,0 +1,214 @@
+﻿
+.selectableTable 
+{
+    border-collapse:collapse; border:solid 1px #828282; background-color:#FFFFFF; font-family:"Segoe UI", Arial, "Sans-Serif";
+    font-size:12px; font-style:normal; user-select: none; -moz-user-select: none; -khtml-user-select: none; width:250px;
+}
+.selectableTable tr { height:24px; overflow:hidden; cursor:default; color:#333; }
+.selectableTable tr.selected{ background: url("./img/listbox_selected_row.png") 0 -24px repeat-x}
+.selectableTable td { padding:0px 10px 0px 10px; vertical-align:middle; }
+.selectableTable .alternate_Row { background-color:#F2F2F2; }
+.selectableTable .col-1 { padding-left:30px !important; text-align:left; }
+.selectableTable .col-3 { text-align:right; }
+.selectableTable .selected td { background-image:url("./img/listbox_selected_row.png"); 
+                                    background-repeat:no-repeat; background-position:left -24px; }
+.selectableTable .selected .col-1 { background-image:url("./img/listbox_selected_row.png");
+                                    background-repeat:no-repeat; background-position:left top !important; }
+.selectableTable .selected td { color:#FFFFFF !important; } 
+
+/**************************************/
+
+#dlg-avatar-selector .avatar-entry-wrap { border:solid 5px #999999; margin-left:5px; margin-top:5px; float:left; display:block; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; filter: alpha(opacity=50); -moz-opacity:0.5; opacity: 0.5; }
+#dlg-avatar-selector .hover { border-color:#E69E01 !important; filter: alpha(opacity=100) !important; -moz-opacity:1.0 !important; opacity: 1.0 !important; }
+
+
+/**************************************/
+
+.payment-method_desc { margin:5px; }
+.payment-method_desc .thumb { float:left; margin-right:5px; margin-bottom:5px; }
+
+#formPrepareDeposit { position:relative; width:100%; padding-left:5px; }
+.ddlMoneyCurrency { width:130px !important; }
+.txtMoneyAmount { width:100px !important; text-align:right; }
+#ddlExpiryMonth { width:150px; }
+#ddlExpiryYear { width:150px; }
+#ddlValidFromMonth { width:150px; }
+#ddlValidFromYear { width:150px; }
+#paycards-selector { list-style-type:none; margin:0px; padding:0px; }
+
+.deposit-bonus-tc { width:95%; margin-left:5px; }
+.deposit-bonus-tc .tc-content { width:100%; height:350px; overflow:auto; background-color:#EEEEEE; padding:5px; margin-bottom:10px; border:solid 2px #CCCCCC; }
+
+#deposit-block-dialog { padding:10px; overflow:hidden; }
+#deposit-block-dialog h3 { color:White; font-weight:bold; margin-left:10px; font-size:14px; } 
+#deposit-block-dialog a { font-size:12px; }
+
+.limit-ul { list-style-type:none; padding:0px 0px 0px 5px;margin:0px; }
+.limit-ul table { border-spacing:2px !important;  border-collapse:separate !important; }
+
+.transfer_steps { width:95%; margin:0 auto; }
+.transfer_steps #btnTransferMoney { margin-left:280px; }
+
+.buddytransfer_steps { width:95%; margin:0 auto; }
+
+#formForgotPassword {width:350px; margin:0 auto; }
+#formResetPassword  {width:350px; margin:0 auto; }
+#formChangePwd {width:350px; margin:0 auto; }
+#formContactUs {width:350px; margin:0 auto; }
+#self-exclusion { width:95%; margin:0 auto; }
+#deposit-limit { width:95%; margin:0 auto; }
+
+#transfer-money-image { background-image:url(/images/icon/transfer.png); display:block; width:270px; height:116px; }
+
+
+/* bonus code */
+/*.deposit_bonus_code { display:block; }
+.bonus-selector { width:300px; overflow:hidden; display:block; height:70px; background-color:Black; border:1px solid #666; clear:both; margin:5px 0px; position:relative; }
+.bonus-selector .previous-bonus { height:70px; line-height:70px; display:block; width:1.3em; text-align:center; vertical-align:middle; position:absolute; left:0px; top:0px; background:black; text-decoration:none; filter: Alpha(opacity=50); -moz-opacity:.5; opacity:0.5; }
+.bonus-selector .previous-bonus:hover { text-decoration:none; filter: Alpha(opacity=80); -moz-opacity:.8; opacity:0.8; }
+.bonus-selector .next-bonus { height:70px; line-height:70px; display:block; width:1.3em; text-align:center; vertical-align:middle; position:absolute; right:0px; top:0px; background:black; text-decoration:none; filter: Alpha(opacity=50); -moz-opacity:.5; opacity:0.5; }
+.bonus-selector .next-bonus:hover { text-decoration:none; filter: Alpha(opacity=80); -moz-opacity:.8; opacity:0.8; }
+.bonus-selector .bonus-list { width:2000px; height:100%; overflow:hidden; background-color:#333; }
+.bonus-selector .bonus-list .bonus-item { width:300px; height:100%; overflow:hidden; float:left; }
+.bonus-selector .bonus-list .bonus-item .bonus-name { font-size:22px; text-align:center; vertical-align:middle; line-height:70px; width:100%; display:block; }
+.bonus-options { list-style:none; margin:0px; padding:0px; }
+*/
+.device-switcher{ text-align:center;}
+
+ 
+/** all site add */
+.floatGuideBox{
+  clear: both;
+  display: none;
+  padding: 10px;
+}
+#deposit_bonus_code {clear: both;}
+.BonusContainer { border-bottom: 1px solid #444444;border-radius: 0.75em 0.75em 0.75em 0.75em;box-shadow: 0 0.25em 0.5em #000000 inset;clear: both;margin: 1.5em 0;}
+.BonusContainer a {  text-decoration: none;}
+.BonusContainer .BonusHeader {  background:#ccc;  background: none repeat scroll 0 0 rgba(222, 222, 222, 0.6);  border-radius: 0.75em 0.75em 0.75em 0.75em;  display: inline-block;  width: 100%;}
+.BonusContainer .BonusOption {float: left;}
+.BonusContainer .BonusOption a { display : block; padding : 0 1em; background : transparent; color : #111; font-weight : bold; text-align : center; font-size : 1em; text-shadow : 0 1px 0 #fff; outline : none; font-size : 1.5em; line-height : 2em; font-weight : bold; }
+.BonusContainer .BonusOption a:hover, .BonusContainer .BonusOption a.Active { background : #b11111; background : -moz-linear-gradient(top, #ffb1b1 0%, #ff7979 3%, #830202 95%, #7a2d2d 100%); background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb1b1), color-stop(3%,#ff7979), color-stop(95%,#830202), color-stop(100%,#7a2d2d)); background : -webkit-linear-gradient(top, #ffb1b1 0%,#ff7979 3%,#830202 95%,#7a2d2d 100%); background : -o-linear-gradient(top, #ffb1b1 0%,#ff7979 3%,#830202 95%,#7a2d2d 100%); background : -ms-linear-gradient(top, #ffb1b1 0%,#ff7979 3%,#830202 95%,#7a2d2d 100%); background : linear-gradient(to bottom, #ffb1b1 0%,#ff7979 3%,#830202 95%,#7a2d2d 100%); color : #fff; text-shadow : 0 -1px 0 #7b0202; }
+.BonusContainer .BonusOption a:active { background : #666; color : #fff; text-shadow : 0 0.25em 0.25em #000; box-shadow : 0 0.25em 0.25em #000 inset; }
+.BonusContainer .BonusOption:first-child a { border-radius : 0.5em 0 0 0.5em; }
+#bonusCode { display : block; width : 50%; height : 2em; margin : 1em auto; font-size : 1.5em; line-height : 2em; padding : 0 0.5em; box-shadow : 0 -1px 0 #000; text-shadow : 0 1px 0 #fff; border-radius : 0.5em; }
+.BigBonusList { display : block; margin : 1.5em; }
+.BigBonusItem {  border-bottom: 1px solid #222222;  border-radius: 1.5em 1.5em 1.5em 1.5em;  box-shadow: 0 0.5em 0.5em #000000;  display: block;  margin: 0 0 1.5em;  opacity: 0.25;  position: relative;  text-align: left;  z-index: 0;}
+.BigBonusItem:hover { opacity : 0.75; z-index : 4; }
+.PickedBonus { box-shadow : 0 0.75em 0.75em #000; opacity : 1; z-index : 1; }
+.PickedBonus:hover { opacity : 1; }
+.BigBonusLabel {background: url("//cdn.everymatrix.com/Generic/img/radial-full.png") no-repeat scroll center bottom / 100% 200% transparent;border-radius: 1.5em 1.5em 0 0;display: block;padding: 1.5em;}
+.BigBonusSignal { display : block; float : left; width : 35px; height : 36px; margin : 0.25em 1.5em 0 0; background : #666; border : 1px solid #222; white-space : nowrap; overflow : hidden; text-indent : 100%; box-shadow : 0 0.5em 0.5em #000 inset; border-radius : 18px; }
+.PickedBonus .BigBonusSignal {background: url("//cdn.everymatrix.com/Generic/img/tick-picked-bonus.png") no-repeat scroll center center #447911;border: 1px solid #000000;box-shadow: 0 0.5em 0.5em #000000;}
+.BigBonusText { display : block; overflow : hidden; text-shadow : 0 -1px 0 #000; }
+.BigBonusText .promotion-title { display : block; font-size : 2.25em; line-height : 1em; font-weight : normal; }
+.BigBonusText .promotion-text { display : block; }
+.BigBonusSlider { display : none; }
+.PickedBonus .BigBonusSlider { display : block; height : 4.5em; }
+.BigBonusLevels { display : block; height : 2.25em; margin : 0 1.5em; position : relative; }
+.BigBonusLevels .BigLevelItem { background-color:#444; background: none repeat scroll 0 0 rgba(33, 33, 33, 0.5);  border-radius: 0.25em 0.25em 0.25em 0.25em;  box-shadow: 0 1px 1px #000000;  display: block;  float: left;  margin: 0 0 0 -3em;  padding-top: 3px;  position: absolute;  text-align: center;  width: 6em;  z-index: 2;}
+.BigLevelText { display : block; text-shadow : 0 1px 0 #000; }
+.BigLevelText:hover { color : #ef0000; }
+.BigLevelText:active { color : #fff; text-shadow : 0 1px 1px #000; }
+.BigBonusCanvas { display : block; height : 0.25em; margin : 0 1.5em; position : relative; background : #333; border-top : 1px solid #000; border-bottom : 1px solid #666; border-radius : 1px; }
+.BigBonusController { display : block; float : left; width : 8em; margin : 0 0 0 -4em; position : absolute; z-index : 3; }
+.BigBonusKnob, .BigBonusKnob:first-child {
+	background-image:url("//cdn.everymatrix.com/Generic/img/bg-button.png");
+	background-repeat:  repeat-x ;
+	background-position:scroll left ;
+	background-size:33.3333% / 100% 400% ;
+	background-color:#EF0000;
+border-radius: 0.5em 0.5em 0.5em 0.5em;box-shadow: 0 0.25em 0.25em #000000;display: block;height: 2.25em;margin: -1.125em 0 0 3.25em;overflow: hidden;text-indent: 100%;white-space: nowrap;width: 1.5em;}
+.BigBonusDetail {
+	background-image:url("//cdn.everymatrix.com/Generic/img/radial-full.png");
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-size:100% 300%;
+	background-color:#444;
+	background: url("//cdn.everymatrix.com/Generic/img/radial-full.png") no-repeat scroll center bottom / 100% 300% rgba(0, 0, 0, 0.75);
+	border-radius: 0.75em 0.75em 0.75em 0.75em;box-shadow: 0 0.5em 0.5em #000000;display: block;margin: 0.25em 0 0;padding: 0.25em 0.75em;text-align: center;}
+	
+/**External login**/
+.external_loginpanel ul,.external_associate ul {
+        padding:0px;
+        margin:0px;
+        list-style:none;
+        clear:both;
+    }
+    .externalItem {
+        padding:0px;
+        margin:0px;
+        list-style:none;
+        margin:5px;
+    }
+    .external_loginpanel .externalItem {
+        float:left;
+    }
+    .externalItem > a {
+        display:block;
+        background:url('./img/external_sprite.png') no-repeat;
+        width:16px;
+        height:16px;
+        float:left;
+        cursor:pointer;
+    }
+    .externalItem > a.item_Facebook {
+        background-position:0px 0px;
+    }
+    .externalItem > a.item_Google {
+        background-position:-17px 0px;
+    }
+    .externalItem > a.item_Twitter {
+        background-position:-34px 0px;
+    }
+    .externalItem > a.item_VKontakte {
+        background-position:-51px 0px;
+    }
+    .externalItem > a.item_Yandex {
+        background-position:-67px 0px;
+    }
+    .externalItem > a.item_MailRu {
+        background-position:-86px -0px;
+    }
+/**end**/
+
+/*Quick signup*/
+.quick_signup_wapper {}
+.externalItem_middle {float: left; margin: 10px 5px 0px 5px !important;}
+.externalItem_middle > a {
+	display:block;
+	background:url('./img/external_sprite2.png') no-repeat;
+	width:32px;
+	height:32px;
+	float:left;
+	cursor:pointer;
+}
+.externalItem_middle > a.item_Facebook {
+	background-position:0px 0px;
+}
+.externalItem_middle > a.item_Google {
+	background-position:-33px 0px;
+}
+.externalItem_middle > a.item_MailRu {
+	background-position:-65px -0px;
+}
+.externalItem_middle > a.item_Twitter {
+	background-position:-97px 0px;
+}
+.externalItem_middle > a.item_VKontakte {
+	background-position:-129px 0px;
+}
+.externalItem_middle > a.item_Yandex {
+	background-position:-161px 0px;
+}
+.connectted-wapper {}
+.connectted-wapper .externalInfo {}
+.connectted-wapper .externalInfo a {
+    text-decoration: underline; 
+    color: #ccc;
+    cursor: pointer;
+}
+.connectted-wapper .externalEmailRegistered {
+    margin-top: 10px;
+}
+/*Quick signup*/

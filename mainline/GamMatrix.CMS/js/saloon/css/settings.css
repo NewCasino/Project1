@@ -1,0 +1,84 @@
+/*----------------------------------------------------------------------------- 
+
+	-	BANNER ROTATOR -
+
+Screen Stylesheet 
+
+version:   	1.0 
+date:      	11/01/12 
+author:		themepunch
+email:     	info@themepunch.com 
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+
+/*************************************/
+/*		THUMBNAIL OPTIONS			*/
+/*************************************/
+
+* {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: -moz-none;
+-o-user-select: none;
+user-select: none;
+}
+
+
+.banner-preloader{
+	background:url(../assets/loader/loader.gif) no-repeat 50% 50%;
+	width:20px;
+	height:20px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	z-index:9999;
+	background-color: #fff;
+	border-radius: 2px; 
+	-moz-border-radius: 2px; 
+	-webkit-border-radius: 2px; 
+	padding: 10px;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+.thumbbuttons{		
+	position:absolute;
+	height:10px;	
+	z-index:50;	    	
+	
+}
+
+
+
+.thumbbuttons .minithumb{
+	background:url(../assets/button/button.png) top;
+	width:12px;
+	height:12px;
+	float:left;
+	margin-right:8px;
+	cursor:pointer;
+}
+
+.thumbbuttons .minithumb:hover, .thumbbuttons .selected{
+	background-position:bottom;
+}
+
+.thumbbuttons .thumbs{
+	float:left;
+}
+
+
+.grab-cursor {
+    cursor: url("../assets/grab.png") 8 8, -moz-grab;
+}
+
+.grabbing-horizontal-cursor {
+    cursor: url("../assets/grabbingh.png") 8 8, -moz-grabbing;
+}
+
+.grabbing-vertical-cursor {
+    cursor: url("../assets/grabbingv.png") 8 8, -moz-grabbing;
+}
+
+

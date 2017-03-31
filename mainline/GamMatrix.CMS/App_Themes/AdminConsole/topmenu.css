@@ -1,0 +1,30 @@
+#topmenu {	margin: 0; padding: 0; font-family:Tahoma; font-size:12px; margin: 3px 0px 0px 3px; }
+#topmenu li { float: left; list-style: none; background-image:url(img/topmenu.normal.jpg); }
+#topmenu li a {	font-style:normal; display: block; background-repeat:no-repeat; background-position:6px 5px; padding: 5px 5px 5px 24px; text-decoration: none; border-right: 1px solid white; width: auto; color: #EAFFED; white-space: nowrap }
+#topmenu li a:hover {background-color: #1A4473 }
+#topmenu li ul { margin: 0; padding: 0; position: absolute; visibility: hidden; border-top: 1px solid white; font-style:normal; }
+#topmenu li ul li { float: none; display: inline }
+#topmenu li ul li a {font-style:normal;	width: auto; background-color: #EFEFEF; color:#000000;  }
+#topmenu li ul li a:hover { background-color: #DFDFDF; color:#333333; }
+
+#topbar #panel { float:right; width:500px; margin-right:5px; margin-top:5px; }
+
+#logout 
+{
+    color:#000000;
+    padding-left:18px;
+    background-repeat:no-repeat;    
+    background-position:left middle;
+    text-decoration:none;
+    background-image:url(/images/icon/door_in.png);
+    cursor:pointer;
+    font-style:normal;
+}
+
+#logout:hover { text-decoration:underline; }
+#sHelp { cursor:default; padding-left:18px; width: 156px; background-repeat:no-repeat; background-position:left middle; background-image:url(/images/icon/help.png); }
+#sHelp a { text-decoration:none; color:Black; }
+#sHelp a:hover { text-decoration:underline; }
+#sDate { cursor:default; padding-left:18px; width: 156px; background-repeat:no-repeat; background-position:left middle; background-image:url(/images/icon/clock.png); }
+#sName { cursor:default; padding-left:18px; background-repeat:no-repeat; background-position:left middle; background-image:url(/images/icon/user_suit.png); }
+

@@ -1,0 +1,79 @@
+﻿@import url("../HistoryViewer/Index.css");
+@import url("../inputfield.css");
+
+.seperator { border:dotted 1px #CCCCCC; width:100%; }
+#operation-links { display: block; width:100%; overflow:auto; }
+#operation-links ul { padding:0px; margin:0px; font-style:normal; }
+#operation-links li { overflow:auto; float:left; list-style-type:none; margin-left:5px; }
+
+#operation-links a { color:#666666; padding-left:18px; background-repeat:no-repeat; background-position:left middle; text-decoration:none; font-style:normal;}
+#operation-links a:hover { text-decoration:underline; }
+
+#operation-links .refresh { background:url("../img/tools_sprites.png") no-repeat 0px 0px; }
+#operation-links .selectall { background:url("../img/tools_sprites.png") no-repeat 0px -20px; }
+#operation-links .unselectall { background:url("../img/tools_sprites.png") no-repeat 0px -40px; }
+#operation-links .copy { background:url("../img/tools_sprites.png") no-repeat 0px -60px; }
+#operation-links .cut { background:url("../img/tools_sprites.png") no-repeat 0px -80px; }
+#operation-links .paste { background:url("../img/tools_sprites.png") no-repeat 0px -100px; }
+#operation-links .delete { background:url("../img/tools_sprites.png") no-repeat 0px -120px; }
+#operation-links .enable { background:url("../img/tools_sprites.png") no-repeat 0px -140px; }
+#operation-links .disable { background:url("../img/tools_sprites.png") no-repeat 0px -160px; }
+#operation-links .create { background:url("../img/tools_sprites.png") no-repeat 0px -180px; }
+#operation-links .sort { background:url("../img/tools_sprites.png") no-repeat 0px -220px; }
+
+
+
+#children-container { width:100%; overflow:auto;  }
+
+#children-container .item { width:250px; float:left; background-color:#D9E8F4; margin:5px; -moz-border-radius:5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+#children-container .item table { margin:5px; width:240px; }
+#children-container .item input { margin-right:10px; }
+#children-container .item span { padding-top:2px; color:#000000; width:170px;  height:16px; line-height:16px; vertical-align:middle; display:inline-block; overflow:hidden; text-overflow:ellipsis; cursor:pointer;}
+
+#children-container a { text-decoration:none; font-style:normal;}
+#children-container a:hover { text-decoration:none; }
+#children-container a span { color:#666666; padding-left:18px; text-decoration:none; font-style:normal;}
+#children-container a:hover span { text-decoration:underline; }
+
+#children-container .partialview span{ background:url("../img/icon_sprites.png") no-repeat 0px 0px; }
+#children-container .view span{ background:url("../img/icon_sprites.png") no-repeat 0px -20px; }
+#children-container .directory span{ background:url("../img/icon_sprites.png") no-repeat 0px -40px; }
+#children-container .none span{ background:url("../img/icon_sprites.png") no-repeat 0px -60px; }
+#children-container .page span{ background:url("../img/icon_sprites.png") no-repeat 0px -80px; }
+#children-container .pagetemplate span{ background:url("../img/icon_sprites.png") no-repeat 0px -100px; }
+#children-container .parent-dir span{ background:url("../img/icon_sprites.png") no-repeat 0px -120px; }
+#children-container .metadata span{ background:url("../img/icon_sprites.png") no-repeat 0px -140px; }
+#children-container .staticcontent span{ background:url("../img/icon_sprites.png") no-repeat 0px -160px; }
+#children-container .htmlsnippet span{ background:url("../img/icon_sprites.png") no-repeat 0px -180px; }
+
+.toEnable .item table { filter: alpha(opacity=30); -moz-opacity:0.3; opacity: 0.3; }
+.toEnable .disabled table{ filter: alpha(opacity=100) !important; -moz-opacity:1.0! important; opacity:1.0 !important;  }
+
+.toDisable .item table { filter: alpha(opacity=30); -moz-opacity:0.3; opacity: 0.3; }
+.toDisable .enabled .metadata { filter: alpha(opacity=100) !important; -moz-opacity:1.0! important; opacity:1.0 !important;  }
+
+.toDelete .item table{ filter: alpha(opacity=100); -moz-opacity:1.0; opacity:1.0;  }
+.toDelete .inherited table{ filter: alpha(opacity=30) !important; -moz-opacity:0.3 !important; opacity:0.3 !important;  }
+.toDelete .item:first-child table{ filter: alpha(opacity=30) !important; -moz-opacity:0.3 !important; opacity:0.3 !important;  }
+
+
+#children-container .inherited img { background-image:url(/images/icon/arrow_down.png); background-repeat:no-repeat; }
+#children-container .inherited span { color:#006600; }
+
+#children-container .overrode img { background-image:url(/images/icon/icon_favourites.gif); background-repeat:no-repeat; }
+#children-container .overrode span { color:#996600; }
+#children-container .disabled { background-color:#DDDDDD !important; }
+#children-container .disabled table span { color:#666666 !important; text-decoration:line-through; }
+
+
+#formCreateChild .inputfield { width: 400px !important; }
+#formCreateChild .inputfield .inputfield_Label { width:15% !important; }
+#formCreateChild .inputfield .inputfield_Container { width:85% !important; }
+#formCreateChild .copyfield { width: 400px !important; }
+#formCreateChild .buttons-wrap { padding-left: 300px !important; }
+#formCreateChild .inputfield-tooltip { display:none !important; }
+
+#order-dialog { -webkit-user-select:none; -moz-user-select:none; overflow:auto !important; }
+#order-dialog .item { cursor:n-resize; padding: 5px 0px 5px 0px; width:100%; clear:both; background-color:#D9E8F4; margin-bottom:5px; -moz-border-radius:5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+#order-dialog .item span { margin-left:10px; padding-left:20px; display:block; background:url("../img/icon_sprites.png") no-repeat 0px -140px; }
+#order-dialog .drag { background-color:#4F94CC !important; }

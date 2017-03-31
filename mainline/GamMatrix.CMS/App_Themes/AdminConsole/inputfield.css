@@ -1,0 +1,43 @@
+﻿.inputfield { overflow:auto; zoom:1; width: 600px; vertical-align:top; margin-bottom:10px; }
+.inputfield .inputfield_Label { float:left; font-weight:600; height:100%; width:30%; display:inline;}
+.inputfield .inputfield_Container { float:left; height:100%; width:70%; display:inline;}
+.inputfield .inputfield_Container .inputfield_Table { width:1%; display:block; }
+.inputfield .inputfield_Container .inputfield_Table .controls { width:1%; }
+.inputfield .inputfield_Error { color:Red; width:100%; }
+.inputfield .inputfield_Container .inputfield_Table .indicator div { margin-left:5px; margin-top:5px; width:16px; height:16px; background-image:url(/images/icon/grey_tick.png); }
+.hide_default div { visibility:hidden; }
+.correct .inputfield_Container .inputfield_Table .indicator div {  background-image:url(/images/icon/tick.png) !important; visibility:visible !important; }
+.incorrect .inputfield_Container .inputfield_Table .indicator div { background-image:url(/images/icon/cross.png) !important; visibility:visible !important; }
+.inputfield .inputfield_Container .inputfield_Table .hint { white-space:nowrap; color:#666666; }
+
+.inputfield-tooltip { width:291px; background-image:url(img/red_message_box.png); background-repeat:no-repeat; background-position:0 0;}
+.inputfield-tooltip div { margin:5px 10px 10px 20px; width:261px; display:block; white-space:normal; color:White; font-size:14px; font-family:Verdana; }
+
+.inputfield .inputfield_Container .inputfield_Table .controls .textbox { border: 1px solid #D9D9D9; padding: 3px 3px 3px 3px; width:300px; background-color:#FFFFFF; }
+.inputfield .inputfield_Container .inputfield_Table .controls .select { border: 1px solid #D9D9D9; padding: 3px 0px 3px 0px; width:308px }
+.inputfield .inputfield_Container .inputfield_Table .controls .textbox[readOnly] { background-color:#EFEFEF !important; }
+
+
+
+.button { background-color:transparent; border:none; margin: 0px; padding:0px; cursor:pointer; overflow:visible; zoom:1;}
+.button .button_Right { display:block; margin: 0px; padding:0px; height:24px; background: url(img/button.png) no-repeat right -592px;}
+.button .button_Left { display:block; margin-right:5px; padding:0px; height:24px; background: url(img/button.png) no-repeat 0px -518px; }
+.button .button_Center { display:block; margin-left:5px; margin-right:0px; height:24px; background: url(img/button.png) repeat-x 0px 0px; }
+.button .button_Center span { display:block; padding:0px 5px 0px 5px; height:24px; white-space:nowrap; line-height:24px; vertical-align:middle; font-family:Tahoma; font-size:12px; color:#333333; font-weight:600; }
+
+
+.button:hover {}
+.button:hover .button_Right { background: url(img/button.png) no-repeat right -444px; }
+.button:hover .button_Left { background: url(img/button.png) no-repeat 0px -370px; }
+.button:hover .button_Center { background: url(img/button.png) repeat-x 0px -296px; }
+.button:hover .button_Center span { }
+
+button.disabled { cursor:default; }
+button.disabled .button_Right { display:block; background-image:url(img/button.png) no-repeat right -222px; }
+button.disabled .button_Left { display:block; background-image:url(img/button.png) no-repeat 0px -148px; }
+button.disabled .button_Center { display:block; background-image:url(img/button.png) repeat-x 0px -74px; }
+button.disabled .button_Center span { display:block; color:#666666; }
+
+.buttons-wrap { padding-left: 180px; }
+.ajax-indicator { display:inline-block; visibility:hidden; width:16px; height:16px; background-image:url(img/loading.gif); }
+
