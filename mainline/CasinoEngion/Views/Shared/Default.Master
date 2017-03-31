@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<%@ Import Namespace="CE.db" %>
+<%@ Import Namespace="CE.db.Accessor" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script language="C#" type="text/C#" runat="server">
+    private string GetMenuHtml()
+    {
+        StringBuilder html = new StringBuilder();
+
+        List< KeyValuePair<string, string> > items = new List<KeyValuePair<string,string>>();
+        items.Add(new KeyValuePair<string, string>("Configuration", "Configuration"));
+        items.Add(new KeyValuePair<string, string>("VendorManagement", "Vendors"));
+        items.Add(new KeyValuePair<string, string>("GameManagement", "Game Management"));
+        items.Add(new KeyValuePair<string, string>("LiveCasinoTableManagement", "Live Casino Tables"));
+        items.Add(new KeyValuePair<string, string>("ContentProviderManagement", "Content Provider Management"));
+        if(CurrentUserSession.IsSystemUser)
+            items.Add(new KeyValuePair<string, string>("GameHistory", "Game Changing Log"));
+        //if (CurrentUserSession.IsSuperUser && DomainManager.CurrentDomainID == Constant.SystemDomainID )
+            items.Add(new KeyValuePair<string, string>("JackpotManagement", "Jackpots"));
+        
+        items.Add(new KeyValuePair<string, string>("GameMonitor", "Game Monitor"));
+        if (CurrentUserSession.IsSuperUser)
+            items.Add(new KeyValuePair<string, string>("Logs", "GmLogging"));
+        
+        html.Append("<ul id=\"ulMenu\">");
+
+        foreach (KeyValuePair<string, string> item in items)
+        {
+            html.Append("<li>");
+
+            html.AppendFormat("<a target=\"_self\" href=\"{0}\" class=\"{1}\">{2}</a>"
+                , this.Url.RouteUrlEx(item.Key)
+                , string.Equals(this.ViewContext.RouteData.Values["controller"], item.Key) ? "selected" : string.Empty
+                , item.Value.SafeHtmlEncode()
+                );
+
+            html.Append("</li>");
+        }
+
+        html.Append("</ul>");
+        return html.ToString();
+    }
+
+    private List<SelectListItem> GetOperators()
+    {
+        DomainConfigAccessor da = DomainConfigAccessor.CreateInstance<DomainConfigAccessor>();
+        List<ceDomainConfigEx> domains = da.GetAll(CurrentUserSession.ShowInactiveDomains ? GamMatrixAPI.ActiveStatus.InActive : GamMatrixAPI.ActiveStatus.Active);
+
+        if (CurrentUserSession.IsSuperUser)
+        {
+            domains.Insert( 0, new ceDomainConfigEx()
+            {
+                ID = Constant.SystemDomainID,
+                DomainID = Constant.SystemDomainID,
+                Name = "< All Operators >",
+            });
+            return domains.Select(d => new SelectListItem()
+            {
+                Text = d.Name,
+                Value = d.DomainID.ToString(),
+                Selected = (d.DomainID == DomainManager.CurrentDomainID)
+            }).OrderBy(d => d.Text).ToList();
+        }
+        else
+        {
+            return domains.Where(d => d.DomainID == DomainManager.CurrentDomainID)
+                .Select(d => new SelectListItem()
+                {
+                    Text = d.Name,
+                    Value = d.DomainID.ToString(),
+                    Selected = (d.DomainID == DomainManager.CurrentDomainID)
+                }).OrderBy(d => d.Text).ToList();
+        }
+    }
+
+    private string GetCurrentUrl()
+    {
+        Match m = Regex.Match(this.Request.RawUrl, @"^(?<path>\/\w+)", RegexOptions.Compiled | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+        if (m.Success)
+        {
+            return string.Format("{0}/", m.Groups["path"].Value);
+        }
+
+        return string.Empty;
+    }
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>GamMatrix - Casino Engine</title>
+    <link type="text/css" href="<%= Url.Content("~/css/default_master.css") %>" rel="stylesheet" />	
+    <link type="text/css" href="<%= Url.Content("~/css/simplemodal.css") %>" rel="stylesheet" />	
+    <link type="text/css" href="<%= Url.Content("~/css/trontastic/jquery-ui-1.8.16.custom.css") %>" rel="stylesheet" />	
+    <link type="text/css" href="<%= Url.Content("~/css/skin-vista/ui.fancytree.min.css") %>" rel="stylesheet" />	
+	<script type="text/javascript" src="<%= Url.Content("~/js/jquery-1.7.2.min.js") %>"></script>
+	<script type="text/javascript" src="<%= Url.Content("~/js/jquery-ui-1.8.18.custom.min.js") %>"></script>
+    <script type="text/javascript" src="<%= Url.Content("~/js/jquery.form.js") %>"></script>
+    <script type="text/javascript" src="<%= Url.Content("~/js/jquery.string.js") %>"></script>
+    <script type="text/javascript" src="<%= Url.Content("~/js/jquery.template.js") %>"></script>
+    <script type="text/javascript" src="<%= Url.Content("~/js/jquery.validate.min.js") %>"></script>
+    <script type="text/javascript" src="<%= Url.Content("~/js/jquery.simplemodal.js") %>"></script>
+    <script type="text/javascript" src="<%= Url.Content("~/js/jquery.cookie.js") %>"></script>
+    <script type="text/javascript" src="<%= Url.Content("~/js/jquery.fancytree.min.js") %>"></script>
+</head>
+<body>
+<script type="text/javascript">
+    $(function () {
+        $.ajaxSetup({ cache: false })
+        $('#ddlOperator').change(function (e) {
+            var url = '<%= GetCurrentUrl().SafeJavascriptStringEncode() %>' + $('#ddlOperator').val();
+            self.location = url;
+        });
+    });
+</script>
+        <div id="header">
+            <%: Html.DropDownList("operator", GetOperators(), new {@id = "ddlOperator"}) %>
+            <%= GetMenuHtml() %>
+        </div>
+        <div id="wrapper">
+            <asp:ContentPlaceHolder ID="phMain" runat="server"> </asp:ContentPlaceHolder>
+        </div>
+        
+
+        <div id="loading">
+            <img src="/images/loading.gif" />
+        </div>
+        
+
+</body>
+</html>
+
+

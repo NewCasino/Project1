@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{00370922-3C38-499F-BCA8-E52861CB8059}</ProjectGuid>
+    <ProjectTypeGuids>{e53f8fea-eae0-44a6-8774-ffd645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CasinoEngine</RootNamespace>
+    <AssemblyName>CasinoEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>true</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <MvcProjectUpgradeChecked>true</MvcProjectUpgradeChecked>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus, Version=3.1.2.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="EveryMatrix.SessionAgent">
+      <HintPath>..\Dlls\session-sdk\EveryMatrix.SessionAgent.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Dlls\session-sdk\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MarkdownDeep, Version=1.5.4615.26275, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ThirdParty\MarkdownDeep.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.2.2.0\lib\net45\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.2.2.0\lib\net45\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="mysql.data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BLToolkit\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Dlls\MVC3\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Dlls\MVC3\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Dlls\MVC3\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Dlls\MVC3\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Dlls\MVC3\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="ZooKeeperNet">
+      <HintPath>..\Dlls\session-sdk\ZooKeeperNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\HealthController.cs" />
+    <Compile Include="Controllers\ApiController.cs" />
+    <Compile Include="Controllers\CacheController.cs" />
+    <Compile Include="Controllers\ContentProviderManagementController.cs" />
+    <Compile Include="Controllers\GameController.cs" />
+    <Compile Include="Controllers\GameHistoryController.cs" />
+    <Compile Include="Controllers\LogsController.cs" />
+    <Compile Include="Controllers\LiveCasinoTableManagementController.cs" />
+    <Compile Include="Controllers\RestfulApiController.cs" />
+    <Compile Include="Controllers\XmlFeedsController_GameList.cs" />
+    <Compile Include="Controllers\GameMonitorController.cs" />
+    <Compile Include="Controllers\JackpotManagementController.cs" />
+    <Compile Include="Controllers\LoaderController.cs" />
+    <Compile Include="Controllers\ServiceControllerBase.cs" />
+    <Compile Include="Controllers\VendorManagementController.cs" />
+    <Compile Include="Controllers\XmlFeedsController.cs" />
+    <Compile Include="Controllers\ConfigurationController.cs" />
+    <Compile Include="Controllers\GameManagementController.cs" />
+    <Compile Include="Controllers\XmlFeedsController_Diagnosis.cs" />
+    <Compile Include="Controllers\XmlFeedsController_GameInfo.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HttpHandlers\query_balance_change.ashx.cs">
+      <DependentUpon>query_balance_change.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HttpHandlers\notify_balance_change.ashx.cs">
+      <DependentUpon>notify_balance_change.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HttpHandlers\reality_check.ashx.cs">
+      <DependentUpon>reality_check.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HttpHandlers\return_lobby.ashx.cs">
+      <DependentUpon>return_lobby.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HttpHandlers\version.ashx.cs">
+      <DependentUpon>version.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Hubs\RealityCheckHub.cs" />
+    <Compile Include="Models\CustomVendorJackpotConfig.cs" />
+    <Compile Include="Models\MicrogamingNanoGameSessionInfo.cs" />
+    <Compile Include="Models\VendorWizardsModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="crossdomain.xml" />
+    <Content Include="css\game_information.css" />
+    <Content Include="css\simplemodal.css" />
+    <Content Include="css\default_master.css" />
+    <Content Include="css\skin-vista\icons.gif" />
+    <Content Include="css\skin-vista\loading.gif" />
+    <Content Include="css\skin-vista\ui.fancytree.css" />
+    <Content Include="css\skin-vista\ui.fancytree.min.css" />
+    <Content Include="css\trontastic\images\ui-bg_diagonals-small_50_262626_40x40.png" />
+    <Content Include="css\trontastic\images\ui-bg_flat_0_303030_40x100.png" />
+    <Content Include="css\trontastic\images\ui-bg_flat_0_4c4c4c_40x100.png" />
+    <Content Include="css\trontastic\images\ui-bg_glass_40_0a0a0a_1x400.png" />
+    <Content Include="css\trontastic\images\ui-bg_glass_55_f1fbe5_1x400.png" />
+    <Content Include="css\trontastic\images\ui-bg_glass_60_000000_1x400.png" />
+    <Content Include="css\trontastic\images\ui-bg_gloss-wave_55_000000_500x100.png" />
+    <Content Include="css\trontastic\images\ui-bg_gloss-wave_85_9fda58_500x100.png" />
+    <Content Include="css\trontastic\images\ui-bg_gloss-wave_95_f6ecd5_500x100.png" />
+    <Content Include="css\trontastic\images\ui-icons_000000_256x240.png" />
+    <Content Include="css\trontastic\images\ui-icons_1f1f1f_256x240.png" />
+    <Content Include="css\trontastic\images\ui-icons_9fda58_256x240.png" />
+    <Content Include="css\trontastic\images\ui-icons_b8ec79_256x240.png" />
+    <Content Include="css\trontastic\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\trontastic\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="css\trontastic\jquery-ui-1.8.16.custom.css" />
+    <Content Include="css\dialogdefault_master.css" />
+    <Content Include="Global.asax" />
+    <Content Include="HttpHandlers\ga.aspx" />
+    <Content Include="images\add.png" />
+    <Content Include="images\BetSoft_logo.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\ctxm_logo.png" />
+    <Content Include="images\del.png" />
+    <Content Include="images\dropdown.gif" />
+    <Content Include="images\evolutiongaming_logo.png" />
+    <Content Include="images\GreenTube_logo.png" />
+    <Content Include="images\IGT_logo.png" />
+    <Content Include="images\loading.bg.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\loading.icon.gif" />
+    <Content Include="images\logo_placeholder.png" />
+    <Content Include="images\microgaming_logo.png" />
+    <Content Include="images\netent_logo.png" />
+    <Content Include="images\no.png" />
+    <Content Include="images\NYXGaming_logo.png" />
+    <Content Include="images\OMI_logo.png" />
+    <Content Include="images\placeholder.png" />
+    <Content Include="images\playngo_logo.png" />
+    <Content Include="images\sheriff_logo.png" />
+    <Content Include="images\sidemenu_item_bg.jpg" />
+    <Content Include="images\wmd_buttons.png" />
+    <Content Include="images\x.png" />
+    <Content Include="images\XProGaming_logo.png" />
+    <Content Include="images\yes.png" />
+    <Content Include="js\expressInstall.swf" />
+    <None Include="js\jquery-1.6.4-vsdoc.js" />
+    <Content Include="js\jquery-1.6.4.js" />
+    <Content Include="js\jquery-1.6.4.min.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery-ui-1.8.16.custom.min.js" />
+    <Content Include="js\jquery-ui-1.8.18.custom.min.js" />
+    <Content Include="js\jquery.cookie.js" />
+    <Content Include="js\jquery.fancytree.min.js" />
+    <Content Include="js\jquery.form.js" />
+    <Content Include="js\jquery.signalR-2.2.0.js" />
+    <Content Include="js\jquery.signalR-2.2.0.min.js" />
+    <Content Include="js\jquery.simplemodal.js" />
+    <Content Include="js\jquery.string.js" />
+    <Content Include="js\jquery.template.js" />
+    <Content Include="js\jquery.twbsPagination.min.js" />
+    <Content Include="js\jquery.validate.min.js" />
+    <Content Include="js\Markdown.Converter.js" />
+    <Content Include="js\Markdown.Editor.js" />
+    <Content Include="js\Markdown.Sanitizer.js" />
+    <Content Include="js\parlayLauncher.js" />
+    <Content Include="js\realityCheck.js" />
+    <Content Include="js\smartSearch.js" />
+    <Content Include="js\swfobject.js" />
+    <Content Include="StartPlugin.html" />
+    <Content Include="Views\Configuration\DataDictionary.ascx" />
+    <Content Include="Views\Configuration\DomainConfig.ascx" />
+    <Content Include="Views\Configuration\Index.aspx" />
+    <Content Include="Views\ContentProviderManagement\ProviderEditorDialog.ascx" />
+    <Content Include="Views\ContentProviderManagement\Index.aspx" />
+    <Content Include="Views\ContentProviderManagement\ProviderList.ascx" />
+    <Content Include="Views\GameHistory\GameChangeDetails.ascx" />
+    <Content Include="Views\GameHistory\GameChangeLog.aspx" />
+    <Content Include="Views\GameHistory\GameList.ascx" />
+    <Content Include="Views\GameHistory\Index.aspx" />
+    <Content Include="Views\GameManagement\GameTranslationEditDialog.aspx" />
+    <Content Include="Views\GameManagement\GameInformationEditDialog.aspx" />
+    <Content Include="Views\GameManagement\GameList.ascx" />
+    <Content Include="Views\GameManagement\GamePropertyEditorDialog.ascx" />
+    <Content Include="Views\GameManagement\Index.aspx" />
+    <Content Include="Views\GameManagement\GameEditorDialog.ascx" />
+    <Content Include="Views\GameManagement\UploadGamesJson.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_Entwine.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_HoGaming.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_LiveGames.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_TTG.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_ViG.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_LuckyStreak.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_Tombala.ascx" />
+    <Content Include="Views\Loader\Entwine.aspx" />
+    <Content Include="Views\Loader\GoldenRace.aspx" />
+    <Content Include="Views\Loader\Gamevy.aspx" />
+    <Content Include="Views\Loader\LiveGames.aspx" />
+    <Content Include="Views\Loader\Magnet.aspx" />
+    <Content Include="Views\Loader\Opus.aspx" />
+    <Content Include="Views\Loader\AsiaGaming.aspx" />
+    <Content Include="Views\Loader\HoGaming.aspx" />
+    <Content Include="Views\Loader\Oriental.aspx" />
+    <Content Include="Views\Loader\BoomingGames.aspx" />
+    <Content Include="Views\Loader\Error_AgeLimit.aspx" />
+    <Content Include="Views\Loader\ISoftGaming.aspx" />
+    <Content Include="Views\Loader\PlayStar.aspx" />
+    <Content Include="Views\Loader\TTG.aspx" />
+    <Content Include="Views\Loader\ViG.aspx" />
+    <Content Include="Views\Loader\Spinomenal.aspx" />
+    <Content Include="Views\Loader\StakeLogic.aspx" />
+    <Content Include="Views\Loader\Pariplay.aspx" />
+    <Content Include="Views\Loader\RCT.aspx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_Basic.ascx" />
+    <Content Include="Views\Loader\Endorphina.aspx" />
+    <Content Include="Views\Loader\Habanero.aspx" />
+    <Content Include="Views\Loader\Mrslotty.aspx" />
+    <Content Include="Views\Loader\Igrosoft.aspx" />
+    <Content Include="Views\Loader\Tombala.aspx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_Authentic.ascx" />
+    <Content Include="Views\Loader\Genii.aspx" />
+    <Content Include="Views\Loader\GlobalBet.aspx" />
+    <Content Include="Views\Loader\Kiron.aspx" />
+    <Content Include="Views\Loader\Playson.aspx" />
+    <Content Include="Views\Loader\Multislot.aspx" />
+    <Content Include="Views\Loader\JoinGames.aspx" />
+    <Content Include="Views\Loader\LobbyResolver.aspx" />
+    <Content Include="Views\Loader\BetOnFinance.aspx" />
+    <Content Include="Views\Loader\CandleBets.aspx" />
+    <Content Include="Views\Loader\LuckyStreak.aspx" />
+    <Content Include="Views\Loader\Odobo.aspx" />
+    <Content Include="Views\Loader\PlaynGORealityCheckConfig.aspx" />
+    <Content Include="Views\Loader\QuickSpinRealityCheckConfig.aspx" />
+    <Content Include="Views\Loader\NetentRealityCheckConfig.aspx" />
+    <Content Include="Views\Loader\MobileLoader.aspx" />
+    <Content Include="Views\Loader\Eyecon.aspx" />
+    <Content Include="Views\Loader\ISoftBetNew.aspx" />
+    <Content Include="Views\Loader\Parlay.aspx" />
+    <Content Include="Views\Loader\Authentic.aspx" />
+    <Content Include="Views\Loader\MicrogamingRealityCheckConfig.aspx" />
+    <Content Include="Views\Loader\RealisticRealityCheckConfig.aspx" />
+    <Content Include="Views\Loader\Realistic.aspx" />
+    <Content Include="Views\Loader\QuickSpin.aspx" />
+    <Content Include="Views\Loader\Hybrino.aspx" />
+    <Content Include="Views\Loader\GaminGenius.aspx" />
+    <Content Include="Views\Logs\Index.aspx" />
+    <Content Include="Views\GameMonitor\Index.aspx" />
+    <Content Include="Views\Game\Error.aspx" />
+    <Content Include="Views\Game\GreenTubeInfo.aspx" />
+    <Content Include="Views\Game\MetadataInfo.aspx" />
+    <Content Include="Views\Game\NetEntInfo.aspx" />
+    <Content Include="Views\JackpotManagement\Index.aspx" />
+    <Content Include="Views\JackpotManagement\JackpotEditorDialog.ascx" />
+    <Content Include="Views\JackpotManagement\JackpotList.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\TablePerprotyEditDialog.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_BetGames.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_Ezugi.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_NetEnt.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\TableEditorDialog.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_EvolutionGaming.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_Vivo.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_XProGaming.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\VendorWizards_Microgaming.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\RegisterTableDialog.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\TableList.ascx" />
+    <Content Include="Views\LiveCasinoTableManagement\Index.aspx" />
+    <Content Include="Views\Loader\BallyGaming.aspx" />
+    <Content Include="Views\Loader\BetGames.aspx" />
+    <Content Include="Views\Loader\BetSoft.aspx" />
+    <Content Include="Views\Loader\PokerKlas.aspx" />
+    <Content Include="Views\Loader\Vuetec.aspx" />
+    <Content Include="Views\Loader\WorldMatch.aspx" />
+    <Content Include="Views\Loader\Yggdrasil.aspx" />
+    <Content Include="Views\Loader\EGT.aspx" />
+    <Content Include="Views\Loader\Error_WithdrawOnly.aspx" />
+    <Content Include="Views\Loader\Ezugi.aspx" />
+    <Content Include="Views\Loader\GreenTube_EnergyCasino.aspx" />
+    <Content Include="Views\Loader\ISoftBet.aspx" />
+    <Content Include="Views\Loader\ISoftBetHtml.aspx" />
+    <Content Include="Views\Loader\EGB.aspx" />
+    <Content Include="Views\Loader\Lega.aspx" />
+    <Content Include="Views\Loader\NetEntLiveDealer.aspx" />
+    <Content Include="Views\Loader\NetEnt_Inclusion.aspx" />
+    <Content Include="Views\Loader\Norske.aspx" />
+    <Content Include="Views\Loader\NYXGaming.aspx" />
+    <Content Include="Views\Loader\Error_Inactive.aspx" />
+    <Content Include="Views\Loader\EvolutionGaming.aspx" />
+    <Content Include="Views\Loader\OMI.aspx" />
+    <Content Include="Views\Loader\GreenTube.aspx" />
+    <Content Include="Views\Loader\OneXTwoGaming.aspx" />
+    <Content Include="Views\Loader\Sheriff.aspx" />
+    <Content Include="Views\Loader\Spigo.aspx" />
+    <Content Include="Views\Loader\GTS.aspx" />
+    <Content Include="Views\Loader\Vivo.aspx" />
+    <Content Include="Views\Loader\Williams.aspx" />
+    <Content Include="Views\Loader\XProGaming.aspx" />
+    <Content Include="Views\Loader\GoogleAnalytics.ascx" />
+    <Content Include="Views\Loader\NetEntMobile.aspx" />
+    <Content Include="Views\Loader\MicrogamingLiveDealer.aspx" />
+    <Content Include="Views\Loader\PlaynGO.aspx" />
+    <Content Include="Views\Loader\Error_InvalidSession.aspx" />
+    <Content Include="Views\Loader\Error_RestrictedCountries.aspx" />
+    <Content Include="Views\Loader\MicrogamingNanoXpro.aspx" />
+    <Content Include="Views\Loader\CTXM.aspx" />
+    <Content Include="Views\Loader\Error.aspx" />
+    <Content Include="Views\Loader\IGT.aspx" />
+    <Content Include="Views\Loader\Microgaming.aspx" />
+    <Content Include="Views\Loader\MicrogamingNano.aspx" />
+    <Content Include="Views\Loader\NetEnt.aspx" />
+    <Content Include="Views\Loader\NetEntHelp.aspx" />
+    <Content Include="Views\VendorManagement\Index.aspx" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Loader\App_LocalResources\Error_Inactive.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Default.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLToolkit\BLToolkit.4.csproj">
+      <Project>{0C325F5D-E50E-4340-8724-D29896CCC583}</Project>
+      <Name>BLToolkit.4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CE\CE.csproj">
+      <Project>{8fb7b999-721f-474e-a6ea-4c9174b3dc93}</Project>
+      <Name>CE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GamMatrix.Infrastructure\GamMatrix.Infrastructure.csproj">
+      <Project>{0D9F45CE-13C4-451D-891C-CA1970280578}</Project>
+      <Name>GamMatrix.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GamMatrixAPI\GamMatrixAPI.csproj">
+      <Project>{8eca7e32-7cc8-4768-8043-9d2e6ab9fac7}</Project>
+      <Name>GamMatrixAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Loader\App_LocalResources\Error_InvalidSession.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Loader\App_LocalResources\Error_InvalidSession.aspx.ka.resx" />
+    <Content Include="Views\Loader\App_LocalResources\Error_InvalidSession.aspx.ru.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HttpHandlers\version.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\template.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Loader\App_LocalResources\Error_WithdrawOnly.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HttpHandlers\return_lobby.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\geoip.dat" />
+    <Content Include="HttpHandlers\notify_balance_change.ashx" />
+    <Content Include="HttpHandlers\query_balance_change.ashx" />
+    <Content Include="css\skin-vista\ui.fancytree.less" />
+    <Content Include="HttpHandlers\reality_check.ashx" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <Content Include="Views\Shared\DialogDefault.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Loader\App_LocalResources\Error_RestrictedCountries.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Game\App_LocalResources\Error.aspx.de.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Game\App_LocalResources\Error.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Game\App_LocalResources\Error.aspx.ru.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Game\App_LocalResources\Error.aspx.ka.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Game\App_LocalResources\Error.aspx.es.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Loader\App_LocalResources\Error_AgeLimit.aspx.resx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CMS_RELEASE|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50935</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:2012</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)..\EditAssemblyVersion.exe" "$(ProjectDir)..\CasinoEngion\Properties\AssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
+</Project>

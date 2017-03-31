@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>My game page</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="http://oddsmatrix-static.casinomodule.com/gameinclusion/library/gameinclusion.js"></script>
+
+    <script type="text/javascript">
+
+        var netExt;
+
+        var startGame = function () {
+
+            var config = {
+                gameId: "invisibleman_mobile_html_sw",
+                staticServer: "http://oddsmatrix-static.casinomodule.com/",
+                gameServer: "http://oddsmatrix-game.casinomodule.com/",
+                sessionId: "DEMO-1134545232-EUR",
+                targetElement: "netEntGame",
+                //walletMode: "basic",
+                language: "en",
+                //			fullScreen: false,
+                //			debugMode: true,
+                pluginUrl: "http://static.gammatrix.com/Netent/touchcode.html",
+                mobileParams: { lobbyUrl: "http://www.google.com"}
+            };
+
+            console.log(config.pluginUrl);
+
+            var error = function (e) { alert(e.message); };
+
+            var success = function (e) { };
+
+            netent.launch(config, success, error);
+        }
+
+        window.onload = startGame;
+
+    </script>
+</head>
+<body>
+    <!--<div id="netEntGame"></div>-->
+</body>
+</html>

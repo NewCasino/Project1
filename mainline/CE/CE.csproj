@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8FB7B999-721F-474E-A6EA-4C9174B3DC93}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CE</RootNamespace>
+    <AssemblyName>CE</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CMS_RELEASE|AnyCPU'">
+    <OutputPath>bin\CMS_RELEASE\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EveryMatrix.ReportingAgent.Client">
+      <HintPath>..\Dlls\reporting-agent\EveryMatrix.ReportingAgent.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="EveryMatrix.SDK, Version=1.4.6190.12048, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EveryMatrix.SDK.1.4.6190.12048\lib\net45\EveryMatrix.SDK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EveryMatrix.SessionAgent">
+      <HintPath>..\Dlls\session-sdk\EveryMatrix.SessionAgent.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Dlls\session-sdk\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\ThirdParty\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Dlls\MVC3\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZooKeeperNet">
+      <HintPath>..\Dlls\session-sdk\ZooKeeperNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackendThread\ChangeNotifier.cs" />
+    <Compile Include="BackendThread\ScalableThumbnailProcessor.cs" />
+    <Compile Include="db\Accessor\CasinoJackpotAccessor.cs" />
+    <Compile Include="db\Accessor\ChangeLogAccessor.cs" />
+    <Compile Include="db\Accessor\ContentProviderAccessor.cs" />
+    <Compile Include="db\ceCasinoJackpot.cs" />
+    <Compile Include="db\ceCasinoJackpotBase.cs" />
+    <Compile Include="db\ceContentProvider.cs" />
+    <Compile Include="db\ceContentProviderBase.cs" />
+    <Compile Include="db\Accessor\GameLog.cs" />
+    <Compile Include="db\ceDomainConfigEx.cs" />
+    <Compile Include="db\DomainVendorConfig.cs" />
+    <Compile Include="db\ceCasinoGamePopularity.cs" />
+    <Compile Include="db\PopularityConfigurationByCountry.cs" />
+    <Compile Include="DomainConfig\Entwine.cs" />
+    <Compile Include="DomainConfig\Gamevy.cs" />
+    <Compile Include="DomainConfig\GoldenRace.cs" />
+    <Compile Include="DomainConfig\ISoftGaming.cs" />
+    <Compile Include="DomainConfig\LiveGames.cs" />
+    <Compile Include="DomainConfig\Opus.cs" />
+    <Compile Include="DomainConfig\AsiaGaming.cs" />
+    <Compile Include="DomainConfig\BallyGaming.cs" />
+    <Compile Include="DomainConfig\BetGames.cs" />
+    <Compile Include="DomainConfig\BoomingGames.cs" />
+    <Compile Include="DomainConfig\GaminGenius.cs" />
+    <Compile Include="DomainConfig\Generic.cs" />
+    <Compile Include="DomainConfig\Genii.cs" />
+    <Compile Include="DomainConfig\Endorphina.cs" />
+    <Compile Include="DomainConfig\Globalbet.cs" />
+    <Compile Include="DomainConfig\Habanero.cs" />
+    <Compile Include="DomainConfig\HoGaming.cs" />
+    <Compile Include="DomainConfig\Igrosoft.cs" />
+    <Compile Include="DomainConfig\JoinGames.cs" />
+    <Compile Include="DomainConfig\Kiron.cs" />
+    <Compile Include="DomainConfig\Mrslotty.cs" />
+    <Compile Include="DomainConfig\Multislot.cs" />
+    <Compile Include="DomainConfig\Odobo.cs" />
+    <Compile Include="DomainConfig\LuckyStreak.cs" />
+    <Compile Include="DomainConfig\BetSoft.cs" />
+    <Compile Include="DomainConfig\Config.cs" />
+    <Compile Include="DomainConfig\Eyecon.cs" />
+    <Compile Include="DomainConfig\Hybrino.cs" />
+    <Compile Include="DomainConfig\BetOnFinance.cs" />
+    <Compile Include="DomainConfig\Oriental.cs" />
+    <Compile Include="DomainConfig\Pariplay.cs" />
+    <Compile Include="DomainConfig\Parlay.cs" />
+    <Compile Include="DomainConfig\Authentic.cs" />
+    <Compile Include="DomainConfig\CandleBets.cs" />
+    <Compile Include="DomainConfig\Playson.cs" />
+    <Compile Include="DomainConfig\PlayStar.cs" />
+    <Compile Include="DomainConfig\PokerKlas.cs" />
+    <Compile Include="DomainConfig\RCT.cs" />
+    <Compile Include="DomainConfig\Realistic.cs" />
+    <Compile Include="DomainConfig\Spigo.cs" />
+    <Compile Include="DomainConfig\QuickSpin.cs" />
+    <Compile Include="DomainConfig\Spinomenal.cs" />
+    <Compile Include="DomainConfig\StakeLogic.cs" />
+    <Compile Include="DomainConfig\Tombala.cs" />
+    <Compile Include="DomainConfig\TTG.cs" />
+    <Compile Include="DomainConfig\ViG.cs" />
+    <Compile Include="DomainConfig\WorldMatch.cs" />
+    <Compile Include="DomainConfig\XProGaming.cs" />
+    <Compile Include="DomainConfig\Yggdrasil.cs" />
+    <Compile Include="DomainConfig\EGT.cs" />
+    <Compile Include="DomainConfig\EvolutionGaming.cs" />
+    <Compile Include="DomainConfig\Ezugi.cs" />
+    <Compile Include="DomainConfig\GreenTube.cs" />
+    <Compile Include="DomainConfig\EGB.cs" />
+    <Compile Include="DomainConfig\IConfigBase.cs" />
+    <Compile Include="DomainConfig\ISoftBet.cs" />
+    <Compile Include="DomainConfig\Lega.cs" />
+    <Compile Include="DomainConfig\Norske.cs" />
+    <Compile Include="DomainConfig\NYXGaming.cs" />
+    <Compile Include="DomainConfig\OMI.cs" />
+    <Compile Include="DomainConfig\OneXTwoGaming.cs" />
+    <Compile Include="DomainConfig\Sheriff.cs" />
+    <Compile Include="DomainConfig\PlaynGO.cs" />
+    <Compile Include="DomainConfig\IGT.cs" />
+    <Compile Include="DomainConfig\CTXM.cs" />
+    <Compile Include="DomainConfig\Microgaming.cs" />
+    <Compile Include="DomainConfig\NetEnt.cs" />
+    <Compile Include="DomainConfig\ConfigAttribute.cs" />
+    <Compile Include="db\Accessor\CasinoGameAccessor.cs" />
+    <Compile Include="db\Accessor\ChangeNotificationAccessor.cs" />
+    <Compile Include="db\Accessor\LiveCasinoTableAccessor.cs" />
+    <Compile Include="db\Accessor\ScalableThumbnailAccessor.cs" />
+    <Compile Include="db\Accessor\UserAccessor.cs" />
+    <Compile Include="db\Accessor\CasinoVendorAccessor.cs" />
+    <Compile Include="db\Accessor\DwAccessor.cs" />
+    <Compile Include="db\ceCasinoGame.cs" />
+    <Compile Include="db\ceCasinoGameBase.cs" />
+    <Compile Include="db\ceCasinoVendor.cs" />
+    <Compile Include="db\ceDomainConfig.cs" />
+    <Compile Include="db\Accessor\DataDictionaryAccessor.cs" />
+    <Compile Include="db\Accessor\DomainConfigAccessor.cs" />
+    <Compile Include="db\Accessor\LocationAccessor.cs" />
+    <Compile Include="db\ceDataItem.cs" />
+    <Compile Include="db\ceGameLoaderLog.cs" />
+    <Compile Include="db\ceScalableThumbnail.cs" />
+    <Compile Include="db\ceLiveCasinoTableBase.cs" />
+    <Compile Include="db\ceLiveCasinoTable.cs" />
+    <Compile Include="db\ceChangeNotification.cs" />
+    <Compile Include="db\ceDomainConfigItem.cs" />
+    <Compile Include="db\dwGamePopularity.cs" />
+    <Compile Include="db\dwWinner.cs" />
+    <Compile Include="db\LiveCasinoTableLimit.cs" />
+    <Compile Include="db\SqlQueryEx.cs" />
+    <Compile Include="DomainConfig\GTS.cs" />
+    <Compile Include="DomainConfig\Vivo.cs" />
+    <Compile Include="DomainConfig\Williams.cs" />
+    <Compile Include="Extensions\EnumExtension.cs" />
+    <Compile Include="Extensions\GameExtension.cs" />
+    <Compile Include="Extensions\LoaderViewPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Extensions\StringExtension.cs" />
+    <Compile Include="Integration\BallyGaming\Game.cs" />
+    <Compile Include="Integration\GmCore\CurrentUserSession.cs" />
+    <Compile Include="Integration\GmCore\DomainManager.cs" />
+    <Compile Include="Integration\GmCore\GamMatrixClient.cs" />
+    <Compile Include="Integration\GmCore\GmAPIRestClient.cs" />
+    <Compile Include="Integration\GmCore\GmException.cs" />
+    <Compile Include="Integration\GmCore\IPLocation.cs" />
+    <Compile Include="Integration\GmCore\SystemAuthorizeAttribute.cs" />
+    <Compile Include="Integration\GmGaming\GmGamingRestClient.cs" />
+    <Compile Include="Integration\GmGaming\Models\GmGamingRequestBase.cs" />
+    <Compile Include="Integration\GmGaming\Models\NameValue.cs" />
+    <Compile Include="Integration\GmGaming\Models\PlayerSession.cs" />
+    <Compile Include="Integration\GmGaming\Models\TokenRequest.cs" />
+    <Compile Include="Integration\GmGaming\Models\TokenResponse.cs" />
+    <Compile Include="Integration\IGT\Game.cs" />
+    <Compile Include="Integration\ISoftBet\Category.cs" />
+    <Compile Include="Integration\ISoftBet\Game.cs" />
+    <Compile Include="Integration\ISoftBet\GameManager.cs" />
+    <Compile Include="Integration\ISoftBet\GameMgt.cs" />
+    <Compile Include="Integration\ISoftBet\GameModel.cs" />
+    <Compile Include="Integration\ISoftBet\PresentationType.cs" />
+    <Compile Include="Integration\ISoftBet\RawFeedsMgt.cs" />
+    <Compile Include="Integration\Jackpot\OMIJackpot.cs" />
+    <Compile Include="Integration\Jackpot\JackpotFeeds.cs" />
+    <Compile Include="Integration\Jackpot\JackpotInfo.cs" />
+    <Compile Include="Integration\Jackpot\PlaynGOJackpot.cs" />
+    <Compile Include="Integration\Jackpot\SheriffJackpot.cs" />
+    <Compile Include="Integration\Metadata\CasinoGameMgr.cs" />
+    <Compile Include="Integration\Metadata\MetadataClient.cs" />
+    <Compile Include="Integration\Metadata\MetadataFileCache.cs" />
+    <Compile Include="Integration\Metadata\CasinoGame.cs" />
+    <Compile Include="Integration\Metadata\Notifier.cs" />
+    <Compile Include="Integration\Metadata\Translation.cs" />
+    <Compile Include="Integration\Metadata\WebClientEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Integration\NetEntAPI\LiveCasinoGame.cs" />
+    <Compile Include="Integration\NetEntAPI\RawLiveCasinoTable.cs" />
+    <Compile Include="Integration\Recommendation\GameRecommended.cs" />
+    <Compile Include="Integration\Recommendation\RecommendedGame.cs" />
+    <Compile Include="Integration\Recommendation\UserRecommended.cs" />
+    <Compile Include="Integration\TransferMoneyBetweenWallets\CashTransporter.cs" />
+    <Compile Include="Integration\TransferMoneyBetweenWallets\Models\CashTransporterRequest.cs" />
+    <Compile Include="Integration\TransferMoneyBetweenWallets\Models\CashTransporterResponse.cs" />
+    <Compile Include="Integration\VendorApi\Models\CreateGameSessionRequest.cs" />
+    <Compile Include="Integration\VendorApi\Models\CreateGameSessionResponse.cs" />
+    <Compile Include="Integration\VendorApi\Models\GameInfo.cs" />
+    <Compile Include="Integration\VendorApi\Models\GameListRequest.cs" />
+    <Compile Include="Integration\VendorApi\Models\GameListResponse.cs" />
+    <Compile Include="Integration\VendorApi\Models\GamesConfigurationsRequest.cs" />
+    <Compile Include="Integration\VendorApi\Models\GamesConfigurationsResponse.cs" />
+    <Compile Include="Integration\VendorApi\Models\GetBalanceRequest.cs" />
+    <Compile Include="Integration\VendorApi\Models\GetBalanceResponse.cs" />
+    <Compile Include="Integration\VendorApi\Models\IVendorAPIResponse.cs" />
+    <Compile Include="Integration\VendorApi\Models\TransferRequest.cs" />
+    <Compile Include="Integration\VendorApi\Models\TransferResponse.cs" />
+    <Compile Include="Integration\VendorApi\Models\VendorApiRequest.cs" />
+    <Compile Include="Integration\VendorApi\Models\VendorBalance.cs" />
+    <Compile Include="Integration\VendorApi\VendorApiClient.cs" />
+    <Compile Include="Integration\VendorApi\Models\VendorAPIResponse.cs" />
+    <Compile Include="Integration\VendorApi\Models\CreateUserRequest.cs" />
+    <Compile Include="Integration\VendorApi\Models\CreateUserResponse.cs" />
+    <Compile Include="Integration\VendorApi\Models\UserDetails.cs" />
+    <Compile Include="Integration\VendorApi\Models\UserRequestBase.cs" />
+    <Compile Include="Integration\Vivo\LiveCasinoGame.cs" />
+    <Compile Include="Integration\XProGaming\Game.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\CacheEntryBase.cs" />
+    <Compile Include="Utils\CacheManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\CeException.cs" />
+    <Compile Include="Utils\Constant.cs" />
+    <Compile Include="Utils\GmLogger.cs" />
+    <Compile Include="Utils\ExceptionExtension.cs" />
+    <Compile Include="Integration\GmCore\UrlHelperExtension.cs" />
+    <Compile Include="Utils\ExceptionHandler.cs" />
+    <Compile Include="Utils\FTP.cs" />
+    <Compile Include="Utils\HttpHelper.cs" />
+    <Compile Include="Utils\ImageAsset.cs" />
+    <Compile Include="Utils\IPLocation.cs" />
+    <Compile Include="Utils\Language.cs" />
+    <Compile Include="Utils\Logger.cs" />
+    <Compile Include="Utils\PlatformHandler.cs" />
+    <Compile Include="Utils\VendorLanguageSelector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLToolkit\BLToolkit.4.csproj">
+      <Project>{0c325f5d-e50e-4340-8724-d29896ccc583}</Project>
+      <Name>BLToolkit.4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GamMatrix.Infrastructure\GamMatrix.Infrastructure.csproj">
+      <Project>{0D9F45CE-13C4-451D-891C-CA1970280578}</Project>
+      <Name>GamMatrix.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GamMatrixAPI\GamMatrixAPI.csproj">
+      <Project>{8eca7e32-7cc8-4768-8043-9d2e6ab9fac7}</Project>
+      <Name>GamMatrixAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GmLogging.Client\GmLogging.Client.csproj">
+      <Project>{5ccca8ca-9be9-4d26-9aaa-3cf0c2a7bc6e}</Project>
+      <Name>GmLogging.Client</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CustomAttribute\" />
+    <Folder Include="Integration\Microgaming\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)..\EditAssemblyVersion.exe" "$(ProjectDir)..\CE\Properties\AssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E49DD96F-2687-4396-8C06-77113906D7DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GamMatrix.CMS</RootNamespace>
+    <AssemblyName>GamMatrix.CMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\GamMatrix.CMS\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CE_RELEASE|AnyCPU'">
+    <OutputPath>bin\CE_RELEASE\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CMS_RELEASE|AnyCPU'">
+    <OutputPath>bin\CMS_RELEASE\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BookSleeve, Version=1.3.38.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\BookSleeve\BookSleeve.dll</HintPath>
+    </Reference>
+    <Reference Include="EcmaScript.NET.modified">
+      <HintPath>.\EcmaScript.NET.modified.dll</HintPath>
+    </Reference>
+    <Reference Include="EveryMatrix.SDK, Version=1.4.6190.12048, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EveryMatrix.SDK.1.4.6190.12048\lib\net45\EveryMatrix.SDK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EveryMatrix.SessionAgent, Version=1.0.0.11263, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\session-sdk\EveryMatrix.SessionAgent.dll</HintPath>
+    </Reference>
+    <Reference Include="JWT">
+      <HintPath>..\ThirdParty\JWT.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\ThirdParty\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\ThirdParty\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>..\ThirdParty\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.18\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.18\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\666bet\_666betDepositController.cs" />
+    <Compile Include="Controllers\666betMobile\_666betMobileDepositController.cs" />
+    <Compile Include="Controllers\666betMobile\_666betMobileWithdrawController.cs" />
+    <Compile Include="Controllers\666bet\_666betWithdrawController.cs" />
+    <Compile Include="Controllers\777DKMobile\_777DKMobileRegisterController.cs" />
+    <Compile Include="Controllers\777DK\_777DKRegistrationController.cs" />
+    <Compile Include="Controllers\777iBetMobile\777iBetMobileDepositController.cs" />
+    <Compile Include="Controllers\777iBetMobile\777iBetMobileProfileController.cs" />
+    <Compile Include="Controllers\777iBetMobile\777iBetMobileQuickRegisterController.cs" />
+    <Compile Include="Controllers\777iBetMobile\777iBetMobileRegistrationController.cs" />
+    <Compile Include="Controllers\777iBetMobile\777iBetMobileWithdrawController.cs" />
+    <Compile Include="Controllers\777iBet\_777iBetDepositController.cs" />
+    <Compile Include="Controllers\777iBet\_777iBetProfileController.cs" />
+    <Compile Include="Controllers\777iBet\_777iBetRegistrationController.cs" />
+    <Compile Include="Controllers\777iBet\_777iBetWithdrawController.cs" />
+    <Compile Include="Controllers\AnnaCasino\AnnaCasinoContactUsController.cs" />
+    <Compile Include="Controllers\AnnaCasino\AnnaCasinoRegistrationController.cs" />
+    <Compile Include="Controllers\ArtemisBetV3\ArtemisBetQuickRegistrationController.cs" />
+    <Compile Include="Controllers\AzulCasino\ThreeDGames.cs" />
+    <Compile Include="Controllers\BellaJackpots\BonusWidgetController.cs" />
+    <Compile Include="Controllers\BetAdonisMobile\SendEmailController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\BetAdonis\SendEmailController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\CaribicCasinoMobile\CaribicCasinoMobileQuickRegisterController.cs" />
+    <Compile Include="Controllers\CaribicCasino\BlogContentController.cs" />
+    <Compile Include="Controllers\CasadeApostas\CasadeApostasContactUsController.cs" />
+    <Compile Include="Controllers\CasinoFloorV2\BlogV2Controller.cs" />
+    <Compile Include="Controllers\DragonbetMobile\DragonbetMobileDepositController.cs" />
+    <Compile Include="Controllers\DragonbetMobile\DragonbetMobileRegisterController.cs" />
+    <Compile Include="Controllers\FortuneArk\FortuneArkQuickRegisterController.cs" />
+    <Compile Include="Controllers\Ins999Mobile\Ins999MobileDepositController.cs" />
+    <Compile Include="Controllers\Ins999Mobile\Ins999MobileProfileController.cs" />
+    <Compile Include="Controllers\Ins999Mobile\Ins999MobileRegistrationController.cs" />
+    <Compile Include="Controllers\Ins999Mobile\Ins999MobileWithdrawController.cs" />
+    <Compile Include="Controllers\Ins999\Ins999DepositController.cs" />
+    <Compile Include="Controllers\Ins999\Ins999ProfileController.cs" />
+    <Compile Include="Controllers\Ins999\Ins999RegistrationController.cs" />
+    <Compile Include="Controllers\Ins999\Ins999WithdrawController.cs" />
+    <Compile Include="Controllers\IntragameV3\IntraGameBlogController.cs" />
+    <Compile Include="Controllers\CasinoLuck\BlogController.cs" />
+    <Compile Include="Controllers\Daebak88Mobile\Daebak88MobileDepositController.cs" />
+    <Compile Include="Controllers\Daebak88Mobile\Daebak88MobileProfileController.cs" />
+    <Compile Include="Controllers\Daebak88Mobile\Daebak88MobileQuickRegisterController.cs" />
+    <Compile Include="Controllers\Daebak88Mobile\Daebak88MobileRegistrationController.cs" />
+    <Compile Include="Controllers\Daebak88Mobile\Daebak88MobileWithdrawController.cs" />
+    <Compile Include="Controllers\Daebak88\Daebak88DepositController.cs" />
+    <Compile Include="Controllers\Daebak88\Daebak88ProfileController.cs" />
+    <Compile Include="Controllers\Daebak88\Daebak88RegistrationController.cs" />
+    <Compile Include="Controllers\Daebak88\Daebak88WithdrawController.cs" />
+    <Compile Include="Controllers\EnergyCasino\PDFController.cs" />
+    <Compile Include="Controllers\GutsMobile\GutsMobileCasinoLobbyController.cs" />
+    <Compile Include="Controllers\JetbullMobileDev\JetbullMobileMenuController.cs" />
+    <Compile Include="Controllers\JetbullMobileDev\JetbullMobileSportsApiController.cs" />
+    <Compile Include="Controllers\JetbullMobileDev\JetbullMobileV2RegisterController.cs" />
+    <Compile Include="Controllers\Kirsikka\KirsikkaContactUsController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileBuddyTransferController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileChangeEmailController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileChangeUnSafePasswordController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileLiveCasinoController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileQuickRegistrationController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileOHomeController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileRealityCheckController.cs" />
+    <Compile Include="Controllers\OneLuckyMobile\OneLuckyMobileMenuController.cs" />
+    <Compile Include="Controllers\PlayHippoMobile\PlayHippoMobileQuickRegistrationController.cs" />
+    <Compile Include="Controllers\Shared\AccountStatementController.cs" />
+    <Compile Include="Controllers\Shared\AffiliatesPageController.cs" />
+    <Compile Include="Controllers\Shared\AvailableBonusController.cs" />
+    <Compile Include="Controllers\Shared\BingoLoaderController.cs" />
+    <Compile Include="Controllers\Shared\BingoLobbyController.cs" />
+    <Compile Include="Controllers\Shared\BuddyTransferController.cs" />
+    <Compile Include="Controllers\Shared\CasinoEngineLobbyController.cs" />
+    <Compile Include="Controllers\Shared\CasinoGameController.cs" />
+    <Compile Include="Controllers\Shared\CasinoHallController.cs" />
+    <Compile Include="Controllers\Shared\CasinoInfoController.cs" />
+    <Compile Include="Controllers\Shared\CasinoJackpotsController.cs" />
+    <Compile Include="Controllers\Shared\CasinoLoaderController.cs" />
+    <Compile Include="Controllers\Shared\CasinoLobbyController.cs" />
+    <Compile Include="Controllers\Shared\ChangeEmailController.cs" />
+    <Compile Include="Controllers\Shared\ChangePwdController.cs" />
+    <Compile Include="Controllers\Shared\ContactUsController.cs" />
+    <Compile Include="Controllers\Shared\DepositController.cs" />
+    <Compile Include="Controllers\Shared\DepositLimitationController.cs" />
+    <Compile Include="Controllers\Shared\FaqController.cs" />
+    <Compile Include="Controllers\Shared\ForgotPasswordController.cs" />
+    <Compile Include="Controllers\Shared\ForgotUsernameController.cs" />
+    <Compile Include="Controllers\Shared\LimitationController.cs" />
+    <Compile Include="Controllers\Shared\ListPageController.cs" />
+    <Compile Include="Controllers\Shared\LiveCasinoHallController.cs" />
+    <Compile Include="Controllers\Shared\LiveCasinoLobbyController.cs" />
+    <Compile Include="Controllers\Shared\MessagesController.cs" />
+    <Compile Include="Controllers\Shared\NonSecurePageController.cs" />
+    <Compile Include="Controllers\Shared\PendingWithdrawalController.cs" />
+    <Compile Include="Controllers\Shared\PokerController.cs" />
+    <Compile Include="Controllers\Shared\PokerTournamentsPageController.cs" />
+    <Compile Include="Controllers\Shared\ProfileController.cs" />
+    <Compile Include="Controllers\Shared\QuickRegistrationController.cs" />
+    <Compile Include="Controllers\Shared\RealityCheckController.cs" />
+    <Compile Include="Controllers\Shared\RegistrationController.cs" />
+    <Compile Include="Controllers\Shared\SecurePageController.cs" />
+    <Compile Include="Controllers\Shared\SelfExclusionController.cs" />
+    <Compile Include="Controllers\Shared\SessionController.cs" />
+    <Compile Include="Controllers\Shared\TermsConditionsController.cs" />
+    <Compile Include="Controllers\Shared\TransferController.cs" />
+    <Compile Include="Controllers\Shared\WithdrawController.cs" />
+    <Compile Include="Controllers\Shared\ExternalRegistrationController.cs" />
+    <Compile Include="Controllers\System\SearchCodeController.cs" />
+    <Compile Include="Controllers\System\TermsConditionsController.cs" />
+    <Compile Include="Controllers\System\DDOSRedirectionMgtController.cs" />
+    <Compile Include="Controllers\ThrillsMobile\ThrillsMobileProfileController.cs" />
+    <Compile Include="Controllers\ThrillsMobile\ThrillsMobileRegisterController.cs" />
+    <Compile Include="Controllers\Thrills\ClassicThrillsPageController.cs" />
+    <Compile Include="Controllers\Thrills\ForgotPasswordController.cs" />
+    <Compile Include="Domain\AccountStatement\Statements\AffiliateFeeStatement.cs" />
+    <Compile Include="Domain\AccountStatement\Statements\BuddyTransferStatement.cs" />
+    <Compile Include="Domain\AccountStatement\Statements\CasinoFPPStatement.cs" />
+    <Compile Include="Domain\AccountStatement\Statements\DepositStatement.cs" />
+    <Compile Include="Domain\AccountStatement\ITransactionStatement.cs" />
+    <Compile Include="Domain\AccountStatement\TransactionStatementProvider.cs" />
+    <Compile Include="Domain\AccountStatement\Statements\TransactionStatement.cs" />
+    <Compile Include="Domain\AccountStatement\TransactionStatementType.cs" />
+    <Compile Include="Domain\AccountStatement\Statements\TransferStatement.cs" />
+    <Compile Include="Domain\AccountStatement\Statements\WalletStatement.cs" />
+    <Compile Include="Domain\AccountStatement\Statements\WithdrawalStatement.cs" />
+    <Compile Include="HttpHandlers\GetEnterCashBankList.cs" />
+    <Compile Include="HttpHandlers\GetNactiveLimitHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HttpHandlers\InternalConfigurationHandler.cs" />
+    <Compile Include="HttpHandlers\IsSessionAliveHandler.cs" />
+    <Compile Include="HttpHandlers\UserPromotionHandler.cs" />
+    <Compile Include="Integration\CasinoEngine\CacheKeyFormat.cs" />
+    <Compile Include="Integration\CasinoEngine\FeedsType.cs" />
+    <Compile Include="Integration\CasinoEngine\GamePopularity.cs" />
+    <Compile Include="Integration\CasinoEngine\LiveCasinoTable.cs" />
+    <Compile Include="Integration\CasinoEngine\Watcher.cs" />
+    <Compile Include="Integration\Finance\Language.cs" />
+    <Compile Include="Integration\Finance\LanguageManager.cs" />
+    <Compile Include="Integration\Finance\PaymentMethodCoverage.cs" />
+    <Compile Include="Integration\GmCore\DomainConfigAgent.cs" />
+    <Compile Include="Integration\Notification\PaymentMethodNotification.cs" />
+    <Compile Include="Integration\OAuth\AuthPartySetting.cs" />
+    <Compile Include="Integration\OAuth\DkLicenseClient.cs" />
+    <Compile Include="Integration\OAuth\ExternalAuthManager.cs" />
+    <Compile Include="Integration\OAuth\ExternalUserInfo.cs" />
+    <Compile Include="Integration\OAuth\FacebookClient.cs" />
+    <Compile Include="Integration\OAuth\GoogleClient.cs" />
+    <Compile Include="Integration\OAuth\IExternalAuthClient.cs" />
+    <Compile Include="Integration\OAuth\MailRuClient.cs" />
+    <Compile Include="Integration\OAuth\ReferrerData.cs" />
+    <Compile Include="Integration\OAuth\TwitterClient.cs" />
+    <Compile Include="Integration\OAuth\VKontakteClient.cs" />
+    <Compile Include="Integration\OAuth\YandexClient.cs" />
+    <Compile Include="JsonWebTokenValidationAttribute.cs" />
+    <Compile Include="Misc\InPayClient.cs" />
+    <Compile Include="Models\Common\Components\MoneyMatrixPaymentSolutionPrepareViewModel.cs" />
+    <Compile Include="Models\MobileShared\AvailableBonus\AvailableBonusViewModel.cs" />
+    <Compile Include="Models\MobileShared\AvailableBonus\BonusInfo.cs" />
+    <Compile Include="Models\MobileShared\Components\MenuV2EntryViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\MenuV2ViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\RegisterV2FormViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\ConfirmLocalBankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\EnterCashBankSelectorViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\DefaultMoneyMatrixPrepareViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareAPXViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareEcoCardViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareEnterCashViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareEutellerViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareGCEViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareIPSTokenViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareLocalBankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneybookersViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixAdyenELVViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixAdyenGiropayViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixAdyeniDealViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixAdyenPayPalViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixAdyenSofortViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixEcoPayzViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixGPaySafeCashIxirViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixGPaySafeCepBankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixGPaySafeEPayCodeViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixGPaySafeGsCashViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixGPaySafeInstantBankTransferViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixGPaySafeJetonViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixGPaySafeMastercardViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixGPaySafePayKasaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixGPaySafeVisaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixEproCashlibViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixOfflineLocalBankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixOfflineNordeaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPaySafeCardViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixNetellerViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraAliorBankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraBzwbkBankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraCitadeleLatviaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraCitadeleLithuaniaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraCreditCardsViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraDanskeEstoniaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraDanskeLithuaniaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraDnbViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraEasypayViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraInternationalPaymentInEurosViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraKrediidipankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraLhvBankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraLithuanianCreditUnionViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseramBankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraMedicinosBankasViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraNordeaEstoniaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraNordeaLatviaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraNordeaLithuaniaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraPekaoBankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraPerlasViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraPkoBankViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraSebEstoniaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraSebLatviaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraSebLithuaniaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraSiauliuBankasViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraSwedbankEstoniaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraSwedbankLatviaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraSwedbankLithuaniaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraWalletViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixPayseraWebMoneyViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixSkrill_1Tap_ViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixTrustlyViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixTLNakitViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixSkrillViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneyMatrixZimplerViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareNetellerViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PayCardTransaction.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareIBanqViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareOtoPayViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PreparePayKasaViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareOchapayViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PreparePayKwikViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PreparePaysafeCardViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PreparePaymentTrustViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PreparePugglePayViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareTxtNationViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareVoucherViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\SinglePayCardTransaction.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareTLNakitViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareUkashViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareBoCashViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareUiPasViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareInPayViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareTrustlyViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareIPGViewModel.cs" />
+    <Compile Include="Models\MobileShared\Home\HomeViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\ProfileAdditionalInputViewModel.cs" />
+    <Compile Include="Controllers\Metro\ForgotUsernamePasswordController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileAccountSettingsController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileAccountStatementController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileAvailableBonusController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileCasinoController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileCasinoFPPController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileCasinoGameController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileCasinoInfoController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileChangePassword.cs" />
+    <Compile Include="Controllers\MobileShared\MobileContactController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileDepositController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileDepositLimitController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileForgotPasswordController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileGenericPageController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileHomeController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileListPageController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileMainMenuController.cs" />
+    <Compile Include="Controllers\MobileShared\MobilePendingWithdrawalController.cs.cs" />
+    <Compile Include="Controllers\MobileShared\MobileProfileController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileRegisterController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileSecurePageController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileSelfExclusionController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileSessionController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileSportsApiController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileSportsHomeController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileTransferController.cs" />
+    <Compile Include="Controllers\MobileShared\MobileWithdrawController.cs" />
+    <Compile Include="Controllers\Parasino\ParasinoCasinoEngineLobbyController.cs" />
+    <Compile Include="Controllers\PlayAdjara\PlayAdjaraLiveCasinoController.cs" />
+    <Compile Include="Controllers\PlayAdjara\PlayAdjaraProfileController.cs" />
+    <Compile Include="Controllers\PlayAdjara\PlayAdjaraTransferController.cs" />
+    <Compile Include="Controllers\Settings.cs" />
+    <Compile Include="Controllers\System\CacheManager.cs" />
+    <Compile Include="Controllers\System\CasinoGameMgtController.cs" />
+    <Compile Include="Controllers\System\CasinoMgtController.cs" />
+    <Compile Include="Controllers\System\ContentMgtController.cs" />
+    <Compile Include="Controllers\System\ContentNodeExtension.cs" />
+    <Compile Include="Controllers\System\MonitorController.cs" />
+    <Compile Include="Controllers\System\DashboardController.cs" />
+    <Compile Include="Controllers\System\DirectoryMgtController.cs" />
+    <Compile Include="Controllers\System\FileDiffController.cs" />
+    <Compile Include="Controllers\System\FileManagerController.cs" />
+    <Compile Include="Controllers\System\HistoryViewerController.cs" />
+    <Compile Include="Controllers\System\LogViewerController.cs" />
+    <Compile Include="Controllers\System\MetadataEditorController.cs" />
+    <Compile Include="Controllers\System\OperatorMgtController.cs" />
+    <Compile Include="Controllers\System\PageEditorController.cs" />
+    <Compile Include="Controllers\System\PaymentMethodMgtController.cs" />
+    <Compile Include="Controllers\System\RegionLanguageController.cs" />
+    <Compile Include="Controllers\System\RouteTableController.cs" />
+    <Compile Include="Controllers\System\SearchMetadataController.cs" />
+    <Compile Include="Controllers\System\SignInController.cs" />
+    <Compile Include="Controllers\System\SiteManagerController.cs" />
+    <Compile Include="Controllers\System\SystemAuthorizeAttribute.cs" />
+    <Compile Include="Controllers\System\TutorialController.cs" />
+    <Compile Include="Controllers\System\ViewEditorController.cs" />
+    <Compile Include="HttpHandlers\ClearCasinoGameListCache.cs" />
+    <Compile Include="HttpHandlers\GetBalanceHandler.cs" />
+    <Compile Include="HttpHandlers\GetBonusInfoHandler.cs" />
+    <Compile Include="HttpHandlers\GetMetadataHandler.cs" />
+    <Compile Include="HttpHandlers\GoogleAnalyticsCode.cs" />
+    <Compile Include="HttpHandlers\InfoHttpHandler.cs" />
+    <Compile Include="HttpHandlers\KeepUserSessionAliveHandler.cs" />
+    <Compile Include="HttpHandlers\ManifestHandler.cs" />
+    <Compile Include="Integration\BingoNetwork\Avatar.cs" />
+    <Compile Include="Integration\BingoNetwork\BingoManager.cs" />
+    <Compile Include="Integration\BingoNetwork\JackpotInfo.cs" />
+    <Compile Include="Integration\BingoNetwork\Winner.cs" />
+    <Compile Include="Integration\CasinoEngine\CasinoEngineClient.cs" />
+    <Compile Include="Integration\CasinoEngine\Game.cs" />
+    <Compile Include="Integration\CasinoEngine\GameCategory.cs" />
+    <Compile Include="Integration\CasinoEngine\GameCategoryMgr.cs" />
+    <Compile Include="Integration\CasinoEngine\GameMgr.cs" />
+    <Compile Include="Integration\CasinoEngine\GameRef.cs" />
+    <Compile Include="Integration\CasinoEngine\JackpotInfo.cs" />
+    <Compile Include="Integration\CasinoEngine\Platform.cs" />
+    <Compile Include="Integration\CasinoEngine\SortType.cs" />
+    <Compile Include="Integration\CasinoEngine\WinnerInfo.cs" />
+    <Compile Include="Integration\Casino\Game.cs" />
+    <Compile Include="Integration\Casino\GameCategory.cs" />
+    <Compile Include="Integration\Casino\GameID.cs" />
+    <Compile Include="Integration\Casino\GameManager.cs" />
+    <Compile Include="Integration\Casino\GameRef.cs" />
+    <Compile Include="Integration\Casino\JackpotInfo.cs" />
+    <Compile Include="Integration\Casino\Winner.cs" />
+    <Compile Include="Integration\Finance\BankWithdrawalCountryConfig.cs" />
+    <Compile Include="Integration\Finance\CountryList.cs" />
+    <Compile Include="Integration\Finance\CurrencyList.cs" />
+    <Compile Include="Integration\Finance\FilteredListBase.cs" />
+    <Compile Include="Integration\Finance\FinanceExtension.cs" />
+    <Compile Include="Integration\Finance\MoneyHelper.cs" />
+    <Compile Include="Integration\Finance\PaymentMethod.cs" />
+    <Compile Include="Integration\Finance\PaymentMethodCategory.cs" />
+    <Compile Include="Integration\Finance\PaymentMethodManager.cs" />
+    <Compile Include="Integration\Finance\ProcessFee.cs" />
+    <Compile Include="Integration\Finance\ProcessTime.cs" />
+    <Compile Include="Integration\Finance\Range.cs" />
+    <Compile Include="Integration\GmCore\AsyncResult.cs" />
+    <Compile Include="Integration\GmCore\CustomProfileEx.cs" />
+    <Compile Include="Integration\GmCore\GamMatrixClient.cs" />
+    <Compile Include="Integration\GmCore\GmAPIRestClient.cs" />
+    <Compile Include="Integration\GmCore\GmAPIWcfClient.cs" />
+    <Compile Include="Integration\GmCore\GmCoreExtension.cs" />
+    <Compile Include="Integration\GmCore\GmException.cs" />
+    <Compile Include="Integration\GmCore\IGmAPIClient.cs" />
+    <Compile Include="Integration\LiveCasino\Game.cs" />
+    <Compile Include="Integration\LiveCasino\GameManager.cs" />
+    <Compile Include="Integration\LiveCasino\GameType.cs" />
+    <Compile Include="Integration\LiveCasino\LimitSet.cs" />
+    <Compile Include="Integration\LiveCasino\Winner.cs" />
+    <Compile Include="Integration\OddsMatrix\OddsMatrixProxy.cs" />
+    <Compile Include="Integration\Poker\CakePokerProxy.cs" />
+    <Compile Include="Integration\Poker\ENETPokerProxy.cs" />
+    <Compile Include="Integration\Poker\EverleafPokerProxy.cs" />
+    <Compile Include="Integration\Poker\MergePokerProxy.cs" />
+    <Compile Include="Integration\Poker\OverviewData.cs" />
+    <Compile Include="Integration\Poker\Tournament.cs" />
+    <Compile Include="Integration\Poker\Winner.cs" />
+    <Compile Include="Misc\CountryInfo.cs" />
+    <Compile Include="Misc\CountryManager.cs" />
+    <Compile Include="Misc\Email.cs" />
+    <Compile Include="Web\ValidateAntiForgeryToken\AntiForgeryDataSerializer.cs" />
+    <Compile Include="Web\ValidateAntiForgeryToken\ValidateAntiForgeryTokenAttribute.cs" />
+    <None Include="app.config" />
+    <None Include="Misc\LongRunWorker.cs" />
+    <Compile Include="Misc\RegionExtensions.cs" />
+    <Compile Include="Models\Common\Base\ViewModelBase.cs" />
+    <Compile Include="Models\Common\Base\MultiuseView.cs" />
+    <Compile Include="Models\MobileShared\Components\DateSelectorView.cs" />
+    <Compile Include="Models\MobileShared\Casino\Components\GameInfo.cs" />
+    <Compile Include="Models\MobileShared\Casino\Components\GameCategoryData.cs" />
+    <Compile Include="Models\MobileShared\Components\InfoContentViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\LoginFormViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\AddApplicationViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\AmountSelectorViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\ForfeitBonusWarningViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\GenericTabData.cs" />
+    <Compile Include="Models\MobileShared\Components\GenericTabSelectorViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\MenuListViewModel.cs" />
+    <Compile Include="Models\Common\Components\ProfileInput\ProfileInputEditSettings.cs" />
+    <Compile Include="Models\Common\Components\ProfileInput\ProfileInputQuickRegisterSettings.cs" />
+    <Compile Include="Models\Common\Components\ProfileInput\ProfileInputRegisterSettings.cs" />
+    <Compile Include="Models\Common\Components\ProfileInput\ProfileInputSettings.cs" />
+    <Compile Include="Models\MobileShared\Components\SettingsNavigatorViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\StatusNotificationViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\TransactionInfo.cs" />
+    <Compile Include="Models\MobileShared\Components\UserFlowNavigationViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\UserFlowStatusViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\Prepare\PrepareMoneybookers1TapViewModel.cs" />
+    <Compile Include="Models\MobileShared\Deposit\TurkeySMSViewModel.cs" />
+    <Compile Include="Models\MobileShared\LiveCasino\LiveTable.cs" />
+    <Compile Include="Models\MobileShared\LiveCasino\LiveTableCategory.cs" />
+    <Compile Include="Models\MobileShared\LiveCasino\LiveTableProvider.cs" />
+    <Compile Include="Models\MobileShared\Menu\MenuBuilder.cs" />
+    <Compile Include="Models\MobileShared\Menu\MenuEntry.cs" />
+    <Compile Include="Models\MobileShared\Menu\MenuList.cs" />
+    <Compile Include="Models\MobileShared\Promotions\Home\PresentationListViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\AccountPanelViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\HeaderViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\BonusSelectorViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\GamingAccountSelectorViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\ProfileAccountInputViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\ProfileAddressInputViewModel.cs" />
+    <Compile Include="Models\MobileShared\Components\ProfileInputView.cs" />
+    <Compile Include="Models\MobileShared\Components\ProfilePersonalInputViewModel.cs" />
+    <Compile Include="Models\MobileShared\Promotions\Home\ContentListViewModel.cs" />
+    <Compile Include="Models\MobileShared\Promotions\Home\PromotionsContent.cs" />
+    <Compile Include="Models\MobileShared\Components\MetadataContent.cs" />
+    <Compile Include="Models\Common\Base\RemoteableView.cs" />
+    <Compile Include="Models\PlayHippoMobile\QuickRegister\SecondaryInputSettings.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\ProfileBridgeMaster.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BLToolkit.4.dll" />
+    <Content Include="EcmaScript.NET.modified.dll" />
+    <Content Include="Enyim.Caching.dll" />
+    <Content Include="System.Web.Mvc.dll" />
+    <Content Include="System.Web.Routing.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLToolkit\BLToolkit.4.csproj">
+      <Project>{0c325f5d-e50e-4340-8724-d29896ccc583}</Project>
+      <Name>BLToolkit.4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CM\CM.csproj">
+      <Project>{e9c94232-c3f8-4e11-8edb-ff189baa431a}</Project>
+      <Name>CM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GamMatrix.Infrastructure\GamMatrix.Infrastructure.csproj">
+      <Project>{0d9f45ce-13c4-451d-891c-ca1970280578}</Project>
+      <Name>GamMatrix.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GamMatrixAPI\GamMatrixAPI.csproj">
+      <Project>{8eca7e32-7cc8-4768-8043-9d2e6ab9fac7}</Project>
+      <Name>GamMatrixAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)..\EditAssemblyVersion.exe" "$(ProjectDir)..\GamMatrix.Portal\Properties\AssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

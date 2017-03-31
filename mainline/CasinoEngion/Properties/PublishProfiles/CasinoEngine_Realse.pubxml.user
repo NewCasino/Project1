@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Release\CasinoEngine</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BLToolkit.4.dll">
+      <publishTime>01/21/2014 14:42:37</publishTime>
+    </File>
+    <File Include="bin/BookSleeve.dll">
+      <publishTime>01/21/2014 14:42:40</publishTime>
+    </File>
+    <File Include="bin/CasinoEngine.dll">
+      <publishTime>01/21/2014 15:02:10</publishTime>
+    </File>
+    <File Include="bin/CE.dll">
+      <publishTime>01/21/2014 14:42:46</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>03/13/2013 19:46:39</publishTime>
+    </File>
+    <File Include="bin/GamMatrix.Infrastructure.dll">
+      <publishTime>01/21/2014 14:42:52</publishTime>
+    </File>
+    <File Include="bin/GamMatrixAPI.dll">
+      <publishTime>01/21/2014 14:43:09</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/21/2014 14:43:12</publishTime>
+    </File>
+    <File Include="bin/mysql.data.dll">
+      <publishTime>01/21/2014 14:43:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/21/2014 14:43:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/05/2011 17:42:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/21/2014 14:43:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/21/2014 14:43:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/21/2014 14:43:26</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
+      <publishTime>01/21/2014 14:59:01</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
+      <publishTime>01/21/2014 14:59:05</publishTime>
+    </File>
+    <File Include="crossdomain.xml">
+      <publishTime>03/21/2012 16:53:25</publishTime>
+    </File>
+    <File Include="css/default_master.css">
+      <publishTime>02/20/2013 16:24:11</publishTime>
+    </File>
+    <File Include="css/simplemodal.css">
+      <publishTime>12/26/2012 20:49:34</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-bg_diagonals-small_50_262626_40x40.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-bg_flat_0_303030_40x100.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-bg_flat_0_4c4c4c_40x100.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-bg_glass_40_0a0a0a_1x400.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-bg_glass_55_f1fbe5_1x400.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-bg_glass_60_000000_1x400.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-bg_gloss-wave_55_000000_500x100.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-bg_gloss-wave_85_9fda58_500x100.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-bg_gloss-wave_95_f6ecd5_500x100.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-icons_000000_256x240.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-icons_1f1f1f_256x240.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-icons_9fda58_256x240.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-icons_b8ec79_256x240.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/images/ui-icons_ffffff_256x240.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="css/trontastic/jquery-ui-1.8.16.custom.css">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="HttpHandlers/ga.aspx">
+      <publishTime>09/03/2012 18:21:02</publishTime>
+    </File>
+    <File Include="HttpHandlers/return_lobby.ashx">
+      <publishTime>12/13/2013 14:14:56</publishTime>
+    </File>
+    <File Include="HttpHandlers/version.ashx">
+      <publishTime>03/01/2013 19:33:42</publishTime>
+    </File>
+    <File Include="images/add.png">
+      <publishTime>03/02/2012 13:31:31</publishTime>
+    </File>
+    <File Include="images/BetSoft_logo.png">
+      <publishTime>10/12/2012 16:24:58</publishTime>
+    </File>
+    <File Include="images/close.png">
+      <publishTime>03/02/2012 13:31:31</publishTime>
+    </File>
+    <File Include="images/ctxm_logo.png">
+      <publishTime>03/02/2012 13:31:31</publishTime>
+    </File>
+    <File Include="images/del.png">
+      <publishTime>03/02/2012 13:31:31</publishTime>
+    </File>
+    <File Include="images/dropdown.gif">
+      <publishTime>03/02/2012 13:31:31</publishTime>
+    </File>
+    <File Include="images/evolutiongaming_logo.png">
+      <publishTime>05/10/2013 16:14:45</publishTime>
+    </File>
+    <File Include="images/GreenTube_logo.png">
+      <publishTime>10/12/2012 16:24:58</publishTime>
+    </File>
+    <File Include="images/IGT_logo.png">
+      <publishTime>03/02/2012 13:31:31</publishTime>
+    </File>
+    <File Include="images/loading.bg.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="images/loading.gif">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="images/loading.icon.gif">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="images/logo_placeholder.png">
+      <publishTime>03/21/2012 16:53:25</publishTime>
+    </File>
+    <File Include="images/microgaming_logo.png">
+      <publishTime>03/02/2012 13:31:31</publishTime>
+    </File>
+    <File Include="images/netent_logo.png">
+      <publishTime>03/02/2012 13:31:31</publishTime>
+    </File>
+    <File Include="images/no.png">
+      <publishTime>11/26/2012 20:32:37</publishTime>
+    </File>
+    <File Include="images/NYXGaming_logo.png">
+      <publishTime>06/20/2013 17:36:09</publishTime>
+    </File>
+    <File Include="images/OMI_logo.png">
+      <publishTime>02/20/2013 15:24:38</publishTime>
+    </File>
+    <File Include="images/placeholder.png">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="images/playngo_logo.png">
+      <publishTime>06/13/2012 17:39:35</publishTime>
+    </File>
+    <File Include="images/sheriff_logo.png">
+      <publishTime>11/28/2012 17:18:54</publishTime>
+    </File>
+    <File Include="images/sidemenu_item_bg.jpg">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="images/x.png">
+      <publishTime>12/26/2012 20:49:34</publishTime>
+    </File>
+    <File Include="images/XProGaming_logo.png">
+      <publishTime>10/12/2012 16:24:58</publishTime>
+    </File>
+    <File Include="images/yes.png">
+      <publishTime>11/26/2012 20:32:37</publishTime>
+    </File>
+    <File Include="js/expressInstall.swf">
+      <publishTime>03/07/2012 20:43:48</publishTime>
+    </File>
+    <File Include="js/jquery-1.7.2.min.js">
+      <publishTime>04/01/2012 13:34:51</publishTime>
+    </File>
+    <File Include="js/jquery-ui-1.8.16.custom.min.js">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="js/jquery-ui-1.8.18.custom.min.js">
+      <publishTime>04/01/2012 13:34:51</publishTime>
+    </File>
+    <File Include="js/jquery.form.js">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="js/jquery.simplemodal.js">
+      <publishTime>12/26/2012 20:49:34</publishTime>
+    </File>
+    <File Include="js/jquery.string.js">
+      <publishTime>03/02/2012 13:31:31</publishTime>
+    </File>
+    <File Include="js/jquery.template.js">
+      <publishTime>03/02/2012 13:31:31</publishTime>
+    </File>
+    <File Include="js/jquery.validate.min.js">
+      <publishTime>12/02/2011 20:34:22</publishTime>
+    </File>
+    <File Include="js/swfobject.js">
+      <publishTime>03/07/2012 20:43:48</publishTime>
+    </File>
+    <File Include="Views/Configuration/DataDictionary.ascx">
+      <publishTime>04/21/2012 14:20:59</publishTime>
+    </File>
+    <File Include="Views/Configuration/DomainConfig.ascx">
+      <publishTime>12/13/2013 14:14:56</publishTime>
+    </File>
+    <File Include="Views/Configuration/Index.aspx">
+      <publishTime>12/13/2013 14:39:26</publishTime>
+    </File>
+    <File Include="Views/GameManagement/GameEditorDialog.ascx">
+      <publishTime>12/13/2013 14:14:51</publishTime>
+    </File>
+    <File Include="Views/GameManagement/GameList.ascx">
+      <publishTime>12/13/2013 14:14:51</publishTime>
+    </File>
+    <File Include="Views/GameManagement/GamePropertyEditorDialog.ascx">
+      <publishTime>12/13/2013 14:14:51</publishTime>
+    </File>
+    <File Include="Views/GameManagement/Index.aspx">
+      <publishTime>12/13/2013 14:14:51</publishTime>
+    </File>
+    <File Include="Views/GameMonitor/Index.aspx">
+      <publishTime>10/19/2012 13:53:15</publishTime>
+    </File>
+    <File Include="Views/JackpotManagement/Index.aspx">
+      <publishTime>10/19/2012 13:53:15</publishTime>
+    </File>
+    <File Include="Views/JackpotManagement/JackpotEditorDialog.ascx">
+      <publishTime>04/03/2013 14:53:00</publishTime>
+    </File>
+    <File Include="Views/JackpotManagement/JackpotList.ascx">
+      <publishTime>04/03/2013 14:53:00</publishTime>
+    </File>
+    <File Include="Views/LiveCasinoTableManagement/Index.aspx">
+      <publishTime>12/13/2013 14:14:50</publishTime>
+    </File>
+    <File Include="Views/LiveCasinoTableManagement/RegisterTableDialog.ascx">
+      <publishTime>05/10/2013 16:14:45</publishTime>
+    </File>
+    <File Include="Views/LiveCasinoTableManagement/TableEditorDialog.ascx">
+      <publishTime>12/13/2013 14:14:50</publishTime>
+    </File>
+    <File Include="Views/LiveCasinoTableManagement/TableList.ascx">
+      <publishTime>05/17/2013 13:54:57</publishTime>
+    </File>
+    <File Include="Views/LiveCasinoTableManagement/VendorWizards_EvolutionGaming.ascx">
+      <publishTime>12/13/2013 14:14:50</publishTime>
+    </File>
+    <File Include="Views/LiveCasinoTableManagement/VendorWizards_Microgaming.ascx">
+      <publishTime>05/10/2013 16:14:45</publishTime>
+    </File>
+    <File Include="Views/LiveCasinoTableManagement/VendorWizards_NetEnt.ascx">
+      <publishTime>12/13/2013 14:14:50</publishTime>
+    </File>
+    <File Include="Views/LiveCasinoTableManagement/VendorWizards_XProGaming.ascx">
+      <publishTime>05/10/2013 16:14:45</publishTime>
+    </File>
+    <File Include="Views/Loader/App_LocalResources/Error_Inactive.aspx.resx">
+      <publishTime>03/14/2013 14:16:19</publishTime>
+    </File>
+    <File Include="Views/Loader/App_LocalResources/Error_InvalidSession.aspx.ka.resx">
+      <publishTime>06/06/2012 18:30:51</publishTime>
+    </File>
+    <File Include="Views/Loader/App_LocalResources/Error_InvalidSession.aspx.resx">
+      <publishTime>06/06/2012 18:30:51</publishTime>
+    </File>
+    <File Include="Views/Loader/App_LocalResources/Error_InvalidSession.aspx.ru.resx">
+      <publishTime>06/06/2012 18:30:51</publishTime>
+    </File>
+    <File Include="Views/Loader/App_LocalResources/Error_WithdrawOnly.aspx.resx">
+      <publishTime>06/20/2013 17:36:06</publishTime>
+    </File>
+    <File Include="Views/Loader/BallyGaming.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/BetSoft.aspx">
+      <publishTime>12/13/2013 14:14:52</publishTime>
+    </File>
+    <File Include="Views/Loader/CTXM.aspx">
+      <publishTime>12/13/2013 14:14:52</publishTime>
+    </File>
+    <File Include="Views/Loader/Error.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/Error_Inactive.aspx">
+      <publishTime>12/13/2013 14:14:52</publishTime>
+    </File>
+    <File Include="Views/Loader/Error_InvalidSession.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/Error_RestrictedCountries.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/Error_WithdrawOnly.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/EvolutionGaming.aspx">
+      <publishTime>12/13/2013 14:14:52</publishTime>
+    </File>
+    <File Include="Views/Loader/GoogleAnalytics.ascx">
+      <publishTime>12/13/2013 14:14:52</publishTime>
+    </File>
+    <File Include="Views/Loader/GreenTube.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/GreenTube_EnergyCasino.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/IGT.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/Microgaming.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/MicrogamingLiveDealer.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/MicrogamingNano.aspx">
+      <publishTime>12/13/2013 14:14:52</publishTime>
+    </File>
+    <File Include="Views/Loader/MicrogamingNanoXpro.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/NetEnt.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/NetEntHelp.aspx">
+      <publishTime>12/13/2013 14:14:52</publishTime>
+    </File>
+    <File Include="Views/Loader/NetEntLiveDealer.aspx">
+      <publishTime>01/17/2014 14:09:16</publishTime>
+    </File>
+    <File Include="Views/Loader/NetEntMobile.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/Norske.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/NYXGaming.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/OMI.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/PlaynGO.aspx">
+      <publishTime>12/13/2013 14:14:52</publishTime>
+    </File>
+    <File Include="Views/Loader/Sheriff.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Loader/XProGaming.aspx">
+      <publishTime>12/13/2013 14:14:55</publishTime>
+    </File>
+    <File Include="Views/Shared/Default.Master">
+      <publishTime>05/10/2013 16:14:45</publishTime>
+    </File>
+    <File Include="Views/VendorManagement/Index.aspx">
+      <publishTime>12/13/2013 14:14:56</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/13/2013 14:14:51</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/17/2014 19:51:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
