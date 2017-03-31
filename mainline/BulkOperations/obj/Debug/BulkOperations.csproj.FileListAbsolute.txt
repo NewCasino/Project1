@@ -1,0 +1,17 @@
+D:\cms2012\mainline\BulkOperations\bin\Debug\BulkOperations.exe.config
+D:\cms2012\mainline\BulkOperations\bin\Debug\BulkOperations.exe
+D:\cms2012\mainline\BulkOperations\bin\Debug\BulkOperations.pdb
+D:\cms2012\mainline\BulkOperations\obj\Debug\BulkOperations.exe
+D:\cms2012\mainline\BulkOperations\obj\Debug\BulkOperations.pdb
+C:\Cms2012\mainline\BulkOperations\bin\Debug\BulkOperations.exe.config
+C:\Cms2012\mainline\BulkOperations\bin\Debug\BulkOperations.exe
+C:\Cms2012\mainline\BulkOperations\bin\Debug\BulkOperations.pdb
+C:\Cms2012\mainline\BulkOperations\obj\Debug\BulkOperations.exe
+C:\Cms2012\mainline\BulkOperations\obj\Debug\BulkOperations.pdb
+C:\Cms2012\mainline\BulkOperations\obj\Debug\BulkOperations.csprojResolveAssemblyReference.cache
+C:\Project2\mainline\BulkOperations\bin\Debug\BulkOperations.exe.config
+C:\Project2\mainline\BulkOperations\bin\Debug\BulkOperations.exe
+C:\Project2\mainline\BulkOperations\bin\Debug\BulkOperations.pdb
+C:\Project2\mainline\BulkOperations\obj\Debug\BulkOperations.csprojResolveAssemblyReference.cache
+C:\Project2\mainline\BulkOperations\obj\Debug\BulkOperations.exe
+C:\Project2\mainline\BulkOperations\obj\Debug\BulkOperations.pdb

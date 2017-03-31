@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{418634B2-8D66-42DB-9FCC-800639EC4540}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BookSleeve</RootNamespace>
+    <AssemblyName>BookSleeve</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CLUSTER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\BookSleeve.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\BookSleeve.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>BookSleeve.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CE_RELEASE|AnyCPU'">
+    <OutputPath>bin\CE_RELEASE\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\BookSleeve.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CMS_RELEASE|AnyCPU'">
+    <OutputPath>bin\CMS_RELEASE\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientInfo.cs" />
+    <Compile Include="Condition.cs" />
+    <Compile Include="ConnectionUtils.cs" />
+    <Compile Include="IClusterCommands.cs">
+      <DependentUpon>RedisConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IClusterStringCommands.cs">
+      <DependentUpon>RedisCluster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IScriptingCommands.cs">
+      <DependentUpon>RedisConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IServerCommands.cs">
+      <DependentUpon>RedisConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISortedSetCommands.cs">
+      <DependentUpon>RedisConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ISetCommands.cs">
+      <DependentUpon>RedisConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IKeyCommands.cs">
+      <DependentUpon>RedisConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IHashCommands.cs">
+      <DependentUpon>RedisConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IStringCommands.cs">
+      <DependentUpon>RedisConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventArgs.cs" />
+    <Compile Include="IListCommands.cs">
+      <DependentUpon>RedisConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedisAggregate.cs" />
+    <Compile Include="RedisCluster.cs" />
+    <Compile Include="RedisCommand.cs" />
+    <Compile Include="RedisConnection.cs" />
+    <Compile Include="RedisConnectionBase.cs" />
+    <Compile Include="RedisCounters.cs" />
+    <Compile Include="RedisFeatures.cs" />
+    <Compile Include="RedisTransaction.cs" />
+    <Compile Include="RedisResult.cs" />
+    <Compile Include="RedisSubscriberConnection.cs" />
+    <Compile Include="MessageQueue.cs" />
+    <Compile Include="ResultCompletionMode.cs" />
+    <Compile Include="ShutdownType.cs" />
+    <Compile Include="TaskUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\license.txt">
+      <Link>license.txt</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BookSleeve.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

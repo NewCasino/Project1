@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:fx="http://ns.adobe.com/mxml/2009" creationComplete="onCreateComplete(event)"
+				xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:local="*"
+				layout="absolute" clipContent="true" width="100%" height="100%" minHeight="300" xmlns:sparkTree="com.sparkTree.*">
+	<fx:Style>
+		@namespace mx "library://ns.adobe.com/flex/mx";
+		global { fontSize:12px; fontFamily: Consolas, Tahoma, simsun, '_sans'; }
+		mx.controls.ToolTip { fontSize:12px; fontFamily: Consolas, Tahoma, simsun, '_sans';	}
+		#ctrlVendorContainer { backgroundColor: white; }
+	</fx:Style>
+	<fx:Script>
+		<![CDATA[
+			import flash.events.ContextMenuEvent;
+			
+			import mx.collections.ArrayCollection;
+			import mx.collections.XMLListCollection;
+			import mx.containers.TitleWindow;
+			import mx.controls.Alert;
+			import mx.controls.ToolTip;
+			import mx.core.UIComponent;
+			import mx.events.DragEvent;
+			import mx.events.FlexEvent;
+			import mx.events.ListEvent;
+			import mx.managers.DragManager;
+			import mx.managers.PopUpManager;
+			import mx.rpc.events.ResultEvent;
+			import mx.utils.UIDUtil;
+			private var m_bRemoveFromList : Boolean = false;
+			private var m_oTreeXml : XML = null;
+			private var m_oGridXml : XML = null;
+			private var m_oLoadingSpin : LoadingSpin = null;
+			
+			[Embed(source='success.png')]
+			private static var ICON_SUCCESS:Class;
+			
+			private function showLoadingSpin() : void{
+				m_oLoadingSpin = PopUpManager.createPopUp(this, LoadingSpin, true) as LoadingSpin;
+				PopUpManager.centerPopUp(m_oLoadingSpin);
+			}
+			
+			private function hideLoadingSpin() : void{
+				if( m_oLoadingSpin != null ){
+					PopUpManager.removePopUp(m_oLoadingSpin);
+					m_oLoadingSpin = null;
+				}
+			}
+
+
+			public function isDroppingToRoot() : Boolean {
+				var dropData : Object = tree.mx_internal::_dropData as Object;
+				return dropData.parent == null;
+			}
+			
+			public function isDroppingToCategory() : Boolean {
+				var dropData : Object = tree.mx_internal::_dropData as Object;
+				return dropData.parent != null && dropData.parent.@type == "category";
+			}
+			
+			public function insertNode(node:XML) : Boolean {
+				var dropData : Object = tree.mx_internal::_dropData as Object;
+				var parentNode : XML = dropData.parent as XML;
+				if( parentNode == null )
+					return false;
+				var length : int  = parentNode.children().length();
+				if( length == 0 )
+					parentNode.appendChild(node);
+				else{
+					if( dropData.index == 0 )
+						parentNode.insertChildBefore( parentNode.children()[0], node);
+					else if( dropData.index < length )
+						parentNode.insertChildBefore( parentNode.children()[dropData.index], node);
+					else
+						parentNode.insertChildAfter( parentNode.children()[length-1], node);
+				}
+				return true;
+			}
+
+			
+			
+			
+			private function onMenuSelect(evt:ContextMenuEvent) : void {
+				tree.contextMenu.customItems = [];
+				
+				if( this.parameters["hideCreateCategoryMenu"] != "true" )
+				{
+					var cmi:ContextMenuItem = new ContextMenuItem("Create Category...", true);
+					cmi.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, this.onMenuCreateCategorySelect);
+					tree.contextMenu.customItems.push(cmi);	
+				}
+
+				if( this.parameters["hideCreateGroupMenu"] != "true" )
+				{
+					if( tree.selectedItem != null && tree.selectedItem.@type == "category" ){
+						cmi = new ContextMenuItem("Create Game Group...", false);
+						cmi.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, this.onMenuCreateGameGroupSelect);
+						tree.contextMenu.customItems.push(cmi);
+					}
+				}
+			}
+			
+			private function onMenuCreateCategorySelect(evt:ContextMenuEvent) : void {
+				var inputWindow : InputDialog = PopUpManager.createPopUp(this, InputDialog, true) as InputDialog;
+				PopUpManager.centerPopUp(inputWindow);
+				inputWindow.m_pfnCallback = this.createCategory;
+			}
+			
+			
+			
+			private function onMenuCreateGameGroupSelect(evt:ContextMenuEvent) : void {
+				var inputWindow : InputDialog = PopUpManager.createPopUp(this, InputDialog, true) as InputDialog;
+				PopUpManager.centerPopUp(inputWindow);
+				inputWindow.m_pfnCallback = this.createGameGroup;
+			}
+			
+			private function createCategory(name:String) : void{
+				
+				
+				var node : XML = <node type="category" isBranch="true" />;
+				node.@id = UIDUtil.createUID();
+				node.@label = name;
+				
+				if( m_oTreeXml != null ){
+					if( m_oTreeXml.children().length() == 0 )
+					{
+						try
+						{
+							m_oTreeXml.appendChild(node);
+						}
+						catch(e:Error){
+							m_oTreeXml = new XML("<root></root>");
+							m_oTreeXml.appendChild(node);
+						}
+					}						
+					else
+						m_oTreeXml.insertChildBefore( m_oTreeXml.children()[0], node);
+				}
+				
+				tree.expandItem(node, true);
+			}
+			
+			private function createGameGroup(name:String) : void{
+				
+				
+				var node : XML = <node type="group" isBranch="true" />;
+				node.@id = UIDUtil.createUID();
+				node.@label = name;
+				
+				if( tree.selectedItem.@type == "category" ){
+					if( tree.selectedItem.children().length() == 0 )
+						tree.selectedItem.appendChild(node);
+					else
+						tree.selectedItem.insertChildBefore( tree.selectedItem.children()[0], node);
+				}
+				tree.expandItem(node, true);
+			}
+			
+			protected function onBtnToggleFullscreenClick(event:MouseEvent):void
+			{
+				if( this.stage.displayState == StageDisplayState.NORMAL ){
+					try{
+						this.stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
+					}
+					catch(e:Error){
+						this.stage.displayState = StageDisplayState.FULL_SCREEN;
+					}
+				}
+				else
+					this.stage.displayState = StageDisplayState.NORMAL;
+			}
+			
+			protected function onHideAssignedGames(event:Event):void
+			{
+				loadList();
+				
+			}
+			
+			private function filterNode(node:XML) : Boolean{
+				if( node.@vendor == null )
+					return true;
+
+				var vendors : String = this.parameters["vendors"] as String;
+				if( vendors == null || vendors.length == 0 )
+					return true;
+				return vendors.indexOf(node.@vendor) >= 0;
+			}
+			
+			protected function onCreateComplete(event:FlexEvent):void
+			{		
+				showLoadingSpin();
+				
+				// Menu
+				var contextMenu : ContextMenu = new ContextMenu();
+				contextMenu.hideBuiltInItems();		
+				contextMenu.addEventListener(ContextMenuEvent.MENU_SELECT, this.onMenuSelect);
+				tree.contextMenu = contextMenu;
+				
+				// ComboBox
+				var vendors : Array = (this.parameters["vendors"] as String).split(',');
+				var dpNames:ArrayCollection = new ArrayCollection();
+				for each( var vendor : String in vendors){
+					dpNames.addItem ({label: vendor, data: vendor});
+				}
+				
+				ddlVendor.dataProvider = dpNames;
+				
+				CustomTreeItemRenderer.disableCategoryDeleteButton = this.parameters["disableCategoryDeleteButton"] == "true";
+				CustomTreeItemRenderer.showGameEditButton = this.parameters["showGameEditButton"] == "true";
+				CustomTreeItemRenderer.refreshListHandler = this.loadList;
+				CustomTreeItemRenderer.checkGameAvailable = this.checkGameAvailable;
+				
+				treeHttpXml.url = this.parameters["getGameXmlUrl"] as String;
+				gridHttpXml.url = this.parameters["getGridXmlUrl"] as String;
+				gridHttpXml.send();
+				
+				
+			}
+			
+			private function loadList() : void{
+				if( m_oGridXml != null ){
+					var xml : XML = new XML(m_oGridXml.toXMLString());
+					var filtered:XMLList = xml.descendants().(attribute("vendor") == ddlVendor.value);
+					if( btnHideAssignedGames.selected && m_oTreeXml != null ){
+						for( var i : int = filtered.length() - 1; i >= 0; i--){
+							if( m_oTreeXml.descendants().(attribute("id") == filtered[i].@id).length() > 0 )
+								delete filtered[i];
+						}
+					}
+					grid.dataProvider = filtered;
+				}
+			}
+			
+			protected function onVendorChanged(event:ListEvent):void
+			{
+				loadList();
+			}
+			
+			private function checkGameAvailable(id:*) : Boolean{
+				if( id == null )
+					return false;
+				
+				if( m_oGridXml == null )
+					return true;
+				
+				return m_oGridXml.descendants().(attribute("id") == id.toString()).length() > 0;
+			}
+			
+			protected function onGetTreeXml(evt:ResultEvent):void
+			{
+				m_oTreeXml = XML(evt.result);
+				tree.dataProvider = m_oTreeXml;	
+				tree.openItems = m_oTreeXml..node;
+				loadList();
+				hideLoadingSpin();
+			}
+			
+			protected function onBtnRefreshClick(event:MouseEvent):void
+			{
+				
+				treeHttpXml.send();				
+			}
+			
+			protected function onGetGridXml(evt:ResultEvent):void
+			{
+				m_oGridXml = XML(evt.result);
+				loadList();
+				onBtnRefreshClick(null);
+			}
+			
+			private function saveCategoryAsync() : void{
+				var loader : URLLoader = new URLLoader();  
+				var request : URLRequest = new URLRequest( this.parameters["saveGameCategoryUrl"] as String );  
+				request.method = URLRequestMethod.POST; 
+				var variables : URLVariables = new URLVariables();  
+				variables.xmlStr = m_oTreeXml.toXMLString();
+				request.data = variables;  
+				
+				loader.addEventListener(Event.COMPLETE, this.onSaveComplete);  
+				showLoadingSpin();
+				loader.load(request);  
+			}
+			
+			private function onSaveComplete(evt: Event) : void{
+				hideLoadingSpin();
+				var loader:URLLoader = URLLoader(evt.target);
+				if( loader.data == "OK" )
+					Alert.show("The operation has been completed successfully!", "Success", 4, null, null, ICON_SUCCESS);
+				else
+					Alert.show( loader.data, "Error");
+			}
+			
+			protected function onBtnSaveClick(event:MouseEvent):void
+			{
+				saveCategoryAsync();
+			}
+			
+			private function tree_labelFunc(xml:XML):String {
+				if( xml.@platforms == null || xml.@platforms.toString().length == 0 )
+					return xml.@label;
+
+				return xml.@label + ' (' + xml.@platforms + ')';
+			}
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<mx:HTTPService id="treeHttpXml" resultFormat="e4x" result="onGetTreeXml(event)" />
+		<mx:HTTPService id="gridHttpXml" resultFormat="e4x" result="onGetGridXml(event)" />
+	</fx:Declarations>
+	
+	
+	<mx:Grid width="99%" height="99%" horizontalCenter="0" verticalCenter="0">
+		<mx:GridRow width="100%" height="25">
+			<mx:GridItem>
+				<mx:Button label="Toggle Fullscreen" click="onBtnToggleFullscreenClick(event)" icon="@Embed('monitor.png')" />
+				<mx:Button id="btnSave" label="Save" icon="@Embed('save.gif')" click="onBtnSaveClick(event)" />
+				<mx:Button visible="false" id="btnRefresh" label="Refresh" click="onBtnRefreshClick(event)" icon="@Embed('refresh.gif')" />
+			</mx:GridItem>
+			<mx:GridItem>
+				<mx:ComboBox id="ddlVendor" editable="false" change="onVendorChanged(event)" />
+				<mx:CheckBox id="btnHideAssignedGames" change="onHideAssignedGames(event)" label="Hide assigned games" selected="true" />
+			</mx:GridItem>
+		</mx:GridRow>
+		<mx:GridRow width="100%" height="100%">
+			<mx:GridItem width="50%" height="100%">
+				<mx:Tree id="tree"
+						 labelField="@label"
+						 labelFunction="tree_labelFunc"
+						 showRoot="false"
+						 borderStyle="none"
+						 verticalScrollPolicy="on"
+						 alternatingItemColors="[#FFFFFF,#D9E8F4]"
+						 showScrollTips="true"
+						 dragEnabled="true"
+						 dropEnabled="true"
+						 dragMoveEnabled="true"
+						 width="100%"
+						 height="100%"
+						 itemRenderer="CustomTreeItemRenderer"
+						 dataDescriptor="{new CustomTreeDataDescriptor(this.filterNode)}"
+						 >
+					<mx:dragEnter>
+						<![CDATA[
+						if( event.dragInitiator is DataGrid ){
+							event.preventDefault();
+						
+							var draggedFormat:String = event.dragSource.formats[0];
+							var draggedItems:Array = event.dragSource.dataForFormat(draggedFormat) as Array;
+							if( draggedItems.length != 1 ) return;
+							var draggedItem : Object = draggedItems[0];
+
+							DragManager.acceptDragDrop(UIComponent(event.target));
+							tree.showDropFeedback(event);
+						}
+						]]>
+					</mx:dragEnter>
+					<mx:dragOver>
+						<![CDATA[
+							var draggedFormat:String = event.dragSource.formats[0];
+							var draggedItems:Array = event.dragSource.dataForFormat(draggedFormat) as Array;
+							if( draggedItems.length != 1 ) return;
+							var draggedItem : Object = draggedItems[0];
+
+							// reorder
+							if( event.dragInitiator is mx.controls.Tree ){
+								tree.showDropFeedback(event);
+								var type : String = draggedItem.@type;
+							}
+							// drag from List to Tree
+							else if( event.dragInitiator is DataGrid ){
+								trace( "DataGrid dragOver");
+								var dropIndex:int = tree.calculateDropIndex(event);
+								tree.selectedIndex = dropIndex; 
+								tree.showDropFeedback(event);
+								event.preventDefault();
+							}							
+						]]>
+					</mx:dragOver>
+					<mx:dragExit>
+						<![CDATA[
+						event.preventDefault();
+						tree.hideDropFeedback(event);
+						]]>
+					</mx:dragExit>
+					<mx:dragComplete>
+						<![CDATA[
+						tree.hideDropFeedback(event);
+						trace(m_oTreeXml.toXMLString());
+						]]>
+					</mx:dragComplete>
+					<mx:dragDrop>
+						<![CDATA[
+						var draggedFormat:String = event.dragSource.formats[0];
+						var draggedItems:Array = event.dragSource.dataForFormat(draggedFormat) as Array;
+						if( draggedItems.length != 1 ) return;
+						var draggedItem : XML = draggedItems[0];
+						
+						// for tree
+						if( event.dragInitiator is mx.controls.Tree ){
+							if( draggedItem.@type == "category" ){
+								if(!isDroppingToRoot() ){
+									tree.hideDropFeedback(event);
+									event.preventDefault();
+									Alert.show("You are not allowed to move the category into another category", "Error");
+								}
+							}
+							else if( draggedItem.@type == "group" ){
+								if( !isDroppingToCategory() ){
+									tree.hideDropFeedback(event);
+									event.preventDefault();
+									Alert.show("Game group can only be put under category!", "Error");
+								}								
+							}
+							else{
+								if( isDroppingToRoot() ){
+									tree.hideDropFeedback(event);
+									event.preventDefault();
+									Alert.show("You are not allowed to put the game on the root level.[1]", "Error");
+								}								
+							}
+						}
+						// Data Grid
+						else if( event.dragInitiator is DataGrid ){
+							var dropIndex:int = tree.calculateDropIndex(event);
+							tree.selectedIndex = dropIndex; 
+							trace( "DataGrid dragDrop, Index=" + dropIndex );
+							if( isDroppingToRoot() ){
+								if( tree.selectedItem.@type == "category" ){
+									tree.hideDropFeedback(event);
+									event.preventDefault();
+									DragManager.acceptDragDrop(null);
+									m_bRemoveFromList = false;
+									Alert.show("You are not allowed to put the game on the root level.[2]", "Error");
+									return;
+								}
+							}
+							var item : XML = <node></node>;
+							item.@label = draggedItem.@label;
+							item.@type = draggedItem.@type;
+							item.@vendor = draggedItem.@vendor;
+							item.@id = draggedItem.@id;
+							item.@categories = draggedItem.@categories;
+							item.@platforms = draggedItem.@platforms;
+							m_bRemoveFromList = btnHideAssignedGames.selected;
+							if( !insertNode(item) ){
+								tree.selectedItem.parent().insertChildBefore( tree.selectedItem, item);
+							}
+						}
+						
+						]]>
+					</mx:dragDrop>
+				</mx:Tree>
+			</mx:GridItem>
+			<mx:GridItem width="50%" height="100%">
+				<mx:DataGrid width="100%" height="100%" id="grid" 
+					 dragEnabled="true" dropEnabled="true" dragMoveEnabled="true" draggableColumns="false">
+					<mx:dragEnter>
+						<![CDATA[
+						event.preventDefault();
+						]]>
+					</mx:dragEnter>
+					<mx:dragComplete>
+						<![CDATA[
+						if( event.dragInitiator is DataGrid ){
+							trace( "DataGrid dragComplete" );
+							trace(m_oTreeXml.toXMLString());
+							if( !m_bRemoveFromList )
+								event.preventDefault();
+						}
+						]]>
+					</mx:dragComplete>
+					<mx:dragExit>
+						<![CDATA[
+						trace( "DataGrid dragExit" );
+						]]>
+					</mx:dragExit>
+					<mx:dragDrop>
+						<![CDATA[
+							trace( "DataGrid dragDrop" );
+						]]>
+					</mx:dragDrop>
+					<mx:columns>
+						<mx:DataGridColumn headerText="Game" dataField="@label" />
+						<mx:DataGridColumn width="100" headerText="ID" dataField="@id" />						
+						<mx:DataGridColumn width="100" headerText="Categories" dataField="@categories" />
+						<mx:DataGridColumn width="100" headerText="Platform" dataField="@platforms" />
+					</mx:columns>
+				</mx:DataGrid>
+			</mx:GridItem>
+		</mx:GridRow>
+	</mx:Grid>
+	
+</mx:Application>

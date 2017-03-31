@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C386BC60-EE7B-47A5-A737-B3EA4B066824}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BulkOperations</RootNamespace>
+    <AssemblyName>BulkOperations</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\OperationCollection.cs" />
+    <Compile Include="Config\OperationElementProxy.cs" />
+    <Compile Include="Config\Operations\FileBackupSettings.cs" />
+    <Compile Include="Config\Operations\FileCopySettings.cs" />
+    <Compile Include="Config\Operations\FileDeleteSettings.cs" />
+    <Compile Include="Config\Operations\FileRestoreSettings.cs" />
+    <Compile Include="OperationProcessor.cs" />
+    <Compile Include="ILogger.cs" />
+    <Compile Include="OperationQueue.cs" />
+    <Compile Include="Config\OperationSection.cs" />
+    <Compile Include="Config\OperationElement.cs" />
+    <Compile Include="Operations\BackupOperation.cs" />
+    <Compile Include="Operations\IOperation.cs" />
+    <Compile Include="Operations\Custom\Obsolete\MainLogoDelete.cs" />
+    <Compile Include="Operations\Custom\Obsolete\MainLogoMetaLink.cs" />
+    <Compile Include="Operations\Custom\MobileTest.cs" />
+    <Compile Include="Operations\OperationBase.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Operations\Custom\Obsolete\MainLogoCopy.cs" />
+    <Compile Include="Operations\Standard\FileBackup.cs" />
+    <Compile Include="Operations\Standard\FileCopy.cs" />
+    <Compile Include="Operations\Standard\FileDelete.cs" />
+    <Compile Include="Operations\Standard\FileRestore.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

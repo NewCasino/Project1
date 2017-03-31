@@ -1,0 +1,13 @@
+Log created at 4/7/2014 12:02:06 PM
+
+Copying main logo url from \Components\_HeaderView_ascx\.Url_MainLogo to \Metadata\Settings\.Operator_LogoUrl
+Copied for: MobileShared
+
+Replacing this.GetMetadata(".Url_MainLogo") with this.GetMetadata("/Metadata/Settings/.Operator_LogoUrl") in \Components\HeaderView.ascx
+Replaced for: MobileShared
+
+Deleting file \Components\_HeaderView_ascx\.Url_MainLogo
+Deleted for: MobileShared
+
+Testing for mobile operators
+Found mobile: MobileShared

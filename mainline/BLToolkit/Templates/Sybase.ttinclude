@@ -1,0 +1,444 @@
+﻿<#
+	ConnectionType = "Sybase.Data.AseClient.AseConnection, Sybase.AdoNet2.AseClient";
+#><#+
+
+bool GenerateSybaseSystemTables = false;
+
+private void LoadServerMetadata()
+{
+	var tables  = CreateList(new { ID = 0, Table  = new Table()  });
+	var columns = CreateList(new { ID = 0, Column = new Column() });
+
+	using (var conn = GetConnection())
+	using (var cmd  = conn.CreateCommand())
+	{
+		// Load tables & vies.
+		//
+		cmd.CommandText = @"
+			SELECT
+				id,
+				USER_NAME(uid),
+				name,
+				type
+			FROM
+				sysobjects
+			WHERE
+				type IN ('U','V')";
+
+		using (var rd = cmd.ExecuteReader())
+		{
+			while (rd.Read())
+			{
+				var t = new
+				{
+					ID    = Convert.ToInt32(rd[0]),
+					Table = new Table
+					{
+						Owner         = rd[1].ToString(),
+						TableName     = rd[2].ToString(),
+						ClassName     = rd[2].ToString(),
+						IsView        = rd[3].ToString()[0] == 'V',
+						BaseClassName = BaseEntityClass,
+					}
+				};
+
+				tables.Add(t);
+			}
+		}
+
+		// Load columns.
+		//
+		cmd.CommandText = @"
+			SELECT
+				o.id,
+				c.colid,
+				c.name,
+				c.status,
+				c.usertype,
+				t.type,
+				c.length,
+				c.prec,
+				c.scale,
+				t.name as typename,
+				Convert(bit, c.status & 0x08) isNullable,
+				Convert(bit, c.status & 0x80) isIdentity
+			FROM
+				syscolumns c
+					JOIN sysobjects o ON c.id       = o.id
+					JOIN systypes   t ON c.usertype = t.usertype
+			WHERE
+				o.type IN ('U','V')";
+
+		using (var rd = cmd.ExecuteReader())
+		{
+			while (rd.Read())
+			{
+				var col = new
+				{
+					ID     = Convert.ToInt32(rd["id"]),
+					Column = new Column
+					{
+						ID         = Convert.ToInt16(rd["colid"]),
+						ColumnName = Convert.ToString (rd["name"]),
+						MemberName = Convert.ToString (rd["name"]),
+						ColumnType = Convert.ToString(rd["typename"]),
+						IsNullable = Convert.ToBoolean(rd["isNullable"]),
+						IsIdentity = Convert.ToBoolean(rd["isIdentity"]),
+						Length     = rd.IsDBNull(rd.GetOrdinal("length")) ? 0 : Convert.ToInt64(rd["length"]),
+						Precision  = rd.IsDBNull(rd.GetOrdinal("prec"))   ? 0 : Convert.ToInt32(rd["prec"]),
+						Scale      = rd.IsDBNull(rd.GetOrdinal("scale"))  ? 0 : Convert.ToInt32(rd["scale"]),
+					}
+				};
+
+				var c = col.Column;
+
+				switch (Convert.ToInt32(rd["type"]))
+				{
+					case  34 /* image         */ : c.Type = "byte[]";   c.DbType = DbType.Binary;    c.SqlDbType = SqlDbType.Image;         break;
+					case  35 /* text          */ : c.Type = "string";   c.DbType = DbType.String;    c.SqlDbType = SqlDbType.Text;          break;
+					case  45 /* binary        */ : c.Type = "byte[]";   c.DbType = DbType.Binary;    c.SqlDbType = SqlDbType.Binary;        break;
+					case  48 /* tinyint       */ : c.Type = "byte";     c.DbType = DbType.Byte;      c.SqlDbType = SqlDbType.TinyInt;       break;
+					case  49 /* date          */ : c.Type = "DateTime"; c.DbType = DbType.Date;      c.SqlDbType = SqlDbType.Date;          break;
+					case  50 /* bit           */ : c.Type = "bool";     c.DbType = DbType.Boolean;   c.SqlDbType = SqlDbType.Bit;           break;
+					case  51 /* time          */ : c.Type = "DateTime"; c.DbType = DbType.Time;      c.SqlDbType = SqlDbType.Time;          break;
+					case  52 /* smallint      */ : c.Type = "short";    c.DbType = DbType.Int16;     c.SqlDbType = SqlDbType.SmallInt;      break;
+					case  55 /* decimal       */ : c.Type = "decimal";  c.DbType = DbType.Decimal;   c.SqlDbType = SqlDbType.Decimal;       break;
+					case  56 /* int           */ : c.Type = "int";      c.DbType = DbType.Int32;     c.SqlDbType = SqlDbType.Int;           break;
+					case  58 /* smalldatetime */ : c.Type = "DateTime"; c.DbType = DbType.DateTime;  c.SqlDbType = SqlDbType.SmallDateTime; break;
+					case  59 /* real          */ : c.Type = "float";    c.DbType = DbType.Single;    c.SqlDbType = SqlDbType.Real;          break;
+					case  60 /* money         */ : c.Type = "decimal";  c.DbType = DbType.Currency;  c.SqlDbType = SqlDbType.Money;         break;
+					case  61 /* datetime      */ : c.Type = "DateTime"; c.DbType = DbType.DateTime;  c.SqlDbType = SqlDbType.DateTime;      break;
+					case  62 /* float         */ : c.Type = "double";   c.DbType = DbType.Double;    c.SqlDbType = SqlDbType.Float;         break;
+					case  63 /* numeric       */ : c.Type = "decimal";  c.DbType = DbType.Decimal;   c.SqlDbType = SqlDbType.Decimal;       break;
+					case  65 /* usmallint     */ : c.Type = "ushort";   c.DbType = DbType.UInt16;    c.SqlDbType = SqlDbType.SmallInt;      break;
+					case  66 /* uint          */ : c.Type = "uint";     c.DbType = DbType.UInt32;    c.SqlDbType = SqlDbType.Int;           break;
+					case  67 /* ubigint       */ : c.Type = "ulong";    c.DbType = DbType.UInt64;    c.SqlDbType = SqlDbType.BigInt;        break;
+					case 122 /* smallmoney    */ : c.Type = "decimal";  c.DbType = DbType.Currency;  c.SqlDbType = SqlDbType.SmallMoney;    break;
+					case 174 /* unitext       */ : c.Type = "string";   c.DbType = DbType.String;    c.SqlDbType = SqlDbType.NText;         break;
+					case 189 /* bigdatetime   */ : c.Type = "DateTime"; c.DbType = DbType.DateTime2; c.SqlDbType = SqlDbType.DateTime2;     break;
+					case 190 /* bigtime       */ : c.Type = "DateTime"; c.DbType = DbType.DateTime2; c.SqlDbType = SqlDbType.DateTime2;     break;
+					case 191 /* bigint        */ : c.Type = "long";     c.DbType = DbType.Int64;     c.SqlDbType = SqlDbType.BigInt;        break;
+
+					case  37 /* varbinary     */
+					         /* timestamp     */ :
+						c.Type      = "byte[]";
+						c.DbType    = DbType.Binary;
+						c.SqlDbType = Convert.ToString(rd["typename"]) == "timestamp" ? SqlDbType.Timestamp : SqlDbType.VarBinary;
+						break;
+
+					case  39 /* sysname       */
+					         /* longsysname   */
+					         /* varchar       */
+					         /* nvarchar      */ :
+
+						c.Type = "string";
+
+						if (Convert.ToString(rd["typename"]) == "nvarchar")
+						{
+							c.DbType    = DbType.String;
+							c.SqlDbType = SqlDbType.NVarChar; 
+						}
+						else
+						{
+							c.DbType    = DbType.AnsiString;
+							c.SqlDbType = SqlDbType.VarChar;
+						}
+
+						break;
+
+					case  47 /* char          */
+					         /* nchar         */ : 
+
+						c.Type      = Convert.ToInt32 (rd["length"])   == 1      ? "char" : "string";
+						c.DbType    = Convert.ToString(rd["typename"]) == "char" ? DbType.AnsiStringFixedLength : DbType.StringFixedLength;
+						c.SqlDbType = Convert.ToString(rd["typename"]) == "char" ? SqlDbType.Char : SqlDbType.NChar;
+						break;
+
+					case 135 /* unichar       */ :
+						c.Type      = Convert.ToInt32 (rd["length"]) == 1 ? "char" : "string";
+						c.DbType    = DbType.StringFixedLength;
+						c.SqlDbType = SqlDbType.NChar;
+						break;
+
+					case 155 /* univarchar    */ :
+						c.Type      = Convert.ToInt32 (rd["length"]) == 1 ? "char" : "string";
+						c.DbType    = DbType.String;
+						c.SqlDbType = SqlDbType.NVarChar;
+						break;
+
+					case  36 /* extended type */ :
+					case  38 /* intn          */ : 
+					case  68 /* uintn         */ : 
+					case 106 /* decimaln      */ : 
+					case 108 /* numericn      */ : 
+					case 109 /* floatn        */ : 
+					case 110 /* moneyn        */ : 
+					case 111 /* datetimn      */ : 
+					case 123 /* daten         */ : 
+					case 147 /* timen         */ : 
+					case 187 /* bigdatetimen  */ : 
+					case 188 /* bigtimen      */ : c.Type = "byte[]";   c.DbType = DbType.Binary;    c.SqlDbType = SqlDbType.Binary;        break;
+				}
+
+				switch (c.Type)
+				{
+					case "string" :
+					case "byte[]" : c.IsClass = true; break;
+				}
+
+				if (c.IsNullable && !c.IsClass)
+					c.Type += "?";
+
+				columns.Add(col);
+			}
+		}
+
+		// Load PKs.
+		//
+		cmd.CommandText = @"
+			SELECT
+				i.id,
+				i.name,
+				INDEX_COL(USER_NAME(o.uid) + '.' + o.name, i.indid, c.colid) AS colname,
+				INDEX_COLORDER(USER_NAME(o.uid) + '.' + o.name, i.indid, c.colid) AS [order],
+				c.colid
+			FROM
+				sysindexes i
+					JOIN sysobjects o ON i.id = o.id
+					JOIN syscolumns c ON i.id = c.id
+			WHERE
+				i.status2 & 2 = 2 AND
+				i.status & 2048 = 2048 AND
+				i.indid > 0 AND
+				c.colid < i.keycnt + CASE WHEN i.indid = 1 THEN 1 ELSE 0 END";
+
+		using (var rd = cmd.ExecuteReader())
+		{
+			while (rd.Read())
+			{
+				var id      = Convert.ToInt32 (rd["id"]);
+				var colid   = Convert.ToInt32 (rd["colid"]);
+				var colname = Convert.ToString(rd["colname"]);
+
+				columns.Single(_ => _.ID == id && _.Column.ColumnName == colname).Column.PKIndex = colid;
+			}
+		}
+
+		// Load FKs.
+		//
+		cmd.CommandText = @"
+			SELECT
+				o.name     as Name,
+				c.tableid  as ThisTable,
+				r.reftabid as OtherTable,
+				COL_NAME(c.tableid, r.fokey1) as ThisColumn1,
+				COL_NAME(c.tableid, r.fokey2) as ThisColumn2,
+				COL_NAME(c.tableid, r.fokey3) as ThisColumn3,
+				COL_NAME(c.tableid, r.fokey4) as ThisColumn4,
+				COL_NAME(c.tableid, r.fokey5) as ThisColumn5,
+				COL_NAME(c.tableid, r.fokey6) as ThisColumn6,
+				COL_NAME(c.tableid, r.fokey7) as ThisColumn7,
+				COL_NAME(c.tableid, r.fokey8) as ThisColumn8,
+				COL_NAME(c.tableid, r.fokey9) as ThisColumn9,
+				COL_NAME(c.tableid, r.fokey10) as ThisColumn10,
+				COL_NAME(c.tableid, r.fokey11) as ThisColumn11,
+				COL_NAME(c.tableid, r.fokey12) as ThisColumn12,
+				COL_NAME(c.tableid, r.fokey13) as ThisColumn13,
+				COL_NAME(c.tableid, r.fokey14) as ThisColumn14,
+				COL_NAME(c.tableid, r.fokey15) as ThisColumn15,
+				COL_NAME(c.tableid, r.fokey16) as ThisColumn16,
+				COL_NAME(r.reftabid, r.refkey1) as OtherColumn1,
+				COL_NAME(r.reftabid, r.refkey2) as OtherColumn2,
+				COL_NAME(r.reftabid, r.refkey3) as OtherColumn3,
+				COL_NAME(r.reftabid, r.refkey4) as OtherColumn4,
+				COL_NAME(r.reftabid, r.refkey5) as OtherColumn5,
+				COL_NAME(r.reftabid, r.refkey6) as OtherColumn6,
+				COL_NAME(r.reftabid, r.refkey7) as OtherColumn7,
+				COL_NAME(r.reftabid, r.refkey8) as OtherColumn8,
+				COL_NAME(r.reftabid, r.refkey9) as OtherColumn9,
+				COL_NAME(r.reftabid, r.refkey10) as OtherColumn10,
+				COL_NAME(r.reftabid, r.refkey11) as OtherColumn11,
+				COL_NAME(r.reftabid, r.refkey12) as OtherColumn12,
+				COL_NAME(r.reftabid, r.refkey13) as OtherColumn13,
+				COL_NAME(r.reftabid, r.refkey14) as OtherColumn14,
+				COL_NAME(r.reftabid, r.refkey15) as OtherColumn15,
+				COL_NAME(r.reftabid, r.refkey16) as OtherColumn16
+			FROM
+				sysreferences r
+					JOIN sysconstraints c ON r.constrid = c.constrid
+						JOIN sysobjects o  ON c.constrid = o.id
+						JOIN sysobjects o3 ON c.tableid  = o3.id
+					LEFT JOIN sysobjects o2 ON r.reftabid = o2.id
+					JOIN sysreferences r2 ON r.constrid = r2.constrid
+						LEFT JOIN sysindexes i ON r2.indexid = i.indid AND r2.reftabid = i.id
+			WHERE
+				c.status = 64";
+
+		using (var rd = cmd.ExecuteReader())
+		{
+			while (rd.Read())
+			{
+				var name            = Convert.ToString(rd["Name"]);
+				var thisTableID     = Convert.ToInt32 (rd["ThisTable"]);
+				var otherTableID    = Convert.ToInt32 (rd["OtherTable"]);
+
+				var thisTable   = (from t in tables  where t.ID == thisTableID  select t.Table).Single();
+				var otherTable  = (from t in tables  where t.ID == otherTableID select t.Table).Single();
+
+				thisTable.ForeignKeys.Add(name, new ForeignKey { KeyName = name, MemberName = name, OtherTable = otherTable });
+
+				for (int i = 1; i <= 16; i++)
+				{
+					if (rd.IsDBNull(rd.GetOrdinal("ThisColumn"  + i)))
+						break;
+
+					var thisColumnName  = Convert.ToString(rd["ThisColumn"  + i]);
+					var otherColumnName = Convert.ToString(rd["OtherColumn" + i]);
+
+					var thisColumn  = (from c in columns where c.ID == thisTableID  && c.Column.ColumnName == thisColumnName  select c.Column).Single();
+					var otherColumn = (from c in columns where c.ID == otherTableID && c.Column.ColumnName == otherColumnName select c.Column).Single();
+
+					var key = thisTable.ForeignKeys[name];
+
+					key.ThisColumns. Add(thisColumn);
+					key.OtherColumns.Add(otherColumn);
+				}
+			}
+		}
+	}
+
+	var qc =
+		from c in columns
+		group c by c.ID into gr
+		join t in tables on gr.Key equals t.ID
+		select new { t.Table, gr };
+
+	foreach (var c in qc)
+	{
+		foreach (var col in from col in c.gr orderby col.Column.ID select col.Column)
+			c.Table.Columns.Add(col.ColumnName, col);
+
+		if (c.Table.Owner == "dbo")
+		{
+			c.Table.Owner = null;
+			Tables.Add(c.Table.TableName, c.Table);
+		}
+		else
+		{
+			Tables.Add(c.Table.Owner + "." + c.Table.TableName, c.Table);
+		}
+	}
+
+	if (GenerateSybaseSystemTables)
+	{
+		Tables.Add("sysobjects", new Table
+		{
+			TableName     = "sysobjects",
+			ClassName     = "SysObject",
+			BaseClassName = BaseEntityClass,
+			Columns       =
+			{
+				{ "name",      new VarCharColumn  { ColumnName = "name", Length = 255 }},
+				{ "id",        new IntColumn      { ColumnName = "id"  }},
+				{ "uid",       new IntColumn      { ColumnName = "uid" }},
+				{ "type",      new Column {
+					ColumnName = "type",
+					Type       = "string",
+					ColumnType = "char",
+					DbType     = DbType.AnsiStringFixedLength,
+					SqlDbType  = SqlDbType.Char,
+					Length     = 2,
+				}},
+				{ "userstat",  new SmallIntColumn { ColumnName = "userstat"  }},
+				{ "sysstat",   new SmallIntColumn { ColumnName = "sysstat"   }},
+				{ "indexdel",  new SmallIntColumn { ColumnName = "indexdel"  }},
+				{ "schemacnt", new SmallIntColumn { ColumnName = "schemacnt" }},
+				{ "sysstat2",  new IntColumn      { ColumnName = "sysstat2"  }},
+				{ "crdate",    new DateTimeColumn { ColumnName = "crdate"    }},
+				{ "expdate",   new DateTimeColumn { ColumnName = "expdate"   }},
+				{ "deltrig",   new IntColumn      { ColumnName = "deltrig"   }},
+				{ "instrig",   new IntColumn      { ColumnName = "instrig"   }},
+				{ "updtrig",   new IntColumn      { ColumnName = "updtrig"   }},
+				{ "seltrig",   new IntColumn      { ColumnName = "seltrig"   }},
+				{ "ckfirst",   new IntColumn      { ColumnName = "ckfirst"   }},
+				{ "cache",     new SmallIntColumn { ColumnName = "cache"     }},
+				{ "audflags",  new IntColumn      { ColumnName = "audflags", IsNullable = true }},
+				{ "objspare",  new IntColumn      { ColumnName = "objspare"  }},
+				{ "versionts", new Column {
+					ColumnName = "versionts",
+					IsNullable = true,
+					Type       = "byte[]",
+					ColumnType = "binary",
+					IsClass    = true,
+					DbType     = DbType.Binary,
+					SqlDbType  = SqlDbType.Binary,
+					Length     = 6,
+				}},
+				{ "loginame", new VarCharColumn   { ColumnName = "loginame", Length = 30 }},
+			}
+		});
+
+		int n = 1;
+
+		foreach (var col in Tables["sysobjects"].Columns)
+		{
+			var c = col.Value;
+
+			c.ID         = n++;
+			c.MemberName = c.ColumnName;
+
+			if (c.IsNullable && !c.IsClass)
+				c.Type = c.Type + "?";
+		}
+	}
+}
+
+class VarCharColumn : Column
+{
+	public VarCharColumn()
+	{
+		Type       = "string";
+		ColumnType = "varchar";
+		IsClass    = true;
+		DbType     = DbType.AnsiString;
+		SqlDbType  = SqlDbType.VarChar;
+	}
+}
+
+class IntColumn : Column
+{
+	public IntColumn()
+	{
+		Type       = "int";
+		ColumnType = "int";
+		DbType     = DbType.Int32;
+		SqlDbType  = SqlDbType.Int;
+		Length     = 4;
+	}
+}
+
+class SmallIntColumn : Column
+{
+	public SmallIntColumn()
+	{
+		Type       = "short";
+		ColumnType = "smallint";
+		DbType     = DbType.Int16;
+		SqlDbType  = SqlDbType.SmallInt;
+		Length     = 2;
+	}
+}
+
+class DateTimeColumn : Column
+{
+	public DateTimeColumn()
+	{
+		Type       = "DateTime";
+		ColumnType = "datetime";
+		DbType     = DbType.DateTime;
+		SqlDbType  = SqlDbType.DateTime;
+		Length     = 8;
+	}
+}
+
+#>

@@ -1,0 +1,71 @@
+Log created at 4/4/2014 4:31:32 PM
+
+Copying main logo url from \Components\_HeaderView_ascx\.Url_MainLogo to \Metadata\Settings\.Operator_LogoUrl
+Copied for: 377BetMobile
+Copied for: Alea365Mobile
+Copied for: ArtemisBetMobile
+Copied for: CapitolBetMobile
+Copied for: CasinoFloorMobile
+Copied for: CasinoLuckMobile
+Copied for: GuruplayMobile
+Copied for: GutsMobile
+Copied for: JetbullM
+Copied for: MobiBetMobile
+Copied for: MobileShared
+Copied for: MooregamesMobile
+Copied for: NextCasinoMobile
+Copied for: NorskespillMobile
+Copied for: ParasinoMobile
+Copied for: PlayHippoMobile
+Copied for: TeambetMobile
+Copied for: TripBetMobile
+
+Replacing this.GetMetadata(".Url_MainLogo") with this.GetMetadata("/Metadata/Settings/.Operator_LogoUrl") in \Components\HeaderView.ascx
+Replaced for: ArtemisBetMobile
+Replaced for: ContorabetMobile
+Replaced for: GutsMobile
+Replaced for: JetbullM
+Replaced for: KingPlayerMobile
+Replaced for: MobileShared
+Replaced for: OneLuckyMobile
+Replaced for: PlayHippoMobile
+
+Deleting file \Components\_HeaderView_ascx\.Url_MainLogo
+Deleted for: 377BetMobile
+Deleted for: Alea365Mobile
+Deleted for: ArtemisBetMobile
+Deleted for: CapitolBetMobile
+Deleted for: CasinoFloorMobile
+Deleted for: CasinoLuckMobile
+Deleted for: GuruplayMobile
+Deleted for: GutsMobile
+Deleted for: JetbullM
+Deleted for: MobiBetMobile
+Deleted for: MobileShared
+Deleted for: MooregamesMobile
+Deleted for: NextCasinoMobile
+Deleted for: NorskespillMobile
+Deleted for: ParasinoMobile
+Deleted for: PlayHippoMobile
+Deleted for: TeambetMobile
+Deleted for: TripBetMobile
+
+Testing for mobile operators
+Found mobile: 377BetMobile
+Found mobile: Alea365Mobile
+Found mobile: ArtemisBetMobile
+Found mobile: CapitolBetMobile
+Found mobile: CasinoFloorMobile
+Found mobile: CasinoLuckMobile
+Found mobile: GuruplayMobile
+Found mobile: GutsMobile
+Found mobile: JetbullM
+Found mobile: MobiBetMobile
+Found mobile: MobileShared
+Found mobile: MooregamesMobile
+Found mobile: NextCasinoMobile
+Found mobile: NorskespillMobile
+Found mobile: ParasinoMobile
+Found mobile: PlayHippoMobile
+Found mobile: TeambetMobile
+Found mobile: TripBetMobile

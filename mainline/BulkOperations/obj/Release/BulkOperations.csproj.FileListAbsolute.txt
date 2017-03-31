@@ -1,0 +1,5 @@
+D:\cms2012\mainline\BulkOperations\bin\Release\BulkOperations.exe.config
+D:\cms2012\mainline\BulkOperations\bin\Release\BulkOperations.exe
+D:\cms2012\mainline\BulkOperations\bin\Release\BulkOperations.pdb
+D:\cms2012\mainline\BulkOperations\obj\Release\BulkOperations.exe
+D:\cms2012\mainline\BulkOperations\obj\Release\BulkOperations.pdb

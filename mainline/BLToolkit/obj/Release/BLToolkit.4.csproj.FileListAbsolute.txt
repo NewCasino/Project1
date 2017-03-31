@@ -1,0 +1,11 @@
+D:\cms2012\mainline\BLToolkit\bin\Release\BLToolkit.4.dll
+D:\cms2012\mainline\BLToolkit\bin\Release\BLToolkit.4.pdb
+D:\cms2012\mainline\BLToolkit\bin\Release\mysql.data.dll
+D:\cms2012\mainline\BLToolkit\obj\Release\BLToolkit.ComponentModel.Design.GetTypeDialog.resources
+D:\cms2012\mainline\BLToolkit\obj\Release\BLToolkit.ComponentModel.Design.TypePicker.resources
+D:\cms2012\mainline\BLToolkit\obj\Release\BLToolkit.ComponentModel.ObjectBinder.resources
+D:\cms2012\mainline\BLToolkit\obj\Release\BLToolkit.Properties.Resources.resources
+D:\cms2012\mainline\BLToolkit\obj\Release\BLToolkit.4.csproj.GenerateResource.Cache
+D:\cms2012\mainline\BLToolkit\obj\Release\BLToolkit.4.dll
+D:\cms2012\mainline\BLToolkit\obj\Release\BLToolkit.4.pdb
+D:\cms2012\mainline\BLToolkit\obj\Release\BLToolkit.4.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+D:\cms2012\mainline\booksleeve\booksleeve\bin\Release\license.txt
+D:\cms2012\mainline\booksleeve\booksleeve\bin\Release\BookSleeve.xml
+D:\cms2012\mainline\booksleeve\booksleeve\bin\Release\BookSleeve.dll
+D:\cms2012\mainline\booksleeve\booksleeve\bin\Release\BookSleeve.pdb
+D:\cms2012\mainline\booksleeve\booksleeve\obj\Release\BookSleeve.dll
+D:\cms2012\mainline\booksleeve\booksleeve\obj\Release\BookSleeve.pdb
