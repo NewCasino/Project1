@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="urn:nrgs.eventprovider.greentube.com/v2.1/data" elementFormDefault="qualified" targetNamespace="urn:nrgs.eventprovider.greentube.com/v2.1/data" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="RoundFinishedResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ResponseState" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="tns:TransactionState" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RoundFinishedResponse" nillable="true" type="tns:RoundFinishedResponse" />
+  <xs:complexType name="ResponseState">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsCompleted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="tns:Message" />
+      <xs:element minOccurs="0" name="NextAuthToken" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SendAgain" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ServiceName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResponseState" nillable="true" type="tns:ResponseState" />
+  <xs:complexType name="Message">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Parameters" nillable="true" type="tns:ArrayOfKeyValuePair" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Message" nillable="true" type="tns:Message" />
+  <xs:complexType name="ArrayOfKeyValuePair">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="KeyValuePair" nillable="true" type="tns:KeyValuePair" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKeyValuePair" nillable="true" type="tns:ArrayOfKeyValuePair" />
+  <xs:complexType name="KeyValuePair">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="KeyValuePair" nillable="true" type="tns:KeyValuePair" />
+  <xs:complexType name="TransactionState">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EntityUserInformation" nillable="true" type="tns:EntityUser" />
+      <xs:element minOccurs="0" name="IsFulfilled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ReferenceInformation" nillable="true" type="tns:Reference" />
+      <xs:element minOccurs="0" name="User" nillable="true" type="tns:UserState" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransactionState" nillable="true" type="tns:TransactionState" />
+  <xs:complexType name="EntityUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ParticipationId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EntityUser" nillable="true" type="tns:EntityUser" />
+  <xs:complexType name="Reference">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EntityReferenceId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReferenceDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReferenceId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Reference" nillable="true" type="tns:Reference" />
+  <xs:complexType name="UserState">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BlockOrigin" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BlockReason" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BonusMoney" type="xs:long" />
+      <xs:element minOccurs="0" name="CreditDenomination" type="xs:int" />
+      <xs:element minOccurs="0" name="CurrencyCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GamblerWinLimit" type="xs:long" />
+      <xs:element minOccurs="0" name="IsBlocked" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LanguageCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RealMoney" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserState" nillable="true" type="tns:UserState" />
+  <xs:complexType name="RoundFinishedRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EntityInformation" nillable="true" type="tns:Entity" />
+      <xs:element minOccurs="0" name="EntityUserInformation" nillable="true" type="tns:EntityUser" />
+      <xs:element minOccurs="0" name="GameHistory" nillable="true" type="tns:GameHistory" />
+      <xs:element minOccurs="0" name="GameInformation" nillable="true" type="tns:Game" />
+      <xs:element minOccurs="0" name="Header" nillable="true" type="tns:BaseHeader" />
+      <xs:element minOccurs="0" name="RoundFinished" nillable="true" type="tns:RoundFinished" />
+      <xs:element minOccurs="0" name="UserInformation" nillable="true" type="tns:User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RoundFinishedRequest" nillable="true" type="tns:RoundFinishedRequest" />
+  <xs:complexType name="Entity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EntityDetails" nillable="true" type="tns:ArrayOfKeyValuePair" />
+      <xs:element minOccurs="0" name="EntityId" type="xs:long" />
+      <xs:element minOccurs="0" name="EntityReferenceId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EntityTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="Initiator" nillable="true" type="tns:UserIdentification" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Entity" nillable="true" type="tns:Entity" />
+  <xs:complexType name="UserIdentification">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="LicenseIdentifier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LicenseType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserPlayerId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserIdentification" nillable="true" type="tns:UserIdentification" />
+  <xs:complexType name="GameHistory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GameResultXml" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransactionHistoryList" nillable="true" type="tns:ArrayOfTransactionHistory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GameHistory" nillable="true" type="tns:GameHistory" />
+  <xs:complexType name="ArrayOfTransactionHistory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TransactionHistory" nillable="true" type="tns:TransactionHistory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTransactionHistory" nillable="true" type="tns:ArrayOfTransactionHistory" />
+  <xs:complexType name="TransactionHistory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ReferenceInformation" nillable="true" type="tns:Reference" />
+      <xs:element minOccurs="0" name="TransactionInformation" nillable="true" type="tns:Transaction" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransactionHistory" nillable="true" type="tns:TransactionHistory" />
+  <xs:complexType name="Transaction">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BonusMoney" type="xs:long" />
+      <xs:element minOccurs="0" name="BonusMoneyBefore" type="xs:long" />
+      <xs:element minOccurs="0" name="BonusRake" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CreationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element minOccurs="0" name="RealMoney" type="xs:long" />
+      <xs:element minOccurs="0" name="RealMoneyBefore" type="xs:long" />
+      <xs:element minOccurs="0" name="RealRake" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TypeId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Transaction" nillable="true" type="tns:Transaction" />
+  <xs:complexType name="Game">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GameId" type="xs:int" />
+      <xs:element minOccurs="0" name="GameInstanceId" type="xs:long" />
+      <xs:element minOccurs="0" name="GameName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Game" nillable="true" type="tns:Game" />
+  <xs:complexType name="BaseHeader">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Authentication" nillable="true" type="tns:Authentication" />
+      <xs:element minOccurs="0" name="LicenseIdentifier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LicenseType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SessionToken" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BaseHeader" nillable="true" type="tns:BaseHeader" />
+  <xs:complexType name="Authentication">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AuthToken" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Channel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsRetry" type="xs:boolean" />
+      <xs:element minOccurs="0" name="OriginalRequestId" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="RequestId" type="xs:long" />
+      <xs:element minOccurs="0" name="RequestedSendCount" type="xs:int" />
+      <xs:element minOccurs="0" name="RgsPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RgsUserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Authentication" nillable="true" type="tns:Authentication" />
+  <xs:complexType name="RoundFinished">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FinishDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IsFinished" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RoundFinished" nillable="true" type="tns:RoundFinished" />
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AffiliateId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrencyCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserIdentification" nillable="true" type="tns:UserIdentification" />
+      <xs:element minOccurs="0" name="UserIpAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserNick" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserProvinceCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserRegionCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="TransactionCreateResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ResponseState" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="tns:TransactionState" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransactionCreateResponse" nillable="true" type="tns:TransactionCreateResponse" />
+  <xs:complexType name="TransactionCreateRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EntityInformation" nillable="true" type="tns:Entity" />
+      <xs:element minOccurs="0" name="EntityUserInformation" nillable="true" type="tns:EntityUser" />
+      <xs:element minOccurs="0" name="GameHistory" nillable="true" type="tns:GameHistory" />
+      <xs:element minOccurs="0" name="GameInformation" nillable="true" type="tns:Game" />
+      <xs:element minOccurs="0" name="Header" nillable="true" type="tns:BaseHeader" />
+      <xs:element minOccurs="0" name="Transaction" nillable="true" type="tns:Transaction" />
+      <xs:element minOccurs="0" name="UserInformation" nillable="true" type="tns:User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransactionCreateRequest" nillable="true" type="tns:TransactionCreateRequest" />
+  <xs:complexType name="UserStateGetResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountResponseState" nillable="true" type="tns:AccountResponseState" />
+      <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ResponseState" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="tns:UserState" />
+      <xs:element minOccurs="0" name="UserIdentification" nillable="true" type="tns:UserIdentification" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserStateGetResponse" nillable="true" type="tns:UserStateGetResponse" />
+  <xs:complexType name="AccountResponseState">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsFulfilled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ReferenceDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReferenceId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AccountResponseState" nillable="true" type="tns:AccountResponseState" />
+  <xs:complexType name="UserStateGetRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CurrencyCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameInformation" nillable="true" type="tns:Game" />
+      <xs:element minOccurs="0" name="Header" nillable="true" type="tns:BaseHeader" />
+      <xs:element minOccurs="0" name="UserIdentification" nillable="true" type="tns:UserIdentification" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserStateGetRequest" nillable="true" type="tns:UserStateGetRequest" />
+</xs:schema>

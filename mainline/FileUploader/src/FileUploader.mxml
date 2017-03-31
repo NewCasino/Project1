@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" creationComplete="creationCompleteHandler(event)">
+	<fx:Script source="FileUploader.as">
+	</fx:Script>
+	<fx:Declarations>
+		<!-- 将非可视元素（例如服务、值对象）放在此处 -->
+	</fx:Declarations>
+	<s:VGroup width="100%" paddingTop="10" paddingLeft="10">
+		<s:HGroup width="100%">
+			<mx:ProgressBar mode="manual" id="ctlProgress" width="200" trackHeight="20" label="" labelWidth="0" labelPlacement="right">
+				
+			</mx:ProgressBar>
+			
+			<s:Button width="70" id="btnUpload" label="Upload" click="onBtnUploadClick(event)">
+				
+			</s:Button>
+		</s:HGroup>
+		
+		<s:Label text=" * Max size: 50MB;">
+			
+		</s:Label>
+	</s:VGroup>
+</s:Application>

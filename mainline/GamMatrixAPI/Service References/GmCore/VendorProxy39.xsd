@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="MoneyMatrixTransactionStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Unknown" />
+      <xs:enumeration value="Success" />
+      <xs:enumeration value="Error" />
+      <xs:enumeration value="PendingNotification" />
+      <xs:enumeration value="PendingConfirmation" />
+      <xs:enumeration value="Rejected" />
+      <xs:enumeration value="Canceled" />
+      <xs:enumeration value="Voided" />
+      <xs:enumeration value="PendingApproval" />
+      <xs:enumeration value="Authorized" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="MoneyMatrixTransactionStatus" nillable="true" type="tns:MoneyMatrixTransactionStatus" />
+</xs:schema>

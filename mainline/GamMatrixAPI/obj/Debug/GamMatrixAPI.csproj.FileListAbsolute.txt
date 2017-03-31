@@ -1,0 +1,11 @@
+C:\Cms2012\mainline\GamMatrix.CMS\Bin\GamMatrixAPI.dll.config
+C:\Cms2012\mainline\GamMatrix.CMS\Bin\GamMatrixAPI.dll
+C:\Cms2012\mainline\GamMatrix.CMS\Bin\GamMatrixAPI.pdb
+C:\Cms2012\mainline\GamMatrixAPI\obj\Debug\GamMatrixAPI.dll
+C:\Cms2012\mainline\GamMatrixAPI\obj\Debug\GamMatrixAPI.pdb
+C:\Cms2012\mainline\GamMatrixAPI\obj\Debug\GamMatrixAPI.csprojResolveAssemblyReference.cache
+C:\Project2\mainline\GamMatrix.CMS\Bin\GamMatrixAPI.dll.config
+C:\Project2\mainline\GamMatrix.CMS\Bin\GamMatrixAPI.dll
+C:\Project2\mainline\GamMatrix.CMS\Bin\GamMatrixAPI.pdb
+C:\Project2\mainline\GamMatrixAPI\obj\Debug\GamMatrixAPI.dll
+C:\Project2\mainline\GamMatrixAPI\obj\Debug\GamMatrixAPI.pdb

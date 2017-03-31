@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmSharedTypes.PlaynGO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.PlaynGO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="FreegameOffer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Coins" type="xs:int" />
+      <xs:element minOccurs="0" name="Created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Denomination" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ExpireTime" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Finished" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FreegameExternalId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FreegameTriggerId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="GameId" type="xs:int" />
+      <xs:element minOccurs="0" name="Lines" type="xs:int" />
+      <xs:element minOccurs="0" name="OfferId" type="xs:int" />
+      <xs:element minOccurs="0" name="Rounds" type="xs:int" />
+      <xs:element minOccurs="0" name="RoundsUsed" type="xs:int" />
+      <xs:element minOccurs="0" name="Turnover" type="xs:int" />
+      <xs:element minOccurs="0" name="Used" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FreegameOffer" nillable="true" type="tns:FreegameOffer" />
+  <xs:complexType name="ArrayOfFreegameOffer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FreegameOffer" nillable="true" type="tns:FreegameOffer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFreegameOffer" nillable="true" type="tns:ArrayOfFreegameOffer" />
+</xs:schema>

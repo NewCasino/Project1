@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmCore.Proxies.Iovation" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmCore.Proxies.Iovation" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="IovationCheckResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IovationDeviceID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" type="tns:IovationDeviceStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IovationCheckResult" nillable="true" type="tns:IovationCheckResult" />
+  <xs:simpleType name="IovationDeviceStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Failed" />
+      <xs:enumeration value="Allow" />
+      <xs:enumeration value="Deny" />
+      <xs:enumeration value="Review" />
+      <xs:enumeration value="None" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="IovationDeviceStatus" nillable="true" type="tns:IovationDeviceStatus" />
+  <xs:simpleType name="IovationEventType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Registration" />
+      <xs:enumeration value="Login" />
+      <xs:enumeration value="Deposit" />
+      <xs:enumeration value="Withdrawal" />
+      <xs:enumeration value="BuddyTransfer" />
+      <xs:enumeration value="Bonus" />
+      <xs:enumeration value="BackOfficeLogin" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="IovationEventType" nillable="true" type="tns:IovationEventType" />
+</xs:schema>

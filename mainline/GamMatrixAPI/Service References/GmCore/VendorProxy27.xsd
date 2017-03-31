@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.Auxiliary" />
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="PartnerAPIIsUserNameAvailableResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="isAvailable" type="xs:int" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIIsUserNameAvailableResponse" nillable="true" type="tns:PartnerAPIIsUserNameAvailableResponse" />
+  <xs:complexType name="PartnerAPIErrorDataResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorCode" type="xs:int" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="errorDetails" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="logId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIErrorDataResponse" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+  <xs:complexType name="PartnerAPIIsEmailAvailableResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="isAvailable" type="xs:int" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIIsEmailAvailableResponse" nillable="true" type="tns:PartnerAPIIsEmailAvailableResponse" />
+  <xs:complexType name="PartnerAPIIsAliasAvailableResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="isAvailable" type="xs:int" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIIsAliasAvailableResponse" nillable="true" type="tns:PartnerAPIIsAliasAvailableResponse" />
+  <xs:complexType name="PartnerAPIRegisterUserRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="activateAccount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="address1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="address2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="alias" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="allowNewsAndOffers" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="allowSMSNewsAndOffers" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="birthDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="btag" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="countryCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="iovationBlackBox" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="language" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mobilePrefix" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="phonePrefix" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="postalCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="registrationChannel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="securityAnswer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="securityQuestion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="signupIp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIRegisterUserRequest" nillable="true" type="tns:PartnerAPIRegisterUserRequest" />
+  <xs:complexType name="PartnerAPIRegisterUserResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userId" type="xs:long" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIRegisterUserResponse" nillable="true" type="tns:PartnerAPIRegisterUserResponse" />
+  <xs:complexType name="PartnerAPILoginUserResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="language" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userId" type="xs:long" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPILoginUserResponse" nillable="true" type="tns:PartnerAPILoginUserResponse" />
+  <xs:complexType name="PartnerAPILogoutUserResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPILogoutUserResponse" nillable="true" type="tns:PartnerAPILogoutUserResponse" />
+  <xs:complexType name="PartnerAPIIsActiveUserSessionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isActive" type="xs:int" />
+      <xs:element minOccurs="0" name="language" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userId" type="xs:long" />
+      <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIIsActiveUserSessionResponse" nillable="true" type="tns:PartnerAPIIsActiveUserSessionResponse" />
+  <xs:complexType name="PartnerAPIGetUserAccountsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="accounts" nillable="true" type="tns:ArrayOfPartnerAPIUserAccountData" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="isNegativeBalance" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserAccountsResponse" nillable="true" type="tns:PartnerAPIGetUserAccountsResponse" />
+  <xs:complexType name="ArrayOfPartnerAPIUserAccountData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PartnerAPIUserAccountData" nillable="true" type="tns:PartnerAPIUserAccountData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPartnerAPIUserAccountData" nillable="true" type="tns:ArrayOfPartnerAPIUserAccountData" />
+  <xs:complexType name="PartnerAPIUserAccountData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="balanceAmount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="bonusAmount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="displayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" type="xs:long" />
+      <xs:element minOccurs="0" name="isBalanceAvailable" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="omBonusAmount" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIUserAccountData" nillable="true" type="tns:PartnerAPIUserAccountData" />
+  <xs:complexType name="PartnerAPISetDepositLimitResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="isScheduled" type="xs:int" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPISetDepositLimitResponse" nillable="true" type="tns:PartnerAPISetDepositLimitResponse" />
+  <xs:complexType name="ServerAPIMakeDepositRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="applyBonusCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="applyBonusVendorID" type="xs:int" />
+      <xs:element minOccurs="0" name="cancelURL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="creditAccountId" type="xs:long" />
+      <xs:element minOccurs="0" name="debitPayCardId" type="xs:long" />
+      <xs:element minOccurs="0" name="debitPayCardVendorId" type="xs:int" />
+      <xs:element minOccurs="0" name="depositSource" type="tns:ServerAPIDepositSource" />
+      <xs:element minOccurs="0" name="iovationBlackBox" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isMobile" type="xs:int" />
+      <xs:element minOccurs="0" name="note" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="postBackURL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="requestAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="requestCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="returnURL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="secretKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="transactionReference" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userIp" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServerAPIMakeDepositRequest" nillable="true" type="tns:ServerAPIMakeDepositRequest" />
+  <xs:simpleType name="ServerAPIDepositSource">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="NotAvailable" />
+      <xs:enumeration value="Unknown" />
+      <xs:enumeration value="MainDepositPage" />
+      <xs:enumeration value="QuickDepositPage" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ServerAPIDepositSource" nillable="true" type="tns:ServerAPIDepositSource" />
+  <xs:complexType name="PartnerAPIMakeDepositResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsFirstDepositBonusAvailableAndRequireTC" type="xs:boolean" />
+      <xs:element minOccurs="0" name="balanceAmount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="redirectForm" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="redirectURL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="transStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="transactionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIMakeDepositResponse" nillable="true" type="tns:PartnerAPIMakeDepositResponse" />
+  <xs:complexType name="PartnerAPIMakeWithdrawRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="creditPayCardId" type="xs:long" />
+      <xs:element minOccurs="0" name="creditPayCardVendorId" type="xs:int" />
+      <xs:element minOccurs="0" name="debitAccountId" type="xs:long" />
+      <xs:element minOccurs="0" name="iovationBlackBox" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isMobile" type="xs:int" />
+      <xs:element minOccurs="0" name="note" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="requestAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="requestCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="secretKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="transactionReference" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="type" type="xs:int" />
+      <xs:element minOccurs="0" name="userIp" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIMakeWithdrawRequest" nillable="true" type="tns:PartnerAPIMakeWithdrawRequest" />
+  <xs:complexType name="PartnerAPIMakeWithdrawResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="balanceAmount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="transStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="transactionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIMakeWithdrawResponse" nillable="true" type="tns:PartnerAPIMakeWithdrawResponse" />
+  <xs:complexType name="PartnerAPIRegisterPayCardRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="brandType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="displayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="displayNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="expiryDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="identityNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="issueNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="issuerCompany" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="issuerCountry" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ownerName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="skipValidation" type="xs:boolean" />
+      <xs:element minOccurs="0" name="vendorId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIRegisterPayCardRequest" nillable="true" type="tns:PartnerAPIRegisterPayCardRequest" />
+  <xs:complexType name="PartnerAPIRegisterPayCardResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="payCardId" type="xs:long" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIRegisterPayCardResponse" nillable="true" type="tns:PartnerAPIRegisterPayCardResponse" />
+  <xs:complexType name="PartnerAPIGetUserPayCardsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="payCards" nillable="true" type="tns:ArrayOfPartnerAPIUserPayCardData" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserPayCardsResponse" nillable="true" type="tns:PartnerAPIGetUserPayCardsResponse" />
+  <xs:complexType name="ArrayOfPartnerAPIUserPayCardData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PartnerAPIUserPayCardData" nillable="true" type="tns:PartnerAPIUserPayCardData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPartnerAPIUserPayCardData" nillable="true" type="tns:ArrayOfPartnerAPIUserPayCardData" />
+  <xs:complexType name="PartnerAPIUserPayCardData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="activeStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="displayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="displayNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="expiryDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="payCardId" type="xs:long" />
+      <xs:element minOccurs="0" name="registered" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="successDepositBookedAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="successDepositNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="successWithdrawBookedAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="successWithdrawNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="userDisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="vendorDisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="vendorName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIUserPayCardData" nillable="true" type="tns:PartnerAPIUserPayCardData" />
+  <xs:complexType name="PartnerAPIUpdatePayCardStatusRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="newStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="payCardId" type="xs:long" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIUpdatePayCardStatusRequest" nillable="true" type="tns:PartnerAPIUpdatePayCardStatusRequest" />
+  <xs:complexType name="PartnerAPIUpdatePayCardStatusResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIUpdatePayCardStatusResponse" nillable="true" type="tns:PartnerAPIUpdatePayCardStatusResponse" />
+  <xs:complexType name="PartnerAPIGetUserDetailsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="activeStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="address1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="address2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="affiliateMarker" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="alias" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="allowNewsEmail" type="xs:boolean" />
+      <xs:element minOccurs="0" name="allowSmsOffer" type="xs:boolean" />
+      <xs:element minOccurs="0" name="birthDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="countryCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="language" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mobilePrefix" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="phonePrefix" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="prevLoginDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="roles" nillable="true" type="tns:ArrayOfPartnerAPIUserRoleData" />
+      <xs:element minOccurs="0" name="securityAnswer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="securityQuestion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="signupIp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="zip" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserDetailsResponse" nillable="true" type="tns:PartnerAPIGetUserDetailsResponse" />
+  <xs:complexType name="ArrayOfPartnerAPIUserRoleData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PartnerAPIUserRoleData" nillable="true" type="tns:PartnerAPIUserRoleData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPartnerAPIUserRoleData" nillable="true" type="tns:ArrayOfPartnerAPIUserRoleData" />
+  <xs:complexType name="PartnerAPIUserRoleData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="activeStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="authorDisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userRoleCreated" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userRoleId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIUserRoleData" nillable="true" type="tns:PartnerAPIUserRoleData" />
+  <xs:complexType name="PartnerAPIUpdateUserDetailsRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="address1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="address2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="alias" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="allowNewsEmail" type="xs:boolean" />
+      <xs:element minOccurs="0" name="allowSmsOffer" type="xs:boolean" />
+      <xs:element minOccurs="0" name="birthDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="mobilePrefix" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="phonePrefix" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="postalCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="securityAnswer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="securityQuestion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIUpdateUserDetailsRequest" nillable="true" type="tns:PartnerAPIUpdateUserDetailsRequest" />
+  <xs:complexType name="PartnerAPIUpdateUserDetailsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIUpdateUserDetailsResponse" nillable="true" type="tns:PartnerAPIUpdateUserDetailsResponse" />
+  <xs:complexType name="PartnerAPIGetUserRgDepositLimitResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="depositLimitData" nillable="true" type="tns:PartnerAPIUserDepositLimitData" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserRgDepositLimitResponse" nillable="true" type="tns:PartnerAPIGetUserRgDepositLimitResponse" />
+  <xs:complexType name="PartnerAPIUserDepositLimitData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="period" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIUserDepositLimitData" nillable="true" type="tns:PartnerAPIUserDepositLimitData" />
+  <xs:complexType name="PartnerAPISetUserRgSelfExclusionRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ExpiryDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SendEmailNotification" type="xs:boolean" />
+      <xs:element minOccurs="0" name="period" type="xs:int" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPISetUserRgSelfExclusionRequest" nillable="true" type="tns:PartnerAPISetUserRgSelfExclusionRequest" />
+  <xs:complexType name="PartnerAPISetUserRgSelfExclusionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPISetUserRgSelfExclusionResponse" nillable="true" type="tns:PartnerAPISetUserRgSelfExclusionResponse" />
+  <xs:complexType name="PartnerAPISetUserRgCoolOffResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPISetUserRgCoolOffResponse" nillable="true" type="tns:PartnerAPISetUserRgCoolOffResponse" />
+  <xs:complexType name="PartnerAPIGetSelfExclusionSettingsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CoolOffAllow24HoursOption" type="xs:boolean" />
+      <xs:element minOccurs="0" name="CoolOffAllow30DaysOption" type="xs:boolean" />
+      <xs:element minOccurs="0" name="CoolOffAllow3MonthsOption" type="xs:boolean" />
+      <xs:element minOccurs="0" name="CoolOffAllow7DaysOption" type="xs:boolean" />
+      <xs:element minOccurs="0" name="CoolOffAllowUntilOption" type="xs:boolean" />
+      <xs:element minOccurs="0" name="CoolOffEnableFrontEndOptions" type="xs:boolean" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetSelfExclusionSettingsResponse" nillable="true" type="tns:PartnerAPIGetSelfExclusionSettingsResponse" />
+  <xs:complexType name="PartnerAPIGetUserRgSelfExclusionResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="period" type="xs:int" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserRgSelfExclusionResponse" nillable="true" type="tns:PartnerAPIGetUserRgSelfExclusionResponse" />
+  <xs:complexType name="PartnerAPIChangeUserPasswordRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="checkOldPassword" type="xs:boolean" />
+      <xs:element minOccurs="0" name="hashKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="oldPlainTextPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="plainTextPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIChangeUserPasswordRequest" nillable="true" type="tns:PartnerAPIChangeUserPasswordRequest" />
+  <xs:complexType name="PartnerAPIChangeUserPasswordResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIChangeUserPasswordResponse" nillable="true" type="tns:PartnerAPIChangeUserPasswordResponse" />
+  <xs:complexType name="PartnerAPISetUserForgotPassInfoRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="securityAnswer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="securityQuestion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPISetUserForgotPassInfoRequest" nillable="true" type="tns:PartnerAPISetUserForgotPassInfoRequest" />
+  <xs:complexType name="PartnerAPISetUserForgotPassInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPISetUserForgotPassInfoResponse" nillable="true" type="tns:PartnerAPISetUserForgotPassInfoResponse" />
+  <xs:complexType name="PartnerAPICheckUserExistsRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="birthDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPICheckUserExistsRequest" nillable="true" type="tns:PartnerAPICheckUserExistsRequest" />
+  <xs:complexType name="PartnerAPICheckUserExistsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="activeStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userId" type="xs:long" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPICheckUserExistsResponse" nillable="true" type="tns:PartnerAPICheckUserExistsResponse" />
+  <xs:complexType name="PartnerAPIGetUserTransactionHistoryRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="completedFrom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="completedTo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserTransactionHistoryRequest" nillable="true" type="tns:PartnerAPIGetUserTransactionHistoryRequest" />
+  <xs:complexType name="PartnerAPIGetUserTransactionHistoryResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="depositTransList" nillable="true" type="tns:ArrayOfPartnerAPIDepositTransInfo" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="withdrawTransList" nillable="true" type="tns:ArrayOfPartnerAPIWithdrawTransInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserTransactionHistoryResponse" nillable="true" type="tns:PartnerAPIGetUserTransactionHistoryResponse" />
+  <xs:complexType name="ArrayOfPartnerAPIDepositTransInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PartnerAPIDepositTransInfo" nillable="true" type="tns:PartnerAPIDepositTransInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPartnerAPIDepositTransInfo" nillable="true" type="tns:ArrayOfPartnerAPIDepositTransInfo" />
+  <xs:complexType name="PartnerAPIDepositTransInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="created" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="creditAccountId" type="xs:long" />
+      <xs:element minOccurs="0" name="creditAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="creditCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="creditDisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="debitDisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="debitPayItemName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="debitPayItemVendorName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" type="xs:long" />
+      <xs:element minOccurs="0" name="status" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIDepositTransInfo" nillable="true" type="tns:PartnerAPIDepositTransInfo" />
+  <xs:complexType name="ArrayOfPartnerAPIWithdrawTransInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PartnerAPIWithdrawTransInfo" nillable="true" type="tns:PartnerAPIWithdrawTransInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPartnerAPIWithdrawTransInfo" nillable="true" type="tns:ArrayOfPartnerAPIWithdrawTransInfo" />
+  <xs:complexType name="PartnerAPIWithdrawTransInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="created" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="creditDisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="creditPayItemName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="creditPayItemVendorName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="debitAccountId" type="xs:long" />
+      <xs:element minOccurs="0" name="debitAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="debitCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="debitDisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" type="xs:long" />
+      <xs:element minOccurs="0" name="status" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIWithdrawTransInfo" nillable="true" type="tns:PartnerAPIWithdrawTransInfo" />
+  <xs:complexType name="PartnerAPIGetUserPendingWithdrawalsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="pendingWithdrawalsTransList" nillable="true" type="tns:ArrayOfPartnerAPIPendingWithdrawalsTransInfo" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserPendingWithdrawalsResponse" nillable="true" type="tns:PartnerAPIGetUserPendingWithdrawalsResponse" />
+  <xs:complexType name="ArrayOfPartnerAPIPendingWithdrawalsTransInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PartnerAPIPendingWithdrawalsTransInfo" nillable="true" type="tns:PartnerAPIPendingWithdrawalsTransInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPartnerAPIPendingWithdrawalsTransInfo" nillable="true" type="tns:ArrayOfPartnerAPIPendingWithdrawalsTransInfo" />
+  <xs:complexType name="PartnerAPIPendingWithdrawalsTransInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="created" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="creditDisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="creditPayItemName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="creditPayItemVendorName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="debitAccountId" type="xs:long" />
+      <xs:element minOccurs="0" name="debitAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="debitCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="debitDisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" type="xs:long" />
+      <xs:element minOccurs="0" name="status" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIPendingWithdrawalsTransInfo" nillable="true" type="tns:PartnerAPIPendingWithdrawalsTransInfo" />
+  <xs:complexType name="PartnerAPIForfeitUserCasinoBonusRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="accountId" type="xs:long" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userCasinoBonusID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIForfeitUserCasinoBonusRequest" nillable="true" type="tns:PartnerAPIForfeitUserCasinoBonusRequest" />
+  <xs:complexType name="PartnerAPIForfeitUserCasinoBonusResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIForfeitUserCasinoBonusResponse" nillable="true" type="tns:PartnerAPIForfeitUserCasinoBonusResponse" />
+  <xs:complexType name="PartnerAPIGetUserBonusDetailsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="bonusList" nillable="true" type="tns:ArrayOfPartnerAPIBonusDetails" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserBonusDetailsResponse" nillable="true" type="tns:PartnerAPIGetUserBonusDetailsResponse" />
+  <xs:complexType name="ArrayOfPartnerAPIBonusDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PartnerAPIBonusDetails" nillable="true" type="tns:PartnerAPIBonusDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPartnerAPIBonusDetails" nillable="true" type="tns:ArrayOfPartnerAPIBonusDetails" />
+  <xs:complexType name="PartnerAPIBonusDetails">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ExcludedGamesList" nillable="true" type="q2:ArrayOfKeyValueOfstringArrayOfstringty7Ep6D1" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GmSharedTypes.Auxiliary" minOccurs="0" name="PlayerBase" nillable="true" type="q3:PlayerBaseData" />
+      <xs:element minOccurs="0" name="amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="bonusId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="confiscateAllFundsOnExpiration" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="confiscateAllFundsOnForfeiture" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="created" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="expiryDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="pointsLeftToCollect" type="xs:decimal" />
+      <xs:element minOccurs="0" name="pointsToCollect" type="xs:decimal" />
+      <xs:element minOccurs="0" name="remainingAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="remainingWagerRequirementAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="remainingWagerRequirementCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="vendorId" type="xs:int" />
+      <xs:element minOccurs="0" name="wagerRequirementAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="wagerRequirementCurrency" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIBonusDetails" nillable="true" type="tns:PartnerAPIBonusDetails" />
+  <xs:complexType name="PartnerAPIApplyUserBonusRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="accountId" type="xs:long" />
+      <xs:element minOccurs="0" name="applyBonusCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="applyBonusVendorId" type="xs:int" />
+      <xs:element minOccurs="0" name="iovationBlackBox" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIApplyUserBonusRequest" nillable="true" type="tns:PartnerAPIApplyUserBonusRequest" />
+  <xs:complexType name="PartnerAPIApplyUserBonusResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIApplyUserBonusResponse" nillable="true" type="tns:PartnerAPIApplyUserBonusResponse" />
+  <xs:complexType name="PartnerAPIProcessAsyncTransRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="hc" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isFirstDepositBonusTCAccepted" type="xs:boolean" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="responseFields" nillable="true" type="q4:ArrayOfKeyValueOfstringstring" />
+      <xs:element minOccurs="0" name="secretKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userIp" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIProcessAsyncTransRequest" nillable="true" type="tns:PartnerAPIProcessAsyncTransRequest" />
+  <xs:complexType name="PartnerAPIProcessAsyncTransResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="balanceAmount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="transactionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIProcessAsyncTransResponse" nillable="true" type="tns:PartnerAPIProcessAsyncTransResponse" />
+  <xs:complexType name="PartnerAPIAssignUserRoleRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="roleId" type="xs:long" />
+      <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIAssignUserRoleRequest" nillable="true" type="tns:PartnerAPIAssignUserRoleRequest" />
+  <xs:complexType name="PartnerAPIAssignUserRoleResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIAssignUserRoleResponse" nillable="true" type="tns:PartnerAPIAssignUserRoleResponse" />
+  <xs:complexType name="PartnerAPIAssignUserRoleWithExpirationRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="expirationDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="expirationPeriodNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="expirationPeriodType" type="tns:RoleExpirationPeriodType" />
+      <xs:element minOccurs="0" name="roleId" type="xs:long" />
+      <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIAssignUserRoleWithExpirationRequest" nillable="true" type="tns:PartnerAPIAssignUserRoleWithExpirationRequest" />
+  <xs:simpleType name="RoleExpirationPeriodType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Days">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Weeks">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Months">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="RoleExpirationPeriodType" nillable="true" type="tns:RoleExpirationPeriodType" />
+  <xs:complexType name="PartnerAPIRemoveUserRoleRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="roleId" type="xs:long" />
+      <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIRemoveUserRoleRequest" nillable="true" type="tns:PartnerAPIRemoveUserRoleRequest" />
+  <xs:complexType name="PartnerAPIRemoveUserRoleResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIRemoveUserRoleResponse" nillable="true" type="tns:PartnerAPIRemoveUserRoleResponse" />
+  <xs:complexType name="PartnerAPIGetUsersRolesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="usersRolesList" nillable="true" type="tns:ArrayOfPartnerAPIRoleInfo" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUsersRolesResponse" nillable="true" type="tns:PartnerAPIGetUsersRolesResponse" />
+  <xs:complexType name="ArrayOfPartnerAPIRoleInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PartnerAPIRoleInfo" nillable="true" type="tns:PartnerAPIRoleInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPartnerAPIRoleInfo" nillable="true" type="tns:ArrayOfPartnerAPIRoleInfo" />
+  <xs:complexType name="PartnerAPIRoleInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" type="xs:long" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIRoleInfo" nillable="true" type="tns:PartnerAPIRoleInfo" />
+  <xs:complexType name="PartnerAPIGetUserMetadataResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="metadataValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserMetadataResponse" nillable="true" type="tns:PartnerAPIGetUserMetadataResponse" />
+  <xs:complexType name="PartnerAPISetUserMetadataRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="metadataKey" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="metadataValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPISetUserMetadataRequest" nillable="true" type="tns:PartnerAPISetUserMetadataRequest" />
+  <xs:complexType name="PartnerAPISetUserMetadataResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPISetUserMetadataResponse" nillable="true" type="tns:PartnerAPISetUserMetadataResponse" />
+  <xs:complexType name="PartnerAPIIsValidCredentialsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="isValid" type="xs:int" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIIsValidCredentialsResponse" nillable="true" type="tns:PartnerAPIIsValidCredentialsResponse" />
+  <xs:complexType name="PartnerAPIGenerateUserHashRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="URL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Userid" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGenerateUserHashRequest" nillable="true" type="tns:PartnerAPIGenerateUserHashRequest" />
+  <xs:complexType name="PartnerAPIGenerateUserHashResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="URL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGenerateUserHashResponse" nillable="true" type="tns:PartnerAPIGenerateUserHashResponse" />
+  <xs:complexType name="PartnerAPIIsUserHashValidResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="isValid" type="xs:int" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIIsUserHashValidResponse" nillable="true" type="tns:PartnerAPIIsUserHashValidResponse" />
+  <xs:complexType name="PartnerAPIManualDepositRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="fromAccountId" type="xs:long" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="toAccountId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIManualDepositRequest" nillable="true" type="tns:PartnerAPIManualDepositRequest" />
+  <xs:complexType name="PartnerAPIManualDepositResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIManualDepositResponse" nillable="true" type="tns:PartnerAPIManualDepositResponse" />
+  <xs:complexType name="PartnerAPIManualWithdrawRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="fromAccountId" type="xs:long" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="toAccountId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIManualWithdrawRequest" nillable="true" type="tns:PartnerAPIManualWithdrawRequest" />
+  <xs:complexType name="PartnerAPIManualWithdrawResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIManualWithdrawResponse" nillable="true" type="tns:PartnerAPIManualWithdrawResponse" />
+  <xs:complexType name="PartnerAPIAgentTransferRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="agentAccountID" type="xs:long" />
+      <xs:element minOccurs="0" name="amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="direction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userAccountID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIAgentTransferRequest" nillable="true" type="tns:PartnerAPIAgentTransferRequest" />
+  <xs:complexType name="PartnerAPIAgentTransferResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="transactionID" type="xs:long" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIAgentTransferResponse" nillable="true" type="tns:PartnerAPIAgentTransferResponse" />
+  <xs:complexType name="PartnerAPIAgentImpersonateUserRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="agentSessionID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIAgentImpersonateUserRequest" nillable="true" type="tns:PartnerAPIAgentImpersonateUserRequest" />
+  <xs:complexType name="PartnerAPIAgentImpersonateUserResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIAgentImpersonateUserResponse" nillable="true" type="tns:PartnerAPIAgentImpersonateUserResponse" />
+  <xs:complexType name="PartnerAPIGetAvailableRealityCheckValuesResponse">
+    <xs:sequence>
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="availableRealityCheckValues" nillable="true" type="q5:ArrayOfstring" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetAvailableRealityCheckValuesResponse" nillable="true" type="tns:PartnerAPIGetAvailableRealityCheckValuesResponse" />
+  <xs:complexType name="PartnerAPIGetUserRealityCheckResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userRealityCheckValues" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPIGetUserRealityCheckResponse" nillable="true" type="tns:PartnerAPIGetUserRealityCheckResponse" />
+  <xs:complexType name="ServerAPISetUserRealityCheckRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="realityCheckValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServerAPISetUserRealityCheckRequest" nillable="true" type="tns:ServerAPISetUserRealityCheckRequest" />
+  <xs:complexType name="PartnerAPISetUserRealityCheckResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PartnerAPISetUserRealityCheckResponse" nillable="true" type="tns:PartnerAPISetUserRealityCheckResponse" />
+  <xs:complexType name="ServerAPIGetAccountBalanceForMultipleUserRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionId" nillable="true" type="xs:string" />
+      <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="userIds" nillable="true" type="q6:ArrayOflong" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ServerAPIGetAccountBalanceForMultipleUserRequest" nillable="true" type="tns:ServerAPIGetAccountBalanceForMultipleUserRequest" />
+  <xs:complexType name="GetAccountBalanceForMultipleUserResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="accountsBalance" nillable="true" type="tns:ArrayOfAccountBalanceWrapper" />
+      <xs:element minOccurs="0" name="errorData" nillable="true" type="tns:PartnerAPIErrorDataResponse" />
+      <xs:element minOccurs="0" name="success" type="xs:int" />
+      <xs:element minOccurs="0" name="timestamp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetAccountBalanceForMultipleUserResponse" nillable="true" type="tns:GetAccountBalanceForMultipleUserResponse" />
+  <xs:complexType name="ArrayOfAccountBalanceWrapper">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AccountBalanceWrapper" nillable="true" type="tns:AccountBalanceWrapper" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAccountBalanceWrapper" nillable="true" type="tns:ArrayOfAccountBalanceWrapper" />
+  <xs:complexType name="AccountBalanceWrapper">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="balanceAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="isBalanceAvailable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="userID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AccountBalanceWrapper" nillable="true" type="tns:AccountBalanceWrapper" />
+  <xs:simpleType name="RoleExpirationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Period" />
+      <xs:enumeration value="Date" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="RoleExpirationType" nillable="true" type="tns:RoleExpirationType" />
+</xs:schema>

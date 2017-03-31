@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmCore.Bonuses" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmCore.Bonuses" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd12" namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO" />
+  <xs:complexType name="ArrayOfGameListInfoData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GameListInfoData" nillable="true" type="tns:GameListInfoData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGameListInfoData" nillable="true" type="tns:ArrayOfGameListInfoData" />
+  <xs:complexType name="GameListInfoData">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ClientCompatibility" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element minOccurs="0" name="DomainID" type="xs:long" />
+      <xs:element minOccurs="0" name="FreeSpinBonus_DefaultCoin" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FreeSpinBonus_DefaultDenomination" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FreeSpinBonus_DefaultLine" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameBonusContribution" type="xs:decimal" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GameCategory" nillable="true" type="q2:ArrayOfstring" />
+      <xs:element minOccurs="0" name="GameCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameFPPContribution" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GameGroup" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameID" type="xs:long" />
+      <xs:element minOccurs="0" name="GameName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:long" />
+      <xs:element minOccurs="0" name="Ins" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ReportCategory" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SessionID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SessionUserID" type="xs:long" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SpinCoins" nillable="true" type="q3:ArrayOfint" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SpinDenominations" nillable="true" type="q4:ArrayOfdecimal" />
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SpinLines" nillable="true" type="q5:ArrayOfint" />
+      <xs:element minOccurs="0" name="SupportFreeSpinBonus" type="xs:boolean" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="VendorID" type="q6:VendorID" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GameListInfoData" nillable="true" type="tns:GameListInfoData" />
+</xs:schema>

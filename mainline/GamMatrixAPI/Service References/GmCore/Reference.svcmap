@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="196d2dcf-65a6-4af6-ad13-eb13642ae884" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://core2.gm.dev.everymatrix.com/vendorproxy.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="VendorProxy.xsd" MetadataType="Schema" ID="3e4c4a51-a492-42ed-930d-bdc449238050" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd16" />
+    <MetadataFile FileName="VendorProxy1.xsd" MetadataType="Schema" ID="a4954515-55ae-4375-9e5f-72eed400d902" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd17" />
+    <MetadataFile FileName="VendorProxy2.xsd" MetadataType="Schema" ID="108190f4-dd18-4f19-8a23-cc34cde19fe6" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd14" />
+    <MetadataFile FileName="VendorProxy3.xsd" MetadataType="Schema" ID="e2185594-8e66-4b03-a02f-2c1c79597f9b" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd15" />
+    <MetadataFile FileName="VendorProxy4.xsd" MetadataType="Schema" ID="8ef840ad-bc82-4ea8-948e-765bc846fb53" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd8" />
+    <MetadataFile FileName="VendorProxy5.xsd" MetadataType="Schema" ID="d3cce948-dd41-4949-b8e1-18fa51f2ffcb" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd13" />
+    <MetadataFile FileName="VendorProxy6.xsd" MetadataType="Schema" ID="67fc7d98-ab2b-479d-b036-4f50eb4992f6" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd10" />
+    <MetadataFile FileName="VendorProxy7.xsd" MetadataType="Schema" ID="bbc5827d-70d9-43e0-a94b-8eefa5261592" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd11" />
+    <MetadataFile FileName="VendorProxy8.xsd" MetadataType="Schema" ID="462b1430-bdea-40de-8009-d0f60dd09f40" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd5" />
+    <MetadataFile FileName="VendorProxy9.xsd" MetadataType="Schema" ID="fe676105-7b81-415b-afdb-15c2a1068a4b" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd18" />
+    <MetadataFile FileName="VendorProxy10.xsd" MetadataType="Schema" ID="00595d5b-f266-452d-a05f-d7f77f59f42e" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd19" />
+    <MetadataFile FileName="VendorProxy11.xsd" MetadataType="Schema" ID="db7a3d33-25a6-4391-9680-8fd60b28ef0a" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd3" />
+    <MetadataFile FileName="VendorProxy12.xsd" MetadataType="Schema" ID="ed0a8870-1509-4c84-bd0c-641ce3995719" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd31" />
+    <MetadataFile FileName="VendorProxy13.xsd" MetadataType="Schema" ID="d3cc73c6-e7e8-4577-a475-6ccbe96666af" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd4" />
+    <MetadataFile FileName="VendorProxy14.xsd" MetadataType="Schema" ID="d17e682d-3877-4a89-9160-ed0862fd5f4b" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd22" />
+    <MetadataFile FileName="VendorProxy15.xsd" MetadataType="Schema" ID="1c4ae588-a52a-4786-95ac-f25f38dcb59e" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd2" />
+    <MetadataFile FileName="VendorProxy16.xsd" MetadataType="Schema" ID="bd8b84fd-f9f8-4922-9bfa-54bc6d0c8f88" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd12" />
+    <MetadataFile FileName="VendorProxy17.xsd" MetadataType="Schema" ID="5755e86e-ae0c-4b31-9418-05314c9ae431" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd0" />
+    <MetadataFile FileName="VendorProxy18.xsd" MetadataType="Schema" ID="0c42b7eb-975a-46ad-addb-5936c6237978" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd1" />
+    <MetadataFile FileName="VendorProxy19.xsd" MetadataType="Schema" ID="4bc9e45f-5015-4c8d-a358-9d22995bbaf5" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd38" />
+    <MetadataFile FileName="VendorProxy20.xsd" MetadataType="Schema" ID="78ead424-b1d1-4990-9b38-f8b8e5d49e11" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd36" />
+    <MetadataFile FileName="VendorProxy21.xsd" MetadataType="Schema" ID="46c14659-80e8-4282-af81-f0b8b28e8e97" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd37" />
+    <MetadataFile FileName="VendorProxy22.xsd" MetadataType="Schema" ID="3255a137-619c-4c13-a70f-c5a838aaa5f9" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd34" />
+    <MetadataFile FileName="VendorProxy23.xsd" MetadataType="Schema" ID="0987a4ea-9982-4b16-bb54-023717a0016b" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd35" />
+    <MetadataFile FileName="VendorProxy24.xsd" MetadataType="Schema" ID="8484116f-1d86-4f1d-9764-e4d5a9dcce55" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd32" />
+    <MetadataFile FileName="VendorProxy25.xsd" MetadataType="Schema" ID="0d405f54-8019-4b38-8216-c8c916790f96" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd33" />
+    <MetadataFile FileName="VendorProxy26.xsd" MetadataType="Schema" ID="dc5e21da-f722-4b6a-91ab-b88f771af94e" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd30" />
+    <MetadataFile FileName="VendorProxy.wsdl" MetadataType="Wsdl" ID="efa80928-ff41-4684-93dd-418d09b275c3" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?wsdl" />
+    <MetadataFile FileName="VendorProxy27.xsd" MetadataType="Schema" ID="ee437ee6-392c-48fd-8b00-c76579ce3250" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd7" />
+    <MetadataFile FileName="VendorProxy28.xsd" MetadataType="Schema" ID="915585b2-fb1e-4a7c-b5a0-8b667e75b488" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd40" />
+    <MetadataFile FileName="VendorProxy29.xsd" MetadataType="Schema" ID="84a58d48-b339-45a4-94fa-8342054fc7fc" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd39" />
+    <MetadataFile FileName="VendorProxy30.xsd" MetadataType="Schema" ID="75fb6621-ed21-4a9d-b844-9e1dcc117226" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd26" />
+    <MetadataFile FileName="VendorProxy31.xsd" MetadataType="Schema" ID="349bd49a-8592-460d-99f2-7a575bb944c4" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd27" />
+    <MetadataFile FileName="VendorProxy32.xsd" MetadataType="Schema" ID="adf83c0d-a9ac-4191-ba25-0ac210b16399" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd24" />
+    <MetadataFile FileName="VendorProxy33.xsd" MetadataType="Schema" ID="c186aff3-b089-4b6d-ac4e-3061dcad15cc" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd25" />
+    <MetadataFile FileName="VendorProxy34.xsd" MetadataType="Schema" ID="4db8d923-55a4-4270-a07e-6986d29a923b" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd9" />
+    <MetadataFile FileName="VendorProxy35.xsd" MetadataType="Schema" ID="c7ade6f9-961b-4ba6-bf62-7a6a2a0dcbc7" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd23" />
+    <MetadataFile FileName="VendorProxy36.xsd" MetadataType="Schema" ID="46a793ab-2d39-4d36-be5e-de9f4be382ba" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd20" />
+    <MetadataFile FileName="VendorProxy37.xsd" MetadataType="Schema" ID="bddb2327-f8cb-42ea-bb1f-228b80a320d5" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd21" />
+    <MetadataFile FileName="VendorProxy.disco" MetadataType="Disco" ID="8f631a1a-2a82-4ed4-a669-ceb0a26e946c" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?disco" />
+    <MetadataFile FileName="VendorProxy38.xsd" MetadataType="Schema" ID="a31875da-15ea-4b77-be41-e41f14b4a163" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd6" />
+    <MetadataFile FileName="VendorProxy39.xsd" MetadataType="Schema" ID="f64e21d2-3406-4ac8-a1f1-2c2577fd2894" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd28" />
+    <MetadataFile FileName="VendorProxy40.xsd" MetadataType="Schema" ID="7817eab6-dfa8-4993-848d-c165024a53b8" SourceId="1" SourceUrl="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd29" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

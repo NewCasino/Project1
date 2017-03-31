@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm.Auto" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm.Auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd11" namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd12" namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO" />
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd34" namespace="http://schemas.datacontract.org/2004/07/GmCore.SportsAccountTool" />
+  <xs:complexType name="ArrayOfRegionRec">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RegionRec" nillable="true" type="tns:RegionRec" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRegionRec" nillable="true" type="tns:ArrayOfRegionRec" />
+  <xs:complexType name="RegionRec">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" base="q1:EntityRec">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CountryID" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ID" type="xs:long" />
+          <xs:element minOccurs="0" name="RegionName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RegionRec" nillable="true" type="tns:RegionRec" />
+  <xs:complexType name="UserLicenseLTRec">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" base="q2:EntityRec">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ContractExpiryDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ContractImageID" type="xs:long" />
+          <xs:element minOccurs="0" name="ContractSigningDate" type="xs:dateTime" />
+          <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ContractValidityPeriod" type="q3:LicenseLTContractValidity" />
+          <xs:element minOccurs="0" name="UserID" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="UserLicenseLTRec" nillable="true" type="tns:UserLicenseLTRec" />
+  <xs:complexType name="RgLossLimitRec">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" base="q4:EntityRec">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExpiryDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExpiryDatePeriod" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Modified" type="xs:dateTime" />
+          <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="Period" type="q5:RgLossLimitPeriod" />
+          <xs:element minOccurs="0" name="RemainingAmount" type="xs:decimal" />
+          <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="Type" type="q6:RgLossLimitType" />
+          <xs:element minOccurs="0" name="UpdateAmount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="UpdateCurrency" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UpdateFlag" type="xs:boolean" />
+          <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="UpdatePeriod" type="q7:RgLossLimitPeriod" />
+          <xs:element minOccurs="0" name="UpdatedExpiryDatePeriod" type="xs:boolean" />
+          <xs:element minOccurs="0" name="UserID" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RgLossLimitRec" nillable="true" type="tns:RgLossLimitRec" />
+  <xs:complexType name="RgMaxStakeLimitRec">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q8="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" base="q8:EntityRec">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExpiryDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Modified" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="UserID" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RgMaxStakeLimitRec" nillable="true" type="tns:RgMaxStakeLimitRec" />
+  <xs:complexType name="RgSessionLimitRec">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" base="q9:EntityRec">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Amount" type="xs:int" />
+          <xs:element minOccurs="0" name="ExpiryDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Modified" type="xs:dateTime" />
+          <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="Type" type="q10:RgSessionLimitType" />
+          <xs:element minOccurs="0" name="UpdateAmount" type="xs:int" />
+          <xs:element minOccurs="0" name="UpdateFlag" type="xs:boolean" />
+          <xs:element minOccurs="0" name="UserID" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RgSessionLimitRec" nillable="true" type="tns:RgSessionLimitRec" />
+  <xs:complexType name="RgWageringLimitRec">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q11="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" base="q11:EntityRec">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ExpiryDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExpiryDatePeriod" type="xs:dateTime" />
+          <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="Period" type="q12:RgWageringLimitPeriod" />
+          <xs:element minOccurs="0" name="RemainingAmount" type="xs:decimal" />
+          <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="Type" type="q13:RgWageringLimitType" />
+          <xs:element minOccurs="0" name="UpdateAmount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="UpdateCurrency" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UpdateFlag" type="xs:boolean" />
+          <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="UpdatePeriod" type="q14:RgWageringLimitPeriod" />
+          <xs:element minOccurs="0" name="UpdatedExpiryDatePeriod" type="xs:boolean" />
+          <xs:element minOccurs="0" name="UserID" type="xs:long" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RgWageringLimitRec" nillable="true" type="tns:RgWageringLimitRec" />
+  <xs:complexType name="ArrayOfSportsAccountToolDataRec">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SportsAccountToolDataRec" nillable="true" type="tns:SportsAccountToolDataRec" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSportsAccountToolDataRec" nillable="true" type="tns:ArrayOfSportsAccountToolDataRec" />
+  <xs:complexType name="SportsAccountToolDataRec">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q15="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" base="q15:EntityRec">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Response" nillable="true" type="xs:string" />
+          <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/GmCore.SportsAccountTool" minOccurs="0" name="Status" type="q16:SportsRegistrationResponseStatus" />
+          <xs:element minOccurs="0" name="TaskID" type="xs:long" />
+          <xs:element minOccurs="0" name="UserID" type="xs:long" />
+          <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SportsAccountToolDataRec" nillable="true" type="tns:SportsAccountToolDataRec" />
+</xs:schema>

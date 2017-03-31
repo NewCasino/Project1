@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix.Responses" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix.Responses" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd28" namespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix" />
+  <xs:complexType name="MoneyMatrixDepositCallbackResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:MoneyMatrixCallbackResponse">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MoneyMatrixDepositCallbackResponse" nillable="true" type="tns:MoneyMatrixDepositCallbackResponse" />
+  <xs:complexType name="MoneyMatrixCallbackResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:MoneyMatrixTransactionResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Action" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MoneyMatrixCallbackResponse" nillable="true" type="tns:MoneyMatrixCallbackResponse" />
+  <xs:complexType name="MoneyMatrixTransactionResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:MoneyMatrixSignedResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AccountNumber" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ConfirmedAmount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MerchantReference" nillable="true" type="xs:string" />
+          <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PaymentAccountFields" nillable="true" type="q1:ArrayOfKeyValueOfstringstring" />
+          <xs:element minOccurs="0" name="PaymentVendor" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RedirectUrl" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RequestedAmount" type="xs:decimal" />
+          <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix" minOccurs="0" name="Status" type="q2:MoneyMatrixTransactionStatus" />
+          <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransactionCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="TransactionReference" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="VendorConfirmedAmount" type="xs:decimal" />
+          <xs:element minOccurs="0" name="VendorCurrency" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="VendorReference" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="VendorRequestedAmount" type="xs:decimal" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MoneyMatrixTransactionResponse" nillable="true" type="tns:MoneyMatrixTransactionResponse" />
+  <xs:complexType name="MoneyMatrixSignedResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:MoneyMatrixResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Checksum" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MoneyMatrixSignedResponse" nillable="true" type="tns:MoneyMatrixSignedResponse" />
+  <xs:complexType name="MoneyMatrixResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ResponseCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResponseMessage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VendorCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VendorMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MoneyMatrixResponse" nillable="true" type="tns:MoneyMatrixResponse" />
+  <xs:complexType name="CheckMoneyMatrixTransactionStatusRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Checksum" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MerchantReference" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CheckMoneyMatrixTransactionStatusRequest" nillable="true" type="tns:CheckMoneyMatrixTransactionStatusRequest" />
+  <xs:complexType name="CheckMoneyMatrixTransactionStatusResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Checksum" nillable="true" type="xs:string" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix" minOccurs="0" name="Status" type="q3:MoneyMatrixTransactionStatus" />
+      <xs:element minOccurs="0" name="TransactionCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CheckMoneyMatrixTransactionStatusResponse" nillable="true" type="tns:CheckMoneyMatrixTransactionStatusResponse" />
+  <xs:complexType name="MoneyMatrixNotificationRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Action" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Checksum" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MerchantId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MoneyMatrixNotificationRequest" nillable="true" type="tns:MoneyMatrixNotificationRequest" />
+</xs:schema>

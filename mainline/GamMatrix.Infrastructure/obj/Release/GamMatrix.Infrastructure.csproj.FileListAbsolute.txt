@@ -1,0 +1,6 @@
+D:\cms2012\mainline\GamMatrix.Infrastructure\bin\Release\GamMatrix.Infrastructure.dll
+D:\cms2012\mainline\GamMatrix.Infrastructure\bin\Release\GamMatrix.Infrastructure.pdb
+D:\cms2012\mainline\GamMatrix.Infrastructure\bin\Release\System.Web.Mvc.dll
+D:\cms2012\mainline\GamMatrix.Infrastructure\obj\Release\GamMatrix.Infrastructure.dll
+D:\cms2012\mainline\GamMatrix.Infrastructure\obj\Release\GamMatrix.Infrastructure.pdb
+D:\cms2012\mainline\GamMatrix.Infrastructure\obj\Release\GamMatrix.Infrastructure.csprojResolveAssemblyReference.cache

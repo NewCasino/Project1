@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmCore.Proxies.BingoNetwork.PresentationService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmCore.Proxies.BingoNetwork.PresentationService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfBingoRoom">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BingoRoom" nillable="true" type="tns:BingoRoom" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBingoRoom" nillable="true" type="tns:ArrayOfBingoRoom" />
+  <xs:complexType name="BingoRoom">
+    <xs:sequence>
+      <xs:element name="bingoPrizesField" type="xs:decimal" />
+      <xs:element name="cardPriceField" type="xs:decimal" />
+      <xs:element name="currencyCodeField" nillable="true" type="xs:string" />
+      <xs:element name="jackpotBallsField" type="xs:int" />
+      <xs:element name="jackpotField" type="xs:decimal" />
+      <xs:element name="nextStartField" type="xs:dateTime" />
+      <xs:element name="numPlayersField" type="xs:int" />
+      <xs:element name="playMoneyField" type="xs:boolean" />
+      <xs:element name="roomIdField" type="xs:int" />
+      <xs:element name="roomNameField" nillable="true" type="xs:string" />
+      <xs:element name="roomTypeField" type="xs:int" />
+      <xs:element name="secondsTillNextStartField" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BingoRoom" nillable="true" type="tns:BingoRoom" />
+  <xs:complexType name="ArrayOfBingoWinner">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BingoWinner" nillable="true" type="tns:BingoWinner" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBingoWinner" nillable="true" type="tns:ArrayOfBingoWinner" />
+  <xs:complexType name="BingoWinner">
+    <xs:sequence>
+      <xs:element name="amountField" type="xs:double" />
+      <xs:element name="avatar_urlField" nillable="true" type="xs:string" />
+      <xs:element name="cityField" nillable="true" type="xs:string" />
+      <xs:element name="currencyCodeField" nillable="true" type="xs:string" />
+      <xs:element name="dateWonField" type="xs:dateTime" />
+      <xs:element name="nickField" nillable="true" type="xs:string" />
+      <xs:element name="user_idField" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BingoWinner" nillable="true" type="tns:BingoWinner" />
+  <xs:complexType name="ArrayOfBingoJackpot">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BingoJackpot" nillable="true" type="tns:BingoJackpot" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBingoJackpot" nillable="true" type="tns:ArrayOfBingoJackpot" />
+  <xs:complexType name="BingoJackpot">
+    <xs:sequence>
+      <xs:element name="currencyCodeField" nillable="true" type="xs:string" />
+      <xs:element name="jackpotAmountField" type="xs:decimal" />
+      <xs:element name="jackpotNameField" nillable="true" type="xs:string" />
+      <xs:element name="playMoneyField" type="xs:boolean" />
+      <xs:element name="roomIdField" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BingoJackpot" nillable="true" type="tns:BingoJackpot" />
+</xs:schema>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmSharedTypes.Vivo" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.Vivo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="VivoTransationType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BET" />
+      <xs:enumeration value="WIN" />
+      <xs:enumeration value="CANCELED_BET" />
+      <xs:enumeration value="TIP" />
+      <xs:enumeration value="BONUS" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="VivoTransationType" nillable="true" type="tns:VivoTransationType" />
+</xs:schema>

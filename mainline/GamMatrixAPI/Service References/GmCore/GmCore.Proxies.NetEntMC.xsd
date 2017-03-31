@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmCore.Proxies.NetEntMC" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmCore.Proxies.NetEntMC" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ArrayOfBonusPromotionCodeActivationDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BonusPromotionCodeActivationDetails" nillable="true" type="tns:BonusPromotionCodeActivationDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBonusPromotionCodeActivationDetails" nillable="true" type="tns:ArrayOfBonusPromotionCodeActivationDetails" />
+  <xs:complexType name="BonusPromotionCodeActivationDetails">
+    <xs:sequence>
+      <xs:element name="bonusActivationDetailsArrField" nillable="true" type="tns:ArrayOfBonusActivationDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BonusPromotionCodeActivationDetails" nillable="true" type="tns:BonusPromotionCodeActivationDetails" />
+  <xs:complexType name="ArrayOfBonusActivationDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BonusActivationDetails" nillable="true" type="tns:BonusActivationDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBonusActivationDetails" nillable="true" type="tns:ArrayOfBonusActivationDetails" />
+  <xs:complexType name="BonusActivationDetails">
+    <xs:sequence>
+      <xs:element name="activatedField" type="xs:boolean" />
+      <xs:element name="bonusProgramIdField" nillable="true" type="xs:string" />
+      <xs:element name="reasonField" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BonusActivationDetails" nillable="true" type="tns:BonusActivationDetails" />
+  <xs:complexType name="ArrayOfTournamentOccurrence">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TournamentOccurrence" nillable="true" type="tns:TournamentOccurrence" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTournamentOccurrence" nillable="true" type="tns:ArrayOfTournamentOccurrence" />
+  <xs:complexType name="TournamentOccurrence">
+    <xs:sequence>
+      <xs:element name="buyTicketEndDateField" nillable="true" type="xs:dateTime" />
+      <xs:element name="buyTicketStartDateField" nillable="true" type="xs:dateTime" />
+      <xs:element name="endDateField" nillable="true" type="xs:dateTime" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" name="gamesField" nillable="true" type="q1:ArrayOfstring" />
+      <xs:element name="leaderboardEndDateField" nillable="true" type="xs:dateTime" />
+      <xs:element name="leaderboardStartDateField" nillable="true" type="xs:dateTime" />
+      <xs:element name="nameField" nillable="true" type="xs:string" />
+      <xs:element name="occurenceIdField" nillable="true" type="xs:string" />
+      <xs:element name="startDateField" nillable="true" type="xs:dateTime" />
+      <xs:element name="ticketBasedField" type="xs:boolean" />
+      <xs:element name="ticketCostsField" nillable="true" type="tns:ArrayOfMoney" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TournamentOccurrence" nillable="true" type="tns:TournamentOccurrence" />
+  <xs:complexType name="ArrayOfMoney">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Money" nillable="true" type="tns:Money" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMoney" nillable="true" type="tns:ArrayOfMoney" />
+  <xs:complexType name="Money">
+    <xs:sequence>
+      <xs:element name="amountCurrencyISOCodeField" nillable="true" type="xs:string" />
+      <xs:element name="amountField" nillable="true" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Money" nillable="true" type="tns:Money" />
+  <xs:complexType name="OverviewData">
+    <xs:sequence>
+      <xs:element name="currentCompetitionEndsField" nillable="true" type="xs:dateTime" />
+      <xs:element name="jackpotsField" nillable="true" type="tns:ArrayOfJackpotOverviewData" />
+      <xs:element name="mostPopularGameField" nillable="true" type="xs:string" />
+      <xs:element name="nextCompetitionStartsField" nillable="true" type="xs:dateTime" />
+      <xs:element name="nrOfFunPlayersField" type="xs:int" />
+      <xs:element name="nrOfPlayersField" type="xs:int" />
+      <xs:element name="winnersField" nillable="true" type="tns:ArrayOfWinnerData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OverviewData" nillable="true" type="tns:OverviewData" />
+  <xs:complexType name="ArrayOfJackpotOverviewData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="JackpotOverviewData" nillable="true" type="tns:JackpotOverviewData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJackpotOverviewData" nillable="true" type="tns:ArrayOfJackpotOverviewData" />
+  <xs:complexType name="JackpotOverviewData">
+    <xs:sequence>
+      <xs:element name="currentJackpotValueField" nillable="true" type="tns:Money" />
+      <xs:element name="jackpotNameField" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="JackpotOverviewData" nillable="true" type="tns:JackpotOverviewData" />
+  <xs:complexType name="ArrayOfWinnerData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WinnerData" nillable="true" type="tns:WinnerData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWinnerData" nillable="true" type="tns:ArrayOfWinnerData" />
+  <xs:complexType name="WinnerData">
+    <xs:sequence>
+      <xs:element name="casinoMoneyWinAmountField" nillable="true" type="tns:Money" />
+      <xs:element name="playerMoneyWinAmountField" nillable="true" type="tns:Money" />
+      <xs:element name="winCountryField" nillable="true" type="xs:string" />
+      <xs:element name="winGameIdField" nillable="true" type="xs:string" />
+      <xs:element name="winTimeField" nillable="true" type="xs:string" />
+      <xs:element name="winUserNameField" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WinnerData" nillable="true" type="tns:WinnerData" />
+  <xs:complexType name="ArrayOfJackpot">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Jackpot" nillable="true" type="tns:Jackpot" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfJackpot" nillable="true" type="tns:ArrayOfJackpot" />
+  <xs:complexType name="Jackpot">
+    <xs:sequence>
+      <xs:element name="currentJackpotValueField" nillable="true" type="tns:Money" />
+      <xs:element name="jackpotNameField" nillable="true" type="xs:string" />
+      <xs:element name="jackpotPayoutCountField" type="xs:int" />
+      <xs:element name="jackpotTypeField" nillable="true" type="xs:string" />
+      <xs:element name="lastPayoutDateField" nillable="true" type="xs:dateTime" />
+      <xs:element name="totalJackpotAmountPaidoutField" nillable="true" type="tns:Money" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Jackpot" nillable="true" type="tns:Jackpot" />
+  <xs:complexType name="ArrayOfTournamentStanding">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TournamentStanding" nillable="true" type="tns:TournamentStanding" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTournamentStanding" nillable="true" type="tns:ArrayOfTournamentStanding" />
+  <xs:complexType name="TournamentStanding">
+    <xs:sequence>
+      <xs:element name="betField" nillable="true" type="tns:Money" />
+      <xs:element name="displayNameField" nillable="true" type="xs:string" />
+      <xs:element name="qualifiedField" type="xs:boolean" />
+      <xs:element name="roundsField" nillable="true" type="xs:int" />
+      <xs:element name="scoreField" nillable="true" type="xs:double" />
+      <xs:element name="userNameField" nillable="true" type="xs:string" />
+      <xs:element name="winField" nillable="true" type="tns:Money" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TournamentStanding" nillable="true" type="tns:TournamentStanding" />
+  <xs:complexType name="TournamentOccurrenceDetails">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:TournamentOccurrence">
+        <xs:sequence>
+          <xs:element name="commissionField" nillable="true" type="xs:decimal" />
+          <xs:element name="maxTicketsField" nillable="true" type="xs:int" />
+          <xs:element name="minNoOfRoundsField" nillable="true" type="xs:int" />
+          <xs:element name="playMoneyInitialAmountField" nillable="true" type="tns:Money" />
+          <xs:element name="playMoneyRefillAmountField" nillable="true" type="tns:Money" />
+          <xs:element name="playMoneyRefillField" type="xs:boolean" />
+          <xs:element name="prizeModelTypeField" nillable="true" type="xs:string" />
+          <xs:element name="prizeModelsField" nillable="true" type="tns:ArrayOfPrizeModelDetails" />
+          <xs:element name="prizepotField" nillable="true" type="tns:Money" />
+          <xs:element name="scoreTypeField" nillable="true" type="xs:string" />
+          <xs:element name="ticketsSoldField" nillable="true" type="xs:int" />
+          <xs:element name="wageringRequirementField" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TournamentOccurrenceDetails" nillable="true" type="tns:TournamentOccurrenceDetails" />
+  <xs:complexType name="ArrayOfPrizeModelDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PrizeModelDetails" nillable="true" type="tns:PrizeModelDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPrizeModelDetails" nillable="true" type="tns:ArrayOfPrizeModelDetails" />
+  <xs:complexType name="PrizeModelDetails">
+    <xs:sequence>
+      <xs:element name="maxPlayersField" nillable="true" type="xs:int" />
+      <xs:element name="prizeSharesField" nillable="true" type="tns:ArrayOfPrizeShareDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PrizeModelDetails" nillable="true" type="tns:PrizeModelDetails" />
+  <xs:complexType name="ArrayOfPrizeShareDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PrizeShareDetails" nillable="true" type="tns:PrizeShareDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPrizeShareDetails" nillable="true" type="tns:ArrayOfPrizeShareDetails" />
+  <xs:complexType name="PrizeShareDetails">
+    <xs:sequence>
+      <xs:element name="amountsField" nillable="true" type="tns:ArrayOfMoney" />
+      <xs:element name="percentageField" nillable="true" type="xs:double" />
+      <xs:element name="placementField" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PrizeShareDetails" nillable="true" type="tns:PrizeShareDetails" />
+  <xs:complexType name="TournamentOccurrenceDetailsV2">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:TournamentOccurrence">
+        <xs:sequence>
+          <xs:element name="commissionField" nillable="true" type="xs:decimal" />
+          <xs:element name="maxTicketsField" nillable="true" type="xs:int" />
+          <xs:element name="minBetDenominationField" nillable="true" type="xs:decimal" />
+          <xs:element name="minNoOfRoundsField" nillable="true" type="xs:int" />
+          <xs:element name="playMoneyInitialAmountField" nillable="true" type="tns:Money" />
+          <xs:element name="playMoneyRefillAmountField" nillable="true" type="tns:Money" />
+          <xs:element name="playMoneyRefillField" type="xs:boolean" />
+          <xs:element name="prizeModelTypeField" nillable="true" type="xs:string" />
+          <xs:element name="prizeModelsField" nillable="true" type="tns:ArrayOfPrizeModelDetails" />
+          <xs:element name="prizepotField" nillable="true" type="tns:Money" />
+          <xs:element name="scoreTypeField" nillable="true" type="xs:string" />
+          <xs:element name="ticketsSoldField" nillable="true" type="xs:int" />
+          <xs:element name="wageringRequirementField" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TournamentOccurrenceDetailsV2" nillable="true" type="tns:TournamentOccurrenceDetailsV2" />
+  <xs:complexType name="BonusDetailsV3">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BonusInfoV2">
+        <xs:sequence>
+          <xs:element name="bonusDepositionsField" nillable="true" type="tns:ArrayOfBonusDepositionV3" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BonusDetailsV3" nillable="true" type="tns:BonusDetailsV3" />
+  <xs:complexType name="BonusInfoV2">
+    <xs:sequence>
+      <xs:element name="accountBalanceField" nillable="true" type="tns:Money" />
+      <xs:element name="bonusAvailableField" type="xs:boolean" />
+      <xs:element name="cashinWageredAmountField" nillable="true" type="tns:Money" />
+      <xs:element name="creditWageredAmountField" nillable="true" type="tns:Money" />
+      <xs:element name="creditWageredGameRoundsField" nillable="true" type="xs:int" />
+      <xs:element name="remainingCashinWageringAmountField" nillable="true" type="tns:Money" />
+      <xs:element name="remainingCreditWageringAmountField" nillable="true" type="tns:Money" />
+      <xs:element name="remainingCreditWageringGameRoundsField" nillable="true" type="xs:int" />
+      <xs:element name="reservationBalanceField" nillable="true" type="tns:Money" />
+      <xs:element name="totalBonusField" nillable="true" type="tns:Money" />
+      <xs:element name="totalCashField" nillable="true" type="tns:Money" />
+      <xs:element name="totalSecurityField" nillable="true" type="tns:Money" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BonusInfoV2" nillable="true" type="tns:BonusInfoV2" />
+  <xs:complexType name="ArrayOfBonusDepositionV3">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BonusDepositionV3" nillable="true" type="tns:BonusDepositionV3" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBonusDepositionV3" nillable="true" type="tns:ArrayOfBonusDepositionV3" />
+  <xs:complexType name="BonusDepositionV3">
+    <xs:sequence>
+      <xs:element name="amountField" nillable="true" type="tns:Money" />
+      <xs:element name="bonusIdField" nillable="true" type="xs:int" />
+      <xs:element name="bonusNameField" nillable="true" type="xs:string" />
+      <xs:element name="bonusTypeField" nillable="true" type="xs:string" />
+      <xs:element name="cashinExpirationDateField" nillable="true" type="xs:dateTime" />
+      <xs:element name="cashinWageredAmountField" nillable="true" type="tns:Money" />
+      <xs:element name="createdField" nillable="true" type="xs:dateTime" />
+      <xs:element name="creditWageredAmountField" nillable="true" type="tns:Money" />
+      <xs:element name="creditWageredGameRoundsField" nillable="true" type="xs:int" />
+      <xs:element name="idField" nillable="true" type="xs:long" />
+      <xs:element name="remainingCashinWageringAmountField" nillable="true" type="tns:Money" />
+      <xs:element name="remainingCreditWageringAmountField" nillable="true" type="tns:Money" />
+      <xs:element name="remainingCreditWageringGameRoundsField" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BonusDepositionV3" nillable="true" type="tns:BonusDepositionV3" />
+</xs:schema>

@@ -1,0 +1,1762 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CM</name>
+    </assembly>
+    <members>
+        <member name="T:CM.Content.JavascriptEngine">
+            <summary>
+            Javascript Engine
+            </summary>
+        </member>
+        <member name="M:CM.Content.JavascriptEngine.Execute(System.String)">
+            <summary>
+            Execute the javascript in Google V8 Engine
+            </summary>
+            <param name="js"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CM.db.Accessor.UserPasswordHistoryAccessor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CM.db.Accessor.UserPasswordHistoryAccessor.Exists(System.Int64,System.Int64,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="domainID"></param>
+            <param name="userID"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserPasswordHistoryAccessor.Create(System.Int64,System.Int64,System.String,System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="domainID"></param>
+            <param name="userID"></param>
+            <param name="password"></param>
+            <param name="now"></param>
+        </member>
+        <member name="T:CM.db.cmDomain">
+            <summary>
+            Stores a hostname that is related to a domain.
+            </summary>
+        </member>
+        <member name="T:CM.db.cmExternalLogin">
+             <summary>
+            cmExternalLogin
+             </summary>
+        </member>
+        <member name="M:CM.Content.ContentHelper.GetFileContent(CM.Web.ViewMasterPageEx,System.String)">
+            <summary>
+            Get file content from  static file
+            </summary>
+            <param name="viewMasterPage"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.ContentHelper.GetFileContent(System.Web.Mvc.ViewMasterPage,System.String)">
+            <summary>
+            Get file content from static file
+            </summary>
+            <param name="viewMasterPage"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.ContentHelper.GetFileContent(CM.Web.ViewPageEx,System.String)">
+            <summary>
+            Get file content from static file
+            </summary>
+            <param name="viewPage"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.ContentHelper.GetFileContent(System.Web.Mvc.ViewPage,System.String)">
+            <summary>
+            Get file content from static file
+            </summary>
+            <param name="viewPage"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.ContentHelper.GetFileContent(CM.Web.ViewUserControlEx,System.String)">
+            <summary>
+            Get file content from static file
+            </summary>
+            <param name="viewPage"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.ContentHelper.GetFileContent(System.Web.Mvc.ViewUserControl,System.String)">
+            <summary>
+            Get file content from static file
+            </summary>
+            <param name="viewPage"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CM.Content.ContentNode">
+            <summary>
+            Summary description for ContentNode
+            </summary>
+        </member>
+        <member name="M:CM.Content.ContentNode.#ctor(CM.Content.ContentTree,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="contentTree"></param>
+            <param name="physicalPath"></param>
+            <param name="relativePath"></param>
+        </member>
+        <member name="T:CM.Content.ContentTree">
+            <summary>
+            Summary description for ContentTree
+            </summary>
+        </member>
+        <member name="M:CM.Content.ContentTree.OverrideNodes(CM.Content.ContentTree,CM.Content.ContentTree)">
+            <summary>
+            Copy nodes from tree to tree
+            </summary>
+            <param name="fromTree">the source tree to copy from</param>
+            <param name="toTree">the destination tree</param>
+        </member>
+        <member name="M:CM.Content.ContentTree.UpdateHierarchicalStructure">
+            <summary>
+            Update the hierarchical structure
+            </summary>
+        </member>
+        <member name="M:CM.Content.Metadata.ReadWithoutLock(System.String)">
+            <summary>
+            Read the file without lock
+            </summary>
+            <param name="physicalPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.Metadata.ReadFirstAvailableEntry(System.Collections.Generic.List{System.String})">
+            <summary>
+            Read first available entry in given path
+            </summary>
+            <param name="paths"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.Metadata.GetChildren(CM.db.cmSite,System.String,System.Boolean)">
+            <summary>
+            Read the metadata children nodes in given path
+            </summary>
+            <param name="domain"></param>
+            <param name="path"></param>
+            <param name="useCache">Indicates if use cache</param>
+            <returns>path -- inherited pairs</returns>
+        </member>
+        <member name="M:CM.Content.Metadata.ReadRawValue(CM.db.cmSite,System.String,System.String)">
+            <summary>
+            Read the raw value from file, this method is used by the Metadata Editor
+            </summary>
+            <param name="domain"></param>
+            <param name="path"></param>
+            <param name="lang"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.Metadata.GetSpecialLanguageEntries(CM.db.cmSite,System.String,System.String)">
+            <summary>
+            Get the metadata entries for special languages
+            </summary>
+            <param name="domain"></param>
+            <param name="path"></param>
+            <param name="lang"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.Metadata.Save(CM.db.cmSite,System.String,System.String,System.String,System.String)">
+            <summary>
+            Write the metadata entry
+            </summary>
+            <param name="site"></param>
+            <param name="path"></param>
+            <param name="lang">If language is null, then default value is written</param>
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.Metadata.CreateMetadata(CM.db.cmSite,System.String)">
+            <summary>
+            Create metadata directory
+            </summary>
+            <param name="site">Site</param>
+            <param name="path">Path</param>
+        </member>
+        <member name="M:CM.Content.MetadataExtension.GetMetadata(System.Web.Mvc.ViewPage,System.String)">
+            <summary>
+            Get the metadata
+            </summary>
+            <param name="viewPage"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.MultilingualMgr.ConvertToISO639(System.String)">
+            <summary>
+            http://www.w3.org/WAI/ER/IG/ert/iso639.htm
+            
+            </summary>
+            <param name="lang"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CM.db.Accessor.UserKeyAccessor">
+            <summary>
+            Accessor of table cmUserKey
+            </summary>
+        </member>
+        <member name="M:CM.db.Accessor.UserKeyAccessor.Get(System.Int32,System.String,System.String)">
+            <summary>
+            Get special user key by given parameter
+            </summary>
+            <param name="domainID">domain id</param>
+            <param name="key">key</param>
+            <param name="email">email address</param>
+            <returns>cmUserKey</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserKeyAccessor.GetResetPasswordKey(System.Int32,System.String,System.DateTime)">
+            <summary>
+            Get reset password user key
+            </summary>
+            <param name="domainID">domain id</param>
+            <param name="key">key</param>
+            <param name="now">current time</param>
+            <returns>cmUserKey</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserKeyAccessor.DeleteKey(System.Int32,System.String)">
+            <summary>
+            Mark the given key as deleted
+            </summary>
+            <param name="domainID">domain id</param>
+            <param name="key">key</param>
+        </member>
+        <member name="T:CM.db.Accessor.UserAccessor">
+            <summary>
+            Accessor of database cmUser table
+            </summary>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetUsersByUsername(System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.Int64,System.String}})">
+            <summary>
+            Get users by domain id and usernames
+            </summary>
+            <param name="domain2UsernameMap">map of domain id == username pair</param>
+            <returns>List&lt;cmUser&gt;</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetByID(System.Int64)">
+            <summary>
+            Get user by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetByUsername(System.Int32,System.String)">
+            <summary>
+            Get user by username
+            </summary>
+            <param name="domainID">site id</param>
+            <param name="username">username</param>
+            <returns>cmUser</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetByEmail(System.Int32,System.String)">
+            <summary>
+            Get user by email address
+            </summary>
+            <param name="domainID">site id</param>
+            <param name="email">email address</param>
+            <returns>cmUser</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetByUsernameOrEmail(System.Int32,System.String,System.String)">
+            <summary>
+            Get user by username or email address
+            </summary>
+            <param name="domainID">site id</param>
+            <param name="username">username</param>
+            <param name="email">email address</param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetByPersonalID(System.Int32,System.String)">
+            <summary>
+            Get user by personalID/CPR or email address
+            </summary>
+            <param name="domainID">site id</param>
+            <param name="personalID">personalID</param> 
+            <returns></returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.IsPersonalIDExist(System.Int64,System.Int64,System.String)">
+            <summary>
+            Determine if the email address exists
+            </summary>
+            <param name="domainID">site id</param>
+            <param name="userID">user ID</param>
+            <param name="personalID">personal ID</param>
+            <returns>true if the email address already exists</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.IsEmailExist(System.Int64,System.Int64,System.String)">
+            <summary>
+            Determine if the email address exists
+            </summary>
+            <param name="domainID">site id</param>
+            <param name="userID">user ID</param>
+            <param name="email">email address</param>
+            <returns>true if the email address already exists</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.IsUsernameExist(System.Int32,System.String)">
+            <summary>
+            Determine if the username exists
+            </summary>
+            <param name="domainID">site id</param>
+            <param name="username">uaername</param>
+            <returns>true if the username already exists</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.IsMobileExist(System.Int64,System.Int64,System.String,System.String)">
+            <summary>
+            Determine if the email mobile exists
+            </summary>
+            <param name="domainID">site id</param>
+            <param name="userID">user ID</param>
+            <param name="mobilePrefix">mobile prefix</param>
+            <param name="mobile">mobile</param>
+            <returns>true if the mobile number already exists</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.IsDunplicateUserExist(System.Int32,System.String,System.String,System.DateTime)">
+            <summary>
+            Determine if the username exists
+            </summary>
+            <param name="domainID">site id</param>
+            <param name="firstname">firstname</param>
+            <param name="surname">surname</param>
+            <param name="birth">birth</param>
+            <returns>true if the username already exists</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetRegistrationNumberTodayFromIP(System.Int32,System.String)">
+            <summary>
+            Get the registration times from the same IP within 24 hours
+            </summary>
+            <param name="domainID">site</param>
+            <param name="ip">ip address</param>
+            <returns>the number of the registration times from the given IP.</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.SetExported(System.Int64)">
+            <summary>
+            Set the IsExported = 1 for given user
+            </summary>
+            <param name="userID">user id</param>
+            <returns>the number of rows affacted</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.VerifyEmail(System.Int64)">
+            <summary>
+            Set the IsEmailVerified = 1 for given user
+            </summary>
+            <param name="userID">userid</param>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetHashedPassword(System.Int64)">
+            <summary>
+            Get the hashed password
+            </summary>
+            <param name="userID">userid</param>
+            <returns>hash password</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.IncreaseFailedLoginAttempts(System.Int32,System.DateTime,System.Int32)">
+            <summary>
+            Increase the count of the failed login attempts
+            </summary>
+            <param name="userid">user id</param>
+            <param name="now">current DateTime</param>
+            <returns>is locked</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.LoginSucceed(System.String,System.Int64,System.DateTime)">
+            <summary>
+            Update the fields after user login successfully
+            </summary>
+            <param name="guid">guid</param>
+            <param name="userid">userid</param>
+            <param name="now">current time</param>
+            <returns>the number of row affected</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetByUsernameAndEmail(System.Int32,System.String,System.String)">
+            <summary>
+            Get user by username and email address
+            </summary>
+            <param name="domainID">site</param>
+            <param name="username">username</param>
+            <param name="email">email address</param>
+            <returns>cmUser</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetByLoggedInSessionGuid(System.Int32,System.String)">
+            <summary>
+            Get user by logged-in session guid
+            </summary>
+            <param name="domainID">domain id</param>
+            <param name="sessionGuid">session guid</param>
+            <returns>cmUser</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.GetByUsernameAndHashedPassword(System.Int32,System.String,System.String)">
+            <summary>
+            Get user by username and hashed password
+            </summary>
+            <param name="domainID">site id</param>
+            <param name="username">username</param>
+            <param name="passwordHash">hashed password</param>
+            <returns>cmUser</returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.AddAcceptBonusByDefaultFlag(System.Int64,CM.db.AcceptBonusByDefault)">
+            <summary>
+            Set AcceptBonusByDefault field, add the flag
+            </summary>
+            <param name="userID">userid</param>
+            <param name="flag">flag</param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.RemoveAcceptBonusByDefaultFlag(System.Int64,CM.db.AcceptBonusByDefault)">
+            <summary>
+            Set AcceptBonusByDefault field, re,pve the flag
+            </summary>
+            <param name="userID">userid</param>
+            <param name="flag">flag</param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.ClearTermsConditionsFlag(System.Int64,CM.db.TermsConditionsChange)">
+            <summary>
+            Clear the terms conditions flag
+            </summary>
+            <param name="userID"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.SetTermsConditionsFlag(System.Int64,CM.db.TermsConditionsChange)">
+            <summary>
+            Set the terms conditions flag for all users in a domain
+            </summary>
+            <param name="domainID"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.db.Accessor.UserAccessor.Create(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Char,System.String,System.String,CM.db.PasswordEncryptionMode,System.String,System.Boolean,System.String,System.String,System.Int32,System.Nullable{System.Int32},System.String,System.Int32,System.String,System.String,System.String,System.String,System.Nullable{System.DateTime},System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Boolean,System.Boolean,System.String,System.DateTime,System.Nullable{System.DateTime},System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            add a user
+            </summary>
+            <param name="title">title</param>
+            <param name="firstName">firstname</param>
+            <param name="surname">surname</param>
+            <param name="displayName">display name</param>
+            <param name="personalID">personal ID of User</param>
+            <param name="alias">alias</param>
+            <param name="avatar">avatar</param>
+            <param name="gender">gender</param>
+            <param name="username">username</param>
+            <param name="password">password</param>
+            <param name="passwordEncMode">password encode mode</param>
+            <param name="email">email</param>
+            <param name="isEmailVerified">email Verification status</param>
+            <param name="securityQuestion">security question</param>
+            <param name="securityAnswer">security answer</param>
+            <param name="countryID">country id</param>
+            <param name="regionID">region id</param>
+            <param name="signupIP">signup ip</param>
+            <param name="signupCountryID">signup country id</param>
+            <param name="address1">address1</param>
+            <param name="address2">address2</param>
+            <param name="zip">zip</param>
+            <param name="city">city</param>
+            <param name="birth">birth date</param>
+            <param name="currency">currency</param>
+            <param name="mobilePrefix">mobile prefix</param>
+            <param name="mobile">mobile</param>
+            <param name="phonePrefix">phone prefix</param>
+            <param name="phone">phone</param>
+            <param name="domainID">site id</param>
+            <param name="language">language</param>
+            <param name="affiliateMarker">affiliate marker</param>
+            <param name="allowNewsEmail">accept news email</param>
+            <param name="allowSmsOffer">allow Sms Offers to be sent to User</param>
+            <param name="taxCode">tax Code</param>
+            <param name="now">current DateTime</param>
+            <param name="completeProfile">Profile completion status</param>
+            <param name="intendedVolume">Intended gambling volume</param>
+            <param name="dOBPlace">birth place</param>
+            <param name="IsMobileSignup">mobile signup or not</param>
+            <param name="Preferences">Preferences</param>
+            <returns>ID of the new create user</returns>
+        </member>
+        <member name="T:CM.db.cmSite">
+            <summary>
+            Stores data about a domain. Could also be referred to as an operator.
+            </summary>
+        </member>
+        <member name="T:CM.db.cmHost">
+            <summary>
+            class cmHost is an object mapped to database cmHost table
+            </summary>
+        </member>
+        <member name="P:CM.db.cmHost.HostID">
+            <summary>
+            Field HostID
+            </summary>
+        </member>
+        <member name="P:CM.db.cmHost.SiteID">
+            <summary>
+            Field SiteID
+            </summary>
+        </member>
+        <member name="P:CM.db.cmHost.HostName">
+            <summary>
+            Field HostName
+            </summary>
+        </member>
+        <member name="P:CM.db.cmHost.DefaultCulture">
+            <summary>
+            Field DefaultCulture
+            </summary>
+        </member>
+        <member name="T:CM.db.cmUser">
+            <summary>
+            Stores a user record.
+            </summary>
+        </member>
+        <member name="T:CM.db.cmRevision">
+            <summary>
+            object mapped to database cmRevision table
+            </summary>
+        </member>
+        <member name="P:CM.db.cmRevision.ID">
+            <summary>
+            Field ID
+            </summary>
+        </member>
+        <member name="P:CM.db.cmRevision.Ins">
+            <summary>
+            Field Ins
+            </summary>
+        </member>
+        <member name="P:CM.db.cmRevision.UserID">
+            <summary>
+            Field UserID
+            </summary>
+        </member>
+        <member name="P:CM.db.cmRevision.SiteID">
+            <summary>
+            Field SiteID
+            </summary>
+        </member>
+        <member name="P:CM.db.cmRevision.RelativePath">
+            <summary>
+            Field RelativePath
+            </summary>
+        </member>
+        <member name="P:CM.db.cmRevision.Comments">
+            <summary>
+            Field Comments
+            </summary>
+        </member>
+        <member name="P:CM.db.cmRevision.FilePath">
+            <summary>
+            Field FilePath
+            </summary>
+        </member>
+        <member name="P:CM.db.cmRevision.Username">
+            <summary>
+            Field Username
+            </summary>
+        </member>
+        <member name="P:CM.db.cmRevision.DomainDistinctName">
+            <summary>
+            Field DomainDistinctName
+            </summary>
+        </member>
+        <member name="T:CM.Content.MetadataExpressionBuilder">
+            <summary>
+            Inherited from ExpressionBuilder, provide the ability to parse the metadata tag in ASP.Net page
+            &lt;$ Metadata:  &gt;
+            </summary>
+        </member>
+        <member name="M:CM.Content.MetadataExpressionBuilder.GetEvalData(System.String,System.String)">
+            <summary>
+            get the value from expression
+            </summary>
+            <param name="expression"></param>
+            <param name="virtualPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Content.MetadataExpressionBuilder.EvaluateExpression(System.Object,System.Web.UI.BoundPropertyEntry,System.Object,System.Web.Compilation.ExpressionBuilderContext)">
+            <summary>
+            override EvaluateExpression
+            </summary>
+            <param name="target">The object containing the expression.</param>
+            <param name="entry">The object that represents information about the property bound to by the expression.</param>
+            <param name="parsedData">The object containing parsed data as returned by ParseExpression.</param>
+            <param name="context">Contextual information for the evaluation of the expression.</param>
+            <returns>An object that represents the evaluated expression; otherwise, Nothing if the inheritor does not implement EvaluateExpression.</returns>
+        </member>
+        <member name="M:CM.Content.MetadataExpressionBuilder.GetCodeExpression(System.Web.UI.BoundPropertyEntry,System.Object,System.Web.Compilation.ExpressionBuilderContext)">
+            <summary>
+            override GetCodeExpression
+            </summary>
+            <param name="entry">The object that represents information about the property bound to by the expression.</param>
+            <param name="parsedData">The object containing parsed data as returned by ParseExpression. </param>
+            <param name="context">Contextual information for the evaluation of the expression.</param>
+            <returns>A CodeExpression that is used for property assignment.</returns>
+        </member>
+        <member name="P:CM.Content.MetadataExpressionBuilder.SupportsEvaluate">
+            <summary>
+            override SupportsEvaluate, return true always to indicate supporting evaluate
+            </summary>
+        </member>
+        <member name="T:CM.db.cmSessionValue">
+            <summary>
+            Stores a session value record.
+            </summary>
+        </member>
+        <member name="P:CM.db.cmSessionValue.SessionGuid">
+            <summary>
+            SessionGuid Field
+            </summary>
+        </member>
+        <member name="P:CM.db.cmSessionValue.SessionName">
+            <summary>
+            SessionName Field
+            </summary>
+        </member>
+        <member name="P:CM.db.cmSessionValue.SessionValue">
+            <summary>
+            SessionValue Field
+            </summary>
+        </member>
+        <member name="T:CM.db.cmUserKey">
+            <summary>.
+            Stores a key that is used in e-mails links to verify that a link is correct
+            </summary>
+        </member>
+        <member name="T:CM.db.cmRegion">
+            <summary>
+            Region / State
+            </summary>
+        </member>
+        <member name="T:CM.db.cmTransParameter">
+            <summary>
+            Stores a hostname that is related to a domain.
+            </summary>
+        </member>
+        <member name="M:CM.db.cmTransParameter.SaveObject``1(System.String,System.String,``0)">
+            <summary>
+            Save the object with parameter
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="sid"></param>
+            <param name="parameterName"></param>
+            <param name="obj"></param>
+        </member>
+        <member name="M:CM.db.cmTransParameter.ReadObject``1(System.String,System.String)">
+            <summary>
+            Read the object from parameter
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="sid"></param>
+            <param name="parameterName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Logger.Append(CM.db.cmLog)">
+            <summary>
+            append a log record to s_RecordsToInsert
+            </summary>
+            <param name="log"></param>
+        </member>
+        <member name="T:PasswordHelper">
+            <summary>
+            Summary description for PasswordHelper
+            </summary>
+        </member>
+        <member name="T:CM.Sites.DynamicActionInvoker">
+            <summary>
+            Dynamic action invoker inherited from ControllerActionInvoker
+            </summary>
+        </member>
+        <member name="M:CM.Sites.DynamicActionInvoker.InvokeAction(System.Web.Mvc.ControllerContext,System.String)">
+            <summary>
+            override InvokeAction
+            </summary>
+            <param name="controllerContext">ControllerContext</param>
+            <param name="actionName">actionName</param>
+            <returns>always return true</returns>
+        </member>
+        <member name="P:CM.Sites.DynamicActionInvoker.ActionDelegate">
+            <summary>
+             the delegate of the action
+            </summary>
+        </member>
+        <member name="T:CM.Sites.SiteManager">
+            <summary>
+            Site manager
+            </summary>
+        </member>
+        <member name="F:CM.Sites.SiteManager.ALL_SITES_CACHE_FILE">
+            <summary>
+            Cache file for all site
+            </summary>
+        </member>
+        <member name="F:CM.Sites.SiteManager.ALL_HOSTS_CACHE_FILE">
+            <summary>
+            Cache file for all hostnames
+            </summary>
+        </member>
+        <member name="F:CM.Sites.SiteManager.HOST_SITE_MAP_CACHE_FILE">
+            <summary>
+            Cache file for hostname to site dictionary
+            </summary>
+        </member>
+        <member name="M:CM.Sites.SiteManager.GetByHostName(System.String)">
+            <summary>
+            Get the domain by hostname
+            </summary>
+            <param name="hostName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Sites.SiteManager.GetSites">
+            <summary>
+            Returns all the domains
+            </summary>
+            <returns>Domains as List of cmSite</returns>
+        </member>
+        <member name="M:CM.Sites.SiteManager.GetSiteByDistinctName(System.String)">
+            <summary>
+            Get the site by distinct name
+            </summary>
+            <param name="distinctName">distinct name of the site</param>
+            <returns>Returns cmSite found by the name</returns>
+        </member>
+        <member name="M:CM.Sites.SiteManager.GetHosts">
+            <summary>
+            Returns all the host names
+            </summary>
+            <returns>returns all hosts</returns>
+        </member>
+        <member name="M:CM.Sites.SiteManager.InitialLoadConfiguration">
+            <summary>
+            This method is called when the app pool starts
+            </summary>
+        </member>
+        <member name="M:CM.Sites.SiteManager.GetSiteRouteInfo(System.String)">
+            <summary>
+            Get the route info by site distinct name
+            </summary>
+            <param name="distinctName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Sites.SiteManager.ReloadConfigration(CM.db.cmSite)">
+            <summary>
+            Extension method, reload configuration for special 
+            </summary>
+            <param name="site">site</param>
+            <returns>SiteRouteInfo of this site</returns>
+        </member>
+        <member name="M:CM.Sites.SiteManager.GetRouteCollection(CM.db.cmSite)">
+            <summary>
+            Extension method, returns route collection for special site
+            </summary>
+            <param name="domain">site</param>
+            <returns>RouteCollection</returns>
+        </member>
+        <member name="M:CM.Sites.SiteManager.GetControllerTypeByRoute(CM.db.cmSite,System.Web.Routing.RouteBase)">
+            <summary>
+            Extension method, returns controller type for special route
+            </summary>
+            <param name="domain">site</param>
+            <param name="routeBase">route</param>
+            <returns>controller type</returns>
+        </member>
+        <member name="M:CM.Sites.SiteManager.GetUrlByRoute(CM.db.cmSite,System.Web.Routing.RouteBase)">
+            <summary>
+            Extension method, returns url for special route
+            </summary>
+            <param name="domain">site</param>
+            <param name="routeBase">route</param>
+            <returns>the url of the route</returns>
+        </member>
+        <member name="M:CM.Sites.SiteManager.GetAbsoluteBaseUrl(System.Web.Mvc.UrlHelper,System.String)">
+            <summary>
+            Returns the current site's absolute url
+            </summary>
+            <param name="urlHelper">UrlHelper extension method</param>
+            <param name="language">the desired language</param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Sites.SiteManager.RouteUrlEx(System.Web.Mvc.UrlHelper,System.String,System.Object,System.String)">
+            <summary>
+            Extension method, return the url of route with abosulute path
+            </summary>
+            <param name="urlHelper">UrlHelper</param>
+            <param name="routeName">route</param>
+            <param name="routeValues">route values</param>
+            <param name="language">language</param>
+            <returns>the url</returns>
+        </member>
+        <member name="P:CM.Sites.SiteManager.Current">
+            <summary>
+             get the current site
+            </summary>
+        </member>
+        <member name="T:CM.Sites.SiteManager.SiteAndHost">
+            <summary>
+            class keeps site and host
+            </summary>
+        </member>
+        <member name="T:CM.Sites.MvcHttpModule">
+            <summary>
+            Http Module handles all requests
+            </summary>
+        </member>
+        <member name="M:CM.Sites.MvcHttpModule.Dispose">
+            <summary>
+            Dispose 
+            </summary>
+        </member>
+        <member name="M:CM.Sites.MvcHttpModule.Init(System.Web.HttpApplication)">
+            <summary>
+            Initialize with HttpApplication
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:CM.Sites.MvcHttpModule.PreProcessRequest">
+            <summary>
+            When the request begin, this method is called
+            </summary>
+        </member>
+        <member name="T:CM.State.IPLocation">
+            <summary>
+            Summary description for IPLocation
+            </summary>
+        </member>
+        <member name="F:CM.Web.UI.BalloonTooltip.BUBBLE_FORMAT_STRING">
+            <summary>
+            {0} = ArrowDirection
+            {1} = inner HTML
+            {2} = for id
+            </summary>
+        </member>
+        <member name="T:ControlExtension">
+            <summary>
+            Extension class for controls
+            </summary>
+        </member>
+        <member name="F:ControlExtension.HEADER_FORMAT_STRING">
+            <summary>
+            {0} = css class
+            {1} = html
+            </summary>
+        </member>
+        <member name="F:ControlExtension.MESSAGE_FORMAT_STRING">
+            <summary>
+            {0} = css class
+            {1} = html
+            </summary>
+        </member>
+        <member name="F:ControlExtension.BUTTON_FORMAT_STRING">
+            <summary>
+            {0} = css class
+            {1} = html
+            </summary>
+        </member>
+        <member name="F:ControlExtension.LINK_FORMAT_STRING">
+            <summary>
+            {0} = css class
+            {1} = html
+            </summary>
+        </member>
+        <member name="M:ControlExtension.Header(System.Web.Mvc.HtmlHelper,ControlExtension.HeadLevel,System.String,System.Object)">
+            <summary>
+            H1 - H7
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="headLevel">header level</param>
+            <param name="text">text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.H1(System.Web.Mvc.HtmlHelper,System.String,System.Object)">
+            <summary>
+            H1
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="text">text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.H2(System.Web.Mvc.HtmlHelper,System.String,System.Object)">
+            <summary>
+            H2
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="text">text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.H3(System.Web.Mvc.HtmlHelper,System.String,System.Object)">
+            <summary>
+            H3
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="text">text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.H4(System.Web.Mvc.HtmlHelper,System.String,System.Object)">
+            <summary>
+            H4
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="text">text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.H5(System.Web.Mvc.HtmlHelper,System.String,System.Object)">
+            <summary>
+            H5
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="text">text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.Message(System.Web.Mvc.HtmlHelper,ControlExtension.MessageType,System.String,System.Boolean,System.Object)">
+            <summary>
+            Message
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="messageType">message type</param>
+            <param name="textOrHtml">text or html</param>
+            <param name="isHtml">indicates the textOrHtml is html or plain text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.SuccessMessage(System.Web.Mvc.HtmlHelper,System.String,System.Boolean,System.Object)">
+            <summary>
+            Success message
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="textOrHtml">text or html</param>
+            <param name="isHtml">indicates the textOrHtml is html or plain text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.InformationMessage(System.Web.Mvc.HtmlHelper,System.String,System.Boolean,System.Object)">
+            <summary>
+            Information message
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="textOrHtml">text or html</param>
+            <param name="isHtml">indicates the textOrHtml is html or plain text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.WarningMessage(System.Web.Mvc.HtmlHelper,System.String,System.Boolean,System.Object)">
+            <summary>
+            Warning message
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="textOrHtml">text or html</param>
+            <param name="isHtml">indicates the textOrHtml is html or plain text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.ErrorMessage(System.Web.Mvc.HtmlHelper,System.String,System.Boolean,System.Object)">
+            <summary>
+            Error message
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="textOrHtml">text or html</param>
+            <param name="isHtml">indicates the textOrHtml is html or plain text</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.Button(System.Web.Mvc.HtmlHelper,System.String,System.Object)">
+            <summary>
+            Button
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="buttonText">the text of the button</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.LinkButton(System.Web.Mvc.HtmlHelper,System.String,System.Object)">
+            <summary>
+            Link button
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="buttonText">text of the button</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.BeginSelectableTable(System.Web.Mvc.HtmlHelper,System.String,System.Object,System.String,System.Object)">
+            <summary>
+            Begin render selectable table component
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">name of the post value</param>
+            <param name="value">value</param>
+            <param name="uniqueKeyFieldName">the field name of unique key</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>SelectableTable</returns>
+        </member>
+        <member name="M:ControlExtension.BeginNavigationMenu(System.Web.Mvc.HtmlHelper,CM.Web.UI.MenuType,System.Object)">
+            <summary>
+            Begin render a navigation menu
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="menuType">Menu type</param>
+            <param name="htmlAttributes">html attributes</param>
+            <returns>NavigationMenu</returns>
+        </member>
+        <member name="M:ControlExtension.TextboxEx(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object,System.String)">
+            <summary>
+            Render a textbox
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">name of this textbox</param>
+            <param name="value">value of this textbox</param>
+            <param name="wartermark">warter mark text shown when the value is empty</param>
+            <param name="htmlAttributes">html attributes</param>
+            <param name="wrapperCssClass">the css class of the wrapper div</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:ControlExtension.SetDisabled(System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)">
+            <summary>
+            add the disabled="disabled" attribute to DOM 
+            </summary>
+            <param name="dic"></param>
+            <param name="isDisabled">true if disabled</param>
+            <returns></returns>
+        </member>
+        <member name="M:ControlExtension.SetReadOnly(System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)">
+            <summary>
+            add the readonly="readonly" attribute to DOM 
+            </summary>
+            <param name="dic"></param>
+            <param name="isReadOnly">true if readonly</param>
+            <returns></returns>
+        </member>
+        <member name="T:ControlExtension.HeadLevel">
+            <summary>
+            The level of the head
+            </summary>
+        </member>
+        <member name="F:ControlExtension.HeadLevel.h1">
+            <summary>
+            H1
+            </summary>
+        </member>
+        <member name="F:ControlExtension.HeadLevel.h2">
+            <summary>
+            H2
+            </summary>
+        </member>
+        <member name="F:ControlExtension.HeadLevel.h3">
+            <summary>
+            H3
+            </summary>
+        </member>
+        <member name="F:ControlExtension.HeadLevel.h4">
+            <summary>
+            H4
+            </summary>
+        </member>
+        <member name="F:ControlExtension.HeadLevel.h5">
+            <summary>
+            H5
+            </summary>
+        </member>
+        <member name="T:ControlExtension.MessageType">
+            <summary>
+            Message type
+            </summary>
+        </member>
+        <member name="F:ControlExtension.MessageType.Information">
+            <summary>
+            Information
+            </summary>
+        </member>
+        <member name="F:ControlExtension.MessageType.Warning">
+            <summary>
+            Warning
+            </summary>
+        </member>
+        <member name="F:ControlExtension.MessageType.Error">
+            <summary>
+            Error
+            </summary>
+        </member>
+        <member name="F:ControlExtension.MessageType.Success">
+            <summary>
+            Success
+            </summary>
+        </member>
+        <member name="T:CM.Web.UI.LinkButton">
+            <summary>
+            LinkButton control
+            </summary>
+        </member>
+        <member name="M:CM.Web.UI.LinkButton.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Render the html
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="P:CM.Web.UI.LinkButton.Text">
+            <summary>
+            Text of the button
+            </summary>
+        </member>
+        <member name="P:CM.Web.UI.LinkButton.Href">
+            <summary>
+            href of the button
+            </summary>
+        </member>
+        <member name="P:CM.Web.UI.LinkButton.Target">
+            <summary>
+             target of the button
+            </summary>
+        </member>
+        <member name="T:CM.Web.UI.Header">
+            <summary>
+            Header, present the HTML tag,  &lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt;
+            </summary>
+        </member>
+        <member name="M:CM.Web.UI.Header.#ctor">
+            <summary>
+            constructor
+            </summary>
+        </member>
+        <member name="M:CM.Web.UI.Header.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Produce the HTML of the control
+            </summary>
+            <param name="writer"></param>
+        </member>
+        <member name="P:CM.Web.UI.Header.Text">
+            <summary>
+            Text for the header
+            </summary>
+        </member>
+        <member name="P:CM.Web.UI.Header.HeadLevel">
+            <summary>
+            Level of the head
+            </summary>
+        </member>
+        <member name="T:CM.Web.CompressFilter">
+            <summary>
+            CompressFilter, inherited from ActionFilterAttribute. provide ability to compress the response of special action
+            </summary>
+        </member>
+        <member name="M:CM.Web.CompressFilter.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>
+            override OnActionExecuting
+            </summary>
+            <param name="filterContext">ActionExecutingContext</param>
+        </member>
+        <member name="T:CM.Web.ViewTypeParserFilterEx">
+            <summary>
+            JERRY:
+            Replace the ViewTypeParserFilter from System.Web.Mvc.dll
+            
+            The way ASP.NET MVC worked around this was by fooling the underlying page parser into thinking that the page is not generic. 
+            They did this by building a custom PageParserFilter and a custom FileLevelPageControlBuilder. 
+            The parser filter looks for a generic type, and if it finds one, swaps it out for the non-generic ViewPage type 
+            so that the ASP.NET parser doesn't choke. 
+            Then, much later in the page compilation lifecycle, their custom page builder class swaps the generic type back in.
+            </summary>
+        </member>
+        <member name="T:CM.Web.ViewUserControlControlBuilderEx">
+            <summary>
+            JERRY:
+            Replace the ViewUserControlControlBuilder from System.Web.Mvc.dll
+            </summary>
+        </member>
+        <member name="T:CM.Web.VirtualFileEx">
+            <summary>
+            Inherited from VirtualFile, provide the ability to implement url rewritting for different operator
+            </summary>
+        </member>
+        <member name="M:CM.Web.VirtualFileEx.GetPhysicalFilePath(System.String)">
+            <summary>
+            Get physical file path
+            </summary>
+            <param name="path">path</param>
+            <returns>physical file path</returns>
+        </member>
+        <member name="M:CM.Web.VirtualFileEx.#ctor(System.String)">
+            <summary>
+            constructor
+            </summary>
+            <param name="virtualPath">virtual path</param>
+        </member>
+        <member name="M:CM.Web.VirtualFileEx.Open">
+            <summary>
+            override the Open method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CM.State.CustomProfile">
+            <summary>
+            Custom profile class inherited from ProfileBase
+            </summary>
+        </member>
+        <member name="M:CM.State.CustomProfile.ClearSessionCache(System.String)">
+            <summary>
+            Clear session cache from memcached server
+            </summary>
+            <param name="sessionGuid"></param>
+        </member>
+        <member name="M:CM.State.CustomProfile.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CM.State.CustomProfile.IsInRole(System.String[])">
+            <summary>
+            Detect if user is assigned with the roles
+            </summary>
+            <param name="roles">role names</param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.InitAnonymous(System.Web.HttpContext)">
+            <summary>
+            Initialize Anonymous session
+            </summary>
+            <param name="httpContext"></param>
+        </member>
+        <member name="M:CM.State.CustomProfile.Init(System.Web.HttpContext,System.Boolean)">
+            <summary>
+            initialize the profile with HttpContext
+            </summary>
+            <param name="httpContext">HttpContext</param>
+            <param name="ignoreIpVerification">true if should ignore Ip Verification</param>
+        </member>
+        <member name="M:CM.State.CustomProfile.LoginVIADK(CM.State.CustomProfile,CM.db.cmSite,System.String,CM.Misc.LoginMode)">
+            <summary>
+            Login the user and create the session
+            </summary>
+            <param name="cp">cp</param>
+            <param name="site">site</param>
+            <param name="CPR">CPR</param>
+            <param name="loginMode">loginMode</param> 
+            <returns>LoginResult</returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.Login(System.String,System.String,System.String,CM.Misc.LoginMode)">
+            <summary>
+            Login the user and create the session
+            </summary>
+            <param name="username">username</param>
+            <param name="password">password</param>
+            <param name="securityToken">securityToken</param>
+            <returns>LoginResult</returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.Login(System.String,System.String,System.String,System.String,CM.Misc.LoginMode)">
+            <summary>
+            Login the user and create the session
+            </summary>
+            <param name="username">username</param>
+            <param name="password">password</param>
+            <param name="securityToken">securityToken</param>
+            <returns>LoginResult</returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.Login(System.String,System.String,System.String,System.String,System.Int64@)">
+            <summary>
+            Login the user and create the session
+            </summary>
+            <param name="username">username</param>
+            <param name="password">password</param>
+            <param name="securityToken">securityToken</param>
+            <param name="loginMode">userIDOut</param>
+            <returns>LoginResult</returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.Login(System.String,System.String,System.String,System.String,System.Boolean,System.Int64@)">
+            <summary>
+            Login the user and create the session
+            </summary>
+            <param name="username">username</param>
+            <param name="password">password</param>
+            <param name="securityToken">securityToken</param>
+            <param name="loginMode">userIDOut</param>
+            <returns>LoginResult</returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.Login(System.String,System.String,System.String,System.String,CM.Misc.LoginMode,System.Boolean,System.Int64@)">
+            <summary>
+            Login the user and create the session
+            </summary>
+            <param name="username">username</param>
+            <param name="password">password</param>
+            <param name="securityToken">securityToken</param>
+            <param name="loginMode">loginMode</param>
+            <param name="loginMode">userIDForOut</param>
+            <returns>LoginResult</returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.VerifyUserPassword(System.String,System.String,System.Int64@)">
+            <summary>
+            Login the user and create the session for Desktop or Mobile User
+            </summary>
+            <param name="username">username</param>
+            <param name="password">password</param>
+            <param name="securityToken">securityToken</param>
+            <param name="loginMode">loginMode</param>
+            <param name="loginMode">userIDForOut</param>
+            <returns>LoginResult</returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.ExternalLogin(CM.db.cmSite,System.Int64,System.String)">
+            <summary>
+            External login for 3rd-party
+            </summary>
+            <param name="site">site</param>
+            <param name="userID">user id</param>
+            <param name="ip">ip</param>
+            <returns>LoginResult</returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.Logoff">
+            <summary>
+            Logoff current profile
+            </summary>
+        </member>
+        <member name="M:CM.State.CustomProfile.Logoff(EveryMatrix.SessionAgent.Protocol.SessionExitReason)">
+            <summary>
+            Logoff current profile
+            </summary>
+            <param name="exitReason">session exit reason</param>
+        </member>
+        <member name="M:CM.State.CustomProfile.GetRoleStringByUser(CM.db.cmSite,System.Int64)">
+            <summary>
+            Get role string bu user
+            </summary>
+            <param name="site"></param>
+            <param name="userID">User ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.ExportUser(System.Int64,System.String)">
+            <summary>
+            Export the user to GmCore
+            </summary>
+            <param name="userID">userid</param>
+            <param name="currency">currency</param>
+            <returns>indicate if it is success</returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.IsCountryBlocked(System.Int32)">
+            <summary>
+            Determine if the country blocked
+            </summary>
+            <param name="countryID">Country ID</param>
+            <returns>true if this is blocked country</returns>
+        </member>
+        <member name="M:CM.State.CustomProfile.SendNotificationEmail(CM.db.cmUser)">
+            <summary>
+            Send notification email to user
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:CM.State.CustomProfile.CreateSession(CM.db.cmSite,CM.db.cmUser,System.String)">
+            <summary>
+            Create session
+            </summary>
+            <param name="site">site</param>
+            <param name="user">user</param>
+            <param name="ip">ip address</param>
+        </member>
+        <member name="M:CM.State.CustomProfile.SaveCurrentUserSession(System.Int64,System.String)">
+            <summary>
+            Save the UserID == SessionID
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.SessionID">
+            <summary>
+            The session guid
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.UserID">
+            <summary>
+            user id
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.DomainID">
+            <summary>
+            domain id
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.UserCountryID">
+            <summary>
+            country id of this user
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.IpCountryID">
+            <summary>
+            country id of the ip
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.DisplayName">
+            <summary>
+            display name
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.FirstName">
+            <summary>
+            First name
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.SurName">
+            <summary>
+            Sur Name  
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.Alias">
+            <summary>
+            Alias 
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.IsAuthenticated">
+            <summary>
+            bool indicates if it is authenticated user
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.RoleString">
+            <summary>
+            Role string of this user
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.LastAccess">
+            <summary>
+            LastAccess of this session
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.LoginTime">
+            <summary>
+            LoginTime
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.LastLoginTime">
+            <summary>
+            LoginTime
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.SessionLimitSeconds">
+            <summary>
+            The seconds to limit the session time
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.UserCurrency">
+            <summary>
+            currency of this user
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.AffiliateMarker">
+            <summary>
+            AM
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.LoginIP">
+            <summary>
+            LoginIP
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.IsExternal">
+            <summary>
+            LoginIP
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.IsEmailVerified">
+            <summary>
+            IsEmailVerified
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.JoinTime">
+            <summary>
+            JoinTime
+            </summary>
+        </member>
+        <member name="P:CM.State.CustomProfile.Current">
+            <summary>
+            Get current profile instance
+            </summary>
+        </member>
+        <member name="T:CM.State.CustomProfile.LoginResult">
+            <summary>
+            Result of the login
+            </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.Success">
+            <summary> Success </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.NoMatch">
+            <summary> username or password does not match </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.EmailNotVerified">
+            <summary> email address is not verified </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.Blocked">
+            <summary> user is blocked </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.TooManyInvalidAttempts">
+            <summary> too many failed attempts </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.CountryBlocked">
+            <summary> country is blocked </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.NoPassword">
+            <summary>No password</summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.NeedChangePassword">
+            <summary>Password unsafe</summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.RequiresCaptcha">
+            <summary>
+            requires captcha
+            </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.NoMatch_RequiresCaptcha">
+            <summary>
+            username or password does not match, requires captcha for next attempt
+            </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.CaptchaNotMatch">
+            <summary>
+            captcha is incorrect
+            </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.IovationDeny">
+            <summary>
+            send a request to iocation, will get allow or deny
+            </summary>
+        </member>
+        <member name="F:CM.State.CustomProfile.LoginResult.RofusRegistrationFailed">
+            <summary>
+            Rofus Registration status
+            </summary>
+        </member>
+        <member name="T:ProfileExtension">
+            <summary>
+            Profile Extension, add extension methods to profile
+            </summary>
+        </member>
+        <member name="M:ProfileExtension.AsCustomProfile(System.Web.Profile.ProfileBase)">
+            <summary>
+            Convert profile to CustomProfile
+            </summary>
+            <param name="profile"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CM.Web.UI.ClientValidators">
+            <summary>
+            Helper class to generate validator for controls, and the validator is used by jQuery.validation plug in.
+            </summary>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Create">
+            <summary>
+            Create an instance
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Required(System.String)">
+            <summary>
+            Value can't be empty
+            </summary>
+            <param name="errorMessage">Error message when value is empty</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.RequiredIf(System.String,System.String)">
+            <summary>
+            Value can;t be empty in some conditions
+            </summary>
+            <param name="callback">javascript function, returns the bool value indicates if the validator is enabled/disabled</param>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.MinLength(System.Int32,System.String)">
+            <summary>
+            Value's length must be equal or greater than the minimum length.
+            </summary>
+            <param name="minLen">min length</param>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.MaxLength(System.Int32,System.String)">
+            <summary>
+            Value's length must be equal or less than the max length.
+            </summary>
+            <param name="maxLen">max length</param>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Rangelength(System.Int32,System.Int32,System.String)">
+            <summary>
+            Value's length must in the range
+            </summary>
+            <param name="minLen">min length</param>
+            <param name="maxLen">max length</param>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Min(System.Int32,System.String)">
+            <summary>
+            Numberic value must equal or greater than min value
+            </summary>
+            <param name="minValue">min value</param>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Max(System.Int32,System.String)">
+            <summary>
+            Numberic value must be equal or less than max value
+            </summary>
+            <param name="maxValue">max value</param>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Range(System.Decimal,System.Decimal,System.String)">
+            <summary>
+            Numberic value must in the range
+            </summary>
+            <param name="minValue">min value</param>
+            <param name="maxValue">max value</param>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Email(System.String)">
+            <summary>
+            Text value must be correct email address
+            </summary>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Url(System.String)">
+            <summary>
+            Text value must be correct url address.
+            </summary>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Date(System.String)">
+            <summary>
+            Text value must be correct date format
+            </summary>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.DateISO(System.String)">
+            <summary>
+            Text value must be iso date date format
+            </summary>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Number(System.String)">
+            <summary>
+            Text value must be number
+            </summary>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Digits(System.String)">
+            <summary>
+            Text value must be digits
+            </summary>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.EqualTo(System.String,System.String)">
+            <summary>
+            Value of this countrol must be equal to the compared control's value
+            </summary>
+            <param name="selector">CSS selector</param>
+            <param name="errorMessage">error message</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Server(System.String)">
+            <summary>
+            Validate this field via server method
+            </summary>
+            <param name="url">server url</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.Custom(System.String)">
+            <summary>
+            Custom validation
+            </summary>
+            <param name="javascriptFunction">javascript function</param>
+            <returns>ClientValidators instance</returns>
+        </member>
+        <member name="M:CM.Web.UI.ClientValidators.ToString">
+            <summary>
+            Output the validator attributes string, used by jQuery.validation plug in
+            </summary>
+            <returns>the string</returns>
+        </member>
+        <member name="T:CM.Web.ThemeDirectory">
+            <summary>
+            Override VirtualDirectory to ignore stylesheet files in AppTheme directory
+            </summary>
+        </member>
+        <member name="M:CM.Web.ThemeDirectory.#ctor(System.Web.Hosting.VirtualDirectory)">
+            <summary>
+            contructor, do nothing
+            </summary>
+            <param name="toFilter">VirtualDirectory directory</param>
+        </member>
+        <member name="P:CM.Web.ThemeDirectory.Children">
+            <summary>
+            override parent properties. Children
+            </summary>
+        </member>
+        <member name="P:CM.Web.ThemeDirectory.Directories">
+            <summary>
+            override parent properties. Directories
+            </summary>
+        </member>
+        <member name="P:CM.Web.ThemeDirectory.Files">
+            <summary>
+            override parent properties. Files
+            </summary>
+        </member>
+        <member name="M:CM.Web.ViewMasterPageEx.OnPreRender(System.EventArgs)">
+            <summary>
+            override the OnPreRender to handle the meta tags
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:CM.Web.ViewPageEx">
+            <summary>
+            Override System.Web.Mvc.dll ViewPage and ViewPage&lt;T&gt;
+            </summary>
+        </member>
+        <member name="M:CM.Web.ViewPageEx.SetMasterPageFile(CM.db.cmSite,CM.Web.IViewPageBase)">
+            <summary>
+            If there is a PageTemplate instructions on the header, find the master page and set it
+            </summary>
+            <param name="site"></param>
+            <param name="page">ViewPage / ViewMasterPage</param>
+        </member>
+        <member name="M:CM.Web.ViewPageEx.OnPreInit(System.EventArgs)">
+            <summary>
+            process the theme and master page
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:CM.Web.ViewUserControlEx">
+            <summary>
+            Extend the ViewUserControl, each operator has its own RouteCollection
+            </summary>
+        </member>
+        <member name="T:CM.Web.ViewUserControlEx`1">
+            <summary>
+            Extend the ViewUserControl, each operator has its own RouteCollection
+            </summary>
+            <typeparam name="TModel"></typeparam>
+        </member>
+        <member name="M:CM.Web.VirtualPathProviderEx.FileExists(System.String)">
+            <summary>
+            if the requested file is not exist, verify if the file /Views/{operator}/{path} exist
+            </summary>
+            <param name="virtualPath"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CM.Content.PageNode">
+            <summary>
+            Summary description for PageNode
+            </summary>
+        </member>
+    </members>
+</doc>

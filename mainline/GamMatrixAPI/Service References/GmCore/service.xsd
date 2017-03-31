@@ -1,0 +1,1270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.NetEnt" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.ViG" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmCore.API.Response" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Base" />
+  <xs:element name="Ping">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="PingResult" nillable="true" type="q1:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RestRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/GmSharedTypes" minOccurs="0" name="service" type="q2:GmService" />
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="request" nillable="true" type="q3:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RestRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="RestRequestResult" nillable="true" type="q4:ArrayOfKeyValueOfstringstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntGetPlayerCurrency">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="playerName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntGetPlayerCurrencyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/GmSharedTypes.NetEnt" minOccurs="0" name="NetEntGetPlayerCurrencyResult" nillable="true" type="q5:NetEntGetPlayerCurrencyResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntGetBalance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="playerName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntGetBalanceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/GmSharedTypes.NetEnt" minOccurs="0" name="NetEntGetBalanceResult" nillable="true" type="q6:NetEntGetBalanceResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntWithdraw">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="playerName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="amount" type="xs:double" />
+        <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transactionRef" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gameRoundRef" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gameId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="reason" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntWithdrawResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/GmSharedTypes.NetEnt" minOccurs="0" name="NetEntWithdrawResult" nillable="true" type="q7:NetEntWithdrawResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntDeposit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="playerName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="amount" type="xs:double" />
+        <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transactionRef" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gameRoundRef" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gameId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="reason" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntDepositResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/GmSharedTypes.NetEnt" minOccurs="0" name="NetEntDepositResult" nillable="true" type="q8:NetEntDepositResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntWithdrawAndDeposit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="playerName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="withdraw1" type="xs:double" />
+        <xs:element minOccurs="0" name="deposit1" type="xs:double" />
+        <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transactionRef" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gameRoundRef" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gameId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="reason" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntWithdrawAndDepositResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/GmSharedTypes.NetEnt" minOccurs="0" name="NetEntWithdrawAndDepositResult" nillable="true" type="q9:NetEntWithdrawAndDepositResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntRollbackTransaction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="callerPassword" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="playerName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="transactionRef" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NetEntRollbackTransactionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/GmSharedTypes.NetEnt" minOccurs="0" name="NetEntRollbackTransactionResult" nillable="true" type="q10:NetEntRollbackTransactionResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ViGAuthenticate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/GmSharedTypes.ViG" minOccurs="0" name="request" nillable="true" type="q11:ViGAuthenticateRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ViGAuthenticateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/GmSharedTypes.ViG" minOccurs="0" name="ViGAuthenticateResult" nillable="true" type="q12:ViGAuthenticateResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ViGMakeDeposit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/GmSharedTypes.ViG" minOccurs="0" name="request" nillable="true" type="q13:ViGMakeDepositRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ViGMakeDepositResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/GmSharedTypes.ViG" minOccurs="0" name="ViGMakeDepositResult" nillable="true" type="q14:ViGMakeDepositResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ViGEndSession">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/GmSharedTypes.ViG" minOccurs="0" name="request" nillable="true" type="q15:ViGEndSessionRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ViGEndSessionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/GmSharedTypes.ViG" minOccurs="0" name="ViGEndSessionResult" nillable="true" type="q16:ViGEndSessionResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingPlayerGetBalance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="request" nillable="true" type="q17:XProGamingGetBalanceRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingPlayerGetBalanceResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="XProGamingPlayerGetBalanceResult" nillable="true" type="q18:XProGamingBalanceResponce" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingPlayerGetBalances">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="request" nillable="true" type="q19:XProGamingGetBalancesRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingPlayerGetBalancesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="XProGamingPlayerGetBalancesResult" nillable="true" type="q20:XProGamingBalancesResponce" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingGiveTip">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="request" nillable="true" type="q21:XProGamingGiveTipRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingGiveTipResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="XProGamingGiveTipResult" nillable="true" type="q22:XProGamingResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingDebit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="request" nillable="true" type="q23:XProGamingDebitRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingDebitResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="XProGamingDebitResult" nillable="true" type="q24:XProGamingResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingCredit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="request" nillable="true" type="q25:XProGamingCreditRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingCreditResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="XProGamingCreditResult" nillable="true" type="q26:XProGamingResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingCancelTransaction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="request" nillable="true" type="q27:XProGamingCancelTransactonRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingCancelTransactionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="XProGamingCancelTransactionResult" nillable="true" type="q28:XProGamingResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingCancelRound">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="request" nillable="true" type="q29:XProGamingCancelRoundRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XProGamingCancelRoundResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" minOccurs="0" name="XProGamingCancelRoundResult" nillable="true" type="q30:XProGamingResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsUserNameAvailable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsUserNameAvailableResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIIsUserNameAvailableResult" nillable="true" type="q31:PartnerAPIIsUserNameAvailableResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsEmailAvailable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsEmailAvailableResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIIsEmailAvailableResult" nillable="true" type="q32:PartnerAPIIsEmailAvailableResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsAliasAvailable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="alias" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsAliasAvailableResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIIsAliasAvailableResult" nillable="true" type="q33:PartnerAPIIsAliasAvailableResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIRegisterUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="registerUserRequest" nillable="true" type="q34:PartnerAPIRegisterUserRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIRegisterUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIRegisterUserResult" nillable="true" type="q35:PartnerAPIRegisterUserResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPILoginUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ip" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="iovationBlackBox" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPILoginUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPILoginUserResult" nillable="true" type="q36:PartnerAPILoginUserResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPILogoutUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPILogoutUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPILogoutUserResult" nillable="true" type="q37:PartnerAPILogoutUserResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsActiveUserSession">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsActiveUserSessionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIIsActiveUserSessionResult" nillable="true" type="q38:PartnerAPIIsActiveUserSessionResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserAccounts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserAccountsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserAccountsResult" nillable="true" type="q39:PartnerAPIGetUserAccountsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetDepositLimit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="period" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="amount" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="currency" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetDepositLimitResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPISetDepositLimitResult" nillable="true" type="q40:PartnerAPISetDepositLimitResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIDeposit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="makeDepositRequest" nillable="true" type="q41:ServerAPIMakeDepositRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIDepositResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIDepositResult" nillable="true" type="q42:PartnerAPIMakeDepositResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIWithdraw">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="makeWithdrawRequest" nillable="true" type="q43:PartnerAPIMakeWithdrawRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIWithdrawResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIWithdrawResult" nillable="true" type="q44:PartnerAPIMakeWithdrawResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIRegisterPayCard">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="registerPayCardRequest" nillable="true" type="q45:PartnerAPIRegisterPayCardRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIRegisterPayCardResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIRegisterPayCardResult" nillable="true" type="q46:PartnerAPIRegisterPayCardResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserPayCards">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserPayCardsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserPayCardsResult" nillable="true" type="q47:PartnerAPIGetUserPayCardsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIUpdatePayCardStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="updatePayCardStatusRequest" nillable="true" type="q48:PartnerAPIUpdatePayCardStatusRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIUpdatePayCardStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIUpdatePayCardStatusResult" nillable="true" type="q49:PartnerAPIUpdatePayCardStatusResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserDetailsResult" nillable="true" type="q50:PartnerAPIGetUserDetailsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIUpdateUserDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="updateUserDetailsRequest" nillable="true" type="q51:PartnerAPIUpdateUserDetailsRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIUpdateUserDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIUpdateUserDetailsResult" nillable="true" type="q52:PartnerAPIUpdateUserDetailsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserRgDepositLimit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserRgDepositLimitResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserRgDepositLimitResult" nillable="true" type="q53:PartnerAPIGetUserRgDepositLimitResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetUserRgSelfExclusion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="setUserRgSelfExclusionRequest" nillable="true" type="q54:PartnerAPISetUserRgSelfExclusionRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetUserRgSelfExclusionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPISetUserRgSelfExclusionResult" nillable="true" type="q55:PartnerAPISetUserRgSelfExclusionResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetUserRgCoolOff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="setUserRgCoolOffRequest" nillable="true" type="q56:PartnerAPISetUserRgSelfExclusionRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetUserRgCoolOffResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPISetUserRgCoolOffResult" nillable="true" type="q57:PartnerAPISetUserRgCoolOffResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetCoolOffSettings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetCoolOffSettingsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetCoolOffSettingsResult" nillable="true" type="q58:PartnerAPIGetSelfExclusionSettingsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetSelfExclusionSettings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetSelfExclusionSettingsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetSelfExclusionSettingsResult" nillable="true" type="q59:PartnerAPIGetSelfExclusionSettingsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserRgSelfExclusion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserRgSelfExclusionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserRgSelfExclusionResult" nillable="true" type="q60:PartnerAPIGetUserRgSelfExclusionResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIChangeUserPassword">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="changeUserPasswordRequest" nillable="true" type="q61:PartnerAPIChangeUserPasswordRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIChangeUserPasswordResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIChangeUserPasswordResult" nillable="true" type="q62:PartnerAPIChangeUserPasswordResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetUserForgotPassInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="setUserForgotPassInfoRequest" nillable="true" type="q63:PartnerAPISetUserForgotPassInfoRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetUserForgotPassInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPISetUserForgotPassInfoResult" nillable="true" type="q64:PartnerAPISetUserForgotPassInfoResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPICheckUserExists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="checkUserExistsRequest" nillable="true" type="q65:PartnerAPICheckUserExistsRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPICheckUserExistsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPICheckUserExistsResult" nillable="true" type="q66:PartnerAPICheckUserExistsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserTransactionHistory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="getUserTransactionHistoryRequest" nillable="true" type="q67:PartnerAPIGetUserTransactionHistoryRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserTransactionHistoryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserTransactionHistoryResult" nillable="true" type="q68:PartnerAPIGetUserTransactionHistoryResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserTransactionList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="getUserTransactionHistoryRequest" nillable="true" type="q69:PartnerAPIGetUserTransactionHistoryRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserTransactionListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserTransactionListResult" nillable="true" type="q70:PartnerAPIGetUserTransactionHistoryResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserPendingWithdrawals">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserPendingWithdrawalsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserPendingWithdrawalsResult" nillable="true" type="q71:PartnerAPIGetUserPendingWithdrawalsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIForfeitUserCasinoBonus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="forfeitUserCasinoBonusRequest" nillable="true" type="q72:PartnerAPIForfeitUserCasinoBonusRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIForfeitUserCasinoBonusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIForfeitUserCasinoBonusResult" nillable="true" type="q73:PartnerAPIForfeitUserCasinoBonusResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserBonusDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserBonusDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserBonusDetailsResult" nillable="true" type="q74:PartnerAPIGetUserBonusDetailsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIApplyUserBonus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="applyUserBonusRequest" nillable="true" type="q75:PartnerAPIApplyUserBonusRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIApplyUserBonusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q76="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIApplyUserBonusResult" nillable="true" type="q76:PartnerAPIApplyUserBonusResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIProcessAsyncTrans">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="processAsyncTransRequest" nillable="true" type="q77:PartnerAPIProcessAsyncTransRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIProcessAsyncTransResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIProcessAsyncTransResult" nillable="true" type="q78:PartnerAPIProcessAsyncTransResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIAssignUserRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="assignUserRoleRequest" nillable="true" type="q79:PartnerAPIAssignUserRoleRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIAssignUserRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIAssignUserRoleResult" nillable="true" type="q80:PartnerAPIAssignUserRoleResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIAssignUserRoleWithExpiration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="assignUserRoleRequest" nillable="true" type="q81:PartnerAPIAssignUserRoleWithExpirationRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIAssignUserRoleWithExpirationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIAssignUserRoleWithExpirationResult" nillable="true" type="q82:PartnerAPIAssignUserRoleResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIRemoveUserRole">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="removeUserRoleRequest" nillable="true" type="q83:PartnerAPIRemoveUserRoleRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIRemoveUserRoleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIRemoveUserRoleResult" nillable="true" type="q84:PartnerAPIRemoveUserRoleResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUsersRoles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUsersRolesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUsersRolesResult" nillable="true" type="q85:PartnerAPIGetUsersRolesResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserMetadata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="metadataKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserMetadataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserMetadataResult" nillable="true" type="q86:PartnerAPIGetUserMetadataResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetUserMetadata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="setUserMetadataRequest" nillable="true" type="q87:PartnerAPISetUserMetadataRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetUserMetadataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPISetUserMetadataResult" nillable="true" type="q88:PartnerAPISetUserMetadataResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsValidCredentials">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsValidCredentialsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIIsValidCredentialsResult" nillable="true" type="q89:PartnerAPIIsValidCredentialsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGenerateUserHash">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="generateUserHashRequest" nillable="true" type="q90:PartnerAPIGenerateUserHashRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGenerateUserHashResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGenerateUserHashResult" nillable="true" type="q91:PartnerAPIGenerateUserHashResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsUserHashValid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="hashKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIIsUserHashValidResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIIsUserHashValidResult" nillable="true" type="q92:PartnerAPIIsUserHashValidResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIManualDeposit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="request" nillable="true" type="q93:PartnerAPIManualDepositRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIManualDepositResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIManualDepositResult" nillable="true" type="q94:PartnerAPIManualDepositResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIManualWithdraw">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q95="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="request" nillable="true" type="q95:PartnerAPIManualWithdrawRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIManualWithdrawResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIManualWithdrawResult" nillable="true" type="q96:PartnerAPIManualWithdrawResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIAgentTransfer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q97="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="request" nillable="true" type="q97:PartnerAPIAgentTransferRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIAgentTransferResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q98="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIAgentTransferResult" nillable="true" type="q98:PartnerAPIAgentTransferResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIAgentImpersonateUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q99="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="request" nillable="true" type="q99:PartnerAPIAgentImpersonateUserRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIAgentImpersonateUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIAgentImpersonateUserResult" nillable="true" type="q100:PartnerAPIAgentImpersonateUserResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetAvailableRealityCheckValues">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetAvailableRealityCheckValuesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q101="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetAvailableRealityCheckValuesResult" nillable="true" type="q101:PartnerAPIGetAvailableRealityCheckValuesResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserRealityCheck">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sessionID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetUserRealityCheckResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q102="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetUserRealityCheckResult" nillable="true" type="q102:PartnerAPIGetUserRealityCheckResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetUserRealityCheck">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q103="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="setUserRealityCheckRequest" nillable="true" type="q103:ServerAPISetUserRealityCheckRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPISetUserRealityCheckResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q104="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPISetUserRealityCheckResult" nillable="true" type="q104:PartnerAPISetUserRealityCheckResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetAccountBalanceForMultipleUsers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="requestIP" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="version" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="partnerKey" nillable="true" type="xs:string" />
+        <xs:element xmlns:q105="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="request" nillable="true" type="q105:ServerAPIGetAccountBalanceForMultipleUserRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GamMatrixServerAPIGetAccountBalanceForMultipleUsersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q106="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" minOccurs="0" name="GamMatrixServerAPIGetAccountBalanceForMultipleUsersResult" nillable="true" type="q106:GetAccountBalanceForMultipleUserResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Login">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q107="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" minOccurs="0" name="request" nillable="true" type="q107:LoginRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q108="http://schemas.datacontract.org/2004/07/GmCore.API.Response" minOccurs="0" name="LoginResult" nillable="true" type="q108:ReplyResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsLoggedIn">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q109="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" minOccurs="0" name="request" nillable="true" type="q109:IsLoggedInRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsLoggedInResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q110="http://schemas.datacontract.org/2004/07/GmCore.API.Response" minOccurs="0" name="IsLoggedInResult" nillable="true" type="q110:ReplyResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SingleRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q111="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Base" minOccurs="0" name="request" nillable="true" type="q111:HandlerRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SingleRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q112="http://schemas.datacontract.org/2004/07/GmCore.API.Response" minOccurs="0" name="SingleRequestResult" nillable="true" type="q112:ReplyResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q113="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Base" minOccurs="0" name="requests" nillable="true" type="q113:ArrayOfHandlerRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MultiRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q114="http://schemas.datacontract.org/2004/07/GmCore.API.Response" minOccurs="0" name="MultiRequestResult" nillable="true" type="q114:ArrayOfReplyResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ParallelMultiRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q115="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Base" minOccurs="0" name="requests" nillable="true" type="q115:ArrayOfHandlerRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ParallelMultiRequestResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q116="http://schemas.datacontract.org/2004/07/GmCore.API.Response" minOccurs="0" name="ParallelMultiRequestResult" nillable="true" type="q116:ArrayOfReplyResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

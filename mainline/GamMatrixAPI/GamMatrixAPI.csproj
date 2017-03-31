@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8ECA7E32-7CC8-4768-8043-9D2E6AB9FAC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GamMatrixAPI</RootNamespace>
+    <AssemblyName>GamMatrixAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\GamMatrix.CMS\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CE_RELEASE|AnyCPU'">
+    <OutputPath>bin\CE_RELEASE\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CMS_RELEASE|AnyCPU'">
+    <OutputPath>bin\CMS_RELEASE\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountData.Extension.cs" />
+    <Compile Include="GlobalConstant.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\GmCore\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.GetAccountBalanceForMultipleUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.NetEntDepositResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.NetEntGetBalanceResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.NetEntGetPlayerCurrencyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.NetEntRollbackTransactionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.NetEntWithdrawAndDepositResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.NetEntWithdrawResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIAgentImpersonateUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIAgentTransferResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIApplyUserBonusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIAssignUserRoleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIChangeUserPasswordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPICheckUserExistsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIForfeitUserCasinoBonusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGenerateUserHashResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetAvailableRealityCheckValuesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetSelfExclusionSettingsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUserAccountsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUserBonusDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUserDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUserMetadataResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUserPayCardsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUserPendingWithdrawalsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUserRealityCheckResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUserRgDepositLimitResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUserRgSelfExclusionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUsersRolesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIGetUserTransactionHistoryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIIsActiveUserSessionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIIsAliasAvailableResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIIsEmailAvailableResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIIsUserHashValidResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIIsUserNameAvailableResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIIsValidCredentialsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPILoginUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPILogoutUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIMakeDepositResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIMakeWithdrawResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIManualDepositResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIManualWithdrawResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIProcessAsyncTransResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIRegisterPayCardResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIRegisterUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIRemoveUserRoleResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPISetDepositLimitResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPISetUserForgotPassInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPISetUserMetadataResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPISetUserRealityCheckResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPISetUserRgCoolOffResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPISetUserRgSelfExclusionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIUpdatePayCardStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.PartnerAPIUpdateUserDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.ReplyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.ViGAuthenticateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.ViGEndSessionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.ViGMakeDepositResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.XProGamingBalanceResponce.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.XProGamingBalancesResponce.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\GamMatrixAPI.GmCore.XProGamingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy.wsdl" />
+    <None Include="Service References\GmCore\VendorProxy.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy13.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy14.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy15.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy16.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy17.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy18.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy19.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy20.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy21.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy22.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy23.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy24.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy25.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy26.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy27.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy28.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy29.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy30.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy33.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy34.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy35.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy36.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy37.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy38.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy39.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy40.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy8.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GmCore\VendorProxy9.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\" />
+    <WCFMetadataStorage Include="Service References\GmCore\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GmCore\VendorProxy.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GmCore\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GmCore\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GmCore\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)replace.vbs"
+"$(ProjectDir)..\EditAssemblyVersion.exe" "$(ProjectDir)..\GamMatrixAPI\Properties\AssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

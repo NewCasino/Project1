@@ -1,0 +1,1291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO" />
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.Auxiliary" />
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm.Auto" />
+  <xs:complexType name="PagedDataOfArtemisSMSInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArtemisSMSInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q1:ArrayOfArtemisSMSInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfArtemisSMSInfoRec" nillable="true" type="tns:PagedDataOfArtemisSMSInfoRec" />
+  <xs:complexType name="ArtemisSMSSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByPaymentMethod" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransStatus" type="xs:boolean" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamPaymentMethod" type="q2:ArtemisSMSPaymentMethod" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransStatus" type="q3:TransStatus" />
+      <xs:element minOccurs="0" name="UserID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArtemisSMSSelectParams" nillable="true" type="tns:ArtemisSMSSelectParams" />
+  <xs:complexType name="AccountData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApplyRakeBackMinClaimAmount" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ApplyRakeBackPercentage" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BalanceAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BalanceCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BonusAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:long" />
+      <xs:element minOccurs="0" name="IsBalanceAvailable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsBonusAvailable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsHostedLocally" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MaxWithdrawWithoutBonusLossAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MoneyBalance" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OMBonusAmount" type="xs:decimal" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Record" nillable="true" type="q4:AccountInfoRec" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AccountData" nillable="true" type="tns:AccountData" />
+  <xs:complexType name="PagedDataOfTransCasinoFPPClaimInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="TransCasinoFPPClaimInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q5:ArrayOfTransCasinoFPPClaimInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfTransCasinoFPPClaimInfoRec" nillable="true" type="tns:PagedDataOfTransCasinoFPPClaimInfoRec" />
+  <xs:complexType name="CasinoFPPTransClaimSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByAccountID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByUserID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamAccountID" type="xs:long" />
+      <xs:element minOccurs="0" name="ParamUserID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CasinoFPPTransClaimSelectParams" nillable="true" type="tns:CasinoFPPTransClaimSelectParams" />
+  <xs:complexType name="UserProfileData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DomainID" type="xs:long" />
+      <xs:element minOccurs="0" name="IsAPIUser" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsBackOfficeUser" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsContextDomainIDAuthorized" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsGetAllDomainsDataAuthorized" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsRemoteAPIUser" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsRootUser" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsSuperUser" type="xs:boolean" />
+      <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="RolesByName" nillable="true" type="q6:ArrayOfstring" />
+      <xs:element minOccurs="0" name="SessionID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="UserRec" nillable="true" type="q7:UserRec" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserProfileData" nillable="true" type="tns:UserProfileData" />
+  <xs:complexType name="ArrayOfCasinoFPPData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CasinoFPPData" nillable="true" type="tns:CasinoFPPData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCasinoFPPData" nillable="true" type="tns:ArrayOfCasinoFPPData" />
+  <xs:complexType name="CasinoFPPData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BlockNote" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CasinoAccountID" type="xs:long" />
+      <xs:element minOccurs="0" name="PointsAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="UserID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CasinoFPPData" nillable="true" type="tns:CasinoFPPData" />
+  <xs:complexType name="ArrayOfUserUpdateStatusData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UserUpdateStatusData" nillable="true" type="tns:UserUpdateStatusData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUserUpdateStatusData" nillable="true" type="tns:ArrayOfUserUpdateStatusData" />
+  <xs:complexType name="UserUpdateStatusData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BlockNote" nillable="true" type="xs:string" />
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="BlockType" type="q8:UserBlockType" />
+      <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="NewStatus" type="q9:ActiveStatus" />
+      <xs:element minOccurs="0" name="UserID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserUpdateStatusData" nillable="true" type="tns:UserUpdateStatusData" />
+  <xs:complexType name="PagedDataOfGeorgianCardATMCodeInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="GeorgianCardATMCodeInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q10:ArrayOfGeorgianCardATMCodeInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfGeorgianCardATMCodeInfoRec" nillable="true" type="tns:PagedDataOfGeorgianCardATMCodeInfoRec" />
+  <xs:complexType name="GeorgianCardATMGetCodesSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByUserID" type="xs:boolean" />
+      <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamStatus" type="q11:GeorgianCardATMCodeStatus" />
+      <xs:element minOccurs="0" name="ParamUserID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GeorgianCardATMGetCodesSelectParams" nillable="true" type="tns:GeorgianCardATMGetCodesSelectParams" />
+  <xs:complexType name="PagedDataOfNoteInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="NoteInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q12:ArrayOfNoteInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfNoteInfoRec" nillable="true" type="tns:PagedDataOfNoteInfoRec" />
+  <xs:complexType name="PagedDataOfAutoCasinoFPPRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="AutoCasinoFPPRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q13:ArrayOfAutoCasinoFPPRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfAutoCasinoFPPRec" nillable="true" type="tns:PagedDataOfAutoCasinoFPPRec" />
+  <xs:complexType name="PagedDataOfAutoProcessingRuleInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="AutoProcessingRuleInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q14:ArrayOfAutoProcessingRuleInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfAutoProcessingRuleInfoRec" nillable="true" type="tns:PagedDataOfAutoProcessingRuleInfoRec" />
+  <xs:complexType name="PagedDataOfTransInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="TransInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q15:ArrayOfTransInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfTransInfoRec" nillable="true" type="tns:PagedDataOfTransInfoRec" />
+  <xs:complexType name="PagedDataOfAutoUserUpdateStatusInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="AutoUserUpdateStatusInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q16:ArrayOfAutoUserUpdateStatusInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfAutoUserUpdateStatusInfoRec" nillable="true" type="tns:PagedDataOfAutoUserUpdateStatusInfoRec" />
+  <xs:complexType name="PagedDataOfBonusInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="BonusInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q17:ArrayOfBonusInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfBonusInfoRec" nillable="true" type="tns:PagedDataOfBonusInfoRec" />
+  <xs:complexType name="BonusSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByType" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByVendorID" type="xs:boolean" />
+      <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamStatus" type="q18:ActiveStatus" />
+      <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamType" type="q19:BonusType" />
+      <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamVendorID" type="q20:VendorID" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BonusSelectParams" nillable="true" type="tns:BonusSelectParams" />
+  <xs:complexType name="PagedDataOfCurrencyRateHistoryRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="CurrencyRateHistoryRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q21:ArrayOfCurrencyRateHistoryRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfCurrencyRateHistoryRec" nillable="true" type="tns:PagedDataOfCurrencyRateHistoryRec" />
+  <xs:complexType name="CurrencyRatesHistorySelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByCurrencyCode" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByPeriod" type="xs:boolean" />
+      <xs:element minOccurs="0" name="BySetIDToDate" type="xs:boolean" />
+      <xs:element minOccurs="0" name="OrderAsc" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamCurrencyCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParamPeriodFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamPeriodTo" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamSetIDToDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CurrencyRatesHistorySelectParams" nillable="true" type="tns:CurrencyRatesHistorySelectParams" />
+  <xs:complexType name="PagedDataOfFeeRuleInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="FeeRuleInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q22:ArrayOfFeeRuleInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfFeeRuleInfoRec" nillable="true" type="tns:PagedDataOfFeeRuleInfoRec" />
+  <xs:complexType name="PagedDataOfIPRestrictionRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="IPRestrictionRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q23:ArrayOfIPRestrictionRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfIPRestrictionRec" nillable="true" type="tns:PagedDataOfIPRestrictionRec" />
+  <xs:complexType name="PagedDataOfExternalEnviromentPerfomanceCounterValue">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ExternalEnviromentPerfomanceCounterValue" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q24:ArrayOfExternalEnviromentPerfomanceCounterValue" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfExternalEnviromentPerfomanceCounterValue" nillable="true" type="tns:PagedDataOfExternalEnviromentPerfomanceCounterValue" />
+  <xs:complexType name="ExternalEnviromentSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByCompleted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByExternalReference" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamCompletedFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamCompletedTo" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamExternalReference" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ExternalEnviromentSelectParams" nillable="true" type="tns:ExternalEnviromentSelectParams" />
+  <xs:complexType name="PagedDataOfLimitRuleInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="LimitRuleInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q25:ArrayOfLimitRuleInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfLimitRuleInfoRec" nillable="true" type="tns:PagedDataOfLimitRuleInfoRec" />
+  <xs:complexType name="NoteSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByAudit" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByAuthorUserID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByDateTime" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByImportanceTypes" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTypeID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTypes" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamAudit" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamAuthorUserID" type="xs:long" />
+      <xs:element minOccurs="0" name="ParamDateTimeFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamDateTimeTo" type="xs:dateTime" />
+      <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamImportanceTypes" nillable="true" type="q26:ArrayOfImportanceType" />
+      <xs:element minOccurs="0" name="ParamTypeID" type="xs:long" />
+      <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTypes" nillable="true" type="q27:ArrayOfNoteType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NoteSelectParams" nillable="true" type="tns:NoteSelectParams" />
+  <xs:complexType name="PayCardData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DisplaySpecificFields" nillable="true" type="tns:ArrayOfKeyValueOfstringstring" />
+      <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="GatewayInfo" nillable="true" type="q28:PayCardGatewayInfoRec" />
+      <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Record" nillable="true" type="q29:PayCardInfoRec" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayCardData" nillable="true" type="tns:PayCardData" />
+  <xs:complexType name="ArrayOfKeyValueOfstringstring">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="KeyValueOfstringstring" nillable="true" type="tns:KeyValueOfstringstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKeyValueOfstringstring" nillable="true" type="tns:ArrayOfKeyValueOfstringstring" />
+  <xs:complexType name="KeyValueOfstringstring">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="KeyValueOf{0}{1}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="string" Namespace="http://www.w3.org/2001/XMLSchema" />
+          <GenericParameter Name="string" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="KeyValueOfstringstring" nillable="true" type="tns:KeyValueOfstringstring" />
+  <xs:complexType name="PagedDataOfPayCardInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="PayCardInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q30:ArrayOfPayCardInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfPayCardInfoRec" nillable="true" type="tns:PagedDataOfPayCardInfoRec" />
+  <xs:complexType name="PayCardSearchSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByDisplayNumber" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByExcludeVendorID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByIssuerCompany" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByVendorID" type="xs:boolean" />
+      <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamExcludeVendorID" type="q31:VendorID" />
+      <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamVendorID" type="q32:VendorID" />
+      <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="SearchCriteriaType" type="q33:SearchCriteriaType" />
+      <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="SearchJoinType" type="q34:SearchJoinType" />
+      <xs:element minOccurs="0" name="SearchString" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PayCardSearchSelectParams" nillable="true" type="tns:PayCardSearchSelectParams" />
+  <xs:complexType name="PagedDataOfPendingForProcessing">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="PendingForProcessing" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q35:ArrayOfPendingForProcessing" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfPendingForProcessing" nillable="true" type="tns:PagedDataOfPendingForProcessing" />
+  <xs:complexType name="PendingForProcessingSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByCompleted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamCompletedFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamCompletedTo" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PendingForProcessingSelectParams" nillable="true" type="tns:PendingForProcessingSelectParams" />
+  <xs:complexType name="PagedDataOfRoleAutoAssignRuleInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="RoleAutoAssignRuleInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q36:ArrayOfRoleAutoAssignRuleInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfRoleAutoAssignRuleInfoRec" nillable="true" type="tns:PagedDataOfRoleAutoAssignRuleInfoRec" />
+  <xs:complexType name="SDAAccountData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BalanceAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BalanceCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:long" />
+      <xs:element minOccurs="0" name="IsBalanceAvailable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsUserWithdrawEnabled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MoneyBalance" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MoneyBalanceAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="UserID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SDAAccountData" nillable="true" type="tns:SDAAccountData" />
+  <xs:complexType name="ArrayOfCurrencyData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CurrencyData" nillable="true" type="tns:CurrencyData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCurrencyData" nillable="true" type="tns:ArrayOfCurrencyData" />
+  <xs:complexType name="CurrencyData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ISO4217_Alpha" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ISO4217_Exponent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ISO4217_Numeric" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrderNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CurrencyData" nillable="true" type="tns:CurrencyData" />
+  <xs:complexType name="TransSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByAccountID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByApprovalStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByAutoTransBatchID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCompleted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCreditExternalReference" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCreditPayItemVendorID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCreditPayItemVendorIDs" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCreditPayableType" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCreditPayableTypes" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCreditUserID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCreditVendorOwnedPayItemVendorID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByDebitExternalReference" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByDebitPayItemVendorID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByDebitPayItemVendorIDs" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByDebitPayableType" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByDebitPayableTypes" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByDebitUserID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByDebitVendorOwnedPayItemVendorID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByExternalReference" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByIsMobile" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByPayCardID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByPayItemVendorID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByPaymentType" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByPaymentTypeFromPreTrans" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByPostingID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByReference" type="xs:boolean" />
+      <xs:element minOccurs="0" name="BySID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransBonusStatuses" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransStatuses" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransType" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransTypes" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByUserID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByUserIDs" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ExcludeTurkeyBank" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ExludeCreditPayItemVendorIDs" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamAccountID" type="xs:long" />
+      <xs:element minOccurs="0" name="ParamApprovalStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamAutoTransBatchID" type="xs:long" />
+      <xs:element minOccurs="0" name="ParamCompletedFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamCompletedTo" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamCreditExternalReference" nillable="true" type="xs:string" />
+      <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamCreditPayItemVendorID" type="q37:VendorID" />
+      <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamCreditPayItemVendorIDs" nillable="true" type="q38:ArrayOfVendorID" />
+      <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamCreditPayableType" type="q39:PayableType" />
+      <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamCreditPayableTypes" nillable="true" type="q40:ArrayOfPayableType" />
+      <xs:element minOccurs="0" name="ParamCreditUserID" type="xs:long" />
+      <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamCreditVendorOwnedPayItemVendorID" type="q41:VendorID" />
+      <xs:element minOccurs="0" name="ParamDebitExternalReference" nillable="true" type="xs:string" />
+      <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamDebitPayItemVendorID" type="q42:VendorID" />
+      <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamDebitPayItemVendorIDs" nillable="true" type="q43:ArrayOfVendorID" />
+      <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamDebitPayableType" type="q44:PayableType" />
+      <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamDebitPayableTypes" nillable="true" type="q45:ArrayOfPayableType" />
+      <xs:element minOccurs="0" name="ParamDebitUserID" type="xs:long" />
+      <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamDebitVendorOwnedPayItemVendorID" type="q46:VendorID" />
+      <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamExludedCreditPayItemVendorIDs" nillable="true" type="q47:ArrayOfVendorID" />
+      <xs:element minOccurs="0" name="ParamExternalReference" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParamIsMobile" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamPayCardID" type="xs:long" />
+      <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamPayItemVendorID" type="q48:VendorID" />
+      <xs:element minOccurs="0" name="ParamPaymentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParamPostingID" type="xs:long" />
+      <xs:element minOccurs="0" name="ParamReference" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParamSID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransBonusStatuses" nillable="true" type="q49:ArrayOfTransBonusStatus" />
+      <xs:element minOccurs="0" name="ParamTransID" type="xs:long" />
+      <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransStatus" type="q50:TransStatus" />
+      <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransStatuses" nillable="true" type="q51:ArrayOfTransStatus" />
+      <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransType" type="q52:TransType" />
+      <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransTypes" nillable="true" type="q53:ArrayOfTransType" />
+      <xs:element minOccurs="0" name="ParamUserID" type="xs:long" />
+      <xs:element xmlns:q54="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ParamUserIDs" nillable="true" type="q54:ArrayOflong" />
+      <xs:element minOccurs="0" name="PaymentTypeFromPreTrans" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShowInCompleted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ViaApi" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransSelectParams" nillable="true" type="tns:TransSelectParams" />
+  <xs:complexType name="PagedDataOfTransCCInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="TransCCInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q55:ArrayOfTransCCInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfTransCCInfoRec" nillable="true" type="tns:PagedDataOfTransCCInfoRec" />
+  <xs:complexType name="TransCCSettlementSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByGroups" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransStatus" type="xs:boolean" />
+      <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamGroups" nillable="true" type="q56:ArrayOfPendingSettlementGroup" />
+      <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamStatus" type="q57:PendingSettlementStatus" />
+      <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransStatus" type="q58:TransStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransCCSettlementSelectParams" nillable="true" type="tns:TransCCSettlementSelectParams" />
+  <xs:complexType name="PagedDataOfTransInfoDebitCreditRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="TransInfoDebitCreditRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q59:ArrayOfTransInfoDebitCreditRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfTransInfoDebitCreditRec" nillable="true" type="tns:PagedDataOfTransInfoDebitCreditRec" />
+  <xs:complexType name="PagedDataOfTransEnvoyPayoutInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="TransEnvoyPayoutInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q60:ArrayOfTransEnvoyPayoutInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfTransEnvoyPayoutInfoRec" nillable="true" type="tns:PagedDataOfTransEnvoyPayoutInfoRec" />
+  <xs:complexType name="ArrayOfTransFeeData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TransFeeData" nillable="true" type="tns:TransFeeData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTransFeeData" nillable="true" type="tns:ArrayOfTransFeeData" />
+  <xs:complexType name="TransFeeData">
+    <xs:sequence>
+      <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="FeeRuleHistoryInfoRecord" nillable="true" type="q61:FeeRuleHistoryInfoRec" />
+      <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Record" nillable="true" type="q62:TransFeeInfoRec" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TransFeeData" nillable="true" type="tns:TransFeeData" />
+  <xs:complexType name="ArrayOfPostingData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PostingData" nillable="true" type="tns:PostingData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPostingData" nillable="true" type="tns:ArrayOfPostingData" />
+  <xs:complexType name="PostingData">
+    <xs:sequence>
+      <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Logs" nillable="true" type="q63:ArrayOfPayLogRec" />
+      <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Record" nillable="true" type="q64:PostingInfoRec" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PostingData" nillable="true" type="tns:PostingData" />
+  <xs:complexType name="ArrayOfAccountData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AccountData" nillable="true" type="tns:AccountData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAccountData" nillable="true" type="tns:ArrayOfAccountData" />
+  <xs:complexType name="ArrayOfAvailableBonusData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AvailableBonusData" nillable="true" type="tns:AvailableBonusData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAvailableBonusData" nillable="true" type="tns:ArrayOfAvailableBonusData" />
+  <xs:complexType name="AvailableBonusData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BonusID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Created" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExpiryDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IsMinDepositRequirement" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MinDepositAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MinDepositCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Percentage" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PercentageMaxAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PointsToCollect" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RedeemPeriodDays" type="xs:long" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="VendorID" type="q65:VendorID" />
+      <xs:element minOccurs="0" name="WagerRequirementCoefficient" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AvailableBonusData" nillable="true" type="tns:AvailableBonusData" />
+  <xs:complexType name="ArrayOfAvailableCasinoBonusData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AvailableCasinoBonusData" nillable="true" type="tns:AvailableCasinoBonusData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAvailableCasinoBonusData" nillable="true" type="tns:ArrayOfAvailableCasinoBonusData" />
+  <xs:complexType name="AvailableCasinoBonusData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExpectedBonus" nillable="true" type="tns:ArrayOfKeyValueOfdecimalstring" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PredefinedDeposit" nillable="true" type="tns:ArrayOfKeyValueOfdecimalstring" />
+      <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="Type" type="q66:CasinoBonusType" />
+      <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="VendorID" type="q67:VendorID" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AvailableCasinoBonusData" nillable="true" type="tns:AvailableCasinoBonusData" />
+  <xs:complexType name="ArrayOfKeyValueOfdecimalstring">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="KeyValueOfdecimalstring" nillable="true" type="tns:KeyValueOfdecimalstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfKeyValueOfdecimalstring" nillable="true" type="tns:ArrayOfKeyValueOfdecimalstring" />
+  <xs:complexType name="KeyValueOfdecimalstring">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="KeyValueOf{0}{1}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="decimal" Namespace="http://www.w3.org/2001/XMLSchema" />
+          <GenericParameter Name="string" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Key" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="KeyValueOfdecimalstring" nillable="true" type="tns:KeyValueOfdecimalstring" />
+  <xs:complexType name="ArrayOfBonusData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BonusData" nillable="true" type="tns:BonusData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBonusData" nillable="true" type="tns:ArrayOfBonusData" />
+  <xs:complexType name="BonusData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BonusID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ConfiscateAllFundsOnExpiration" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ConfiscateAllFundsOnForfeiture" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Created" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+      <xs:element xmlns:q68="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ExcludedGamesList" nillable="true" type="q68:ArrayOfKeyValueOfstringArrayOfstringty7Ep6D1" />
+      <xs:element minOccurs="0" name="ExpiryDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/GmSharedTypes.Auxiliary" minOccurs="0" name="PlayerBase" nillable="true" type="q69:PlayerBaseData" />
+      <xs:element minOccurs="0" name="PointsLeftToCollect" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PointsToCollect" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Priority" type="xs:int" />
+      <xs:element minOccurs="0" name="RemainingAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RemainingWagerRequirementAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="RemainingWagerRequirementCurrency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="VendorID" type="q70:VendorID" />
+      <xs:element minOccurs="0" name="WagerRequirementAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="WagerRequirementCurrency" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BonusData" nillable="true" type="tns:BonusData" />
+  <xs:complexType name="PagedDataOfWebSessionInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="WebSessionInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q71:ArrayOfWebSessionInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfWebSessionInfoRec" nillable="true" type="tns:PagedDataOfWebSessionInfoRec" />
+  <xs:complexType name="PagedDataOfUserMessageInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="UserMessageInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q72:ArrayOfUserMessageInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfUserMessageInfoRec" nillable="true" type="tns:PagedDataOfUserMessageInfoRec" />
+  <xs:complexType name="UserMessageSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByType" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByUserID" type="xs:boolean" />
+      <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamStatus" type="q73:UserMessageStatus" />
+      <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamType" type="q74:UserMessageType" />
+      <xs:element minOccurs="0" name="ParamUserID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserMessageSelectParams" nillable="true" type="tns:UserMessageSelectParams" />
+  <xs:complexType name="PagedDataOfUserBlockInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="UserBlockInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q75:ArrayOfUserBlockInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfUserBlockInfoRec" nillable="true" type="tns:PagedDataOfUserBlockInfoRec" />
+  <xs:complexType name="UserBlocksSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByBlockTypes" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCreatedFrom" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCreatedTo" type="xs:boolean" />
+      <xs:element xmlns:q76="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamBlockTypes" nillable="true" type="q76:ArrayOfUserBlockType" />
+      <xs:element minOccurs="0" name="ParamCreatedFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamCreatedTo" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserBlocksSelectParams" nillable="true" type="tns:UserBlocksSelectParams" />
+  <xs:complexType name="PagedDataOfUserInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="UserInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q77:ArrayOfUserInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfUserInfoRec" nillable="true" type="tns:PagedDataOfUserInfoRec" />
+  <xs:complexType name="UserSearchSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByAddress" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByAffiliateMarker" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCity" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByEmail" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByFullName" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByIP" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByPersonalID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByPhone" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByRegDate" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByUserID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByUserName" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamRegDateFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamRegDateTo" type="xs:dateTime" />
+      <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="SearchCriteriaType" type="q78:SearchCriteriaType" />
+      <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="SearchJoinType" type="q79:SearchJoinType" />
+      <xs:element minOccurs="0" name="SearchString" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserSearchSelectParams" nillable="true" type="tns:UserSearchSelectParams" />
+  <xs:complexType name="PagedDataOfWebSessionInfoCmsRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="WebSessionInfoCmsRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q80:ArrayOfWebSessionInfoCmsRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfWebSessionInfoCmsRec" nillable="true" type="tns:PagedDataOfWebSessionInfoCmsRec" />
+  <xs:complexType name="PagedDataOfWebSessionInfoCoreRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="WebSessionInfoCoreRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q81:ArrayOfWebSessionInfoCoreRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfWebSessionInfoCoreRec" nillable="true" type="tns:PagedDataOfWebSessionInfoCoreRec" />
+  <xs:complexType name="SessionSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByStatuses" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTypes" type="xs:boolean" />
+      <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamStatuses" nillable="true" type="q82:ArrayOfActiveStatus" />
+      <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTypes" nillable="true" type="q83:ArrayOfSessionType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SessionSelectParams" nillable="true" type="tns:SessionSelectParams" />
+  <xs:complexType name="PagedDataOfRoleInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="RoleInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q84:ArrayOfRoleInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfRoleInfoRec" nillable="true" type="tns:PagedDataOfRoleInfoRec" />
+  <xs:complexType name="PagedDataOfUserSummaryRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="UserSummaryRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q85:ArrayOfUserSummaryRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfUserSummaryRec" nillable="true" type="tns:PagedDataOfUserSummaryRec" />
+  <xs:complexType name="PagedDataOfVendorRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="VendorRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q86:ArrayOfVendorRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfVendorRec" nillable="true" type="tns:PagedDataOfVendorRec" />
+  <xs:complexType name="PagedDataOfVoucherBatchInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="VoucherBatchInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q87:ArrayOfVoucherBatchInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfVoucherBatchInfoRec" nillable="true" type="tns:PagedDataOfVoucherBatchInfoRec" />
+  <xs:complexType name="VoucherBatchSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByBatchStatuses" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByCardNumber" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByReference" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByStatuses" type="xs:boolean" />
+      <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamBatchStatuses" nillable="true" type="q88:ArrayOfVoucherStatus" />
+      <xs:element minOccurs="0" name="ParamCardNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParamReference" nillable="true" type="xs:string" />
+      <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamStatuses" nillable="true" type="q89:ArrayOfVoucherStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VoucherBatchSelectParams" nillable="true" type="tns:VoucherBatchSelectParams" />
+  <xs:complexType name="PagedDataOfVoucherInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="VoucherInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q90:ArrayOfVoucherInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfVoucherInfoRec" nillable="true" type="tns:PagedDataOfVoucherInfoRec" />
+  <xs:complexType name="PagedDataOfMigratePayCardsToMMBatchInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="MigratePayCardsToMMBatchInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q91:ArrayOfMigratePayCardsToMMBatchInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfMigratePayCardsToMMBatchInfoRec" nillable="true" type="tns:PagedDataOfMigratePayCardsToMMBatchInfoRec" />
+  <xs:complexType name="PagedDataOfMigratePayCardsToMMItemRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="MigratePayCardsToMMItemRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q92:ArrayOfMigratePayCardsToMMItemRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfMigratePayCardsToMMItemRec" nillable="true" type="tns:PagedDataOfMigratePayCardsToMMItemRec" />
+  <xs:complexType name="PagedDataOfTransNetEntFPPClaimInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="TransNetEntFPPClaimInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q93:ArrayOfTransNetEntFPPClaimInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfTransNetEntFPPClaimInfoRec" nillable="true" type="tns:PagedDataOfTransNetEntFPPClaimInfoRec" />
+  <xs:complexType name="NetEntTransClaimSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByAccountID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByUserID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamAccountID" type="xs:long" />
+      <xs:element minOccurs="0" name="ParamUserID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NetEntTransClaimSelectParams" nillable="true" type="tns:NetEntTransClaimSelectParams" />
+  <xs:complexType name="ArrayOfApproveSettlementData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ApproveSettlementData" nillable="true" type="tns:ApproveSettlementData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApproveSettlementData" nillable="true" type="tns:ArrayOfApproveSettlementData" />
+  <xs:complexType name="ApproveSettlementData">
+    <xs:sequence>
+      <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="PendingSettlementTransRecord" nillable="true" type="q94:PendingSettlementTransRec" />
+      <xs:element xmlns:q95="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ResponseFields" nillable="true" type="q95:ArrayOfKeyValueOfstringstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ApproveSettlementData" nillable="true" type="tns:ApproveSettlementData" />
+  <xs:complexType name="PagedDataOfSportsAccountToolDataRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="SportsAccountToolDataRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm.Auto" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm.Auto" minOccurs="0" name="Records" nillable="true" type="q96:ArrayOfSportsAccountToolDataRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfSportsAccountToolDataRec" nillable="true" type="tns:PagedDataOfSportsAccountToolDataRec" />
+  <xs:complexType name="PagedDataOfTurkeyBankWireInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="TurkeyBankWireInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q97="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q97:ArrayOfTurkeyBankWireInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfTurkeyBankWireInfoRec" nillable="true" type="tns:PagedDataOfTurkeyBankWireInfoRec" />
+  <xs:complexType name="TurkeyBankWireSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ByPaymentMethod" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransStatus" type="xs:boolean" />
+      <xs:element xmlns:q98="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamPaymentMethod" type="q98:TurkeyBankWirePaymentMethod" />
+      <xs:element xmlns:q99="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransStatus" type="q99:TransStatus" />
+      <xs:element minOccurs="0" name="UserID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TurkeyBankWireSelectParams" nillable="true" type="tns:TurkeyBankWireSelectParams" />
+  <xs:complexType name="PagedDataOfTurkeySMSInfoRec">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PagedDataOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="TurkeySMSInfoRec" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="PageNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="PageSize" type="xs:long" />
+      <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" minOccurs="0" name="Records" nillable="true" type="q100:ArrayOfTurkeySMSInfoRec" />
+      <xs:element minOccurs="0" name="TotalPages" type="xs:long" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:long" />
+      <xs:element minOccurs="0" name="UseCountEmulation" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagedDataOfTurkeySMSInfoRec" nillable="true" type="tns:PagedDataOfTurkeySMSInfoRec" />
+  <xs:complexType name="TurkeySMSSelectParams">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AssignedUserID" type="xs:long" />
+      <xs:element minOccurs="0" name="ByIns" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByPaymentMethod" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTransType" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTurkeySmsStatus" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ByTurkeySmsTransID" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ParamInsFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ParamInsTo" type="xs:dateTime" />
+      <xs:element xmlns:q101="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamPaymentMethod" type="q101:TurkeySMSPaymentMethod" />
+      <xs:element xmlns:q102="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransStatus" type="q102:TransStatus" />
+      <xs:element xmlns:q103="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransStatuses" nillable="true" type="q103:ArrayOfTransStatus" />
+      <xs:element xmlns:q104="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransType" type="q104:TransType" />
+      <xs:element xmlns:q105="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTransTypes" nillable="true" type="q105:ArrayOfTransType" />
+      <xs:element xmlns:q106="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTurkeySmsStatus" type="q106:TurkeySmsStatus" />
+      <xs:element xmlns:q107="http://schemas.datacontract.org/2004/07/GmCore.DAO" minOccurs="0" name="ParamTurkeySmsStatuses" nillable="true" type="q107:ArrayOfTurkeySmsStatus" />
+      <xs:element minOccurs="0" name="PreTransID" type="xs:long" />
+      <xs:element minOccurs="0" name="SmsBankerName" nillable="true" type="xs:string" />
+      <xs:element xmlns:q108="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="TurkeySmsTransIDs" nillable="true" type="q108:ArrayOflong" />
+      <xs:element minOccurs="0" name="UserID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TurkeySMSSelectParams" nillable="true" type="tns:TurkeySMSSelectParams" />
+  <xs:complexType name="FavouriteItem">
+    <xs:sequence>
+      <xs:element xmlns:q109="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ConstructorParameters" nillable="true" type="q109:ArrayOfanyType" />
+      <xs:element minOccurs="0" name="Header" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FavouriteItem" nillable="true" type="tns:FavouriteItem" />
+  <xs:complexType name="ArrayOfFavouriteItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FavouriteItem" nillable="true" type="tns:FavouriteItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFavouriteItem" nillable="true" type="tns:ArrayOfFavouriteItem" />
+  <xs:complexType name="PointOfdouble">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="PointOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="double" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="X" type="xs:double" />
+      <xs:element minOccurs="0" name="Y" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PointOfdouble" nillable="true" type="tns:PointOfdouble" />
+  <xs:complexType name="SizeOfdouble">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="SizeOf{0}" Namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="double" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Height" type="xs:double" />
+      <xs:element minOccurs="0" name="Width" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SizeOfdouble" nillable="true" type="tns:SizeOfdouble" />
+</xs:schema>

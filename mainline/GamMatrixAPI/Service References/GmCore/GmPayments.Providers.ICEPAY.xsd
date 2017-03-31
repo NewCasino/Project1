@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmPayments.Providers.ICEPAY" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.ICEPAY" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="ICEPAY.Service">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="UNSPECIFIED" />
+      <xs:enumeration value="CREDITCARD" />
+      <xs:enumeration value="DDEBIT" />
+      <xs:enumeration value="DIRECTEBANK" />
+      <xs:enumeration value="GIROPAY" />
+      <xs:enumeration value="IDEAL" />
+      <xs:enumeration value="MISTERCASH" />
+      <xs:enumeration value="PAYPAL" />
+      <xs:enumeration value="PAYSAFECARD" />
+      <xs:enumeration value="PBAR" />
+      <xs:enumeration value="SMS" />
+      <xs:enumeration value="WIRE" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ICEPAY.Service" nillable="true" type="tns:ICEPAY.Service" />
+</xs:schema>

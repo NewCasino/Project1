@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="VendorProxy" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.NetEnt" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.ViG" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.GamMatrixServerAPI" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.Auxiliary" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd9" namespace="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd10" namespace="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Base" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd11" namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd12" namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd13" namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Data" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd14" namespace="http://schemas.datacontract.org/2004/07/GmCore.Users" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd15" namespace="http://schemas.datacontract.org/2004/07/GmCore.Proxies.BingoNetwork.UserManagerService" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd16" namespace="http://schemas.datacontract.org/2004/07/GmCore.Proxies.BingoNetwork.ContentProviderService" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd17" namespace="http://schemas.datacontract.org/2004/07/GmCore.Proxies.BingoNetwork.PresentationService" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd18" namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.EnterCash" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd19" namespace="http://schemas.datacontract.org/2004/07/GmCore.Proxies.EnvoyWebServiceProxy" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd20" namespace="http://schemas.datacontract.org/2004/07/GmCore.Bonuses" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd21" namespace="http://schemas.datacontract.org/2004/07/System" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd22" namespace="http://schemas.datacontract.org/2004/07/GmCore.DAO.Orm.Auto" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd23" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd24" namespace="urn:nrgs.eventprovider.greentube.com/v2.1/data" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd25" namespace="http://schemas.datacontract.org/2004/07/GmCore.Proxies.Iovation" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd26" namespace="http://schemas.datacontract.org/2004/07/GmCore.Common" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd27" namespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix.Responses" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd28" namespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd29" namespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix.Responses.PaymentSolution" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd30" namespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix.Responses.Card" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd31" namespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix.Responses.Customer" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd32" namespace="http://schemas.datacontract.org/2004/07/GmCore.Proxies.NetEntMC" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd33" namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.PlaynGO" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd34" namespace="http://schemas.datacontract.org/2004/07/GmCore.SportsAccountTool" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd35" namespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.Vivo" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd36" namespace="http://schemas.datacontract.org/2004/07/GmCore.Proxies.PartnerAPI.Vivo" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd37" namespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.Envoy" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd38" namespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.ICEPAY" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd39" namespace="http://schemas.datacontract.org/2004/07/GmCore.PayCards" />
+      <xsd:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd40" namespace="http://schemas.datacontract.org/2004/07/GmCore.API.Response" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAPIService_Ping_InputMessage">
+    <wsdl:part name="parameters" element="tns:Ping" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_Ping_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_RestRequest_InputMessage">
+    <wsdl:part name="parameters" element="tns:RestRequest" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_RestRequest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RestRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntGetPlayerCurrency_InputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntGetPlayerCurrency" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntGetPlayerCurrency_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntGetPlayerCurrencyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntGetBalance_InputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntGetBalance" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntGetBalance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntGetBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntWithdraw_InputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntWithdraw" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntWithdraw_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntWithdrawResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntDeposit" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntWithdrawAndDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntWithdrawAndDeposit" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntWithdrawAndDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntWithdrawAndDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntRollbackTransaction_InputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntRollbackTransaction" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_NetEntRollbackTransaction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NetEntRollbackTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_ViGAuthenticate_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViGAuthenticate" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_ViGAuthenticate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViGAuthenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_ViGMakeDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViGMakeDeposit" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_ViGMakeDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViGMakeDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_ViGEndSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:ViGEndSession" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_ViGEndSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ViGEndSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingPlayerGetBalance_InputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingPlayerGetBalance" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingPlayerGetBalance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingPlayerGetBalanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingPlayerGetBalances_InputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingPlayerGetBalances" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingPlayerGetBalances_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingPlayerGetBalancesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingGiveTip_InputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingGiveTip" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingGiveTip_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingGiveTipResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingDebit_InputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingDebit" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingDebit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingDebitResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingCredit_InputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingCredit" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingCredit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingCreditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingCancelTransaction_InputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingCancelTransaction" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingCancelTransaction_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingCancelTransactionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingCancelRound_InputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingCancelRound" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_XProGamingCancelRound_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XProGamingCancelRoundResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsUserNameAvailable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsUserNameAvailable" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsUserNameAvailable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsUserNameAvailableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsEmailAvailable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsEmailAvailable" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsEmailAvailable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsEmailAvailableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsAliasAvailable_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsAliasAvailable" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsAliasAvailable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsAliasAvailableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIRegisterUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIRegisterUser" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIRegisterUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIRegisterUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPILoginUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPILoginUser" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPILoginUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPILoginUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPILogoutUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPILogoutUser" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPILogoutUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPILogoutUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsActiveUserSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsActiveUserSession" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsActiveUserSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsActiveUserSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserAccounts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserAccounts" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserAccounts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserAccountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetDepositLimit_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetDepositLimit" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetDepositLimit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetDepositLimitResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIDeposit" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIWithdraw_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIWithdraw" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIWithdraw_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIWithdrawResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIRegisterPayCard_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIRegisterPayCard" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIRegisterPayCard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIRegisterPayCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserPayCards_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserPayCards" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserPayCards_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserPayCardsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIUpdatePayCardStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIUpdatePayCardStatus" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIUpdatePayCardStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIUpdatePayCardStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserDetails" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIUpdateUserDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIUpdateUserDetails" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIUpdateUserDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIUpdateUserDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserRgDepositLimit_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserRgDepositLimit" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserRgDepositLimit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserRgDepositLimitResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetUserRgSelfExclusion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetUserRgSelfExclusion" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetUserRgSelfExclusion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetUserRgSelfExclusionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetUserRgCoolOff_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetUserRgCoolOff" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetUserRgCoolOff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetUserRgCoolOffResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetCoolOffSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetCoolOffSettings" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetCoolOffSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetCoolOffSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetSelfExclusionSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetSelfExclusionSettings" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetSelfExclusionSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetSelfExclusionSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserRgSelfExclusion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserRgSelfExclusion" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserRgSelfExclusion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserRgSelfExclusionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIChangeUserPassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIChangeUserPassword" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIChangeUserPassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIChangeUserPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetUserForgotPassInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetUserForgotPassInfo" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetUserForgotPassInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetUserForgotPassInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPICheckUserExists_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPICheckUserExists" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPICheckUserExists_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPICheckUserExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserTransactionHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserTransactionHistory" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserTransactionHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserTransactionHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserTransactionList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserTransactionList" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserTransactionList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserTransactionListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserPendingWithdrawals_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserPendingWithdrawals" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserPendingWithdrawals_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserPendingWithdrawalsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIForfeitUserCasinoBonus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIForfeitUserCasinoBonus" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIForfeitUserCasinoBonus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIForfeitUserCasinoBonusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserBonusDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserBonusDetails" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserBonusDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserBonusDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIApplyUserBonus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIApplyUserBonus" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIApplyUserBonus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIApplyUserBonusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIProcessAsyncTrans_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIProcessAsyncTrans" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIProcessAsyncTrans_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIProcessAsyncTransResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIAssignUserRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIAssignUserRole" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIAssignUserRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIAssignUserRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIAssignUserRoleWithExpiration_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIAssignUserRoleWithExpiration" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIAssignUserRoleWithExpiration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIAssignUserRoleWithExpirationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIRemoveUserRole_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIRemoveUserRole" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIRemoveUserRole_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIRemoveUserRoleResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUsersRoles_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUsersRoles" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUsersRoles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUsersRolesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserMetadata_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserMetadata" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserMetadata_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserMetadataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetUserMetadata_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetUserMetadata" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetUserMetadata_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetUserMetadataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsValidCredentials_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsValidCredentials" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsValidCredentials_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsValidCredentialsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGenerateUserHash_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGenerateUserHash" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGenerateUserHash_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGenerateUserHashResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsUserHashValid_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsUserHashValid" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIIsUserHashValid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIIsUserHashValidResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIManualDeposit_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIManualDeposit" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIManualDeposit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIManualDepositResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIManualWithdraw_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIManualWithdraw" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIManualWithdraw_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIManualWithdrawResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIAgentTransfer_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIAgentTransfer" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIAgentTransfer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIAgentTransferResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIAgentImpersonateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIAgentImpersonateUser" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIAgentImpersonateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIAgentImpersonateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetAvailableRealityCheckValues_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetAvailableRealityCheckValues" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetAvailableRealityCheckValues_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetAvailableRealityCheckValuesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserRealityCheck_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserRealityCheck" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetUserRealityCheck_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetUserRealityCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetUserRealityCheck_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetUserRealityCheck" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPISetUserRealityCheck_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPISetUserRealityCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetAccountBalanceForMultipleUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetAccountBalanceForMultipleUsers" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_GamMatrixServerAPIGetAccountBalanceForMultipleUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GamMatrixServerAPIGetAccountBalanceForMultipleUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_IsLoggedIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsLoggedIn" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_IsLoggedIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsLoggedInResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_SingleRequest_InputMessage">
+    <wsdl:part name="parameters" element="tns:SingleRequest" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_SingleRequest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SingleRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_MultiRequest_InputMessage">
+    <wsdl:part name="parameters" element="tns:MultiRequest" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_MultiRequest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MultiRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_ParallelMultiRequest_InputMessage">
+    <wsdl:part name="parameters" element="tns:ParallelMultiRequest" />
+  </wsdl:message>
+  <wsdl:message name="IAPIService_ParallelMultiRequest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ParallelMultiRequestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAPIService">
+    <wsdl:operation name="Ping">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/Ping" message="tns:IAPIService_Ping_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/PingResponse" message="tns:IAPIService_Ping_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RestRequest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/RestRequest" message="tns:IAPIService_RestRequest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/RestRequestResponse" message="tns:IAPIService_RestRequest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NetEntGetPlayerCurrency">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/NetEntGetPlayerCurrency" message="tns:IAPIService_NetEntGetPlayerCurrency_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/NetEntGetPlayerCurrencyResponse" message="tns:IAPIService_NetEntGetPlayerCurrency_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NetEntGetBalance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/NetEntGetBalance" message="tns:IAPIService_NetEntGetBalance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/NetEntGetBalanceResponse" message="tns:IAPIService_NetEntGetBalance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NetEntWithdraw">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/NetEntWithdraw" message="tns:IAPIService_NetEntWithdraw_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/NetEntWithdrawResponse" message="tns:IAPIService_NetEntWithdraw_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NetEntDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/NetEntDeposit" message="tns:IAPIService_NetEntDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/NetEntDepositResponse" message="tns:IAPIService_NetEntDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NetEntWithdrawAndDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/NetEntWithdrawAndDeposit" message="tns:IAPIService_NetEntWithdrawAndDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/NetEntWithdrawAndDepositResponse" message="tns:IAPIService_NetEntWithdrawAndDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NetEntRollbackTransaction">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/NetEntRollbackTransaction" message="tns:IAPIService_NetEntRollbackTransaction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/NetEntRollbackTransactionResponse" message="tns:IAPIService_NetEntRollbackTransaction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViGAuthenticate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/ViGAuthenticate" message="tns:IAPIService_ViGAuthenticate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/ViGAuthenticateResponse" message="tns:IAPIService_ViGAuthenticate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViGMakeDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/ViGMakeDeposit" message="tns:IAPIService_ViGMakeDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/ViGMakeDepositResponse" message="tns:IAPIService_ViGMakeDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ViGEndSession">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/ViGEndSession" message="tns:IAPIService_ViGEndSession_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/ViGEndSessionResponse" message="tns:IAPIService_ViGEndSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingPlayerGetBalance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/XProGamingPlayerGetBalance" message="tns:IAPIService_XProGamingPlayerGetBalance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/XProGamingPlayerGetBalanceResponse" message="tns:IAPIService_XProGamingPlayerGetBalance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingPlayerGetBalances">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/XProGamingPlayerGetBalances" message="tns:IAPIService_XProGamingPlayerGetBalances_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/XProGamingPlayerGetBalancesResponse" message="tns:IAPIService_XProGamingPlayerGetBalances_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingGiveTip">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/XProGamingGiveTip" message="tns:IAPIService_XProGamingGiveTip_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/XProGamingGiveTipResponse" message="tns:IAPIService_XProGamingGiveTip_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingDebit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/XProGamingDebit" message="tns:IAPIService_XProGamingDebit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/XProGamingDebitResponse" message="tns:IAPIService_XProGamingDebit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingCredit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/XProGamingCredit" message="tns:IAPIService_XProGamingCredit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/XProGamingCreditResponse" message="tns:IAPIService_XProGamingCredit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingCancelTransaction">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/XProGamingCancelTransaction" message="tns:IAPIService_XProGamingCancelTransaction_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/XProGamingCancelTransactionResponse" message="tns:IAPIService_XProGamingCancelTransaction_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingCancelRound">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/XProGamingCancelRound" message="tns:IAPIService_XProGamingCancelRound_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/XProGamingCancelRoundResponse" message="tns:IAPIService_XProGamingCancelRound_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsUserNameAvailable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsUserNameAvailable" message="tns:IAPIService_GamMatrixServerAPIIsUserNameAvailable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsUserNameAvailableResponse" message="tns:IAPIService_GamMatrixServerAPIIsUserNameAvailable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsEmailAvailable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsEmailAvailable" message="tns:IAPIService_GamMatrixServerAPIIsEmailAvailable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsEmailAvailableResponse" message="tns:IAPIService_GamMatrixServerAPIIsEmailAvailable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsAliasAvailable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsAliasAvailable" message="tns:IAPIService_GamMatrixServerAPIIsAliasAvailable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsAliasAvailableResponse" message="tns:IAPIService_GamMatrixServerAPIIsAliasAvailable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIRegisterUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIRegisterUser" message="tns:IAPIService_GamMatrixServerAPIRegisterUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIRegisterUserResponse" message="tns:IAPIService_GamMatrixServerAPIRegisterUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPILoginUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPILoginUser" message="tns:IAPIService_GamMatrixServerAPILoginUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPILoginUserResponse" message="tns:IAPIService_GamMatrixServerAPILoginUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPILogoutUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPILogoutUser" message="tns:IAPIService_GamMatrixServerAPILogoutUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPILogoutUserResponse" message="tns:IAPIService_GamMatrixServerAPILogoutUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsActiveUserSession">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsActiveUserSession" message="tns:IAPIService_GamMatrixServerAPIIsActiveUserSession_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsActiveUserSessionResponse" message="tns:IAPIService_GamMatrixServerAPIIsActiveUserSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserAccounts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserAccounts" message="tns:IAPIService_GamMatrixServerAPIGetUserAccounts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserAccountsResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserAccounts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetDepositLimit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetDepositLimit" message="tns:IAPIService_GamMatrixServerAPISetDepositLimit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetDepositLimitResponse" message="tns:IAPIService_GamMatrixServerAPISetDepositLimit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIDeposit" message="tns:IAPIService_GamMatrixServerAPIDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIDepositResponse" message="tns:IAPIService_GamMatrixServerAPIDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIWithdraw">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIWithdraw" message="tns:IAPIService_GamMatrixServerAPIWithdraw_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIWithdrawResponse" message="tns:IAPIService_GamMatrixServerAPIWithdraw_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIRegisterPayCard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIRegisterPayCard" message="tns:IAPIService_GamMatrixServerAPIRegisterPayCard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIRegisterPayCardResponse" message="tns:IAPIService_GamMatrixServerAPIRegisterPayCard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserPayCards">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserPayCards" message="tns:IAPIService_GamMatrixServerAPIGetUserPayCards_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserPayCardsResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserPayCards_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIUpdatePayCardStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIUpdatePayCardStatus" message="tns:IAPIService_GamMatrixServerAPIUpdatePayCardStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIUpdatePayCardStatusResponse" message="tns:IAPIService_GamMatrixServerAPIUpdatePayCardStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserDetails" message="tns:IAPIService_GamMatrixServerAPIGetUserDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserDetailsResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIUpdateUserDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIUpdateUserDetails" message="tns:IAPIService_GamMatrixServerAPIUpdateUserDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIUpdateUserDetailsResponse" message="tns:IAPIService_GamMatrixServerAPIUpdateUserDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserRgDepositLimit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserRgDepositLimit" message="tns:IAPIService_GamMatrixServerAPIGetUserRgDepositLimit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserRgDepositLimitResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserRgDepositLimit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetUserRgSelfExclusion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserRgSelfExclusion" message="tns:IAPIService_GamMatrixServerAPISetUserRgSelfExclusion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserRgSelfExclusionResponse" message="tns:IAPIService_GamMatrixServerAPISetUserRgSelfExclusion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetUserRgCoolOff">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserRgCoolOff" message="tns:IAPIService_GamMatrixServerAPISetUserRgCoolOff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserRgCoolOffResponse" message="tns:IAPIService_GamMatrixServerAPISetUserRgCoolOff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetCoolOffSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetCoolOffSettings" message="tns:IAPIService_GamMatrixServerAPIGetCoolOffSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetCoolOffSettingsResponse" message="tns:IAPIService_GamMatrixServerAPIGetCoolOffSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetSelfExclusionSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetSelfExclusionSettings" message="tns:IAPIService_GamMatrixServerAPIGetSelfExclusionSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetSelfExclusionSettingsResponse" message="tns:IAPIService_GamMatrixServerAPIGetSelfExclusionSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserRgSelfExclusion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserRgSelfExclusion" message="tns:IAPIService_GamMatrixServerAPIGetUserRgSelfExclusion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserRgSelfExclusionResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserRgSelfExclusion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIChangeUserPassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIChangeUserPassword" message="tns:IAPIService_GamMatrixServerAPIChangeUserPassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIChangeUserPasswordResponse" message="tns:IAPIService_GamMatrixServerAPIChangeUserPassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetUserForgotPassInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserForgotPassInfo" message="tns:IAPIService_GamMatrixServerAPISetUserForgotPassInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserForgotPassInfoResponse" message="tns:IAPIService_GamMatrixServerAPISetUserForgotPassInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPICheckUserExists">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPICheckUserExists" message="tns:IAPIService_GamMatrixServerAPICheckUserExists_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPICheckUserExistsResponse" message="tns:IAPIService_GamMatrixServerAPICheckUserExists_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserTransactionHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserTransactionHistory" message="tns:IAPIService_GamMatrixServerAPIGetUserTransactionHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserTransactionHistoryResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserTransactionHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserTransactionList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserTransactionList" message="tns:IAPIService_GamMatrixServerAPIGetUserTransactionList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserTransactionListResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserTransactionList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserPendingWithdrawals">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserPendingWithdrawals" message="tns:IAPIService_GamMatrixServerAPIGetUserPendingWithdrawals_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserPendingWithdrawalsResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserPendingWithdrawals_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIForfeitUserCasinoBonus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIForfeitUserCasinoBonus" message="tns:IAPIService_GamMatrixServerAPIForfeitUserCasinoBonus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIForfeitUserCasinoBonusResponse" message="tns:IAPIService_GamMatrixServerAPIForfeitUserCasinoBonus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserBonusDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserBonusDetails" message="tns:IAPIService_GamMatrixServerAPIGetUserBonusDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserBonusDetailsResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserBonusDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIApplyUserBonus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIApplyUserBonus" message="tns:IAPIService_GamMatrixServerAPIApplyUserBonus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIApplyUserBonusResponse" message="tns:IAPIService_GamMatrixServerAPIApplyUserBonus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIProcessAsyncTrans">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIProcessAsyncTrans" message="tns:IAPIService_GamMatrixServerAPIProcessAsyncTrans_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIProcessAsyncTransResponse" message="tns:IAPIService_GamMatrixServerAPIProcessAsyncTrans_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIAssignUserRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIAssignUserRole" message="tns:IAPIService_GamMatrixServerAPIAssignUserRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIAssignUserRoleResponse" message="tns:IAPIService_GamMatrixServerAPIAssignUserRole_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIAssignUserRoleWithExpiration">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIAssignUserRoleWithExpiration" message="tns:IAPIService_GamMatrixServerAPIAssignUserRoleWithExpiration_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIAssignUserRoleWithExpirationResponse" message="tns:IAPIService_GamMatrixServerAPIAssignUserRoleWithExpiration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIRemoveUserRole">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIRemoveUserRole" message="tns:IAPIService_GamMatrixServerAPIRemoveUserRole_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIRemoveUserRoleResponse" message="tns:IAPIService_GamMatrixServerAPIRemoveUserRole_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUsersRoles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUsersRoles" message="tns:IAPIService_GamMatrixServerAPIGetUsersRoles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUsersRolesResponse" message="tns:IAPIService_GamMatrixServerAPIGetUsersRoles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserMetadata">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserMetadata" message="tns:IAPIService_GamMatrixServerAPIGetUserMetadata_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserMetadataResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserMetadata_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetUserMetadata">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserMetadata" message="tns:IAPIService_GamMatrixServerAPISetUserMetadata_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserMetadataResponse" message="tns:IAPIService_GamMatrixServerAPISetUserMetadata_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsValidCredentials">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsValidCredentials" message="tns:IAPIService_GamMatrixServerAPIIsValidCredentials_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsValidCredentialsResponse" message="tns:IAPIService_GamMatrixServerAPIIsValidCredentials_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGenerateUserHash">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGenerateUserHash" message="tns:IAPIService_GamMatrixServerAPIGenerateUserHash_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGenerateUserHashResponse" message="tns:IAPIService_GamMatrixServerAPIGenerateUserHash_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsUserHashValid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsUserHashValid" message="tns:IAPIService_GamMatrixServerAPIIsUserHashValid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIIsUserHashValidResponse" message="tns:IAPIService_GamMatrixServerAPIIsUserHashValid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIManualDeposit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIManualDeposit" message="tns:IAPIService_GamMatrixServerAPIManualDeposit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIManualDepositResponse" message="tns:IAPIService_GamMatrixServerAPIManualDeposit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIManualWithdraw">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIManualWithdraw" message="tns:IAPIService_GamMatrixServerAPIManualWithdraw_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIManualWithdrawResponse" message="tns:IAPIService_GamMatrixServerAPIManualWithdraw_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIAgentTransfer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIAgentTransfer" message="tns:IAPIService_GamMatrixServerAPIAgentTransfer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIAgentTransferResponse" message="tns:IAPIService_GamMatrixServerAPIAgentTransfer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIAgentImpersonateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIAgentImpersonateUser" message="tns:IAPIService_GamMatrixServerAPIAgentImpersonateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIAgentImpersonateUserResponse" message="tns:IAPIService_GamMatrixServerAPIAgentImpersonateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetAvailableRealityCheckValues">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetAvailableRealityCheckValues" message="tns:IAPIService_GamMatrixServerAPIGetAvailableRealityCheckValues_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetAvailableRealityCheckValuesResponse" message="tns:IAPIService_GamMatrixServerAPIGetAvailableRealityCheckValues_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserRealityCheck">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserRealityCheck" message="tns:IAPIService_GamMatrixServerAPIGetUserRealityCheck_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserRealityCheckResponse" message="tns:IAPIService_GamMatrixServerAPIGetUserRealityCheck_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetUserRealityCheck">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserRealityCheck" message="tns:IAPIService_GamMatrixServerAPISetUserRealityCheck_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserRealityCheckResponse" message="tns:IAPIService_GamMatrixServerAPISetUserRealityCheck_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetAccountBalanceForMultipleUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetAccountBalanceForMultipleUsers" message="tns:IAPIService_GamMatrixServerAPIGetAccountBalanceForMultipleUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/GamMatrixServerAPIGetAccountBalanceForMultipleUsersResponse" message="tns:IAPIService_GamMatrixServerAPIGetAccountBalanceForMultipleUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/Login" message="tns:IAPIService_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/LoginResponse" message="tns:IAPIService_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsLoggedIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/IsLoggedIn" message="tns:IAPIService_IsLoggedIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/IsLoggedInResponse" message="tns:IAPIService_IsLoggedIn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SingleRequest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/SingleRequest" message="tns:IAPIService_SingleRequest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/SingleRequestResponse" message="tns:IAPIService_SingleRequest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MultiRequest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/MultiRequest" message="tns:IAPIService_MultiRequest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/MultiRequestResponse" message="tns:IAPIService_MultiRequest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ParallelMultiRequest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAPIService/ParallelMultiRequest" message="tns:IAPIService_ParallelMultiRequest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAPIService/ParallelMultiRequestResponse" message="tns:IAPIService_ParallelMultiRequest_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IAPIService" type="tns:IAPIService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ping">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/Ping" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RestRequest">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/RestRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NetEntGetPlayerCurrency">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/NetEntGetPlayerCurrency" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NetEntGetBalance">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/NetEntGetBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NetEntWithdraw">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/NetEntWithdraw" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NetEntDeposit">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/NetEntDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NetEntWithdrawAndDeposit">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/NetEntWithdrawAndDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NetEntRollbackTransaction">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/NetEntRollbackTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViGAuthenticate">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/ViGAuthenticate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViGMakeDeposit">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/ViGMakeDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViGEndSession">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/ViGEndSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingPlayerGetBalance">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/XProGamingPlayerGetBalance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingPlayerGetBalances">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/XProGamingPlayerGetBalances" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingGiveTip">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/XProGamingGiveTip" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingDebit">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/XProGamingDebit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingCredit">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/XProGamingCredit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingCancelTransaction">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/XProGamingCancelTransaction" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XProGamingCancelRound">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/XProGamingCancelRound" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsUserNameAvailable">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIIsUserNameAvailable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsEmailAvailable">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIIsEmailAvailable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsAliasAvailable">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIIsAliasAvailable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIRegisterUser">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIRegisterUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPILoginUser">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPILoginUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPILogoutUser">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPILogoutUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsActiveUserSession">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIIsActiveUserSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserAccounts">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserAccounts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetDepositLimit">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPISetDepositLimit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIDeposit">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIWithdraw">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIWithdraw" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIRegisterPayCard">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIRegisterPayCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserPayCards">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserPayCards" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIUpdatePayCardStatus">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIUpdatePayCardStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserDetails">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIUpdateUserDetails">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIUpdateUserDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserRgDepositLimit">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserRgDepositLimit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetUserRgSelfExclusion">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserRgSelfExclusion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetUserRgCoolOff">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserRgCoolOff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetCoolOffSettings">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetCoolOffSettings" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetSelfExclusionSettings">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetSelfExclusionSettings" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserRgSelfExclusion">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserRgSelfExclusion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIChangeUserPassword">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIChangeUserPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetUserForgotPassInfo">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserForgotPassInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPICheckUserExists">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPICheckUserExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserTransactionHistory">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserTransactionHistory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserTransactionList">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserTransactionList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserPendingWithdrawals">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserPendingWithdrawals" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIForfeitUserCasinoBonus">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIForfeitUserCasinoBonus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserBonusDetails">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserBonusDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIApplyUserBonus">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIApplyUserBonus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIProcessAsyncTrans">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIProcessAsyncTrans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIAssignUserRole">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIAssignUserRole" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIAssignUserRoleWithExpiration">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIAssignUserRoleWithExpiration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIRemoveUserRole">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIRemoveUserRole" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUsersRoles">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUsersRoles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserMetadata">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserMetadata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetUserMetadata">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserMetadata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsValidCredentials">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIIsValidCredentials" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGenerateUserHash">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGenerateUserHash" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIIsUserHashValid">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIIsUserHashValid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIManualDeposit">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIManualDeposit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIManualWithdraw">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIManualWithdraw" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIAgentTransfer">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIAgentTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIAgentImpersonateUser">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIAgentImpersonateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetAvailableRealityCheckValues">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetAvailableRealityCheckValues" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetUserRealityCheck">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetUserRealityCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPISetUserRealityCheck">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPISetUserRealityCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GamMatrixServerAPIGetAccountBalanceForMultipleUsers">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/GamMatrixServerAPIGetAccountBalanceForMultipleUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsLoggedIn">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/IsLoggedIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SingleRequest">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/SingleRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MultiRequest">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/MultiRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ParallelMultiRequest">
+      <soap:operation soapAction="http://tempuri.org/IAPIService/ParallelMultiRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="VendorProxy">
+    <wsdl:port name="BasicHttpBinding_IAPIService" binding="tns:BasicHttpBinding_IAPIService">
+      <soap:address location="http://core2.gm.dev.everymatrix.com/VendorProxy.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

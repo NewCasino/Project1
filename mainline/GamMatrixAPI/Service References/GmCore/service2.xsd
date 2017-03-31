@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" />
+  <xs:complexType name="GreentubeArticlesGetResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorCode" type="xs:int" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" minOccurs="0" name="Message" nillable="true" type="q1:Message" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" minOccurs="0" name="Topic" nillable="true" type="q2:ArrayOfTopic" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GreentubeArticlesGetResponse" nillable="true" type="GreentubeArticlesGetResponse" />
+  <xs:complexType name="GreentubeGetGameListResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorCode" type="xs:int" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" minOccurs="0" name="GameList" nillable="true" type="q3:ArrayOfGameInfo" />
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" minOccurs="0" name="Message" nillable="true" type="q4:Message" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GreentubeGetGameListResponse" nillable="true" type="GreentubeGetGameListResponse" />
+  <xs:complexType name="GreentubeGetPresentasionUrlResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorCode" type="xs:int" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" minOccurs="0" name="Message" nillable="true" type="q5:Message" />
+      <xs:element minOccurs="0" name="Url" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GreentubeGetPresentasionUrlResponse" nillable="true" type="GreentubeGetPresentasionUrlResponse" />
+  <xs:complexType name="GreentubeGetPresentationParametersResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClientAuthToken" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ErrorCode" type="xs:int" />
+      <xs:element minOccurs="0" name="InterfaceUrl" nillable="true" type="xs:string" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/GmCore.Handlers.Request" minOccurs="0" name="Message" nillable="true" type="q6:Message" />
+      <xs:element minOccurs="0" name="PreloaderUrl" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GreentubeGetPresentationParametersResponse" nillable="true" type="GreentubeGetPresentationParametersResponse" />
+  <xs:element name="DataSet" nillable="true">
+    <xs:complexType>
+      <xs:annotation>
+        <xs:appinfo>
+          <ActualType Name="DataSet" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+        </xs:appinfo>
+      </xs:annotation>
+      <xs:sequence>
+        <xs:element ref="xs:schema" />
+        <xs:any />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

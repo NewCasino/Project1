@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmSharedTypes.XProGaming" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://core2.gm.dev.everymatrix.com/VendorProxy.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="XProGamingGetBalanceRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperatorId" type="xs:int" />
+      <xs:element minOccurs="0" name="Session" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingGetBalanceRequest" nillable="true" type="tns:XProGamingGetBalanceRequest" />
+  <xs:complexType name="XProGamingBalanceResponce">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="d" nillable="true" type="tns:XProGamingPlayerGetBalanceData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingBalanceResponce" nillable="true" type="tns:XProGamingBalanceResponce" />
+  <xs:complexType name="XProGamingPlayerGetBalanceData">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:XProGamingResponseData">
+        <xs:sequence>
+          <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Data" nillable="true" type="q1:ArrayOfdecimal" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="XProGamingPlayerGetBalanceData" nillable="true" type="tns:XProGamingPlayerGetBalanceData" />
+  <xs:complexType name="XProGamingResponseData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorCode" type="xs:int" />
+      <xs:element minOccurs="0" name="HasErrors" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingResponseData" nillable="true" type="tns:XProGamingResponseData" />
+  <xs:complexType name="XProGamingGetBalancesRequest">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Logins" nillable="true" type="q2:ArrayOfstring" />
+      <xs:element minOccurs="0" name="OperatorId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingGetBalancesRequest" nillable="true" type="tns:XProGamingGetBalancesRequest" />
+  <xs:complexType name="XProGamingBalancesResponce">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="d" nillable="true" type="tns:XProGamingPlayerGetBalancesData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingBalancesResponce" nillable="true" type="tns:XProGamingBalancesResponce" />
+  <xs:complexType name="XProGamingPlayerGetBalancesData">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:XProGamingResponseData">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Data" nillable="true" type="tns:ArrayOfXProGamingPlayerBalanceData" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="XProGamingPlayerGetBalancesData" nillable="true" type="tns:XProGamingPlayerGetBalancesData" />
+  <xs:complexType name="ArrayOfXProGamingPlayerBalanceData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="XProGamingPlayerBalanceData" nillable="true" type="tns:XProGamingPlayerBalanceData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfXProGamingPlayerBalanceData" nillable="true" type="tns:ArrayOfXProGamingPlayerBalanceData" />
+  <xs:complexType name="XProGamingPlayerBalanceData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Balance" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingPlayerBalanceData" nillable="true" type="tns:XProGamingPlayerBalanceData" />
+  <xs:complexType name="XProGamingGiveTipRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GameID" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MoneyAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OperatorId" type="xs:int" />
+      <xs:element minOccurs="0" name="RoundID" type="xs:int" />
+      <xs:element minOccurs="0" name="Session" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingGiveTipRequest" nillable="true" type="tns:XProGamingGiveTipRequest" />
+  <xs:complexType name="XProGamingResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="d" nillable="true" type="tns:XProGamingResponseData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingResponse" nillable="true" type="tns:XProGamingResponse" />
+  <xs:complexType name="XProGamingDebitRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="DebitDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameID" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperatorId" type="xs:int" />
+      <xs:element minOccurs="0" name="RoundID" type="xs:int" />
+      <xs:element minOccurs="0" name="Sequence" type="xs:int" />
+      <xs:element minOccurs="0" name="Session" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingDebitRequest" nillable="true" type="tns:XProGamingDebitRequest" />
+  <xs:complexType name="XProGamingCreditRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CreditDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameID" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperatorId" type="xs:int" />
+      <xs:element minOccurs="0" name="RoundID" type="xs:int" />
+      <xs:element minOccurs="0" name="Session" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingCreditRequest" nillable="true" type="tns:XProGamingCreditRequest" />
+  <xs:complexType name="XProGamingCancelTransactonRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GameID" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OperatorId" type="xs:int" />
+      <xs:element minOccurs="0" name="RoundID" type="xs:int" />
+      <xs:element minOccurs="0" name="Sequence" type="xs:int" />
+      <xs:element minOccurs="0" name="Session" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingCancelTransactonRequest" nillable="true" type="tns:XProGamingCancelTransactonRequest" />
+  <xs:complexType name="XProGamingCancelRoundRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GameID" type="xs:int" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Logins" nillable="true" type="q3:ArrayOfstring" />
+      <xs:element minOccurs="0" name="OperatorId" type="xs:int" />
+      <xs:element minOccurs="0" name="RoundID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="XProGamingCancelRoundRequest" nillable="true" type="tns:XProGamingCancelRoundRequest" />
+</xs:schema>

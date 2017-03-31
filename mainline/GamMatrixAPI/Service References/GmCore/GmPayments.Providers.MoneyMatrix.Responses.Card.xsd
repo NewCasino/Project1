@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix.Responses.Card" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix.Responses.Card" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix.Responses" />
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="MoneyMatrixUpdateCardStatusNotificationRequest">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/GmPayments.Providers.MoneyMatrix.Responses" base="q1:MoneyMatrixNotificationRequest">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BlockUnblockReason" type="tns:MoneyMatrixCardBlockUnBlockReasonEnum" />
+          <xs:element minOccurs="0" name="CardStatus" type="tns:MoneyMatrixCardStatusEnum" />
+          <xs:element minOccurs="0" name="CardToken" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReasonText" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="MoneyMatrixUpdateCardStatusNotificationRequest" nillable="true" type="tns:MoneyMatrixUpdateCardStatusNotificationRequest" />
+  <xs:simpleType name="MoneyMatrixCardBlockUnBlockReasonEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Unknown" />
+      <xs:enumeration value="SuspectFraud" />
+      <xs:enumeration value="ConfirmedFraud" />
+      <xs:enumeration value="Chargeback" />
+      <xs:enumeration value="SelfExcluded" />
+      <xs:enumeration value="BonusAbuse" />
+      <xs:enumeration value="UnderAge" />
+      <xs:enumeration value="OtherBlockReason" />
+      <xs:enumeration value="Error">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">101</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="AgeVerified">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">102</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="ElapsedExclusionPeriod">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">103</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="OtherUnblockReason">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">104</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="MoneyMatrixCardBlockUnBlockReasonEnum" nillable="true" type="tns:MoneyMatrixCardBlockUnBlockReasonEnum" />
+  <xs:simpleType name="MoneyMatrixCardStatusEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Unknown" />
+      <xs:enumeration value="Active" />
+      <xs:enumeration value="Blocked" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="MoneyMatrixCardStatusEnum" nillable="true" type="tns:MoneyMatrixCardStatusEnum" />
+</xs:schema>

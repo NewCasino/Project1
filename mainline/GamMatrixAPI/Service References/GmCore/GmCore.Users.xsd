@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GmCore.Users" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GmCore.Users" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="Gender">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Unknown" />
+      <xs:enumeration value="Male" />
+      <xs:enumeration value="Female" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Gender" nillable="true" type="tns:Gender" />
+  <xs:simpleType name="SelfExclusionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SelfExclusion" />
+      <xs:enumeration value="CoolOff" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SelfExclusionType" nillable="true" type="tns:SelfExclusionType" />
+  <xs:simpleType name="SelfExclusionPeriod">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SelfExclusionNone" />
+      <xs:enumeration value="SelfExclusionFor7Days" />
+      <xs:enumeration value="SelfExclusionFor30Days" />
+      <xs:enumeration value="SelfExclusionFor3Months" />
+      <xs:enumeration value="SelfExclusionFor6Months" />
+      <xs:enumeration value="SelfExclusionFor1Year" />
+      <xs:enumeration value="SelfExclusionPermanent" />
+      <xs:enumeration value="SelfExclusionUntilSelectedDate" />
+      <xs:enumeration value="SelfExclusionFor5Years" />
+      <xs:enumeration value="SelfExclusionFor7Years" />
+      <xs:enumeration value="CoolOffFor24Hours" />
+      <xs:enumeration value="CoolOffFor7Days" />
+      <xs:enumeration value="CoolOffFor30Days" />
+      <xs:enumeration value="CoolOffFor3Months" />
+      <xs:enumeration value="CoolOffUntilSelectedDate" />
+      <xs:enumeration value="CoolOffNone" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="SelfExclusionPeriod" nillable="true" type="tns:SelfExclusionPeriod" />
+</xs:schema>

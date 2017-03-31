@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E9C94232-C3F8-4E11-8EDB-FF189BAA431A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CM</RootNamespace>
+    <AssemblyName>CM</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CM.XML</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+    <NoWarn>1591</NoWarn>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Release\CM.XML</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CE_RELEASE|AnyCPU'">
+    <OutputPath>bin\CE_RELEASE\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\CM.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CMS_RELEASE|AnyCPU'">
+    <OutputPath>bin\CMS_RELEASE\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Enyim.Caching, Version=2.8.0.0, Culture=neutral, PublicKeyToken=cec98615db04012e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\GamMatrix.CMS\Bin\Enyim.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="EveryMatrix.SDK, Version=1.4.6190.12048, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EveryMatrix.SDK.1.4.6190.12048\lib\net45\EveryMatrix.SDK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EveryMatrix.SessionAgent, Version=1.0.0.11263, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\session-sdk\EveryMatrix.SessionAgent.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Authenticator, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GoogleAuthenticator.1.2.0\lib\net45\Google.Authenticator.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="jint, Version=2.10.2.0, Culture=neutral, PublicKeyToken=2e92ba9c8d81157f, processorArchitecture=MSIL">
+      <HintPath>..\packages\jint.2.10.2\lib\net45\jint.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\session-sdk\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BLToolkit\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Diagnostics.Contracts" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 2\Assemblies\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Yahoo.Yui.Compressor">
+      <HintPath>..\ThirdParty\Yahoo.Yui.Compressor.dll</HintPath>
+    </Reference>
+    <Reference Include="ZooKeeperNet, Version=3.4.6.0, Culture=neutral, PublicKeyToken=fefd2c046da35b56, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\session-sdk\ZooKeeperNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Content\HtmlSnippet.cs" />
+    <Compile Include="Content\HtmlSnippetExtension.cs" />
+    <Compile Include="Content\JavascriptEngine.cs" />
+    <Compile Include="Content\MetadataNode.cs" />
+    <Compile Include="db\Accessor\ExternalLoginAccessor.cs" />
+    <Compile Include="db\Accessor\LiveCasinoFavoriteTableAccessor.cs" />
+    <Compile Include="db\Accessor\LogAccessor.cs" />
+    <Compile Include="db\Accessor\SecondFactorBackupCodeAccessor.cs" />
+    <Compile Include="db\Accessor\SessionAccessor.cs" />
+    <Compile Include="db\Accessor\UserPasswordHistoryAccessor.cs" />
+    <Compile Include="db\Accessor\UserPromotionAccessor.cs" />
+    <Compile Include="db\cmDomain.cs" />
+    <Compile Include="db\cmExternalLogin.cs" />
+    <Compile Include="db\cmLiveCasinoFavoriteTable.cs" />
+    <Compile Include="db\cmLog.cs" />
+    <Compile Include="db\cmSecondFactorBackupCode.cs" />
+    <Compile Include="db\cmSession.cs" />
+    <Compile Include="db\cmUserPasswordHistory.cs" />
+    <Compile Include="db\cmUserPromotion.cs" />
+    <Compile Include="db\MinuteStatistics.cs" />
+    <Compile Include="db\SqlQueryEx.cs" />
+    <Compile Include="Misc\CodeProfiler.cs" />
+    <Compile Include="Content\ContentHelper.cs" />
+    <Compile Include="Content\ContentNode.cs" />
+    <Compile Include="Content\ContentTree.cs" />
+    <Compile Include="Content\Metadata.cs" />
+    <Compile Include="Content\MetadataExtension.cs" />
+    <Compile Include="Content\MultilingualMgr.cs" />
+    <Compile Include="Content\PropertyFileHelper.cs" />
+    <Compile Include="Content\Revisions.cs" />
+    <Compile Include="db\Accessor\CasinoFavoriteGameAccessor.cs" />
+    <Compile Include="db\Accessor\TransParameterAccessor.cs" />
+    <Compile Include="db\Accessor\UserKeyAccessor.cs" />
+    <Compile Include="db\Accessor\RevisionAccessor.cs" />
+    <Compile Include="db\Accessor\HostAccessor.cs" />
+    <Compile Include="db\Accessor\SiteAccessor.cs" />
+    <None Include="app.config" />
+    <Compile Include="db\Accessor\UserAccessor.cs" />
+    <Compile Include="db\cmCasinoFavoriteGame.cs" />
+    <Compile Include="db\cmSite.cs" />
+    <Compile Include="db\cmHost.cs" />
+    <Compile Include="db\cmUser.cs" />
+    <Compile Include="db\cmRevision.cs" />
+    <Compile Include="Content\MetadataExpressionBuilder.cs" />
+    <Compile Include="db\cmSessionValue.cs" />
+    <Compile Include="db\cmUserKey.cs" />
+    <Compile Include="db\cmRegion.cs" />
+    <Compile Include="db\cmTransParameter.cs" />
+    <Compile Include="Misc\ExceptionHandler.cs" />
+    <Compile Include="Misc\GmExceptionBase.cs" />
+    <Compile Include="Misc\Logger.cs" />
+    <Compile Include="Misc\LoginMode.cs" />
+    <Compile Include="Misc\LogstashAppender.cs" />
+    <Compile Include="Misc\PasswordHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sites\AsyncControllerEx.cs" />
+    <Compile Include="Sites\SiteHostMapping.cs" />
+    <Compile Include="Sites\DynamicActionControllerFactory.cs" />
+    <Compile Include="Sites\DynamicActionInvoker.cs" />
+    <Compile Include="Sites\GEOLocationCDN.cs" />
+    <Compile Include="Sites\DDOSRedirector.cs" />
+    <Compile Include="Sites\SiteAccessRule.cs" />
+    <Compile Include="Sites\SiteCDNAccessRule.cs" />
+    <Compile Include="Sites\SiteManager.cs" />
+    <Compile Include="Sites\SiteRestrictDomainRule.cs" />
+    <Compile Include="Sites\SiteRouteInfo.cs" />
+    <Compile Include="Sites\MvcHttpHandlerEx.cs" />
+    <Compile Include="Sites\MvcHttpModule.cs" />
+    <Compile Include="Sites\SiteControllerFactory.cs" />
+    <Compile Include="Sites\UrlRuleExtension.cs" />
+    <Compile Include="State\FastDirectoryEnumerator.cs" />
+    <Compile Include="TwoFactorAuth\GoogleAuthenticator.cs" />
+    <Compile Include="State\IPLocation.cs" />
+    <Compile Include="TwoFactorAuth\SecondFactorAuthenticator.cs" />
+    <Compile Include="TwoFactorAuth\SecondFactorAuthSetupCode.cs" />
+    <Compile Include="TwoFactorAuth\SecondFactorAuthType.cs" />
+    <Compile Include="Web.UI\BalloonTooltip.cs" />
+    <Compile Include="Web.UI\Block.cs" />
+    <Compile Include="Web.UI\ControlExtension.cs" />
+    <Compile Include="Web.UI\FormExtensions.cs" />
+    <Compile Include="Web.UI\HtmlHelperExtensions.cs" />
+    <Compile Include="Web.UI\LinkButton.cs" />
+    <Compile Include="Web.UI\Fieldset.cs" />
+    <Compile Include="Web.UI\Header.cs" />
+    <Compile Include="Web.UI\MinifiedJavascriptControl.cs" />
+    <Compile Include="Web.UI\NavigationMenu.cs" />
+    <Compile Include="Web.UI\Message.cs" />
+    <Compile Include="Web.UI\Panel.cs" />
+    <Compile Include="Web.UI\SelectableTable.cs" />
+    <Compile Include="Web.UI\TabbedContent.cs" />
+    <Compile Include="Web\CustomAntiForgery\CustomAntiForgery.cs" />
+    <Compile Include="Web\CustomAntiForgery\CustomAntiForgeryData.cs" />
+    <Compile Include="Web\CustomAntiForgery\CustomAntiForgeryDataSerializer.cs" />
+    <Compile Include="Web\CustomAntiForgery\CustomAntiForgeryDataSerializer_.cs" />
+    <Compile Include="Web\CustomAntiForgery\CustomAntiForgeryConfig.cs" />
+    <Compile Include="Web\CompressFilter.cs" />
+    <Compile Include="Web\CustomAntiForgery\CustomAntiForgeryResourcesProxy.cs" />
+    <Compile Include="Web\CustomAntiForgery\CustomAntiForgeryWorker.cs" />
+    <Compile Include="Web\CustomAntiForgery\CustomHttpAntiForgeryException.cs" />
+    <Compile Include="Web\HttpContextExtension.cs" />
+    <Compile Include="Web\MasterPageViewDataAttribute.cs" />
+    <Compile Include="Web\ProtocolAttribute.cs" />
+    <Compile Include="Web\IViewPageBase.cs" />
+    <Compile Include="Web\RequireLoginAttribute.cs" />
+    <Compile Include="Web\CustomValidateAntiForgeryTokenAttribute.cs" />
+    <Compile Include="Web\ViewPageControlBuilderEx.cs" />
+    <Compile Include="Web\ViewTypeParserFilterEx.cs" />
+    <Compile Include="Web\ViewUserControlControlBuilderEx.cs" />
+    <Compile Include="Web\VirtualFileEx.cs" />
+    <Compile Include="Sites\WebFormViewEngineEx.cs" />
+    <Compile Include="State\CustomProfile.cs" />
+    <Compile Include="State\ProfileExtension.cs" />
+    <Compile Include="Web.UI\Button.cs" />
+    <Compile Include="Web.UI\ExternalJavascriptControl.cs" />
+    <Compile Include="Web.UI\InputField.cs" />
+    <Compile Include="Sites\ControllerEx.cs" />
+    <Compile Include="Web\ControllerExtraInfoAttribute.cs" />
+    <Compile Include="Web.UI\ClientValidators.cs" />
+    <Compile Include="Web\ThemeDirectory.cs" />
+    <Compile Include="Web\ViewMasterPageEx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ViewPageEx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ViewUserControlEx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\VirtualPathProviderEx.cs" />
+    <Compile Include="Sites\WebFormViewEx.cs" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLToolkit\BLToolkit.4.csproj">
+      <Project>{0c325f5d-e50e-4340-8724-d29896ccc583}</Project>
+      <Name>BLToolkit.4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GamMatrix.Infrastructure\GamMatrix.Infrastructure.csproj">
+      <Project>{0D9F45CE-13C4-451D-891C-CA1970280578}</Project>
+      <Name>GamMatrix.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GamMatrixAPI\GamMatrixAPI.csproj">
+      <Project>{8eca7e32-7cc8-4768-8043-9d2e6ab9fac7}</Project>
+      <Name>GamMatrixAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BLToolkit.4.dll" />
+    <Content Include="mysql.data.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Content\PageNode.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)..\EditAssemblyVersion.exe" "$(ProjectDir)..\GamMatrix.Infrastructure\Properties\AssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
